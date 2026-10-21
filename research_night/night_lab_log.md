@@ -982,3 +982,11 @@ and the short leg's payoff rises with the VIX level. Going flat below 15 would
 raise the numbers, but that is a second threshold chosen after seeing both
 periods; noted as an observation, not adopted. The structure - two states,
 one threshold - stays.
+
+## 17:35 UTC - the staggered flip's recent record (2025-26, unit gross)
+
+2025: +1.0% (short momentum March-May around the April VIX spike; -2.4% in
+March, +1.2% in May); 2026 to date: -4.1% (short in March-April: -0.9%, -0.9%;
+long momentum since May: -4.2% in July, +3.7% in September). Two flat-to-poor
+years; the strategy has not paid since 2020-21 and anyone adopting it should
+expect long stretches like this between crises.
