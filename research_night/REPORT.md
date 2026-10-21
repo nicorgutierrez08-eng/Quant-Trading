@@ -169,6 +169,24 @@ better in both periods (1.01 / 0.81). Leave it as it is. Note the unlevered
 book has ~1% volatility and kurtosis ~46; it needs ~10x leverage to matter,
 which is where the fat tails bite.
 
+### Live pipeline: the two regime models head to head
+
+Arjun's actual backtest (`python -m qtrade backtest`), run twice with the
+fast models (ridge, regime_ridge, ic_weighted), once with the current 3-state
+rolling HMM and once with the 2-state VIX + term-spread HMM
+(`config/regime_macro.yaml`):
+
+| | current 3-state | 2-state macro |
+|---|---|---|
+| regime_ridge mean IC | 0.009 | **0.012** |
+| ensemble Sharpe 2004-14 / 2015-20 / 2021-26 | 0.34 / -0.60 / -0.71 | 0.49 / -0.66 / -0.68 |
+| frictionless ensemble Sharpe | 0.86 | 0.93 |
+
+The better regime model improves the forecasts (regime-conditional IC up a
+third) but cannot save the daily book: at 16x annual turnover and measured
+spreads it loses money after 2015 under either HMM. Same conclusion as the
+labs - replace the daily book, don't re-tune it.
+
 ## What to change in Arjun's system (concrete)
 
 1. **Replace the daily 5-day reversal stock book with the monthly switch.**
