@@ -588,3 +588,17 @@ Threshold sensitivity (16-25) being checked.
 A plateau from 18 to 22 (0.53-0.69 in 2015-26, 0.79-0.95 in 2015-20); the
 rule is not knife-edge, but 16 and 25 are clearly worse. 20 is the long-run
 median of the VIX; "stressed = VIX above its typical level" is the regime.
+
+## 12:10 UTC - the VIX > 20 switch, beta-hedged
+
+| | 2006-14 | 2015-20 | 2021-26 |
+|---|---|---|---|
+| all names, as traded | 0.24 | 0.95 | 0.33 |
+| all names, beta-hedged (trailing 252-day beta) | **0.16** | **0.63** | **0.25** |
+| top 300, as traded | 0.13 | 0.92 | 0.18 |
+| top 300, beta-hedged | 0.04 | 0.61 | 0.10 |
+
+The only configuration of the night that stays positive in all three
+sub-periods after hedging its rebound beta: a small (0.2-0.6 Sharpe,
+1-5% a year at unit gross) crisis-rebound alpha. Running the full
+robustness / bootstrap battery on it.

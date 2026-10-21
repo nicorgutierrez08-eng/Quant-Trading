@@ -153,8 +153,13 @@ predicted IC is traded the other way (short momentum in stress).
 |---|---|---|---|---|
 | monthly reversal alone | -0.04 | 0.16 | 0.01 | 0.09 |
 | 50/50 reversal / momentum | -0.40 | -0.12 | -0.11 | -0.12 |
-| **switch, VIX + term HMM** | **0.27** | **0.77** | -0.09 | **0.42** |
+| switch, VIX + term HMM (best of 88 HMMs) | 0.27 | 0.77 | -0.09 | 0.42 |
+| **switch, "VIX > 20"** | 0.24 | **0.95** | **0.33** | **0.69** |
+| switch, VIX above its long-run median | -0.26 | 0.91 | 0.43 | 0.70 |
 | switch, vol terciles | -0.20 | 0.82 | 0.26 | 0.59 |
+
+The VIX > 20 rule is robust between 18 and 22 (0.53-0.69 for 2015-26) and
+clearly worse at 16 or 25.
 
 - Break-even cost 32-44 bp (plain reversal: 11 bp); turnover 0.04 a day;
   correlation with the market -0.08.
