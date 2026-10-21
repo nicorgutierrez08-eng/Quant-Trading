@@ -713,3 +713,11 @@ Arjun's own full run both say the same thing about the daily book.
   and high-beta exposure of the losers; the equal-weight-universe hedge does,
   and that version (0.5-0.8 Sharpe, ~6% a year, -12% drawdown) is the honest
   one. Not a $10k-account strategy in its SPY-hedged form.
+
+## 14:40 UTC - timing inside the crisis does not help
+
+Splitting "VIX > 20" into "VIX still near its 63-day high" and "VIX falling
+from it": the hedged long-losers line is 0.12 / 0.65 / 0.12 near the peak and
+0.46 / 0.51 / 0.52 once the VIX is falling; the signed switch 0.03 and 0.35
+(2015-26) respectively vs 0.68 for the whole stressed period. Both halves
+contribute and neither can be dropped; the plain rule stays.
