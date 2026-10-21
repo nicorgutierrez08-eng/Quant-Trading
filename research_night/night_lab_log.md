@@ -1036,3 +1036,20 @@ distinguishable from zero. That is the final, honest shape of the result.
 code runs here; re-run the flip and the book on a point-in-time universe
 (needs Alpaca keys); decide whether a crisis-rebound sleeve with two flat
 years behind it belongs in a $10k account.
+
+## 18:05 UTC - what the flip's book is tilted towards (z-score exposures)
+
+| characteristic | calm leg (long momentum) 06-14 / 15-26 | stressed leg (short momentum) 06-14 / 15-26 |
+|---|---|---|
+| small-cap tilt | -0.03 / -0.07 | +0.05 / +0.06 |
+| low-beta tilt | +0.02 / +0.14 | **-0.28 / -0.26** |
+| low-vol tilt | +0.10 / +0.26 | **-0.32 / -0.23** |
+| illiquidity tilt | -0.05 / -0.14 | +0.15 / +0.11 |
+| recent-loser tilt (21d) | -0.10 / -0.11 | +0.05 / +0.02 |
+
+The stressed leg is essentially size-neutral - not a small-cap bet - but is
+long high-beta, high-volatility and somewhat illiquid names (a quarter to a
+third of a standard deviation). That is the rebound beta measured earlier, and
+it is where a survivor universe flatters results most: high-volatility names
+that fell hard and *survived* to be in today's top 1,000. The point-in-time
+re-run is the one test this result still needs.
