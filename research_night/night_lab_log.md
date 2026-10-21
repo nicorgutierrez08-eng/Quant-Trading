@@ -538,3 +538,22 @@ regime-conditional forecast a little and the live book not at all. The daily
 stock book is -0.7 Sharpe after costs in both halves of 2015-26 under either
 regime model. (The six-model runs including GBM did not finish in 2 hours;
 Arjun's own full run shows the same second-half sign with GBM included.)
+
+## 11:40 UTC - the simplest regime rule beats the HMM
+
+| signed switch, all names, monthly | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| **VIX > 20** | 0.24 | **0.95** | **0.33** | **0.69** |
+| VIX > 25 | 0.42 | 0.44 | -0.22 | 0.18 |
+| 2-state VIX + term HMM (88-variant pick) | 0.27 | 0.77 | -0.09 | 0.42 |
+| vol terciles | -0.20 | 0.82 | 0.26 | 0.59 |
+
+"VIX above 20" agrees with the HMM's stressed state on 84% of days and does
+better in both halves of the check period while matching it in 2006-14. It
+is not fitted, so there is nothing to overfit, but 20 is a number chosen by
+hand and 25 is much worse: the rule is sensitive to the threshold. 20 is close
+to the VIX's long-run median (~19), so the parameter-free "VIX above its
+expanding median" is the right version to test (running).
+Lesson of the night in one line: 88 HMM variants, Student-t emissions, sticky
+transitions, Poisson symptoms and macro inputs added nothing over asking
+whether the VIX is above its typical level.
