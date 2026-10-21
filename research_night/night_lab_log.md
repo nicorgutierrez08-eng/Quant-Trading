@@ -617,3 +617,15 @@ robustness / bootstrap battery on it.
   +6%, 2024 +6%, 2022 +5%; worst 2026 to date -5.6%.
 - Still: beta-hedged it is 0.16 / 0.63 / 0.25 (see 12:10), and the threshold
   is a hand-chosen round number that happens to sit at the VIX's median.
+
+## 12:45 UTC - the book with the VIX > 20 switch (25% cap per strategy)
+
+| inverse-vol, 10% vol target | 2006-14 | 2015-26 | return/yr 15-26 | worst DD 15-26 |
+|---|---|---|---|---|
+| 8 ETF sleeves | 1.01 | 0.91 | 9.6% | -17% |
+| + pairs | 1.05 | 0.96 | 9.7% | -17% |
+| + VIX > 20 switch | 0.97 | 1.05 | 11.0% | -17% |
+| + pairs + VIX > 20 switch | 1.03 | **1.11** | 10.6% | -15% |
+| + stock book + pairs + VIX > 20 switch | 1.04 | 1.10 | 10.2% | **-13%** |
+
+Same shape as with the HMM switch, slightly better in the check period.
