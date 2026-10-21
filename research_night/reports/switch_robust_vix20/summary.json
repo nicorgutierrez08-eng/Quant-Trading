@@ -1,0 +1,44 @@
+{
+  "headline": {
+    "universe": "all",
+    "books": "composites",
+    "rebalance_days": 21,
+    "regime": "vix_gt20"
+  },
+  "subperiods": {
+    "2004_14": {
+      "switch": 0.2651863143567046,
+      "plain_reversal": -0.09080755661680025,
+      "corr_market": 0.06431836463223527,
+      "corr_plain_reversal": 0.6652988262277705
+    },
+    "2015_20": {
+      "switch": 0.9469169831526457,
+      "plain_reversal": 0.15723945713938614,
+      "corr_market": -0.10149000660198393,
+      "corr_plain_reversal": 0.6181143133204601
+    },
+    "2021_26": {
+      "switch": 0.33150562245497645,
+      "plain_reversal": 0.005534452972153969,
+      "corr_market": -0.03561436232337784,
+      "corr_plain_reversal": 0.25208094676875376
+    }
+  },
+  "bootstrap_2015_26": {
+    "sharpe_p5": 0.26712409154993155,
+    "sharpe_p50": 0.6719847733388222,
+    "sharpe_p95": 1.0611712119117067,
+    "p_sharpe_below_0": 0.0025,
+    "diff_p5": 0.1319095634668214,
+    "diff_p50": 0.5791432526045555,
+    "diff_p95": 1.0580756491246457,
+    "p_diff_below_0": 0.0165
+  },
+  "bootstrap_2004_14": {
+    "sharpe_p5": -0.27512019049933717,
+    "sharpe_p50": 0.27015957896623144,
+    "sharpe_p95": 0.7874706374425959,
+    "p_sharpe_below_0": 0.203
+  }
+}

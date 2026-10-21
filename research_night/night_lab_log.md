@@ -602,3 +602,18 @@ The only configuration of the night that stays positive in all three
 sub-periods after hedging its rebound beta: a small (0.2-0.6 Sharpe,
 1-5% a year at unit gross) crisis-rebound alpha. Running the full
 robustness / bootstrap battery on it.
+
+## 12:30 UTC - robustness battery for the VIX > 20 switch
+
+- **All 18 design variants positive in both periods**: 2006-14 0.10-0.48,
+  2015-26 0.04-0.71 (vs the HMM switch, which had several negative cells).
+  21-day rebalance is best (0.57-0.71 in 2015-26); 10-day is cost-heavy.
+- Headline (composites, 21 days, all names): 0.27 / 0.95 / 0.33 by
+  sub-period; correlation with the market 0.06 / -0.10 / -0.04.
+- **Bootstrap, 2015-26** (21-day blocks, 2,000 draws): Sharpe 90% interval
+  [0.27, 1.06], P(Sharpe < 0) = 0.3%; gain over plain monthly reversal median
+  +0.58, P(no gain) = 1.7%. 2004-14: [-0.28, 0.79], P(< 0) = 20%.
+- Good years (as traded, unit gross): 2020 +22%, 2019 +10%, 2015 +9%, 2008
+  +6%, 2024 +6%, 2022 +5%; worst 2026 to date -5.6%.
+- Still: beta-hedged it is 0.16 / 0.63 / 0.25 (see 12:10), and the threshold
+  is a hand-chosen round number that happens to sit at the VIX's median.
