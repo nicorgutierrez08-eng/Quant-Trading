@@ -407,7 +407,9 @@ replace the daily book, don't re-tune it.
    the top and short the bottom (all names weighted by z, or the top and
    bottom decile for a small account), dollar-neutral, unit gross; if the VIX
    closed above 20 the day before, hold the same book with the signs
-   reversed. Hold until the next cycle; fill at the next open. Costs assumed:
+   reversed. Hold until the next cycle; fill at the next open. Run several
+   cohorts on different start days (ideally one each day, 1/21 of capital
+   each) so the result does not depend on the calendar. Costs assumed:
    measured half-spreads by liquidity tier plus 1 bp.
 4. **Fix `poisson._poisson_glm`**: drop features constant in training (or
    floor the standard deviation); rank-standardise stock features per day;
@@ -423,19 +425,28 @@ replace the daily book, don't re-tune it.
 
 - Survivor universe (today's 1,000 most traded, 15+ years of history): every
   stock-level result is flattered, momentum results are distorted (2008
-  crashers that rebounded), and the switch should be re-run on a point-in-time
-  universe before real money. The code for that exists (`survivorship` study)
-  but needs Alpaca keys, which this session did not have.
-- One out-of-sample period, and the last five years of it were flat for the
-  switch. 2,000-draw bootstrap puts the lower 5% bound at zero.
-- Many things were tried tonight (88 HMM variants, 3 regime proxies, 18
-  switch configurations). The headline picks were made on 2006-14 where
-  possible, but the design space itself was explored with both periods
-  visible.
+  crashers that rebounded), and the flip's stressed leg is long exactly the
+  high-volatility names a survivor universe over-represents. It should be
+  re-run on a point-in-time universe before real money. The code for that
+  exists (`survivorship` study) but needs Alpaca keys, which this session did
+  not have. The flip still works in the hundred most traded names (0.4-0.5
+  Sharpe), where that bias is smallest.
+- One out-of-sample period, and its last five years are not distinguishable
+  from zero (bootstrap 90% interval [-0.38, 0.88] for 2021-26; 2025 +1%, 2026
+  to date -4%). The flip has not paid since 2020-21.
+- Many things were tried tonight (88 HMM variants, several regime proxies,
+  18 switch configurations, and the flip itself was reached by decomposing
+  the switch with both periods visible). Where a choice was made, it was made
+  on 2006-14, and the flip has no fitted parameter, but the design space was
+  explored with the check period in view, so the 2015-26 numbers are not as
+  clean as a true pre-registered test. The single-start-day figures quoted
+  in early drafts were the luckiest of 21 calendars; the staggered numbers
+  are the honest ones.
 - The encrypted intraday and news datasets were not available here, so
   nothing intraday or news-based was re-examined.
-- The live-pipeline comparison could not include GBM (the two six-model runs
-  did not finish in two hours); it was run with the four other models.
+- The six-model live-pipeline runs with GBM only finished in a lightened form
+  (yearly refits, 100k rows per fit); their verdict matched the four-model
+  runs.
 
 ## Where everything is
 
