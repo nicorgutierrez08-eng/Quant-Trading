@@ -148,6 +148,12 @@ predicted IC is traded the other way (short momentum in stress).
   Reversal in stress is second (0.49 / 0.48 / -0.21); momentum in calm third
   (0.37 / 0.74 / -0.14). Reversal in calm markets *loses* after costs in every
   period, so the "invariant" reversal edge is really a stressed-market effect.
+- A warning about long-only versions: "buy the losers in stress" looks like a
+  1.0-Sharpe, 20%-a-year line in 2015-26, but owning the *whole* market in the
+  same stressed months gives 1.06 and 15.7% - the regime is flagged after the
+  fall, so it caught the rebounds of 2016, 2019, 2020 and 2023 (and would have
+  sat through 2008: 0.50 in 2006-14). The losers' alpha over the market is a
+  modest 0.80 / 0.83 / 0.15 Sharpe by sub-period. Hedge it or don't count it.
 
 ### Multi-strategy book
 
