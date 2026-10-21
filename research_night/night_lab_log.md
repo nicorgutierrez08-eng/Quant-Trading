@@ -674,3 +674,22 @@ the 2-hour limit without output. Last attempt: yearly refits and 100k training
 rows per GBM fit, both arms alike (`config/light_gbm*.yaml`). If this does not
 finish either, the GBM comparison stays open; the four-model comparison and
 Arjun's own full run both say the same thing about the daily book.
+
+## 14:20 UTC - three more checks with the VIX > 20 regime
+
+1. **Arjun's daily stock book is not a stress strategy.** Its net returns
+   (backtest/daily.csv): traded only when VIX > 20: 0.28 / -0.41 / 0.30 by
+   sub-period; only when VIX <= 20: 0.36 / 0.43 / 0.08; as is 0.44 / 0.06 /
+   0.27. Unlike the monthly signals, the daily factor-neutral book does *worse*
+   in stress (its costs and impact rise with volatility). The regime lever
+   does not rescue it; it should be stopped, not re-timed.
+2. **A long-only version for a small account**: in months with VIX > 20, buy the
+   momentum losers (equal-weighted composite), hedge with the market; hold
+   nothing otherwise. Hedged 1:1 against the equal-weight universe: Sharpe
+   0.52 / 0.83 / 0.59 (2015-26 0.71), 6.1% a year at unit gross, worst drawdown
+   -12%. Unhedged it is 0.97 / 17.8% / -22% but that is mostly the market
+   rebounding (long market in stress alone: 0.93 / 11.7%). SPY-hedged versions
+   and a concentrated top-decile version follow.
+3. **Switch at a 10% vol target**: 2015-26 Sharpe 0.77, 8.6% a year, worst
+   drawdown -14%, worst month -5.6%; but 2004-14 drawdown -26%. At unit gross:
+   4.5% a year, 6.6% vol, -9% drawdown.
