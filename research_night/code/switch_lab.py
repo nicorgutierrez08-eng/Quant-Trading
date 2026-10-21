@@ -110,6 +110,13 @@ def run(md, ctx, X, names, probs: dict[str, pd.DataFrame], out: Path) -> pd.Data
                 books[tag] = w_rev.mul(s["rev"].fillna(0.5), axis=0) + w_mom.mul(s["mom"].fillna(0.5), axis=0)
                 daily[f"{uni_name}|share_rev|{tag}"] = s["rev"]
                 daily[f"{uni_name}|share_mom|{tag}"] = s["mom"]
+            # where does the money come from? one leg at a time, by the most likely regime at the rebalance
+            Pm = P.reindex(dates)
+            stressed = (Pm.iloc[:, -1] > 0.5).astype(float).where(pd.Series(rebalance, index=dates), np.nan).ffill()
+            books[f"stress-only reversal: {pname}"] = w_rev.mul(stressed.fillna(0), axis=0)
+            books[f"stress-only short momentum: {pname}"] = -w_mom.mul(stressed.fillna(0), axis=0)
+            books[f"calm-only momentum: {pname}"] = w_mom.mul((1 - stressed).fillna(0), axis=0)
+            books[f"calm-only reversal: {pname}"] = w_rev.mul((1 - stressed).fillna(0), axis=0)
         for bname, w in books.items():
             st = summarize(portfolio_stats(w, r1, cost))
             rows.append({"universe": uni_name, "book": bname, **st})

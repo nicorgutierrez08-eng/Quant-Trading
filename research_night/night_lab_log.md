@@ -383,3 +383,24 @@ negative after costs in 2015-2026 under either HMM (turnover 16x a year at
 measured spreads). Consistent with everything else tonight: the problem with
 the stock book is turnover, not the regime model. Full six-model comparison
 running.
+
+## 09:05 UTC - where the switch's money comes from (one leg at a time, VIX + term HMM, monthly)
+
+| leg (all names, net, unit gross) | 2006-14 | 2015-20 | 2021-26 | 2015-26 | return/yr 2015-26 |
+|---|---|---|---|---|---|
+| stress-only **short momentum** (buy losers, sell winners) | **0.81** | **0.75** | 0.03 | 0.46 | 3.0% |
+| stress-only reversal | 0.49 | 0.48 | -0.21 | 0.22 | 1.3% |
+| calm-only momentum | 0.37 | 0.74 | -0.14 | 0.30 | 1.4% |
+| calm-only reversal | -0.64 | -0.62 | 0.17 | -0.20 | -0.8% |
+| the signed switch (all four, IC-weighted) | 0.27 | 0.77 | -0.09 | 0.42 | 2.5% |
+
+- The strongest and most stable leg is **shorting momentum in stressed
+  markets** - the Daniel-Moskowitz momentum crash / loser rebound - positive in
+  2006-14 and 2015-20, flat in 2021-26. Reversal in calm markets loses money
+  after costs in every period: the "invariant" 5-day reversal is a stressed-
+  market effect once costs are charged.
+- With vol terciles instead of the HMM, every stressed leg is weaker in
+  2006-14 (short momentum 0.48, reversal 0.08) but holds up in 2021-26
+  (0.40, 0.12): the HMM's regimes are better early, the terciles' later.
+- Returns are small in absolute terms at unit gross (2.5-3% a year); at a 10%
+  volatility target this is a 4-6% a year market-neutral book.
