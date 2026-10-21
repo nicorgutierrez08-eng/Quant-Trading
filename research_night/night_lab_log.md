@@ -721,3 +721,26 @@ from it": the hedged long-losers line is 0.12 / 0.65 / 0.12 near the peak and
 0.46 / 0.51 / 0.52 once the VIX is falling; the signed switch 0.03 and 0.35
 (2015-26) respectively vs 0.68 for the whole stressed period. Both halves
 contribute and neither can be dropped; the plain rule stays.
+
+## 15:20 UTC - the recommended book, end to end
+
+Three components, inverse-vol weights capped at 25% (with three sleeves the
+cap pushes them towards equal risk weights), scaled to 10% volatility:
+Arjun's 8-sleeve ETF book, his pairs book sized x2 when VIX > 20, and the
+VIX > 20 reversal/momentum switch. Pairwise correlations 2015-26: -0.04 to 0.06.
+
+| book | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr 15-26 | maxDD 15-26 | worst month |
+|---|---|---|---|---|---|---|---|
+| ETF sleeves alone | 0.87 | 0.85 | 0.96 | 0.90 | 9.5% | -15.0% | -8.2% |
+| + pairs | 0.92 | 0.90 | 1.03 | 0.96 | 10.1% | -15.1% | -8.0% |
+| + pairs x2 in stress | 1.01 | 0.91 | 1.07 | 0.99 | 10.4% | -16.1% | -7.8% |
+| **+ pairs x2 in stress + switch** | **1.02** | **1.28** | **1.15** | **1.22** | **12.4%** | **-12.6%** | -7.3% |
+
+Yearly returns of the full book: worst years 2018 -3.3%, 2022 -2.6%, 2016
+-2.0%; best 2019 +27%, 2020 +27%, 2017 +24%; 2025 +19%, 2026 to date +9.5%
+(monthly 2025-26: 17 up months of 22, worst -3.7%). (ETF sleeve numbers
+differ slightly from book_lab's because this uses Arjun's blended ETF series
+from multi_daily.csv as one component rather than the eight sleeves
+separately.) The switch's own beta in rebounds is inside these numbers; the
+ETF book already carries equity beta, so the blend is not market-neutral and
+does not claim to be.
