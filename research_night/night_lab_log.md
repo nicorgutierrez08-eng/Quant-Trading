@@ -849,3 +849,21 @@ all names); when the VIX is above 20 at the rebalance, hold it short.
   above 20 the crowded momentum book unwinds and the losers rebound (the
   momentum crash). A fund would call this "momentum with a crash hedge"; the
   VIX threshold is the whole model.
+
+## 16:15 UTC - momentum flip module, and the book with the flip
+
+`qtrade/research/momentum_flip.py` reproduces the robustness table. The
+line that matters most: **plain momentum, never flipped: -0.47 / -0.28 /
+-0.16** - in this survivor universe a long/short momentum book loses money
+in every sub-period, and the VIX flip is the entire difference between that
+and 0.61 / 1.06 / 0.37. 10-day rebalancing (0.44 / 0.43 / 0.19) is too costly;
+thresholds 16 and 25 are clearly worse than 18-22.
+
+| book (equal risk, 25% cap, 10% vol) | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr | maxDD 15-26 | worst month |
+|---|---|---|---|---|---|---|---|
+| ETF sleeves alone | 0.87 | 0.85 | 0.96 | 0.90 | 9.5% | -15.0% | -8.2% |
+| + pairs x2 in stress + learned switch | 1.02 | 1.28 | 1.15 | 1.22 | 12.4% | -12.6% | -7.3% |
+| **+ pairs x2 in stress + momentum flip** | **1.11** | **1.43** | **1.12** | **1.28** | **13.3%** | **-11.2%** | -7.4% |
+
+Flip and switch are 0.91 correlated (same trade, simpler rule); both are
+~0 correlated with the ETF book and with pairs.
