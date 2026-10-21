@@ -184,8 +184,10 @@ luck): Sharpe 0.67 / 0.74 / 0.22 by sub-period (0.52 for 2015-26), 3.7% a
 year at 7% volatility unlevered, worst drawdown -11%; beta-hedged 0.57 / 0.53
 / 0.04.** Yearly: 2008 +13%, 2009 +29%, 2020 +22%; worst years -4% to -5%.
 Random halves of the universe give 0.51-0.76 / 0.57-0.80 / 0.15-0.27, so the
-sampling noise on these Sharpes is about +-0.1. These are the numbers to
-quote for the strategy. By VIX level: long momentum earns nothing below VIX
+sampling noise on these Sharpes is about +-0.1. A 21-day block bootstrap puts
+the 90% interval at [0.04, 1.32] for 2006-14 and [0.10, 0.94] for 2015-26
+(both positive at the 95% level) and [-0.38, 0.88] for 2021-26 (not
+distinguishable from zero). These are the numbers to quote for the strategy. By VIX level: long momentum earns nothing below VIX
 15 (a third of all days), 0.6-1.0 Sharpe between 15 and 20, and the short
 leg's payoff rises with the VIX (1.5-2.6 Sharpe above 35, on 2-8% of days).
 A "flat below 15" refinement would help but is a second threshold chosen
