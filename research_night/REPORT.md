@@ -172,7 +172,11 @@ removes that luck; its numbers are at the end of this section.
 | each momentum signal alone | 0.51-0.58 | 0.87-1.09 | 0.24-0.49 | 0.60-0.75 | | |
 
 Weighting scheme does not matter (z-weights, rank-linear, equal-weight top
-and bottom 30%: all 0.48-0.50 for 2015-26); the result is the sign rule.
+and bottom 30%: all 0.48-0.50 for 2015-26); the result is the sign rule. It
+is specific to 12-month-type momentum: 6-1 momentum, acceleration, industry
+momentum and overnight momentum do not reverse in stress when flipped
+(0.08 / 0.08 / -0.29 / -0.05 for 2015-26), so the three-signal composite is
+not to be widened.
 
 By liquidity tier (staggered): the hundred most traded stocks give 0.49 /
 0.40 / 0.37, ranks 101-300 0.54 / 0.61 / 0.21, ranks 301-1000 0.66 / 0.74 /
