@@ -768,3 +768,17 @@ expanding median; 42% of stock-days, correlation 0.57 with VIX > 20):
   (0.21 vs 0.14) and worse before. Same conclusion as everywhere tonight:
   regime information pays through slow allocation, not through switching a
   daily signal on and off.
+
+## 15:40 UTC - is the switch's P&L a few lucky names? No.
+
+VIX > 20 switch, all names, 2015-26 (unit gross, total net +52.6%):
+- 60% of the ~1,000 stocks contributed positively; the top 10 names together
+  are 15% of the total (largest single name AA, 0.9%), the top 50 are 53%.
+  Dropping the top 10 contributors: Sharpe 0.93 -> 0.82 (2015-20), 0.34 ->
+  0.32 (2021-26). Worst names: TSLA -0.9%, HALO, SRPT, PCG, TGTX.
+- Net sector exposure at stressed rebalances is within +-2% of gross (slightly
+  long financials, discretionary, real estate; short staples, utilities,
+  health care). P&L by sector 2015-26: discretionary +14%, industrials +11%,
+  energy +10%, real estate +9%; health care -2% (biotech jumps are where
+  reversal and momentum both fail). Cyclicals' crash-and-rebound is the
+  engine, as expected for a stressed-market strategy.
