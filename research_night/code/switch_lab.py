@@ -48,6 +48,7 @@ def composite(X: np.ndarray, names: list[str], members: list[str], index, column
 
 TOP_FRAC: float | None = None     # e.g. 0.1 = trade only the top and bottom decile by z (a concentrated book)
 DELAY = 0                         # extra days between the signal and the trade (execution-lag robustness)
+COST_MULT = 1.0                   # multiply the measured costs (cost-stress robustness)
 
 
 def monthly_weights(z: pd.DataFrame, mask: pd.DataFrame, rebalance: np.ndarray) -> pd.DataFrame:
@@ -97,7 +98,7 @@ def run(md, ctx, X, names, probs: dict[str, pd.DataFrame], out: Path) -> pd.Data
     liquid = tr & (ctx.adv.where(tr).rank(axis=1, ascending=False) <= 300)
     o = md.open
     r1 = (o.shift(-2) / o.shift(-1) - 1).clip(-0.5, 0.5)
-    cost = cost_panel(ctx)
+    cost = cost_panel(ctx) * COST_MULT
     fwd = (o.shift(-(1 + HORIZON)) / o.shift(-1) - 1).where(tr).to_numpy()
     rebalance = np.zeros(len(dates), bool)
     rebalance[::HORIZON] = True
@@ -176,10 +177,12 @@ def main(argv=None):
     ap.add_argument("--mom", default=",".join(MOM), help="signals in the momentum book")
     ap.add_argument("--top-frac", type=float, default=None, help="trade only the top/bottom fraction by z")
     ap.add_argument("--delay", type=int, default=0, help="extra days of execution delay")
+    ap.add_argument("--cost-mult", type=float, default=1.0, help="multiply measured costs")
     args = ap.parse_args(argv)
-    global TOP_FRAC, DELAY
+    global TOP_FRAC, DELAY, COST_MULT
     TOP_FRAC = args.top_frac
     DELAY = args.delay
+    COST_MULT = args.cost_mult
     REV[:] = args.rev.split(",")
     MOM[:] = args.mom.split(",")
     setup_logging()

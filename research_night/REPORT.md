@@ -298,6 +298,9 @@ replace the daily book, don't re-tune it.
 3. **Add `pairs` to the ETF book first, the switch second**, both with a
    per-strategy weight cap so inverse-vol does not over-allocate to them.
    Size pairs up (about 2x) when the VIX is above 20; that is where it earns.
+   The three together at equal risk: Sharpe 1.02 / 1.28 / 1.15 by sub-period,
+   12.4% a year at 10% volatility, worst drawdown -12.6% (ETF book alone:
+   0.87 / 0.85 / 0.96, 9.5%, -15%).
 4. **Fix `poisson._poisson_glm`**: drop features constant in training (or
    floor the standard deviation); rank-standardise stock features per day;
    refit yearly. Fix or drop `downside_beta`.
