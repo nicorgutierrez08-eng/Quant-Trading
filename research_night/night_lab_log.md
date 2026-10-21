@@ -817,3 +817,35 @@ this survivable where the daily book is not.
   sign of (20 - VIX) is the whole regime model. Beta, thresholds, universe
   and costs for the flip are being checked before it replaces the switch in
   the report.
+
+## 16:00 UTC - the momentum flip, checked
+
+Hold the momentum composite (mom_12_1 + resid_mom + high_52w, monthly,
+all names); when the VIX is above 20 at the rebalance, hold it short.
+
+| | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr 15-26 | maxDD 15-26 |
+|---|---|---|---|---|---|---|
+| **as traded** | **0.61** | **1.06** | **0.37** | **0.76** | 6.2% | -11% |
+| **beta-hedged** (trailing 252-day beta) | **0.50** | **0.85** | **0.29** | **0.59** | 4.6% | -18% |
+| threshold 18 / 22 / 25 | 0.38 / 0.73 / 0.52 | 1.05 / 0.95 / 0.46 | 0.49 / 0.10 / -0.27 | 0.80 / 0.58 / 0.14 | | |
+| top 300 names | 0.53 | 0.93 | 0.20 | 0.61 | 5.8% | -14% |
+| 42-day rebalance | 0.80 | 0.68 | 0.19 | 0.46 | | |
+| one-day execution delay | 0.59 | 1.08 | 0.29 | 0.73 | | |
+| costs x2 | 0.51 | 0.99 | 0.29 | 0.68 | | |
+| mom_12_1 alone / resid_mom alone / high_52w alone | 0.52 / 0.51 / 0.58 | 0.92 / 0.87 / 1.09 | 0.24 / 0.49 / 0.30 | 0.60 / 0.69 / 0.75 | | |
+
+- Beta 0.15-0.25 (long in rebounds, as before), but the hedged line is the
+  first of the night that is comfortably positive in all three sub-periods.
+  Turnover 0.035/day, break-even 77 bp (measured costs ~3-6 bp).
+- Robust to the threshold between 18 and 22, to the universe, to a day's
+  delay, to doubled costs, and it works for each momentum signal alone - so
+  it is not a composite artefact. 25 is too high a threshold (misses most
+  stress), 42-day rebalancing too slow for the flips.
+- Yearly (unit gross): 2008 +11%, 2009 +30%, 2015 +11%, 2019 +11%, 2020
+  +30%, 2024 +9%, 2025 +10%; worst years 2006 -4.7%, 2026 to date -3.7%,
+  2014 -3.0%. The two +30% years are the two great rebounds, in a survivor
+  universe - the usual caveat applies with full force to those.
+- Economic reading: in calm markets winners keep winning; once the VIX is
+  above 20 the crowded momentum book unwinds and the losers rebound (the
+  momentum crash). A fund would call this "momentum with a crash hedge"; the
+  VIX threshold is the whole model.
