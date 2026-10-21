@@ -171,6 +171,12 @@ removes that luck; its numbers are at the end of this section.
 | one-day delay / costs x2 | 0.59 / 0.51 | 1.08 / 0.99 | 0.29 / 0.29 | 0.73 / 0.68 | | |
 | each momentum signal alone | 0.51-0.58 | 0.87-1.09 | 0.24-0.49 | 0.60-0.75 | | |
 
+What the book is tilted towards: the stressed (short-momentum) leg is
+size-neutral but long high-beta, high-volatility and somewhat illiquid names
+(a quarter to a third of a standard deviation) - the rebound beta measured
+above, and exactly where a survivor universe flatters results. The calm leg
+is mildly long low-volatility names.
+
 Two more checks. It does *not* transfer to Arjun's ETF trend sleeves -
 flipping cross-asset momentum by the VIX turns 1.01 / 0.57 / 0.97 into
 -0.11 / -0.27 / -0.09, because time-series trend across asset classes earns
