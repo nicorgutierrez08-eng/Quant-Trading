@@ -922,3 +922,23 @@ cycle (everything else identical):
 - Smoothing the signal does not help: position = (20 - VIX)/10 gives 0.63,
   a 5-day-averaged VIX 0.53, hysteresis (in above 22, out below 18) 0.64, all
   vs 0.76 for the hard flip at the same (lucky) start day.
+
+## 17:00 UTC - the staggered flip (no start-day luck) and the final book
+
+| momentum flip, 1/21 of the book rebalanced each day | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr 15-26 | vol | maxDD 15-26 |
+|---|---|---|---|---|---|---|---|
+| as traded | **0.67** | **0.74** | **0.22** | **0.52** | 3.7% | 7.1% | -11% |
+| beta-hedged (trailing 252-day beta) | 0.57 | 0.53 | 0.04 | 0.32 | | | |
+
+Yearly (unit gross): 2008 +13%, 2009 +29%, 2015 +10%, 2020 +22%, 2024 +6%;
+worst 2006 -5%, 2007 -4%, 2026 to date -4%. Turnover 0.033/day.
+
+| book (equal risk, 25% cap, 10% vol) | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr | maxDD 15-26 | worst month |
+|---|---|---|---|---|---|---|---|
+| ETF sleeves alone | 0.87 | 0.85 | 0.96 | 0.90 | 9.5% | -15.0% | -8.2% |
+| + pairs x2 in stress | 1.01 | 0.91 | 1.07 | 0.99 | 10.4% | -16.1% | -7.8% |
+| **+ pairs x2 in stress + staggered flip** | **1.15** | **1.18** | **1.00** | **1.09** | **11.1%** | **-11.8%** | **-6.8%** |
+
+These replace the earlier (start-day-0) 1.11 / 1.43 / 1.12 as the numbers to
+quote. The structure holds - the flip adds ~0.15-0.3 of Sharpe to the book
+and cuts the worst drawdown by a quarter - at a more modest level.
