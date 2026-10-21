@@ -358,3 +358,12 @@ Adding peer_gap and resid_rev_5d to the reversal book and bab to the momentum
 book: signed HMM switch 2015-26 rises to 0.56 but 2006-14 falls to -0.27 (from
 0.27). Inconsistent, so the three-signal composites stay. (Also a reminder that
 2015-26 is easy to improve by choices that would not have been made in 2014.)
+
+## 08:00 UTC - is dispersion a better regime variable than market volatility? No.
+
+Signed switch, all names: dispersion terciles -0.68 / 0.34 (2006-14 / 2015-26);
+high-vol-and-high-dispersion -0.41 / 0.25; market-vol terciles -0.20 / 0.59;
+the VIX + term HMM 0.27 / 0.42. The regime that flips reversal and momentum is
+the level of market volatility, not how spread out stock returns are (the
+conditional study's "dispersed" regime helps reversal's IC but costs more in
+turnover than it adds).
