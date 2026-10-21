@@ -185,7 +185,11 @@ year at 7% volatility unlevered, worst drawdown -11%; beta-hedged 0.57 / 0.53
 / 0.04.** Yearly: 2008 +13%, 2009 +29%, 2020 +22%; worst years -4% to -5%.
 Random halves of the universe give 0.51-0.76 / 0.57-0.80 / 0.15-0.27, so the
 sampling noise on these Sharpes is about +-0.1. These are the numbers to
-quote for the strategy.
+quote for the strategy. By VIX level: long momentum earns nothing below VIX
+15 (a third of all days), 0.6-1.0 Sharpe between 15 and 20, and the short
+leg's payoff rises with the VIX (1.5-2.6 Sharpe above 35, on 2-8% of days).
+A "flat below 15" refinement would help but is a second threshold chosen
+with hindsight, so it is not adopted.
 
 For a small account: the top and bottom decile only, in the 300 most liquid
 names, staggered (about 100 positions at any time), gives 0.61 / 0.65 / 0.36
