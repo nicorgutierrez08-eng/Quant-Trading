@@ -114,8 +114,12 @@ bias Arjun flagged, and it flatters every result here.
 - Its blind spot: the term spread that made it catch 2007-08 kept it in the
   "stressed" state through 2023 (73% of days) and much of 2024-25 while the
   VIX sat at 13-20 and momentum ran - the inverted yield curve, not market
-  stress. That is where the switch lost money in 2023-24. The VIX-only model
-  has the mirror-image weakness (poor 2006-14). Unresolved.
+  stress. That is where the switch lost money in 2023-24. Dropping the term
+  spread fixes 2023 (stressed share 73% -> 18%, 2021-26 Sharpe -0.09 -> 0.24)
+  but loses 2007-08 (2006-14 Sharpe 0.27 -> -0.11). Three stress cycles in
+  the sample are too few to settle how much weight a slow macro input should
+  get; treat the regime switch as 0.2-0.5 Sharpe in crises with a
+  model-choice risk of about +-0.3.
 - Today (20 Oct 2026) the model reads calm: P(stressed) 0.01, VIX 18, curve
   +1.1%. The switch's current rebalance is 38% reversal / 62% momentum.
 
