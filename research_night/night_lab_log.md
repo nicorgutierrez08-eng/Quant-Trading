@@ -265,3 +265,68 @@ is information the VIX level alone does not carry early enough). The VIX-only
 2-state model has 90-120 day regimes - too slow to switch - even though it
 separates the ICs most sharply (stressed: reversal 0.033, momentum -0.042).
 Selection risk is real: three regime proxies tried, one consistent.
+
+## 06:50 UTC - robustness of the switch, and a correction to every "1st period" number
+
+**Correction.** `edge.summarize` (Arjun's Bench, which my switch tables reuse)
+defines the 1st period as *all dates before 2015*, so it includes 2001-2005,
+when short-term reversal was spectacularly profitable (dot-com bust). The
+research_data README says the selection period is 2006-2014; the tables in
+edge/combos/poisson/alt use 2001-2014. Recomputed on the saved daily series:
+
+| signed switch, all names, monthly | 2001-14 (as reported) | **2006-14** | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|---|
+| plain monthly reversal | 0.35 | **-0.04** | 0.16 | 0.01 | 0.09 |
+| 50/50 reversal / momentum | 0.10 | -0.40 | -0.12 | -0.11 | -0.12 |
+| HMM: VIX + term spread + GARCH, 2 states | 0.44 | **0.27** | **0.77** | -0.09 | 0.42 |
+| HMM: rolling 3-state (current config) | -0.01 | -0.45 | 0.88 | -0.10 | 0.47 |
+| HMM: Poisson-mixed 3-state | 0.47 | 0.35 | 0.08 | -0.16 | -0.03 |
+| HMM: VIX only, 2 states | 0.07 | -0.34 | 0.79 | 0.14 | 0.52 |
+| vol terciles | 0.19 | -0.20 | 0.82 | 0.26 | 0.59 |
+
+- The VIX + term-spread HMM is still the only regime model positive in
+  2006-14 and it beats plain reversal in both halves (+0.31 and +0.33), but
+  the absolute level is 0.27 / 0.42, not 0.43 / 0.42.
+- **The edge is concentrated in volatility spikes**: the switch's good years
+  are 2008 (+14.7%), 2015, 2019-2021 (+8%, +20%, +7%); 2022-2026 is flat
+  (Sharpe -0.09 for 2021-26, with 2024 at -5.6%). Every regime proxy shares
+  this pattern. Reversal in stress + short momentum in stress is a crisis
+  strategy; it does nothing in calm trending years, and the last five years
+  had one short crisis (2022) that was a trend, not a reversal, market.
+- **Bootstrap (21-day blocks, 2,000 draws), 2015-26:** Sharpe 90% interval
+  [0.00, 0.78], P(Sharpe < 0) = 4.8%; gain over plain reversal median +0.31,
+  P(no gain) = 6.2%. Borderline significant, one out-of-sample period.
+- **Robust to design choices?** Mostly: 21- or 42-day rebalance, either book
+  composition and both universes give 0.26-0.49 in 2015-26 for the HMM switch
+  (10-day rebalance is too costly: 0.1-0.2). Correlation with the market
+  -0.08, with plain reversal 0.63-0.86.
+- Net verdict: a real, economically sensible, modest edge (0.3-0.4 Sharpe,
+  market-neutral, pays in crises) that diversifies the ETF book - not a 0.6.
+
+## 06:55 UTC - does the HMM separate signal regimes better than a vol tercile? No.
+
+21-day signal ICs by regime, 2004-26: mean |stressed - calm| spread is 0.028
+with trailing-vol terciles vs 0.021 with the VIX/vol 2-state HMM. The sign
+pattern is identical (momentum / 52w-high / low-beta / low-vol / trend
+positive in calm and strongly negative in stress; reversal, RSI, Bollinger,
+illiquidity positive only in stress). The HMM's value is persistence (fewer
+switches, lower cost), not sharper classification.
+
+Push of commit 603cd13 (research_night/) to origin was blocked by the session's
+permission filter; the commit is local on claude/practical-ride-wggb8u.
+
+## 07:05 UTC - multi-strategy book, corrected (one switch series, with and without pairs)
+
+| inverse-vol, 10% vol target | 2006-14 | 2015-26 |
+|---|---|---|
+| 8 ETF sleeves | 1.01 | 0.91 |
+| + stock book | 1.00 | 0.91 |
+| + regime switch (HMM) | 0.99 | 0.99 |
+| **+ regime switch + pairs** | **1.07** | **1.10** |
+| + switch + pairs, 25% weight cap | 1.06 | 1.05 |
+
+(The earlier 0.90 / 1.07 line double-counted the switch by including both the
+HMM and the tercile versions.) The switch and pairs are the two sleeves that
+earn in stressed markets; together they lift the book in both periods.
+An ensemble regime probability (HMM + VIX HMM + vol tercile averaged) does
+not beat the VIX + term HMM: switch -0.14 / 0.47.

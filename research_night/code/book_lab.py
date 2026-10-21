@@ -90,10 +90,14 @@ def regime_sharpe_forecast(R: pd.DataFrame, P: pd.DataFrame, refit_every: int = 
     return out
 
 
+MAX_WEIGHT = 1.0          # per-strategy cap on the share of risk-weighted capital (1 = no cap)
+
+
 def allocate(R: pd.DataFrame, pred_sr: pd.DataFrame | None, vol_window: int = 756, cap: float = 2.0) -> pd.Series:
     """Book return with inverse-vol weights, optionally tilted by predicted Sharpe
     relative to each strategy's trailing average Sharpe. Weights decided at t
-    are held over t+2 (research convention), normalised to sum to one, 10% vol target."""
+    are held over t+2 (research convention), normalised to sum to one (with an
+    optional per-strategy cap, ``MAX_WEIGHT``), 10% vol target."""
     vol = R.rolling(vol_window, min_periods=126).std()
     w = 1 / vol
     if pred_sr is not None:
@@ -101,6 +105,10 @@ def allocate(R: pd.DataFrame, pred_sr: pd.DataFrame | None, vol_window: int = 75
         tilt = (pred_sr / avg).clip(0, cap)
         w = w * tilt.fillna(1.0)
     w = w.div(w.sum(axis=1).replace(0, np.nan), axis=0)
+    if MAX_WEIGHT < 1.0:
+        for _ in range(5):                       # clip and renormalise until no weight exceeds the cap
+            w = w.clip(upper=MAX_WEIGHT)
+            w = w.div(w.sum(axis=1).replace(0, np.nan), axis=0)
     blend = (w.shift(2) * R.fillna(0)).sum(axis=1)
     real = blend.rolling(252, min_periods=126).std() * np.sqrt(252)
     lev = (0.10 / real).clip(0, 3).shift(2)
@@ -120,6 +128,9 @@ def run(strategies: pd.DataFrame, probs: dict[str, pd.DataFrame], out: Path, sto
     if extras:
         books["sleeves + regime switch"] = sleeves + extras
         books["sleeves + stock book + regime switch"] = sleeves + (["stock_book"] if "stock_book" in R else []) + extras
+        if "pairs" in R:
+            books["sleeves + regime switch + pairs"] = sleeves + extras + ["pairs"]
+            books["sleeves + stock book + regime switch + pairs"] = sleeves + (["stock_book"] if "stock_book" in R else []) + extras + ["pairs"]
     rows = []
     for bname, cols in books.items():
         Rb = R[cols]
@@ -167,7 +178,10 @@ def main(argv=None):
     ap.add_argument("--out", default="reports/book_lab")
     ap.add_argument("--extra", nargs="*", default=[],
                     help="extra daily-return series to add as strategies, as CSV_PATH::COLUMN::NAME")
+    ap.add_argument("--max-weight", type=float, default=1.0, help="cap on any one strategy's share of capital")
     args = ap.parse_args(argv)
+    global MAX_WEIGHT
+    MAX_WEIGHT = args.max_weight
     setup_logging()
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
