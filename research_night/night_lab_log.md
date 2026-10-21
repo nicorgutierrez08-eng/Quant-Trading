@@ -367,3 +367,19 @@ the VIX + term HMM 0.27 / 0.42. The regime that flips reversal and momentum is
 the level of market volatility, not how spread out stock returns are (the
 conditional study's "dispersed" regime helps reversal's IC but costs more in
 turnover than it adds).
+
+## 08:40 UTC - the macro HMM inside Arjun's live pipeline (fast models: ridge, regime_ridge, ic_weighted)
+
+| | 3-state rolling HMM (current) | 2-state VIX + term HMM |
+|---|---|---|
+| regime_ridge mean IC | 0.009 | **0.012** |
+| regime_ridge Sharpe (net, 2004-26) | -0.24 | -0.20 |
+| ensemble Sharpe 2004-14 / 2015-20 / 2021-26 | 0.34 / -0.60 / -0.71 | 0.49 / -0.66 / -0.68 |
+| frictionless ensemble Sharpe | 0.86 | 0.93 |
+
+The better regime model lifts the regime-conditional forecast's IC by a
+third and the frictionless Sharpe slightly, but the daily stock book stays
+negative after costs in 2015-2026 under either HMM (turnover 16x a year at
+measured spreads). Consistent with everything else tonight: the problem with
+the stock book is turnover, not the regime model. Full six-model comparison
+running.
