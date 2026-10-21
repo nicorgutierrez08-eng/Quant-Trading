@@ -6,7 +6,8 @@ rules he used: 2006-2014 is for choosing, 2015-2026 is only for checking;
 every model is refit walk-forward; costs are measured bid-ask spreads plus 1 bp.
 Everything here is in `research_night/` (code, reports, the running log
 `night_lab_log.md`, and a review of his existing outputs in
-`stability_report.md`). Draft - numbers may be refined before 11:00.
+`stability_report.md`). Written between 01:00 and 07:00 EDT; the log has the
+chronology and every intermediate number.
 
 ## The short version
 
@@ -172,12 +173,15 @@ clearly worse at 16 or 25.
   net long when the market rebounds. Hedged with the trailing 252-day beta the
   HMM switch is 0.19 / 0.45 / -0.46 in 2006-14 / 2015-20 / 2021-26 and the
   VIX > 20 switch 0.16 / 0.63 / 0.25. Those are the numbers to carry.
-- Bootstrap (21-day blocks) of the 2015-26 Sharpe: 90% interval [0.00, 0.78];
-  probability it is really below zero 4.8%; probability it does not beat
-  plain reversal 6.2%. Borderline, one out-of-sample period.
-- Robust to design choices: 21- or 42-day rebalance, either book
-  composition, either universe give 0.26-0.49 in 2015-26; 10-day rebalancing
-  is too costly.
+- Bootstrap (21-day blocks, 2,000 draws) of the 2015-26 Sharpe. HMM switch:
+  90% interval [0.00, 0.78], P(below zero) 4.8%, P(no gain over plain
+  reversal) 6.2%. VIX > 20 switch: [0.27, 1.06], P(below zero) 0.3%, P(no
+  gain) 1.7%. For 2004-14 the VIX > 20 switch's interval is [-0.28, 0.79]:
+  one clear out-of-sample period, one murky selection period.
+- Robust to design choices: for the VIX > 20 rule all 18 variants (10/21/42-day
+  rebalance x 3 book compositions x 2 universes) are positive in both periods
+  (0.10-0.48 and 0.04-0.71); 21-day rebalancing is best, 10-day too costly.
+  The HMM switch had several negative cells.
 - Where the money comes from (one leg at a time): **shorting momentum in
   stressed markets** - buying the stocks that fell most, selling the ones that
   rose most, i.e. the classic momentum crash - is the strongest and most
