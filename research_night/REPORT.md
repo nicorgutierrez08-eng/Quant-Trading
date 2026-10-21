@@ -350,10 +350,12 @@ rolling HMM and once with the 2-state VIX + term-spread HMM
 The better regime model improves the regime-conditional forecast (IC up a
 third) but cannot save the daily book: at 16x annual turnover and measured
 spreads it loses about 0.7 Sharpe a year after 2015 under either HMM. A
-lighter run that did include GBM (yearly refits, 100k rows per fit, macro
-HMM) finished: GBM is the only model with a positive net Sharpe over 2004-26
-(+0.23; Arjun's full run had 0.46), the ensemble is -0.07 and 0.72 / -0.78 /
--0.57 by sub-period - same verdict. Nor can the VIX rule: unlike the monthly signals, his daily factor-neutral book
+lighter run that did include GBM (yearly refits, 100k rows per fit) finished
+for both arms: GBM goes from -0.04 (3-state) to +0.23 (macro HMM) and is the
+only model positive over 2004-26; kernel ridge goes the other way; the
+ensemble is -0.02 vs -0.07 and about -0.6 / -0.55 in 2015-20 / 2021-26 under
+both. Same verdict: the regime model is not the problem, turnover is. Nor can
+the VIX rule: unlike the monthly signals, his daily factor-neutral book
 does *worse* when the VIX is above 20 (-0.41 in 2015-20) than below it
 (+0.43), because its costs and impact rise with volatility. (The
 runs including GBM did not finish in the 2-hour limit; Arjun's own full run
