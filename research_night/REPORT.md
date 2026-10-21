@@ -223,7 +223,10 @@ predicted IC is traded the other way (short momentum in stress).
 | switch, vol terciles | -0.20 | 0.82 | 0.26 | 0.59 |
 
 The VIX > 20 rule is robust between 18 and 22 (0.53-0.69 for 2015-26) and
-clearly worse at 16 or 25.
+clearly worse at 16 or 25. All rows in this table use the same single start
+day of the monthly cycle (the one that later proved luckiest for the flip),
+so the comparisons between regime models hold but the absolute levels are
+optimistic by roughly 0.2-0.3 in 2015-26.
 
 - Break-even cost 32-44 bp (plain reversal: 11 bp); turnover 0.04 a day;
   correlation with the market -0.08.
