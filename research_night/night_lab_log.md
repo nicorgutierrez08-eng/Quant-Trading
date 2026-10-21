@@ -1053,3 +1053,17 @@ third of a standard deviation). That is the rebound beta measured earlier, and
 it is where a survivor universe flatters results most: high-volatility names
 that fell hard and *survived* to be in today's top 1,000. The point-in-time
 re-run is the one test this result still needs.
+
+## 18:10 UTC - the flip by liquidity tier (staggered, 7 cohorts)
+
+| universe slice | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr 15-26 |
+|---|---|---|---|---|---|
+| top 100 by dollar volume (mega-caps) | 0.49 | 0.40 | 0.37 | 0.38 | 4.0% |
+| ranks 101-300 | 0.54 | 0.61 | 0.21 | 0.44 | 3.5% |
+| ranks 301-1000 | 0.66 | 0.74 | 0.13 | 0.48 | 3.2% |
+
+Positive in every tier and every sub-period, strongest where survivorship
+bias is largest (the smaller names) but still 0.4-0.5 in the hundred most
+traded stocks, where the universe is closest to point-in-time. The best
+evidence tonight that the effect is not purely a survivor artefact - and
+mega-caps are where a larger account could run it.
