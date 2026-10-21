@@ -80,6 +80,13 @@ vol and trend are +0.02 in calm and -0.04 to -0.06 in stress. The two
 families cancel unconditionally, which is why the research's monthly models
 look like noise.
 
+*Is the edge decaying monotonically?* No. Reversal's 5-day IC (x10,000) by
+5-year block: rev_5d 222 / 200 / 123 / 120 / 164; peer_gap 181 / 135 / 105 /
+99 / 121. It halved by 2014-18 and has recovered since 2024. It moves with
+market volatility rather than dying. The *monthly* versions are what has
+been weak lately (2024-26 IC near zero or negative), which is the switch's
+flat 2021-26 seen from the signal side.
+
 *Market structure.* Volatility, dispersion, average correlation and market
 autocorrelation show no trend 2004-2026. Jumps per day drift up slightly
 (15 -> 18). The only strong monovariant is the number of tradable names
@@ -104,6 +111,13 @@ bias Arjun flagged, and it flatters every result here.
   trailing-vol tercile (mean IC spread 0.021 vs 0.028); its value is
   persistence (fewer switches). Three regime proxies were tried and one was
   consistent across both periods, so selection risk is real.
+- Its blind spot: the term spread that made it catch 2007-08 kept it in the
+  "stressed" state through 2023 (73% of days) and much of 2024-25 while the
+  VIX sat at 13-20 and momentum ran - the inverted yield curve, not market
+  stress. That is where the switch lost money in 2023-24. The VIX-only model
+  has the mirror-image weakness (poor 2006-14). Unresolved.
+- Today (20 Oct 2026) the model reads calm: P(stressed) 0.01, VIX 18, curve
+  +1.1%. The switch's current rebalance is 38% reversal / 62% momentum.
 
 ### Poisson / GLM jump models
 

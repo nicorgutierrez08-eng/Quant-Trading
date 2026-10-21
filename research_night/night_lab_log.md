@@ -458,3 +458,31 @@ This is the number to carry: a modest crisis-rebound alpha, not a strategy.
 Each of the two stressed-market earners adds about 0.05-0.10 to the check
 period; together +0.14. Given the switch's beta and its flat 2021-26, the
 safer recommendation is pairs first, the switch as an optional sleeve.
+
+## 09:50 UTC - alpha decay by 5-year block, and where the regime model is now
+
+IC x 10,000 of the 11 "invariant" signals, 5-day horizon:
+
+| signal | 2004-08 | 2009-13 | 2014-18 | 2019-23 | 2024-26 |
+|---|---|---|---|---|---|
+| rev_5d | 222 | 200 | 123 | 120 | 164 |
+| low_volume_rev | 237 | 198 | 113 | 115 | 173 |
+| peer_gap | 181 | 135 | 105 | 99 | 121 |
+| bollinger_z | 105 | 108 | 84 | 127 | 132 |
+| rev_1d | 212 | 80 | 78 | 163 | 110 |
+| resid_rev_5d | 126 | 86 | 91 | 71 | 78 |
+
+- Not a monotone decay: reversal fell from ~220 to ~120 by 2014-18 and has
+  recovered to ~165 since 2024. It is cyclical with volatility, not dying. At
+  21 days the same signals are weak or negative in 2024-26 (rev_5d 79,
+  bollinger -37, rsi -103): the monthly horizon has had a bad three years,
+  which is the switch's flat 2021-26 seen from the other side.
+- **The regime model's blind spot**: the VIX + term-spread HMM called 2022
+  (89% of days), **2023 (73%)** and 2024-25 (~45%) "stressed". 2022 was; 2023
+  was not - the inverted yield curve kept the state on while VIX sat at 13-20
+  and momentum ran. That is where the term spread, which helped in 2007-08,
+  cost the switch in 2023-24. The VIX-only model has the opposite problem
+  (weak 2006-14). No fix tonight; a model with both and a looser prior on the
+  term spread is the obvious next experiment.
+- **Now (20 Oct 2026)**: P(stressed) = 0.01, VIX 18, term spread +1.1%: calm.
+  The switch's last monthly rebalance holds 38% reversal / 62% momentum.
