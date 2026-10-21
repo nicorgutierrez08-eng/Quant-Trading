@@ -574,3 +574,17 @@ then 2008 was called late. Every regime proxy tried gives 0.4-0.7 in
 2015-26; they differ only on the single 2008 cycle. Two are positive in
 2006-14 as well: the HMM with the term spread and the fixed VIX > 20.
 Threshold sensitivity (16-25) being checked.
+
+## 12:00 UTC - VIX threshold sensitivity (signed switch, all names, monthly)
+
+| threshold | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| VIX > 16 | -0.20 | 0.62 | 0.10 | 0.40 |
+| VIX > 18 | -0.12 | 0.79 | 0.38 | 0.62 |
+| **VIX > 20** | 0.24 | 0.95 | 0.33 | 0.69 |
+| VIX > 22 | 0.47 | 0.83 | 0.08 | 0.53 |
+| VIX > 25 | 0.42 | 0.44 | -0.22 | 0.18 |
+
+A plateau from 18 to 22 (0.53-0.69 in 2015-26, 0.79-0.95 in 2015-20); the
+rule is not knife-edge, but 16 and 25 are clearly worse. 20 is the long-run
+median of the VIX; "stressed = VIX above its typical level" is the regime.
