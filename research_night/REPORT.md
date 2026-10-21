@@ -162,6 +162,14 @@ VIX is above 20 at the rebalance, hold it short. Net of measured costs:
 | one-day delay / costs x2 | 0.59 / 0.51 | 1.08 / 0.99 | 0.29 / 0.29 | 0.73 / 0.68 | | |
 | each momentum signal alone | 0.51-0.58 | 0.87-1.09 | 0.24-0.49 | 0.60-0.75 | | |
 
+Two more checks. It does *not* transfer to Arjun's ETF trend sleeves -
+flipping cross-asset momentum by the VIX turns 1.01 / 0.57 / 0.97 into
+-0.11 / -0.27 / -0.09, because time-series trend across asset classes earns
+in stress (1.25 Sharpe in VIX > 20 months). The crash is a stock-momentum
+phenomenon, which is why the book below keeps the ETF trend sleeves
+unflipped next to the flipped stock book. And before the selection period
+the flip was positive too: Sharpe 0.24 in 2001-03, 0.98 in 2004-05.
+
 For a small account: the top and bottom decile only, in the 300 most liquid
 names (about 30 longs and 30 shorts, re-set monthly), gives 0.49 / 1.04 /
 0.20 by sub-period, about 10% a year at 15% volatility unlevered, worst
