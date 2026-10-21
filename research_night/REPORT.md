@@ -275,6 +275,7 @@ replace the daily book, don't re-tune it.
    looked useless in 2006-14 (-0.45) and great after.
 3. **Add `pairs` to the ETF book first, the switch second**, both with a
    per-strategy weight cap so inverse-vol does not over-allocate to them.
+   Size pairs up (about 2x) when the VIX is above 20; that is where it earns.
 4. **Fix `poisson._poisson_glm`**: drop features constant in training (or
    floor the standard deviation); rank-standardise stock features per day;
    refit yearly. Fix or drop `downside_beta`.
