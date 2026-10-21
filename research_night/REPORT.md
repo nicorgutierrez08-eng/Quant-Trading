@@ -200,6 +200,12 @@ clearly worse at 16 or 25.
   fall, so it caught the rebounds of 2016, 2019, 2020 and 2023 (and would have
   sat through 2008: 0.50 in 2006-14). The losers' alpha over the market is a
   modest 0.80 / 0.83 / 0.15 Sharpe by sub-period. Hedge it or don't count it.
+  With the VIX > 20 rule and a 1:1 hedge against the equal-weight universe the
+  long-only version is 0.52 / 0.83 / 0.59 (about 6% a year, -12% worst
+  drawdown) - the most consistent hedged line of the night. Hedging with SPY
+  instead looks far better (16% a year) but hides -50% drawdowns inside 2008-09
+  and +66% / +83% years in 2009 / 2020: that is the momentum crash from the
+  long side plus survivorship bias, not a strategy.
 
 ### Multi-strategy book
 
