@@ -516,3 +516,10 @@ Concentrating to the extremes keeps the Sharpe and brings the volatility to
 ~10% without leverage, which is the form a $10k account could actually hold
 (30 longs and 30 shorts of ~$160; shorting still needed for the stressed-
 regime leg). Break-even 33-48 bp; turnover 0.06/day.
+
+## 10:40 UTC - full six-model live backtests did not finish
+
+Both full-model runs (ridge, regime_ridge, kernel_ridge, gbm, ic_weighted) were
+stopped at the 2-hour limit without output: GBM over ~90 walk-forward refits
+on 1,000 stocks is a 4+ hour job on this machine. Re-running the comparison
+with the four non-GBM models instead.
