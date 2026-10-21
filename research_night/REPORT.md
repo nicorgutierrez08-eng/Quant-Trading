@@ -6,8 +6,9 @@ rules he used: 2006-2014 is for choosing, 2015-2026 is only for checking;
 every model is refit walk-forward; costs are measured bid-ask spreads plus 1 bp.
 Everything here is in `research_night/` (code, reports, the running log
 `night_lab_log.md`, and a review of his existing outputs in
-`stability_report.md`). Written between 01:00 and 07:00 EDT; the log has the
-chronology and every intermediate number.
+`stability_report.md`). Written between 01:00 and 10:00 EDT; the log has the
+chronology and every intermediate number, including the earlier drafts'
+figures that later checks revised downward.
 
 ## The short version
 
@@ -39,8 +40,8 @@ chronology and every intermediate number.
    yield-curve slope and GARCH volatility. But the rule "stressed when the
    VIX is above 20" matches its states 84% of the time and does better in the
    check period (switch Sharpe 0.24 / 0.95 / 0.33 by sub-period vs the HMM's
-   0.27 / 0.77 / -0.09); "VIX above its long-run median" does better still
-   after 2015 (0.91 / 0.43) but misses 2008. None of them is a better *market
+   0.27 / 0.77 / -0.09, both on the same single start day); "VIX above its
+   long-run median" does better still after 2015 (0.91 / 0.43) but misses 2008. None of them is a better *market
    timer* than plain volatility targeting. The regime that matters is the
    level of the VIX; the machinery around it added nothing.
 4. **Two bugs in the existing research.** (a) The Poisson jump model's
