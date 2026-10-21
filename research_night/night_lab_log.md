@@ -1099,3 +1099,8 @@ The flip is specific to 12-month-type stock momentum (12-1, residual, 52-week
 high) - the formation window the momentum-crash literature is about. Shorter
 windows, acceleration, industry and overnight momentum do not reverse in
 stress; adding them dilutes the book. The three-signal composite stays.
+
+## 18:40 UTC - test suite
+
+Arjun's full test suite (100 tests) passes with the config/pipeline patch and
+the new modules in place: `100 passed in 115s`. Ready to merge.
