@@ -882,3 +882,19 @@ so no leverage is needed: 30 longs and 30 shorts among the 300 most liquid
 names, re-set monthly, flipped by the VIX, is a 0.5-1.0 Sharpe, ~10%-a-year,
 -19%-drawdown line a $10k account could hold (shorting required in the
 stressed half of the time).
+
+## 16:35 UTC - the flip is a stock-momentum effect, not a trend effect
+
+Applying the same VIX > 20 sign flip to Arjun's ETF trend sleeves destroys
+them: cross_asset_mom 1.01 / 0.57 / 0.97 as is -> -0.11 / -0.27 / -0.09
+flipped; spy_tsmom_12m 0.72 / 0.45 / 0.99 -> 0.25 / -0.05 / 0.12. Time-series
+trend across asset classes *earns* in stress (cross_asset_mom 1.25 in VIX > 20
+months) - it is the crash hedge, not the crash victim. Cross-sectional stock
+momentum is what reverses: Arjun's own daily mom_12_1 strategy -0.37 / -0.03 /
+0.13 as is -> 0.62 / 0.56 / -0.01 flipped. Daniel-Moskowitz's momentum crash
+is a stock phenomenon, and the book that combines flipped stock momentum with
+unflipped ETF trend is the right structure.
+
+Before the selection period: the stock flip has Sharpe 0.24 in 2001-03 (short
+momentum almost throughout the dot-com bust), 0.98 in 2004-05, 0.32 for
+2001-05 - positive in a stretch nothing was chosen on.
