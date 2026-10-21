@@ -37,11 +37,11 @@ Everything here is in `research_night/` (code, reports, the running log
    signal is broken and sits at the top of `best_correlations.csv` through
    its pairs. Also, every "1st period" table in his research covers 2001-2014,
    not 2006-2014 as documented, and 2001-2005 flatters reversal a lot.
-5. **Adding the switch and his `pairs` strategy to the ETF book raises its
-   Sharpe from 1.01 / 0.91 to 1.07 / 1.10**, because those two earn in exactly
-   the stressed markets where every ETF sleeve loses (switch Sharpe 0.82 in
-   stress; the trend sleeves -0.2 to -0.5). Regime-*tilting* the ETF sleeves
-   themselves does not help.
+5. **Adding his `pairs` strategy and the switch to the ETF book raises its
+   Sharpe from 1.01 / 0.91 to about 1.06 / 1.05** (with a 25% cap per
+   strategy; 1.07 / 1.10 uncapped) and cuts the worst drawdown from -17% to
+   -13%, because those two earn in exactly the stressed markets where every ETF
+   sleeve loses. Regime-*tilting* the ETF sleeves themselves does not help.
 
 ## What was built
 
@@ -232,14 +232,17 @@ labs - replace the daily book, don't re-tune it.
 
 ## What to change in Arjun's system (concrete)
 
-1. **Replace the daily 5-day reversal stock book with the monthly switch.**
-   The daily book is -0.5 net in both periods at measured costs; the monthly
-   switch is +0.3 / +0.4 and market-neutral.
-2. **Replace the 3-state rolling HMM with the 2-state VIX + term-spread +
-   GARCH model** (`regime_lab` `macro`, K=2). The current model's switch would
-   have looked useless in 2006-14 (-0.45) and great after; unstable.
-3. **Add the switch as a sleeve of the ETF book**, with a per-strategy weight
-   cap so inverse-vol does not over-allocate to it.
+1. **Stop trading the daily 5-day reversal stock book.** It is -0.5 net in
+   both periods at measured costs under any regime model. If a stock book is
+   wanted, the monthly regime switch is the candidate (+0.3 / +0.4 as traded;
+   0.2 / 0.45 / -0.46 once its beta in rebounds is hedged out) - a small
+   crisis-rebound sleeve, sized accordingly, not the core.
+2. **If a regime model is kept, use the 2-state VIX + term-spread + GARCH
+   model** (`config/regime_macro.yaml`) rather than the 3-state rolling one,
+   whose switch would have looked useless in 2006-14 (-0.45) and great after.
+   Know its blind spot: an inverted yield curve reads as "stress" (2023).
+3. **Add `pairs` to the ETF book first, the switch second**, both with a
+   per-strategy weight cap so inverse-vol does not over-allocate to them.
 4. **Fix `poisson._poisson_glm`**: drop features constant in training (or
    floor the standard deviation); rank-standardise stock features per day;
    refit yearly. Fix or drop `downside_beta`.
