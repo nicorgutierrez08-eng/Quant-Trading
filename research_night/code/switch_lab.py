@@ -47,6 +47,7 @@ def composite(X: np.ndarray, names: list[str], members: list[str], index, column
 
 
 TOP_FRAC: float | None = None     # e.g. 0.1 = trade only the top and bottom decile by z (a concentrated book)
+DELAY = 0                         # extra days between the signal and the trade (execution-lag robustness)
 
 
 def monthly_weights(z: pd.DataFrame, mask: pd.DataFrame, rebalance: np.ndarray) -> pd.DataFrame:
@@ -129,6 +130,8 @@ def run(md, ctx, X, names, probs: dict[str, pd.DataFrame], out: Path) -> pd.Data
             books[f"stress-only long losers: {pname}"] = losers.div(losers.abs().sum(axis=1).replace(0, np.nan), axis=0).fillna(0).mul(stressed.fillna(0), axis=0)
             books[f"stress-only short winners: {pname}"] = winners.div(winners.abs().sum(axis=1).replace(0, np.nan), axis=0).fillna(0).mul(stressed.fillna(0), axis=0)
         for bname, w in books.items():
+            if DELAY:
+                w = w.shift(DELAY).fillna(0.0)       # trade DELAY days later than the signal says
             st = summarize(portfolio_stats(w, r1, cost))
             rows.append({"universe": uni_name, "book": bname, **st})
             daily[f"{uni_name}|{bname}"] = portfolio_stats(w, r1, cost)["net"]
@@ -172,9 +175,11 @@ def main(argv=None):
     ap.add_argument("--rev", default=",".join(REV), help="signals in the reversal book")
     ap.add_argument("--mom", default=",".join(MOM), help="signals in the momentum book")
     ap.add_argument("--top-frac", type=float, default=None, help="trade only the top/bottom fraction by z")
+    ap.add_argument("--delay", type=int, default=0, help="extra days of execution delay")
     args = ap.parse_args(argv)
-    global TOP_FRAC
+    global TOP_FRAC, DELAY
     TOP_FRAC = args.top_frac
+    DELAY = args.delay
     REV[:] = args.rev.split(",")
     MOM[:] = args.mom.split(",")
     setup_logging()

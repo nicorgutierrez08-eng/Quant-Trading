@@ -208,9 +208,10 @@ clearly worse at 16 or 25.
 | + stock book | 1.00 | 0.91 | 9.5% | -15% |
 | + pairs | 1.05 | 0.96 | 9.7% | -17% |
 | + regime switch | 0.99 | 0.99 | 10.3% | -17% |
-| **+ pairs + regime switch** | **1.06** | **1.05** | 9.9% | -15% |
-| + stock book + pairs + switch | 1.06 | 1.05 | 9.5% | **-13%** |
-| (uncapped, + pairs + switch) | 1.07 | 1.10 | | |
+| **+ pairs + regime switch (HMM)** | **1.06** | **1.05** | 9.9% | -15% |
+| + pairs + regime switch (VIX > 20) | 1.03 | **1.11** | 10.6% | -15% |
+| + stock book + pairs + switch (VIX > 20) | 1.04 | 1.10 | 10.2% | **-13%** |
+| (uncapped, + pairs + HMM switch) | 1.07 | 1.10 | | |
 
 The improvement is in risk, not return: the same ~10% a year with a smaller
 worst loss, because the two new sleeves earn when the ETF sleeves lose.
