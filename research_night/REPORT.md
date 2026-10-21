@@ -171,6 +171,12 @@ removes that luck; its numbers are at the end of this section.
 | one-day delay / costs x2 | 0.59 / 0.51 | 1.08 / 0.99 | 0.29 / 0.29 | 0.73 / 0.68 | | |
 | each momentum signal alone | 0.51-0.58 | 0.87-1.09 | 0.24-0.49 | 0.60-0.75 | | |
 
+By liquidity tier (staggered): the hundred most traded stocks give 0.49 /
+0.40 / 0.37, ranks 101-300 0.54 / 0.61 / 0.21, ranks 301-1000 0.66 / 0.74 /
+0.13. Positive everywhere, strongest where survivorship bias is largest, but
+still 0.4-0.5 in the mega-caps where the universe is closest to
+point-in-time - the best evidence that the effect is not purely an artefact.
+
 What the book is tilted towards: the stressed (short-momentum) leg is
 size-neutral but long high-beta, high-volatility and somewhat illiquid names
 (a quarter to a third of a standard deviation) - the rebound beta measured
