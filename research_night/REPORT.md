@@ -260,7 +260,10 @@ rolling HMM and once with the 2-state VIX + term-spread HMM
 
 The better regime model improves the regime-conditional forecast (IC up a
 third) but cannot save the daily book: at 16x annual turnover and measured
-spreads it loses about 0.7 Sharpe a year after 2015 under either HMM. (The
+spreads it loses about 0.7 Sharpe a year after 2015 under either HMM. Nor
+can the VIX rule: unlike the monthly signals, his daily factor-neutral book
+does *worse* when the VIX is above 20 (-0.41 in 2015-20) than below it
+(+0.43), because its costs and impact rise with volatility. (The
 runs including GBM did not finish in the 2-hour limit; Arjun's own full run
 shows the same second-half sign with GBM.) Same conclusion as the labs -
 replace the daily book, don't re-tune it.
