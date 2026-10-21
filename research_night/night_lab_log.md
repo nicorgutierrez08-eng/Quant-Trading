@@ -486,3 +486,20 @@ IC x 10,000 of the 11 "invariant" signals, 5-day horizon:
   term spread is the obvious next experiment.
 - **Now (20 Oct 2026)**: P(stressed) = 0.01, VIX 18, term spread +1.1%: calm.
   The switch's last monthly rebalance holds 38% reversal / 62% momentum.
+
+## 10:00 UTC - regime model without the term-spread level
+
+| signed switch, all names | 2006-14 | 2015-20 | 2021-26 | 2023 "stressed" share |
+|---|---|---|---|---|
+| VIX + term level + GARCH (the pick) | 0.27 | 0.77 | -0.09 | 73% |
+| VIX + GARCH, no term | -0.11 | 0.81 | 0.24 | 18% |
+| VIX + 63-day *change* in term + GARCH | -0.39 | 0.70 | 0.07 | 28% |
+| vol terciles | -0.20 | 0.82 | 0.26 | - |
+
+Dropping the term level fixes 2023 (stressed share 73% -> 18%) and 2021-26
+(-0.09 -> 0.24) at the cost of 2006-14 (0.27 -> -0.11): the yield curve is
+what catches 2007-08 early. Each version wins one cycle and loses another.
+There have been three stress cycles in the sample; that is too few to decide
+how much weight a slow macro input should get, and the honest statement is
+that the regime switch is 0.2-0.5 Sharpe in crises with a model-choice risk
+of about +-0.3. Student-t emissions again change nothing useful.

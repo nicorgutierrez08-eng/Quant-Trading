@@ -269,6 +269,10 @@ def symptom_sets(ctx, fred: pd.DataFrame | None) -> dict[str, tuple[pd.DataFrame
         out["macro"] = (macro, "log_sigma", None)
         out["macro_abs"] = (garch_abs.assign(log_vix=np.log(f["vix"]), term=f["term_spread_10y3m"]), "log_sigma", None)
         out["vix_only"] = (pd.DataFrame({"log_vix": np.log(f["vix"]), "log_sigma": garch["log_sigma"]}), "log_sigma", None)
+        # the term-spread *level* kept the macro model in "stress" through the 2023 inversion:
+        # the same symptoms without it, and with its 63-day change instead
+        out["vixplus"] = (garch.assign(log_vix=np.log(f["vix"])), "log_sigma", None)
+        out["vix_dterm"] = (garch.assign(log_vix=np.log(f["vix"]), dterm=f["term_spread_10y3m"].diff(63)), "log_sigma", None)
     return out
 
 
