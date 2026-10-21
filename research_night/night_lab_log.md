@@ -867,3 +867,18 @@ thresholds 16 and 25 are clearly worse than 18-22.
 
 Flip and switch are 0.91 correlated (same trade, simpler rule); both are
 ~0 correlated with the ETF book and with pairs.
+
+## 16:25 UTC - concentrated momentum flip (small-account form)
+
+| flip, VIX 20, monthly | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr 15-26 | vol | maxDD 15-26 |
+|---|---|---|---|---|---|---|---|
+| all names, every stock weighted by z | 0.61 | 1.06 | 0.37 | 0.76 | 6.2% | 8% | -11% |
+| all names, top/bottom 20% | 0.60 | 1.09 | 0.39 | 0.78 | 8% | 10% | -14% |
+| all names, top/bottom 10% (~100 + 100) | 0.63 | 1.11 | 0.24 | 0.71 | 9% | 12% | -16% |
+| top 300, top/bottom 10% (~30 + 30 names) | 0.49 | 1.04 | 0.20 | 0.65 | 10% | 15% | -19% |
+
+Concentration keeps the Sharpe and raises return and volatility together,
+so no leverage is needed: 30 longs and 30 shorts among the 300 most liquid
+names, re-set monthly, flipped by the VIX, is a 0.5-1.0 Sharpe, ~10%-a-year,
+-19%-drawdown line a $10k account could hold (shorting required in the
+stressed half of the time).
