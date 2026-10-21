@@ -181,7 +181,8 @@ clearly worse at 16 or 25.
 - Robust to design choices: for the VIX > 20 rule all 18 variants (10/21/42-day
   rebalance x 3 book compositions x 2 universes) are positive in both periods
   (0.10-0.48 and 0.04-0.71); 21-day rebalancing is best, 10-day too costly.
-  The HMM switch had several negative cells.
+  The HMM switch had several negative cells. Trading one day late leaves
+  2015-26 unchanged (0.69); two days late gives 0.57.
 - Where the money comes from (one leg at a time): **shorting momentum in
   stressed markets** - buying the stocks that fell most, selling the ones that
   rose most, i.e. the classic momentum crash - is the strongest and most
@@ -294,3 +295,17 @@ replace the daily book, don't re-tune it.
   visible.
 - The encrypted intraday and news datasets were not available here, so
   nothing intraday or news-based was re-examined.
+- The live-pipeline comparison could not include GBM (the two six-model runs
+  did not finish in two hours); it was run with the four other models.
+
+## Where everything is
+
+- `research_night/REPORT.md` - this document.
+- `research_night/night_lab_log.md` - the chronological log with every
+  intermediate table, including the ones that did not make it here.
+- `research_night/stability_report.md` - the review of Arjun's existing
+  research outputs (zoo, pairs, strategies, decay), with its data artefacts.
+- `research_night/code/` - the seven research modules (run on Arjun's
+  `claude/keen-tesla-shs956` branch); `research_night/patch/` - the macro
+  regime option for his live pipeline.
+- `research_night/reports/` - every run's markdown and CSV output.
