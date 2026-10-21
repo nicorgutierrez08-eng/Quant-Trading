@@ -954,3 +954,15 @@ and cuts the worst drawdown by a quarter - at a more modest level.
 Staggering 21 cohorts of 30 + 30 names means ~100 distinct positions at any
 time - feasible with fractional shares at $10k, otherwise use fewer cohorts
 (e.g. 4 weekly cohorts) and accept some start-day variance.
+
+## 17:20 UTC - random half-universe splits (staggered flip, 7 cohorts)
+
+| | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| split 0, half A (473 stocks) | 0.63 | 0.80 | 0.27 | 0.57 |
+| split 0, half B (527) | 0.64 | 0.57 | 0.15 | 0.39 |
+| split 1, half A (534) | 0.51 | 0.71 | 0.17 | 0.48 |
+| split 1, half B (466) | 0.76 | 0.65 | 0.22 | 0.46 |
+
+Every random half is positive in every sub-period; the spread between halves
+(about +-0.1) is the sampling noise to expect on these Sharpes.
