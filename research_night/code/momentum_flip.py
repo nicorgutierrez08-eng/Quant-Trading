@@ -62,12 +62,51 @@ def stats(net: pd.Series, label: str) -> dict:
     return out
 
 
+def today(lab: str, top_frac: float | None, liquid_only: bool, threshold: float = 20.0) -> pd.DataFrame:
+    """Target weights for the flip book as of the last cached day: a separate
+    model that can be run next to the existing system without touching it."""
+    from . import switch_lab as SL
+    from .lab_prep import load
+
+    md, ctx, X, names = load(lab)
+    fred = pd.read_parquet(Path(lab) / "fred.parquet")
+    vix = fred["vix"].reindex(md.dates).ffill()
+    mask = ctx.tradable
+    if liquid_only:
+        mask = mask & (ctx.adv.where(mask).rank(axis=1, ascending=False) <= 300)
+    SL.TOP_FRAC = top_frac
+    z = composite(X, names, MOM, md.dates, md.tickers, mask)
+    reb = np.zeros(len(md.dates), bool)
+    reb[-1] = True                                   # rebalance as of the last day in the cache
+    w = monthly_weights(z, mask, reb).iloc[-1]
+    SL.TOP_FRAC = None
+    stressed = bool(vix.iloc[-1] > threshold)
+    w = -w if stressed else w
+    w = w[w != 0].sort_values()
+    out = pd.DataFrame({"weight": w, "side": np.where(w > 0, "long", "short")})
+    out.attrs["as_of"] = md.dates[-1]
+    out.attrs["vix"] = float(vix.iloc[-1])
+    out.attrs["stance"] = "short momentum (VIX above %.0f)" % threshold if stressed else "long momentum (VIX at or below %.0f)" % threshold
+    return out
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--lab", default="data/lab")
     ap.add_argument("--out", default="reports/momentum_flip")
+    ap.add_argument("--today", action="store_true", help="print today's target book instead of the backtest")
+    ap.add_argument("--top-frac", type=float, default=None, help="with --today: trade only the top/bottom fraction")
+    ap.add_argument("--liquid", action="store_true", help="with --today: 300 most liquid names only")
     args = ap.parse_args(argv)
     setup_logging()
+    if args.today:
+        book = today(args.lab, args.top_frac, args.liquid)
+        print(f"as of {book.attrs['as_of'].date()}  VIX {book.attrs['vix']:.1f}  ->  {book.attrs['stance']}")
+        print(f"{(book.side == 'long').sum()} longs, {(book.side == 'short').sum()} shorts, gross {book.weight.abs().sum():.2f}")
+        print(book.round(4).to_string())
+        Path(args.out).mkdir(parents=True, exist_ok=True)
+        book.to_csv(Path(args.out) / f"book_{book.attrs['as_of'].date()}.csv")
+        return
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     from .lab_prep import load
