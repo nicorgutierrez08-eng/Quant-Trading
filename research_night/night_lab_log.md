@@ -629,3 +629,24 @@ robustness / bootstrap battery on it.
 | + stock book + pairs + VIX > 20 switch | 1.04 | 1.10 | 10.2% | **-13%** |
 
 Same shape as with the HMM switch, slightly better in the check period.
+
+## 13:00 UTC - execution delay (VIX > 20 switch, all names, monthly)
+
+| trade ... after the signal | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| next open (as everywhere above) | 0.24 | 0.95 | 0.33 | 0.69 |
+| one day later | 0.14 | 1.04 | 0.22 | 0.69 |
+| two days later | 0.02 | 0.93 | 0.12 | 0.57 |
+
+Not fragile to a day's delay in the check period; the already-weak 2006-14
+edge is. Monthly signals should not depend on same-day execution, and these
+do not.
+
+## Closing note
+
+Everything above is in `research_night/` on the user's branch: code (runs
+against Arjun's `claude/keen-tesla-shs956`), 90+ result files, this log,
+`REPORT.md` and the stability review. Not done: a point-in-time (survivorship-
+free) re-run of the switch, which needs Alpaca keys; anything intraday or
+news-based (encrypted data not available); GBM in the live-pipeline
+comparison (did not finish in 2 hours).
