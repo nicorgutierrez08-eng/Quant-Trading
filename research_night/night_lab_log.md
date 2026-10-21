@@ -966,3 +966,19 @@ time - feasible with fractional shares at $10k, otherwise use fewer cohorts
 
 Every random half is positive in every sub-period; the spread between halves
 (about +-0.1) is the sampling noise to expect on these Sharpes.
+
+## 17:25 UTC - where the flip earns, by VIX level (staggered flip)
+
+| VIX at the time | share of days 06-14 / 15-26 | Sharpe 06-14 / 15-26 | return/yr 06-14 / 15-26 |
+|---|---|---|---|
+| below 15 (long momentum) | 32% / 35% | -0.51 / -0.03 | -1.6% / -0.1% |
+| 15-20 (long momentum) | 28% / 35% | 0.97 / 0.57 | 3.3% / 3.1% |
+| 20-25 (short momentum) | 18% / 16% | 0.36 / 1.15 | 2.1% / 8.0% |
+| 25-35 (short) | 13% / 11% | 1.46 / 0.34 | 11.8% / 4.3% |
+| above 35 (short) | 8% / 2% | 1.53 / 2.56 | 24% / 44% |
+
+Momentum earns nothing in dead-calm markets (VIX < 15, a third of all days)
+and the short leg's payoff rises with the VIX level. Going flat below 15 would
+raise the numbers, but that is a second threshold chosen after seeing both
+periods; noted as an observation, not adopted. The structure - two states,
+one threshold - stays.
