@@ -990,3 +990,12 @@ March, +1.2% in May); 2026 to date: -4.1% (short in March-April: -0.9%, -0.9%;
 long momentum since May: -4.2% in July, +3.7% in September). Two flat-to-poor
 years; the strategy has not paid since 2020-21 and anyone adopting it should
 expect long stretches like this between crises.
+
+## 17:45 UTC - light GBM live backtest (yearly refits, 100k rows per GBM fit), macro HMM arm
+
+Finished in ~3 h of CPU. Model Sharpes 2004-26, net: gbm **+0.23** (the only
+positive model), ensemble -0.07, ic_weighted -0.08, regime_ridge -0.16,
+kernel_ridge -0.19, ridge -0.25. GBM is the best stock model here as in
+Arjun's own full run (0.46 with refits every 63 days), and still well short
+of paying for the daily book. The 3-state arm of this comparison was still
+running at the time of writing.
