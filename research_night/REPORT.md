@@ -18,15 +18,18 @@ chronology and every intermediate number.
    44-signal library is both strong and stable.
 2. **Arjun's daily reversal system is dead on costs, not on signal.** The
    gross edge is still there (half of what it was); daily rebalancing costs
-   eat it. Trading monthly instead, and switching between reversal and
-   momentum by regime, gives a modest strategy that pays in crises. With the
-   regime defined as "VIX above 20": net Sharpe **0.24 / 0.95 / 0.33** in
-   2006-14 / 2015-20 / 2021-26 versus **-0.04 / 0.16 / 0.01** for monthly
-   reversal alone. It is net long the market in exactly the months the market
-   rebounds; **hedged for that beta it is 0.16 / 0.63 / 0.25** - the only
-   configuration tonight positive in all three sub-periods after hedging. A
-   real but small crisis-rebound alpha (1-5% a year at unit gross), not a
-   strategy to build an account on.
+   eat it. The tradable form of the pattern in point 1 turned out to be the
+   simplest one: **hold a monthly momentum book, and hold it short whenever
+   the VIX is above 20.** Nothing is fitted. Net Sharpe **0.61 / 1.06 / 0.37**
+   in 2006-14 / 2015-20 / 2021-26 (6.2% a year at unit gross, worst drawdown
+   -11%); **0.50 / 0.85 / 0.29 after hedging** the market beta it carries in
+   rebounds. It is robust to the threshold (18-22), the universe, a day's
+   execution delay, doubled costs, and works for each momentum signal on its
+   own. A learned reversal/momentum switch (the first version of this idea)
+   was worse in every sub-period (0.24 / 0.95 / 0.33). This is a real,
+   modest crisis-rebound edge - "momentum with a crash hedge" - not a
+   strategy to build an account on; its two +30% years (2009, 2020) are the
+   two great rebounds in a survivor universe.
 3. **The best regime model is the simplest, and the simplest is not an HMM.**
    Of 88 HMM variants (more states, fat-tailed emissions, sticky transitions,
    jump counts as a Poisson symptom, GARCH-standardised symptoms, dispersion,
@@ -144,7 +147,27 @@ bias Arjun flagged, and it flatters every result here.
   stocks from the reversal book cuts its gross Sharpe from 1.18 to 0.90 -
   jump risk is where reversal alpha lives.
 
-### The switch (what to trade)
+### The momentum flip (the simplest tradable form)
+
+Hold the momentum composite (12-1 month momentum + residual momentum +
+52-week high, equal-weighted z-scores, rebalanced every 21 days); when the
+VIX is above 20 at the rebalance, hold it short. Net of measured costs:
+
+| all 1,000 names | 2006-14 | 2015-20 | 2021-26 | 2015-26 | return/yr 15-26 | worst DD 15-26 |
+|---|---|---|---|---|---|---|
+| as traded | 0.61 | 1.06 | 0.37 | 0.76 | 6.2% | -11% |
+| beta-hedged | 0.50 | 0.85 | 0.29 | 0.59 | 4.6% | -18% |
+| threshold 18 / 22 | 0.38 / 0.73 | 1.05 / 0.95 | 0.49 / 0.10 | 0.80 / 0.58 | | |
+| top 300 names | 0.53 | 0.93 | 0.20 | 0.61 | 5.8% | -14% |
+| one-day delay / costs x2 | 0.59 / 0.51 | 1.08 / 0.99 | 0.29 / 0.29 | 0.73 / 0.68 | | |
+| each momentum signal alone | 0.51-0.58 | 0.87-1.09 | 0.24-0.49 | 0.60-0.75 | | |
+
+Turnover 0.035 a day, break-even 77 bp. Every fixed rule that shorts momentum
+in stress beat the IC-learned switch below; adding reversal to the stressed
+leg added nothing once short-momentum was there. The learned switch is kept
+below as the record of how the result was reached.
+
+### The switch (the first version, learned weights)
 
 Two monthly-rebalanced long/short books: reversal (rev_21d + Bollinger +
 RSI) and momentum (12-1 month + residual momentum + 52-week high). Capital
@@ -293,9 +316,10 @@ replace the daily book, don't re-tune it.
 
 1. **Stop trading the daily 5-day reversal stock book.** It is -0.5 net in
    both periods at measured costs under any regime model. If a stock book is
-   wanted, the monthly regime switch on "VIX > 20" is the candidate (0.24 /
-   0.95 / 0.33 as traded; 0.16 / 0.63 / 0.25 once its beta in rebounds is
-   hedged out) - a small crisis-rebound sleeve, sized accordingly, not the core.
+   wanted, the monthly momentum flip on "VIX > 20" is the candidate (0.61 /
+   1.06 / 0.37 as traded; 0.50 / 0.85 / 0.29 beta-hedged) - a crisis-rebound
+   sleeve, sized as such, not the core. Re-run it on a point-in-time universe
+   before trusting the 2009 and 2020 numbers.
 2. **Drop the HMM for the regime; use the VIX.** "Stressed when VIX > 20"
    (or above its long-run median) does what the best of 88 HMM variants does,
    with nothing to fit. If an HMM is kept for the regime_ridge model, the
