@@ -141,6 +141,13 @@ predicted IC is traded the other way (short momentum in stress).
 - Robust to design choices: 21- or 42-day rebalance, either book
   composition, either universe give 0.26-0.49 in 2015-26; 10-day rebalancing
   is too costly.
+- Where the money comes from (one leg at a time): **shorting momentum in
+  stressed markets** - buying the stocks that fell most, selling the ones that
+  rose most, i.e. the classic momentum crash - is the strongest and most
+  stable leg (Sharpe 0.81 / 0.75 / 0.03 in 2006-14 / 2015-20 / 2021-26).
+  Reversal in stress is second (0.49 / 0.48 / -0.21); momentum in calm third
+  (0.37 / 0.74 / -0.14). Reversal in calm markets *loses* after costs in every
+  period, so the "invariant" reversal edge is really a stressed-market effect.
 
 ### Multi-strategy book
 
