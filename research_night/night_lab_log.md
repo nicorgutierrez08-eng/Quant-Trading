@@ -1016,3 +1016,23 @@ The macro regime helps the two models that use the regime as an input (GBM
 +0.27, regime_ridge +0.04) and hurts kernel ridge; the ensemble is a wash and
 every configuration is -0.5 to -0.8 after 2015. Final word on the live
 pipeline: the regime model is not the problem, turnover is.
+
+## 18:00 UTC - bootstrap of the staggered flip (21-day blocks, 4,000 draws)
+
+| period | Sharpe 90% interval | median | P(Sharpe < 0) |
+|---|---|---|---|
+| 2006-14 | [0.04, 1.32] | 0.69 | 3.9% |
+| 2015-26 | [0.10, 0.94] | 0.52 | 2.4% |
+| 2015-20 | [0.16, 1.31] | 0.76 | 1.9% |
+| 2021-26 | [-0.38, 0.88] | 0.24 | 27% |
+
+Both full periods are positive at the 95% level; the last five years are not
+distinguishable from zero. That is the final, honest shape of the result.
+
+## Close (10:00 EDT)
+
+104 commits on the user's branch; all code, outputs and this log are in
+`research_night/`. Open items for the owners: merge Arjun's branch so the
+code runs here; re-run the flip and the book on a point-in-time universe
+(needs Alpaca keys); decide whether a crisis-rebound sleeve with two flat
+years behind it belongs in a $10k account.
