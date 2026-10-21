@@ -24,12 +24,17 @@ Everything here is in `research_night/` (code, reports, the running log
    market rebounds; **hedged for that beta it is 0.19 / 0.45 / -0.46** in
    2006-14 / 2015-20 / 2021-26. A real but small crisis-rebound alpha, not a
    strategy to build an account on, and nothing since 2021.
-3. **The best regime model is the simplest.** A 2-state hidden Markov model on
-   the VIX, the yield-curve slope and GARCH volatility. 88 variants were tried
-   (more states, fat-tailed emissions, sticky transitions, jump counts as a
-   Poisson symptom, GARCH-standardised symptoms, dispersion, breadth): none
-   beat it, most were worse, and none of them is a better *market timer* than
-   plain volatility targeting.
+3. **The best regime model is the simplest, and the simplest is not an HMM.**
+   Of 88 HMM variants (more states, fat-tailed emissions, sticky transitions,
+   jump counts as a Poisson symptom, GARCH-standardised symptoms, dispersion,
+   breadth, macro inputs) the best was a 2-state model on the VIX, the
+   yield-curve slope and GARCH volatility. But the rule "stressed when the
+   VIX is above 20" matches its states 84% of the time and does better in the
+   check period (switch Sharpe 0.24 / 0.95 / 0.33 by sub-period vs the HMM's
+   0.27 / 0.77 / -0.09); "VIX above its long-run median" does better still
+   after 2015 (0.91 / 0.43) but misses 2008. None of them is a better *market
+   timer* than plain volatility targeting. The regime that matters is the
+   level of the VIX; the machinery around it added nothing.
 4. **Two bugs in the existing research.** (a) The Poisson jump model's
    "-2.2 deviance explained" is a standardisation bug (a feature that is
    constant before 2015 gets divided by ~1e-12), not a finding; the models
@@ -243,10 +248,13 @@ replace the daily book, don't re-tune it.
    wanted, the monthly regime switch is the candidate (+0.3 / +0.4 as traded;
    0.2 / 0.45 / -0.46 once its beta in rebounds is hedged out) - a small
    crisis-rebound sleeve, sized accordingly, not the core.
-2. **If a regime model is kept, use the 2-state VIX + term-spread + GARCH
-   model** (`config/regime_macro.yaml`) rather than the 3-state rolling one,
-   whose switch would have looked useless in 2006-14 (-0.45) and great after.
-   Know its blind spot: an inverted yield curve reads as "stress" (2023).
+2. **Drop the HMM for the regime; use the VIX.** "Stressed when VIX > 20"
+   (or above its long-run median) does what the best of 88 HMM variants does,
+   with nothing to fit. If an HMM is kept for the regime_ridge model, the
+   2-state VIX + term-spread + GARCH one (`config/regime_macro.yaml`) is the
+   least bad; know its blind spot (an inverted yield curve reads as stress,
+   as in 2023) and that the current 3-state rolling model's switch would have
+   looked useless in 2006-14 (-0.45) and great after.
 3. **Add `pairs` to the ETF book first, the switch second**, both with a
    per-strategy weight cap so inverse-vol does not over-allocate to them.
 4. **Fix `poisson._poisson_glm`**: drop features constant in training (or
