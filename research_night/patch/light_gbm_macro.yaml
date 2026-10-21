@@ -1,0 +1,6 @@
+model:
+  retrain_every: 252
+  gbm_max_rows: 100000
+regime:
+  n_states: 2
+  features: macro

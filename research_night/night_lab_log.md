@@ -666,3 +666,11 @@ out and mean-revert); in calm markets it is ~0.1-0.3. Doubling its size in
 stress keeps the Sharpe and nearly doubles the return - a mild, consistent
 improvement, and the same lesson as the switch: in this universe the
 cross-sectional edges are crisis edges.
+
+## 14:10 UTC - GBM runs stopped again
+
+The six-model live backtests with refits every 126 days were also stopped at
+the 2-hour limit without output. Last attempt: yearly refits and 100k training
+rows per GBM fit, both arms alike (`config/light_gbm*.yaml`). If this does not
+finish either, the GBM comparison stays open; the four-model comparison and
+Arjun's own full run both say the same thing about the daily book.
