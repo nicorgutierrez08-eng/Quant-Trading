@@ -1082,3 +1082,20 @@ average (0 in 2004-06, 2013-14 and 2024; 4-5 in 2008, 2010, 2012, 2015-16,
 2018, 2021-22, 2025) and is in the stressed state about 30% of the time.
 Implementation-wise it is a handful of full book reversals a year, each
 costing roughly one month's turnover.
+
+## 18:25 UTC - which momentum signals the flip works for
+
+| signal, flipped by VIX > 20 (staggered) | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| mom_12_1 / resid_mom / high_52w (from the earlier table) | 0.5-0.6 | 0.9-1.1 | 0.2-0.5 | 0.6-0.75 |
+| trend_quality (3-month trend x R^2) | 0.38 | 0.53 | -0.17 | 0.20 |
+| mom_6_1 | 0.38 | 0.40 | -0.28 | 0.08 |
+| mom_accel | 0.03 | 0.28 | -0.19 | 0.08 |
+| cluster (industry) momentum | 0.05 | -0.33 | -0.26 | -0.29 |
+| overnight momentum | -0.76 | -0.57 | 0.41 | -0.05 |
+| five-signal composite incl. 6-1 and trend_quality | 0.63 | 0.64 | 0.04 | 0.38 |
+
+The flip is specific to 12-month-type stock momentum (12-1, residual, 52-week
+high) - the formation window the momentum-crash literature is about. Shorter
+windows, acceleration, industry and overnight momentum do not reverse in
+stress; adding them dilutes the book. The three-signal composite stays.
