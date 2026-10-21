@@ -344,12 +344,21 @@ replace the daily book, don't re-tune it.
    least bad; know its blind spot (an inverted yield curve reads as stress,
    as in 2023) and that the current 3-state rolling model's switch would have
    looked useless in 2006-14 (-0.45) and great after.
-3. **Add `pairs` to the ETF book first, the switch second**, both with a
-   per-strategy weight cap so inverse-vol does not over-allocate to them.
+3. **Add `pairs` to the ETF book first, the momentum flip second**, both with
+   a per-strategy weight cap so inverse-vol does not over-allocate to them.
    Size pairs up (about 2x) when the VIX is above 20; that is where it earns.
-   The three together at equal risk: Sharpe 1.02 / 1.28 / 1.15 by sub-period,
-   12.4% a year at 10% volatility, worst drawdown -12.6% (ETF book alone:
+   The three together at equal risk: Sharpe 1.11 / 1.43 / 1.12 by sub-period,
+   13.3% a year at 10% volatility, worst drawdown -11% (ETF book alone:
    0.87 / 0.85 / 0.96, 9.5%, -15%).
+
+   The flip, as a rule Arjun can implement in `qtrade` directly: on the
+   first trading day of each 21-day cycle, rank the tradable universe on the
+   equal-weighted z-score of `mom_12_1`, `resid_mom` and `high_52w`; go long
+   the top and short the bottom (all names weighted by z, or the top and
+   bottom decile for a small account), dollar-neutral, unit gross; if the VIX
+   closed above 20 the day before, hold the same book with the signs
+   reversed. Hold until the next cycle; fill at the next open. Costs assumed:
+   measured half-spreads by liquidity tier plus 1 bp.
 4. **Fix `poisson._poisson_glm`**: drop features constant in training (or
    floor the standard deviation); rank-standardise stock features per day;
    refit yearly. Fix or drop `downside_beta`.
