@@ -503,3 +503,16 @@ There have been three stress cycles in the sample; that is too few to decide
 how much weight a slow macro input should get, and the honest statement is
 that the regime switch is 0.2-0.5 Sharpe in crises with a model-choice risk
 of about +-0.3. Student-t emissions again change nothing useful.
+
+## 10:15 UTC - a concentrated switch (top and bottom decile only), as a small account would trade it
+
+| signed switch, HMM regimes, monthly | 2006-14 | 2015-20 | 2021-26 | 2015-26 | vol at unit gross |
+|---|---|---|---|---|---|
+| all names, diversified (~1,000 positions) | 0.27 | 0.77 | -0.09 | 0.42 | ~3% |
+| all names, top/bottom decile (~100 + 100) | 0.20 | 0.79 | -0.10 | 0.41 | 9% |
+| top 300, top/bottom decile (~30 + 30) | -0.05 | 0.86 | 0.21 | 0.57 | 11% |
+
+Concentrating to the extremes keeps the Sharpe and brings the volatility to
+~10% without leverage, which is the form a $10k account could actually hold
+(30 longs and 30 shorts of ~$160; shorting still needed for the stressed-
+regime leg). Break-even 33-48 bp; turnover 0.06/day.
