@@ -898,3 +898,27 @@ unflipped ETF trend is the right structure.
 Before the selection period: the stock flip has Sharpe 0.24 in 2001-03 (short
 momentum almost throughout the dot-com bust), 0.98 in 2004-05, 0.32 for
 2001-05 - positive in a stretch nothing was chosen on.
+
+## 16:50 UTC - start-day sensitivity: the headline was the lucky calendar
+
+Running the hard flip from each of the 21 possible start days of the 21-day
+cycle (everything else identical):
+
+| Sharpe across the 21 start days | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| mean | **0.62** | **0.68** | **0.19** | **0.46** |
+| min | 0.41 | 0.29 | -0.25 | 0.19 |
+| max | 0.83 | 1.06 | 0.48 | 0.79 |
+| start day 0 (what was reported above) | 0.61 | 1.06 | 0.37 | 0.76 |
+
+- 2006-14 is robust: positive from every start day (0.41-0.83). 2015-26 is
+  real but half the headline: mean 0.46, only 8 of 21 start days above 0.5,
+  and the reported 0.76 is the single best alignment. 2021-26 averages 0.19.
+- All the switch-family numbers above used start day 0 and inherit the same
+  luck; the HMM/tercile comparisons between regime models are unaffected
+  (same calendar for all), the absolute levels are not.
+- The fix is the standard one - stagger the book, 1/21 rebalanced each day -
+  which has no start-day luck; its numbers follow and replace the headline.
+- Smoothing the signal does not help: position = (20 - VIX)/10 gives 0.63,
+  a 5-day-averaged VIX 0.53, hysteresis (in above 22, out below 18) 0.64, all
+  vs 0.76 for the hard flip at the same (lucky) start day.
