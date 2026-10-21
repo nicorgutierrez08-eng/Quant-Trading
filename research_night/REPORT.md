@@ -189,7 +189,9 @@ quote for the strategy. By VIX level: long momentum earns nothing below VIX
 15 (a third of all days), 0.6-1.0 Sharpe between 15 and 20, and the short
 leg's payoff rises with the VIX (1.5-2.6 Sharpe above 35, on 2-8% of days).
 A "flat below 15" refinement would help but is a second threshold chosen
-with hindsight, so it is not adopted.
+with hindsight, so it is not adopted. Recent record: 2025 +1.0%, 2026 to date
+-4.1% at unit gross - it has not paid since 2020-21, and long flat stretches
+between crises are what to expect.
 
 For a small account: the top and bottom decile only, in the 300 most liquid
 names, staggered (about 100 positions at any time), gives 0.61 / 0.65 / 0.36
