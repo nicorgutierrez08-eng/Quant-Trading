@@ -50,11 +50,12 @@ chronology and every intermediate number.
    signal is broken and sits at the top of `best_correlations.csv` through
    its pairs. Also, every "1st period" table in his research covers 2001-2014,
    not 2006-2014 as documented, and 2001-2005 flatters reversal a lot.
-5. **Adding his `pairs` strategy and the switch to the ETF book raises its
-   Sharpe from 1.01 / 0.91 to about 1.06 / 1.05** (with a 25% cap per
-   strategy; 1.07 / 1.10 uncapped) and cuts the worst drawdown from -17% to
-   -13%, because those two earn in exactly the stressed markets where every ETF
-   sleeve loses. Regime-*tilting* the ETF sleeves themselves does not help.
+5. **Adding his `pairs` strategy (sized up when VIX > 20) and the staggered
+   momentum flip to the ETF book takes it from Sharpe 0.87 / 0.85 / 0.96 to
+   1.15 / 1.18 / 1.00** by sub-period, from 9.5% to 11.1% a year at the same
+   10% volatility, and cuts the worst drawdown from -15% to -12% - because
+   those two earn in exactly the stressed markets where every ETF sleeve
+   loses. Regime-*tilting* the ETF sleeves themselves does not help.
 
 ## What was built
 
@@ -177,6 +178,12 @@ phenomenon, which is why the book below keeps the ETF trend sleeves
 unflipped next to the flipped stock book. And before the selection period
 the flip was positive too: Sharpe 0.24 in 2001-03, 0.98 in 2004-05.
 
+**The staggered flip (1/21 of the book rebalanced each day; no start-day
+luck): Sharpe 0.67 / 0.74 / 0.22 by sub-period (0.52 for 2015-26), 3.7% a
+year at 7% volatility unlevered, worst drawdown -11%; beta-hedged 0.57 / 0.53
+/ 0.04.** Yearly: 2008 +13%, 2009 +29%, 2020 +22%; worst years -4% to -5%.
+These are the numbers to quote for the strategy.
+
 For a small account: the top and bottom decile only, in the 300 most liquid
 names (about 30 longs and 30 shorts, re-set monthly), gives 0.49 / 1.04 /
 0.20 by sub-period, about 10% a year at 15% volatility unlevered, worst
@@ -284,8 +291,9 @@ correlations -0.04 to 0.06), scaled to 10% volatility:
 | | 2006-14 | 2015-20 | 2021-26 | return/yr 2015-26 | worst drawdown | worst month |
 |---|---|---|---|---|---|---|
 | ETF book alone | 0.87 | 0.85 | 0.96 | 9.5% | -15% | -8.2% |
-| ETF + pairs (x2 in stress) + learned switch | 1.02 | 1.28 | 1.15 | 12.4% | -12.6% | -7.3% |
-| **ETF + pairs (x2 in stress) + momentum flip** | **1.11** | **1.43** | **1.12** | **13.3%** | **-11.2%** | -7.4% |
+| ETF + pairs (x2 in stress) | 1.01 | 0.91 | 1.07 | 10.4% | -16% | -7.8% |
+| **ETF + pairs (x2 in stress) + staggered momentum flip** | **1.15** | **1.18** | **1.00** | **11.1%** | **-11.8%** | **-6.8%** |
+| (same with the single-start-day flip, the earlier draft's figure) | 1.11 | 1.43 | 1.12 | 13.3% | -11.2% | -7.4% |
 
 Worst years 2018 -3.3%, 2022 -2.6%, 2016 -2.0%; best 2019 and 2020 +27%;
 2025 +19%, 2026 to date +9.5%. This blend is long equities through the ETF
@@ -354,9 +362,9 @@ replace the daily book, don't re-tune it.
 3. **Add `pairs` to the ETF book first, the momentum flip second**, both with
    a per-strategy weight cap so inverse-vol does not over-allocate to them.
    Size pairs up (about 2x) when the VIX is above 20; that is where it earns.
-   The three together at equal risk: Sharpe 1.11 / 1.43 / 1.12 by sub-period,
-   13.3% a year at 10% volatility, worst drawdown -11% (ETF book alone:
-   0.87 / 0.85 / 0.96, 9.5%, -15%).
+   The three together at equal risk (staggered flip): Sharpe 1.15 / 1.18 /
+   1.00 by sub-period, 11.1% a year at 10% volatility, worst drawdown -12%,
+   worst month -6.8% (ETF book alone: 0.87 / 0.85 / 0.96, 9.5%, -15%, -8.2%).
 
    The flip, as a rule Arjun can implement in `qtrade` directly: on the
    first trading day of each 21-day cycle, rank the tradable universe on the
