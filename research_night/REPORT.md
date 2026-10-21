@@ -164,13 +164,14 @@ predicted IC is traded the other way (short momentum in stress).
 
 ### Multi-strategy book
 
-| inverse-vol weights, 10% vol | 2006-14 | 2015-26 |
+| inverse-vol weights, 10% vol, 25% cap per strategy | 2006-14 | 2015-26 |
 |---|---|---|
 | 8 ETF sleeves (Arjun's book) | 1.01 | 0.91 |
 | + stock book | 1.00 | 0.91 |
+| + pairs | 1.05 | 0.96 |
 | + regime switch | 0.99 | 0.99 |
-| **+ regime switch + pairs** | **1.07** | **1.10** |
-| + switch + pairs, 25% cap per strategy | 1.06 | 1.05 |
+| **+ pairs + regime switch** | **1.06** | **1.05** |
+| (uncapped, + pairs + switch) | 1.07 | 1.10 |
 
 Regime-tilting the sleeves (HMM or terciles) never beats inverse-vol in both
 periods: in stress every long-biased sleeve has Sharpe ~0, and vol targeting
