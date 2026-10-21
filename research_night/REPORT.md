@@ -162,6 +162,11 @@ VIX is above 20 at the rebalance, hold it short. Net of measured costs:
 | one-day delay / costs x2 | 0.59 / 0.51 | 1.08 / 0.99 | 0.29 / 0.29 | 0.73 / 0.68 | | |
 | each momentum signal alone | 0.51-0.58 | 0.87-1.09 | 0.24-0.49 | 0.60-0.75 | | |
 
+For a small account: the top and bottom decile only, in the 300 most liquid
+names (about 30 longs and 30 shorts, re-set monthly), gives 0.49 / 1.04 /
+0.20 by sub-period, about 10% a year at 15% volatility unlevered, worst
+drawdown -19%. Shorting is needed in the stressed months.
+
 Turnover 0.035 a day, break-even 77 bp. For scale: the same momentum book
 *never* flipped is -0.47 / -0.28 / -0.16 - in this universe long/short
 momentum loses in every sub-period, and the flip is the whole difference.
