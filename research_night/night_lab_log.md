@@ -782,3 +782,15 @@ VIX > 20 switch, all names, 2015-26 (unit gross, total net +52.6%):
   energy +10%, real estate +9%; health care -2% (biotech jumps are where
   reversal and momentum both fail). Cyclicals' crash-and-rebound is the
   engine, as expected for a stressed-market strategy.
+
+## 15:45 UTC - cost stress (VIX > 20 switch, monthly)
+
+| measured costs x | all names 2006-14 / 2015-20 / 2021-26 / 2015-26 | top 300 2015-26 |
+|---|---|---|
+| 1 | 0.24 / 0.95 / 0.33 / 0.69 | 0.57 |
+| 2 | 0.08 / 0.87 / 0.23 / 0.60 | 0.53 |
+| 3 | -0.08 / 0.79 / 0.13 / 0.51 | 0.48 |
+
+Tripling the spreads (to ~10-40 bp one way) still leaves 0.5 in the check
+period; the thin 2006-14 edge is gone at 3x. Monthly turnover is what makes
+this survivable where the daily book is not.
