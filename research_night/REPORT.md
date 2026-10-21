@@ -223,6 +223,19 @@ clearly worse at 16 or 25.
 The improvement is in risk, not return: the same ~10% a year with a smaller
 worst loss, because the two new sleeves earn when the ETF sleeves lose.
 
+Put together as three components at roughly equal risk (Arjun's ETF book,
+his pairs book sized 2x when VIX > 20, the VIX > 20 switch; pairwise
+correlations -0.04 to 0.06), scaled to 10% volatility:
+
+| | 2006-14 | 2015-20 | 2021-26 | return/yr 2015-26 | worst drawdown | worst month |
+|---|---|---|---|---|---|---|
+| ETF book alone | 0.87 | 0.85 | 0.96 | 9.5% | -15% | -8.2% |
+| **ETF + pairs (x2 in stress) + switch** | **1.02** | **1.28** | **1.15** | **12.4%** | **-12.6%** | -7.3% |
+
+Worst years 2018 -3.3%, 2022 -2.6%, 2016 -2.0%; best 2019 and 2020 +27%;
+2025 +19%, 2026 to date +9.5%. This blend is long equities through the ETF
+book and the switch's rebound beta; it is not market-neutral.
+
 Regime-tilting the sleeves (HMM or terciles) never beats inverse-vol in both
 periods: in stress every long-biased sleeve has Sharpe ~0, and vol targeting
 already cuts exposure. The switch and `pairs` are the only strategies that
