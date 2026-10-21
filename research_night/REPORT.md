@@ -162,8 +162,11 @@ VIX is above 20 at the rebalance, hold it short. Net of measured costs:
 | one-day delay / costs x2 | 0.59 / 0.51 | 1.08 / 0.99 | 0.29 / 0.29 | 0.73 / 0.68 | | |
 | each momentum signal alone | 0.51-0.58 | 0.87-1.09 | 0.24-0.49 | 0.60-0.75 | | |
 
-Turnover 0.035 a day, break-even 77 bp. Every fixed rule that shorts momentum
-in stress beat the IC-learned switch below; adding reversal to the stressed
+Turnover 0.035 a day, break-even 77 bp. For scale: the same momentum book
+*never* flipped is -0.47 / -0.28 / -0.16 - in this universe long/short
+momentum loses in every sub-period, and the flip is the whole difference.
+Every fixed rule that shorts momentum in stress beat the IC-learned switch
+below; adding reversal to the stressed
 leg added nothing once short-momentum was there. The learned switch is kept
 below as the record of how the result was reached.
 
@@ -261,7 +264,8 @@ correlations -0.04 to 0.06), scaled to 10% volatility:
 | | 2006-14 | 2015-20 | 2021-26 | return/yr 2015-26 | worst drawdown | worst month |
 |---|---|---|---|---|---|---|
 | ETF book alone | 0.87 | 0.85 | 0.96 | 9.5% | -15% | -8.2% |
-| **ETF + pairs (x2 in stress) + switch** | **1.02** | **1.28** | **1.15** | **12.4%** | **-12.6%** | -7.3% |
+| ETF + pairs (x2 in stress) + learned switch | 1.02 | 1.28 | 1.15 | 12.4% | -12.6% | -7.3% |
+| **ETF + pairs (x2 in stress) + momentum flip** | **1.11** | **1.43** | **1.12** | **13.3%** | **-11.2%** | -7.4% |
 
 Worst years 2018 -3.3%, 2022 -2.6%, 2016 -2.0%; best 2019 and 2020 +27%;
 2025 +19%, 2026 to date +9.5%. This blend is long equities through the ETF
