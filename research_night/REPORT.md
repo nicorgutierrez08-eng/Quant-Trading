@@ -223,16 +223,18 @@ fast models (ridge, regime_ridge, ic_weighted), once with the current 3-state
 rolling HMM and once with the 2-state VIX + term-spread HMM
 (`config/regime_macro.yaml`):
 
-| | current 3-state | 2-state macro |
+| four models (ridge, regime_ridge, kernel_ridge, ic_weighted) | current 3-state | 2-state macro |
 |---|---|---|
-| regime_ridge mean IC | 0.009 | **0.012** |
-| ensemble Sharpe 2004-14 / 2015-20 / 2021-26 | 0.34 / -0.60 / -0.71 | 0.49 / -0.66 / -0.68 |
-| frictionless ensemble Sharpe | 0.86 | 0.93 |
+| regime_ridge Sharpe / mean IC | -0.24 / 0.009 | -0.20 / **0.012** |
+| ensemble Sharpe 2004-14 / 2015-20 / 2021-26 | 0.47 / -0.67 / -0.66 | 0.47 / -0.70 / -0.71 |
+| frictionless ensemble Sharpe | 0.83 | 0.91 |
 
-The better regime model improves the forecasts (regime-conditional IC up a
+The better regime model improves the regime-conditional forecast (IC up a
 third) but cannot save the daily book: at 16x annual turnover and measured
-spreads it loses money after 2015 under either HMM. Same conclusion as the
-labs - replace the daily book, don't re-tune it.
+spreads it loses about 0.7 Sharpe a year after 2015 under either HMM. (The
+runs including GBM did not finish in the 2-hour limit; Arjun's own full run
+shows the same second-half sign with GBM.) Same conclusion as the labs -
+replace the daily book, don't re-tune it.
 
 ## What to change in Arjun's system (concrete)
 
