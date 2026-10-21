@@ -54,6 +54,10 @@ Everything here is in `research_night/` (code, reports, the running log
 
 They import from Arjun's `claude/keen-tesla-shs956` branch (the research
 package), so they need that branch merged into this one to run.
+`research_night/patch/` holds the small change that lets his live pipeline use
+the 2-state macro HMM (`config/regime_macro.yaml`), tested end to end on the
+synthetic demo; the real-data comparison against the current 3-state model is
+in the "Live pipeline" section below once it finishes.
 
 ## Findings in more detail
 

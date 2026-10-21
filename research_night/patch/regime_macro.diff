@@ -1,0 +1,35 @@
+diff --git a/qtrade/config.py b/qtrade/config.py
+index e6413b7..d3cb9cb 100644
+--- a/qtrade/config.py
++++ b/qtrade/config.py
+@@ -47,6 +47,7 @@ class RegimeConfig:
+     max_iter: int = 200
+     temper: float = 1.0              # weight of each day's evidence (<1: less overconfident)
+     align: bool = False              # keep regime labels fixed across refits (else sort by volatility)
++    features: str = "rolling"        # HMM symptoms: "rolling" (market_state) or "macro" (GARCH vol, VIX, term spread)
+ 
+ 
+ @dataclass
+diff --git a/qtrade/pipeline.py b/qtrade/pipeline.py
+index 6faee7d..ff606d1 100644
+--- a/qtrade/pipeline.py
++++ b/qtrade/pipeline.py
+@@ -71,10 +71,16 @@ def build_research(md: MarketData, cfg: Config, final_refit: bool = False,
+     target = cs_rank_gauss(fwd.clip(-0.5, 0.5)).to_numpy(dtype=np.float32)
+ 
+     rc = cfg.regime
++    if rc.features == "macro":
++        from .features.macro_state import macro_state
++
++        state, vol_column = macro_state(ctx, cfg.data.cache_dir), "log_sigma"
++    else:
++        state, vol_column = ctx.market_state, "log_rvol"
+     regimes, fits = walk_forward_regimes(
+-        ctx.market_state, n_states=rc.n_states, refit_every=rc.refit_every,
++        state, n_states=rc.n_states, refit_every=rc.refit_every,
+         min_history=rc.min_history, n_init=rc.n_init, max_iter=rc.max_iter, seed=cfg.model.seed,
+-        temper=rc.temper, align=rc.align,
++        vol_column=vol_column, temper=rc.temper, align=rc.align,
+     )
+     ctx.regimes = regimes          # the portfolio can size by regime (portfolio.regime_ic)
+     wf = walk_forward(feats, target, regimes.to_numpy(), md.dates, cfg,
