@@ -183,6 +183,11 @@ clearly worse at 16 or 25.
   (0.10-0.48 and 0.04-0.71); 21-day rebalancing is best, 10-day too costly.
   The HMM switch had several negative cells. Trading one day late leaves
   2015-26 unchanged (0.69); two days late gives 0.57.
+- Not a few lucky names: 60% of stocks contributed positively in 2015-26, the
+  top 10 names are 15% of the P&L (dropping them: Sharpe 0.93 -> 0.82 in
+  2015-20), net sector exposures stay within +-2% of gross, and the gains come
+  from cyclicals (discretionary, industrials, energy, real estate); health care
+  is the one losing sector.
 - Where the money comes from (one leg at a time): **shorting momentum in
   stressed markets** - buying the stocks that fell most, selling the ones that
   rose most, i.e. the classic momentum crash - is the strongest and most
