@@ -1067,3 +1067,10 @@ bias is largest (the smaller names) but still 0.4-0.5 in the hundred most
 traded stocks, where the universe is closest to point-in-time. The best
 evidence tonight that the effect is not purely a survivor artefact - and
 mega-caps are where a larger account could run it.
+
+## 18:15 UTC - weighting scheme does not matter
+
+Staggered flip (7 cohorts), all names: z-weighted 0.65 / 0.68 / 0.20
+(2015-26 0.48); rank-linear 0.66 / 0.67 / 0.26 (0.49); equal-weight top and
+bottom 30% 0.63 / 0.66 / 0.29 (0.50). The result is the sign rule, not the
+weighting.
