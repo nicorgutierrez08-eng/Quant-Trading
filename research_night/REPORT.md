@@ -234,6 +234,11 @@ better in both periods (1.01 / 0.81). Leave it as it is. Note the unlevered
 book has ~1% volatility and kurtosis ~46; it needs ~10x leverage to matter,
 which is where the fat tails bite.
 
+Pairs is a crisis strategy too: its Sharpe is 0.89 / 0.64 / 0.89 by
+sub-period when the VIX is above 20 and 0.09 / 0.29 / 0.28 when it is not.
+Doubling its size when VIX > 20 keeps the Sharpe (0.89 / 0.70 / 0.90) and
+nearly doubles the return - a mild, consistent improvement.
+
 ### Live pipeline: the two regime models head to head
 
 Arjun's actual backtest (`python -m qtrade backtest`), run twice with the

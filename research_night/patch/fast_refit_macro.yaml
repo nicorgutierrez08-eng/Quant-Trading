@@ -1,0 +1,6 @@
+# As fast_refit.yaml, with the 2-state macro regime model.
+model:
+  retrain_every: 126
+regime:
+  n_states: 2
+  features: macro

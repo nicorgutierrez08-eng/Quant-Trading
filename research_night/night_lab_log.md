@@ -650,3 +650,19 @@ against Arjun's `claude/keen-tesla-shs956`), 90+ result files, this log,
 free) re-run of the switch, which needs Alpaca keys; anything intraday or
 news-based (encrypted data not available); GBM in the live-pipeline
 comparison (did not finish in 2 hours).
+
+## 13:10 UTC - pairs is a stressed-market strategy too
+
+| Arjun's pairs book (unlevered) | 2006-14 | 2015-20 | 2021-26 | 2015-26 | return/yr 15-26 |
+|---|---|---|---|---|---|
+| constant | 0.85 | 0.71 | 0.76 | 0.72 | 0.8% |
+| only when VIX > 20 (two days earlier) | 0.89 | 0.64 | 0.89 | 0.68 | 0.6% |
+| only when VIX <= 20 | 0.09 | 0.29 | 0.28 | 0.28 | 0.2% |
+| **x2 when VIX > 20** | 0.89 | 0.70 | 0.90 | 0.74 | 1.4% |
+| x3 when VIX > 20 | 0.90 | 0.69 | 0.92 | 0.73 | 2.1% |
+
+Almost all of pairs' Sharpe is earned when the VIX is above 20 (spreads blow
+out and mean-revert); in calm markets it is ~0.1-0.3. Doubling its size in
+stress keeps the Sharpe and nearly doubles the return - a mild, consistent
+improvement, and the same lesson as the switch: in this universe the
+cross-sectional edges are crisis edges.
