@@ -173,6 +173,10 @@ predicted IC is traded the other way (short momentum in stress).
   Reversal in stress is second (0.49 / 0.48 / -0.21); momentum in calm third
   (0.37 / 0.74 / -0.14). Reversal in calm markets *loses* after costs in every
   period, so the "invariant" reversal edge is really a stressed-market effect.
+- For a small account: trading only the top and bottom decile by signal
+  (about 30 longs and 30 shorts in the 300 most liquid names) keeps the Sharpe
+  (-0.05 / 0.86 / 0.21 by sub-period, 0.57 for 2015-26) and runs at ~10%
+  volatility unlevered. Shorting is still required for the stressed-regime leg.
 - A warning about long-only versions: "buy the losers in stress" looks like a
   1.0-Sharpe, 20%-a-year line in 2015-26, but owning the *whole* market in the
   same stressed months gives 1.06 and 15.7% - the regime is flagged after the
