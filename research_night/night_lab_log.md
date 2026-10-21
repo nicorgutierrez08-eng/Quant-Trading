@@ -942,3 +942,15 @@ worst 2006 -5%, 2007 -4%, 2026 to date -4%. Turnover 0.033/day.
 These replace the earlier (start-day-0) 1.11 / 1.43 / 1.12 as the numbers to
 quote. The structure holds - the flip adds ~0.15-0.3 of Sharpe to the book
 and cuts the worst drawdown by a quarter - at a more modest level.
+
+## 17:10 UTC - staggered, concentrated flip (small-account form, no start-day luck)
+
+| staggered flip | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr 15-26 | vol | maxDD 15-26 | names held |
+|---|---|---|---|---|---|---|---|---|
+| top 300, top/bottom decile | 0.61 | 0.65 | 0.36 | 0.52 | 6.7% | 12.9% | -19% | ~100 |
+| all names, top/bottom decile | 0.70 | 0.75 | 0.20 | 0.51 | 5.5% | 10.8% | -16% | ~285 |
+| top 300, every name by z | 0.59 | 0.58 | 0.34 | 0.47 | 4.0% | 8.5% | -13% | ~330 |
+
+Staggering 21 cohorts of 30 + 30 names means ~100 distinct positions at any
+time - feasible with fractional shares at $10k, otherwise use fewer cohorts
+(e.g. 4 weekly cohorts) and accept some start-day variance.
