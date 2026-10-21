@@ -693,3 +693,23 @@ Arjun's own full run both say the same thing about the daily book.
 3. **Switch at a 10% vol target**: 2015-26 Sharpe 0.77, 8.6% a year, worst
    drawdown -14%, worst month -5.6%; but 2004-14 drawdown -26%. At unit gross:
    4.5% a year, 6.6% vol, -9% drawdown.
+
+## 14:30 UTC - the long-only "losers in stress" line, hedged with SPY: handle with care
+
+| long losers when VIX > 20, all names | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr 15-26 | maxDD 15-26 | maxDD 06-14 |
+|---|---|---|---|---|---|---|---|
+| hedged 1:1 with the equal-weight universe | 0.52 | 0.83 | 0.59 | 0.71 | 6.1% | -12% | - |
+| hedged 1:1 with SPY | 0.28 | 0.54 | 0.36 | 0.46 | 8.2% | -21% | -37% |
+| hedged with SPY x trailing beta | 0.44 | 1.01 | 0.77 | 0.89 | 16.0% | -22% | **-49%** |
+| top-decile losers, SPY x beta | 0.46 | 1.01 | 0.76 | 0.89 | 18.9% | -27% | -56% |
+
+- Yearly returns of the beta-matched line: 2008 -1%, **2009 +66%**, 2016 +20%,
+  2019 +20%, **2020 +83%**, 2021 +19%, 2025 +22%, with -49% to -56% drawdowns
+  inside 2008-09. This is the momentum crash seen from the long side: buying
+  the biggest losers in a crisis loses violently while the crisis deepens and
+  pays enormously in the rebound. The 2020 and 2009 numbers are also exactly
+  where survivorship bias is largest (today's 1,000 largest names include the
+  ones that crashed and recovered). A SPY hedge does not remove the small-cap
+  and high-beta exposure of the losers; the equal-weight-universe hedge does,
+  and that version (0.5-0.8 Sharpe, ~6% a year, -12% drawdown) is the honest
+  one. Not a $10k-account strategy in its SPY-hedged form.
