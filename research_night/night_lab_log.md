@@ -999,3 +999,20 @@ kernel_ridge -0.19, ridge -0.25. GBM is the best stock model here as in
 Arjun's own full run (0.46 with refits every 63 days), and still well short
 of paying for the daily book. The 3-state arm of this comparison was still
 running at the time of writing.
+
+## 17:55 UTC - light GBM live backtest, both arms (yearly refits, 100k rows per GBM fit)
+
+| net Sharpe 2004-26 | 3-state rolling HMM | 2-state VIX + term HMM |
+|---|---|---|
+| gbm | -0.04 | **+0.23** |
+| regime_ridge | -0.20 | -0.16 |
+| kernel_ridge | -0.07 | -0.19 |
+| ic_weighted | -0.08 | -0.08 |
+| ridge | -0.25 | -0.25 |
+| ensemble | -0.02 | -0.07 |
+| ensemble 2004-14 / 2015-20 / 2021-26 | 0.62 / -0.62 / -0.53 | 0.72 / -0.78 / -0.57 |
+
+The macro regime helps the two models that use the regime as an input (GBM
++0.27, regime_ridge +0.04) and hurts kernel ridge; the ensemble is a wash and
+every configuration is -0.5 to -0.8 after 2015. Final word on the live
+pipeline: the regime model is not the problem, turnover is.
