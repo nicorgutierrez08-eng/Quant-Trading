@@ -117,6 +117,11 @@ def run(md, ctx, X, names, probs: dict[str, pd.DataFrame], out: Path) -> pd.Data
             books[f"stress-only short momentum: {pname}"] = -w_mom.mul(stressed.fillna(0), axis=0)
             books[f"calm-only momentum: {pname}"] = w_mom.mul((1 - stressed).fillna(0), axis=0)
             books[f"calm-only reversal: {pname}"] = w_rev.mul((1 - stressed).fillna(0), axis=0)
+            # the two sides of "short momentum in stress": long the losers vs short the winners (each unit gross)
+            losers = (-w_mom).clip(lower=0)
+            winners = (-w_mom).clip(upper=0)
+            books[f"stress-only long losers: {pname}"] = losers.div(losers.abs().sum(axis=1).replace(0, np.nan), axis=0).fillna(0).mul(stressed.fillna(0), axis=0)
+            books[f"stress-only short winners: {pname}"] = winners.div(winners.abs().sum(axis=1).replace(0, np.nan), axis=0).fillna(0).mul(stressed.fillna(0), axis=0)
         for bname, w in books.items():
             st = summarize(portfolio_stats(w, r1, cost))
             rows.append({"universe": uni_name, "book": bname, **st})

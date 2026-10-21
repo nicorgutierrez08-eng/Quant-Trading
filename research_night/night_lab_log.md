@@ -404,3 +404,26 @@ running.
   (0.40, 0.12): the HMM's regimes are better early, the terciles' later.
 - Returns are small in absolute terms at unit gross (2.5-3% a year); at a 10%
   volatility target this is a 4-6% a year market-neutral book.
+
+## 09:20 UTC - the "long losers in stress" leg is mostly market beta
+
+Splitting stress-only short momentum into its two sides (each unit gross):
+
+| all names, net | 2006-14 | 2015-20 | 2021-26 | 2015-26 | return/yr 15-26 |
+|---|---|---|---|---|---|
+| stress-only **long losers** | 0.62 | 1.17 | 0.76 | 0.98 | 20.0% |
+| stress-only short winners | -0.35 | -1.18 | -0.97 | -1.06 | -14.0% |
+| stress-only long *the whole market* (equal weight) | 0.50 | 1.22 | 0.89 | 1.06 | 15.7% |
+| long losers minus the market (the actual alpha) | **0.80** | **0.83** | 0.15 | 0.55 | 4.3% |
+
+- A long-only book is long the market, and in 2015-26 the market's Sharpe in
+  HMM-stressed months was 1.66 vs -0.1 in calm months: the regime is flagged
+  after the fall, so "buy when the HMM says stress" caught the rebounds of
+  2016, 2019, 2020 and 2023. In 2006-14 the same rule gave 0.50 (2008 was a
+  stressed regime that kept falling), well below vol-managed exposure (0.99),
+  so it is not a timing rule anyone would have adopted in 2014.
+- The loser-rebound alpha net of the market is real but modest: Sharpe 0.80 /
+  0.83 in 2006-14 / 2015-20, 0.15 in 2021-26; losers have beta 1.27 in stress.
+- For a small account that cannot short: long losers in stress + nothing in
+  calm is a 20%-a-year, 0.98-Sharpe line in 2015-26 but it is 75% market
+  rebound; its 2006-14 Sharpe of 0.62 includes a 2008 drawdown.
