@@ -18,12 +18,14 @@ Everything here is in `research_night/` (code, reports, the running log
 2. **Arjun's daily reversal system is dead on costs, not on signal.** The
    gross edge is still there (half of what it was); daily rebalancing costs
    eat it. Trading monthly instead, and switching between reversal and
-   momentum by regime, gives a modest strategy that pays in crises: net Sharpe
-   about **0.3 (2006-14) / 0.4 (2015-26)** versus **-0.04 / 0.09** for monthly
-   reversal alone. But it is net long the market in exactly the months the
-   market rebounds; **hedged for that beta it is 0.19 / 0.45 / -0.46** in
-   2006-14 / 2015-20 / 2021-26. A real but small crisis-rebound alpha, not a
-   strategy to build an account on, and nothing since 2021.
+   momentum by regime, gives a modest strategy that pays in crises. With the
+   regime defined as "VIX above 20": net Sharpe **0.24 / 0.95 / 0.33** in
+   2006-14 / 2015-20 / 2021-26 versus **-0.04 / 0.16 / 0.01** for monthly
+   reversal alone. It is net long the market in exactly the months the market
+   rebounds; **hedged for that beta it is 0.16 / 0.63 / 0.25** - the only
+   configuration tonight positive in all three sub-periods after hedging. A
+   real but small crisis-rebound alpha (1-5% a year at unit gross), not a
+   strategy to build an account on.
 3. **The best regime model is the simplest, and the simplest is not an HMM.**
    Of 88 HMM variants (more states, fat-tailed emissions, sticky transitions,
    jump counts as a Poisson symptom, GARCH-standardised symptoms, dispersion,
@@ -168,8 +170,8 @@ clearly worse at 16 or 25.
 - Beta: dollar-neutral but not beta-neutral. In stressed months it buys
   high-beta losers and sells low-beta winners (beta 0.28 in 2015-20), so it is
   net long when the market rebounds. Hedged with the trailing 252-day beta the
-  Sharpe is 0.19 / 0.45 / -0.46 in 2006-14 / 2015-20 / 2021-26. That is the
-  number to carry.
+  HMM switch is 0.19 / 0.45 / -0.46 in 2006-14 / 2015-20 / 2021-26 and the
+  VIX > 20 switch 0.16 / 0.63 / 0.25. Those are the numbers to carry.
 - Bootstrap (21-day blocks) of the 2015-26 Sharpe: 90% interval [0.00, 0.78];
   probability it is really below zero 4.8%; probability it does not beat
   plain reversal 6.2%. Borderline, one out-of-sample period.
@@ -250,9 +252,9 @@ replace the daily book, don't re-tune it.
 
 1. **Stop trading the daily 5-day reversal stock book.** It is -0.5 net in
    both periods at measured costs under any regime model. If a stock book is
-   wanted, the monthly regime switch is the candidate (+0.3 / +0.4 as traded;
-   0.2 / 0.45 / -0.46 once its beta in rebounds is hedged out) - a small
-   crisis-rebound sleeve, sized accordingly, not the core.
+   wanted, the monthly regime switch on "VIX > 20" is the candidate (0.24 /
+   0.95 / 0.33 as traded; 0.16 / 0.63 / 0.25 once its beta in rebounds is
+   hedged out) - a small crisis-rebound sleeve, sized accordingly, not the core.
 2. **Drop the HMM for the regime; use the VIX.** "Stressed when VIX > 20"
    (or above its long-run median) does what the best of 88 HMM variants does,
    with nothing to fit. If an HMM is kept for the regime_ridge model, the
