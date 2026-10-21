@@ -1074,3 +1074,11 @@ Staggered flip (7 cohorts), all names: z-weighted 0.65 / 0.68 / 0.20
 (2015-26 0.48); rank-linear 0.66 / 0.67 / 0.26 (0.49); equal-weight top and
 bottom 30% 0.63 / 0.66 / 0.29 (0.50). The result is the sign rule, not the
 weighting.
+
+## 18:20 UTC - how often the stance changes
+
+On a monthly cycle the VIX > 20 rule changes sign about 2.4 times a year on
+average (0 in 2004-06, 2013-14 and 2024; 4-5 in 2008, 2010, 2012, 2015-16,
+2018, 2021-22, 2025) and is in the stressed state about 30% of the time.
+Implementation-wise it is a handful of full book reversals a year, each
+costing roughly one month's turnover.
