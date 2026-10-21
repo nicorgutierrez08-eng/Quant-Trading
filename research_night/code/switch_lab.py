@@ -46,8 +46,14 @@ def composite(X: np.ndarray, names: list[str], members: list[str], index, column
     return sum(zs) / len(zs)
 
 
+TOP_FRAC: float | None = None     # e.g. 0.1 = trade only the top and bottom decile by z (a concentrated book)
+
+
 def monthly_weights(z: pd.DataFrame, mask: pd.DataFrame, rebalance: np.ndarray) -> pd.DataFrame:
     """Unit-gross long/short weights set on rebalance days and held until the next one."""
+    if TOP_FRAC:
+        pct = z.where(mask).rank(axis=1, pct=True)
+        mask = mask & ((pct <= TOP_FRAC) | (pct >= 1 - TOP_FRAC))
     w = _weights(z, mask)
     held = w.where(pd.Series(rebalance, index=z.index), np.nan).ffill().fillna(0.0)
     return held
@@ -165,7 +171,10 @@ def main(argv=None):
     ap.add_argument("--out", default="reports/switch_lab")
     ap.add_argument("--rev", default=",".join(REV), help="signals in the reversal book")
     ap.add_argument("--mom", default=",".join(MOM), help="signals in the momentum book")
+    ap.add_argument("--top-frac", type=float, default=None, help="trade only the top/bottom fraction by z")
     args = ap.parse_args(argv)
+    global TOP_FRAC
+    TOP_FRAC = args.top_frac
     REV[:] = args.rev.split(",")
     MOM[:] = args.mom.split(",")
     setup_logging()
