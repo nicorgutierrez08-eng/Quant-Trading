@@ -523,3 +523,18 @@ Both full-model runs (ridge, regime_ridge, kernel_ridge, gbm, ic_weighted) were
 stopped at the 2-hour limit without output: GBM over ~90 walk-forward refits
 on 1,000 stocks is a 4+ hour job on this machine. Re-running the comparison
 with the four non-GBM models instead.
+
+## 11:20 UTC - live pipeline, four models (ridge, regime_ridge, kernel_ridge, ic_weighted)
+
+| | 3-state rolling HMM | 2-state VIX + term HMM |
+|---|---|---|
+| regime_ridge Sharpe / IC | -0.24 / 0.009 | -0.20 / 0.012 |
+| kernel_ridge Sharpe / IC | -0.17 / 0.006 | -0.21 / 0.006 |
+| ensemble Sharpe 2004-14 / 2015-20 / 2021-26 | 0.47 / -0.67 / -0.66 | 0.47 / -0.70 / -0.71 |
+| frictionless ensemble | 0.83 | 0.91 |
+
+Same answer with four models as with three: the regime model moves the
+regime-conditional forecast a little and the live book not at all. The daily
+stock book is -0.7 Sharpe after costs in both halves of 2015-26 under either
+regime model. (The six-model runs including GBM did not finish in 2 hours;
+Arjun's own full run shows the same second-half sign with GBM included.)
