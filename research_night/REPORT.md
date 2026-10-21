@@ -182,14 +182,18 @@ predicted IC is traded the other way (short momentum in stress).
 
 ### Multi-strategy book
 
-| inverse-vol weights, 10% vol, 25% cap per strategy | 2006-14 | 2015-26 |
-|---|---|---|
-| 8 ETF sleeves (Arjun's book) | 1.01 | 0.91 |
-| + stock book | 1.00 | 0.91 |
-| + pairs | 1.05 | 0.96 |
-| + regime switch | 0.99 | 0.99 |
-| **+ pairs + regime switch** | **1.06** | **1.05** |
-| (uncapped, + pairs + switch) | 1.07 | 1.10 |
+| inverse-vol weights, 10% vol, 25% cap per strategy | Sharpe 2006-14 | Sharpe 2015-26 | return/yr 2015-26 | worst drawdown 2015-26 |
+|---|---|---|---|---|
+| 8 ETF sleeves (Arjun's book) | 1.01 | 0.91 | 9.6% | -17% |
+| + stock book | 1.00 | 0.91 | 9.5% | -15% |
+| + pairs | 1.05 | 0.96 | 9.7% | -17% |
+| + regime switch | 0.99 | 0.99 | 10.3% | -17% |
+| **+ pairs + regime switch** | **1.06** | **1.05** | 9.9% | -15% |
+| + stock book + pairs + switch | 1.06 | 1.05 | 9.5% | **-13%** |
+| (uncapped, + pairs + switch) | 1.07 | 1.10 | | |
+
+The improvement is in risk, not return: the same ~10% a year with a smaller
+worst loss, because the two new sleeves earn when the ETF sleeves lose.
 
 Regime-tilting the sleeves (HMM or terciles) never beats inverse-vol in both
 periods: in stress every long-biased sleeve has Sharpe ~0, and vol targeting
