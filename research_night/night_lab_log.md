@@ -557,3 +557,20 @@ expanding median" is the right version to test (running).
 Lesson of the night in one line: 88 HMM variants, Student-t emissions, sticky
 transitions, Poisson symptoms and macro inputs added nothing over asking
 whether the VIX is above its typical level.
+
+## 11:50 UTC - VIX above its expanding median (no number chosen by hand)
+
+| signed switch, monthly | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| VIX > expanding median, all names | -0.26 | 0.91 | 0.43 | 0.70 |
+| VIX > expanding median, top 300 | -0.30 | 0.98 | 0.67 | 0.84 |
+| VIX > 20, all names | 0.24 | 0.95 | 0.33 | 0.69 |
+| 2-state VIX + term HMM, all names | 0.27 | 0.77 | -0.09 | 0.42 |
+
+The parameter-free rule is the best of all in the check period (0.70 / 0.84)
+and negative in 2006-14, like the vol terciles: in 2006-07 the expanding
+median (set by the high-VIX 1990s-2002) was ~20 and called few stress days,
+then 2008 was called late. Every regime proxy tried gives 0.4-0.7 in
+2015-26; they differ only on the single 2008 cycle. Two are positive in
+2006-14 as well: the HMM with the term spread and the fixed VIX > 20.
+Threshold sensitivity (16-25) being checked.
