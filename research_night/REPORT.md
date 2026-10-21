@@ -185,9 +185,10 @@ year at 7% volatility unlevered, worst drawdown -11%; beta-hedged 0.57 / 0.53
 These are the numbers to quote for the strategy.
 
 For a small account: the top and bottom decile only, in the 300 most liquid
-names (about 30 longs and 30 shorts, re-set monthly), gives 0.49 / 1.04 /
-0.20 by sub-period, about 10% a year at 15% volatility unlevered, worst
-drawdown -19%. Shorting is needed in the stressed months.
+names, staggered (about 100 positions at any time), gives 0.61 / 0.65 / 0.36
+by sub-period, about 6.7% a year at 13% volatility unlevered, worst drawdown
+-19%. Shorting is needed in the stressed months. (A single monthly cohort of
+30 + 30 names has the same average but start-day luck of +-0.3 Sharpe.)
 
 Turnover 0.035 a day, break-even 77 bp. For scale: the same momentum book
 *never* flipped is -0.47 / -0.28 / -0.16 - in this universe long/short
