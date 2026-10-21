@@ -744,3 +744,27 @@ from multi_daily.csv as one component rather than the eight sleeves
 separately.) The switch's own beta in rebounds is inside these numbers; the
 ETF book already carries equity beta, so the blend is not market-neutral and
 does not claim to be.
+
+## 15:30 UTC - each stock's own volatility regime vs the market's
+
+Reversal conditioned on the stock's *own* state (21-day vol above its own
+expanding median; 42% of stock-days, correlation 0.57 with VIX > 20):
+
+| 5-day IC | 2001-14 | 2015-26 |
+|---|---|---|
+| rev_5d | 0.0225 | 0.0130 |
+| rev_5d, stock in its own high-vol state | 0.0157 | 0.0126 |
+| rev_5d, stock in its own calm state | 0.0139 | **0.0031** |
+| rev_5d, market stressed (VIX > 20) | **0.0346** | **0.0275** |
+| rev_5d, own stress and market stress | 0.0279 | 0.0258 |
+
+- Reversal in a stock's own calm state has essentially disappeared since
+  2015 (0.003); in its own stressed state it is 4x that. But the *market's*
+  state is the stronger conditioner (0.0275 vs 0.0126), and adding the
+  stock's own state on top of the market's removes information (0.0258).
+- Net of costs with daily rebalancing, gating the signal on/off costs more
+  than it earns (rev_5d x VIX > 20, 20-day smoothing: 0.40 / -0.05 vs 0.44 /
+  0.14 unconditioned); the stock-level gate is a touch better in 2015-26
+  (0.21 vs 0.14) and worse before. Same conclusion as everywhere tonight:
+  regime information pays through slow allocation, not through switching a
+  daily signal on and off.
