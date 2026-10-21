@@ -124,6 +124,8 @@ def run(strategies: pd.DataFrame, probs: dict[str, pd.DataFrame], out: Path, sto
     positive = [c for c in R if _sharpe(first[c]) > 0.3 and c not in ("spy_buy_hold",)]
     books = {"8 ETF sleeves": sleeves, "sleeves + stock book": sleeves + (["stock_book"] if "stock_book" in R else []),
              f"all {len(positive)} strategies with 2006-14 Sharpe > 0.3": positive}
+    if "pairs" in R:
+        books["sleeves + pairs"] = sleeves + ["pairs"]
     extras = [c for c in R if c.startswith("switch")]
     if extras:
         books["sleeves + regime switch"] = sleeves + extras

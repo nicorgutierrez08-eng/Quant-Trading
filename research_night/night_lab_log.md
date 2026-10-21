@@ -445,3 +445,16 @@ beta exactly when the market rebounds. Hedging with the trailing-252-day beta
 Roughly 40% of the 2015-20 Sharpe was the market rebounding while the book was
 net long. The hedged edge is 0.2-0.45 through 2020 and negative since 2021.
 This is the number to carry: a modest crisis-rebound alpha, not a strategy.
+
+## 09:40 UTC - book with pairs, with and without the switch (25% cap per strategy)
+
+| inverse-vol, 10% vol, 25% cap | 2006-14 | 2015-26 |
+|---|---|---|
+| 8 ETF sleeves | 1.01 | 0.91 |
+| + pairs | 1.05 | 0.96 |
+| + switch | 0.99 | 0.99 |
+| + pairs + switch | 1.06 | 1.05 |
+
+Each of the two stressed-market earners adds about 0.05-0.10 to the check
+period; together +0.14. Given the switch's beta and its flat 2021-26, the
+safer recommendation is pairs first, the switch as an optional sleeve.
