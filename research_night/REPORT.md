@@ -183,7 +183,9 @@ the flip was positive too: Sharpe 0.24 in 2001-03, 0.98 in 2004-05.
 luck): Sharpe 0.67 / 0.74 / 0.22 by sub-period (0.52 for 2015-26), 3.7% a
 year at 7% volatility unlevered, worst drawdown -11%; beta-hedged 0.57 / 0.53
 / 0.04.** Yearly: 2008 +13%, 2009 +29%, 2020 +22%; worst years -4% to -5%.
-These are the numbers to quote for the strategy.
+Random halves of the universe give 0.51-0.76 / 0.57-0.80 / 0.15-0.27, so the
+sampling noise on these Sharpes is about +-0.1. These are the numbers to
+quote for the strategy.
 
 For a small account: the top and bottom decile only, in the 300 most liquid
 names, staggered (about 100 positions at any time), gives 0.61 / 0.65 / 0.36
