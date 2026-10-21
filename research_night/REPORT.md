@@ -153,6 +153,18 @@ periods: in stress every long-biased sleeve has Sharpe ~0, and vol targeting
 already cuts exposure. The switch and `pairs` are the only strategies that
 pay in stress, which is why adding them - rather than tilting - helps.
 
+### Pairs (Arjun's best market-neutral strategy, tuned honestly)
+
+72 configurations (pairs per cluster, entry/exit thresholds, holding limit,
+z-score window). His parameters (5 pairs per cluster, enter at |z| > 2, exit
+at 0.5, 21-day hold) are already the robust choice: 0.85 / 0.77 Sharpe. The
+configuration that looks best on 2006-14 (25 pairs, enter at 1.5, hold 63
+days: 1.02) collapses to 0.35 afterwards - more pairs per cluster are noise
+and concentrate the book. Only a longer holding limit (63 days) is marginally
+better in both periods (1.01 / 0.81). Leave it as it is. Note the unlevered
+book has ~1% volatility and kurtosis ~46; it needs ~10x leverage to matter,
+which is where the fat tails bite.
+
 ## What to change in Arjun's system (concrete)
 
 1. **Replace the daily 5-day reversal stock book with the monthly switch.**

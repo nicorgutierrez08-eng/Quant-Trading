@@ -1,5 +1,7 @@
 # Night lab log (2026-10-21, 01:00-11:00 EDT)
 
+(Section times are approximate and run about 1.5 h ahead of the real clock.)
+
 Running notes from a second research pass over Arjun's system, on the same
 1,000-stock daily universe (Yahoo, 2000-2026, rebuilt locally). New modules
 under `qtrade/research/`: `lab_prep` (cache), `regime_lab` (HMM variants scored
@@ -330,3 +332,29 @@ HMM and the tercile versions.) The switch and pairs are the two sleeves that
 earn in stressed markets; together they lift the book in both periods.
 An ensemble regime probability (HMM + VIX HMM + vol tercile averaged) does
 not beat the VIX + term HMM: switch -0.14 / 0.47.
+
+## 07:40 UTC - pairs lab (72 configurations of Arjun's pairs strategy)
+
+- **Arjun's parameters are already the robust ones.** 5 pairs per cluster,
+  enter |z| > 2, exit |z| < 0.5, 21-day max hold, 60-day window: 0.85 / 0.77
+  (2006-14 / 2015-26). The only configuration better in both periods is the
+  same with a 63-day max hold (1.01 / 0.81) - within noise.
+- **The configuration a Sharpe-maximiser would have picked on 2006-14 fails**:
+  25 pairs per cluster, enter at 1.5, hold 63 days gives 1.02 -> 0.35. More
+  pairs per cluster (10 or 25) is worse everywhere (median 0.3-0.4 vs 0.6 in
+  2015-26): the 6th-25th most correlated pairs in a cluster are noise, and the
+  same stocks appear in many pairs, so the book gets concentrated (vol 10% vs
+  1%). Exit at 0 (wait for the full reversion) is worse than exit at 0.5.
+- Rank correlation of Sharpe across the 72 configurations between periods is
+  0.59, but the top pick still collapsed. 13 of 72 configurations are above
+  0.5 in both periods, all with 5 pairs per cluster.
+- Caveat for the book: the unlevered pairs book has ~1% volatility (most
+  pairs are flat most days) and kurtosis ~46; the 0.8 Sharpe becomes 8% a
+  year only at ~10x leverage, which is where the fat tails and borrow matter.
+
+## 07:50 UTC - a wider switch composite? No.
+
+Adding peer_gap and resid_rev_5d to the reversal book and bab to the momentum
+book: signed HMM switch 2015-26 rises to 0.56 but 2006-14 falls to -0.27 (from
+0.27). Inconsistent, so the three-signal composites stay. (Also a reminder that
+2015-26 is easy to improve by choices that would not have been made in 2014.)
