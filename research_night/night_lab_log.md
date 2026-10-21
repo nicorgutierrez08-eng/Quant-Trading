@@ -794,3 +794,26 @@ VIX > 20 switch, all names, 2015-26 (unit gross, total net +52.6%):
 Tripling the spreads (to ~10-40 bp one way) still leaves 0.5 in the check
 period; the thin 2006-14 edge is gone at 3x. Monthly turnover is what makes
 this survivable where the daily book is not.
+
+## 15:50 UTC - fixed allocation rules: the switch needs no learning at all
+
+| rule (VIX > 20 = stress; monthly; all names; net) | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| IC-learned signed switch (the one reported so far) | 0.24 | 0.95 | 0.33 | 0.69 |
+| stress: 50% reversal + 50% short momentum; calm: 100% momentum | 0.58 | 1.07 | 0.32 | 0.73 |
+| **stress: 100% short momentum; calm: 100% momentum ("momentum flip")** | **0.61** | **1.06** | **0.37** | **0.76** |
+| stress: 100% reversal; calm: 100% momentum | 0.29 | 0.90 | 0.23 | 0.60 |
+| stress: 50% rev + 50% short mom; calm: flat | 0.55 | 0.77 | 0.43 | 0.62 |
+| stress: 100% reversal; calm: flat | 0.19 | 0.56 | 0.20 | 0.42 |
+
+- The per-regime-IC learning in the switch *hurt*: every fixed rule that
+  shorts momentum in stress beats it, and the simplest - hold the momentum
+  book, flip its sign when the VIX is above 20 - is the best (0.61 / 1.06 /
+  0.37). One signal family, one threshold, nothing fitted.
+- Reversal adds little once short-momentum is in the stressed leg; its role
+  was partly standing in for "buy the losers".
+- This is the cleanest statement of the night's result: in this universe,
+  momentum pays when volatility is low and reverses when it is high, and the
+  sign of (20 - VIX) is the whole regime model. Beta, thresholds, universe
+  and costs for the flip are being checked before it replaces the switch in
+  the report.
