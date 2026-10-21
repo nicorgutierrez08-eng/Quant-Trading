@@ -427,3 +427,21 @@ Splitting stress-only short momentum into its two sides (each unit gross):
 - For a small account that cannot short: long losers in stress + nothing in
   calm is a 20%-a-year, 0.98-Sharpe line in 2015-26 but it is 75% market
   rebound; its 2006-14 Sharpe of 0.62 includes a 2008 drawdown.
+
+## 09:30 UTC - the switch, beta-hedged
+
+The switch is dollar-neutral but not beta-neutral: in stressed months the
+losers it buys have beta ~1.3 and the winners it sells ~0.8, so it is net long
+beta exactly when the market rebounds. Hedging with the trailing-252-day beta
+(lagged a day, no lookahead):
+
+| signed switch, all names | 2006-14 | 2015-20 | 2021-26 |
+|---|---|---|---|
+| as reported | 0.27 | 0.77 | -0.09 |
+| beta in stressed months | 0.06 | 0.28 | 0.10 |
+| **beta-hedged Sharpe** | **0.19** | **0.45** | **-0.46** |
+| hedged return / yr (unit gross) | 0.8% | 2.8% | -2.3% |
+
+Roughly 40% of the 2015-20 Sharpe was the market rebounding while the book was
+net long. The hedged edge is 0.2-0.45 through 2020 and negative since 2021.
+This is the number to carry: a modest crisis-rebound alpha, not a strategy.

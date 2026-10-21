@@ -18,10 +18,12 @@ Everything here is in `research_night/` (code, reports, the running log
 2. **Arjun's daily reversal system is dead on costs, not on signal.** The
    gross edge is still there (half of what it was); daily rebalancing costs
    eat it. Trading monthly instead, and switching between reversal and
-   momentum by regime, gives a modest, market-neutral strategy that pays in
-   crises: net Sharpe about **0.3 (2006-14) / 0.4 (2015-26)** versus **-0.04 /
-   0.09** for monthly reversal alone. It is not a 1.0-Sharpe strategy, and it
-   was flat in 2022-2026.
+   momentum by regime, gives a modest strategy that pays in crises: net Sharpe
+   about **0.3 (2006-14) / 0.4 (2015-26)** versus **-0.04 / 0.09** for monthly
+   reversal alone. But it is net long the market in exactly the months the
+   market rebounds; **hedged for that beta it is 0.19 / 0.45 / -0.46** in
+   2006-14 / 2015-20 / 2021-26. A real but small crisis-rebound alpha, not a
+   strategy to build an account on, and nothing since 2021.
 3. **The best regime model is the simplest.** A 2-state hidden Markov model on
    the VIX, the yield-curve slope and GARCH volatility. 88 variants were tried
    (more states, fat-tailed emissions, sticky transitions, jump counts as a
@@ -135,6 +137,11 @@ predicted IC is traded the other way (short momentum in stress).
   correlation with the market -0.08.
 - Good years: 2008 (+14.7%), 2015, 2019-2021. Flat 2022-2026 (2024: -5.6%).
   It is a crisis strategy; it does nothing in calm trending years.
+- Beta: dollar-neutral but not beta-neutral. In stressed months it buys
+  high-beta losers and sells low-beta winners (beta 0.28 in 2015-20), so it is
+  net long when the market rebounds. Hedged with the trailing 252-day beta the
+  Sharpe is 0.19 / 0.45 / -0.46 in 2006-14 / 2015-20 / 2021-26. That is the
+  number to carry.
 - Bootstrap (21-day blocks) of the 2015-26 Sharpe: 90% interval [0.00, 0.78];
   probability it is really below zero 4.8%; probability it does not beat
   plain reversal 6.2%. Borderline, one out-of-sample period.
