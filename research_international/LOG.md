@@ -586,3 +586,35 @@ Sharpe with a full day's delay. The conservative combined book is unchanged
 with next-open pairs: 1.75 / 1.78 / 1.48 (2015-26 1.64 vs 1.63). So US
 pairs work and Asian-financials pairs do not. That is a real difference
 between markets, not an execution artefact.
+
+### Year by year: US book vs the conservative combined book (sum of daily returns, %)
+
+| year | US book | US + original 21 + 14 new, costs x2 |
+|---|---|---|
+| 2007 | 7.0 | 5.3 |
+| 2008 | 16.5 | 18.5 |
+| 2009 | 24.4 | 17.7 |
+| 2010 | 7.1 | 4.4 |
+| 2011 | 4.8 | 6.0 |
+| 2012 | 12.7 | 8.9 |
+| 2013 | 20.2 | 18.0 |
+| 2014 | 3.8 | 5.6 |
+| 2015 | 8.6 | 18.5 |
+| 2016 | -1.0 | **-4.4** |
+| 2017 | 22.9 | 11.6 |
+| 2018 | -2.4 | 1.9 |
+| 2019 | 19.9 | 9.3 |
+| 2020 | 27.1 | 29.8 |
+| 2021 | 11.8 | 12.3 |
+| 2022 | -7.4 | **-3.0** |
+| 2023 | 13.0 | 5.3 |
+| 2024 | 16.1 | 17.9 |
+| 2025 | 12.4 | 6.7 |
+| 2026 (to Oct) | 9.7 | 4.2 |
+
+The combined book has two losing years (2016, 2022) against three for the
+US book. It gives up some of the strong US years (2017, 2019, 2023) in
+exchange for smaller losses. Its biggest years, 2008-09 and 2020, are crisis
+and rebound years, as in the US work, so a large share of the long-run
+return depends on such episodes recurring. 2016 is the international
+sleeve's worst year.

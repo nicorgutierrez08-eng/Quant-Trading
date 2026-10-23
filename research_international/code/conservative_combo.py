@@ -65,19 +65,28 @@ def main(argv=None):
                       "us_flip": us_flip.reindex(etf.index).fillna(0),
                       **{k: s.reindex(etf.index).fillna(0) for k, s in sleeves.items()}})
     rows = [L.period_stats(s, f"sleeve alone: {k}") for k, s in sleeves.items()]
+    blends = {}
     for label, cols in (("US book", ["etf", "pairs2", "us_flip"]),
                         ("US + original 21 (costs x2)", ["etf", "pairs2", "us_flip", "orig21_costs_x2"]),
                         ("US + original 21 + 14 borrowable new, separate sleeves (costs x1)", ["etf", "pairs2", "us_flip", "orig21_costs_x1", "new14_costs_x1"]),
                         ("US + original 21 + 14 borrowable new, separate sleeves (costs x2)", ["etf", "pairs2", "us_flip", "orig21_costs_x2", "new14_costs_x2"]),
                         ("US + 35 markets as one sleeve (costs x2)", ["etf", "pairs2", "us_flip", "intl35_costs_x2"])):
         s = blend(B, cols)
+        blends[label] = s
         rows.append(L.period_stats(s, label, {"worst_month": float(s["2015":].resample("ME").sum().min())}))
     t = pd.DataFrame(rows)
     t.to_csv(out / "conservative_combo.csv", index=False)
     pd.DataFrame(sleeves).to_csv(out / "sleeves_daily.csv")
+    bl = pd.DataFrame(blends)
+    bl.to_csv(out / "blends_daily.csv")
+    yearly = pd.concat({"return": bl.groupby(bl.index.year).sum(),
+                        "sharpe": bl.groupby(bl.index.year).apply(lambda x: x.mean() / x.std() * np.sqrt(252))}, axis=1)
+    yearly.to_csv(out / "yearly.csv")
     pd.set_option("display.width", 250)
     cols = ["book", "sharpe_2006_14", "sharpe_2015_20", "sharpe_2021_26", "sharpe_2015_26", "ret_2015_26", "vol_2015_26", "maxdd_2015_26", "worst_month"]
     print(t[[c for c in cols if c in t]].round(3).to_string(index=False))
+    key = ["US book", "US + original 21 + 14 borrowable new, separate sleeves (costs x2)"]
+    print((bl[key].groupby(bl.index.year).sum() * 100).round(1).to_string())
 
 
 if __name__ == "__main__":
