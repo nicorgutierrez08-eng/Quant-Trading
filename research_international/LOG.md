@@ -124,3 +124,67 @@ Australia (267), Korea (135), New Zealand (128), India (107) have the most
 >40% daily moves (small caps, rights issues); suspected bad prints that fully
 reverse the next day are removed. Early-sample universes are thin in the
 Netherlands (14 names in 2006) and Switzerland (16).
+
+## Second layer (corrected: per-market choice now matched exactly; beta lag 3 days)
+
+### Universal rules across markets (equal risk, unit gross per market; Sharpe 2006-14 / 2015-20 / 2021-26)
+
+| all 21 markets | 2006-14 | 2015-20 | 2021-26 | 2015-26 | costs x2, 2015-26 |
+|---|---|---|---|---|---|
+| plain momentum | 0.43 | 0.82 | 0.78 | 0.80 | 0.63 |
+| flip short in stress | 0.99 | 0.58 | 0.73 | 0.64 | 0.26 |
+| **flat in stress (no position when VIX > 20)** | **1.58** | **1.19** | **1.06** | **1.13** | **0.80** |
+| chosen per market on 2006-14 | 1.32 | 1.26 | 0.96 | 1.12 | 0.73 |
+
+| Asia-Pacific (12 markets) | 2006-14 | 2015-20 | 2021-26 | 2015-26 | costs x2 |
+|---|---|---|---|---|---|
+| plain momentum | 0.78 | 1.18 | 1.04 | 1.11 | 0.89 |
+| flip | 1.16 | 0.63 | 0.87 | 0.75 | 0.26 |
+| **flat in stress** | **1.78** | **1.49** | **1.30** | **1.38** | **0.99** |
+| chosen per market on 2006-14 | 1.58 | 1.77 | 1.20 | 1.46 | 1.01 |
+
+Europe + Canada (9): flat in stress 0.68 / 0.57 / 0.48; plain 0.01 / 0.28 / 0.28.
+
+- **Flat in stress is the right international rule**: it needs no per-market
+  choice, matches the invariant (momentum weakens in stress everywhere but
+  only reverses in some markets), has the lowest drawdown (-5%), and is the
+  most robust to costs (0.80 at double costs vs 0.26 for the flip, which
+  pays twice the turnover on each sign change).
+- In the US the flip still beats flat (0.65 / 0.68 / 0.20 vs 0.22 / 0.38 /
+  0.06), because US momentum genuinely reverses in stress.
+- Bootstrap (21-day blocks): all-21 flat-in-stress 90% intervals [0.83,
+  2.43] / [0.32, 2.02] / [0.40, 1.94]; Asia-Pacific [1.09, 2.57] / [0.60,
+  2.28] / [0.59, 2.22]. Positive in every sub-period at the 99% level.
+- Leave one market out: 1.02-1.19 for 2015-26 (dropping New Zealand,
+  Singapore or Malaysia hurts most). Average pairwise correlation of the 21
+  market books 0.15 - that is where the high combined Sharpe comes from.
+- Scale: ~3% a year at 3% volatility at unit gross; a 10%-vol version needs
+  ~3x gross across 21 markets.
+
+### The survivorship trap, measured
+
+Today's index members, equal-weighted, against their own cap-weighted index
+(beta-hedged): Sharpe 1.06 / 1.20 / 1.28, **11% a year**. That is not alpha;
+it is what "being in the index today" implies about the past. The long-only
+momentum book hedged with the index future (1.18 / 1.33 / 1.38, 15% a year)
+is almost entirely this premium and is discarded. Hedging against the
+equal-weighted universe instead (both legs survivors) removes it: long-only
+flat-in-stress, equal-weight-hedged, 1.64 / 1.51 / 1.13 across 21 markets,
+1.86 / 1.87 / 1.50 in Asia-Pacific.
+
+A note on direction of the bias for the momentum books: survivorship removes
+the losers that kept losing, which flatters *buying* past losers (the
+stressed leg of the flip) and hurts *shorting* them (the calm leg of plain
+momentum). The flat-in-stress rule holds nothing in stress, so it avoids the
+part of the book survivorship flatters most. A point-in-time test follows.
+
+### Combined with the US book (equal-risk sleeves, 25% cap, 10% vol)
+
+| book | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr | worst DD | worst month |
+|---|---|---|---|---|---|---|---|
+| ETF sleeves alone | 0.87 | 0.85 | 0.96 | 0.90 | 9.5% | -15.0% | -8.2% |
+| US book (ETF + pairs x2 + US flip) | 1.15 | 1.19 | 0.98 | 1.09 | 11.1% | -11.9% | -6.8% |
+| **US book + international flat-in-stress** | **1.48** | **1.49** | **1.11** | **1.30** | 10.7% | **-9.9%** | **-5.4%** |
+
+The international sleeve correlates 0.28 with the US flip (same VIX trigger)
+and ~0 with the ETF book and pairs.
