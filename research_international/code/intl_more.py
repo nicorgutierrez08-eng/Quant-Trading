@@ -68,17 +68,32 @@ def market_books(m: L.Market, idx: pd.Series | None) -> dict[str, pd.Series]:
     m.cost = cost_saved * 2
     out["flip_costs_x2"] = L.pnl(W_flip, m)["net"]
     out["plain_costs_x2"] = L.pnl(W_plain, m)["net"]
+    out["flat_in_stress_costs_x2"] = L.pnl(W_flat, m)["net"]
     m.cost = cost_saved
+    ew = m.r1.where(tr).mean(axis=1)
     lo = L.long_only_flip(m, comp, tr, flip)
     lo_gross = L.pnl(lo, m)["net"]
-    out["long_only_flip_ew_hedge"] = lo_gross - m.r1.where(tr).mean(axis=1)
+    out["long_only_flip_ew_hedge"] = lo_gross - ew
+    lo_flat = L.long_only_flip(m, comp, tr, flat)              # sign 0 in stress: no picks -> out of the market
+    out["long_only_flat_ew_hedge"] = L.pnl(lo_flat, m)["net"] - ew * held_flat(flat)
     if idx is not None:
         ir = idx.reindex(m.dates).ffill().pct_change(fill_method=None).shift(-2)      # close t+1 -> t+2 ~ open-to-open window
-        beta = (lo_gross.rolling(252, min_periods=126).cov(ir) / ir.rolling(252, min_periods=126).var()).shift(1).clip(0, 2)
-        out["long_only_flip_index_hedge"] = (lo_gross - beta * ir).where(beta.notna())
-        out["long_only_flip_unhedged"] = lo_gross
+
+        def hedged(x):
+            # beta from data fully known at t: the series at t holds returns realised by t+2, so lag 3 days
+            b = (x.rolling(252, min_periods=126).cov(ir) / ir.rolling(252, min_periods=126).var()).shift(3).clip(0, 2)
+            return (x - b * ir).where(b.notna())
+
+        out["long_only_flip_index_hedge"] = hedged(lo_gross)
+        # the survivor premium: today's index members, equal-weighted, against their own cap-weighted index
+        out["survivor_premium_ew_vs_index"] = hedged(ew)
         out["index_buy_hold"] = ir
     return out
+
+
+def held_flat(flat: pd.Series) -> pd.Series:
+    """Average exposure across the staggered cohorts of a 0/1 regime switch."""
+    return sum(L.held_sign(flat, k) for k in L.COHORTS) / len(L.COHORTS)
 
 
 def stats_table(series: dict[str, pd.Series], label_prefix: str = "") -> pd.DataFrame:
@@ -117,7 +132,9 @@ def main(argv=None):
     per.to_csv(out / "per_market.csv", index=False)
 
     choice = pd.read_csv(args.choice, index_col=0)["chosen"]
-    chosen = {k: ("flip" if "flip" in v else "plain") for k, v in choice.items()}
+    # exact labels: "never flipped" also contains the substring "flip"
+    chosen = {k: ("flip" if v == "momentum flip VIX>20 (L/S)" else "plain") for k, v in choice.items()}
+    print("per-market choice:", {k: v for k, v in chosen.items()})
     agg_rows, agg_daily = [], {}
 
     def agg(label, R):
@@ -126,7 +143,9 @@ def main(argv=None):
         agg_rows.append(L.period_stats(s, label, {"markets": R.shape[1]}))
 
     for region, members in (("all 21", ASIA + WEST), ("Asia-Pacific", ASIA), ("Europe + Canada", WEST)):
-        for rule in ("plain", "flip", "flat_in_stress", "flip_costs_x2", "long_only_flip_index_hedge"):
+        for rule in ("plain", "flip", "flat_in_stress", "plain_costs_x2", "flip_costs_x2", "flat_in_stress_costs_x2",
+                     "long_only_flip_ew_hedge", "long_only_flat_ew_hedge", "long_only_flip_index_hedge",
+                     "survivor_premium_ew_vs_index"):
             R = pd.DataFrame({mk: per_market[mk][rule] for mk in members if rule in per_market[mk]})
             agg(f"{region}: {rule}", R)
         R = pd.DataFrame({mk: per_market[mk][chosen[mk]] for mk in members if mk in chosen})
@@ -137,18 +156,27 @@ def main(argv=None):
     aggt.to_csv(out / "cross_market.csv", index=False)
     pd.DataFrame(agg_daily).to_csv(out / "cross_market_daily.csv")
 
-    # robustness of the chosen all-21 book
-    sel = agg_daily["all 21: chosen per market on 2006-14"]
-    boot = {per: block_bootstrap(sel[a:b].dropna().to_numpy()) for per, a, b in (("2006-14", "2006", "2014"), ("2015-26", "2015", "2026"),
-                                                                                    ("2015-20", "2015", "2020"), ("2021-26", "2021", "2026"))}
+    # robustness of the two candidate cross-market books
+    pers = (("2006-14", "2006", "2014"), ("2015-26", "2015", "2026"), ("2015-20", "2015", "2020"), ("2021-26", "2021", "2026"))
+    boot = {}
+    for label in ("all 21: chosen per market on 2006-14", "all 21: flat_in_stress", "Asia-Pacific: flat_in_stress"):
+        s = agg_daily[label]
+        for per, a, b in pers:
+            boot[(label, per)] = block_bootstrap(s[a:b].dropna().to_numpy())
+    boot = pd.DataFrame(boot).T
     loo = []
     for drop in chosen:
         R = pd.DataFrame({mk: per_market[mk][chosen[mk]] for mk in chosen if mk != drop})
         s = equal_risk(R)
-        loo.append({"dropped": drop, "sharpe_2015_26": L._sharpe(s["2015":]), "sharpe_2021_26": L._sharpe(s["2021":])})
-    loo = pd.DataFrame(loo).sort_values("sharpe_2015_26")
-    corr = pd.DataFrame({mk: per_market[mk][chosen[mk]] for mk in chosen})["2015":].corr()
+        R2 = pd.DataFrame({mk: per_market[mk]["flat_in_stress"] for mk in chosen if mk != drop})
+        s2 = equal_risk(R2)
+        loo.append({"dropped": drop, "chosen_2015_26": L._sharpe(s["2015":]), "chosen_2021_26": L._sharpe(s["2021":]),
+                    "flat_2015_26": L._sharpe(s2["2015":]), "flat_2021_26": L._sharpe(s2["2021":])})
+    loo = pd.DataFrame(loo).sort_values("flat_2015_26")
+    corr = pd.DataFrame({mk: per_market[mk]["flat_in_stress"] for mk in chosen})["2015":].corr()
     avg_corr = float(corr.where(~np.eye(len(corr), dtype=bool)).stack().mean())
+    sel = agg_daily["all 21: chosen per market on 2006-14"]
+    flat_all = agg_daily["all 21: flat_in_stress"]
 
     # combination with the US book
     combo_rows = []
@@ -159,7 +187,9 @@ def main(argv=None):
         v = vix.reindex(etf.index, method="ffill")
         pairs2 = strat["pairs"].reindex(etf.index).fillna(0) * (1 + (v.shift(2) > 20).astype(float))
         intl = sel.reindex(etf.index).fillna(0)
-        B = pd.DataFrame({"etf": etf, "pairs2": pairs2, "us_flip": us_flip.reindex(etf.index).fillna(0), "intl": intl})
+        intl_flat = flat_all.reindex(etf.index).fillna(0)
+        B = pd.DataFrame({"etf": etf, "pairs2": pairs2, "us_flip": us_flip.reindex(etf.index).fillna(0), "intl": intl,
+                          "intl_flat": intl_flat})
         cmat = B["2015":].corr().round(2)
 
         def blend(cols, cap=0.25):
@@ -174,7 +204,8 @@ def main(argv=None):
             return (bl * (0.10 / real).clip(0, 3).shift(2)).dropna()
 
         for label, cols in (("ETF sleeves alone", ["etf"]), ("US book: ETF + pairs x2 + US flip", ["etf", "pairs2", "us_flip"]),
-                            ("US book + international momentum", ["etf", "pairs2", "us_flip", "intl"])):
+                            ("US book + international (chosen per market)", ["etf", "pairs2", "us_flip", "intl"]),
+                            ("US book + international (flat in stress)", ["etf", "pairs2", "us_flip", "intl_flat"])):
             s = blend(cols)
             combo_rows.append(L.period_stats(s, label, {"worst_month": float(s["2015":].resample("ME").sum().min())}))
         combo = pd.DataFrame(combo_rows)
@@ -183,12 +214,12 @@ def main(argv=None):
     pd.set_option("display.width", 250)
     cols = ["book", "sharpe_2006_14", "sharpe_2015_20", "sharpe_2021_26", "sharpe_2015_26", "ret_2015_26", "vol_2015_26", "maxdd_2015_26", "markets"]
     print("\n== cross-market books =="); print(aggt[cols].round(2).to_string(index=False))
-    print("\n== bootstrap, chosen all-21 book =="); print(pd.DataFrame(boot).T.round(3).to_string())
-    print(f"\naverage pairwise correlation of the 21 chosen market books (2015-26): {avg_corr:.3f}")
-    print("\n== leave one market out (chosen book) =="); print(loo.round(2).to_string(index=False))
+    print("\n== bootstrap =="); print(boot.round(3).to_string())
+    print(f"\naverage pairwise correlation of the 21 flat-in-stress market books (2015-26): {avg_corr:.3f}")
+    print("\n== leave one market out =="); print(loo.round(2).to_string(index=False))
     if combo_rows:
         print("\n== combined with the US book =="); print(combo.round(3).to_string(index=False)); print(cmat.to_string())
-    pd.DataFrame(boot).T.to_csv(out / "bootstrap_chosen.csv")
+    boot.to_csv(out / "bootstrap.csv")
     loo.to_csv(out / "leave_one_out.csv", index=False)
 
 
