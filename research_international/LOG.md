@@ -253,3 +253,176 @@ model on VIX, VIX change, term spread and the sector's own trend; fit on
   financials badly lag 2015-20 (-1.74 Sharpe when held against the market)
   and lead 2021-26 (+0.76). The model had no real rate series, because the
   cached macro file lacks a 10-year yield. That is the next thing to fix.
+
+## Third layer: 20 new exchanges and every listed Asia-Pacific financial
+
+### Data added
+
+- `deep_universe.py`: Yahoo equity screener by region and industry.
+  - 1,341 Asia-Pacific financials across 12 markets, one line per company,
+    split into 14 industries (regional and diversified banks; life, P&C and
+    other insurers; capital markets; credit services; ...).
+  - 1,976 names in 20 exchanges never used before:
+    - Emerging: Indonesia, Vietnam, Pakistan, Brazil, Mexico, Chile, South
+      Africa, Turkey, Saudi Arabia, Kuwait, Qatar, Poland, Greece.
+    - Developed: Israel, Norway, Denmark, Finland, Belgium, Austria, Portugal.
+  - Foreign lines (BDRs, Mexico's SIC, Thai DRs, Vienna's global segment)
+    are removed.
+  - The Philippines has no Yahoo price history and is not covered.
+- `macro_data.py`: OECD 10-year and 3-month rates for 30 countries (FRED),
+  each used only from the 15th of the following month; US 10y/2y daily; 31
+  USD crosses.
+- Frictions for the new markets were added to `intl_lab.FRICTIONS`. These are
+  rough, and the stamp or transaction taxes are included.
+
+### Pre-registered test (written before any new-market result was seen)
+
+The rule is fixed by the first 21 markets: momentum composite, 21-day
+rebalance, 7 staggered cohorts, next-open execution, local costs, and no
+position while the US VIX is above 20 ("flat in stress").
+
+Predictions for the 20 new exchanges:
+1. The momentum IC is lower in stress than in calm in at least 14 of the 20.
+2. The equal-risk flat-in-stress book across the 20 has a positive Sharpe in
+   both 2015-20 and 2021-26.
+3. Over 2015-26 it beats the never-flipped (plain) book.
+
+If prediction 2 fails, the 21-market result was partly luck in which markets
+were chosen.
+
+### Result of the pre-registered test: all three predictions pass
+
+| prediction | outcome |
+|---|---|
+| momentum IC weaker in stress in at least 14 of 20 | **20 / 20** weaker (negative in stress only in Brazil) |
+| flat-in-stress positive in 2015-20 and 2021-26 | **2.10 and 2.19** |
+| flat beats plain over 2015-26 | **2.13 vs 1.64** |
+
+Equal-risk books over the 20 new exchanges (net of local costs):
+
+| book | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr | maxDD |
+|---|---|---|---|---|---|---|
+| plain | 1.39 | 1.14 | 2.39 | 1.64 | 4% | -8% |
+| flip VIX>20 | 0.85 | 1.64 | 0.66 | 1.23 | 3% | -11% |
+| **flat in stress** | **1.39** | **2.10** | **2.19** | **2.13** | 3% | -3% |
+| flat, costs x2 | 1.13 | 1.61 | 1.59 | 1.59 | 3% | -4% |
+| long-only flat, EW-hedged | 1.40 | 1.99 | 2.09 | 2.03 | 3% | -3% |
+| original 21, flat (for comparison) | 1.58 | 1.19 | 1.06 | 1.13 | 3% | -5% |
+| **all 41, flat** | 1.43 | 1.69 | 1.67 | 1.68 | 3% | -3% |
+
+- Emerging (13) 0.90 / 1.57 / 1.88; developed (7) 1.18 / 1.95 / 1.58.
+- The bootstrap 5th percentile is above 0 in every period (2015-26: [1.57, 2.74]).
+- Leave one out: 2.00-2.27. Kuwait is the only market with a negative
+  book (-0.48), and dropping it raises the total.
+- Moving the VIX trigger (not pre-registered) changes little: 17.5 / 25 /
+  30 give 1.94 / 2.00 / 1.81.
+- Average pairwise correlation among the 20 is 0.02, so the high aggregate
+  Sharpe is diversification across many ~0.6-Sharpe books. The 20 correlate
+  0.46 with the original 21.
+- The flip, which won in the US, loses to flat here as well, and it is the
+  most cost-sensitive (0.55 at double costs).
+
+### Why I don't believe the 2.1, and what survives
+
+`new_exchanges_robust.py`:
+- **Not a stale-price artefact.** Executing one day later than allowed
+  gives the same result (2.11 vs 2.13). Stale opens are 1-9% of days.
+- **Both legs earn.** Against the equal-weighted market, the long leg makes
+  +1.9%/yr (Sharpe 2.8) and the short leg +2.1%/yr (2.1). Selecting on
+  today's size biases *against* the short leg (the shorted losers in the
+  sample are the ones that recovered), so survivorship is unlikely to
+  explain the short leg's profit.
+- **Costs are the real risk.** At triple costs the book drops to 1.04 (all
+  20) and 1.33 (14 borrowable). The 6 markets where single stocks cannot be
+  borrowed (Indonesia, Vietnam, Pakistan, Saudi Arabia, Kuwait, Qatar) earn
+  0.96 at normal cost, 0.02 at triple cost, and 0.02 in 2006-14. **Only the
+  14 borrowable markets are tradable as long/short:** 1.99 / 2.23 / 2.11,
+  and 1.33 at triple cost.
+- **Liquid half only:** 1.73 (all 20), 1.50 (14 borrowable).
+- **Capacity is small.** Holding at most 10% of a day's traded value per
+  name in the liquid half gives roughly $376M gross across all 20, mostly
+  in Brazil ($104M), Turkey ($88M), South Africa and Saudi Arabia (~$36M
+  each). The Nordics, Poland, Greece and Chile are $0.3-7M each. This is a
+  personal-account strategy, not a fund strategy.
+
+My honest estimate for the 14 borrowable markets after real-world
+slippage is a Sharpe of about 1, not 2.
+
+### Combined with the US book (same blend as before: inverse vol, 25% cap, 10% vol)
+
+| book | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr | maxDD | worst month |
+|---|---|---|---|---|---|---|---|
+| US book | 1.15 | 1.19 | 0.98 | 1.09 | 11.1% | -11.9% | -6.8% |
+| US + original 21 | 1.48 | 1.49 | 1.11 | 1.30 | 10.7% | -9.9% | -5.4% |
+| **US + original 21 + new 20 (separate sleeves)** | **1.81** | **1.97** | **1.67** | **1.83** | 10.0% | -7.9% | -3.8% |
+| US + all 41 as one sleeve | 1.31 | 1.58 | 1.19 | 1.40 | 11.0% | -8.7% | -4.0% |
+
+Treat this with the same discount as above. The new-20 sleeve gets a 25%
+weight because its measured volatility is tiny, and it is the sleeve most
+likely to be worse live (costs, capacity, borrow).
+
+### Every listed Asia-Pacific financial (`asia_fin_deep.py`)
+
+Coverage: 1,341 names with prices, 11 markets (New Zealand's 9 dropped);
+median tradable 2015-26: Japan 152, India 155, Hong Kong 139, Australia 122,
+China 99, Indonesia 75, Korea 73, Taiwan 48, Malaysia 30, Thailand 20,
+Singapore 15.
+
+Stock selection, pooled 21-day ICs (country-neutral):
+
+| signal | IC | t | sign kept in all 4 periods | calm / stress |
+|---|---|---|---|---|
+| low_vol | 0.072 | 9.7 | yes | 0.075 / 0.066 |
+| max_effect (avoid lottery stocks) | 0.058 | 10.2 | yes | 0.059 / 0.057 |
+| high_52w | 0.045 | 6.0 | yes | 0.058 / 0.024 |
+| mom_12_1 | 0.032 | 5.1 | yes | 0.041 / 0.017 |
+| low_beta | 0.032 | 3.6 | yes | 0.042 / 0.014 |
+| rev_5d | 0.020 | 3.9 | yes | 0.013 / 0.032 |
+| size_proxy (small minus big) | **-0.019** | -2.9 | yes | |
+| amihud (illiquid minus liquid) | **-0.029** | -4.7 | yes | |
+
+- **The size and illiquidity "premia" from the index-only pass reverse.**
+  They are negative in all four periods in the full listing, so the earlier
+  positive result (size 0.69, Amihud 0.82 out of sample) was survivor
+  selection, as suspected. Do not trade them.
+- Low vol and MAX are the strongest and most stable signals in financials.
+  Survivorship biases *against* them (the volatile names that blew up are
+  missing), so they are probably understated. They are much weaker in the
+  21 index universes (robust in only 3 and 2 markets), so the effect lives
+  in the smaller, volatile names. Those are hard to short in Asia, which
+  makes avoiding them (a long-only filter) the natural use; tested below.
+- Industry-neutral scoring changes little.
+
+Books (net, liquid half unless stated):
+- Momentum, flat in stress: 0.22 / 0.90 / 0.95 (2015-26 0.92). Flip: 0.08 /
+  1.01 / 0.37. Plain: 0.04 / 0.27 / 0.83.
+  - Using all names makes every version worse (flat 0.45): the illiquid half
+    costs more than it adds.
+  - The rule's out-of-sample ordering (flat > flip > plain) holds again, but
+    2006-14 is weak in financials specifically.
+- Low vol: 0.80 / 0.19 / 0.98. MAX: 0.33 / 0.19 / 0.58. The low_beta book is
+  flat (~0).
+- Reversal books lose money after costs, despite positive ICs (rev_5d
+  -0.47).
+- Industry momentum (29 market x industry baskets): 0.70 in 2006-14, then
+  about 0. It is dead.
+- Lead-lag (big financials leading small ones in the same market and
+  industry):
+  - The pure lead signal (the big basket's past day) has IC 0.004, which is
+    nothing.
+  - "Big basket's 5-day return minus own 5-day return" has IC 0.034 (t 13.6)
+    at 5 days. But that is mostly the stock's own short-term reversal, and
+    it decays from 0.042 to 0.024.
+  - The 21-day-hold book: 0.57 / 0.93 / -0.58. Not usable.
+
+Rates (each group's return minus its market's, next 21 days):
+- Lagged rate signals predict nothing. Univariate correlations are 0.02-0.07
+  and unstable; the pooled 2004-14 model has out-of-sample correlation of
+  -0.01 to 0.01; the timing books earn about 0.
+- **A stable exposure, not a forecast.** Since 2015, Asian banks rise
+  against their market when US 10-year yields rise, in every market and in
+  both sub-periods. The move is about +2% to +10% relative return per
+  +100bp, measured over 21-day windows: Japan +7.9% / +3.6%, Korea +10.5% /
+  +6.0%, Hong Kong +4.3% / +4.7%. Before 2015 it was mixed and near zero.
+  That is useful for hedging a financials book's rate exposure (or for
+  expressing a rate view through banks), but it gives no timing edge.

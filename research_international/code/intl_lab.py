@@ -74,6 +74,27 @@ FRICTIONS = {
     "Italy": Frictions((4, 8, 15), ((5, "2013-03"),), "0.1% FTT on purchases from 2013"),
     "Sweden": Frictions((4, 8, 15)),
     "Canada": Frictions((3, 6, 12)),
+    # second wave of exchanges (deep_universe.py); wider spreads, rougher tax schedules
+    "Indonesia": Frictions((10, 20, 40), ((5, None),), "0.1% sell tax; shorting effectively unavailable"),
+    "Vietnam": Frictions((10, 20, 35), ((5, None),), "0.1% sell tax; no short selling; foreign ownership limits"),
+    "Pakistan": Frictions((10, 20, 40), ((5, None),), "fees and CVT approximated; shorting very limited"),
+    "Brazil": Frictions((5, 10, 20), (), "securities lending available"),
+    "Mexico": Frictions((8, 15, 30), (), "limited securities lending"),
+    "Chile": Frictions((8, 15, 30), (), "limited securities lending"),
+    "South Africa": Frictions((6, 12, 25), ((12.5, None),), "0.25% securities transfer tax on purchases"),
+    "Turkey": Frictions((6, 12, 25), (), "short-selling bans in stress (e.g. 2020, 2023)"),
+    "Saudi Arabia": Frictions((6, 12, 25), (), "short selling permitted since 2017, rarely available"),
+    "Kuwait": Frictions((10, 20, 40), (), "no practical short selling"),
+    "Qatar": Frictions((10, 20, 40), (), "no practical short selling"),
+    "Israel": Frictions((6, 12, 25), (), "limited securities lending"),
+    "Poland": Frictions((6, 12, 25), (), "limited securities lending"),
+    "Greece": Frictions((8, 15, 30), ((7.5, None),), "0.1-0.2% sales tax; limited lending"),
+    "Portugal": Frictions((6, 12, 25), ((15, "2013"),), "0.3% FTT on purchases from 2013"),
+    "Belgium": Frictions((4, 8, 15), ((27, None), (8, "2018")), "TOB 0.27-0.35% on every trade"),
+    "Austria": Frictions((5, 10, 20)),
+    "Norway": Frictions((4, 8, 15)),
+    "Denmark": Frictions((4, 8, 15)),
+    "Finland": Frictions((4, 8, 15)),
 }
 SLIPPAGE_BP = 1.0
 

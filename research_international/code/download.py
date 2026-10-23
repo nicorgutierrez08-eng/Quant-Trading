@@ -28,6 +28,10 @@ INDICES = {
     "Thailand": "^SET.BK", "New Zealand": "^NZ50", "UK": "^FTSE", "Germany": "^GDAXI", "France": "^FCHI",
     "Switzerland": "^SSMI", "Netherlands": "^AEX", "Spain": "^IBEX", "Italy": "FTSEMIB.MI", "Sweden": "^OMX",
     "Canada": "^GSPTSE",
+    "Indonesia": "^JKSE", "Brazil": "^BVSP", "Mexico": "^MXX", "South Africa": "^J203.JO", "Turkey": "XU100.IS",
+    "Saudi Arabia": "^TASI.SR", "Israel": "^TA125.TA", "Poland": "WIG20.WA", "Norway": "OSEBX.OL", "Denmark": "^OMXC25",
+    "Finland": "^OMXH25", "Belgium": "^BFX", "Austria": "^ATX", "Portugal": "PSI20.LS", "Greece": "GD.AT",
+    "Chile": "^IPSA", "Vietnam": "^VNINDEX.VN", "Pakistan": "^KSE",
 }
 VOL_INDICES = {"US": "^VIX", "India": "^INDIAVIX", "Japan": "^JNIV", "Europe": "^V2TX", "Hong Kong": "^VHSI",
                "Korea": "^VKOSPI", "Australia": "^AXVI"}
@@ -36,7 +40,9 @@ COUNTRY_ETFS = {
     "Australia": "EWA", "India": "INDA", "Malaysia": "EWM", "Thailand": "THD", "New Zealand": "ENZL",
     "Indonesia": "EIDO", "Philippines": "EPHE", "UK": "EWU", "Germany": "EWG", "France": "EWQ", "Switzerland": "EWL",
     "Netherlands": "EWN", "Spain": "EWP", "Italy": "EWI", "Sweden": "EWD", "Canada": "EWC", "Brazil": "EWZ",
-    "Mexico": "EWW", "South Africa": "EZA", "US": "SPY", "Asia ex-Japan": "AAXJ", "Emerging": "EEM", "EAFE": "EFA",
+    "Mexico": "EWW", "South Africa": "EZA", "Turkey": "TUR", "Israel": "EIS", "Poland": "EPOL", "Norway": "NORW",
+    "Denmark": "EDEN", "Finland": "EFNL", "Belgium": "EWK", "Austria": "EWO", "Portugal": "PGAL", "Greece": "GREK",
+    "Chile": "ECH", "Saudi Arabia": "KSA", "Qatar": "QAT", "Kuwait": "KWT", "Vietnam": "VNM", "US": "SPY", "Asia ex-Japan": "AAXJ", "Emerging": "EEM", "EAFE": "EFA",
 }
 FIELDS = ("Open", "High", "Low", "Close", "Adj Close", "Volume")
 
