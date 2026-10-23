@@ -426,3 +426,66 @@ Rates (each group's return minus its market's, next 21 days):
   +6.0%, Hong Kong +4.3% / +4.7%. Before 2015 it was mixed and near zero.
   That is useful for hedging a financials book's rate exposure (or for
   expressing a rate view through banks), but it gives no timing edge.
+
+### Pre-registered: a lottery filter for the long-only book (written before running)
+
+Motivation: in Asian financials, low vol and MAX are the most stable signals
+(ICs 0.07 / 0.06, same sign in all four periods), but the volatile names
+they penalise cannot be shorted in most of Asia. So the test is to *avoid*
+them.
+
+Specification:
+- Before picking the top momentum quintile in the long-only flat-in-stress
+  book, drop every name in its market's top 30% by 63-day volatility or by
+  21-day maximum daily return.
+- The hedge is unchanged: the equal-weighted universe.
+- Run on three universes: the original 21, the 20 new exchanges, and the
+  pooled Asian financials (liquid half).
+
+Prediction: the filtered book has a higher 2015-26 Sharpe than the
+unfiltered one in all three universes, and a maxDD that is no worse.
+
+**Result: the prediction fails.** The lottery filter hurts the momentum book
+in both broad universes:
+
+| universe | unfiltered | filtered | markets where the filter helps |
+|---|---|---|---|
+| original 21 (2006-14 / 2015-26) | 1.64 / 1.30 | 0.69 / 0.23 | 2 of 21 |
+| 20 new exchanges | 1.40 / 2.03 | 0.56 / 0.78 | 1 of 20 |
+| Asia-Pacific financials, liquid half | -0.22 / 0.39 | -0.70 / 0.77 | - |
+
+The filter helps only in Asian financials after 2015, and hurts there in
+2006-14. Momentum winners are often the volatile names, so filtering them
+out removes much of the premium. **Don't use it.**
+
+A post-hoc diagnostic hedging with the trailing beta (applied only while
+invested) gives the same ranking: filtered 1.24 vs unfiltered 1.70 on the
+original 21, and 2.17 vs 2.88 on the new 20. But it also inflates *every*
+book (unfiltered 1.30 → 1.70) because the beta is below 1. That leaves the
+book net long a survivor-only universe, which drifts upward in-sample (the
+same survivor premium as before). Beta-hedged numbers on survivor universes
+are not trustworthy. The 1:1 equal-weight hedge remains the honest
+construction.
+
+### The conservative combined number (`conservative_combo.py`)
+
+Assumptions:
+- Only the 14 borrowable new exchanges are used.
+- Every international market is charged **double** its estimated costs.
+- The blend is unchanged.
+
+| book | 2006-14 | 2015-20 | 2021-26 | 2015-26 | ret/yr | vol | maxDD | worst month |
+|---|---|---|---|---|---|---|---|---|
+| US book | 1.15 | 1.19 | 0.98 | 1.09 | 11.1% | 10.2% | -11.9% | -6.8% |
+| US + original 21 (costs x2) | 1.40 | 1.40 | 1.02 | 1.21 | 10.0% | 8.2% | -10.1% | -5.5% |
+| US + original 21 + 14 new (costs x1) | 2.08 | 2.02 | 1.70 | 1.87 | 10.8% | 5.8% | -8.6% | -4.0% |
+| **US + original 21 + 14 new (costs x2)** | **1.87** | **1.80** | **1.42** | **1.62** | 9.4% | 5.8% | -9.1% | -4.1% |
+| US + 35 markets as one sleeve (costs x2) | 1.43 | 1.50 | 1.10 | 1.31 | 10.5% | 8.0% | -9.5% | -4.5% |
+
+Sleeves alone at double costs:
+- original 21: 1.20 / 0.87 / 0.74
+- 14 new: 1.65 / 1.86 / 1.63
+
+Realised volatility (5.8%) sits below the 10% target because the 3x
+leverage cap binds. The international sleeves run at about 2% volatility at
+unit gross. Capacity (see above) limits this to a small account.
