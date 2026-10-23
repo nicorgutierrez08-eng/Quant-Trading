@@ -1,0 +1,6 @@
+# The regime model that won the overnight regime lab: two states on GARCH
+# volatility, VIX and the term spread instead of three on rolling symptoms.
+#     python -m qtrade --config config/regime_macro.yaml backtest
+regime:
+  n_states: 2
+  features: macro

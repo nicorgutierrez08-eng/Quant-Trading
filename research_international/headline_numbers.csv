@@ -1,0 +1,16 @@
+book,sharpe_2006_14,sharpe_2015_20,sharpe_2021_26,sharpe_2015_26,note
+original 21: flat in stress,1.58,1.19,1.06,1.13,index members; net of local costs
+original 21: flat in stress costs x2,1.20,0.87,0.74,0.80,
+original 21: flip VIX>20,0.99,0.58,0.73,0.64,the US rule; worse outside the US
+new 20: flat in stress (pre-registered),1.39,2.10,2.19,2.13,120 largest per exchange
+new 20: flat in stress costs x3,0.87,1.11,0.96,1.04,
+new 14 borrowable: flat in stress,1.99,2.23,2.11,2.17,
+new 14 borrowable: flat in stress costs x3,1.32,1.49,1.15,1.33,
+new 14 borrowable: largest 30 only,1.63,1.82,1.02,1.46,breadth check
+new 6 not borrowable: flat in stress,0.02,0.84,1.12,0.96,not tradable long/short
+all 41: flat in stress,1.43,1.69,1.67,1.68,
+US book alone,1.15,1.19,0.98,1.09,ETF sleeves + pairs x2 + US flip
+US + original 21 + 14 borrowable new (costs x2),1.87,1.80,1.42,1.62,the number to plan with (then discount); 9.4%/yr; maxDD -9.1%
+Asia-Pacific financials liquid half: momentum flat in stress,0.22,0.90,0.95,0.92,1341-name listing
+Asia-Pacific financials liquid half: low vol,0.80,0.19,0.98,0.51,
+lottery filter on long-only book (original 21),0.69,0.14,0.33,0.23,pre-registered; failed (unfiltered 1.30)

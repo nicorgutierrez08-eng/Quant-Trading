@@ -1,0 +1,1761 @@
+market,index,ticker,code,name,sector,financial
+Japan,Nikkei 225,1332.T,1332,ニッスイ,水産,False
+Japan,Nikkei 225,1605.T,1605,INPEX,鉱業,False
+Japan,Nikkei 225,1721.T,1721,コムシスホールディングス,建設,False
+Japan,Nikkei 225,1801.T,1801,大成建設,建設,False
+Japan,Nikkei 225,1802.T,1802,大林組,建設,False
+Japan,Nikkei 225,1803.T,1803,清水建設,建設,False
+Japan,Nikkei 225,1808.T,1808,長谷工コーポレーション,建設,False
+Japan,Nikkei 225,1812.T,1812,鹿島建設,建設,False
+Japan,Nikkei 225,1925.T,1925,大和ハウス工業,建設,False
+Japan,Nikkei 225,1928.T,1928,積水ハウス,建設,False
+Japan,Nikkei 225,1963.T,1963,日揮ホールディングス,建設,False
+Japan,Nikkei 225,2002.T,2002,日清製粉グループ本社,食品,False
+Japan,Nikkei 225,2269.T,2269,明治ホールディングス,食品,False
+Japan,Nikkei 225,2282.T,2282,日本ハム,食品,False
+Japan,Nikkei 225,2501.T,2501,サッポロホールディングス,食品,False
+Japan,Nikkei 225,2502.T,2502,アサヒグループホールディングス,食品,False
+Japan,Nikkei 225,2503.T,2503,キリンホールディングス,食品,False
+Japan,Nikkei 225,2801.T,2801,キッコーマン,食品,False
+Japan,Nikkei 225,2802.T,2802,味の素,食品,False
+Japan,Nikkei 225,2871.T,2871,ニチレイ,食品,False
+Japan,Nikkei 225,2914.T,2914,日本たばこ産業,食品,False
+Japan,Nikkei 225,3401.T,3401,帝人,繊維,False
+Japan,Nikkei 225,3402.T,3402,東レ,繊維,False
+Japan,Nikkei 225,3861.T,3861,王子ホールディングス,パルプ・紙,False
+Japan,Nikkei 225,3405.T,3405,クラレ,化学,False
+Japan,Nikkei 225,3407.T,3407,旭化成,化学,False
+Japan,Nikkei 225,4004.T,4004,レゾナック・ホールディングス,化学,False
+Japan,Nikkei 225,4005.T,4005,住友化学,化学,False
+Japan,Nikkei 225,4021.T,4021,日産化学,化学,False
+Japan,Nikkei 225,4042.T,4042,東ソー,化学,False
+Japan,Nikkei 225,4043.T,4043,トクヤマ,化学,False
+Japan,Nikkei 225,4061.T,4061,デンカ,化学,False
+Japan,Nikkei 225,4063.T,4063,信越化学工業,化学,False
+Japan,Nikkei 225,4183.T,4183,三井化学,化学,False
+Japan,Nikkei 225,4188.T,4188,三菱ケミカルグループ,化学,False
+Japan,Nikkei 225,4208.T,4208,UBE,化学,False
+Japan,Nikkei 225,4452.T,4452,花王,化学,False
+Japan,Nikkei 225,4901.T,4901,富士フイルムホールディングス,化学,False
+Japan,Nikkei 225,4911.T,4911,資生堂,化学,False
+Japan,Nikkei 225,6988.T,6988,日東電工,化学,False
+Japan,Nikkei 225,4151.T,4151,協和キリン,医薬品,False
+Japan,Nikkei 225,4502.T,4502,武田薬品工業,医薬品,False
+Japan,Nikkei 225,4503.T,4503,アステラス製薬,医薬品,False
+Japan,Nikkei 225,4506.T,4506,住友ファーマ,医薬品,False
+Japan,Nikkei 225,4507.T,4507,塩野義製薬,医薬品,False
+Japan,Nikkei 225,4519.T,4519,中外製薬,医薬品,False
+Japan,Nikkei 225,4523.T,4523,エーザイ,医薬品,False
+Japan,Nikkei 225,4568.T,4568,第一三共,医薬品,False
+Japan,Nikkei 225,4578.T,4578,大塚ホールディングス,医薬品,False
+Japan,Nikkei 225,5019.T,5019,出光興産,石油,False
+Japan,Nikkei 225,5020.T,5020,ENEOSホールディングス,石油,False
+Japan,Nikkei 225,5101.T,5101,横浜ゴム,ゴム,False
+Japan,Nikkei 225,5108.T,5108,ブリヂストン,ゴム,False
+Japan,Nikkei 225,5201.T,5201,AGC,窯業,False
+Japan,Nikkei 225,5214.T,5214,日本電気硝子,窯業,False
+Japan,Nikkei 225,5233.T,5233,太平洋セメント,窯業,False
+Japan,Nikkei 225,5301.T,5301,東海カーボン,窯業,False
+Japan,Nikkei 225,5332.T,5332,TOTO,窯業,False
+Japan,Nikkei 225,5333.T,5333,NGK,窯業,False
+Japan,Nikkei 225,5401.T,5401,日本製鉄,鉄鋼,False
+Japan,Nikkei 225,5406.T,5406,神戸製鋼所,鉄鋼,False
+Japan,Nikkei 225,5411.T,5411,JFEホールディングス,鉄鋼,False
+Japan,Nikkei 225,3436.T,3436,SUMCO,非鉄金属製品,False
+Japan,Nikkei 225,5016.T,5016,JX金属,非鉄金属製品,False
+Japan,Nikkei 225,5706.T,5706,三井金属鉱業,非鉄金属製品,False
+Japan,Nikkei 225,5711.T,5711,三菱マテリアル,非鉄金属製品,False
+Japan,Nikkei 225,5713.T,5713,住友金属鉱山,非鉄金属製品,False
+Japan,Nikkei 225,5714.T,5714,DOWAホールディングス,非鉄金属製品,False
+Japan,Nikkei 225,5801.T,5801,古河電気工業,非鉄金属製品,False
+Japan,Nikkei 225,5802.T,5802,住友電気工業,非鉄金属製品,False
+Japan,Nikkei 225,5803.T,5803,フジクラ,非鉄金属製品,False
+Japan,Nikkei 225,5631.T,5631,日本製鋼所,機械,False
+Japan,Nikkei 225,6103.T,6103,オークマ,機械,False
+Japan,Nikkei 225,6113.T,6113,アマダ,機械,False
+Japan,Nikkei 225,6273.T,6273,SMC,機械,False
+Japan,Nikkei 225,6301.T,6301,小松製作所,機械,False
+Japan,Nikkei 225,6302.T,6302,住友重機械工業,機械,False
+Japan,Nikkei 225,6305.T,6305,日立建機,機械,False
+Japan,Nikkei 225,6326.T,6326,クボタ,機械,False
+Japan,Nikkei 225,6361.T,6361,荏原製作所,機械,False
+Japan,Nikkei 225,6367.T,6367,ダイキン工業,機械,False
+Japan,Nikkei 225,6471.T,6471,日本精工,機械,False
+Japan,Nikkei 225,6472.T,6472,NTN,機械,False
+Japan,Nikkei 225,6473.T,6473,ジェイテクト,機械,False
+Japan,Nikkei 225,7011.T,7011,三菱重工業,機械,False
+Japan,Nikkei 225,7013.T,7013,IHI,機械,False
+Japan,Nikkei 225,285A.T,285A,キオクシアホールディングス,電気機器,False
+Japan,Nikkei 225,4062.T,4062,イビデン,電気機器,False
+Japan,Nikkei 225,6479.T,6479,ミネベアミツミ,電気機器,False
+Japan,Nikkei 225,6501.T,6501,日立製作所,電気機器,False
+Japan,Nikkei 225,6503.T,6503,三菱電機,電気機器,False
+Japan,Nikkei 225,6504.T,6504,富士電機,電気機器,False
+Japan,Nikkei 225,6506.T,6506,安川電機,電気機器,False
+Japan,Nikkei 225,6525.T,6525,KOKUSAI ELECTRIC,電気機器,False
+Japan,Nikkei 225,6526.T,6526,ソシオネクスト,電気機器,False
+Japan,Nikkei 225,6645.T,6645,オムロン,電気機器,False
+Japan,Nikkei 225,6701.T,6701,日本電気,電気機器,False
+Japan,Nikkei 225,6702.T,6702,富士通,電気機器,False
+Japan,Nikkei 225,6723.T,6723,ルネサスエレクトロニクス,電気機器,False
+Japan,Nikkei 225,6724.T,6724,セイコーエプソン,電気機器,False
+Japan,Nikkei 225,6752.T,6752,パナソニックホールディングス,電気機器,False
+Japan,Nikkei 225,6753.T,6753,シャープ,電気機器,False
+Japan,Nikkei 225,6758.T,6758,ソニーグループ,電気機器,False
+Japan,Nikkei 225,6762.T,6762,TDK,電気機器,False
+Japan,Nikkei 225,6770.T,6770,アルプスアルパイン,電気機器,False
+Japan,Nikkei 225,6841.T,6841,横河電機,電気機器,False
+Japan,Nikkei 225,6857.T,6857,アドバンテスト,電気機器,False
+Japan,Nikkei 225,6861.T,6861,キーエンス,電気機器,False
+Japan,Nikkei 225,6902.T,6902,デンソー,電気機器,False
+Japan,Nikkei 225,6920.T,6920,レーザーテック,電気機器,False
+Japan,Nikkei 225,6954.T,6954,ファナック,電気機器,False
+Japan,Nikkei 225,6963.T,6963,ローム,電気機器,False
+Japan,Nikkei 225,6971.T,6971,京セラ,電気機器,False
+Japan,Nikkei 225,6976.T,6976,太陽誘電,電気機器,False
+Japan,Nikkei 225,6981.T,6981,村田製作所,電気機器,False
+Japan,Nikkei 225,7735.T,7735,SCREENホールディングス,電気機器,False
+Japan,Nikkei 225,7751.T,7751,キヤノン,電気機器,False
+Japan,Nikkei 225,7752.T,7752,リコー,電気機器,False
+Japan,Nikkei 225,8035.T,8035,東京エレクトロン,電気機器,False
+Japan,Nikkei 225,7012.T,7012,川崎重工業,造船,False
+Japan,Nikkei 225,7201.T,7201,日産自動車,自動車,False
+Japan,Nikkei 225,7202.T,7202,いすゞ自動車,自動車,False
+Japan,Nikkei 225,7203.T,7203,トヨタ自動車,自動車,False
+Japan,Nikkei 225,7211.T,7211,三菱自動車工業,自動車,False
+Japan,Nikkei 225,7261.T,7261,マツダ,自動車,False
+Japan,Nikkei 225,7267.T,7267,本田技研工業,自動車,False
+Japan,Nikkei 225,7269.T,7269,スズキ,自動車,False
+Japan,Nikkei 225,7270.T,7270,SUBARU,自動車,False
+Japan,Nikkei 225,7272.T,7272,ヤマハ発動機,自動車,False
+Japan,Nikkei 225,4543.T,4543,テルモ,精密機器,False
+Japan,Nikkei 225,6146.T,6146,ディスコ,精密機器,False
+Japan,Nikkei 225,7731.T,7731,ニコン,精密機器,False
+Japan,Nikkei 225,7733.T,7733,オリンパス,精密機器,False
+Japan,Nikkei 225,7741.T,7741,HOYA,精密機器,False
+Japan,Nikkei 225,7832.T,7832,バンダイナムコホールディングス,その他製造,False
+Japan,Nikkei 225,7911.T,7911,TOPPANホールディングス,その他製造,False
+Japan,Nikkei 225,7912.T,7912,大日本印刷,その他製造,False
+Japan,Nikkei 225,7951.T,7951,ヤマハ,その他製造,False
+Japan,Nikkei 225,2768.T,2768,双日,商社,False
+Japan,Nikkei 225,8001.T,8001,伊藤忠商事,商社,False
+Japan,Nikkei 225,8002.T,8002,丸紅,商社,False
+Japan,Nikkei 225,8015.T,8015,豊田通商,商社,False
+Japan,Nikkei 225,8031.T,8031,三井物産,商社,False
+Japan,Nikkei 225,8053.T,8053,住友商事,商社,False
+Japan,Nikkei 225,8058.T,8058,三菱商事,商社,False
+Japan,Nikkei 225,3086.T,3086,J.フロント リテイリング,小売業,False
+Japan,Nikkei 225,3092.T,3092,ZOZO,小売業,False
+Japan,Nikkei 225,3099.T,3099,三越伊勢丹ホールディングス,小売業,False
+Japan,Nikkei 225,3382.T,3382,セブン&アイ・ホールディングス,小売業,False
+Japan,Nikkei 225,7453.T,7453,良品計画,小売業,False
+Japan,Nikkei 225,7532.T,7532,パン・パシフィック・インターナショナルホールディングス,小売業,False
+Japan,Nikkei 225,8233.T,8233,髙島屋,小売業,False
+Japan,Nikkei 225,8252.T,8252,丸井グループ,小売業,False
+Japan,Nikkei 225,8267.T,8267,イオン,小売業,False
+Japan,Nikkei 225,9843.T,9843,ニトリホールディングス,小売業,False
+Japan,Nikkei 225,9983.T,9983,ファーストリテイリング,小売業,False
+Japan,Nikkei 225,5831.T,5831,しずおかフィナンシャルグループ,銀行,True
+Japan,Nikkei 225,7186.T,7186,横浜フィナンシャルグループ,銀行,True
+Japan,Nikkei 225,8304.T,8304,あおぞら銀行,銀行,True
+Japan,Nikkei 225,8306.T,8306,三菱UFJフィナンシャル・グループ,銀行,True
+Japan,Nikkei 225,8308.T,8308,りそなホールディングス,銀行,True
+Japan,Nikkei 225,8309.T,8309,三井住友トラスト・ホールディングス,銀行,True
+Japan,Nikkei 225,8316.T,8316,三井住友フィナンシャルグループ,銀行,True
+Japan,Nikkei 225,8331.T,8331,千葉銀行,銀行,True
+Japan,Nikkei 225,8354.T,8354,ふくおかフィナンシャルグループ,銀行,True
+Japan,Nikkei 225,8411.T,8411,みずほフィナンシャルグループ,銀行,True
+Japan,Nikkei 225,8601.T,8601,大和証券グループ本社,証券,True
+Japan,Nikkei 225,8604.T,8604,野村ホールディングス,証券,True
+Japan,Nikkei 225,8630.T,8630,SOMPOホールディングス,保険,True
+Japan,Nikkei 225,8725.T,8725,MS&ADインシュアランスグループホールディングス,保険,True
+Japan,Nikkei 225,8750.T,8750,第一ライフグループ,保険,True
+Japan,Nikkei 225,8766.T,8766,東京海上ホールディングス,保険,True
+Japan,Nikkei 225,8795.T,8795,T&Dホールディングス,保険,True
+Japan,Nikkei 225,8253.T,8253,クレディセゾン,その他金融,True
+Japan,Nikkei 225,8591.T,8591,オリックス,その他金融,True
+Japan,Nikkei 225,8697.T,8697,日本取引所グループ,その他金融,True
+Japan,Nikkei 225,3289.T,3289,東急不動産ホールディングス,不動産,False
+Japan,Nikkei 225,8801.T,8801,三井不動産,不動産,False
+Japan,Nikkei 225,8802.T,8802,三菱地所,不動産,False
+Japan,Nikkei 225,8804.T,8804,東京建物,不動産,False
+Japan,Nikkei 225,8830.T,8830,住友不動産,不動産,False
+Japan,Nikkei 225,9001.T,9001,東武鉄道,鉄道・バス,False
+Japan,Nikkei 225,9005.T,9005,東急,鉄道・バス,False
+Japan,Nikkei 225,9007.T,9007,小田急電鉄,鉄道・バス,False
+Japan,Nikkei 225,9008.T,9008,京王電鉄,鉄道・バス,False
+Japan,Nikkei 225,9009.T,9009,京成電鉄,鉄道・バス,False
+Japan,Nikkei 225,9020.T,9020,東日本旅客鉄道,鉄道・バス,False
+Japan,Nikkei 225,9021.T,9021,西日本旅客鉄道,鉄道・バス,False
+Japan,Nikkei 225,9022.T,9022,東海旅客鉄道,鉄道・バス,False
+Japan,Nikkei 225,9064.T,9064,ヤマトホールディングス,陸運,False
+Japan,Nikkei 225,9147.T,9147,NIPPON EXPRESSホールディングス,陸運,False
+Japan,Nikkei 225,9101.T,9101,日本郵船,海運,False
+Japan,Nikkei 225,9104.T,9104,商船三井,海運,False
+Japan,Nikkei 225,9107.T,9107,川崎汽船,海運,False
+Japan,Nikkei 225,9201.T,9201,日本航空,空運,False
+Japan,Nikkei 225,9202.T,9202,ANAホールディングス,空運,False
+Japan,Nikkei 225,2432.T,2432,ディー・エヌ・エー,情報・通信,False
+Japan,Nikkei 225,3659.T,3659,ネクソン,情報・通信,False
+Japan,Nikkei 225,3697.T,3697,SHIFT,情報・通信,False
+Japan,Nikkei 225,4307.T,4307,野村総研,情報・通信,False
+Japan,Nikkei 225,4385.T,4385,メルカリ,情報・通信,False
+Japan,Nikkei 225,4689.T,4689,ラインヤフー,情報・通信,False
+Japan,Nikkei 225,4704.T,4704,トレンド,情報・通信,False
+Japan,Nikkei 225,7974.T,7974,任天堂,情報・通信,False
+Japan,Nikkei 225,9432.T,9432,NTT,情報・通信,False
+Japan,Nikkei 225,9433.T,9433,KDDI,情報・通信,False
+Japan,Nikkei 225,9434.T,9434,ソフトバンク,情報・通信,False
+Japan,Nikkei 225,9602.T,9602,東宝,情報・通信,False
+Japan,Nikkei 225,9697.T,9697,カプコン,情報・通信,False
+Japan,Nikkei 225,9766.T,9766,コナミグループ,情報・通信,False
+Japan,Nikkei 225,9984.T,9984,ソフトバンクグループ,情報・通信,False
+Japan,Nikkei 225,9501.T,9501,東京電力ホールディングス,電力,False
+Japan,Nikkei 225,9502.T,9502,中部電力,電力,False
+Japan,Nikkei 225,9503.T,9503,関西電力,電力,False
+Japan,Nikkei 225,9531.T,9531,東京ガス,ガス,False
+Japan,Nikkei 225,9532.T,9532,大阪ガス,ガス,False
+Japan,Nikkei 225,2413.T,2413,エムスリー,サービス,False
+Japan,Nikkei 225,4324.T,4324,電通グループ,サービス,False
+Japan,Nikkei 225,4661.T,4661,オリエンタルランド,サービス,False
+Japan,Nikkei 225,4751.T,4751,サイバーエージェント,サービス,False
+Japan,Nikkei 225,4755.T,4755,楽天,サービス,False
+Japan,Nikkei 225,6098.T,6098,リクルートホールディングス,サービス,False
+Japan,Nikkei 225,6178.T,6178,日本郵政,サービス,False
+Japan,Nikkei 225,6532.T,6532,ベイカレント,サービス,False
+Japan,Nikkei 225,9735.T,9735,セコム,サービス,False
+Hong Kong,Hang Seng,0005.HK,0005,HSBC Holdings plc,Finance,True
+Hong Kong,Hang Seng,0388.HK,0388,HKEx Limited,Finance,True
+Hong Kong,Hang Seng,0939.HK,0939,China Construction Bank,Finance,True
+Hong Kong,Hang Seng,1299.HK,1299,AIA Group Limited,Finance,True
+Hong Kong,Hang Seng,1398.HK,1398,Industrial and Commercial Bank of China,Finance,True
+Hong Kong,Hang Seng,2318.HK,2318,Ping An Insurance,Finance,True
+Hong Kong,Hang Seng,2388.HK,2388,BOC Hong Kong (Holdings) Ltd,Finance,True
+Hong Kong,Hang Seng,2628.HK,2628,China Life,Finance,True
+Hong Kong,Hang Seng,3968.HK,3968,China Merchants Bank,Finance,True
+Hong Kong,Hang Seng,3988.HK,3988,Bank of China Ltd,Finance,True
+Hong Kong,Hang Seng,0002.HK,0002,CLP Holdings Limited,Utilities,False
+Hong Kong,Hang Seng,0003.HK,0003,Hong Kong and China Gas Company Limited,Utilities,False
+Hong Kong,Hang Seng,0006.HK,0006,Power Assets Holdings Limited,Utilities,False
+Hong Kong,Hang Seng,0836.HK,0836,China Resources Power,Utilities,False
+Hong Kong,Hang Seng,1038.HK,1038,Cheung Kong Infrastructure Holdings Limited,Utilities,False
+Hong Kong,Hang Seng,2688.HK,2688,ENN Energy,Utilities,False
+Hong Kong,Hang Seng,0012.HK,0012,Henderson Land Development Company Limited,Properties,False
+Hong Kong,Hang Seng,0016.HK,0016,Sun Hung Kai Properties Limited,Properties,False
+Hong Kong,Hang Seng,0101.HK,0101,Hang Lung Properties Limited,Properties,False
+Hong Kong,Hang Seng,0688.HK,0688,China Overseas Land & Investment Limited,Properties,False
+Hong Kong,Hang Seng,0823.HK,0823,Link REIT,Properties,False
+Hong Kong,Hang Seng,0960.HK,0960,Longfor Properties,Properties,False
+Hong Kong,Hang Seng,1109.HK,1109,China Resources Land Limited,Properties,False
+Hong Kong,Hang Seng,1113.HK,1113,CK Asset Holdings,Properties,False
+Hong Kong,Hang Seng,1209.HK,1209,China Resources Mixc Lifestyle,Properties,False
+Hong Kong,Hang Seng,1997.HK,1997,Wharf Real Estate Investment Company Limited,Properties,False
+Hong Kong,Hang Seng,0001.HK,0001,CK Hutchison Holdings Limited,Commerce & Industry,False
+Hong Kong,Hang Seng,0027.HK,0027,Galaxy Entertainment Group Ltd.,Commerce & Industry,False
+Hong Kong,Hang Seng,0066.HK,0066,MTR Corporation Ltd,Commerce & Industry,False
+Hong Kong,Hang Seng,0175.HK,0175,Geely Auto,Commerce & Industry,False
+Hong Kong,Hang Seng,0241.HK,0241,Alibaba Health,Commerce & Industry,False
+Hong Kong,Hang Seng,0267.HK,0267,CITIC Limited,Commerce & Industry,False
+Hong Kong,Hang Seng,0285.HK,0285,BYD Electronics,Commerce & Industry,False
+Hong Kong,Hang Seng,0288.HK,0288,WH Group,Commerce & Industry,False
+Hong Kong,Hang Seng,0291.HK,0291,China Resources Beer,Commerce & Industry,False
+Hong Kong,Hang Seng,0300.HK,0300,Midea Group,Commerce & Industry,False
+Hong Kong,Hang Seng,0316.HK,0316,Orient Overseas (International) Limited,Commerce & Industry,False
+Hong Kong,Hang Seng,0322.HK,0322,Tingyi,Commerce & Industry,False
+Hong Kong,Hang Seng,0386.HK,0386,Sinopec Corp,Commerce & Industry,False
+Hong Kong,Hang Seng,0669.HK,0669,Techtronic Industries,Commerce & Industry,False
+Hong Kong,Hang Seng,0700.HK,0700,Tencent Holdings Limited,Commerce & Industry,False
+Hong Kong,Hang Seng,0762.HK,0762,China Unicom,Commerce & Industry,False
+Hong Kong,Hang Seng,0857.HK,0857,PetroChina Company Limited,Commerce & Industry,False
+Hong Kong,Hang Seng,0868.HK,0868,Xinyi Glass,Commerce & Industry,False
+Hong Kong,Hang Seng,0881.HK,0881,Zhongsheng Group,Commerce & Industry,False
+Hong Kong,Hang Seng,0883.HK,0883,CNOOC Limited,Commerce & Industry,False
+Hong Kong,Hang Seng,0941.HK,0941,China Mobile Ltd,Commerce & Industry,False
+Hong Kong,Hang Seng,0968.HK,0968,Xinyi Solar,Commerce & Industry,False
+Hong Kong,Hang Seng,0981.HK,0981,Semiconductor Manufacturing International Corporation,Commerce & Industry,False
+Hong Kong,Hang Seng,0992.HK,0992,Lenovo,Commerce & Industry,False
+Hong Kong,Hang Seng,1024.HK,1024,Kuaishou,Commerce & Industry,False
+Hong Kong,Hang Seng,1044.HK,1044,Hengan International Group Co. Ltd,Commerce & Industry,False
+Hong Kong,Hang Seng,1088.HK,1088,China Shenhua Energy,Commerce & Industry,False
+Hong Kong,Hang Seng,1093.HK,1093,CSPC Pharmaceutical Group,Commerce & Industry,False
+Hong Kong,Hang Seng,1099.HK,1099,Sinopharm Group,Commerce & Industry,False
+Hong Kong,Hang Seng,1177.HK,1177,Sino Biopharm,Commerce & Industry,False
+Hong Kong,Hang Seng,1211.HK,1211,BYD Company,Commerce & Industry,False
+Hong Kong,Hang Seng,1378.HK,1378,China Hongqiao Group,Commerce & Industry,False
+Hong Kong,Hang Seng,1810.HK,1810,Xiaomi,Commerce & Industry,False
+Hong Kong,Hang Seng,1876.HK,1876,Budweiser Brewing Company APAC,Commerce & Industry,False
+Hong Kong,Hang Seng,1928.HK,1928,Sands China,Commerce & Industry,False
+Hong Kong,Hang Seng,1929.HK,1929,Chow Tai Fook,Commerce & Industry,False
+Hong Kong,Hang Seng,2015.HK,2015,Li Auto,Commerce & Industry,False
+Hong Kong,Hang Seng,2020.HK,2020,Anta Sports,Commerce & Industry,False
+Hong Kong,Hang Seng,2057.HK,2057,ZTO Express,Commerce & Industry,False
+Hong Kong,Hang Seng,2269.HK,2269,WuXi Biologics,Commerce & Industry,False
+Hong Kong,Hang Seng,2313.HK,2313,Shenzhou International,Commerce & Industry,False
+Hong Kong,Hang Seng,2319.HK,2319,Mengniu Dairy,Commerce & Industry,False
+Hong Kong,Hang Seng,2331.HK,2331,Li-Ning,Commerce & Industry,False
+Hong Kong,Hang Seng,2359.HK,2359,WuXi AppTec,Commerce & Industry,False
+Hong Kong,Hang Seng,2382.HK,2382,Sunny Optical,Commerce & Industry,False
+Hong Kong,Hang Seng,2618.HK,2618,JD Logistics,Commerce & Industry,False
+Hong Kong,Hang Seng,2899.HK,2899,Zijin Mining,Commerce & Industry,False
+Hong Kong,Hang Seng,3690.HK,3690,Meituan,Commerce & Industry,False
+Hong Kong,Hang Seng,3692.HK,3692,Hansoh Pharmaceutical Group,Commerce & Industry,False
+Hong Kong,Hang Seng,6618.HK,6618,JD Health,Commerce & Industry,False
+Hong Kong,Hang Seng,6690.HK,6690,Haier,Commerce & Industry,False
+Hong Kong,Hang Seng,6862.HK,6862,Haidilao,Commerce & Industry,False
+Hong Kong,Hang Seng,9618.HK,9618,JD.com,Commerce & Industry,False
+Hong Kong,Hang Seng,9633.HK,9633,Nongfu Spring,Commerce & Industry,False
+Hong Kong,Hang Seng,9888.HK,9888,Baidu,Commerce & Industry,False
+Hong Kong,Hang Seng,9961.HK,9961,Trip.com Group,Commerce & Industry,False
+Hong Kong,Hang Seng,9988.HK,9988,Alibaba Group,Commerce & Industry,False
+Hong Kong,Hang Seng,9992.HK,9992,Pop Mart,Commerce & Industry,False
+Hong Kong,Hang Seng,9999.HK,9999,NetEase,Commerce & Industry,False
+Hong Kong (H-shares),HSCEI,9988.HK,9988,Alibaba Group,Information Technology,False
+Hong Kong (H-shares),HSCEI,3690.HK,3690,Meituan,Information Technology,False
+Hong Kong (H-shares),HSCEI,0700.HK,0700,Tencent,Information Technology,False
+Hong Kong (H-shares),HSCEI,0939.HK,0939,China Construction Bank,Financials,True
+Hong Kong (H-shares),HSCEI,9618.HK,9618,JD.com,Information Technology,False
+Hong Kong (H-shares),HSCEI,0941.HK,0941,China Mobile,Telecommunications,False
+Hong Kong (H-shares),HSCEI,1398.HK,1398,ICBC,Financials,True
+Hong Kong (H-shares),HSCEI,2318.HK,2318,Ping An Insurance,Financials,True
+Hong Kong (H-shares),HSCEI,3988.HK,3988,Bank of China,Financials,True
+Hong Kong (H-shares),HSCEI,1211.HK,1211,BYD Company,Consumer Discretionary,False
+Hong Kong (H-shares),HSCEI,1810.HK,1810,Xiaomi,Information Technology,False
+Hong Kong (H-shares),HSCEI,0883.HK,0883,CNOOC Limited,Energy,False
+Hong Kong (H-shares),HSCEI,2331.HK,2331,Li-Ning,Consumer Discretionary,False
+Hong Kong (H-shares),HSCEI,3968.HK,3968,China Merchants Bank,Financials,True
+Hong Kong (H-shares),HSCEI,1024.HK,1024,Kuaishou,Information Technology,False
+Hong Kong (H-shares),HSCEI,2319.HK,2319,Mengniu Dairy,Consumer Staples,False
+Hong Kong (H-shares),HSCEI,1109.HK,1109,China Resources Land,Properties & Construction,False
+Hong Kong (H-shares),HSCEI,2020.HK,2020,Anta Sports,Consumer Discretionary,False
+Hong Kong (H-shares),HSCEI,0175.HK,0175,Geely,Consumer Discretionary,False
+Hong Kong (H-shares),HSCEI,9633.HK,9633,Nongfu Spring,Consumer Staples,False
+Hong Kong (H-shares),HSCEI,2688.HK,2688,ENN Energy,Utilities,False
+Hong Kong (H-shares),HSCEI,0386.HK,0386,Sinopec,Energy,False
+Hong Kong (H-shares),HSCEI,0291.HK,0291,China Resources Beer,Consumer Staples,False
+Hong Kong (H-shares),HSCEI,9999.HK,9999,NetEase,Information Technology,False
+Hong Kong (H-shares),HSCEI,2628.HK,2628,China Life Insurance Company,Financials,True
+Hong Kong (H-shares),HSCEI,0688.HK,0688,China Overseas Land and Investment,Properties & Construction,False
+Hong Kong (H-shares),HSCEI,1288.HK,1288,Agricultural Bank of China,Financials,True
+Hong Kong (H-shares),HSCEI,2382.HK,2382,Sunny Optical,Industrials,False
+Hong Kong (H-shares),HSCEI,1093.HK,1093,Shijiazhuang Pharma Group,Healthcare,False
+Hong Kong (H-shares),HSCEI,0981.HK,0981,SMIC,Information Technology,False
+Hong Kong (H-shares),HSCEI,2313.HK,2313,Shenzhou International,Consumer Discretionary,False
+Hong Kong (H-shares),HSCEI,9888.HK,9888,Baidu,Information Technology,False
+Hong Kong (H-shares),HSCEI,6618.HK,6618,JD Health,Healthcare,False
+Hong Kong (H-shares),HSCEI,0267.HK,0267,CITIC Limited,Conglomerates,False
+Hong Kong (H-shares),HSCEI,0968.HK,0968,Xinyi Solar,Industrials,False
+Hong Kong (H-shares),HSCEI,1658.HK,1658,Postal Savings Bank of China,Financials,True
+Hong Kong (H-shares),HSCEI,0992.HK,0992,Lenovo,Information Technology,False
+Hong Kong (H-shares),HSCEI,1177.HK,1177,Sino Biopharmaceutical Limited,Healthcare,False
+Hong Kong (H-shares),HSCEI,0960.HK,0960,Longfor Properties,Properties & Construction,False
+Hong Kong (H-shares),HSCEI,1801.HK,1801,Innovent Biologics,Healthcare,False
+Hong Kong (H-shares),HSCEI,2601.HK,2601,China Pacific Insurance Company,Financials,True
+Hong Kong (H-shares),HSCEI,3328.HK,3328,Bank of Communications,Financials,True
+Hong Kong (H-shares),HSCEI,0384.HK,0384,China Gas,Utilities,False
+Hong Kong (H-shares),HSCEI,6186.HK,6186,China Feihe,Consumer Staples,False
+Hong Kong (H-shares),HSCEI,2618.HK,2618,JD Logistics,Industrials,False
+Hong Kong (H-shares),HSCEI,6098.HK,6098,CG Services,Properties & Construction,False
+Hong Kong (H-shares),HSCEI,6862.HK,6862,Haidilao,Consumer Discretionary,False
+Hong Kong (H-shares),HSCEI,0241.HK,0241,Alibaba Health,Healthcare,False
+Hong Kong (H-shares),HSCEI,9626.HK,9626,Bilibili,Information Technology,False
+Hong Kong (H-shares),HSCEI,2007.HK,2007,Country Garden,Properties & Construction,False
+China,CSI 300,600519.SS,600519,Kweichow Moutai,Consumer Staples,False
+China,CSI 300,601318.SS,601318,Ping An Insurance,Financials,True
+China,CSI 300,300750.SZ,300750,CATL,Industrials,False
+China,CSI 300,600036.SS,600036,China Merchants Bank,Financials,True
+China,CSI 300,000333.SZ,000333,Midea Group,Consumer Discretionary,False
+China,CSI 300,000858.SZ,000858,Wuliangye Yibin,Consumer Staples,False
+China,CSI 300,600900.SS,600900,China Yangtze Power,Utilities,False
+China,CSI 300,601166.SS,601166,Industrial Bank,Financials,True
+China,CSI 300,601899.SS,601899,Zijin Mining Group,Materials,False
+China,CSI 300,600030.SS,600030,CITIC Securities,Financials,True
+China,CSI 300,600276.SS,600276,Jiangsu Hengrui Medicine,Health Care,False
+China,CSI 300,601398.SS,601398,Industrial and Commercial Bank of China,Financials,True
+China,CSI 300,600887.SS,600887,Inner Mongolia Yili Industrial Group,Consumer Staples,False
+China,CSI 300,300059.SZ,300059,East Money,Financials,True
+China,CSI 300,000651.SZ,000651,Gree Electric,Consumer Discretionary,False
+China,CSI 300,300760.SZ,300760,Mindray,Health Care,False
+China,CSI 300,002594.SZ,002594,BYD,Consumer Discretionary,False
+China,CSI 300,601328.SS,601328,Bank of Communications,Financials,True
+China,CSI 300,600309.SS,600309,Wanhua Chemical Group,Materials,False
+China,CSI 300,000725.SZ,000725,BOE Technology Group,Information Technology,False
+China,CSI 300,600919.SS,600919,Bank of Jiangsu,Financials,True
+China,CSI 300,002475.SZ,002475,Luxshare Precision Industry,Information Technology,False
+China,CSI 300,300124.SZ,300124,Shenzhen Inovance Technology,Industrials,False
+China,CSI 300,601288.SS,601288,Agricultural Bank of China,Financials,True
+China,CSI 300,002415.SZ,002415,Hangzhou Hikvision Digital Technology,Information Technology,False
+China,CSI 300,000568.SZ,000568,Luzhou Lao Jiao,Consumer Staples,False
+China,CSI 300,601012.SS,601012,Longi Green Energy Technology,Information Technology,False
+China,CSI 300,601088.SS,601088,China Shenhua Energy,Energy,False
+China,CSI 300,601816.SS,601816,Beijing-Shanghai High Speed Railway,Industrials,False
+China,CSI 300,600028.SS,600028,China Petroleum & Chemical Corporation,Energy,False
+China,CSI 300,600809.SS,600809,Shanxi Xinghuacun Fen Wine Factory,Consumer Staples,False
+China,CSI 300,601668.SS,601668,China State Construction Engineering,Industrials,False
+China,CSI 300,603259.SS,603259,WuXi AppTec,Health Care,False
+China,CSI 300,002714.SZ,002714,Muyuan Foodstuff,Consumer Staples,False
+China,CSI 300,000001.SZ,000001,Ping An Bank,Financials,True
+China,CSI 300,300498.SZ,300498,Wens Foodstuff Group,Consumer Staples,False
+China,CSI 300,600016.SS,600016,China Minsheng Bank,Financials,True
+China,CSI 300,601857.SS,601857,PetroChina,Energy,False
+China,CSI 300,601225.SS,601225,Shaanxi Coal Industry Company,Energy,False
+China,CSI 300,300308.SZ,300308,Zhongji Innolight,Information Technology,False
+China,CSI 300,688981.SS,688981,Semiconductor Manufacturing International Corporation,Information Technology,False
+China,CSI 300,000063.SZ,000063,ZTE,Information Technology,False
+China,CSI 300,601988.SS,601988,Bank of China,Financials,True
+China,CSI 300,002352.SZ,002352,S.F. Holding,Industrials,False
+China,CSI 300,600406.SS,600406,NARI Technology,Industrials,False
+China,CSI 300,600941.SS,600941,China Mobile,Communication,False
+China,CSI 300,000338.SZ,000338,Weichai Power,Industrials,False
+China,CSI 300,600050.SS,600050,China United Network Communications,Communication,False
+China,CSI 300,002230.SZ,002230,Iflytek,Information Technology,False
+China,CSI 300,600690.SS,600690,Qingdao Haier,Consumer Discretionary,False
+China,CSI 300,601728.SS,601728,China Telecom Corporation,Communication,False
+China,CSI 300,300274.SZ,300274,Sungrow Power Supply,Industrials,False
+China,CSI 300,002142.SZ,002142,Bank of Ningbo,Financials,True
+China,CSI 300,600837.SS,600837,Haitong Securities Company,Financials,True
+China,CSI 300,000792.SZ,000792,Qinghai Salt Lake Potash,Materials,False
+China,CSI 300,601601.SS,601601,China Pacific Insurance,Financials,True
+China,CSI 300,000100.SZ,000100,TCL Corporation,Information Technology,False
+China,CSI 300,601888.SS,601888,China International Travel Service,Consumer Discretionary,False
+China,CSI 300,600000.SS,600000,Shanghai Pudong Development Bank,Financials,True
+China,CSI 300,600031.SS,600031,Sany Heavy Industry,Industrials,False
+China,CSI 300,601985.SS,601985,China National Nuclear Power,Utilities,False
+China,CSI 300,600150.SS,600150,China CSSC Holdings,Industrials,False
+China,CSI 300,688041.SS,688041,Hygon Information Technology,Information Technology,False
+China,CSI 300,601766.SS,601766,CRRC Corporation,Industrials,False
+China,CSI 300,601169.SS,601169,Bank of Beijing,Financials,True
+China,CSI 300,002371.SZ,002371,NAURA Technology Group,Information Technology,False
+China,CSI 300,600089.SS,600089,TBEA,Industrials,False
+China,CSI 300,601688.SS,601688,Huatai Securities,Financials,True
+China,CSI 300,601138.SS,601138,Foxconn Industrial Internet,Information Technology,False
+China,CSI 300,000625.SZ,000625,Chongqing Changan Automobile,Consumer Discretionary,False
+China,CSI 300,600438.SS,600438,Tongwei Company,Information Technology,False
+China,CSI 300,600048.SS,600048,Poly Real Estate Group,Real Estate,False
+China,CSI 300,603501.SS,603501,Will Semiconductor,Information Technology,False
+China,CSI 300,600104.SS,600104,SAIC Motor,Consumer Discretionary,False
+China,CSI 300,600660.SS,600660,Fuyao Glass Industry Group,Consumer Discretionary,False
+China,CSI 300,000002.SZ,000002,China Vanke,Real Estate,False
+China,CSI 300,300015.SZ,300015,Aier Eye Hospital,Health Care,False
+China,CSI 300,601211.SS,601211,Guotai Junan Securities,Financials,True
+China,CSI 300,603288.SS,603288,Foshan Haitian Flavouring & Food Co,Consumer Staples,False
+China,CSI 300,600436.SS,600436,Zhangzhou Pientzehuang Pharmaceutical,Health Care,False
+China,CSI 300,601919.SS,601919,China Cosco Holdings,Industrials,False
+China,CSI 300,600905.SS,600905,China Three Gorges Renewables (Group),Utilities,False
+China,CSI 300,601390.SS,601390,China Railway Group Limited,Industrials,False
+China,CSI 300,601229.SS,601229,Bank of Shanghai,Financials,True
+China,CSI 300,300122.SZ,300122,Chongqing Zhifei Biological Products,Health Care,False
+China,CSI 300,002027.SZ,002027,Focus Media Information Technology,Communication,False
+China,CSI 300,688012.SS,688012,Advanced Micro-Fabrication Equipment,Information Technology,False
+China,CSI 300,688111.SS,688111,Beijing Kingsoft Office Software,Information Technology,False
+China,CSI 300,601006.SS,601006,Daqin Railway,Industrials,False
+China,CSI 300,002304.SZ,002304,Jiangsu Yanghe Brewery Joint-Stock,Consumer Staples,False
+China,CSI 300,601818.SS,601818,China Everbright Bank,Financials,True
+China,CSI 300,600019.SS,600019,Baoshan Iron and Steel,Materials,False
+China,CSI 300,688271.SS,688271,United Imaging,Health Care,False
+China,CSI 300,603019.SS,603019,Dawning Information Industry,Information Technology,False
+China,CSI 300,600585.SS,600585,Anhui Conch Cement,Materials,False
+China,CSI 300,002050.SZ,002050,ZHEJIANG SANHUA INTELLIGENT CONTROLS,Industrials,False
+China,CSI 300,002466.SZ,002466,Tianqi Lithium Industries,Materials,False
+China,CSI 300,601658.SS,601658,Postal Savings Bank of China,Financials,True
+China,CSI 300,601989.SS,601989,China Shipbuilding Industry Company,Industrials,False
+China,CSI 300,600938.SS,600938,CNOOC Limited,Energy,False
+China,CSI 300,600999.SS,600999,China Merchants Securities,Financials,True
+China,CSI 300,688036.SS,688036,Transsion,Information Technology,False
+China,CSI 300,000938.SZ,000938,Unisplendour,Information Technology,False
+China,CSI 300,601628.SS,601628,China Life Insurance Company,Financials,True
+China,CSI 300,603986.SS,603986,GigaDevice,Information Technology,False
+China,CSI 300,002049.SZ,002049,Unigroup Guoxin Microelectronics,Information Technology,False
+China,CSI 300,601600.SS,601600,Aluminum Corporation of China Limited,Materials,False
+China,CSI 300,600111.SS,600111,China Northern Rare Earth Group,Materials,False
+China,CSI 300,688008.SS,688008,Montage Technology,Information Technology,False
+China,CSI 300,300014.SZ,300014,Eve Energy,Industrials,False
+China,CSI 300,601939.SS,601939,China Construction Bank,Financials,True
+China,CSI 300,600958.SS,600958,Orient Securities,Financials,True
+China,CSI 300,600893.SS,600893,AVIC Aviation Engine Corporation,Industrials,False
+China,CSI 300,002460.SZ,002460,Ganfeng Lithium,Materials,False
+China,CSI 300,601009.SS,601009,Bank of Nanjing,Financials,True
+China,CSI 300,000538.SZ,000538,Yunnan Baiyao Group,Health Care,False
+China,CSI 300,601669.SS,601669,Power Construction Corporation of China,Industrials,False
+China,CSI 300,600009.SS,600009,Shanghai International Airport,Industrials,False
+China,CSI 300,002129.SZ,002129,Tianjin Zhonghuan Semiconductor,Information Technology,False
+China,CSI 300,603993.SS,603993,China Molybdenum,Materials,False
+China,CSI 300,600886.SS,600886,SDIC Power Holdings,Utilities,False
+China,CSI 300,600760.SS,600760,AVIC SHENYANG AIRCRAFT COMPANY,Industrials,False
+China,CSI 300,000425.SZ,000425,XCMG Construction Machinery,Industrials,False
+China,CSI 300,000776.SZ,000776,GF Securities,Financials,True
+China,CSI 300,601916.SS,601916,China Zheshang Bank,Financials,True
+China,CSI 300,600795.SS,600795,GD Power Development,Utilities,False
+China,CSI 300,000661.SZ,000661,Chang Chun High and New Technology Industry (Group),Health Care,False
+China,CSI 300,000166.SZ,000166,Shenwan Hongyuan,Financials,True
+China,CSI 300,600426.SS,600426,Shandong Hualu-Hengsheng Chemical,Materials,False
+China,CSI 300,600015.SS,600015,Hua Xia Bank,Financials,True
+China,CSI 300,300782.SZ,300782,Maxscend Microelectronics,Information Technology,False
+China,CSI 300,601377.SS,601377,Industrial Securities,Financials,True
+China,CSI 300,601186.SS,601186,China Railway Construction,Industrials,False
+China,CSI 300,000157.SZ,000157,Zoomlion Heavy Industry Science & Technology,Industrials,False
+China,CSI 300,002241.SZ,002241,GoerTek,Information Technology,False
+China,CSI 300,600926.SS,600926,Bank of Hangzhou,Financials,True
+China,CSI 300,600547.SS,600547,Shandong Gold-Mining,Materials,False
+China,CSI 300,600011.SS,600011,Huaneng Power International,Utilities,False
+China,CSI 300,000977.SZ,000977,Inspur Electronic Information Industry,Information Technology,False
+China,CSI 300,002252.SZ,002252,Shanghai RAAS Blood Products,Health Care,False
+China,CSI 300,600674.SS,600674,Sichuan Chuantou Energy,Utilities,False
+China,CSI 300,603799.SS,603799,ZHEJIANG HUAYOU COBALT,Materials,False
+China,CSI 300,600584.SS,600584,JCET,Information Technology,False
+China,CSI 300,600570.SS,600570,Hundsun Technologies,Information Technology,False
+China,CSI 300,002236.SZ,002236,Zhejiang Dahua Technology,Information Technology,False
+China,CSI 300,002179.SZ,002179,AVIC Jonhon Optronic Technology,Information Technology,False
+China,CSI 300,000596.SZ,000596,Anhui Gujing Distillery,Consumer Staples,False
+China,CSI 300,002311.SZ,002311,Guangdong Haid Group,Consumer Staples,False
+China,CSI 300,600188.SS,600188,Yanzhou Coal Mining,Energy,False
+China,CSI 300,300896.SZ,300896,IMEIK TECHNOLOGY DEVELOPMENT,Health Care,False
+China,CSI 300,688256.SS,688256,Cambricon Technologies,Information Technology,False
+China,CSI 300,600010.SS,600010,Inner Mongolia Baotou Steel Union,Materials,False
+China,CSI 300,002271.SZ,002271,Beijing Oriental Yuhong Waterproof Technology,Materials,False
+China,CSI 300,601111.SS,601111,Air China,Industrials,False
+China,CSI 300,001979.SZ,001979,China Merchants Shekou Industrial Zone Holdings,Real Estate,False
+China,CSI 300,300408.SZ,300408,Chaozhou Three-Circle,Information Technology,False
+China,CSI 300,600845.SS,600845,Baosight Software,Information Technology,False
+China,CSI 300,603369.SS,603369,Jiangsu King's Luck Brewery Joint-Stock,Consumer Staples,False
+China,CSI 300,600989.SS,600989,Ningxia Baofeng Energy Group,Materials,False
+China,CSI 300,600745.SS,600745,Wingtech,Information Technology,False
+China,CSI 300,601788.SS,601788,Everbright Securities,Financials,True
+China,CSI 300,600115.SS,600115,China Eastern Airlines Corp,Industrials,False
+China,CSI 300,600029.SS,600029,China Southern Airlines,Industrials,False
+China,CSI 300,002601.SZ,002601,LB Group,Materials,False
+China,CSI 300,601360.SS,601360,360 Security Technology,Information Technology,False
+China,CSI 300,601901.SS,601901,Founder Securities,Financials,True
+China,CSI 300,002493.SZ,002493,Rongsheng Petro Chemical,Materials,False
+China,CSI 300,600196.SS,600196,Fosun Pharmaceutical,Health Care,False
+China,CSI 300,002459.SZ,002459,JA Solar Technology,Information Technology,False
+China,CSI 300,601699.SS,601699,Shanxi Lu'an Environmental Energy Development,Energy,False
+China,CSI 300,601995.SS,601995,China International Capital Corporation,Financials,True
+China,CSI 300,600085.SS,600085,Beijing Tongrentang,Health Care,False
+China,CSI 300,601100.SS,601100,Jiangsu Hengli Hydraulic,Industrials,False
+China,CSI 300,601800.SS,601800,China Communications Construction Company,Industrials,False
+China,CSI 300,000895.SZ,000895,Henan Shuanghui Investment & Development,Consumer Staples,False
+China,CSI 300,002555.SZ,002555,37 Interactive Entertainment Network Technology Group,Communication,False
+China,CSI 300,003816.SZ,003816,CGN Power,Utilities,False
+China,CSI 300,600489.SS,600489,Zhongjin Gold,Materials,False
+China,CSI 300,601066.SS,601066,China Securities,Financials,True
+China,CSI 300,000963.SZ,000963,Huadong Medicine,Health Care,False
+China,CSI 300,300142.SZ,300142,Walvax Biotechnology,Health Care,False
+China,CSI 300,300033.SZ,300033,Hithink RoyalFlush Information Network,Financials,True
+China,CSI 300,000768.SZ,000768,AVIC Aircraft,Industrials,False
+China,CSI 300,601633.SS,601633,Great Wall Motor,Consumer Discretionary,False
+China,CSI 300,000786.SZ,000786,Beijing New Building Materials Public,Industrials,False
+China,CSI 300,002920.SZ,002920,Huizhou Desay SV Automotive,Consumer Discretionary,False
+China,CSI 300,600600.SS,600600,Tsingtao Brewery,Consumer Staples,False
+China,CSI 300,601868.SS,601868,China Energy Engineering Corporation,Industrials,False
+China,CSI 300,002648.SZ,002648,SATELLITE CHEMICAL,Materials,False
+China,CSI 300,601021.SS,601021,Spring Airlines,Industrials,False
+China,CSI 300,603392.SS,603392,BEIJING WANTAI BIOLOGICAL PHARMACY ENTERPRISE,Health Care,False
+China,CSI 300,000301.SZ,000301,Jiangsu Eastern Shenghong,Materials,False
+China,CSI 300,002001.SZ,002001,Zhejiang NHU,Health Care,False
+China,CSI 300,600741.SS,600741,HUAYU Automotive Systems Company,Consumer Discretionary,False
+China,CSI 300,601336.SS,601336,New China Life Insurance,Financials,True
+China,CSI 300,601689.SS,601689,Ningbo Tuopu Group,Consumer Discretionary,False
+China,CSI 300,688599.SS,688599,Trina Solar,Information Technology,False
+China,CSI 300,002812.SZ,002812,Yunnan Energy New Material,Materials,False
+China,CSI 300,600346.SS,600346,Hengli Petrochemical,Materials,False
+China,CSI 300,000983.SZ,000983,Shanxi Coking Coal Energy Group,Energy,False
+China,CSI 300,601881.SS,601881,China Galaxy Securities,Financials,True
+China,CSI 300,600588.SS,600588,Yonyou Network Technology,Information Technology,False
+China,CSI 300,600515.SS,600515,Hainan Airport Infrastructure,Real Estate,False
+China,CSI 300,601117.SS,601117,China National Chemical Engineering,Industrials,False
+China,CSI 300,601838.SS,601838,BANK OF CHENGDU,Financials,True
+China,CSI 300,688126.SS,688126,National Silicon Industry Group,Information Technology,False
+China,CSI 300,300450.SZ,300450,WUXI LEAD INTELLIGENT EQUIPMENT,Industrials,False
+China,CSI 300,002736.SZ,002736,Guosen Securities,Financials,True
+China,CSI 300,002821.SZ,002821,Asymchem Laboratories (Tianjin),Health Care,False
+China,CSI 300,300316.SZ,300316,Zhejiang Jingsheng Mechanical & Electrical,Information Technology,False
+China,CSI 300,300433.SZ,300433,Lens Technology,Information Technology,False
+China,CSI 300,600176.SS,600176,CHINA JUSHI,Materials,False
+China,CSI 300,002709.SZ,002709,Guangzhou Tinci Materials Technology,Materials,False
+China,CSI 300,300347.SZ,300347,Hangzhou Tigermed Consulting,Health Care,False
+China,CSI 300,601618.SS,601618,Metallurgical Corporation of China,Industrials,False
+China,CSI 300,601872.SS,601872,China Merchants Energy Shipping,Energy,False
+China,CSI 300,000408.SZ,000408,ZANGGE MINING COMPANY,Materials,False
+China,CSI 300,002180.SZ,002180,Ninestar Corporation,Information Technology,False
+China,CSI 300,300661.SZ,300661,SG Micro,Information Technology,False
+China,CSI 300,600372.SS,600372,China Avionics Systems,Industrials,False
+China,CSI 300,601898.SS,601898,China Coal Energy,Energy,False
+China,CSI 300,688396.SS,688396,China Resources Microelectronics,Information Technology,False
+China,CSI 300,300496.SZ,300496,Thunder Software Technology,Information Technology,False
+China,CSI 300,000733.SZ,000733,China Zhenhua (Group) Science & Technology,Information Technology,False
+China,CSI 300,601877.SS,601877,Zhejiang Chint Electrics,Industrials,False
+China,CSI 300,600233.SS,600233,YTO Express Group,Industrials,False
+China,CSI 300,000999.SZ,000999,China Resources Sanjiu Medical & Pharmaceutical,Health Care,False
+China,CSI 300,600219.SS,600219,Shandong Nanshan Aluminium,Materials,False
+China,CSI 300,002007.SZ,002007,Hualan Biological Engineering,Health Care,False
+China,CSI 300,600023.SS,600023,Zhejiang Zheneng Electric Power,Utilities,False
+China,CSI 300,002074.SZ,002074,GUOXUAN HIGH-TECH,Industrials,False
+China,CSI 300,002202.SZ,002202,Xinjiang Goldwind Science & Technology,Industrials,False
+China,CSI 300,300759.SZ,300759,Pharmaron Beijing,Health Care,False
+China,CSI 300,600332.SS,600332,Guangzhou Baiyunshan Pharmaceutical Holdings,Health Care,False
+China,CSI 300,603806.SS,603806,HANGZHOU FIRST PV MATERIAL,Information Technology,False
+China,CSI 300,600362.SS,600362,Jiangxi Copper,Materials,False
+China,CSI 300,000876.SZ,000876,New Hope Liuhe,Consumer Staples,False
+China,CSI 300,600183.SS,600183,Shengyi Technology,Information Technology,False
+China,CSI 300,601607.SS,601607,Shanghai Pharmaceuticals Holding,Health Care,False
+China,CSI 300,601799.SS,601799,Changzhou Xingyu Automotive Lighting Systems,Consumer Discretionary,False
+China,CSI 300,301269.SZ,301269,Empyrean Technology,Information Technology,False
+China,CSI 300,601238.SS,601238,Guangzhou Automobile Group,Consumer Discretionary,False
+China,CSI 300,601878.SS,601878,ZHESHANG SECURITIES,Financials,True
+China,CSI 300,601998.SS,601998,China Citic Bank,Financials,True
+China,CSI 300,600918.SS,600918,Zhongtai Securities,Financials,True
+China,CSI 300,300999.SZ,300999,Yihai Kerry,Consumer Staples,False
+China,CSI 300,300223.SZ,300223,Ingenic Semiconductor,Information Technology,False
+China,CSI 300,603260.SS,603260,Hoshine Silicon Industry,Materials,False
+China,CSI 300,688303.SS,688303,XinJiang Daqo New Energy,Information Technology,False
+China,CSI 300,300413.SZ,300413,Mango Excellent Media,Communication,False
+China,CSI 300,601615.SS,601615,MingYangSmartEnergyGroup,Industrials,False
+China,CSI 300,002410.SZ,002410,Glodon Software,Information Technology,False
+China,CSI 300,600875.SS,600875,Dongfang Electric Corporation,Industrials,False
+China,CSI 300,002603.SZ,002603,Shijiazhuang Yiling Pharmaceutical,Health Care,False
+China,CSI 300,600061.SS,600061,SDIC Essence,Financials,True
+China,CSI 300,688223.SS,688223,Jinko Solar,Information Technology,False
+China,CSI 300,600460.SS,600460,Hangzhou Silan Microelectronics,Information Technology,False
+China,CSI 300,600803.SS,600803,ENN Ecological Holdings,Utilities,False
+China,CSI 300,300751.SZ,300751,Suzhou Maxwell Technologies,Information Technology,False
+China,CSI 300,600025.SS,600025,HuanengLancang River Hydropower,Utilities,False
+China,CSI 300,601319.SS,601319,People's Insurance Company of China,Financials,True
+China,CSI 300,002841.SZ,002841,Guangzhou Shiyuan Electronic Technology Company,Information Technology,False
+China,CSI 300,600732.SS,600732,Shanghai Aiko Solar Energy,Information Technology,False
+China,CSI 300,603659.SS,603659,Shanghai Putailai New Energy Technology,Materials,False
+China,CSI 300,300454.SZ,300454,Sangfor Technologies,Information Technology,False
+China,CSI 300,300919.SZ,300919,CNGR Advanced Material,Materials,False
+China,CSI 300,600132.SS,600132,Chongqing Brewery,Consumer Staples,False
+China,CSI 300,000617.SZ,000617,CNPC Capital Company,Financials,True
+China,CSI 300,300763.SZ,300763,Ginlong Technologies,Industrials,False
+China,CSI 300,000069.SZ,000069,Shenzhen Overseas Chinese Town Company,Real Estate,False
+China,CSI 300,600018.SS,600018,Shanghai International Port Group,Industrials,False
+China,CSI 300,000708.SZ,000708,CITIC Pacific Special Steel Group,Materials,False
+China,CSI 300,300628.SZ,300628,Yealink Network Technology,Information Technology,False
+China,CSI 300,002938.SZ,002938,Avary Holding (Shenzhen) Co,Information Technology,False
+China,CSI 300,002916.SZ,002916,Shennan Circuits,Information Technology,False
+China,CSI 300,605117.SS,605117,Ningbo Deye Technology,Industrials,False
+China,CSI 300,600039.SS,600039,Sichuan Road&Bridge,Industrials,False
+China,CSI 300,605499.SS,605499,Eastroc Beverage (Group),Consumer Staples,False
+China,CSI 300,603195.SS,603195,GONGNIU GROUP,Industrials,False
+China,CSI 300,600754.SS,600754,Shanghai Jin Jiang International Hotels,Consumer Discretionary,False
+China,CSI 300,603899.SS,603899,SHANGHAI M&G STATIONERY,Industrials,False
+China,CSI 300,603290.SS,603290,StarPower Semiconductor,Information Technology,False
+China,CSI 300,603833.SS,603833,Oppein Home Group,Consumer Discretionary,False
+China,CSI 300,601865.SS,601865,Flat Glass Group,Information Technology,False
+China,CSI 300,688363.SS,688363,Bloomage Biotechnology Corporation,Health Care,False
+China,CSI 300,000877.SZ,000877,Xinjiang Tianshan Cement,Materials,False
+China,CSI 300,688065.SS,688065,Cathay Biotech,Materials,False
+China,CSI 300,300957.SZ,300957,Yunnan Botanee Bio-Technology Group,Consumer Staples,False
+China,CSI 300,601236.SS,601236,HONGTA SECURITIES,Financials,True
+China,CSI 300,601698.SS,601698,China Satellite Communications,Communication,False
+China,CSI 300,688187.SS,688187,Zhuzhou CRRC Times Electric,Industrials,False
+China,CSI 300,688561.SS,688561,Qi An Xin Technology Group,Information Technology,False
+China,CSI 300,601155.SS,601155,Future Land Holdings,Real Estate,False
+China,CSI 300,600606.SS,600606,China Development Holdings,Real Estate,False
+China,CSI 300,300979.SZ,300979,Huali Industrial Group Company,Consumer Discretionary,False
+China,CSI 300,601808.SS,601808,China Oilfield Services,Energy,False
+China,CSI 300,603486.SS,603486,Ecovacs Robotics,Consumer Discretionary,False
+China,CSI 300,000800.SZ,000800,FAW Car,Industrials,False
+China,CSI 300,601059.SS,601059,CINDA SECURITIES,Financials,True
+China,CSI 300,001289.SZ,001289,China Longyuan Power Group Limited,Utilities,False
+Korea,KOSPI 200,090430.KS,090430,Amorepacific,Consumer Staples,False
+Korea,KOSPI 200,002790.KS,002790,Amorepacific Holdings,Consumer Staples,False
+Korea,KOSPI 200,278470.KS,278470,APR,Consumer Staples,False
+Korea,KOSPI 200,002030.KS,002030,Asia Holdings,Steels & Materials,False
+Korea,KOSPI 200,282330.KS,282330,BGF Retail,Consumer Staples,False
+Korea,KOSPI 200,138930.KS,138930,BNK Financial,Financials,True
+Korea,KOSPI 200,068270.KS,068270,Celltrion,Health Care,False
+Korea,KOSPI 200,030000.KS,030000,Cheil Worldwide,Communication Services,False
+Korea,KOSPI 200,185750.KS,185750,Chong Kun Dang,Health Care,False
+Korea,KOSPI 200,001040.KS,001040,CJ,Consumer Staples,False
+Korea,KOSPI 200,097950.KS,097950,CJ CheilJedang,Consumer Staples,False
+Korea,KOSPI 200,000120.KS,000120,CJ Logistics,Industrials,False
+Korea,KOSPI 200,192820.KS,192820,Cosmax,Consumer Staples,False
+Korea,KOSPI 200,005420.KS,005420,Cosmo Chemical,Energy & Chemicals,False
+Korea,KOSPI 200,021240.KS,021240,Coway,Consumer Discretionary,False
+Korea,KOSPI 200,112610.KS,112610,CS Wind,Heavy Industries,False
+Korea,KOSPI 200,483650.KS,483650,d'Alba Global,Consumer Staples,False
+Korea,KOSPI 200,001680.KS,001680,Daesang,Consumer Staples,False
+Korea,KOSPI 200,047040.KS,047040,Daewoo E&C,Constructions,False
+Korea,KOSPI 200,003090.KS,003090,Daewoong,Health Care,False
+Korea,KOSPI 200,069620.KS,069620,Daewoong Pharmaceutical,Health Care,False
+Korea,KOSPI 200,000990.KS,000990,DB HiTek,IT,False
+Korea,KOSPI 200,005830.KS,005830,DB Insurance,Financials,True
+Korea,KOSPI 200,000210.KS,000210,DL,Constructions,False
+Korea,KOSPI 200,375500.KS,375500,DL E&C,Constructions,False
+Korea,KOSPI 200,007340.KS,007340,DN Automotive,Consumer Discretionary,False
+Korea,KOSPI 200,026960.KS,026960,Dongsuh,Consumer Staples,False
+Korea,KOSPI 200,006040.KS,006040,Dongwon Industries,Consumer Staples,False
+Korea,KOSPI 200,014820.KS,014820,Dongwon Systems,Steels & Materials,False
+Korea,KOSPI 200,000150.KS,000150,Doosan,Heavy Industries,False
+Korea,KOSPI 200,241560.KS,241560,Doosan Bobcat,Heavy Industries,False
+Korea,KOSPI 200,034020.KS,034020,Doosan Enerbility,Heavy Industries,False
+Korea,KOSPI 200,454910.KS,454910,Doosan Robotics,Heavy Industries,False
+Korea,KOSPI 200,192080.KS,192080,DoubleU Games,Consumer Discretionary,False
+Korea,KOSPI 200,450080.KS,450080,Ecopro Materials,Industrials,False
+Korea,KOSPI 200,139480.KS,139480,Emart,Consumer Staples,False
+Korea,KOSPI 200,383220.KS,383220,F&F,Consumer Discretionary,False
+Korea,KOSPI 200,093370.KS,093370,Foosung,Energy & Chemicals,False
+Korea,KOSPI 200,006280.KS,006280,Green Cross,Health Care,False
+Korea,KOSPI 200,078930.KS,078930,GS,Energy & Chemicals,False
+Korea,KOSPI 200,007070.KS,007070,GS Retail,Consumer Staples,False
+Korea,KOSPI 200,086790.KS,086790,Hana Financial,Financials,True
+Korea,KOSPI 200,009420.KS,009420,Hanall Biopharma,Health Care,False
+Korea,KOSPI 200,300720.KS,300720,Hanil Cement,Constructions,False
+Korea,KOSPI 200,180640.KS,180640,Hanjin KAL,Consumer Discretionary,False
+Korea,KOSPI 200,161390.KS,161390,Hankook,Consumer Discretionary,False
+Korea,KOSPI 200,000240.KS,000240,Hankook & Company,Consumer Discretionary,False
+Korea,KOSPI 200,128940.KS,128940,Hanmi Pharm,Health Care,False
+Korea,KOSPI 200,008930.KS,008930,Hanmi Science,Health Care,False
+Korea,KOSPI 200,042700.KS,042700,Hanmi Semiconductor,IT,False
+Korea,KOSPI 200,018880.KS,018880,Hanon Systems,Consumer Discretionary,False
+Korea,KOSPI 200,014680.KS,014680,Hansol Chemical,Energy & Chemicals,False
+Korea,KOSPI 200,009240.KS,009240,Hanssem,Consumer Discretionary,False
+Korea,KOSPI 200,000880.KS,000880,Hanwha,Energy & Chemicals,False
+Korea,KOSPI 200,012450.KS,012450,Hanwha Aerospace,Industrials,False
+Korea,KOSPI 200,082740.KS,082740,Hanwha Engine,Heavy Industries,False
+Korea,KOSPI 200,088350.KS,088350,Hanwha Life,Financials,True
+Korea,KOSPI 200,042660.KS,042660,Hanwha Ocean,Heavy Industries,False
+Korea,KOSPI 200,009830.KS,009830,Hanwha Solutions,Energy & Chemicals,False
+Korea,KOSPI 200,272210.KS,272210,Hanwha Systems,Industrials,False
+Korea,KOSPI 200,267270.KS,267270,HD Construction Equipment,Heavy Industries,False
+Korea,KOSPI 200,267250.KS,267250,HD Hyundai,Energy & Chemicals,False
+Korea,KOSPI 200,267260.KS,267260,HD Hyundai Electric,Heavy Industries,False
+Korea,KOSPI 200,329180.KS,329180,HD Hyundai Heavy Industries,Heavy Industries,False
+Korea,KOSPI 200,071970.KS,071970,HD Hyundai Marine Engine,Heavy Industries,False
+Korea,KOSPI 200,443060.KS,443060,HD Hyundai Marine Solution,Industrials,False
+Korea,KOSPI 200,009540.KS,009540,HD KSOE,Heavy Industries,False
+Korea,KOSPI 200,017960.KS,017960,Hankuk Carbon,Energy & Chemicals,False
+Korea,KOSPI 200,000080.KS,000080,HiteJinro,Consumer Staples,False
+Korea,KOSPI 200,204320.KS,204320,HL Mando,Consumer Discretionary,False
+Korea,KOSPI 200,011200.KS,011200,HMM,Industrials,False
+Korea,KOSPI 200,008770.KS,008770,Hotel Shilla,Consumer Discretionary,False
+Korea,KOSPI 200,298050.KS,298050,HS Hyosung Advanced Materials,Energy & Chemicals,False
+Korea,KOSPI 200,352820.KS,352820,Hybe,Communication Services,False
+Korea,KOSPI 200,298040.KS,298040,Hyosung Heavy Industries,Heavy Industries,False
+Korea,KOSPI 200,298020.KS,298020,Hyosung TNC,Energy & Chemicals,False
+Korea,KOSPI 200,307950.KS,307950,Hyundai AutoEver,IT,False
+Korea,KOSPI 200,069960.KS,069960,Hyundai Department Store,Consumer Discretionary,False
+Korea,KOSPI 200,000720.KS,000720,Hyundai E&C,Constructions,False
+Korea,KOSPI 200,017800.KS,017800,Hyundai Elevator,Heavy Industries,False
+Korea,KOSPI 200,086280.KS,086280,Hyundai Glovis,Industrials,False
+Korea,KOSPI 200,001450.KS,001450,Hyundai Marine & Fire,Financials,True
+Korea,KOSPI 200,012330.KS,012330,Hyundai Mobis,Consumer Discretionary,False
+Korea,KOSPI 200,005380.KS,005380,Hyundai Motor,Consumer Discretionary,False
+Korea,KOSPI 200,064350.KS,064350,Hyundai Rotem,Heavy Industries,False
+Korea,KOSPI 200,004020.KS,004020,Hyundai Steel,Steels & Materials,False
+Korea,KOSPI 200,011210.KS,011210,Hyundai WIA,Consumer Discretionary,False
+Korea,KOSPI 200,139130.KS,139130,IM Financial,Financials,True
+Korea,KOSPI 200,024110.KS,024110,Industrial Bank of Korea,Financials,True
+Korea,KOSPI 200,007660.KS,007660,Isu Petasys,IT,False
+Korea,KOSPI 200,457190.KS,457190,Isu Specialty Chemical,Energy & Chemicals,False
+Korea,KOSPI 200,175330.KS,175330,JB Financial,Financials,True
+Korea,KOSPI 200,035720.KS,035720,Kakao,Communication Services,False
+Korea,KOSPI 200,323410.KS,323410,KakaoBank,Financials,True
+Korea,KOSPI 200,377300.KS,377300,KakaoPay,Financials,True
+Korea,KOSPI 200,035250.KS,035250,Kangwon Land,Consumer Discretionary,False
+Korea,KOSPI 200,105560.KS,105560,KB Financial,Financials,True
+Korea,KOSPI 200,002380.KS,002380,KCC,Constructions,False
+Korea,KOSPI 200,015760.KS,015760,KEPCO,Consumer Staples,False
+Korea,KOSPI 200,052690.KS,052690,KEPCO E&C,Constructions,False
+Korea,KOSPI 200,051600.KS,051600,KEPCO KPS,Constructions,False
+Korea,KOSPI 200,000270.KS,000270,Kia,Consumer Discretionary,False
+Korea,KOSPI 200,039490.KS,039490,Kiwoom Securities,Financials,True
+Korea,KOSPI 200,161890.KS,161890,Kolmar Korea,Consumer Staples,False
+Korea,KOSPI 200,120110.KS,120110,Kolon Industries,Energy & Chemicals,False
+Korea,KOSPI 200,047810.KS,047810,Korea Aerospace,Industrials,False
+Korea,KOSPI 200,071320.KS,071320,Korea District Heating,Consumer Staples,False
+Korea,KOSPI 200,036460.KS,036460,Korea Gas,Consumer Staples,False
+Korea,KOSPI 200,071050.KS,071050,Korea Investment,Financials,True
+Korea,KOSPI 200,006650.KS,006650,Korea Petrochemical,Energy & Chemicals,False
+Korea,KOSPI 200,010130.KS,010130,Korea Zinc,Steels & Materials,False
+Korea,KOSPI 200,003490.KS,003490,Korean Air,Industrials,False
+Korea,KOSPI 200,259960.KS,259960,Krafton,Communication Services,False
+Korea,KOSPI 200,030200.KS,030200,KT,Communication Services,False
+Korea,KOSPI 200,033780.KS,033780,KT&G,Consumer Staples,False
+Korea,KOSPI 200,011780.KS,011780,Kumho Petrochemical,Energy & Chemicals,False
+Korea,KOSPI 200,073240.KS,073240,Kumho Tire,Consumer Discretionary,False
+Korea,KOSPI 200,066970.KS,066970,L&F,Industrials,False
+Korea,KOSPI 200,003550.KS,003550,LG,IT,False
+Korea,KOSPI 200,051910.KS,051910,LG Chem,Energy & Chemicals,False
+Korea,KOSPI 200,064400.KS,064400,LG CNS,IT,False
+Korea,KOSPI 200,034220.KS,034220,LG Display,IT,False
+Korea,KOSPI 200,066570.KS,066570,LG Electronics,IT,False
+Korea,KOSPI 200,373220.KS,373220,LG Energy Solution,Industrials,False
+Korea,KOSPI 200,051900.KS,051900,LG H&H,Consumer Staples,False
+Korea,KOSPI 200,011070.KS,011070,LG Innotek,IT,False
+Korea,KOSPI 200,032640.KS,032640,LG Uplus,Communication Services,False
+Korea,KOSPI 200,079550.KS,079550,LIG Nex1,Industrials,False
+Korea,KOSPI 200,004990.KS,004990,Lotte,Consumer Staples,False
+Korea,KOSPI 200,011170.KS,011170,Lotte Chemical,Energy & Chemicals,False
+Korea,KOSPI 200,005300.KS,005300,Lotte Chilsung,Consumer Staples,False
+Korea,KOSPI 200,004000.KS,004000,Lotte Fine Chemical,Energy & Chemicals,False
+Korea,KOSPI 200,023530.KS,023530,Lotte Shopping,Consumer Discretionary,False
+Korea,KOSPI 200,280360.KS,280360,Lotte Wellfood,Consumer Staples,False
+Korea,KOSPI 200,006260.KS,006260,LS,Industrials,False
+Korea,KOSPI 200,010120.KS,010120,LS Electric,Industrials,False
+Korea,KOSPI 200,138040.KS,138040,Meritz Financial,Financials,True
+Korea,KOSPI 200,006800.KS,006800,Mirae Asset Securities,Financials,True
+Korea,KOSPI 200,081660.KS,081660,Misto,Consumer Discretionary,False
+Korea,KOSPI 200,002840.KS,002840,Miwon Commercial,Energy & Chemicals,False
+Korea,KOSPI 200,268280.KS,268280,Miwon Specialty Chemical,Energy & Chemicals,False
+Korea,KOSPI 200,035420.KS,035420,Naver,Communication Services,False
+Korea,KOSPI 200,036570.KS,036570,NC,Communication Services,False
+Korea,KOSPI 200,251270.KS,251270,Netmarble,Communication Services,False
+Korea,KOSPI 200,005940.KS,005940,NH Investment & Securities,Financials,True
+Korea,KOSPI 200,004370.KS,004370,Nongshim,Consumer Staples,False
+Korea,KOSPI 200,456040.KS,456040,OCI,Energy & Chemicals,False
+Korea,KOSPI 200,010060.KS,010060,OCI Holdings,Energy & Chemicals,False
+Korea,KOSPI 200,271560.KS,271560,Orion,Consumer Staples,False
+Korea,KOSPI 200,001800.KS,001800,Orion Holdings,Consumer Staples,False
+Korea,KOSPI 200,007310.KS,007310,Ottogi,Consumer Staples,False
+Korea,KOSPI 200,028670.KS,028670,Pan Ocean,Industrials,False
+Korea,KOSPI 200,034230.KS,034230,Paradise,Consumer Discretionary,False
+Korea,KOSPI 200,103140.KS,103140,Poongsan,Steels & Materials,False
+Korea,KOSPI 200,005490.KS,005490,POSCO,Steels & Materials,False
+Korea,KOSPI 200,022100.KS,022100,POSCO DX,IT,False
+Korea,KOSPI 200,003670.KS,003670,POSCO Future M,Industrials,False
+Korea,KOSPI 200,047050.KS,047050,POSCO International,Industrials,False
+Korea,KOSPI 200,012750.KS,012750,S-1,Industrials,False
+Korea,KOSPI 200,062040.KS,062040,Sanil Electric,Heavy Industries,False
+Korea,KOSPI 200,207940.KS,207940,Samsung Biologics,Health Care,False
+Korea,KOSPI 200,028260.KS,028260,Samsung C&T,Constructions,False
+Korea,KOSPI 200,029780.KS,029780,Samsung Card,Financials,True
+Korea,KOSPI 200,028050.KS,028050,Samsung E&A,Constructions,False
+Korea,KOSPI 200,009150.KS,009150,Samsung Electro-Mechanics,IT,False
+Korea,KOSPI 200,005930.KS,005930,Samsung Electronics,IT,False
+Korea,KOSPI 200,001260.KS,001260,Samsung Epis,Health Care,False
+Korea,KOSPI 200,000810.KS,000810,Samsung Fire & Marine,Financials,True
+Korea,KOSPI 200,010140.KS,010140,Samsung Heavy Industries,Heavy Industries,False
+Korea,KOSPI 200,032830.KS,032830,Samsung Life,Financials,True
+Korea,KOSPI 200,006400.KS,006400,Samsung SDI,IT,False
+Korea,KOSPI 200,018260.KS,018260,Samsung SDS,IT,False
+Korea,KOSPI 200,016360.KS,016360,Samsung Securities,Financials,True
+Korea,KOSPI 200,003230.KS,003230,Samyang Foods,Consumer Staples,False
+Korea,KOSPI 200,137310.KS,137310,SD Biosensor,Health Care,False
+Korea,KOSPI 200,001430.KS,001430,Seah Besteel,Steels & Materials,False
+Korea,KOSPI 200,003030.KS,003030,Seah Steel Holdings,Steels & Materials,False
+Korea,KOSPI 200,055550.KS,055550,Shinhan Financial,Financials,True
+Korea,KOSPI 200,004170.KS,004170,Shinsegae,Consumer Discretionary,False
+Korea,KOSPI 200,034730.KS,034730,SK,Energy & Chemicals,False
+Korea,KOSPI 200,326030.KS,326030,SK Biopharm,Health Care,False
+Korea,KOSPI 200,302440.KS,302440,SK Bioscience,Health Care,False
+Korea,KOSPI 200,285130.KS,285130,SK Chemicals,Energy & Chemicals,False
+Korea,KOSPI 200,000660.KS,000660,SK Hynix,IT,False
+Korea,KOSPI 200,361610.KS,361610,SK IE Technology,Industrials,False
+Korea,KOSPI 200,096770.KS,096770,SK Innovation,Energy & Chemicals,False
+Korea,KOSPI 200,402340.KS,402340,SK Square,IT,False
+Korea,KOSPI 200,017670.KS,017670,SK Telecom,Communication Services,False
+Korea,KOSPI 200,011790.KS,011790,SKC,Energy & Chemicals,False
+Korea,KOSPI 200,005850.KS,005850,SL,Consumer Discretionary,False
+Korea,KOSPI 200,010950.KS,010950,S-Oil,Energy & Chemicals,False
+Korea,KOSPI 200,003240.KS,003240,Taekwang Industrial,Energy & Chemicals,False
+Korea,KOSPI 200,001440.KS,001440,Taihan Cable & Solution,Industrials,False
+Korea,KOSPI 200,069260.KS,069260,TKG Huchems,Energy & Chemicals,False
+Korea,KOSPI 200,316140.KS,316140,Woori Financial,Financials,True
+Korea,KOSPI 200,008730.KS,008730,Youlchon Chemical,Steels & Materials,False
+Korea,KOSPI 200,000670.KS,000670,Young Poong,Steels & Materials,False
+Korea,KOSPI 200,111770.KS,111770,Youngone,Consumer Discretionary,False
+Korea,KOSPI 200,009970.KS,009970,Youngone Holdings,Consumer Discretionary,False
+Korea,KOSPI 200,000100.KS,000100,Yuhan,Health Care,False
+Taiwan,Taiwan 50,2345.TW,2345,智邦科技,,False
+Taiwan,Taiwan 50,3661.TW,3661,世芯-KY,,False
+Taiwan,Taiwan 50,3017.TW,3017,奇鋐科技,,False
+Taiwan,Taiwan 50,6919.TW,6919,康霈生技,,False
+Taiwan,Taiwan 50,5871.TW,5871,中租-KY,,False
+Taiwan,Taiwan 50,2412.TW,2412,中華電信,,False
+Taiwan,Taiwan 50,2308.TW,2308,台達電子,,False
+Taiwan,Taiwan 50,2383.TW,2383,台光電,,False
+Taiwan,Taiwan 50,4904.TW,4904,遠傳電信,,False
+Taiwan,Taiwan 50,6505.TW,6505,台塑石化,,False
+Taiwan,Taiwan 50,2881.TW,2881,富邦金控,Finance & insurance,True
+Taiwan,Taiwan 50,2207.TW,2207,和泰汽車,,False
+Taiwan,Taiwan 50,2883.TW,2883,凱基金控,Finance & insurance,True
+Taiwan,Taiwan 50,3008.TW,3008,大立光電,,False
+Taiwan,Taiwan 50,2454.TW,2454,聯發科,,False
+Taiwan,Taiwan 50,1303.TW,1303,南亞塑膠,,False
+Taiwan,Taiwan 50,4938.TW,4938,和碩聯合科技,,False
+Taiwan,Taiwan 50,2382.TW,2382,廣達電腦,,False
+Taiwan,Taiwan 50,5876.TW,5876,上海商銀,,False
+Taiwan,Taiwan 50,5880.TW,5880,合庫金控,,False
+Taiwan,Taiwan 50,2330.TW,2330,台積電,,False
+Taiwan,Taiwan 50,1216.TW,1216,統一企業,,False
+Taiwan,Taiwan 50,2615.TW,2615,萬海航運,,False
+Taiwan,Taiwan 50,6669.TW,6669,緯穎科技,,False
+Taiwan,Taiwan 50,2609.TW,2609,陽明海運,,False
+Taiwan,Taiwan 50,2395.TW,2395,研華科技,,False
+Taiwan,Taiwan 50,3711.TW,3711,日月光投控,,False
+Taiwan,Taiwan 50,2357.TW,2357,華碩電腦,,False
+Taiwan,Taiwan 50,2882.TW,2882,國泰金控,Finance & insurance,True
+Taiwan,Taiwan 50,2002.TW,2002,中鋼,,False
+Taiwan,Taiwan 50,2891.TW,2891,中信金控,Finance & insurance,True
+Taiwan,Taiwan 50,2884.TW,2884,玉山金控,Finance & insurance,True
+Taiwan,Taiwan 50,2603.TW,2603,長榮海運,,False
+Taiwan,Taiwan 50,2892.TW,2892,第一金控,Finance & insurance,True
+Taiwan,Taiwan 50,1301.TW,1301,台塑,,False
+Taiwan,Taiwan 50,2317.TW,2317,鴻海精密,,False
+Taiwan,Taiwan 50,2880.TW,2880,華南金控,Finance & insurance,True
+Taiwan,Taiwan 50,2059.TW,2059,川湖科技,,False
+Taiwan,Taiwan 50,2301.TW,2301,光寶科技,,False
+Taiwan,Taiwan 50,2886.TW,2886,兆豐金控,Finance & insurance,True
+Taiwan,Taiwan 50,3034.TW,3034,聯詠科技,,False
+Taiwan,Taiwan 50,2912.TW,2912,統一超商,,False
+Taiwan,Taiwan 50,2379.TW,2379,瑞昱半導體,,False
+Taiwan,Taiwan 50,2890.TW,2890,永豐金控,Finance & insurance,True
+Taiwan,Taiwan 50,3045.TW,3045,台灣大哥大,,False
+Taiwan,Taiwan 50,2887.TW,2887,台新金控,Finance & insurance,True
+Taiwan,Taiwan 50,2303.TW,2303,聯電,,False
+Taiwan,Taiwan 50,3231.TW,3231,緯創資通,,False
+Taiwan,Taiwan 50,2327.TW,2327,國巨,,False
+Taiwan,Taiwan 50,2885.TW,2885,元大金控,Finance & insurance,True
+Singapore,STI,A17U.SI,A17U,CapitaLand Ascendas REIT,,False
+Singapore,STI,C38U.SI,C38U,CapitaLand Integrated Commercial Trust,,False
+Singapore,STI,9CI.SI,9CI,CapitaLand Investment,,False
+Singapore,STI,C09.SI,C09,City Developments Limited,,False
+Singapore,STI,D05.SI,D05,DBS Group Holdings,Financials,True
+Singapore,STI,D01.SI,D01,DFI Retail Group Holdings Limited,,False
+Singapore,STI,J69U.SI,J69U,Frasers Centrepoint Trust,,False
+Singapore,STI,BUOU.SI,BUOU,Frasers Logistics & Commercial Trust,,False
+Singapore,STI,G13.SI,G13,Genting Singapore PLC,,False
+Singapore,STI,H78.SI,H78,Hongkong Land Holdings,,False
+Singapore,STI,J36.SI,J36,Jardine Matheson Holdings Limited,,False
+Singapore,STI,BN4.SI,BN4,Keppel Corporation,,False
+Singapore,STI,AJBU.SI,AJBU,Keppel DC Reit,,False
+Singapore,STI,ME8U.SI,ME8U,Mapletree Industrial Trust,,False
+Singapore,STI,M44U.SI,M44U,Mapletree Logistics Trust,,False
+Singapore,STI,N2IU.SI,N2IU,Mapletree Pan Asia Commercial Trust,,False
+Singapore,STI,O39.SI,O39,OCBC Bank,Financials,True
+Singapore,STI,S58.SI,S58,SATS,,False
+Singapore,STI,5E2.SI,5E2,Seatrium Limited,,False
+Singapore,STI,U96.SI,U96,Sembcorp Industries,,False
+Singapore,STI,C6L.SI,C6L,Singapore Airlines,,False
+Singapore,STI,S68.SI,S68,Singapore Exchange,Financials,True
+Singapore,STI,Z74.SI,Z74,Singtel,,False
+Singapore,STI,S63.SI,S63,Singapore Technologies Engineering,,False
+Singapore,STI,Y92.SI,Y92,Thai Beverages,,False
+Singapore,STI,U11.SI,U11,United Overseas Bank,Financials,True
+Singapore,STI,U14.SI,U14,UOL Group,,False
+Singapore,STI,V03.SI,V03,Venture Corporation,,False
+Singapore,STI,F34.SI,F34,Wilmar International,,False
+Singapore,STI,BS6.SI,BS6,Yangzijiang Shipbuilding Holdings [zh],,False
+Australia,ASX 200,360.AX,360,Life360,Information Technology,False
+Australia,ASX 200,4DX.AX,4DX,4DMedical,Healthcare,False
+Australia,ASX 200,A2M.AX,A2M,a2 Milk Company,Consumer Staples,False
+Australia,ASX 200,AAI.AX,AAI,Alcoa,Materials,False
+Australia,ASX 200,AFI.AX,AFI,Australian Foundation Investment Company,Financials,True
+Australia,ASX 200,AGL.AX,AGL,AGL Energy,Utilities,False
+Australia,ASX 200,AIA.AX,AIA,Auckland International Airport Limited,Industrials,False
+Australia,ASX 200,ALD.AX,ALD,Ampol,Energy,False
+Australia,ASX 200,ALK.AX,ALK,Alkane Resources,Materials,False
+Australia,ASX 200,ALL.AX,ALL,Aristocrat Leisure,Consumer Discretionary,False
+Australia,ASX 200,ALQ.AX,ALQ,ALS,Industrials,False
+Australia,ASX 200,ALX.AX,ALX,Atlas Arteria,Industrials,False
+Australia,ASX 200,AMC.AX,AMC,Amcor,Materials,False
+Australia,ASX 200,AMP.AX,AMP,AMP,Financials,True
+Australia,ASX 200,ANN.AX,ANN,Ansell,Healthcare,False
+Australia,ASX 200,ANZ.AX,ANZ,Australia & New Zealand Banking Group,Financials,True
+Australia,ASX 200,APA.AX,APA,APA Group,Utilities,False
+Australia,ASX 200,APE.AX,APE,Eagers Automotive,Consumer Discretionary,False
+Australia,ASX 200,ARB.AX,ARB,ARB Corporation,Consumer Discretionary,False
+Australia,ASX 200,ARG.AX,ARG,Argo Investments,Financials,True
+Australia,ASX 200,ASB.AX,ASB,Austal,Industrials,False
+Australia,ASX 200,ASK.AX,ASK,Abacus Storage King,Real Estate,False
+Australia,ASX 200,ASX.AX,ASX,ASX,Financials,True
+Australia,ASX 200,AUB.AX,AUB,AUB Group,Financials,True
+Australia,ASX 200,AZJ.AX,AZJ,Aurizon,Industrials,False
+Australia,ASX 200,BEN.AX,BEN,Bendigo & Adelaide Bank,Financials,True
+Australia,ASX 200,BFL.AX,BFL,BSP Financial Group,Financials,True
+Australia,ASX 200,BGA.AX,BGA,Bega Cheese,Consumer Staples,False
+Australia,ASX 200,BGL.AX,BGL,Bellevue Gold,Materials,False
+Australia,ASX 200,BHP.AX,BHP,BHP,Materials,False
+Australia,ASX 200,BOQ.AX,BOQ,Bank of Queensland,Financials,True
+Australia,ASX 200,BPT.AX,BPT,Beach Energy,Energy,False
+Australia,ASX 200,BRG.AX,BRG,Breville Group,Consumer Discretionary,False
+Australia,ASX 200,BSL.AX,BSL,BlueScope,Materials,False
+Australia,ASX 200,BWP.AX,BWP,BWP Trust,Real Estate,False
+Australia,ASX 200,BXB.AX,BXB,Brambles,Industrials,False
+Australia,ASX 200,CAR.AX,CAR,CAR Group,Communication Services,False
+Australia,ASX 200,CBA.AX,CBA,Commonwealth Bank,Financials,True
+Australia,ASX 200,CDA.AX,CDA,Codan,Information Technology,False
+Australia,ASX 200,CEN.AX,CEN,Contact Energy,Utilities,False
+Australia,ASX 200,CGF.AX,CGF,Challenger,Financials,True
+Australia,ASX 200,CHC.AX,CHC,Charter Hall,Real Estate,False
+Australia,ASX 200,CIA.AX,CIA,Champion Iron,Materials,False
+Australia,ASX 200,CIP.AX,CIP,Centuria Industrial REIT,Real Estate,False
+Australia,ASX 200,CLW.AX,CLW,Charter Hall Long WALE REIT,Real Estate,False
+Australia,ASX 200,CMM.AX,CMM,Capricorn Metals,Materials,False
+Australia,ASX 200,CNU.AX,CNU,Chorus,Communication Services,False
+Australia,ASX 200,COH.AX,COH,Cochlear,Healthcare,False
+Australia,ASX 200,COL.AX,COL,Coles Group,Consumer Staples,False
+Australia,ASX 200,CPU.AX,CPU,Computershare,Information Technology,False
+Australia,ASX 200,CQR.AX,CQR,Charter Hall Retail REIT,Real Estate,False
+Australia,ASX 200,CSC.AX,CSC,Capstone Copper,Materials,False
+Australia,ASX 200,CSL.AX,CSL,CSL,Healthcare,False
+Australia,ASX 200,CTD.AX,CTD,Corporate Travel Management,Consumer Discretionary,False
+Australia,ASX 200,CWY.AX,CWY,Cleanaway,Industrials,False
+Australia,ASX 200,CYL.AX,CYL,Catalyst Metals,Materials,False
+Australia,ASX 200,DBI.AX,DBI,Dalrymple Bay Infrastructure,Industrials,False
+Australia,ASX 200,DNL.AX,DNL,Dyno Nobel,Materials,False
+Australia,ASX 200,DOW.AX,DOW,Downer Group,Industrials,False
+Australia,ASX 200,DRO.AX,DRO,Droneshield,Industrials,False
+Australia,ASX 200,DRR.AX,DRR,Deterra Royalties,Materials,False
+Australia,ASX 200,DXS.AX,DXS,Dexus,Real Estate,False
+Australia,ASX 200,DYL.AX,DYL,Deep Yellow,Energy,False
+Australia,ASX 200,EBO.AX,EBO,EBOS Group,Healthcare,False
+Australia,ASX 200,EDV.AX,EDV,Endeavour Group,Consumer Staples,False
+Australia,ASX 200,EMR.AX,EMR,Emerald Resources,Materials,False
+Australia,ASX 200,EOS.AX,EOS,Electro Optic Systems Holdings,Industrials,False
+Australia,ASX 200,EVN.AX,EVN,Evolution Mining,Materials,False
+Australia,ASX 200,EVT.AX,EVT,EVT,Communication Services,False
+Australia,ASX 200,FBU.AX,FBU,Fletcher Building,Industrials,False
+Australia,ASX 200,FLT.AX,FLT,Flight Centre Travel Group,Consumer Discretionary,False
+Australia,ASX 200,FMG.AX,FMG,Fortescue,Materials,False
+Australia,ASX 200,FPH.AX,FPH,Fisher & Paykel Healthcare,Healthcare,False
+Australia,ASX 200,FRW.AX,FRW,Freightways Group,Industrials,False
+Australia,ASX 200,GDG.AX,GDG,Generation Development Group,Financials,True
+Australia,ASX 200,GGP.AX,GGP,Greatland Resources,Materials,False
+Australia,ASX 200,GMD.AX,GMD,Genesis Minerals,Materials,False
+Australia,ASX 200,GMG.AX,GMG,Goodman Group,Real Estate,False
+Australia,ASX 200,GNE.AX,GNE,Genesis Energy,Utilities,False
+Australia,ASX 200,GPT.AX,GPT,GPT Group,Real Estate,False
+Australia,ASX 200,GQG.AX,GQG,GQG Partners,Financials,True
+Australia,ASX 200,HDN.AX,HDN,HomeCo Daily Needs REIT,Real Estate,False
+Australia,ASX 200,HUB.AX,HUB,HUB24,Financials,True
+Australia,ASX 200,HVN.AX,HVN,Harvey Norman,Consumer Discretionary,False
+Australia,ASX 200,IAG.AX,IAG,Insurance Australia Group,Financials,True
+Australia,ASX 200,IFL.AX,IFL,Insignia Financial,Financials,True
+Australia,ASX 200,IFT.AX,IFT,Infratil,Financials,True
+Australia,ASX 200,IGO.AX,IGO,IGO,Materials,False
+Australia,ASX 200,ILU.AX,ILU,Iluka Resources,Materials,False
+Australia,ASX 200,IMD.AX,IMD,IMDEX,Materials,False
+Australia,ASX 200,JBH.AX,JBH,JB Hi-Fi,Consumer Discretionary,False
+Australia,ASX 200,JHX.AX,JHX,James Hardie,Materials,False
+Australia,ASX 200,L1G.AX,L1G,L1 Group,Financials,True
+Australia,ASX 200,LLC.AX,LLC,Lendlease,Real Estate,False
+Australia,ASX 200,LNW.AX,LNW,Light & Wonder,Consumer Discretionary,False
+Australia,ASX 200,LOV.AX,LOV,Lovisa,Consumer Discretionary,False
+Australia,ASX 200,LSF.AX,LSF,L1 Long Short Fund,Financials,True
+Australia,ASX 200,LTR.AX,LTR,Liontown Resources,Materials,False
+Australia,ASX 200,LYC.AX,LYC,Lynas Rare Earths,Materials,False
+Australia,ASX 200,MCY.AX,MCY,Mercury NZ,Utilities,False
+Australia,ASX 200,MEZ.AX,MEZ,Meridian Energy,Utilities,False
+Australia,ASX 200,MFF.AX,MFF,MFF Capital Investments,Financials,True
+Australia,ASX 200,MFG.AX,MFG,Magellan Financial Group,Financials,True
+Australia,ASX 200,MGR.AX,MGR,Mirvac,Real Estate,False
+Australia,ASX 200,MIN.AX,MIN,Mineral Resources,Materials,False
+Australia,ASX 200,MND.AX,MND,Monadelphous Group,Industrials,False
+Australia,ASX 200,MPL.AX,MPL,Medibank,Financials,True
+Australia,ASX 200,MQG.AX,MQG,Macquarie Group,Financials,True
+Australia,ASX 200,MSB.AX,MSB,Mesoblast,Healthcare,False
+Australia,ASX 200,MTS.AX,MTS,Metcash,Consumer Staples,False
+Australia,ASX 200,MXT.AX,MXT,Metrics Master Income Trust,Financials,True
+Australia,ASX 200,NAB.AX,NAB,National Australia Bank,Financials,True
+Australia,ASX 200,NEM.AX,NEM,Newmont,Materials,False
+Australia,ASX 200,NHC.AX,NHC,New Hope,Energy,False
+Australia,ASX 200,NHF.AX,NHF,Nib,Financials,True
+Australia,ASX 200,NIC.AX,NIC,Nickel Industries,Materials,False
+Australia,ASX 200,NSR.AX,NSR,National Storage,Real Estate,False
+Australia,ASX 200,NST.AX,NST,Northern Star Resources,Materials,False
+Australia,ASX 200,NWH.AX,NWH,NRW Holdings,Industrials,False
+Australia,ASX 200,NWL.AX,NWL,Netwealth Group,Financials,True
+Australia,ASX 200,NWS.AX,NWS,News Corp Class B,Communication Services,False
+Australia,ASX 200,NXG.AX,NXG,Nexgen Energy,Energy,False
+Australia,ASX 200,NXT.AX,NXT,NextDC,Information Technology,False
+Australia,ASX 200,OBM.AX,OBM,Ora Banda Mining,Materials,False
+Australia,ASX 200,ORA.AX,ORA,Orora,Materials,False
+Australia,ASX 200,ORG.AX,ORG,Origin Energy,Utilities,False
+Australia,ASX 200,ORI.AX,ORI,Orica,Materials,False
+Australia,ASX 200,PDI.AX,PDI,Predictive Discovery,Materials,False
+Australia,ASX 200,PDN.AX,PDN,Paladin Energy,Energy,False
+Australia,ASX 200,PLS.AX,PLS,PLS Group,Materials,False
+Australia,ASX 200,PME.AX,PME,Pro Medicus,Healthcare,False
+Australia,ASX 200,PMV.AX,PMV,Premier Investments,Consumer Discretionary,False
+Australia,ASX 200,PNI.AX,PNI,Pinnacle Investment Management,Financials,True
+Australia,ASX 200,PPT.AX,PPT,Perpetual,Financials,True
+Australia,ASX 200,PRN.AX,PRN,Perenti,Materials,False
+Australia,ASX 200,PRU.AX,PRU,Perseus Mining,Materials,False
+Australia,ASX 200,PXA.AX,PXA,Pexa Group,Real Estate,False
+Australia,ASX 200,QAN.AX,QAN,Qantas,Industrials,False
+Australia,ASX 200,QBE.AX,QBE,QBE Insurance,Financials,True
+Australia,ASX 200,QUB.AX,QUB,Qube Holdings,Industrials,False
+Australia,ASX 200,RDX.AX,RDX,Redox,Industrials,False
+Australia,ASX 200,REA.AX,REA,REA Group,Communication Services,False
+Australia,ASX 200,REG.AX,REG,Regis Healthcare,Healthcare,False
+Australia,ASX 200,REH.AX,REH,Reece Group,Industrials,False
+Australia,ASX 200,RGN.AX,RGN,Region Group,Real Estate,False
+Australia,ASX 200,RHC.AX,RHC,Ramsay Health Care,Healthcare,False
+Australia,ASX 200,RIO.AX,RIO,Rio Tinto,Materials,False
+Australia,ASX 200,RMD.AX,RMD,ResMed,Healthcare,False
+Australia,ASX 200,RMS.AX,RMS,Ramelius Resources,Materials,False
+Australia,ASX 200,RRL.AX,RRL,Regis Resources,Materials,False
+Australia,ASX 200,RSG.AX,RSG,Resolute Mining,Materials,False
+Australia,ASX 200,RWC.AX,RWC,Reliance Worldwide Corporation,Industrials,False
+Australia,ASX 200,RYM.AX,RYM,Ryman Healthcare,Healthcare,False
+Australia,ASX 200,S32.AX,S32,South32,Materials,False
+Australia,ASX 200,SCG.AX,SCG,Scentre Group,Real Estate,False
+Australia,ASX 200,SDF.AX,SDF,Steadfast Group,Financials,True
+Australia,ASX 200,SEK.AX,SEK,Seek,Communication Services,False
+Australia,ASX 200,SFR.AX,SFR,Sandfire Resources,Materials,False
+Australia,ASX 200,SGH.AX,SGH,SGH,Industrials,False
+Australia,ASX 200,SGM.AX,SGM,Sims Metal,Materials,False
+Australia,ASX 200,SGP.AX,SGP,Stockland,Real Estate,False
+Australia,ASX 200,SHL.AX,SHL,Sonic Healthcare,Healthcare,False
+Australia,ASX 200,SIG.AX,SIG,Sigma Healthcare,Healthcare,False
+Australia,ASX 200,SMR.AX,SMR,Stanmore Resources,Materials,False
+Australia,ASX 200,SNZ.AX,SNZ,Summerset Group Holdings,Healthcare,False
+Australia,ASX 200,SOL.AX,SOL,Soul Patts,Financials,True
+Australia,ASX 200,SPK.AX,SPK,Spark New Zealand,Communication Services,False
+Australia,ASX 200,STO.AX,STO,Santos,Energy,False
+Australia,ASX 200,SUL.AX,SUL,Super Retail Group,Consumer Discretionary,False
+Australia,ASX 200,SUN.AX,SUN,Suncorp,Financials,True
+Australia,ASX 200,TAH.AX,TAH,Tabcorp,Consumer Discretionary,False
+Australia,ASX 200,TCL.AX,TCL,Transurban,Industrials,False
+Australia,ASX 200,TLC.AX,TLC,The Lottery Corporation,Consumer Discretionary,False
+Australia,ASX 200,TLS.AX,TLS,Telstra,Communication Services,False
+Australia,ASX 200,TLX.AX,TLX,Telix Pharmaceuticals,Healthcare,False
+Australia,ASX 200,TNE.AX,TNE,TechnologyOne,Information Technology,False
+Australia,ASX 200,TPG.AX,TPG,TPG Telecom,Communication Services,False
+Australia,ASX 200,TUA.AX,TUA,Tuas,Communication Services,False
+Australia,ASX 200,TWE.AX,TWE,Treasury Wine Estates,Consumer Staples,False
+Australia,ASX 200,VAU.AX,VAU,Vault Minerals,Materials,False
+Australia,ASX 200,VCX.AX,VCX,Vicinity Centres,Real Estate,False
+Australia,ASX 200,VEA.AX,VEA,Viva Energy,Energy,False
+Australia,ASX 200,VGN.AX,VGN,Virgin Australia Holdings,Industrials,False
+Australia,ASX 200,VNT.AX,VNT,Ventia Services Group,Industrials,False
+Australia,ASX 200,WAF.AX,WAF,West African Resources,Materials,False
+Australia,ASX 200,WAM.AX,WAM,WAM Capital,Financials,True
+Australia,ASX 200,WBC.AX,WBC,Westpac,Financials,True
+Australia,ASX 200,WDS.AX,WDS,Woodside Energy Group,Energy,False
+Australia,ASX 200,WES.AX,WES,Wesfarmers,Consumer Discretionary,False
+Australia,ASX 200,WGX.AX,WGX,Westgold Resources,Materials,False
+Australia,ASX 200,WHC.AX,WHC,Whitehaven Coal,Energy,False
+Australia,ASX 200,WLE.AX,WLE,WAM Leaders,Financials,True
+Australia,ASX 200,WOR.AX,WOR,Worley,Energy,False
+Australia,ASX 200,WOW.AX,WOW,Woolworths Group,Consumer Staples,False
+Australia,ASX 200,WTC.AX,WTC,Wisetech Global,Information Technology,False
+Australia,ASX 200,XRO.AX,XRO,Xero,Information Technology,False
+Australia,ASX 200,XYX.AX,XYX,"Block, Inc.",Financials,True
+Australia,ASX 200,YAL.AX,YAL,Yancoal Australia,Materials,False
+Australia,ASX 200,ZIM.AX,ZIM,Zimplats Holdings,Materials,False
+Australia,ASX 200,ZIP.AX,ZIP,Zip,Financials,True
+India,NIFTY 50,ADANIENT.NS,ADANIENT,Adani Enterprises,Metals & Mining,False
+India,NIFTY 50,ADANIPORTS.NS,ADANIPORTS,Adani Ports & SEZ,Services,False
+India,NIFTY 50,APOLLOHOSP.NS,APOLLOHOSP,Apollo Hospitals,Healthcare,False
+India,NIFTY 50,ASIANPAINT.NS,ASIANPAINT,Asian Paints,Consumer Durables,False
+India,NIFTY 50,AXISBANK.NS,AXISBANK,Axis Bank,Financial Services,True
+India,NIFTY 50,BAJAJ-AUTO.NS,BAJAJ-AUTO,Bajaj Auto,Automobile and Auto Components,False
+India,NIFTY 50,BAJFINANCE.NS,BAJFINANCE,Bajaj Finance,Financial Services,True
+India,NIFTY 50,BAJAJFINSV.NS,BAJAJFINSV,Bajaj Finserv,Financial Services,True
+India,NIFTY 50,BEL.NS,BEL,Bharat Electronics,Capital Goods,False
+India,NIFTY 50,BHARTIARTL.NS,BHARTIARTL,Bharti Airtel,Telecommunication,False
+India,NIFTY 50,BSE.NS,BSE,BSE,Financial Services,True
+India,NIFTY 50,CIPLA.NS,CIPLA,Cipla,Healthcare,False
+India,NIFTY 50,COALINDIA.NS,COALINDIA,Coal India,"Oil, Gas & Consumable Fuels",False
+India,NIFTY 50,DRREDDY.NS,DRREDDY,Dr. Reddy's Laboratories,Healthcare,False
+India,NIFTY 50,EICHERMOT.NS,EICHERMOT,Eicher Motors,Automobile and Auto Components,False
+India,NIFTY 50,ETERNAL.NS,ETERNAL,Eternal,Consumer Services,False
+India,NIFTY 50,GRASIM.NS,GRASIM,Grasim Industries,Construction Materials,False
+India,NIFTY 50,HCLTECH.NS,HCLTECH,HCLTech,Information Technology,False
+India,NIFTY 50,HDFCBANK.NS,HDFCBANK,HDFC Bank,Financial Services,True
+India,NIFTY 50,HDFCLIFE.NS,HDFCLIFE,HDFC Life,Financial Services,True
+India,NIFTY 50,HINDALCO.NS,HINDALCO,Hindalco Industries,Metals & Mining,False
+India,NIFTY 50,HINDUNILVR.NS,HINDUNILVR,Hindustan Unilever,Fast Moving Consumer Goods,False
+India,NIFTY 50,ICICIBANK.NS,ICICIBANK,ICICI Bank,Financial Services,True
+India,NIFTY 50,INDIGO.NS,INDIGO,IndiGo,Services,False
+India,NIFTY 50,INFY.NS,INFY,Infosys,Information Technology,False
+India,NIFTY 50,ITC.NS,ITC,ITC,Fast Moving Consumer Goods,False
+India,NIFTY 50,JIOFIN.NS,JIOFIN,Jio Financial Services,Financial Services,True
+India,NIFTY 50,JSWSTEEL.NS,JSWSTEEL,JSW Steel,Metals & Mining,False
+India,NIFTY 50,KOTAKBANK.NS,KOTAKBANK,Kotak Mahindra Bank,Financial Services,True
+India,NIFTY 50,LT.NS,LT,Larsen & Toubro,Construction,False
+India,NIFTY 50,M&M.NS,M&M,Mahindra & Mahindra,Automobile and Auto Components,False
+India,NIFTY 50,MARUTI.NS,MARUTI,Maruti Suzuki,Automobile and Auto Components,False
+India,NIFTY 50,MAXHEALTH.NS,MAXHEALTH,Max Healthcare,Healthcare,False
+India,NIFTY 50,NESTLEIND.NS,NESTLEIND,Nestlé India,Fast Moving Consumer Goods,False
+India,NIFTY 50,NTPC.NS,NTPC,NTPC,Power,False
+India,NIFTY 50,ONGC.NS,ONGC,Oil and Natural Gas Corporation,"Oil, Gas & Consumable Fuels",False
+India,NIFTY 50,POWERGRID.NS,POWERGRID,Power Grid,Power,False
+India,NIFTY 50,RELIANCE.NS,RELIANCE,Reliance Industries,"Oil, Gas & Consumable Fuels",False
+India,NIFTY 50,SBILIFE.NS,SBILIFE,SBI Life Insurance Company,Financial Services,True
+India,NIFTY 50,SHRIRAMFIN.NS,SHRIRAMFIN,Shriram Finance,Financial Services,True
+India,NIFTY 50,SBIN.NS,SBIN,State Bank of India,Financial Services,True
+India,NIFTY 50,SUNPHARMA.NS,SUNPHARMA,Sun Pharma,Healthcare,False
+India,NIFTY 50,TCS.NS,TCS,Tata Consultancy Services,Information Technology,False
+India,NIFTY 50,TATACONSUM.NS,TATACONSUM,Tata Consumer Products,Fast Moving Consumer Goods,False
+India,NIFTY 50,TMPV.NS,TMPV,Tata Motors Passenger Vehicles,Automobile and Auto Components,False
+India,NIFTY 50,TATASTEEL.NS,TATASTEEL,Tata Steel,Metals & Mining,False
+India,NIFTY 50,TECHM.NS,TECHM,Tech Mahindra,Information Technology,False
+India,NIFTY 50,TITAN.NS,TITAN,Titan Company,Consumer Durables,False
+India,NIFTY 50,TRENT.NS,TRENT,Trent,Consumer Services,False
+India,NIFTY 50,ULTRACEMCO.NS,ULTRACEMCO,UltraTech Cement,Construction Materials,False
+India,NIFTY Next 50,ABB.NS,ABB,ABB India,Capital Goods,False
+India,NIFTY Next 50,ADANIENSOL.NS,ADANIENSOL,Adani Energy Solutions,Power,False
+India,NIFTY Next 50,ADANIGREEN.NS,ADANIGREEN,Adani Green Energy,Power,False
+India,NIFTY Next 50,ADANIPOWER.NS,ADANIPOWER,Adani Power,Power,False
+India,NIFTY Next 50,AMBUJACEM.NS,AMBUJACEM,Ambuja Cements,Construction Materials,False
+India,NIFTY Next 50,BAJAJHLDNG.NS,BAJAJHLDNG,Bajaj Holdings,Financial Services,True
+India,NIFTY Next 50,BANKBARODA.NS,BANKBARODA,Bank of Baroda,Financial Services,True
+India,NIFTY Next 50,BPCL.NS,BPCL,Bharat Petroleum,"Oil, Gas & Consumable Fuels",False
+India,NIFTY Next 50,BRITANNIA.NS,BRITANNIA,Britannia Industries,Fast Moving Consumer Goods,False
+India,NIFTY Next 50,BOSCHLTD.NS,BOSCHLTD,Bosch,Automobile and Auto Components,False
+India,NIFTY Next 50,CANBK.NS,CANBK,Canara Bank,Financial Services,True
+India,NIFTY Next 50,CGPOWER.NS,CGPOWER,CG Power and Industrial Solutions,Capital Goods,False
+India,NIFTY Next 50,CHOLAFIN.NS,CHOLAFIN,Cholamandalam,Financial Services,True
+India,NIFTY Next 50,CUMMINSIND.NS,CUMMINSIND,Cummins India,Capital Goods,False
+India,NIFTY Next 50,DIVISLAB.NS,DIVISLAB,Divi's Laboratories,Healthcare,False
+India,NIFTY Next 50,DLF.NS,DLF,DLF,Realty,False
+India,NIFTY Next 50,DMART.NS,DMART,DMart,Consumer Services,False
+India,NIFTY Next 50,GAIL.NS,GAIL,GAIL,"Oil, Gas & Consumable Fuels",False
+India,NIFTY Next 50,GODREJCP.NS,GODREJCP,Godrej Consumer Products,Fast Moving Consumer Goods,False
+India,NIFTY Next 50,HDFCAMC.NS,HDFCAMC,HDFC Asset Management,Financial Services,True
+India,NIFTY Next 50,HAL.NS,HAL,Hindustan Aeronautics,Capital Goods,False
+India,NIFTY Next 50,HINDZINC.NS,HINDZINC,Hindustan Zinc,Metals & Mining,False
+India,NIFTY Next 50,HYUNDAI.NS,HYUNDAI,Hyundai Motor India,Automobile and Auto Components,False
+India,NIFTY Next 50,INDHOTEL.NS,INDHOTEL,Indian Hotels Company,Consumer Services,False
+India,NIFTY Next 50,IOC.NS,IOC,Indian Oil Corporation,"Oil, Gas & Consumable Fuels",False
+India,NIFTY Next 50,IRFC.NS,IRFC,IRFC,Financial Services,True
+India,NIFTY Next 50,JINDALSTEL.NS,JINDALSTEL,Jindal Steel,Metals & Mining,False
+India,NIFTY Next 50,LODHA.NS,LODHA,Lodha,Realty,False
+India,NIFTY Next 50,LTM.NS,LTM,LTM,Information Technology,False
+India,NIFTY Next 50,MAZDOCK.NS,MAZDOCK,Mazagon Dock Shipbuilders,Capital Goods,False
+India,NIFTY Next 50,MUTHOOTFIN.NS,MUTHOOTFIN,Muthoot Finance,Financial Services,True
+India,NIFTY Next 50,PIDILITIND.NS,PIDILITIND,Pidilite Industries,Chemicals,False
+India,NIFTY Next 50,PFC.NS,PFC,Power Finance Corporation,Financial Services,True
+India,NIFTY Next 50,PNB.NS,PNB,Punjab National Bank,Financial Services,True
+India,NIFTY Next 50,RECLTD.NS,RECLTD,REC,Financial Services,True
+India,NIFTY Next 50,MOTHERSON.NS,MOTHERSON,Samvardhana Motherson,Automobile and Auto Components,False
+India,NIFTY Next 50,SHREECEM.NS,SHREECEM,Shree Cement,Construction Materials,False
+India,NIFTY Next 50,SIEMENS.NS,SIEMENS,Siemens,Capital Goods,False
+India,NIFTY Next 50,ENRIN.NS,ENRIN,Siemens Energy,Capital Goods,False
+India,NIFTY Next 50,SOLARINDS.NS,SOLARINDS,Solar Industries,Chemicals,False
+India,NIFTY Next 50,TATACAP.NS,TATACAP,Tata Capital,Financial Services,True
+India,NIFTY Next 50,TMCV.NS,TMCV,Tata Motors,Automobile and Auto Components,False
+India,NIFTY Next 50,TATAPOWER.NS,TATAPOWER,Tata Power,Power,False
+India,NIFTY Next 50,TORNTPHARM.NS,TORNTPHARM,Torrent Pharmaceuticals,Healthcare,False
+India,NIFTY Next 50,TVSMOTOR.NS,TVSMOTOR,TVS Motor Company,Automobile and Auto Components,False
+India,NIFTY Next 50,UNIONBANK.NS,UNIONBANK,Union Bank of India,Financial Services,True
+India,NIFTY Next 50,UNITDSPR.NS,UNITDSPR,United Spirits,Fast Moving Consumer Goods,False
+India,NIFTY Next 50,VBL.NS,VBL,Varun Beverages,Fast Moving Consumer Goods,False
+India,NIFTY Next 50,VEDL.NS,VEDL,Vedanta,Metals & Mining,False
+India,NIFTY Next 50,ZYDUSLIFE.NS,ZYDUSLIFE,Zydus Lifesciences,Healthcare,False
+Malaysia,KLCI,5326.KL,5326,99 SPEED MART RETAIL HOLDINGS BERHAD,Retailers,False
+Malaysia,KLCI,6888.KL,6888,AXIATA GROUP BERHAD,"Mobile network, network infrastructure & digital internet",False
+Malaysia,KLCI,6947.KL,6947,CELCOMDIGI BERHAD,Telecommunications service & Internet services,False
+Malaysia,KLCI,1023.KL,1023,CIMB GROUP HOLDINGS BERHAD,Financial services,True
+Malaysia,KLCI,5398.KL,5398,GAMUDA BERHAD,Construction,False
+Malaysia,KLCI,5819.KL,5819,HONG LEONG BANK BHD,Financial services,True
+Malaysia,KLCI,1082.KL,1082,HONG LEONG FINANCIAL GROUP BHD,Financial services,True
+Malaysia,KLCI,5225.KL,5225,IHH HEALTHCARE BERHAD,Healthcare,False
+Malaysia,KLCI,1961.KL,1961,IOI CORPORATION BHD,Plantations,False
+Malaysia,KLCI,2445.KL,2445,KUALA LUMPUR KEPONG BHD,Plantation,False
+Malaysia,KLCI,1155.KL,1155,Malayan Banking Berhad,Financial services,True
+Malaysia,KLCI,6012.KL,6012,MAXIS BERHAD,Telecommunications service & Internet services,False
+Malaysia,KLCI,3816.KL,3816,MISC BHD,"Energy shipping, Maritime services",False
+Malaysia,KLCI,5296.KL,5296,MR D.I.Y. GROUP (M) BERHAD,Retail,False
+Malaysia,KLCI,4707.KL,4707,NESTLE (M) BHD,Food & Beverages,False
+Malaysia,KLCI,5183.KL,5183,PETRONAS CHEMICALS GROUP BHD,Chemicals,False
+Malaysia,KLCI,5681.KL,5681,PETRONAS DAGANGAN BHD,Oil and gas,False
+Malaysia,KLCI,6033.KL,6033,PETRONAS GAS BHD,Oil and gas,False
+Malaysia,KLCI,4065.KL,4065,PPB GROUP BHD,Plantation & Properties,False
+Malaysia,KLCI,8869.KL,8869,PRESS METAL ALUMINIUM HOLDINGS BERHAD,Metals,False
+Malaysia,KLCI,1295.KL,1295,PUBLIC BANK BHD,Financial services,True
+Malaysia,KLCI,7084.KL,7084,QL RESOURCES BHD,Agriculture,False
+Malaysia,KLCI,1066.KL,1066,RHB BANK BERHAD,Financial services,True
+Malaysia,KLCI,4197.KL,4197,SIME DARBY BHD,Conglomerate,False
+Malaysia,KLCI,5285.KL,5285,SD GUTHRIE BERHAD,Plantation,False
+Malaysia,KLCI,5211.KL,5211,SUNWAY BERHAD,Industrial,False
+Malaysia,KLCI,4863.KL,4863,TELEKOM MALAYSIA BHD,Telecommunications,False
+Malaysia,KLCI,5347.KL,5347,Tenaga Nasional,Electric power industry,False
+Malaysia,KLCI,4677.KL,4677,YTL CORPORATION BHD,Conglomerate,False
+Malaysia,KLCI,6742.KL,6742,YTL POWER INTERNATIONAL BHD,Electric power industry,False
+Thailand,SET50,ADVANC.BK,ADVANC,Advanced Info Service,Information & Communication Technology,False
+Thailand,SET50,AOT.BK,AOT,Airports of Thailand,Transportation & Logistics,False
+Thailand,SET50,AWC.BK,AWC,Asset World Corp,Property Development,False
+Thailand,SET50,BANPU.BK,BANPU,Banpu,Energy & Utilities,False
+Thailand,SET50,BBL.BK,BBL,Bangkok Bank,Banking,True
+Thailand,SET50,BCP.BK,BCP,Bangchak Corporation,Energy & Utilities,False
+Thailand,SET50,BDMS.BK,BDMS,Bangkok Dusit Medical Service,Health Care Services,False
+Thailand,SET50,BEM.BK,BEM,Bangkok Expressway and Metro,Transportation & Logistics,False
+Thailand,SET50,BH.BK,BH,Bumrungrad International Hospital,Health Care Services,False
+Thailand,SET50,BJC.BK,BJC,Berli Jucker,Commerce,False
+Thailand,SET50,BTS.BK,BTS,BTS Group Holdings,Transportation & Logistics,False
+Thailand,SET50,CBG.BK,CBG,Carabao Group,Food & Beverages,False
+Thailand,SET50,CCET.BK,CCET,Cal-Comp Electronics (Thailand),Electronic Components,False
+Thailand,SET50,COM7.BK,COM7,Com Seven,Commerce,False
+Thailand,SET50,CPALL.BK,CPALL,CP All,Commerce,False
+Thailand,SET50,CPF.BK,CPF,Charoen Pokphand Foods,Food & Beverages,False
+Thailand,SET50,CPN.BK,CPN,Central Pattana,Property Development,False
+Thailand,SET50,CRC.BK,CRC,Central Retail Corporation,Commerce,False
+Thailand,SET50,DELTA.BK,DELTA,Delta Electronics (Thailand),Electronic Components,False
+Thailand,SET50,EGCO.BK,EGCO,Electricity Generating,Energy & Utilities,False
+Thailand,SET50,GPSC.BK,GPSC,Global Power Synergy,Energy & Utilities,False
+Thailand,SET50,GULF.BK,GULF,Gulf Development,Energy & Utilities,False
+Thailand,SET50,HMPRO.BK,HMPRO,Home Product Center,Commerce,False
+Thailand,SET50,IVL.BK,IVL,Indorama Ventures,Petrochemicals & Chemicals,False
+Thailand,SET50,KBANK.BK,KBANK,Kasikornbank,Banking,True
+Thailand,SET50,KCE.BK,KCE,KCE Electronics,Electronic Components,False
+Thailand,SET50,KKP.BK,KKP,Kiatnakin Phatra Bank,Banking,True
+Thailand,SET50,KTB.BK,KTB,Krungthai Bank,Banking,True
+Thailand,SET50,KTC.BK,KTC,Krungthai Card,Finance & Securities,True
+Thailand,SET50,LH.BK,LH,Land and Houses,Property Development,False
+Thailand,SET50,MINT.BK,MINT,Minor International,Food & Beverage,False
+Thailand,SET50,MTC.BK,MTC,Muangthai Capital,Finance & Securities,True
+Thailand,SET50,OR.BK,OR,PTT Oil and Retail Business,Energy & Utilities,False
+Thailand,SET50,OSP.BK,OSP,Osotspa,Food & Beverage,False
+Thailand,SET50,PTT.BK,PTT,PTT,Energy & Utilities,False
+Thailand,SET50,PTTEP.BK,PTTEP,PTT Exploration and Production,Energy & Utilities,False
+Thailand,SET50,PTTGC.BK,PTTGC,PTT Global Chemical,Petrochemicals & Chemicals,False
+Thailand,SET50,RATCH.BK,RATCH,Ratch Group,Energy & Utilities,False
+Thailand,SET50,SCB.BK,SCB,Siam Commercial Bank,Banking,True
+Thailand,SET50,SCC.BK,SCC,Siam Cement Group,Construction Materials,False
+Thailand,SET50,SCGP.BK,SCGP,SCG Packaging,Packaging,False
+Thailand,SET50,TCAP.BK,TCAP,Thanachart Capital,Banking,True
+Thailand,SET50,TIDLOR.BK,TIDLOR,Tidlor Holdings,Finance & Securities,True
+Thailand,SET50,TISCO.BK,TISCO,Tisco Financial Group,Banking,True
+Thailand,SET50,TLI.BK,TLI,Thai Life Insurance,Insurance,True
+Thailand,SET50,TOP.BK,TOP,Thai Oil,Energy & Utilities,False
+Thailand,SET50,TRUE.BK,TRUE,TRUE Corporation,Information & Communication Technology,False
+Thailand,SET50,TTB.BK,TTB,TMBThanachart Bank,Banking,True
+Thailand,SET50,TU.BK,TU,Thai Union Group,Food & Beverages,False
+Thailand,SET50,VGI.BK,VGI,VGI,Media & Publishing,False
+Thailand,SET50,WHA.BK,WHA,WHA Corporation,Property Development,False
+New Zealand,NZX 50,AIA.NZ,AIA,Auckland International Airport Limited,Airport Services,False
+New Zealand,NZX 50,AIR.NZ,AIR,Air New Zealand Limited,Airlines,False
+New Zealand,NZX 50,ANZ.NZ,ANZ,ANZ Group Holdings Limited,Diversified Banks,True
+New Zealand,NZX 50,ARG.NZ,ARG,Argosy Property Limited,Diversified REITs,True
+New Zealand,NZX 50,ARV.NZ,ARV,Arvida Group Limited,Health Care Facilities,False
+New Zealand,NZX 50,ATM.NZ,ATM,The a2 Milk Company Limited,Packaged Foods & Meats,False
+New Zealand,NZX 50,CEN.NZ,CEN,Contact Energy Limited,Electric Utilities,False
+New Zealand,NZX 50,CHI.NZ,CHI,Channel Infrastructure NZ Limited,Oil and Gas Refining,False
+New Zealand,NZX 50,CNU.NZ,CNU,Chorus Limited,Alternative Carriers,False
+New Zealand,NZX 50,EBO.NZ,EBO,EBOS Group Limited,Health Care Distributors,False
+New Zealand,NZX 50,FBU.NZ,FBU,Fletcher Building Limited,Construction Materials,False
+New Zealand,NZX 50,FPH.NZ,FPH,Fisher & Paykel Healthcare Corporation Limited,Health Care Equipment & Services,False
+New Zealand,NZX 50,FRW.NZ,FRW,Freightways Group Limited,Air Freight & Logistics,False
+New Zealand,NZX 50,FSF.NZ,FSF,Fonterra Shareholders' Fund,Packaged Foods & Meats,False
+New Zealand,NZX 50,GMT.NZ,GMT,Goodman Property Trust,Diversified REITs,True
+New Zealand,NZX 50,GNE.NZ,GNE,Genesis Energy Limited,Electric Utilities,False
+New Zealand,NZX 50,GTK.NZ,GTK,Gentrack Group Limited,Application Software,False
+New Zealand,NZX 50,HGH.NZ,HGH,Heartland Group Holdings Limited,Diversified Banks,True
+New Zealand,NZX 50,HLG.NZ,HLG,Hallenstein Glasson Holdings Limited,Consumer Cyclical,False
+New Zealand,NZX 50,IFT.NZ,IFT,Infratil Limited,Electric Utilities,False
+New Zealand,NZX 50,IPL.NZ,IPL,Investore Property Limited,Retail REITs,True
+New Zealand,NZX 50,KMD.NZ,KMD,KMD Brands Limited,Specialty Stores,False
+New Zealand,NZX 50,KPG.NZ,KPG,Kiwi Property Group Limited,Retail REITs,True
+New Zealand,NZX 50,MCY.NZ,MCY,Mercury NZ Limited,Electric Utilities,False
+New Zealand,NZX 50,MEL.NZ,MEL,Meridian Energy Limited,Renewable Electricity,False
+New Zealand,NZX 50,MFT.NZ,MFT,Mainfreight Limited,Air Freight & Logistics,False
+New Zealand,NZX 50,MNW.NZ,MNW,Manawa Energy Limited,Energy,False
+New Zealand,NZX 50,NZX.NZ,NZX,NZX Limited,Financial Exchanges & Data,True
+New Zealand,NZX 50,OCA.NZ,OCA,Oceania Healthcare Limited,Health Care Facilities,False
+New Zealand,NZX 50,PCT.NZ,PCT,Precinct Properties NZ & Precinct Properties Investments Ltd,Office REITs,True
+New Zealand,NZX 50,PFI.NZ,PFI,Property for Industry Limited,Industrial REITs,True
+New Zealand,NZX 50,POT.NZ,POT,Port of Tauranga Limited,Marine Ports & Services,False
+New Zealand,NZX 50,RYM.NZ,RYM,Ryman Healthcare Limited,Health Care Facilities,False
+New Zealand,NZX 50,SAN.NZ,SAN,Sanford Limited,Packaged Foods & Meats,False
+New Zealand,NZX 50,SCL.NZ,SCL,Scales Corporation Limited,Packaged Foods & Meats,False
+New Zealand,NZX 50,SKC.NZ,SKC,SkyCity Entertainment Group Limited,Casinos & Gaming,False
+New Zealand,NZX 50,SKL.NZ,SKL,Skellerup Holdings Limited,Industrial Machinery,False
+New Zealand,NZX 50,SKO.NZ,SKO,Serko Limited,Application Software,False
+New Zealand,NZX 50,SKT.NZ,SKT,Sky Network Television Limited,Cable & Satellite,False
+New Zealand,NZX 50,SPG.NZ,SPG,Stride Property Ltd & Stride Investment Management Ltd,Diversified REITs,True
+New Zealand,NZX 50,SPK.NZ,SPK,Spark New Zealand Limited,Integrated Telecommunication Services,False
+New Zealand,NZX 50,SUM.NZ,SUM,Summerset Group Holdings Limited,Health Care Facilities,False
+New Zealand,NZX 50,THL.NZ,THL,Tourism Holdings Limited,Tourism,False
+New Zealand,NZX 50,TRA.NZ,TRA,Turners Automotive Group Limited,Automotive,False
+New Zealand,NZX 50,VCT.NZ,VCT,Vector Limited,Multi-Utilities,False
+New Zealand,NZX 50,VGL.NZ,VGL,Vista Group International Limited,Application Software,False
+New Zealand,NZX 50,VHP.NZ,VHP,Vital Healthcare Property Trust,Health Care REITs,True
+New Zealand,NZX 50,VSL.NZ,VSL,Vulcan Steel Limited,Metals & Mining,False
+New Zealand,NZX 50,WBC.NZ,WBC,Westpac Banking Corporation,Diversified Banks,True
+New Zealand,NZX 50,WHS.NZ,WHS,The Warehouse Group Limited,Retail,False
+UK,FTSE 100,III.L,III,3i,Financial services,True
+UK,FTSE 100,ABDN.L,ABDN,Aberdeen Group,Financial Services,True
+UK,FTSE 100,ADM.L,ADM,Admiral Group,Insurance,True
+UK,FTSE 100,AAF.L,AAF,Airtel Africa,Telecommunications services,False
+UK,FTSE 100,ALW.L,ALW,Alliance Witan,Investment Trusts,True
+UK,FTSE 100,AAL.L,AAL,Anglo American plc,Mining,False
+UK,FTSE 100,ANTO.L,ANTO,Antofagasta plc,Mining,False
+UK,FTSE 100,ABF.L,ABF,Associated British Foods,Food & tobacco,False
+UK,FTSE 100,AZN.L,AZN,AstraZeneca,Pharmaceuticals & biotechnology,False
+UK,FTSE 100,AUTO.L,AUTO,Autotrader Group,Media,False
+UK,FTSE 100,AV.L,AV,Aviva,Life insurance,True
+UK,FTSE 100,BAB.L,BAB,Babcock International,Aerospace & defence,False
+UK,FTSE 100,BA.L,BA,BAE Systems,Aerospace & defence,False
+UK,FTSE 100,BBY.L,BBY,Balfour Beatty,Construction & Materials,False
+UK,FTSE 100,BARC.L,BARC,Barclays,Banks,True
+UK,FTSE 100,BTRW.L,BTRW,Barratt Redrow,Household goods & home construction,False
+UK,FTSE 100,BP.L,BP,BP,Oil & gas producers,False
+UK,FTSE 100,BATS.L,BATS,British American Tobacco,Tobacco,False
+UK,FTSE 100,BLND.L,BLND,British Land,Real estate,False
+UK,FTSE 100,BT-A.L,BT-A,BT Group,Telecommunications services,False
+UK,FTSE 100,BNZL.L,BNZL,Bunzl,Support services,False
+UK,FTSE 100,BRBY.L,BRBY,Burberry Group,Personal goods,False
+UK,FTSE 100,CNA.L,CNA,Centrica,Multiline utilities,False
+UK,FTSE 100,CCEP.L,CCEP,Coca-Cola Europacific Partners,Beverages,False
+UK,FTSE 100,CCH.L,CCH,Coca-Cola HBC,Beverages,False
+UK,FTSE 100,CPG.L,CPG,Compass Group,Support services,False
+UK,FTSE 100,CCC.L,CCC,Computacenter,Software & Computer Services,False
+UK,FTSE 100,CTEC.L,CTEC,Convatec,Health care equipment & supplies,False
+UK,FTSE 100,CRDA.L,CRDA,Croda International,Chemicals,False
+UK,FTSE 100,DCC.L,DCC,DCC Energy,Support services,False
+UK,FTSE 100,DGE.L,DGE,Diageo,Beverages,False
+UK,FTSE 100,DPLM.L,DPLM,Diploma,Industrial Support services,False
+UK,FTSE 100,EZJ.L,EZJ,EasyJet,Travel and Leisure,False
+UK,FTSE 100,EDV.L,EDV,Endeavour Mining,Mining,False
+UK,FTSE 100,EXPN.L,EXPN,Experian,Support services,False
+UK,FTSE 100,FCIT.L,FCIT,F & C Investment Trust,Collective investments,True
+UK,FTSE 100,FRES.L,FRES,Fresnillo plc,Mining,False
+UK,FTSE 100,GAW.L,GAW,Games Workshop,Leisure Goods,False
+UK,FTSE 100,GLEN.L,GLEN,Glencore,Mining,False
+UK,FTSE 100,GSK.L,GSK,GSK plc,Pharmaceuticals & biotechnology,False
+UK,FTSE 100,HLN.L,HLN,Haleon,Pharmaceuticals & biotechnology,False
+UK,FTSE 100,HLMA.L,HLMA,Halma plc,Electronic equipment & parts,False
+UK,FTSE 100,HSX.L,HSX,Hiscox,Non-life Insurance,True
+UK,FTSE 100,HWDN.L,HWDN,Howdens Joinery,Homebuilding & construction supplies,False
+UK,FTSE 100,HSBA.L,HSBA,HSBC,Banks,True
+UK,FTSE 100,ICG.L,ICG,ICG,Financial services,True
+UK,FTSE 100,IGG.L,IGG,IG Group,Financial services,True
+UK,FTSE 100,IHG.L,IHG,IHG Hotels & Resorts,Travel & leisure,False
+UK,FTSE 100,IMI.L,IMI,IMI,Industrial engineering,False
+UK,FTSE 100,IMB.L,IMB,Imperial Brands,Tobacco,False
+UK,FTSE 100,INF.L,INF,Informa,Media,False
+UK,FTSE 100,IAG.L,IAG,International Airlines Group,Travel & leisure,False
+UK,FTSE 100,ITRK.L,ITRK,Intertek,Support services,False
+UK,FTSE 100,INVP.L,INVP,Investec,Financial Services,True
+UK,FTSE 100,ITH.L,ITH,Ithaca Energy,Oil & Gas Producers,False
+UK,FTSE 100,JD.L,JD,JD Sports,General retailers,False
+UK,FTSE 100,BGEO.L,BGEO,Lion Finance Group,Banking Services,True
+UK,FTSE 100,KGF.L,KGF,Kingfisher plc,Retailers,False
+UK,FTSE 100,LAND.L,LAND,Land Securities,Real estate investment trusts,True
+UK,FTSE 100,LGEN.L,LGEN,Legal & General,Life insurance,True
+UK,FTSE 100,LLOY.L,LLOY,Lloyds Banking Group,Banks,True
+UK,FTSE 100,LMP.L,LMP,LondonMetric Property,Real Estate Investment Trusts,True
+UK,FTSE 100,LSEG.L,LSEG,London Stock Exchange Group,Financial services,True
+UK,FTSE 100,MNG.L,MNG,M&G,Financial services,True
+UK,FTSE 100,MKS.L,MKS,Marks & Spencer,Food & drug retailing,False
+UK,FTSE 100,MRO.L,MRO,Melrose Industries,Aerospace & defence,False
+UK,FTSE 100,MTLN.L,MTLN,Metlen Energy & Metals,Multiline utilities,False
+UK,FTSE 100,NG.L,NG,National Grid plc,Multiline utilities,False
+UK,FTSE 100,NWG.L,NWG,NatWest Group,Banks,True
+UK,FTSE 100,NXT.L,NXT,Next plc,General retailers,False
+UK,FTSE 100,PSON.L,PSON,Pearson plc,Media,False
+UK,FTSE 100,PSH.L,PSH,Pershing Square Holdings,Financial services,True
+UK,FTSE 100,PCT.L,PCT,Polar Capital Technology Trust,Investment trusts,True
+UK,FTSE 100,PRU.L,PRU,Prudential plc,Life insurance,True
+UK,FTSE 100,RKT.L,RKT,Reckitt,Household goods & home construction,False
+UK,FTSE 100,REL.L,REL,RELX,Media,False
+UK,FTSE 100,RTO.L,RTO,Rentokil Initial,Support services,False
+UK,FTSE 100,RIO.L,RIO,Rio Tinto,Mining,False
+UK,FTSE 100,RR.L,RR,Rolls-Royce Holdings,Aerospace & defence,False
+UK,FTSE 100,SGE.L,SGE,Sage Group,Software & computer services,False
+UK,FTSE 100,SBRY.L,SBRY,Sainsbury's,Food & drug retailing,False
+UK,FTSE 100,SMT.L,SMT,Scottish Mortgage Investment Trust,Collective investments,True
+UK,FTSE 100,SGRO.L,SGRO,Segro,Real estate investment trusts,True
+UK,FTSE 100,SVT.L,SVT,Severn Trent,Multiline utilities,False
+UK,FTSE 100,SHEL.L,SHEL,Shell plc,Oil & gas producers,False
+UK,FTSE 100,SMIN.L,SMIN,Smiths Group,General industrials,False
+UK,FTSE 100,SN.L,SN,Smith & Nephew,Health care equipment & supplies,False
+UK,FTSE 100,SPX.L,SPX,Spirax Group,Industrial engineering,False
+UK,FTSE 100,SSE.L,SSE,SSE plc,Electrical utilities & independent power producers,False
+UK,FTSE 100,STAN.L,STAN,Standard Chartered,Banks,True
+UK,FTSE 100,SDLF.L,SDLF,Standard Life,Life insurance,True
+UK,FTSE 100,STJ.L,STJ,St. James's Place,Financial services,True
+UK,FTSE 100,TSCO.L,TSCO,Tesco,Food & drug retailing,False
+UK,FTSE 100,BBOX.L,BBOX,Tritax Big Box REIT,Real Estate Investment Trusts,True
+UK,FTSE 100,ULVR.L,ULVR,Unilever,Personal goods,False
+UK,FTSE 100,UU.L,UU,United Utilities,Multiline utilities,False
+UK,FTSE 100,VOD.L,VOD,Vodafone Group,Mobile telecommunications,False
+UK,FTSE 100,WEIR.L,WEIR,Weir,Industrial goods and services,False
+UK,FTSE 100,WTB.L,WTB,Whitbread,Retail hospitality,False
+UK,FTSE 100,WPP.L,WPP,WPP,Media,False
+Germany,DAX,ADS.DE,ADS,Adidas,Apparel,False
+Germany,DAX,AIR.DE,AIR,Airbus,Aerospace & Defence,False
+Germany,DAX,ALV.DE,ALV,Allianz,Financial Services,True
+Germany,DAX,BAS.DE,BAS,BASF,Chemicals,False
+Germany,DAX,BAYN.DE,BAYN,Bayer,Pharmaceuticals,False
+Germany,DAX,BEI.DE,BEI,Beiersdorf,Consumer goods,False
+Germany,DAX,BMW.DE,BMW,BMW,Automotive,False
+Germany,DAX,BNR.DE,BNR,Brenntag,Distribution,False
+Germany,DAX,CBK.DE,CBK,Commerzbank,Financial Services,True
+Germany,DAX,CON.DE,CON,Continental,Automotive,False
+Germany,DAX,DTG.DE,DTG,Daimler Truck,Automotive,False
+Germany,DAX,DBK.DE,DBK,Deutsche Bank,Financial Services,True
+Germany,DAX,DB1.DE,DB1,Deutsche Börse,Financial Services,True
+Germany,DAX,DHL.DE,DHL,Deutsche Post,Logistics,False
+Germany,DAX,DTE.DE,DTE,Deutsche Telekom,Telecommunication,False
+Germany,DAX,EOAN.DE,EOAN,E.ON,Utilities,False
+Germany,DAX,FRE.DE,FRE,Fresenius,Healthcare,False
+Germany,DAX,FME.DE,FME,Fresenius Medical Care,Healthcare,False
+Germany,DAX,G1A.DE,G1A,GEA Group,Mechanical Engineering,False
+Germany,DAX,HNR1.DE,HNR1,Hannover Re,Insurance,True
+Germany,DAX,HEI.DE,HEI,Heidelberg Materials,Construction Materials,False
+Germany,DAX,HEN3.DE,HEN3,Henkel,Consumer Goods,False
+Germany,DAX,IFX.DE,IFX,Infineon Technologies,Technology,False
+Germany,DAX,MBG.DE,MBG,Mercedes-Benz Group,Automotive,False
+Germany,DAX,MRK.DE,MRK,Merck,Pharmaceuticals,False
+Germany,DAX,MTX.DE,MTX,MTU Aero Engines,Aerospace & Defence,False
+Germany,DAX,MUV2.DE,MUV2,Munich Re,Financial Services,True
+Germany,DAX,PAH3.DE,PAH3,Porsche SE,Automotive,False
+Germany,DAX,QIA.DE,QIA,Qiagen,Biotech,False
+Germany,DAX,RHM.DE,RHM,Rheinmetall,Aerospace & Defence,False
+Germany,DAX,RWE.DE,RWE,RWE,Utilities,False
+Germany,DAX,SAP.DE,SAP,SAP,Technology,False
+Germany,DAX,G24.DE,G24,Scout24,E-Commerce,False
+Germany,DAX,SIE.DE,SIE,Siemens,Industrials,False
+Germany,DAX,ENR.DE,ENR,Siemens Energy,Energy technology,False
+Germany,DAX,SHL.DE,SHL,Siemens Healthineers,Medical Equipment,False
+Germany,DAX,SY1.DE,SY1,Symrise,Chemicals,False
+Germany,DAX,VOW3.DE,VOW3,Volkswagen Group,Automotive,False
+Germany,DAX,VNA.DE,VNA,Vonovia,Real Estate,False
+Germany,DAX,ZAL.DE,ZAL,Zalando,E-Commerce,False
+France,CAC 40,AC.PA,AC,Accor,Consumer Services,False
+France,CAC 40,AI.PA,AI,Air Liquide,Basic Materials,False
+France,CAC 40,AIR.PA,AIR,Airbus,Industrials,False
+France,CAC 40,MT.PA,MT,ArcelorMittal,Basic Materials,False
+France,CAC 40,CS.PA,CS,Axa,Financial Services,True
+France,CAC 40,BNP.PA,BNP,BNP Paribas,Financial Services,True
+France,CAC 40,EN.PA,EN,Bouygues,Industrials,False
+France,CAC 40,BVI.PA,BVI,Bureau Veritas,Industrials,False
+France,CAC 40,CAP.PA,CAP,Capgemini,Technology,False
+France,CAC 40,CA.PA,CA,Carrefour,Consumer Defensive,False
+France,CAC 40,ACA.PA,ACA,Crédit Agricole,Financial Services,True
+France,CAC 40,BN.PA,BN,Danone,Consumer Defensive,False
+France,CAC 40,DSY.PA,DSY,Dassault Systèmes,Technology,False
+France,CAC 40,FGR.PA,FGR,Eiffage,Industrials,False
+France,CAC 40,ENGI.PA,ENGI,Engie,Utilities,False
+France,CAC 40,EL.PA,EL,EssilorLuxottica,Healthcare,False
+France,CAC 40,ERF.PA,ERF,Eurofins Scientific,Healthcare,False
+France,CAC 40,ENX.PA,ENX,Euronext,Financial Services,True
+France,CAC 40,RMS.PA,RMS,Hermès,Consumer Cyclical,False
+France,CAC 40,KER.PA,KER,Kering,Consumer Cyclical,False
+France,CAC 40,OR.PA,OR,L'Oréal,Consumer Defensive,False
+France,CAC 40,LR.PA,LR,Legrand,Industrials,False
+France,CAC 40,MC.PA,MC,LVMH,Consumer Cyclical,False
+France,CAC 40,ML.PA,ML,Michelin,Industrials,False
+France,CAC 40,ORA.PA,ORA,Orange,Communication Services,False
+France,CAC 40,RI.PA,RI,Pernod Ricard,Consumer Defensive,False
+France,CAC 40,PUB.PA,PUB,Publicis,Communication Services,False
+France,CAC 40,RNO.PA,RNO,Renault,Consumer Cyclical,False
+France,CAC 40,SAF.PA,SAF,Safran,Industrials,False
+France,CAC 40,SGO.PA,SGO,Saint-Gobain,Industrials,False
+France,CAC 40,SAN.PA,SAN,Sanofi,Healthcare,False
+France,CAC 40,SU.PA,SU,Schneider Electric,Industrials,False
+France,CAC 40,GLE.PA,GLE,Société Générale,Financial Services,True
+France,CAC 40,STLAP.PA,STLAP,Stellantis,Consumer Cyclical,False
+France,CAC 40,STMPA.PA,STMPA,STMicroelectronics,Technology,False
+France,CAC 40,HO.PA,HO,Thales,Industrials,False
+France,CAC 40,TTE.PA,TTE,TotalEnergies,Energy,False
+France,CAC 40,URW.PA,URW,Unibail-Rodamco-Westfield,Real Estate,False
+France,CAC 40,VIE.PA,VIE,Veolia,Industrials,False
+France,CAC 40,DG.PA,DG,Vinci,Industrials,False
+Switzerland,SMI,NOVN.SW,NOVN,Novartis International AG,Health care,False
+Switzerland,SMI,ROP.SW,ROP,Roche Holding AG,Health care,False
+Switzerland,SMI,NESN.SW,NESN,Nestlé SA,Retail staples,False
+Switzerland,SMI,ABBN.SW,ABBN,ABB Ltd,Industrials,False
+Switzerland,SMI,UBSG.SW,UBSG,UBS Group AG,Financials,True
+Switzerland,SMI,CFR.SW,CFR,Compagnie Financière Richemont SA,Retail discretionary,False
+Switzerland,SMI,ZURN.SW,ZURN,Zurich Insurance Group AG,Financials,True
+Switzerland,SMI,HOLN.SW,HOLN,Holcim Limited,Materials,False
+Switzerland,SMI,SREN.SW,SREN,Swiss Reinsurance Company Ltd,Financials,True
+Switzerland,SMI,LONN.SW,LONN,Lonza Group AG,Healthcare,False
+Switzerland,SMI,SDZ.SW,SDZ,Sandoz,Healthcare,False
+Switzerland,SMI,GIVN.SW,GIVN,Givaudan SA,Materials,False
+Switzerland,SMI,ALC.SW,ALC,Alcon Inc,Health care,False
+Switzerland,SMI,SIKA.SW,SIKA,Sika AG,Materials,False
+Switzerland,SMI,AMRZ.SW,AMRZ,Amrize AG,Materials,False
+Switzerland,SMI,SLHN.SW,SLHN,Swiss Life Holding AG,Financials,True
+Switzerland,SMI,GALD.SW,GALD,Galderma,Healthcare,False
+Switzerland,SMI,GEBN.SW,GEBN,Geberit AG,Industrials,False
+Switzerland,SMI,PGHN.SW,PGHN,Partners Group Holding AG,Financials,True
+Switzerland,SMI,LOGN.SW,LOGN,Logitech International SA,Information technology,False
+Netherlands,AEX,ABN.AS,ABN,ABN AMRO,Financials,True
+Netherlands,AEX,ADYEN.AS,ADYEN,Adyen,Industrials,False
+Netherlands,AEX,AGN.AS,AGN,Aegon,Financials,True
+Netherlands,AEX,AD.AS,AD,Ahold Delhaize,Consumer Staples,False
+Netherlands,AEX,AKZA.AS,AKZA,AkzoNobel,Basic Materials,False
+Netherlands,AEX,MT.AS,MT,ArcelorMittal,Basic Materials,False
+Netherlands,AEX,ASM.AS,ASM,ASM International,Technology,False
+Netherlands,AEX,ASML.AS,ASML,ASML Holding,Technology,False
+Netherlands,AEX,ASRNL.AS,ASRNL,ASR Nederland,Financials,True
+Netherlands,AEX,BESI.AS,BESI,BE Semiconductors,Technology,False
+Netherlands,AEX,DSFIR.AS,DSFIR,DSM Firmenich AG,Consumer Staples,False
+Netherlands,AEX,EXO.AS,EXO,Exor,Financials,True
+Netherlands,AEX,HEIA.AS,HEIA,Heineken,Consumer Staples,False
+Netherlands,AEX,IMCD.AS,IMCD,IMCD,Basic Materials,False
+Netherlands,AEX,INGA.AS,INGA,ING Group,Financials,True
+Netherlands,AEX,KPN.AS,KPN,KPN,Telecommunications,False
+Netherlands,AEX,NN.AS,NN,NN Group,Financials,True
+Netherlands,AEX,PHIA.AS,PHIA,Philips,Health Care,False
+Netherlands,AEX,PRX.AS,PRX,Prosus,Technology,False
+Netherlands,AEX,RAND.AS,RAND,Randstad,Industrials,False
+Netherlands,AEX,REN.AS,REN,RELX,Consumer Discretionary,False
+Netherlands,AEX,SHELL.AS,SHELL,Shell plc,Energy,False
+Netherlands,AEX,UMG.AS,UMG,Universal Music Group,Consumer Discretionary,False
+Netherlands,AEX,UNA.AS,UNA,Unilever,Consumer Staples,False
+Netherlands,AEX,WKL.AS,WKL,Wolters Kluwer,Consumer Discretionary,False
+Spain,IBEX 35,ACS.MC,ACS,ACS,Construction,False
+Spain,IBEX 35,ACX.MC,ACX,Acerinox,Steel,False
+Spain,IBEX 35,AMS.MC,AMS,Amadeus IT Group,Tourism,False
+Spain,IBEX 35,ANA.MC,ANA,Acciona,Construction,False
+Spain,IBEX 35,ANE.MC,ANE,Acciona Energía,Energy,False
+Spain,IBEX 35,BBVA.MC,BBVA,BBVA,Financial Services,True
+Spain,IBEX 35,BKT.MC,BKT,Bankinter,Financial Services,True
+Spain,IBEX 35,CABK.MC,CABK,CaixaBank,Financial Services,True
+Spain,IBEX 35,CLNX.MC,CLNX,Cellnex Telecom,Telecommunications,False
+Spain,IBEX 35,COL.MC,COL,Inmobiliaria Colonial,Real Estate,False
+Spain,IBEX 35,AENA.MC,AENA,AENA,Aviation,False
+Spain,IBEX 35,ELE.MC,ELE,Endesa,Energy,False
+Spain,IBEX 35,ENG.MC,ENG,Enagás,Energy,False
+Spain,IBEX 35,FDR.MC,FDR,Fluidra,Manufacturing,False
+Spain,IBEX 35,FER.MC,FER,Ferrovial,Infrastructure,False
+Spain,IBEX 35,GRF.MC,GRF,Grifols,Pharmaceuticals,False
+Spain,IBEX 35,IAG.MC,IAG,International Airlines Group,Aviation,False
+Spain,IBEX 35,IBE.MC,IBE,Iberdrola,Energy,False
+Spain,IBEX 35,IDR.MC,IDR,Indra,Information Technology,False
+Spain,IBEX 35,ITX.MC,ITX,Inditex,Textile,False
+Spain,IBEX 35,LOG.MC,LOG,Logista,Logistics,False
+Spain,IBEX 35,MAP.MC,MAP,Mapfre,Insurance,True
+Spain,IBEX 35,MRL.MC,MRL,Merlin Properties,Real Estate,False
+Spain,IBEX 35,MTS.MC,MTS,ArcelorMittal,Steel,False
+Spain,IBEX 35,NTGY.MC,NTGY,Naturgy,Energy,False
+Spain,IBEX 35,PUIG.MC,PUIG,Puig,Clothes and Cosmetics,False
+Spain,IBEX 35,RED.MC,RED,Redeia Corporación,Energy,False
+Spain,IBEX 35,REP.MC,REP,Repsol,Oil and Gas,False
+Spain,IBEX 35,ROVI.MC,ROVI,Laboratorios Rovi [es],Pharmaceuticals,False
+Spain,IBEX 35,SAB.MC,SAB,Banco Sabadell,Financial Services,True
+Spain,IBEX 35,SAN.MC,SAN,Santander,Financial Services,True
+Spain,IBEX 35,SCYR.MC,SCYR,Sacyr,Construction,False
+Spain,IBEX 35,SLR.MC,SLR,Solaria,Solar Energy,False
+Spain,IBEX 35,TEF.MC,TEF,Telefónica,Telecommunications,False
+Spain,IBEX 35,UNI.MC,UNI,Unicaja,Financial Services,True
+Italy,FTSE MIB,A2A.MI,A2A,A2A,Utilities,False
+Italy,FTSE MIB,AMP.MI,AMP,Amplifon,Health Care,False
+Italy,FTSE MIB,AVIO.MI,AVIO,Avio,Aerospace,False
+Italy,FTSE MIB,AZM.MI,AZM,Azimut,Financial Services,True
+Italy,FTSE MIB,BMED.MI,BMED,Banca Mediolanum,Financial Services,True
+Italy,FTSE MIB,BMPS.MI,BMPS,Banca Monte dei Paschi di Siena,Banks,True
+Italy,FTSE MIB,BAMI.MI,BAMI,Banco BPM,Banks,True
+Italy,FTSE MIB,BPE.MI,BPE,BPER Banca,Banks,True
+Italy,FTSE MIB,BC.MI,BC,Brunello Cucinelli,Consumer Products and Services,False
+Italy,FTSE MIB,BZU.MI,BZU,Buzzi,Construction and Materials,False
+Italy,FTSE MIB,CPR.MI,CPR,Campari,"Food, Beverage and Tobacco",False
+Italy,FTSE MIB,DIA.MI,DIA,Diasorin,Health Care,False
+Italy,FTSE MIB,ENEL.MI,ENEL,Enel,Utilities,False
+Italy,FTSE MIB,ENI.MI,ENI,Eni,Energy,False
+Italy,FTSE MIB,RACE.MI,RACE,Ferrari,Automobiles and Parts,False
+Italy,FTSE MIB,FCT.MI,FCT,Fincantieri,Shipbuilding,False
+Italy,FTSE MIB,FBK.MI,FBK,FinecoBank,Banks,True
+Italy,FTSE MIB,G.MI,G,Generali,Insurance,True
+Italy,FTSE MIB,HER.MI,HER,Hera,Utilities,False
+Italy,FTSE MIB,ISP.MI,ISP,Intesa Sanpaolo,Banks,True
+Italy,FTSE MIB,INW.MI,INW,INWIT,Telecommunications,False
+Italy,FTSE MIB,IG.MI,IG,Italgas,Utilities,False
+Italy,FTSE MIB,IVG.MI,IVG,Iveco,Industrial Goods and Services,False
+Italy,FTSE MIB,LDO.MI,LDO,Leonardo,Industrial Goods and Services,False
+Italy,FTSE MIB,LTMC.MI,LTMC,Lottomatica Group,Gambling,False
+Italy,FTSE MIB,MB.MI,MB,Mediobanca,Banks,True
+Italy,FTSE MIB,MONC.MI,MONC,Moncler,Consumer Products and Services,False
+Italy,FTSE MIB,NEXI.MI,NEXI,Nexi,Industrial Goods and Services,False
+Italy,FTSE MIB,PST.MI,PST,Poste italiane,Financial Services,True
+Italy,FTSE MIB,PRY.MI,PRY,Prysmian,Industrial Goods and Services,False
+Italy,FTSE MIB,REC.MI,REC,Recordati,Health Care,False
+Italy,FTSE MIB,SPM.MI,SPM,Saipem,Energy,False
+Italy,FTSE MIB,SRG.MI,SRG,Snam,Energy,False
+Italy,FTSE MIB,STLAM.MI,STLAM,Stellantis,Automobiles and Parts,False
+Italy,FTSE MIB,STMMI.MI,STMMI,STMicroelectronics,Technology,False
+Italy,FTSE MIB,TIT.MI,TIT,Telecom Italia,Telecommunications,False
+Italy,FTSE MIB,TEN.MI,TEN,Tenaris,Energy,False
+Italy,FTSE MIB,TRN.MI,TRN,Terna,Utilities,False
+Italy,FTSE MIB,UCG.MI,UCG,UniCredit,Banks,True
+Italy,FTSE MIB,UNI.MI,UNI,Unipol,Insurance,True
+Sweden,OMXS30,ABB.ST,ABB,ABB Ltd,Industrials,False
+Sweden,OMXS30,ADDT-B.ST,ADDT-B,Addtech B,Industrials,False
+Sweden,OMXS30,ALFA.ST,ALFA,Alfa Laval,Industrials,False
+Sweden,OMXS30,ASSA-B.ST,ASSA-B,Assa Abloy B,Industrials,False
+Sweden,OMXS30,AZN.ST,AZN,AstraZeneca,Health Care,False
+Sweden,OMXS30,ATCO-A.ST,ATCO-A,Atlas Copco A,Industrials,False
+Sweden,OMXS30,BOL.ST,BOL,Boliden,Materials,False
+Sweden,OMXS30,EPI-A.ST,EPI-A,Epiroc A,Industrials,False
+Sweden,OMXS30,EQT.ST,EQT,EQT,Financials,True
+Sweden,OMXS30,ERIC-B.ST,ERIC-B,Ericsson B,Information Technology,False
+Sweden,OMXS30,ESSITY-B.ST,ESSITY-B,Essity B,Consumer Staples,False
+Sweden,OMXS30,EVO.ST,EVO,Evolution,Consumer Discretionary,False
+Sweden,OMXS30,SHB-A.ST,SHB-A,Handelsbanken A,Financials,True
+Sweden,OMXS30,HM-B.ST,HM-B,Hennes & Mauritz B,Consumer Discretionary,False
+Sweden,OMXS30,HEXA-B.ST,HEXA-B,Hexagon B,Information Technology,False
+Sweden,OMXS30,INDU-C.ST,INDU-C,Industrivärden C,Financials,True
+Sweden,OMXS30,INVE-B.ST,INVE-B,Investor B,Financials,True
+Sweden,OMXS30,LIFCO-B.ST,LIFCO-B,Lifco B,Industrials,False
+Sweden,OMXS30,NIBE-B.ST,NIBE-B,Nibe Industrier B,Industrials,False
+Sweden,OMXS30,NDA-SE.ST,NDA-SE,Nordea Bank Abp,Financials,True
+Sweden,OMXS30,SAAB-B.ST,SAAB-B,Saab B,Industrials,False
+Sweden,OMXS30,SAND.ST,SAND,Sandvik,Industrials,False
+Sweden,OMXS30,SCA-B.ST,SCA-B,SCA B,Materials,False
+Sweden,OMXS30,SEB-A.ST,SEB-A,SEB A,Financials,True
+Sweden,OMXS30,SKA-B.ST,SKA-B,Skanska B,Industrials,False
+Sweden,OMXS30,SKF-B.ST,SKF-B,SKF B,Industrials,False
+Sweden,OMXS30,SWED-A.ST,SWED-A,Swedbank A,Financials,True
+Sweden,OMXS30,TEL2-B.ST,TEL2-B,Tele2 B,Communication Services,False
+Sweden,OMXS30,TELIA.ST,TELIA,Telia Company,Communication Services,False
+Sweden,OMXS30,VOLV-B.ST,VOLV-B,Volvo B,Industrials,False
+Canada,TSX 60,AEM.TO,AEM,Agnico Eagle Mines Limited,Basic Materials,False
+Canada,TSX 60,ATD.TO,ATD,Alimentation Couche-Tard Inc.,Consumer Cyclical,False
+Canada,TSX 60,BMO.TO,BMO,Bank of Montreal,Financial Services,True
+Canada,TSX 60,BNS.TO,BNS,Bank of Nova Scotia,Financial Services,True
+Canada,TSX 60,ABX.TO,ABX,Barrick Mining Corporation,Basic Materials,False
+Canada,TSX 60,BCE.TO,BCE,BCE Inc.,Communication Services,False
+Canada,TSX 60,BAM.TO,BAM,Brookfield Asset Management Ltd.,Financial Services,True
+Canada,TSX 60,BN.TO,BN,Brookfield Corporation,Financial Services,True
+Canada,TSX 60,BIP.TO,BIP,Brookfield Infrastructure Partners L.P.,Utilities,False
+Canada,TSX 60,CAE.TO,CAE,CAE Inc.,Industrials,False
+Canada,TSX 60,CCO.TO,CCO,Cameco Corporation,Energy,False
+Canada,TSX 60,CM.TO,CM,Canadian Imperial Bank of Commerce,Financial Services,True
+Canada,TSX 60,CNR.TO,CNR,Canadian National Railway Company,Industrials,False
+Canada,TSX 60,CNQ.TO,CNQ,Canadian Natural Resources Limited,Energy,False
+Canada,TSX 60,CP.TO,CP,Canadian Pacific Kansas City Limited,Industrials,False
+Canada,TSX 60,CTC.TO,CTC,Canadian Tire Corporation Limited,Consumer Cyclical,False
+Canada,TSX 60,CCL.TO,CCL,CCL Industries Inc.,Consumer Cyclical,False
+Canada,TSX 60,CLS.TO,CLS,Celestica Inc.,Information Technology,False
+Canada,TSX 60,CVE.TO,CVE,Cenovus Energy Inc.,Energy,False
+Canada,TSX 60,GIB.TO,GIB,CGI Inc.,Information Technology,False
+Canada,TSX 60,CSU.TO,CSU,Constellation Software Inc.,Information Technology,False
+Canada,TSX 60,DOL.TO,DOL,Dollarama Inc.,Consumer Staples,False
+Canada,TSX 60,EMA.TO,EMA,Emera Incorporated,Utilities,False
+Canada,TSX 60,ENB.TO,ENB,Enbridge Inc.,Energy,False
+Canada,TSX 60,FFH.TO,FFH,Fairfax Financial Holdings Limited,Financial Services,True
+Canada,TSX 60,FM.TO,FM,First Quantum Minerals Ltd.,Basic Materials,False
+Canada,TSX 60,FSV.TO,FSV,FirstService Corporation,Real Estate,False
+Canada,TSX 60,FTS.TO,FTS,Fortis Inc.,Utilities,False
+Canada,TSX 60,FNV.TO,FNV,Franco-Nevada Corporation,Basic Materials,False
+Canada,TSX 60,WN.TO,WN,George Weston Limited,Consumer Staples,False
+Canada,TSX 60,GIL.TO,GIL,Gildan Activewear Inc.,Consumer Cyclical,False
+Canada,TSX 60,H.TO,H,Hydro One Limited,Utilities,False
+Canada,TSX 60,IMO.TO,IMO,Imperial Oil Limited,Energy,False
+Canada,TSX 60,IFC.TO,IFC,Intact Financial Corporation,Financial Services,True
+Canada,TSX 60,K.TO,K,Kinross Gold Corporation,Basic Materials,False
+Canada,TSX 60,L.TO,L,Loblaw Companies Limited,Consumer Staples,False
+Canada,TSX 60,MG.TO,MG,Magna International Inc.,Consumer Cyclical,False
+Canada,TSX 60,MFC.TO,MFC,Manulife Financial Corporation,Financial Services,True
+Canada,TSX 60,MRU.TO,MRU,Metro Inc.,Consumer Staples,False
+Canada,TSX 60,NTR.TO,NTR,Nutrien Ltd.,Basic Materials,False
+Canada,TSX 60,OTEX.TO,OTEX,Open Text Corporation,Information Technology,False
+Canada,TSX 60,PPL.TO,PPL,Pembina Pipeline Corporation,Energy,False
+Canada,TSX 60,POW.TO,POW,Power Corporation of Canada,Financial Services,True
+Canada,TSX 60,QSR.TO,QSR,Restaurant Brands International Inc.,Consumer Cyclical,False
+Canada,TSX 60,RCI.TO,RCI,Rogers Communications Inc.,Communication Services,False
+Canada,TSX 60,RY.TO,RY,Royal Bank of Canada,Financial Services,True
+Canada,TSX 60,SAP.TO,SAP,Saputo Inc.,Consumer Staples,False
+Canada,TSX 60,SHOP.TO,SHOP,Shopify Inc.,Information Technology,False
+Canada,TSX 60,SLF.TO,SLF,Sun Life Financial Inc.,Financial Services,True
+Canada,TSX 60,SU.TO,SU,Suncor Energy Inc.,Energy,False
+Canada,TSX 60,TRP.TO,TRP,TC Energy Corporation,Energy,False
+Canada,TSX 60,TECK.TO,TECK,Teck Resources Limited,Basic Materials,False
+Canada,TSX 60,T.TO,T,Telus Corporation,Communication Services,False
+Canada,TSX 60,TRI.TO,TRI,Thomson Reuters Corporation,Industrials,False
+Canada,TSX 60,TD.TO,TD,Toronto-Dominion Bank,Financial Services,True
+Canada,TSX 60,TOU.TO,TOU,Tourmaline Oil Corp.,Energy,False
+Canada,TSX 60,WCN.TO,WCN,Waste Connections Inc.,Industrials,False
+Canada,TSX 60,WPM.TO,WPM,Wheaton Precious Metals Corp.,Basic Materials,False
+Canada,TSX 60,WSP.TO,WSP,WSP Global Inc.,Industrials,False

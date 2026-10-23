@@ -1,0 +1,22 @@
+market,stocks,median_tradable,first_date,financials,median_tradable_financials,short_note
+Japan,225,219,2000-01-04,20,18,shorting available for index constituents
+Hong Kong,85,71,2002-07-31,10,10,designated securities can be shorted; stamp duty 0.1-0.13% each side
+Hong Kong (H-shares),50,42,2004-03-22,10,9,as Hong Kong
+China,298,263,2003-01-06,49,31,A-shares effectively cannot be shorted (securities lending very limited)
+Korea,200,177,2000-01-04,22,19,short-selling bans Mar 2020-May 2021 (all) and Nov 2023-Mar 2025
+Taiwan,50,49,2000-01-04,11,11,0.3% sell tax; shorting via securities lending possible
+Singapore,30,29,2000-01-03,4,4,limited securities lending
+Australia,195,173,2000-01-03,36,25,shorting available for index constituents
+India,99,90,2001-07-02,24,17,no overnight short of cash equities; shorts via single-stock futures only
+Malaysia,30,28,2000-01-03,6,6,"regulated short selling, limited"
+Thailand,51,44,2000-01-04,12,8,"regulated short selling, limited"
+New Zealand,47,46,2000-01-05,11,9,shorting available for index constituents
+UK,100,96,2000-01-03,29,26,0.5% stamp duty on purchases
+Germany,40,38,2000-01-03,6,6,shorting available for index constituents
+France,40,37,2000-01-03,5,4,0.3% FTT on purchases of large caps from Aug 2012
+Switzerland,20,17,2000-01-03,5,5,0.075% stamp each side via Swiss brokers
+Netherlands,25,21,2000-01-03,6,2,shorting available for index constituents
+Spain,35,33,2000-01-03,7,6,0.2% FTT on purchases from 2021
+Italy,40,38,2000-01-03,12,10,0.1% FTT on purchases from 2013
+Sweden,30,30,2000-01-03,7,6,shorting available for index constituents
+Canada,54,53,2000-01-04,12,11,shorting available for index constituents

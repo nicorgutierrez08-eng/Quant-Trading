@@ -1,0 +1,9 @@
+feature,coef_per_sd_bp_per_month
+const,-22.7
+vix,-18.8
+vix_chg_21d,11.4
+term,-6.7
+term_chg_21d,2.8
+rate10y_chg_21d,2.8
+sector_rel_12m,3.5
+sector_rel_1m,-0.5
