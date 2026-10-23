@@ -489,3 +489,54 @@ Sleeves alone at double costs:
 Realised volatility (5.8%) sits below the 10% target because the 3x
 leverage cap binds. The international sleeves run at about 2% volatility at
 unit gross. Capacity (see above) limits this to a small account.
+
+### Breadth check (`breadth_check.py`)
+
+The original 21 are index large caps (20-60 names in most of Europe); the
+new exchanges are the 120 largest companies. Restricting each new exchange
+to its 30 largest:
+
+| book | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| new 20, all 120 | 1.39 | 2.10 | 2.19 | 2.13 |
+| new 20, largest 30 | 0.90 | 1.82 | 1.30 | 1.58 |
+| 14 borrowable, all 120 | 1.99 | 2.23 | 2.11 | 2.17 |
+| 14 borrowable, largest 30 | 1.63 | 1.82 | 1.02 | 1.46 |
+
+Breadth explains part of the gap: mid caps add momentum, as in the
+literature. Even large caps alone (1.46-1.58) beat the original 21 (1.13).
+The rest is diversification: the 20 new books correlate 0.02 on average,
+against 0.15 among the original 21.
+
+### Survivorship, calibrated by simulation (`survivorship_sim.py`, 32 markets)
+
+Setup:
+- Each synthetic market has 600 stocks and zero momentum by construction.
+- Market and idiosyncratic volatility follow the real VIX path, with
+  Student-t shocks.
+- Half the stocks list on random dates.
+- A stock dies after a 90% fall from its peak; the crash day is recorded.
+- The universe is the 120 largest stocks alive at the end, the screener's
+  construction. The books are the same, gross of costs.
+
+Mean 2015-26 Sharpe per simulated market:
+
+| book | today's 120 largest survivors | all stocks, point in time | paired bias (± s.e.) |
+|---|---|---|---|
+| plain | -0.30 | -0.08 | **-0.22 ± 0.06** |
+| flat in stress | -0.23 | -0.07 | **-0.16 ± 0.06** |
+| flip | -0.01 | -0.02 | +0.02 ± 0.05 |
+
+**Selecting on today's size biases momentum *down*, by about 0.15-0.2 of
+Sharpe per market.** Losers that later recovered make it into the
+universe and hurt the short leg, and losers that died are missing. The flip
+is unbiased because its stressed leg *buys* losers, which the same
+selection flatters. The point-in-time universe stays near zero, as it
+should.
+
+So the momentum results on the screener universes are, if anything,
+understated by this mechanism. The simulation does not cover other
+survivorship channels, such as index additions or data vendors dropping
+dead tickers entirely. Together with the point-in-time rebuild (NIFTY,
+DAX: no systematic effect), survivorship is not the explanation for the
+momentum results.

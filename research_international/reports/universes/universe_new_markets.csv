@@ -1,0 +1,1977 @@
+market,ticker,name,industry,market_cap,currency,financial,universe
+Indonesia,BBCA.JK,PT Bank Central Asia Tbk,,629563956658176.0,IDR,True,new_markets_top
+Indonesia,BBRI.JK,PT Bank Rakyat Indonesia (Persero) Tbk,,432463612477440.0,IDR,True,new_markets_top
+Indonesia,DCII.JK,PT DCI Indonesia Tbk,,431457986150400.0,IDR,False,new_markets_top
+Indonesia,BMRI.JK,PT Bank Mandiri (Persero) Tbk,,355158127017984.0,IDR,True,new_markets_top
+Indonesia,TLKM.JK,Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk,,215892252164096.0,IDR,False,new_markets_top
+Indonesia,ASII.JK,PT Astra International Tbk,,182833888886784.0,IDR,False,new_markets_top
+Indonesia,MORA.JK,PT Mora Telematika Indonesia Tbk,,150010960281600.0,IDR,False,new_markets_top
+Indonesia,DNET.JK,PT Indoritel Makmur Internasional Tbk.,,139003193982976.0,IDR,False,new_markets_top
+Indonesia,SRAJ.JK,PT Sejahteraraya Anugrahjaya Tbk,,130344917401600.0,IDR,False,new_markets_top
+Indonesia,SMMA.JK,PT Sinar Mas Multiartha Tbk,,128149249589248.0,IDR,True,new_markets_top
+Indonesia,BBNI.JK,PT Bank Negara Indonesia (Persero) Tbk,,125555408109568.0,IDR,True,new_markets_top
+Indonesia,MPRO.JK,PT Maha Properti Indonesia Tbk,,115333000069120.0,IDR,False,new_markets_top
+Indonesia,CASA.JK,PT Capital Financial Indonesia Tbk,,98329669140480.0,IDR,True,new_markets_top
+Indonesia,UNTR.JK,PT United Tractors Tbk,,86454067789824.0,IDR,False,new_markets_top
+Indonesia,PANI.JK,PT Pantai Indah Kapuk Dua Tbk,,80579492052992.0,IDR,False,new_markets_top
+Indonesia,HMSP.JK,PT Hanjaya Mandala Sampoerna Tbk,,76769931558912.0,IDR,False,new_markets_top
+Indonesia,ICBP.JK,PT Indofood CBP Sukses Makmur Tbk,,69971447119872.0,IDR,False,new_markets_top
+Indonesia,ANTM.JK,PT Antam (Persero) Tbk,,68487678525440.0,IDR,False,new_markets_top
+Indonesia,BNLI.JK,PT Bank Permata Tbk,,62412761858048.0,IDR,True,new_markets_top
+Indonesia,INDF.JK,PT Indofood Sukses Makmur Tbk,,58828854919168.0,IDR,False,new_markets_top
+Indonesia,ISAT.JK,PT Indosat Tbk,,58696474296320.0,IDR,False,new_markets_top
+Indonesia,UNVR.JK,PT Unilever Indonesia Tbk,,53553540366336.0,IDR,False,new_markets_top
+Indonesia,NCKL.JK,PT Trimegah Bangun Persada Tbk,,49445475450880.0,IDR,False,new_markets_top
+Indonesia,BDMN.JK,PT Bank Danamon Indonesia Tbk,,48281350569984.0,IDR,True,new_markets_top
+Indonesia,PGUN.JK,PT Pradiksi Gunatama Tbk,,47337254682624.0,IDR,False,new_markets_top
+Indonesia,BRIS.JK,PT Bank Syariah Indonesia Tbk,,47051844878336.0,IDR,True,new_markets_top
+Indonesia,IMPC.JK,PT Impack Pratama Industri Tbk,,46755911565312.0,IDR,False,new_markets_top
+Indonesia,MEGA.JK,PT Bank Mega Tbk,,45202551078912.0,IDR,True,new_markets_top
+Indonesia,CPIN.JK,PT Charoen Pokphand Indonesia Tbk,,44766540595200.0,IDR,False,new_markets_top
+Indonesia,AMRT.JK,PT Sumber Alfaria Trijaya Tbk,,43968263880704.0,IDR,False,new_markets_top
+Indonesia,BNGA.JK,PT Bank CIMB Niaga Tbk,,41735505838080.0,IDR,True,new_markets_top
+Indonesia,PTBA.JK,PT Bukit Asam (Persero) Tbk,,38918527385600.0,IDR,False,new_markets_top
+Indonesia,TAPG.JK,PT Triputra Agro Persada Tbk,,38216140849152.0,IDR,False,new_markets_top
+Indonesia,BELI.JK,PT Global Digital Niaga Tbk,,37323563597824.0,IDR,False,new_markets_top
+Indonesia,EXCL.JK,PT XLSMART Telecom Sejahtera Tbk,,34579740098560.0,IDR,False,new_markets_top
+Indonesia,CMRY.JK,PT Cisarua Mountain Dairy Tbk,,33325668368384.0,IDR,False,new_markets_top
+Indonesia,MTEL.JK,PT Dayamitra Telekomunikasi Tbk.,,32804326866944.0,IDR,False,new_markets_top
+Indonesia,GGRM.JK,PT Gudang Garam Tbk,,32709497847808.0,IDR,False,new_markets_top
+Indonesia,KLBF.JK,PT Kalbe Farma Tbk.,,32579178725376.0,IDR,False,new_markets_top
+Indonesia,MYOR.JK,PT Mayora Indah Tbk,,30396823633920.0,IDR,False,new_markets_top
+Indonesia,MLPT.JK,PT Multipolar Technology Tbk,,30234376142848.0,IDR,False,new_markets_top
+Indonesia,BSWD.JK,PT Bank of India Indonesia Tbk,,29787598880768.0,IDR,True,new_markets_top
+Indonesia,TINS.JK,PT TIMAH Tbk,,29046236774400.0,IDR,False,new_markets_top
+Indonesia,AKRA.JK,PT AKR Corporindo Tbk,,27620678828032.0,IDR,False,new_markets_top
+Indonesia,NISP.JK,PT Bank OCBC NISP Tbk,,27304902262784.0,IDR,True,new_markets_top
+Indonesia,GOTO.JK,PT GoTo Gojek Tokopedia Tbk,,26652310503424.0,IDR,False,new_markets_top
+Indonesia,TBIG.JK,PT Tower Bersama Infrastructure Tbk,,24918429270016.0,IDR,False,new_markets_top
+Indonesia,BTPN.JK,PT Bank SMBC Indonesia Tbk,,24911512862720.0,IDR,True,new_markets_top
+Indonesia,FAPA.JK,PT FAP Agri Tbk,,24743426129920.0,IDR,False,new_markets_top
+Indonesia,TOWR.JK,PT Sarana Menara Nusantara Tbk.,,24565287747584.0,IDR,False,new_markets_top
+Indonesia,SILO.JK,PT Siloam International Hospitals Tbk,,24027722678272.0,IDR,False,new_markets_top
+Indonesia,BINA.JK,PT Bank Ina Perdana Tbk,,23741352378368.0,IDR,True,new_markets_top
+Indonesia,JARR.JK,PT Jhonlin Agro Raya Tbk,,23445888827392.0,IDR,False,new_markets_top
+Indonesia,MGLV.JK,PT NexAI Digital Infrastruktur Tbk,,23430065815552.0,IDR,False,new_markets_top
+Indonesia,MAPI.JK,PT. Mitra Adiperkasa Tbk,,22990999781376.0,IDR,False,new_markets_top
+Indonesia,SRTG.JK,PT Saratoga Investama Sedaya Tbk,,22628221845504.0,IDR,True,new_markets_top
+Indonesia,ULTJ.JK,PT Ultrajaya Milk Industry & Trading Company Tbk,,21836167380992.0,IDR,False,new_markets_top
+Indonesia,EMTK.JK,PT Elang Mahkota Teknologi Tbk,,21291511840768.0,IDR,False,new_markets_top
+Indonesia,JPFA.JK,PT Japfa Comfeed Indonesia Tbk,,20951718690816.0,IDR,False,new_markets_top
+Indonesia,AVIA.JK,PT Avia Avian Tbk,,20102655246336.0,IDR,False,new_markets_top
+Indonesia,VKTR.JK,PT VKTR Teknologi Mobilitas Tbk,,19870689263616.0,IDR,False,new_markets_top
+Indonesia,SMAR.JK,PT Sinar Mas Agro Resources and Technology Tbk,,19818134634496.0,IDR,False,new_markets_top
+Indonesia,MIKA.JK,PT Mitra Keluarga Karyasehat Tbk,,19677910663168.0,IDR,False,new_markets_top
+Indonesia,INTP.JK,PT Indocement Tunggal Prakarsa Tbk,,19642894516224.0,IDR,False,new_markets_top
+Indonesia,JSMR.JK,PT Jasa Marga (Persero) Tbk,,19451095285760.0,IDR,False,new_markets_top
+Indonesia,MDIY.JK,PT Daya Intiguna Yasa Tbk,,19396600791040.0,IDR,False,new_markets_top
+Indonesia,ADES.JK,PT Akasha Wira International Tbk,,19156900511744.0,IDR,False,new_markets_top
+Indonesia,LIFE.JK,PT MSIG Life Insurance Indonesia Tbk,,19057499701248.0,IDR,True,new_markets_top
+Indonesia,MKPI.JK,PT Metropolitan Kentjana Tbk,,18940174532608.0,IDR,False,new_markets_top
+Indonesia,CBDK.JK,PT Bangun Kosambi Sukses Tbk,,18904281776128.0,IDR,False,new_markets_top
+Indonesia,FORU.JK,PT Fortune Indonesia Tbk,,18729622568960.0,IDR,False,new_markets_top
+Indonesia,AALI.JK,PT Astra Agro Lestari Tbk,,18573242138624.0,IDR,False,new_markets_top
+Indonesia,PNBN.JK,PT Bank Pan Indonesia Tbk,,18174263164928.0,IDR,True,new_markets_top
+Indonesia,MAPA.JK,PT Map Aktif Adiperkasa Tbk,,16674840379392.0,IDR,False,new_markets_top
+Indonesia,BSIM.JK,PT Bank Sinarmas Tbk,,16660156121088.0,IDR,True,new_markets_top
+Indonesia,SOHO.JK,PT Soho Global Health Tbk,,16308811857920.0,IDR,False,new_markets_top
+Indonesia,AUTO.JK,PT Astra Otoparts Tbk,,15808723943424.0,IDR,False,new_markets_top
+Indonesia,DSNG.JK,PT Dharma Satya Nusantara Tbk,,14733781499904.0,IDR,False,new_markets_top
+Indonesia,JRPT.JK,"PT Jaya Real Property, Tbk.",,14682142277632.0,IDR,False,new_markets_top
+Indonesia,BNBR.JK,PT Bakrie & Brothers Tbk,,14483516817408.0,IDR,False,new_markets_top
+Indonesia,MLBI.JK,PT Multi Bintang Indonesia Tbk,,13906200231936.0,IDR,False,new_markets_top
+Indonesia,PACK.JK,PT Abadi Nusantara Hijau Investama Tbk,,13785100189696.0,IDR,False,new_markets_top
+Indonesia,PWON.JK,PT Pakuwon Jati Tbk,,13581007454208.0,IDR,False,new_markets_top
+Indonesia,BNII.JK,PT Bank Maybank Indonesia Tbk,,13566305370112.0,IDR,True,new_markets_top
+Indonesia,BBTN.JK,PT Bank Tabungan Negara (Persero) Tbk,,13543238795264.0,IDR,True,new_markets_top
+Indonesia,NSSS.JK,PT Nusantara Sawit Sejahtera Tbk,,13447886536704.0,IDR,False,new_markets_top
+Indonesia,CMNT.JK,PT Cemindo Gemilang Tbk,,13015383539712.0,IDR,False,new_markets_top
+Indonesia,BBHI.JK,PT Allo Bank Indonesia Tbk,,12749249708032.0,IDR,True,new_markets_top
+Indonesia,BBSI.JK,PT Krom Bank Indonesia Tbk,,12530806161408.0,IDR,True,new_markets_top
+Indonesia,SGER.JK,PT Sumber Global Energy Tbk,,12469527379968.0,IDR,False,new_markets_top
+Indonesia,SINI.JK,PT Singaraja Putra Tbk,,12355687677952.0,IDR,False,new_markets_top
+Indonesia,CITA.JK,PT Cita Mineral Investindo Tbk,,12277119975424.0,IDR,False,new_markets_top
+Indonesia,SUPA.JK,PT Super Bank Indonesia Tbk,,11931750498304.0,IDR,True,new_markets_top
+Indonesia,BFIN.JK,PT BFI Finance Indonesia Tbk,,11873253588992.0,IDR,True,new_markets_top
+Indonesia,STAA.JK,PT Sumber Tani Agung Resources Tbk,,11767928324096.0,IDR,False,new_markets_top
+Indonesia,CARE.JK,PT Metro Healthcare Indonesia Tbk,,11504499818496.0,IDR,False,new_markets_top
+Indonesia,TSPC.JK,PT Tempo Scan Pacific Tbk,,11364858855424.0,IDR,False,new_markets_top
+Indonesia,STTP.JK,PT Siantar Top Tbk,,11298750332928.0,IDR,False,new_markets_top
+Indonesia,GOOD.JK,PT Garudafood Putra Putri Jaya Tbk,,10915770531840.0,IDR,False,new_markets_top
+Indonesia,CTRA.JK,PT Ciputra Development Tbk,,10843381039104.0,IDR,False,new_markets_top
+Indonesia,BSDE.JK,PT Bumi Serpong Damai Tbk,,10561264812032.0,IDR,False,new_markets_top
+Indonesia,AGII.JK,PT Samator Indo Gas Tbk,,10518644391936.0,IDR,False,new_markets_top
+Indonesia,DMAS.JK,PT Puradelta Lestari Tbk,,10410792058880.0,IDR,False,new_markets_top
+Indonesia,PRAY.JK,PT Famon Awal Bros Sedaya Tbk,,10329972015104.0,IDR,False,new_markets_top
+Indonesia,BUVA.JK,PT Bukit Uluwatu Villa Tbk,,10239185256448.0,IDR,False,new_markets_top
+Indonesia,DEWA.JK,PT Darma Henwa Tbk,,10230743171072.0,IDR,False,new_markets_top
+Indonesia,LSIP.JK,PT Perusahaan Perkebunan London Sumatra Indonesia Tbk,,10229946253312.0,IDR,False,new_markets_top
+Indonesia,SIDO.JK,PT Industri Jamu dan Farmasi Sido Muncul Tbk,,10184578564096.0,IDR,False,new_markets_top
+Indonesia,BUKA.JK,PT Bukalapak.com Tbk.,,10101702262784.0,IDR,False,new_markets_top
+Indonesia,SCMA.JK,PT Surya Citra Media Tbk,,9979658502144.0,IDR,False,new_markets_top
+Indonesia,ALII.JK,PT Ancara Logistics Indonesia Tbk,,9811996442624.0,IDR,False,new_markets_top
+Indonesia,SMSM.JK,PT Selamat Sempurna Tbk,,9616987521024.0,IDR,False,new_markets_top
+Indonesia,ADMF.JK,PT Adira Dinamika Multi Finance Tbk,,9532048670720.0,IDR,True,new_markets_top
+Indonesia,RLCO.JK,PT Abadi Lestari Indonesia Tbk,,9468749283328.0,IDR,False,new_markets_top
+Indonesia,SMGR.JK,PT Semen Indonesia (Persero) Tbk,,9362406899712.0,IDR,False,new_markets_top
+Indonesia,ERAA.JK,PT Erajaya Swasembada Tbk,,9101759217664.0,IDR,False,new_markets_top
+Indonesia,MIDI.JK,PT Midi Utama Indonesia Tbk,,9094400311296.0,IDR,False,new_markets_top
+Indonesia,PKPK.JK,PT Paragon Karya Perkasa Tbk,,8850000314368.0,IDR,False,new_markets_top
+Indonesia,DUTI.JK,PT Duta Pertiwi Tbk,,8824499994624.0,IDR,False,new_markets_top
+Indonesia,CMNP.JK,PT Citra Marga Nusaphala Persada Tbk,,8805706366976.0,IDR,False,new_markets_top
+Brazil,PETR3.SA,Petróleo Brasileiro S.A. - Petrobras,,834287697920.0,BRL,False,new_markets_top
+Brazil,ITUB3.SA,Itaú Unibanco Holding S.A.,,582293651456.0,BRL,True,new_markets_top
+Brazil,BPAC3.SA,Banco BTG Pactual S.A.,,331406934016.0,BRL,True,new_markets_top
+Brazil,VALE3.SA,Vale S.A.,,261686853632.0,BRL,False,new_markets_top
+Brazil,ABEV3.SA,Ambev S.A.,,260538630144.0,BRL,False,new_markets_top
+Brazil,BBDC4.SA,Banco Bradesco S.A.,,225969897472.0,BRL,True,new_markets_top
+Brazil,WEGE3.SA,WEG S.A.,,184616517632.0,BRL,False,new_markets_top
+Brazil,ITSA3.SA,Itaúsa S.A.,,173552336896.0,BRL,False,new_markets_top
+Brazil,SANB11.SA,Banco Santander (Brasil) S.A.,,149114060800.0,BRL,True,new_markets_top
+Brazil,AXIA3.SA,AXIA Energia SA,,137501196288.0,BRL,False,new_markets_top
+Brazil,BBAS3.SA,Banco do Brasil S.A.,,136557436928.0,BRL,True,new_markets_top
+Brazil,KLBN11.SA,Klabin S.A.,,129046069248.0,BRL,False,new_markets_top
+Brazil,B3SA3.SA,"B3 S.A. - Brasil, Bolsa, Balcão",,115694985216.0,BRL,True,new_markets_top
+Brazil,SBSP3.SA,Companhia de Saneamento Básico do Estado de São Paulo - SABESP,,111827656704.0,BRL,False,new_markets_top
+Brazil,VIVT3.SA,Telefônica Brasil S.A.,,106030219264.0,BRL,False,new_markets_top
+Brazil,RDOR3.SA,Rede D'Or São Luiz S.A.,,95660843008.0,BRL,False,new_markets_top
+Brazil,BBSE3.SA,BB Seguridade Participações S.A.,,84114300928.0,BRL,True,new_markets_top
+Brazil,XPBR31.SA,XP Inc.,,74269351936.0,BRL,True,new_markets_top
+Brazil,TSNC11.SA,Transinc Fundo,,64011345920.0,BRL,True,new_markets_top
+Brazil,CXSE3.SA,Caixa Seguridade Participações S.A.,,63899996160.0,BRL,True,new_markets_top
+Brazil,EMBJ3.SA,Embraer S.A.,,62320996352.0,BRL,False,new_markets_top
+Brazil,ENEV3.SA,Eneva S.A.,,61451739136.0,BRL,False,new_markets_top
+Brazil,EQTL3.SA,Equatorial S.A.,,60515909632.0,BRL,False,new_markets_top
+Brazil,PRIO3.SA,Prio S.A.,,57524121600.0,BRL,False,new_markets_top
+Brazil,CPFE3.SA,CPFL Energia S.A.,,57025077248.0,BRL,False,new_markets_top
+Brazil,RENT3.SA,Localiza Rent a Car S.A.,,57008082944.0,BRL,False,new_markets_top
+Brazil,SUZB3.SA,Suzano S.A.,,52932476928.0,BRL,False,new_markets_top
+Brazil,CPLE3.SA,Companhia Paranaense de Energia - COPEL,,51908788224.0,BRL,False,new_markets_top
+Brazil,CMIG3.SA,Companhia Energética de Minas Gerais - CEMIG,,50204966912.0,BRL,False,new_markets_top
+Brazil,GGBR4.SA,Gerdau S.A.,,49985073152.0,BRL,False,new_markets_top
+Brazil,SAUD3.SA,Bradsaúde S.A.,,46980120576.0,BRL,False,new_markets_top
+Brazil,TAEE11.SA,Transmissora Aliança de Energia Elétrica S.A.,,46404153344.0,BRL,False,new_markets_top
+Brazil,TIMS3.SA,TIM S.A.,,46347124736.0,BRL,False,new_markets_top
+Brazil,VBBR3.SA,Vibra Energia S.A.,,44259880960.0,BRL,False,new_markets_top
+Brazil,EGIE3.SA,Engie Brasil Energia S.A.,,44035301376.0,BRL,False,new_markets_top
+Brazil,UGPA3.SA,Ultrapar Participações S.A.,,41687056384.0,BRL,False,new_markets_top
+Brazil,MOTV3.SA,Motiva Infraestrutura de Mobilidade S.A.,,40259084288.0,BRL,False,new_markets_top
+Brazil,RADL3.SA,Raia Drogasil S.A.,,35530256384.0,BRL,False,new_markets_top
+Brazil,RAIL3.SA,Rumo S.A.,,34440564736.0,BRL,False,new_markets_top
+Brazil,ENGI3.SA,Energisa S.A.,,33956972544.0,BRL,False,new_markets_top
+Brazil,PSSA3.SA,Porto Seguro S.A.,,33139304448.0,BRL,True,new_markets_top
+Brazil,CMIN3.SA,CSN Mineração S.A.,,26535170048.0,BRL,False,new_markets_top
+Brazil,MBRF3.SA,MBRF Global Foods Company S.A.,,25452433408.0,BRL,False,new_markets_top
+Brazil,TOTS3.SA,TOTVS S.A.,,24624855040.0,BRL,False,new_markets_top
+Brazil,RCFF11.SA,Rbr Desenvolvimento Comercial Feeder Fof Fundo De Investimento Imobiliario,,24239851520.0,BRL,False,new_markets_top
+Brazil,CSMG3.SA,Companhia de Saneamento de Minas Gerais,,23873263616.0,BRL,False,new_markets_top
+Brazil,ISAE3.SA,ISA Energía Brasil S.A.,,23517919232.0,BRL,False,new_markets_top
+Brazil,ZIFI11.SA,Zion Capital Fundo De Investimento Imobiliario-Fii,,20032233472.0,BRL,False,new_markets_top
+Brazil,CSAN3.SA,Cosan S.A.,,19803211776.0,BRL,False,new_markets_top
+Brazil,HYPE3.SA,Hypera S.A.,,18641813504.0,BRL,False,new_markets_top
+Brazil,PASS3.SA,Compass Gas e Energia S.A.,,18472523776.0,BRL,False,new_markets_top
+Brazil,ALUP11.SA,Alupar Investimento S.A.,,18341296128.0,BRL,False,new_markets_top
+Brazil,ASAI3.SA,Sendas Distribuidora S.A.,,17968525312.0,BRL,False,new_markets_top
+Brazil,MULT3.SA,Multiplan Empreendimentos Imobiliários S.A.,,17968381952.0,BRL,False,new_markets_top
+Brazil,EQPA7.SA,Equatorial Pará Distribuidora de Energia S.A.,,17694683136.0,BRL,False,new_markets_top
+Brazil,ALOS3.SA,Allos S.A.,,17429856256.0,BRL,False,new_markets_top
+Brazil,CGAS5.SA,Companhia de Gás de São Paulo - COMGÁS,,16602178560.0,BRL,False,new_markets_top
+Brazil,IGTI4.SA,Iguatemi S.A.,,16472932352.0,BRL,False,new_markets_top
+Brazil,PAGS34.SA,PagSeguro Digital Ltd.,,15988505600.0,BRL,False,new_markets_top
+Brazil,AURE3.SA,Auren Energia S.A.,,15491938304.0,BRL,False,new_markets_top
+Brazil,GOAU4.SA,Metalurgica Gerdau S.A.,,15250362368.0,BRL,False,new_markets_top
+Brazil,FLRY3.SA,Fleury S.A.,,15123682304.0,BRL,False,new_markets_top
+Brazil,SMFT3.SA,Smartfit Escola de Ginástica e Dança S.A.,,15063262208.0,BRL,False,new_markets_top
+Brazil,INBR32.SA,"Inter & Co, Inc.",,14569945088.0,BRL,True,new_markets_top
+Brazil,REDE3.SA,Rede Energia Participações S.A.,,14407626752.0,BRL,False,new_markets_top
+Brazil,CEGR3.SA,Companhia Distribuidora de Gás do Rio de Janeiro - CEG,,14103608320.0,BRL,False,new_markets_top
+Brazil,SAPR3.SA,Companhia de Saneamento do Paraná - SANEPAR,,13721745408.0,BRL,False,new_markets_top
+Brazil,MRSA3B.SA,MRS Logística S.A.,,13650891776.0,BRL,False,new_markets_top
+Brazil,LREN3.SA,Lojas Renner S.A.,,13618685952.0,BRL,False,new_markets_top
+Brazil,STOC34.SA,StoneCo Ltd.,,12881072128.0,BRL,False,new_markets_top
+Brazil,CYRE3.SA,Cyrela Brazil Realty S.A. Empreendimentos e Participações,,12377937920.0,BRL,False,new_markets_top
+Brazil,GGPS3.SA,GPS Participações e Empreendimentos S.A.,,12105319424.0,BRL,False,new_markets_top
+Brazil,GMAT3.SA,Grupo Mateus S.A.,,11961233408.0,BRL,False,new_markets_top
+Brazil,CEEB3.SA,Companhia de Eletricidade do Estado da Bahia - COELBA,,11849363456.0,BRL,False,new_markets_top
+Brazil,ALPA4.SA,Alpargatas S.A.,,11392390144.0,BRL,False,new_markets_top
+Brazil,ORVR3.SA,Orizon Valorização de Resíduos S.A.,,10991420416.0,BRL,False,new_markets_top
+Brazil,NATU3.SA,Natura Cosméticos S.A.,,10382395392.0,BRL,False,new_markets_top
+Brazil,BMEB4.SA,Banco Mercantil do Brasil S.A.,,10071519232.0,BRL,True,new_markets_top
+Brazil,EKTR3.SA,Elektro Redes S.A.,,9982477312.0,BRL,False,new_markets_top
+Brazil,MGLU3.SA,Magazine Luiza S.A.,,9913279488.0,BRL,False,new_markets_top
+Brazil,CURY3.SA,Cury Construtora e Incorporadora S.A.,,9851361280.0,BRL,False,new_markets_top
+Brazil,BRAV3.SA,Brava Energia S.A.,,9801860096.0,BRL,False,new_markets_top
+Brazil,SIMH3.SA,SIMPAR S.A.,,9439387648.0,BRL,False,new_markets_top
+Brazil,JHSF3.SA,JHSF Participações S.A.,,8956243968.0,BRL,False,new_markets_top
+Brazil,ECOR3.SA,EcoRodovias Infraestrutura e Logística S.A.,,8848302080.0,BRL,False,new_markets_top
+Brazil,BRSR3.SA,Banco do Estado do Rio Grande do Sul S.A.,,8621181952.0,BRL,True,new_markets_top
+Brazil,ENMT4.SA,Energisa Mato Grosso - Distribuidora de Energia S/A,,8536546304.0,BRL,False,new_markets_top
+Brazil,SLCE3.SA,SLC Agrícola S.A.,,8461882880.0,BRL,False,new_markets_top
+Brazil,USIM6.SA,Usinas Siderúrgicas de Minas Gerais S.A.,,8124221952.0,BRL,False,new_markets_top
+Brazil,FRAS3.SA,Frasle Mobility S.A.,,8117598720.0,BRL,False,new_markets_top
+Mexico,AMXB.MX,"América Móvil, S.A.B. de C.V.",,1396222853120.0,MXN,False,new_markets_top
+Mexico,FEMSAUBD.MX,"Fomento Económico Mexicano, S.A.B. de C.V.",,993695563776.0,MXN,False,new_markets_top
+Mexico,WALMEX.MX,"Wal-Mart de México, S.A.B. de C.V.",,866866429952.0,MXN,False,new_markets_top
+Mexico,KOFUBL.MX,"Coca-Cola FEMSA, S.A.B. de C.V.",,476741500928.0,MXN,False,new_markets_top
+Mexico,AC.MX,"Arca Continental, S.A.B. de C.V.",,376726913024.0,MXN,False,new_markets_top
+Mexico,GCARSOA1.MX,"Grupo Carso, S.A.B. de C.V.",,370266701824.0,MXN,False,new_markets_top
+Mexico,GFINBURO.MX,"Grupo Financiero Inbursa, S.A.B. de C.V.",,273635164160.0,MXN,True,new_markets_top
+Mexico,BIMBOA.MX,"Grupo Bimbo, S.A.B. de C.V.",,257519271936.0,MXN,False,new_markets_top
+Mexico,GAPB.MX,"Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",,244903526400.0,MXN,False,new_markets_top
+Mexico,LIVEPOL1.MX,"El Puerto de Liverpool, S.A.B. de C.V.",,147252330496.0,MXN,False,new_markets_top
+Mexico,ASURB.MX,"Grupo Aeroportuario del Sureste, S. A. B. de C. V.",,140568002560.0,MXN,False,new_markets_top
+Mexico,TBBBN.MX,BBB Foods Inc.,,128463257600.0,MXN,False,new_markets_top
+Mexico,FUNO11.MX,Fibra UNO,,124109176832.0,MXN,False,new_markets_top
+Mexico,PINFRA.MX,"Promotora y Operadora de Infraestructura, S. A. B. de C. V.",,114263924736.0,MXN,False,new_markets_top
+Mexico,KIMBERA.MX,"Kimberly-Clark de México, S. A. B. de C. V.",,113175805952.0,MXN,False,new_markets_top
+Mexico,MFRISCOA-1.MX,"Minera Frisco, S.A.B. de C.V.",,113055891456.0,MXN,False,new_markets_top
+Mexico,FPLUS16.MX,Fibra Plus,,110155939840.0,MXN,True,new_markets_top
+Mexico,SIGMAFA.MX,"Sigma Foods, S.A.B. de C.V.",,106534559744.0,MXN,False,new_markets_top
+Mexico,OMAB.MX,"Grupo Aeroportuario del Centro Norte, S.A.B. de C.V.",,88973434880.0,MXN,False,new_markets_top
+Mexico,CHDRAUIB.MX,"Grupo Comercial Chedraui, S.A.B. de C.V.",,87358062592.0,MXN,False,new_markets_top
+Mexico,SIMECB.MX,"Grupo Simec, S.A.B. de C.V.",,76630990848.0,MXN,False,new_markets_top
+Mexico,Q.MX,"Quálitas Controladora, S.A.B. de C.V.",,75276468224.0,MXN,True,new_markets_top
+Mexico,CMOCTEZ.MX,"Corporación Moctezuma, S.A.B. de C.V.",,71705911296.0,MXN,False,new_markets_top
+Mexico,FHIPO14.MX,Fideicomiso Irrevocable F/2061 FHipo,,69862203392.0,MXN,True,new_markets_top
+Mexico,ICHB.MX,"Industrias CH, S. A. B. de C. V.",,69779898368.0,MXN,False,new_markets_top
+Mexico,BBAJIOO.MX,"Banco del Bajío, S.A., Institución de Banca Múltiple",,69206425600.0,MXN,True,new_markets_top
+Mexico,AXTELCPO.MX,"Axtel, S.A.B. de C.V.",,68836827136.0,MXN,False,new_markets_top
+Mexico,EDUCA18.MX,"Fideicomiso Irrevocable No. F/3277 en Banco Invex, S. A. Institución de Banca Múltiple, INVEX Grupo",,62615904256.0,MXN,False,new_markets_top
+Mexico,CUERVO.MX,"Becle, S.A.B. de C.V.",,58572083200.0,MXN,False,new_markets_top
+Mexico,SORIANAB.MX,"Organización Soriana, S. A. B. de C. V.",,58035171328.0,MXN,False,new_markets_top
+Mexico,SITES1A-1.MX,"Operadora de Sites Mexicanos, S.A.B. de C.V.",,46200754176.0,MXN,False,new_markets_top
+Mexico,DANHOS13.MX,Fibra Danhos,,45666222080.0,MXN,False,new_markets_top
+Mexico,RA.MX,Regional S.A.B. de C.V.,,41423851520.0,MXN,True,new_markets_top
+Mexico,ALSEA.MX,"Alsea, S.A.B. de C.V.",,40430641152.0,MXN,False,new_markets_top
+Mexico,FRAGUAB.MX,"Corporativo Fragua, S.A.B. de C.V.",,40350679040.0,MXN,False,new_markets_top
+Mexico,FMTY14.MX,"Fibra Mty, S.A.P.I. de C.V.",,36483911680.0,MXN,False,new_markets_top
+Mexico,FIBRAMQ12.MX,FIBRA Macquarie México,,35998613504.0,MXN,False,new_markets_top
+Mexico,BAFARB.MX,"Grupo Bafar, S.A.B. de C.V.",,35367358464.0,MXN,False,new_markets_top
+Mexico,FVIA16.MX,"Infraestructura Viable, S.A. de C.V.",,34405662720.0,MXN,True,new_markets_top
+Mexico,GPROFUT.MX,"Grupo Profuturo, S.A.B. de C.V.",,34208155648.0,MXN,True,new_markets_top
+Mexico,ALPEKA.MX,"ALPEK, S.A.B. de C.V.",,33645580288.0,MXN,False,new_markets_top
+Mexico,LASITE.MX,"Sitios Latinoamérica, S.A.B. de C.V.",,32735277056.0,MXN,False,new_markets_top
+Mexico,GIGANTE.MX,"Grupo Gigante, S. A. B. de C. V.",,31944509440.0,MXN,False,new_markets_top
+Mexico,LAMOSA.MX,"Grupo Lamosa, S.A.B. de C.V.",,30974187520.0,MXN,False,new_markets_top
+Mexico,GBMO.MX,"Corporativo GBM, S.A.B. de C.V.",,26991671296.0,MXN,True,new_markets_top
+Mexico,TLEVISACPO.MX,"Grupo Televisa, S.A.B.",,23322406912.0,MXN,False,new_markets_top
+Mexico,KUOA.MX,"Kuo, S.A.B. de C.V.",,22194071552.0,MXN,False,new_markets_top
+Mexico,BOLSAA.MX,"Bolsa Mexicana de Valores, S.A.B. de C.V.",,19553888256.0,MXN,True,new_markets_top
+Mexico,CIEB.MX,"Corporación Interamericana de Entretenimiento, S.A.B. de C.V.",,17676085248.0,MXN,False,new_markets_top
+Mexico,HERDEZ.MX,"Grupo Herdez, S.A.B. de C.V.",,17672763392.0,MXN,False,new_markets_top
+Mexico,INVEXA.MX,"INVEX Controladora, S.A.B. de C.V.",,17052515328.0,MXN,True,new_markets_top
+Mexico,LABB.MX,"Genomma Lab Internacional, S.A.B. de C.V.",,14353409024.0,MXN,False,new_markets_top
+Mexico,DINEA.MX,"DINE, S.A.B. de C.V.",,14303354880.0,MXN,False,new_markets_top
+Mexico,CYDSASAA.MX,"Cydsa, S.A.B. de C.V.",,14284674048.0,MXN,False,new_markets_top
+Mexico,FNOVA17.MX,Fibra Nova,,14090546176.0,MXN,False,new_markets_top
+Mexico,ACTINVRB.MX,"Corporación Actinver, S. A. B. de C. V.",,11263090688.0,MXN,True,new_markets_top
+Mexico,VINTE.MX,"Vinte Viviendas Integrales, S.A.B. de C.V.",,9413452800.0,MXN,False,new_markets_top
+Mexico,TRAXIONA.MX,"Grupo Traxión, S.A.B. de C.V.",,7133228544.0,MXN,False,new_markets_top
+Mexico,CULTIBAB.MX,"Organización Cultiba, S.A.B. de C.V.",,6795580416.0,MXN,False,new_markets_top
+Mexico,AGUA.MX,Grupo Rotoplas S.A.B. de C.V.,,6648380928.0,MXN,False,new_markets_top
+Mexico,FIHO12.MX,FibraHotel,,6005768704.0,MXN,False,new_markets_top
+Mexico,CTAXTELA.MX,Controladora Axtel S.A.B. de C.V.,,5541646336.0,MXN,False,new_markets_top
+Mexico,MEDICAB.MX,"Médica Sur, S.A.B. de C.V.",,4794684416.0,MXN,False,new_markets_top
+Mexico,PV.MX,"Peña Verde, S.A.B.",,3980263168.0,MXN,True,new_markets_top
+Mexico,GICSAB.MX,Grupo Gicsa S.A.B. de C.V.,,3780310272.0,MXN,False,new_markets_top
+Mexico,HOTEL.MX,"Grupo Hotelero Santa Fe, S.A.B. de C.V.",,3635182080.0,MXN,False,new_markets_top
+Mexico,FINN13.MX,Fideicomiso Irrevocable db/1616,,3452474624.0,MXN,False,new_markets_top
+Mexico,HCITY.MX,"Promotora de Hoteles Norte 19, S.A.B. de C.V.",,2473963520.0,MXN,False,new_markets_top
+Mexico,FINDEP.MX,Financiera Independencia S.A.B. de C.V. SOFOM E.N.R.,,2173499904.0,MXN,True,new_markets_top
+Mexico,CADUA.MX,"Corpovael, S.A.B. de C.V.",,2168447488.0,MXN,False,new_markets_top
+Mexico,FIBRAHD15.MX,Fideicomiso Irrevocable No. F/1523,,1964651136.0,MXN,False,new_markets_top
+Mexico,SPORTS.MX,"Grupo Sports World, S.A.B. de C.V.",,1918904064.0,MXN,False,new_markets_top
+Mexico,TMMA.MX,"Grupo TMM, S.A.B.",,1841535488.0,MXN,False,new_markets_top
+Mexico,NUTRISAA.MX,"Grupo Nutrisa, S.A.B. de C.V.",,1009874752.0,MXN,False,new_markets_top
+Mexico,GMD.MX,"Grupo Mexicano de Desarrollo, S.A.B.",,999984896.0,MXN,False,new_markets_top
+Mexico,ALTERNAB.MX,"Alterna Asesoría Internacional, S.A.B. de C.V.",,831851520.0,MXN,True,new_markets_top
+Mexico,CMRB.MX,"CMR, S.A.B. de C.V.",,702133440.0,MXN,False,new_markets_top
+Mexico,VASCONI.MX,"Grupo Vasconia, S.A.B.",,377081568.0,MXN,False,new_markets_top
+Mexico,TEAKCPO.MX,"Proteak Uno, S.A.B. de C.V.",,154046496.0,MXN,False,new_markets_top
+Mexico,FEXI21.MX,México Infrastructure Partners F1 S.A.P.I. de C.V.,,43164792.0,MXN,True,new_markets_top
+Mexico,NAFTRACISHRS.MX,iShares NAFTRAC,,,MXN,False,new_markets_top
+Mexico,LACOMERUBC.MX,"La Comer, S.A.B. de C.V.",,,MXN,False,new_markets_top
+Mexico,QVGMEX18.MX,QVGMEX es un ETF,,,MXN,False,new_markets_top
+Mexico,FIBRAUP18.MX,Fibra Upsite,,,MXN,False,new_markets_top
+South Africa,CPI.JO,Capitec Limited,,521994862592.0,ZAc,True,new_markets_top
+South Africa,FSR.JO,FirstRand Limited,,505147326464.0,ZAc,True,new_markets_top
+South Africa,SBK.JO,Standard Bank Group Limited,,474489651200.0,ZAc,True,new_markets_top
+South Africa,MTN.JO,MTN Group Limited,,353779089408.0,ZAc,False,new_markets_top
+South Africa,VOD.JO,Vodacom Group Limited,,312887607296.0,ZAc,False,new_markets_top
+South Africa,VAL.JO,Valterra Platinum Limited,,307565232128.0,ZAc,False,new_markets_top
+South Africa,SHP.JO,Shoprite Holdings Ltd,,184623874048.0,ZAc,False,new_markets_top
+South Africa,SOL.JO,Sasol Limited,,182747021312.0,ZAc,False,new_markets_top
+South Africa,ABG.JO,Absa Group Limited,,182354870272.0,ZAc,True,new_markets_top
+South Africa,DSY.JO,Discovery Limited,,181699723264.0,ZAc,True,new_markets_top
+South Africa,SLM.JO,Sanlam Limited,,179196395520.0,ZAc,True,new_markets_top
+South Africa,HAR.JO,Harmony Gold Mining Company Limited,,168985542656.0,ZAc,False,new_markets_top
+South Africa,IMP.JO,Impala Platinum Holdings Limited,,155907391488.0,ZAc,False,new_markets_top
+South Africa,BID.JO,Bid Corporation Limited,,155122794496.0,ZAc,False,new_markets_top
+South Africa,OUT.JO,OUTsurance Group Limited,,133448622080.0,ZAc,True,new_markets_top
+South Africa,NED.JO,Nedbank Group Limited,,132251123712.0,ZAc,True,new_markets_top
+South Africa,REM.JO,Remgro Limited,,111857328128.0,ZAc,True,new_markets_top
+South Africa,SSW.JO,Sibanye Stillwater Limited,,108778700800.0,ZAc,False,new_markets_top
+South Africa,NPH.JO,Northam Platinum Holdings Limited,,92328419328.0,ZAc,False,new_markets_top
+South Africa,BVT.JO,The Bidvest Group Limited,,82014912512.0,ZAc,False,new_markets_top
+South Africa,KIO.JO,Kumba Iron Ore Limited,,69884141568.0,ZAc,False,new_markets_top
+South Africa,APN.JO,Aspen Pharmacare Holdings Limited,,68695973888.0,ZAc,False,new_markets_top
+South Africa,PPH.JO,Pepkor Holdings Limited,,67448283136.0,ZAc,False,new_markets_top
+South Africa,OMU.JO,Old Mutual Limited,,56681725952.0,ZAc,True,new_markets_top
+South Africa,CLS.JO,Clicks Group Limited,,53939834880.0,ZAc,False,new_markets_top
+South Africa,GRT.JO,Growthpoint Properties Limited,,53233111040.0,ZAc,False,new_markets_top
+South Africa,SNT.JO,Santam Ltd,,52966461440.0,ZAc,True,new_markets_top
+South Africa,MTM.JO,Momentum Group Limited,,49620709376.0,ZAc,True,new_markets_top
+South Africa,MRP.JO,Mr Price Group Limited,,43962089472.0,ZAc,False,new_markets_top
+South Africa,EXX.JO,Exxaro Resources Limited,,43578773504.0,ZAc,False,new_markets_top
+South Africa,RDF.JO,Redefine Properties Limited,,43542568960.0,ZAc,False,new_markets_top
+South Africa,FTA.JO,Fairvest Limited,,41540390912.0,ZAc,False,new_markets_top
+South Africa,BOX.JO,Boxer Retail Limited,,38613630976.0,ZAc,False,new_markets_top
+South Africa,TBS.JO,Tiger Brands Limited,,38521049088.0,ZAc,False,new_markets_top
+South Africa,VKE.JO,Vukile Property Fund Limited,,37412175872.0,ZAc,False,new_markets_top
+South Africa,KST.JO,PSG Financial Services Limited,,36504387584.0,ZAc,True,new_markets_top
+South Africa,DRD.JO,DRDGOLD Limited,,35488706560.0,ZAc,False,new_markets_top
+South Africa,WHL.JO,Woolworths Holdings Limited,,34811920384.0,ZAc,False,new_markets_top
+South Africa,KRO.JO,Karooooo Ltd.,,32787677184.0,ZAc,False,new_markets_top
+South Africa,FFB.JO,Fortress Real Estate Investments Limited,,32332345344.0,ZAc,False,new_markets_top
+South Africa,ADH.JO,ADvTECH Limited,,29522900992.0,ZAc,False,new_markets_top
+South Africa,ARI.JO,African Rainbow Minerals Limited,,28748736512.0,ZAc,False,new_markets_top
+South Africa,TKG.JO,Telkom SA SOC Ltd,,27606943744.0,ZAc,False,new_markets_top
+South Africa,AVI.JO,AVI Limited,,27469713408.0,ZAc,False,new_markets_top
+South Africa,PMR.JO,Premier Group Limited,,27305539584.0,ZAc,False,new_markets_top
+South Africa,RES.JO,Resilient REIT Limited,,26391957504.0,ZAc,False,new_markets_top
+South Africa,HYP.JO,Hyprop Investments Limited,,25463457792.0,ZAc,False,new_markets_top
+South Africa,DCP.JO,Dis-Chem Pharmacies Limited,,24245024768.0,ZAc,False,new_markets_top
+South Africa,NTC.JO,Netcare Limited,,19957137408.0,ZAc,False,new_markets_top
+South Africa,OMN.JO,Omnia Holdings Limited,,19051894784.0,ZAc,False,new_markets_top
+South Africa,GND.JO,Grindrod Limited,,18946347008.0,ZAc,False,new_markets_top
+South Africa,MTH.JO,Motus Holdings Limited,,18359152640.0,ZAc,False,new_markets_top
+South Africa,TGA.JO,Thungela Resources Limited,,18323558400.0,ZAc,False,new_markets_top
+South Africa,LHC.JO,Life Healthcare Group Holdings Limited,,17959415808.0,ZAc,False,new_markets_top
+South Africa,TRU.JO,Truworths International Limited,,17124443136.0,ZAc,False,new_markets_top
+South Africa,EQU.JO,Equites Property Fund Limited,,16019112960.0,ZAc,False,new_markets_top
+South Africa,TFG.JO,The Foschini Group Limited,,15440195584.0,ZAc,False,new_markets_top
+South Africa,PIK.JO,Pick n Pay Stores Limited,,14827198464.0,ZAc,False,new_markets_top
+South Africa,CML.JO,Coronation Fund Managers Limited,,14364746752.0,ZAc,True,new_markets_top
+South Africa,SSU.JO,Southern Sun Limited,,13287624704.0,ZAc,False,new_markets_top
+South Africa,SDO.JO,Stadio Holdings Limited,,13162273792.0,ZAc,False,new_markets_top
+South Africa,JSE.JO,JSE Limited,,12796738560.0,ZAc,True,new_markets_top
+South Africa,HCI.JO,Hosken Consolidated Investments Limited,,12683825152.0,ZAc,False,new_markets_top
+South Africa,ATT.JO,Attacq Limited,,12567883776.0,ZAc,False,new_markets_top
+South Africa,PPC.JO,PPC Ltd,,11046439936.0,ZAc,False,new_markets_top
+South Africa,WBC.JO,We Buy Cars Holdings Limited,,11019821056.0,ZAc,False,new_markets_top
+South Africa,SUI.JO,Sun International Limited,,10792987648.0,ZAc,False,new_markets_top
+South Africa,AEL.JO,Altron Limited,,10777260032.0,ZAc,False,new_markets_top
+South Africa,AFE.JO,AECI Ltd,,10312252416.0,ZAc,False,new_markets_top
+South Africa,AFH.JO,Alexander Forbes Group Holdings Limited,,9558812672.0,ZAc,True,new_markets_top
+South Africa,ITE.JO,Italtile Limited,,9247720448.0,ZAc,False,new_markets_top
+South Africa,SAC.JO,SA Corporate Real Estate Limited,,9130906624.0,ZAc,False,new_markets_top
+South Africa,SPP.JO,The SPAR Group Ltd,,9101385728.0,ZAc,False,new_markets_top
+South Africa,DIB.JO,Dipula Properties Limited,,8559198720.0,ZAc,False,new_markets_top
+South Africa,SSS.JO,Stor-Age Property REIT Limited,,8404132352.0,ZAc,False,new_markets_top
+South Africa,EXP.JO,Exemplar REITail Limited,,8353748992.0,ZAc,False,new_markets_top
+South Africa,RLO.JO,Reunert Limited,,8266740736.0,ZAc,False,new_markets_top
+South Africa,ARL.JO,Astral Foods Limited,,8046053376.0,ZAc,False,new_markets_top
+South Africa,CCD.JO,Cell C Holdings Limited,,7888000000.0,ZAc,False,new_markets_top
+South Africa,OCE.JO,Oceana Group Limited,,7836026880.0,ZAc,False,new_markets_top
+South Africa,RBX.JO,Raubex Group Limited,,7772414464.0,ZAc,False,new_markets_top
+South Africa,BTN.JO,Burstone Group Limited,,7745676288.0,ZAc,False,new_markets_top
+South Africa,WBO.JO,Wilson Bayly Holmes-Ovcon Limited,,7585362944.0,ZAc,False,new_markets_top
+South Africa,BAT.JO,Brait PLC,,7454982144.0,ZAc,True,new_markets_top
+South Africa,BLU.JO,Blu Label Unlimited Group Limited,,7154485760.0,ZAc,False,new_markets_top
+South Africa,ACS.JO,Acsion Limited,,6871756288.0,ZAc,False,new_markets_top
+South Africa,KAP.JO,KAP Limited,,6670406656.0,ZAc,False,new_markets_top
+South Africa,SEA.JO,Spear Reit Limited,,6621962752.0,ZAc,False,new_markets_top
+South Africa,TSG.JO,Tsogo Sun Limited,,6500926976.0,ZAc,False,new_markets_top
+South Africa,RCL.JO,RCL Foods Limited,,6300471296.0,ZAc,False,new_markets_top
+South Africa,EMI.JO,Emira Property Fund Limited,,6288901632.0,ZAc,False,new_markets_top
+South Africa,CAA.JO,CA Sales Holdings Limited,,6269368832.0,ZAc,False,new_markets_top
+South Africa,WVR.JO,Weaver Fintech Ltd,,5603393536.0,ZAc,True,new_markets_top
+South Africa,SPG.JO,Super Group Limited,,5556632064.0,ZAc,False,new_markets_top
+South Africa,SBP.JO,Sabvest Capital Limited,,5414400000.0,ZAc,True,new_markets_top
+South Africa,SYG.JO,Sygnia Limited,,5163367936.0,ZAc,True,new_markets_top
+South Africa,FBR.JO,Famous Brands Limited,,5042856448.0,ZAc,False,new_markets_top
+South Africa,HDC.JO,Hudaco Industries Limited,,4974328320.0,ZAc,False,new_markets_top
+South Africa,AFT.JO,Afrimat Limited,,4943697920.0,ZAc,False,new_markets_top
+South Africa,RBO.JO,Rainbow Chicken Limited,,4700365824.0,ZAc,False,new_markets_top
+South Africa,OCT.JO,Octodec Investments Limited,,4655794688.0,ZAc,False,new_markets_top
+South Africa,LEW.JO,Lewis Group Limited,,4499973632.0,ZAc,False,new_markets_top
+South Africa,NPK.JO,Nampak Limited,,4285647360.0,ZAc,False,new_markets_top
+South Africa,CAT.JO,Caxton and CTP Publishers and Printers Limited,,4037132544.0,ZAc,False,new_markets_top
+South Africa,BEL.JO,Bell Equipment Limited,,3678578176.0,ZAc,False,new_markets_top
+South Africa,CPP.JO,Collins Property Group Limited,,3531688448.0,ZAc,False,new_markets_top
+South Africa,MRF.JO,Merafe Resources Limited,,3398812416.0,ZAc,False,new_markets_top
+South Africa,SUR.JO,Spur Corporation Ltd,,3348298240.0,ZAc,False,new_markets_top
+South Africa,YYLBEE.JO,YeboYethu (RF) Limited,,3174957824.0,ZAc,False,new_markets_top
+South Africa,IVT.JO,Invicta Holdings Limited,,2953716480.0,ZAc,False,new_markets_top
+South Africa,KAL.JO,KAL Group Limited,,2951477248.0,ZAc,False,new_markets_top
+South Africa,SHG.JO,Sea Harvest Group Limited,,2857966592.0,ZAc,False,new_markets_top
+South Africa,ZZD.JO,Zeda Limited,,2727602688.0,ZAc,False,new_markets_top
+South Africa,CMH.JO,Combined Motor Holdings Limited,,2665912320.0,ZAc,False,new_markets_top
+South Africa,PPE.JO,Purple Group Limited,,2552094464.0,ZAc,True,new_markets_top
+South Africa,MPT.JO,Mpact Limited,,2500460288.0,ZAc,False,new_markets_top
+South Africa,IOC.JO,iOCO Limited,,2458347008.0,ZAc,False,new_markets_top
+South Africa,CLH.JO,City Lodge Hotels Limited,,2398751232.0,ZAc,False,new_markets_top
+Turkey,ISBTR.IS,Türkiye Is Bankasi A.S.,,9749999889940480.0,TRY,True,new_markets_top
+Turkey,ASELS.IS,ASELSAN Elektronik Sanayi ve Ticaret Anonim Sirketi,,1542420037632.0,TRY,False,new_markets_top
+Turkey,QNBTR.IS,QNB Bank A.S.,,684750012416.0,TRY,True,new_markets_top
+Turkey,TUPRS.IS,Türkiye Petrol Rafinerileri A.S.,,678713753600.0,TRY,False,new_markets_top
+Turkey,GARAN.IS,Turkiye Garanti Bankasi A.S.,,539700002816.0,TRY,True,new_markets_top
+Turkey,KCHOL.IS,Koç Holding A.S.,,497114972160.0,TRY,False,new_markets_top
+Turkey,ENPRA.IS,Enpara Bank A.S.,,437882650624.0,TRY,True,new_markets_top
+Turkey,BIMAS.IS,BIM Birlesik Magazalar A.S.,,437552807936.0,TRY,False,new_markets_top
+Turkey,AKBNK.IS,Akbank T.A.S.,,335920005120.0,TRY,True,new_markets_top
+Turkey,VAKBN.IS,Türkiye Vakiflar Bankasi Türk Anonim Ortakligi,,308781776896.0,TRY,True,new_markets_top
+Turkey,HALKB.IS,Türkiye Halk Bankasi A.S.,,299317854208.0,TRY,True,new_markets_top
+Turkey,YKBNK.IS,Yapi ve Kredi Bankasi A.S.,,298349821952.0,TRY,True,new_markets_top
+Turkey,EREGL.IS,Eregli Demir ve Çelik Fabrikalari T.A.S.,,235937841152.0,TRY,False,new_markets_top
+Turkey,FROTO.IS,Ford Otomotiv Sanayi A.S.,,233530621952.0,TRY,False,new_markets_top
+Turkey,CCOLA.IS,Coca-Cola Içecek Anonim Sirketi,,207617425408.0,TRY,False,new_markets_top
+Turkey,TCELL.IS,Turkcell Iletisim Hizmetleri A.S.,,203062099968.0,TRY,False,new_markets_top
+Turkey,SAHOL.IS,Haci Ömer Sabanci Holding A.S.,,181038956544.0,TRY,True,new_markets_top
+Turkey,TTKOM.IS,Türk Telekomünikasyon Anonim Sirketi,,165830000640.0,TRY,False,new_markets_top
+Turkey,ISDMR.IS,Iskenderun Demir ve Çelik A.S.,,160225001472.0,TRY,False,new_markets_top
+Turkey,ASTOR.IS,Astor Enerji A.S.,,149700001792.0,TRY,False,new_markets_top
+Turkey,ENJSA.IS,Enerjisa Enerji A.S.,,133578891264.0,TRY,False,new_markets_top
+Turkey,INVES.IS,Investco Holding A.S.,,118312501248.0,TRY,True,new_markets_top
+Turkey,TRALT.IS,Turk Altin Isletmeleri A.S.,,116827201536.0,TRY,False,new_markets_top
+Turkey,TOASO.IS,Tofas Türk Otomobil Fabrikasi Anonim Sirketi,,111849996288.0,TRY,False,new_markets_top
+Turkey,GUBRF.IS,Gübre Fabrikalari Türk Anonim Sirketi,,110720999424.0,TRY,False,new_markets_top
+Turkey,ENERY.IS,Enerya Enerji Anonim Sirketi,,109079994368.0,TRY,False,new_markets_top
+Turkey,AHGAZ.IS,Ahlatci Dogal Gaz Dagitim Enerji ve Yatirim A.S.,,108018245632.0,TRY,False,new_markets_top
+Turkey,SISE.IS,Türkiye Sise Ve Cam Fabrikalari A.S.,,101982224384.0,TRY,False,new_markets_top
+Turkey,RYGYO.IS,Reysas Gayrimenkul Yatirim Ortakligi A.S.,,99080003584.0,TRY,False,new_markets_top
+Turkey,AEFES.IS,Anadolu Efes Biracilik ve Malt Sanayii Anonim Sirketi,,96335527936.0,TRY,False,new_markets_top
+Turkey,PKENT.IS,Petrokent Turizm A.S.,,91238400000.0,TRY,False,new_markets_top
+Turkey,OYAKC.IS,OYAK Çimento Fabrikalari A.S.,,91010187264.0,TRY,False,new_markets_top
+Turkey,BRSAN.IS,Borusan Birlesik Boru Fabrikalari Sanayi ve Ticaret A.S.,,90166730752.0,TRY,False,new_markets_top
+Turkey,TRGYO.IS,Torunlar Gayrimenkul Yatirim Ortakligi A.S.,,86300000256.0,TRY,False,new_markets_top
+Turkey,SASA.IS,Sasa Polyester Sanayi A.S.,,86103162880.0,TRY,False,new_markets_top
+Turkey,ZRGYO.IS,Ziraat Gayrimenkul Yatirim Ortakligi A.S.,,82138357760.0,TRY,False,new_markets_top
+Turkey,TURSG.IS,Türkiye Sigorta A.S.,,81800003584.0,TRY,True,new_markets_top
+Turkey,AKSEN.IS,Aksa Enerji Üretim A.S.,,81183580160.0,TRY,False,new_markets_top
+Turkey,MGROS.IS,Migros Ticaret A.S.,,78449573888.0,TRY,False,new_markets_top
+Turkey,KENT.IS,Kent Gida Maddeleri Sanayii ve Ticaret A.S.,,76889997312.0,TRY,False,new_markets_top
+Turkey,MPARK.IS,MLP Saglik Hizmetleri A.S.,,75141201920.0,TRY,False,new_markets_top
+Turkey,KLNMA.IS,Türkiye Kalkinma ve Yatirim Bankasi A.S.,,70699999232.0,TRY,True,new_markets_top
+Turkey,AGHOL.IS,AG Anadolu Grubu Holding A.S.,,68628025344.0,TRY,False,new_markets_top
+Turkey,QNBFK.IS,QNB Finansal Kiralama A.S.,,67919998976.0,TRY,True,new_markets_top
+Turkey,EKGYO.IS,Emlak Konut Gayrimenkul Yatirim Ortakligi A.S.,,64984883200.0,TRY,False,new_markets_top
+Turkey,AKFIS.IS,Akfen Insaat Turizm ve Ticaret Anonim Sirketi,,63594745856.0,TRY,False,new_markets_top
+Turkey,PGSUS.IS,Pegasus Hava Tasimaciligi Anonim Sirketi,,63200002048.0,TRY,False,new_markets_top
+Turkey,TKFEN.IS,Tekfen Holding Anonim Sirketi,,62834569216.0,TRY,False,new_markets_top
+Turkey,AYGAZ.IS,Aygaz A.S.,,57972453376.0,TRY,False,new_markets_top
+Turkey,RGYAS.IS,Ronesans Gayrimenkul Yatirim A.S.,,57527799808.0,TRY,False,new_markets_top
+Turkey,DSTKF.IS,Destek Finans Faktoring A.S.,,53166669824.0,TRY,True,new_markets_top
+Turkey,KRDMB.IS,Kardemir Karabük Demir Çelik Sanayi Ve Ticaret A.S.,,52140486656.0,TRY,False,new_markets_top
+Turkey,TABGD.IS,Tab Gida Sanayi ve Ticaret A.S.,,49985159168.0,TRY,False,new_markets_top
+Turkey,ARCLK.IS,Arçelik Anonim Sirketi,,48246992896.0,TRY,False,new_markets_top
+Turkey,RYSAS.IS,Reysas Tasimacilik ve Lojistik Ticaret A.S.,,48000000000.0,TRY,False,new_markets_top
+Turkey,PETKM.IS,Petkim Petrokimya Holding Anonim Sirketi,,46379520000.0,TRY,False,new_markets_top
+Turkey,CVKMD.IS,CVK Maden Isletmeleri Sanayi ve Ticaret Anonim Sirketi,,45435600896.0,TRY,False,new_markets_top
+Turkey,HEDEF.IS,Hedef Holding A.S,,43470000128.0,TRY,True,new_markets_top
+Turkey,YGGYO.IS,Yeni Gimat Gayrimenkul Yatirim Ortakligi A.S.,,43329462272.0,TRY,False,new_markets_top
+Turkey,ALARK.IS,Alarko Holding A.S.,,42818957312.0,TRY,False,new_markets_top
+Turkey,DOHOL.IS,Dogan Sirketler Grubu Holding A.S.,,42629189632.0,TRY,False,new_markets_top
+Turkey,ANSGR.IS,Anadolu Anonim Türk Sigorta Sirketi,,41439997952.0,TRY,True,new_markets_top
+Turkey,TRMET.IS,TR Anadolu Metal Madencilik Isletmeleri A.S.,,41214095360.0,TRY,False,new_markets_top
+Turkey,SELEC.IS,Selçuk Ecza Deposu Ticaret ve Sanayi A.S.,,41172303872.0,TRY,False,new_markets_top
+Turkey,ISMEN.IS,Is Yatirim Menkul Degerler Anonim Sirketi,,40739999744.0,TRY,True,new_markets_top
+Turkey,AKSA.IS,Aksa Akrilik Kimya Sanayii A.S.,,39316197376.0,TRY,False,new_markets_top
+Turkey,ANHYT.IS,Anadolu Hayat Emeklilik Anonim Sirketi,,39130001408.0,TRY,True,new_markets_top
+Turkey,EFOR.IS,Efor Yatirim Sanayi Ticaret Anonim Sirketi,,38920859648.0,TRY,False,new_markets_top
+Turkey,TBORG.IS,Türk Tuborg Bira ve Malt Sanayii A.S.,,36475682816.0,TRY,False,new_markets_top
+Turkey,CIMSA.IS,Çimsa Çimento Sanayi ve Ticaret A.S.,,36443082752.0,TRY,False,new_markets_top
+Turkey,OTKAR.IS,Otokar Otomotiv ve Savunma Sanayi A.S.,,36359999488.0,TRY,False,new_markets_top
+Turkey,TTRAK.IS,Türk Traktör ve Ziraat Makineleri A.S.,,36324278272.0,TRY,False,new_markets_top
+Turkey,GLRMK.IS,Gulermak Aglr Sanayi Insaat ve Taahhut A.S.,,36260241408.0,TRY,False,new_markets_top
+Turkey,AGESA.IS,AgeSA Hayat ve Emeklilik Anonim Sirketi,,36017999872.0,TRY,True,new_markets_top
+Turkey,AKCNS.IS,Akçansa Çimento Sanayi ve Ticaret Anonim Sirketi,,35226259456.0,TRY,False,new_markets_top
+Turkey,ECILC.IS,"EIS Eczacibasi Ilaç, Sinai ve Finansal Yatirimlar Sanayi ve Ticaret A.S.",,34365796352.0,TRY,False,new_markets_top
+Turkey,SOKM.IS,Sok Marketler Ticaret A.S.,,34054846464.0,TRY,False,new_markets_top
+Turkey,BRYAT.IS,Borusan Yatirim ve Pazarlama A.S.,,33953245184.0,TRY,False,new_markets_top
+Turkey,VERUS.IS,Verusa Holding A.S.,,33460000768.0,TRY,False,new_markets_top
+Turkey,VEYAS.IS,Turker Vangolu Enerji Yatirim Anonim Sirketi,,32877574144.0,TRY,False,new_markets_top
+Turkey,KTLEV.IS,Katilimevim Tasarruf Finansman Anonim Sirketi,,31149998080.0,TRY,True,new_markets_top
+Turkey,GLYHO.IS,Global Yatirim Holding A.S.,,31141500928.0,TRY,False,new_markets_top
+Turkey,NUHCM.IS,Nuh Çimento Sanayi A.S.,,30718681088.0,TRY,False,new_markets_top
+Turkey,CLEBI.IS,Çelebi Hava Servisi A.S.,,29694599168.0,TRY,False,new_markets_top
+Turkey,KLRHO.IS,Kiler Holding Anonim Sirketi,,29600999424.0,TRY,False,new_markets_top
+Turkey,ARMGD.IS,Armada Gida Ticaret Sanayi Anonim Sirketi,,29064290304.0,TRY,False,new_markets_top
+Turkey,ULKER.IS,Ülker Bisküvi Sanayi A.S.,,28766601216.0,TRY,False,new_markets_top
+Turkey,AKFYE.IS,Akfen Yenilenebilir Enerji A.S.,,28583464960.0,TRY,False,new_markets_top
+Turkey,DOAS.IS,Dogus Otomotiv Servis ve Ticaret A.S.,,28446001152.0,TRY,False,new_markets_top
+Turkey,MAVI.IS,Mavi Giyim Sanayi ve Ticaret A.S.,,26955997184.0,TRY,False,new_markets_top
+Turkey,GRSEL.IS,Gür-Sel Turizm Tasimacilik ve Servis Ticaret A.S.,,26112000000.0,TRY,False,new_markets_top
+Turkey,KARCL.IS,Kardemir Celik Sanayi AS,,25032800256.0,TRY,False,new_markets_top
+Turkey,TSKB.IS,Türkiye Sinai Kalkinma Bankasi A.S.,,24835999744.0,TRY,True,new_markets_top
+Turkey,EUPWR.IS,Europower Enerji ve Otomasyon Teknolojileri Sanayi Ticaret Anonim Sirketi,,24829198336.0,TRY,False,new_markets_top
+Turkey,BASGZ.IS,Baskent Dogalgaz Dagitim Gayrimenkul Yatirim Ortakligi A.S.,,24416000000.0,TRY,False,new_markets_top
+Turkey,CRFSA.IS,CarrefourSA Carrefour Sabanci Ticaret Merkezi A.S.,,24264237056.0,TRY,False,new_markets_top
+Turkey,AKSGY.IS,Akis Gayrimenkul Yatirim Ortakligi A.S.,,21855750144.0,TRY,False,new_markets_top
+Turkey,ADGYO.IS,Adra Gayrimenkul Yatirim Ortakligi Anonim Sirketi,,21834178560.0,TRY,False,new_markets_top
+Turkey,BRISA.IS,Brisa Bridgestone Sabanci Lastik Sanayi ve Ticaret A.S.,,20854736896.0,TRY,False,new_markets_top
+Turkey,OZATD.IS,Özata Denizcilik Sanayi ve Ticaret Anonim Sirketi,,20834199552.0,TRY,False,new_markets_top
+Turkey,PASEU.IS,Pasifik Eurasia Lojistik Dis Ticaret A.S.,,20711038976.0,TRY,False,new_markets_top
+Turkey,ALBRK.IS,Albaraka Türk Katilim Bankasi A.S.,,20274999296.0,TRY,True,new_markets_top
+Turkey,TRENJ.IS,Ipek Dogal Enerji Kaynaklari Arastirma ve Üretim A.S.,,20146372608.0,TRY,False,new_markets_top
+Turkey,YEOTK.IS,Yeo Teknoloji Enerji Ve Endustri Anonim Sirketi,,19671001088.0,TRY,False,new_markets_top
+Turkey,QUICK.IS,Quick Sigorta A.S.,,19457165312.0,TRY,True,new_markets_top
+Turkey,KLYPV.IS,Kalyon Günes Teknolojileri Üretim A.S.,,19436474368.0,TRY,False,new_markets_top
+Turkey,AVPGY.IS,Avrupakent Gayrimenkul Yatirim Ortakligi Anonim Sirketi,,19143999488.0,TRY,False,new_markets_top
+Turkey,BETAE.IS,Beta Enerji ve Teknoloji A.S.,,18929700864.0,TRY,False,new_markets_top
+Turkey,MOGAN.IS,Mogan Enerji Yatirim Holding Anonim Sirketi,,18813233152.0,TRY,False,new_markets_top
+Turkey,CMENT.IS,Çimentas Izmir Çimento Fabrikasi Türk A.S.,,18617325568.0,TRY,False,new_markets_top
+Turkey,GENIL.IS,Gen Ilac Ve Saglik Urunleri Sanayi Ve Ticaret Anonim Sirketi,,18050893824.0,TRY,False,new_markets_top
+Turkey,ECZYT.IS,Eczacibasi Yatirim Holding Ortakligi A.S.,,18028498944.0,TRY,False,new_markets_top
+Turkey,ISGYO.IS,Is Gayrimenkul Yatirim Ortakligi A.S.,,17976563712.0,TRY,False,new_markets_top
+Turkey,ENTRA.IS,IC Enterra Yenilenebilir Enerji A.S.,,17818824704.0,TRY,False,new_markets_top
+Turkey,ARASE.IS,Dogu Aras Enerji Yatirimlari AS,,17687500800.0,TRY,False,new_markets_top
+Turkey,ARDYZ.IS,Ard Grup Bilisim Teknolojileri Anonim Sirketi,,17654327296.0,TRY,False,new_markets_top
+Turkey,PAHOL.IS,Pasifik Holding A.S.,,17600000000.0,TRY,False,new_markets_top
+Saudi Arabia,2222.SR,Saudi Arabian Oil Company,,6144447741952.0,SAR,False,new_markets_top
+Saudi Arabia,1120.SR,Al Rajhi Banking and Investment Corporation,,358799998976.0,SAR,True,new_markets_top
+Saudi Arabia,1211.SR,Saudi Arabian Mining Company (Maaden),,216992645120.0,SAR,False,new_markets_top
+Saudi Arabia,1180.SR,The Saudi National Bank,,205469696000.0,SAR,True,new_markets_top
+Saudi Arabia,7010.SR,Saudi Telecom Company,,203683921920.0,SAR,False,new_markets_top
+Saudi Arabia,2010.SR,Saudi Basic Industries Corporation,,131160006656.0,SAR,False,new_markets_top
+Saudi Arabia,2082.SR,ACWA Power Company,,114914967552.0,SAR,False,new_markets_top
+Saudi Arabia,1010.SR,Riyad Bank,,76480708608.0,SAR,True,new_markets_top
+Saudi Arabia,4013.SR,Dr. Sulaiman Al Habib Medical Services Group Company,,73464995840.0,SAR,False,new_markets_top
+Saudi Arabia,1150.SR,Alinma Bank,,64379998208.0,SAR,True,new_markets_top
+Saudi Arabia,1060.SR,Saudi Awwal Bank,,63657533440.0,SAR,True,new_markets_top
+Saudi Arabia,5110.SR,Saudi Energy Company,,60748935168.0,SAR,False,new_markets_top
+Saudi Arabia,2020.SR,SABIC Agri-Nutrients Company,,52125876224.0,SAR,False,new_markets_top
+Saudi Arabia,1050.SR,Banque Saudi Fransi,,45545521152.0,SAR,True,new_markets_top
+Saudi Arabia,4280.SR,Kingdom Holding Company,,45027897344.0,SAR,False,new_markets_top
+Saudi Arabia,7020.SR,Etihad Etisalat Company,,43594002432.0,SAR,False,new_markets_top
+Saudi Arabia,7203.SR,Elm Company,,41149267968.0,SAR,False,new_markets_top
+Saudi Arabia,2280.SR,Almarai Company,,40892796928.0,SAR,False,new_markets_top
+Saudi Arabia,1080.SR,Arab National Bank,,39501496320.0,SAR,True,new_markets_top
+Saudi Arabia,2380.SR,Rabigh Refining and Petrochemical Company,,35267706880.0,SAR,False,new_markets_top
+Saudi Arabia,4030.SR,The National Shipping Company of Saudi Arabia,,32115234816.0,SAR,False,new_markets_top
+Saudi Arabia,1140.SR,Bank Albilad,,30449999872.0,SAR,True,new_markets_top
+Saudi Arabia,4325.SR,Umm Al Qura for Development and Construction Company,,21666033664.0,SAR,False,new_markets_top
+Saudi Arabia,7202.SR,Arabian Internet and Communication Services Company,,21326858240.0,SAR,False,new_markets_top
+Saudi Arabia,4190.SR,Jarir Marketing Company,,19608000512.0,SAR,False,new_markets_top
+Saudi Arabia,8210.SR,Bupa Arabia for Cooperative Insurance Company,,19229999104.0,SAR,True,new_markets_top
+Saudi Arabia,4300.SR,Dar Al Arkan Real Estate Development Company,,18781198336.0,SAR,False,new_markets_top
+Saudi Arabia,2223.SR,Saudi Aramco Base Oil Company - Luberef,,18676934656.0,SAR,False,new_markets_top
+Saudi Arabia,4250.SR,Jabal Omar Development Company,,17641345024.0,SAR,False,new_markets_top
+Saudi Arabia,2382.SR,ADES Holding Company,,17125358592.0,SAR,False,new_markets_top
+Saudi Arabia,8010.SR,The Company for Cooperative Insurance,,16987335680.0,SAR,True,new_markets_top
+Saudi Arabia,2290.SR,Yanbu National Petrochemical Company,,16931249152.0,SAR,False,new_markets_top
+Saudi Arabia,1030.SR,The Saudi Investment Bank,,16703842304.0,SAR,True,new_markets_top
+Saudi Arabia,4142.SR,Riyadh Cables Group Company,,14275563520.0,SAR,False,new_markets_top
+Saudi Arabia,1020.SR,aljazira bank,,13688487936.0,SAR,True,new_markets_top
+Saudi Arabia,4100.SR,Makkah Construction and Development Company,,13380000768.0,SAR,False,new_markets_top
+Saudi Arabia,1111.SR,Saudi Tadawul Group Holding Company,,12707999744.0,SAR,True,new_markets_top
+Saudi Arabia,4263.SR,SAL Saudi Logistics Services Company,,12192000000.0,SAR,False,new_markets_top
+Saudi Arabia,1303.SR,Electrical Industries Company,,11514375168.0,SAR,False,new_markets_top
+Saudi Arabia,4164.SR,Nahdi Medical Company,,11102000128.0,SAR,False,new_markets_top
+Saudi Arabia,4002.SR,Mouwasat Medical Services Company,,11100000256.0,SAR,False,new_markets_top
+Saudi Arabia,4200.SR,Aldrees Petroleum and Transport Services Company,,11000000512.0,SAR,False,new_markets_top
+Saudi Arabia,2083.SR,Power and Water Utility Company for Jubail and Yanbu,,10024999936.0,SAR,False,new_markets_top
+Saudi Arabia,8313.SR,Rasan Information Technology Company,,9610867712.0,SAR,True,new_markets_top
+Saudi Arabia,1212.SR,Astra Industrial Group Company,,9095999488.0,SAR,False,new_markets_top
+Saudi Arabia,8230.SR,Al Rajhi Company for Cooperative Insurance,,8835999744.0,SAR,True,new_markets_top
+Saudi Arabia,4015.SR,Jamjoom Pharmaceuticals Factory Company,,8497999872.0,SAR,False,new_markets_top
+Saudi Arabia,2310.SR,Sahara International Petrochemical Company,,8323333120.0,SAR,False,new_markets_top
+Saudi Arabia,4090.SR,Taiba Investment Company,,8100000256.0,SAR,False,new_markets_top
+Saudi Arabia,2381.SR,Arabian Drilling Company,,7987749888.0,SAR,False,new_markets_top
+Saudi Arabia,2250.SR,Saudi Industrial Investment Group,,7859500544.0,SAR,False,new_markets_top
+Saudi Arabia,7030.SR,Mobile Telecommunications Company Saudi Arabia,,7774006784.0,SAR,False,new_markets_top
+Saudi Arabia,4004.SR,Dallah Healthcare Company,,7739997184.0,SAR,False,new_markets_top
+Saudi Arabia,7200.SR,Al Moammar Information Systems Company,,7703999488.0,SAR,False,new_markets_top
+Saudi Arabia,2350.SR,Saudi Kayan Petrochemical Company,,7304999936.0,SAR,False,new_markets_top
+Saudi Arabia,4220.SR,Emaar The Economic City,,7284171776.0,SAR,False,new_markets_top
+Saudi Arabia,4017.SR,Dr. Soliman Abdel Kader Fakeeh Hospital Company,,6996599808.0,SAR,False,new_markets_top
+Saudi Arabia,4321.SR,Arabian Centres Company,,6600148992.0,SAR,False,new_markets_top
+Saudi Arabia,2050.SR,Savola Group Company,,6556671488.0,SAR,False,new_markets_top
+Saudi Arabia,4310.SR,Knowledge Economic City Company,,6399198208.0,SAR,False,new_markets_top
+Saudi Arabia,4264.SR,Flynas Company,,6184841728.0,SAR,False,new_markets_top
+Saudi Arabia,2330.SR,Advanced Petrochemical Company,,5945500160.0,SAR,False,new_markets_top
+Saudi Arabia,4072.SR,MBC Group,,5369874944.0,SAR,False,new_markets_top
+Saudi Arabia,2270.SR,Saudia Dairy & Foodstuff Company,,5305298432.0,SAR,False,new_markets_top
+Saudi Arabia,1321.SR,East Pipes Integrated Company for Industry,,5156550144.0,SAR,False,new_markets_top
+Saudi Arabia,1322.SR,Al Masane Al Kobra Mining Company,,5021383680.0,SAR,False,new_markets_top
+Saudi Arabia,4020.SR,Saudi Real Estate Company,,5006249984.0,SAR,False,new_markets_top
+Saudi Arabia,4291.SR,National Company for Learning and Education,,4953600000.0,SAR,False,new_markets_top
+Saudi Arabia,2230.SR,Saudi Chemical Holding Company,,4890560000.0,SAR,False,new_markets_top
+Saudi Arabia,2060.SR,National Industrialization Company,,4889761280.0,SAR,False,new_markets_top
+Saudi Arabia,3040.SR,Qassim Cement Company,,4614337536.0,SAR,False,new_markets_top
+Saudi Arabia,4018.SR,Almoosa Health Company,,4580990464.0,SAR,False,new_markets_top
+Saudi Arabia,6004.SR,CATRION Catering Holding Company,,4546899968.0,SAR,False,new_markets_top
+Saudi Arabia,4161.SR,BinDawood Holding Company,,4537710080.0,SAR,False,new_markets_top
+Saudi Arabia,1810.SR,Seera Holding Group,,4431694336.0,SAR,False,new_markets_top
+Saudi Arabia,4084.SR,Derayah Financial Company,,4349519360.0,SAR,True,new_markets_top
+Saudi Arabia,4003.SR,United Electronics Company,,4170201344.0,SAR,False,new_markets_top
+Saudi Arabia,2080.SR,National Gas and Industrialization Company,,4098750208.0,SAR,False,new_markets_top
+Saudi Arabia,8200.SR,Saudi Reinsurance Company,,4082363904.0,SAR,True,new_markets_top
+Saudi Arabia,4005.SR,National Medical Care Company,,4075727872.0,SAR,False,new_markets_top
+Saudi Arabia,3020.SR,YAMAMA Cement Company,,3900150016.0,SAR,False,new_markets_top
+Saudi Arabia,1830.SR,Leejam Sports Company,,3834765824.0,SAR,False,new_markets_top
+Saudi Arabia,3030.SR,Saudi Cement Company,,3805110016.0,SAR,False,new_markets_top
+Saudi Arabia,4001.SR,Abdullah Al-Othaim Markets Company,,3617999872.0,SAR,False,new_markets_top
+Saudi Arabia,4031.SR,Saudi Ground Services Company,,3558840064.0,SAR,False,new_markets_top
+Saudi Arabia,4150.SR,Arriyadh Development Co.,,3539373312.0,SAR,False,new_markets_top
+Saudi Arabia,6010.SR,The National Agricultural Development Company,,3492991232.0,SAR,False,new_markets_top
+Saudi Arabia,4007.SR,Al Hammadi Holding Company,,3460799744.0,SAR,False,new_markets_top
+Saudi Arabia,4322.SR,Retal Urban Development Company,,3443365120.0,SAR,False,new_markets_top
+Saudi Arabia,6050.SR,Saudi Fisheries Company,,3440504320.0,SAR,False,new_markets_top
+Saudi Arabia,4210.SR,Saudi Research and Media Group,,3368000000.0,SAR,False,new_markets_top
+Saudi Arabia,2070.SR,Saudi Pharmaceutical Industries and Medical Appliances Corporation,,3327617280.0,SAR,False,new_markets_top
+Saudi Arabia,4019.SR,Specialized Medical Company,,3067500032.0,SAR,False,new_markets_top
+Saudi Arabia,4163.SR,Al-Dawaa Medical Services Company,,3017499904.0,SAR,False,new_markets_top
+Saudi Arabia,4162.SR,Almunajem Foods Company,,3015000064.0,SAR,False,new_markets_top
+Saudi Arabia,2320.SR,Al-Babtain Power and Telecommunications Company,,2863545088.0,SAR,False,new_markets_top
+Saudi Arabia,2081.SR,Alkhorayef Water and Power Technologies Company,,2758000128.0,SAR,False,new_markets_top
+Saudi Arabia,2283.SR,The First Milling Company,,2752800000.0,SAR,False,new_markets_top
+Saudi Arabia,2190.SR,Sustained Infrastructure Holding Company,,2649910528.0,SAR,False,new_markets_top
+Saudi Arabia,4165.SR,Al Majed for Oud Company,,2624999936.0,SAR,False,new_markets_top
+Saudi Arabia,4050.SR,Saudi Automotive Services Company,,2571800064.0,SAR,False,new_markets_top
+Saudi Arabia,1320.SR,Saudi Steel Pipes Company,,2501844480.0,SAR,False,new_markets_top
+Saudi Arabia,3050.SR,Southern Province Cement Company,,2443000064.0,SAR,False,new_markets_top
+Saudi Arabia,4260.SR,United International Transportation Company,,2427470336.0,SAR,False,new_markets_top
+Saudi Arabia,7040.SR,Etihad GO Telecom Co.,,2351093248.0,SAR,False,new_markets_top
+Saudi Arabia,4071.SR,Arabian Contracting Services Company,,2293500160.0,SAR,False,new_markets_top
+Saudi Arabia,3092.SR,Riyadh Cement Company,,2276399872.0,SAR,False,new_markets_top
+Saudi Arabia,4327.SR,Al Ramz Real Estate Company,,2275714304.0,SAR,False,new_markets_top
+Saudi Arabia,4009.SR,Middle East Healthcare Company,,2199756032.0,SAR,False,new_markets_top
+Saudi Arabia,4340.SR,Al Rajhi REIT Fund,,2163518720.0,SAR,False,new_markets_top
+Saudi Arabia,4146.SR,Gas Arabian Services Company,,2141582208.0,SAR,False,new_markets_top
+Saudi Arabia,3060.SR,Yanbu Cement Company,,2132550016.0,SAR,False,new_markets_top
+Saudi Arabia,4192.SR,Al-Saif Stores for Development & Investment Company,,2100000000.0,SAR,False,new_markets_top
+Saudi Arabia,4016.SR,Middle East Pharmaceutical Industries Company,,2061500032.0,SAR,False,new_markets_top
+Saudi Arabia,2284.SR,Modern Mills Company,,2025341952.0,SAR,False,new_markets_top
+Saudi Arabia,1831.SR,Maharah for Human Resources Company,,1977007872.0,SAR,False,new_markets_top
+Saudi Arabia,6019.SR,Almasar Alshamil Education Company JSC,,1973273600.0,SAR,False,new_markets_top
+Saudi Arabia,2286.SR,Fourth Milling Company,,1960200064.0,SAR,False,new_markets_top
+Saudi Arabia,2040.SR,Saudi Ceramic Company,,1950737536.0,SAR,False,new_markets_top
+Saudi Arabia,6017.SR,Jahez International Company for Information Systems Technology,,1922607872.0,SAR,False,new_markets_top
+Israel,CYBR.TA,"Palo Alto Networks, Inc.",,910024966144.0,ILA,False,new_markets_top
+Israel,TEVA.TA,Teva Pharmaceutical Industries Limited,,144736911360.0,ILA,False,new_markets_top
+Israel,LUMI.TA,Bank Leumi le-Israel B.M.,,110489354240.0,ILA,True,new_markets_top
+Israel,ESLT.TA,Elbit Systems Ltd.,,108200427520.0,ILA,False,new_markets_top
+Israel,POLI.TA,Bank Hapoalim B.M.,,100328177664.0,ILA,True,new_markets_top
+Israel,TSEM.TA,Tower Semiconductor Ltd.,,62661746688.0,ILA,False,new_markets_top
+Israel,MZTF.TA,Mizrahi Tefahot Bank Ltd.,,61004783616.0,ILA,True,new_markets_top
+Israel,PHOE.TA,Phoenix Financial Ltd.,,46824910848.0,ILA,True,new_markets_top
+Israel,AZRG.TA,Azrieli Group Ltd.,,46569295872.0,ILA,False,new_markets_top
+Israel,DSCT.TA,Israel Discount Bank Limited,,42692665344.0,ILA,True,new_markets_top
+Israel,HARL.TA,Harel Insurance Investments & Financial Services Ltd,,40297803776.0,ILA,True,new_markets_top
+Israel,MMHD.TA,Menora Mivtachim Holdings Ltd.,,33990320128.0,ILA,True,new_markets_top
+Israel,NVMI.TA,Nova Ltd.,,31080980480.0,ILA,False,new_markets_top
+Israel,ENLT.TA,Enlight Renewable Energy Ltd,,30764951552.0,ILA,False,new_markets_top
+Israel,OPCE.TA,OPC Energy Ltd.,,29219864576.0,ILA,False,new_markets_top
+Israel,CLIS.TA,Clal Insurance Enterprises Holdings Ltd.,,24055226368.0,ILA,True,new_markets_top
+Israel,FIBI.TA,First International Bank of Israel Ltd,,23640055808.0,ILA,True,new_markets_top
+Israel,MGDL.TA,Migdal Insurance and Financial Holdings Ltd.,,21237901312.0,ILA,True,new_markets_top
+Israel,BEZQ.TA,Bezeq The Israel Telecommunication Corp. Ltd,,19518257152.0,ILA,False,new_markets_top
+Israel,MLSR.TA,Melisron Ltd.,,19094775808.0,ILA,False,new_markets_top
+Israel,NWMD.TA,NewMed Energy - Limited Partnership,,19086225408.0,ILA,False,new_markets_top
+Israel,MGOR.TA,Mega Or Holdings Ltd,,18316195840.0,ILA,False,new_markets_top
+Israel,BIG.TA,BIG Shopping Centers Ltd,,18256873472.0,ILA,False,new_markets_top
+Israel,NXSN.TA,"NextVision Stabilized Systems, Ltd.",,17969287168.0,ILA,False,new_markets_top
+Israel,CAMT.TA,Camtek Ltd.,,17733906432.0,ILA,False,new_markets_top
+Israel,ORA.TA,"Ormat Technologies, Inc.",,16764065792.0,ILA,False,new_markets_top
+Israel,DLEKG.TA,Delek Group Ltd.,,15431517184.0,ILA,False,new_markets_top
+Israel,SPEN.TA,Shapir Engineering and Industry Ltd,,15040877568.0,ILA,False,new_markets_top
+Israel,NVPT.TA,"Navitas Petroleum, Limited Partnership",,14907099136.0,ILA,False,new_markets_top
+Israel,STRS.TA,Strauss Group Ltd.,,14077273088.0,ILA,False,new_markets_top
+Israel,TASE.TA,The Tel-Aviv Stock Exchange Ltd.,,13900100608.0,ILA,True,new_markets_top
+Israel,DORL.TA,Doral Group Renewable Energy Resources Ltd,,11874062336.0,ILA,False,new_markets_top
+Israel,FTAL.TA,Fattal Holdings (1998) Ltd,,11520456704.0,ILA,False,new_markets_top
+Israel,ENRG.TA,Energix - Renewable Energies Ltd.,,11495538688.0,ILA,False,new_markets_top
+Israel,ELAL.TA,El Al Israel Airlines Ltd.,,11395753984.0,ILA,False,new_markets_top
+Israel,SKBN.TA,Shikun & Binui Ltd.,,11045656576.0,ILA,False,new_markets_top
+Israel,FIBIH.TA,F.I.B.I. Holdings Ltd,,10742150144.0,ILA,True,new_markets_top
+Israel,KEN.TA,Kenon Holdings Ltd.,,10630113280.0,ILA,False,new_markets_top
+Israel,MTAV.TA,Meitav Investment House Ltd,,10540039168.0,ILA,True,new_markets_top
+Israel,MTRX.TA,Matrix IT Ltd.,,10216759296.0,ILA,False,new_markets_top
+Israel,MVNE.TA,Mivne Real Estate (K.D) Ltd,,9772440576.0,ILA,False,new_markets_top
+Israel,AMOT.TA,Amot Investments Ltd.,,9620451328.0,ILA,False,new_markets_top
+Israel,SAE.TA,Shufersal Ltd,,9524889600.0,ILA,False,new_markets_top
+Israel,PAZ.TA,Paz Retail And Energy Ltd.,,9209368576.0,ILA,False,new_markets_top
+Israel,DIMRI.TA,Y.H. Dimri Construction & Development Ltd,,9130005504.0,ILA,False,new_markets_top
+Israel,GVYM.TA,Gav-Yam Lands Corp. Ltd,,8603321344.0,ILA,False,new_markets_top
+Israel,TDHR.TA,Tidhar Group Ltd.,,8583231488.0,ILA,False,new_markets_top
+Israel,ELTR.TA,Electra Limited,,8572305920.0,ILA,False,new_markets_top
+Israel,ISRO.TA,Isrotel Ltd.,,8339933184.0,ILA,False,new_markets_top
+Israel,BSEN.TA,Bet Shemesh Engines Holdings (1997) Ltd,,7974177280.0,ILA,False,new_markets_top
+Israel,VRDS.TA,Veridis Environment Ltd,,7777506304.0,ILA,False,new_markets_top
+Israel,AFPR.TA,AFI Properties Ltd.,,7530306048.0,ILA,False,new_markets_top
+Israel,MSKE.TA,Meshek Energy - Renewable Energies Ltd.,,7129571840.0,ILA,False,new_markets_top
+Israel,PTNR.TA,Partner Communications Company Ltd.,,6945950720.0,ILA,False,new_markets_top
+Israel,ALHE.TA,Alony-Hetz Properties & Investments Ltd,,6785722368.0,ILA,False,new_markets_top
+Israel,ALRPR.TA,Alrov Properties and Lodgings Ltd.,,6547794944.0,ILA,False,new_markets_top
+Israel,ASHG.TA,Ashtrom Group Ltd.,,6536701952.0,ILA,False,new_markets_top
+Israel,TRPZ.TA,Turpaz Industries Ltd,,6436761088.0,ILA,False,new_markets_top
+Israel,ORL.TA,Oil Refineries Ltd.,,6138619392.0,ILA,False,new_markets_top
+Israel,FORTY.TA,Formula Systems (1985) Ltd.,,5873177600.0,ILA,False,new_markets_top
+Israel,ARPT.TA,Airport City Ltd.,,5848434688.0,ILA,False,new_markets_top
+Israel,IBI.TA,I.B.I. Investment House Ltd,,5812131840.0,ILA,True,new_markets_top
+Israel,HLAN.TA,Hilan Ltd.,,5798496768.0,ILA,False,new_markets_top
+Israel,NYAX.TA,Nayax Ltd.,,5733807104.0,ILA,False,new_markets_top
+Israel,NOFR.TA,O.Y. Nofar Energy Ltd,,5725807104.0,ILA,False,new_markets_top
+Israel,CEL.TA,Cellcom Israel Ltd.,,5702045696.0,ILA,False,new_markets_top
+Israel,ONE.TA,One Software Technologies Ltd,,5685000704.0,ILA,False,new_markets_top
+Israel,ENOG.TA,Energean plc,,5629404160.0,ILA,False,new_markets_top
+Israel,ILCO.TA,Israel Corporation Ltd,,5560776192.0,ILA,False,new_markets_top
+Israel,AURA.TA,Aura Investments Ltd.,,5523173376.0,ILA,False,new_markets_top
+Israel,RATI.TA,Ratio Energies - Limited Partnership,,5484759552.0,ILA,False,new_markets_top
+Israel,ISRA.TA,Isramco Negev 2 Limited Partnership,,5370324992.0,ILA,False,new_markets_top
+Israel,AYAL.TA,Ayalon Insurance Company Ltd,,5294247936.0,ILA,True,new_markets_top
+Israel,GNRS.TA,Generation Capital Ltd,,5211710976.0,ILA,True,new_markets_top
+Israel,YHNF.TA,M.Yochananof and Sons (1988) Ltd,,5046121472.0,ILA,False,new_markets_top
+Israel,MAXO.TA,Max Stock Ltd.,,4976526336.0,ILA,False,new_markets_top
+Israel,DELG.TA,Delta Galil Industries Ltd.,,4786731008.0,ILA,False,new_markets_top
+Israel,ECNR.TA,Econergy Ltd,,4782630400.0,ILA,False,new_markets_top
+Israel,RMON.TA,Rimon Consulting & Management Services Ltd.,,4779466240.0,ILA,False,new_markets_top
+Israel,LAPD.TA,Lapidoth Capital Ltd,,4716507136.0,ILA,False,new_markets_top
+Israel,ISCN.TA,Israel Canada (T.R) Ltd,,4686676480.0,ILA,False,new_markets_top
+Israel,RMLI.TA,Rami Levi Chain Stores Hashikma Marketing 2006 Ltd,,4640993792.0,ILA,False,new_markets_top
+Israel,FOX.TA,Fox-Wizel Ltd.,,4370292224.0,ILA,False,new_markets_top
+Israel,RIT1.TA,Reit 1 Ltd,,4290708480.0,ILA,False,new_markets_top
+Israel,KSTN.TA,Keystone Infra Ltd,,4165021440.0,ILA,False,new_markets_top
+Israel,IES.TA,I.E.S Holdings Ltd,,3997648128.0,ILA,False,new_markets_top
+Israel,SBEN.TA,Shikun & Binui Energy Ltd,,3994502656.0,ILA,False,new_markets_top
+Israel,BLSR.TA,Blue Square Real Estate Ltd,,3948869120.0,ILA,False,new_markets_top
+Israel,DRTS.TA,Alpha Tau Medical Ltd.,,3893330176.0,ILA,False,new_markets_top
+Israel,INRM.TA,Inrom Construction Industries Ltd,,3865577728.0,ILA,False,new_markets_top
+Israel,MISH.TA,Mivtach Shamir Holdings Ltd,,3851239680.0,ILA,True,new_markets_top
+Israel,LAHAV.TA,Lahav LR Real Estate Ltd,,3843327232.0,ILA,False,new_markets_top
+Israel,ISRS.TA,Isras Investment Company Ltd,,3838087424.0,ILA,False,new_markets_top
+Israel,ISCD.TA,Isracard Ltd.,,3833501440.0,ILA,True,new_markets_top
+Israel,IDIN.TA,I.D.I. Insurance Company Ltd.,,3828609536.0,ILA,True,new_markets_top
+Israel,OPK.TA,"OPKO Health, Inc.",,3795079424.0,ILA,False,new_markets_top
+Israel,DNYA.TA,Danya Cebus Ltd.,,3783564032.0,ILA,False,new_markets_top
+Israel,SANO1.TA,Sano Bruno's Enterprises Ltd,,3780039680.0,ILA,False,new_markets_top
+Israel,AZRM.TA,"Azorim-Investment, Development & Construction Co. Ltd",,3752479232.0,ILA,False,new_markets_top
+Israel,SCOP.TA,Scope Metals Group Ltd.,,3744731648.0,ILA,False,new_markets_top
+Israel,AMPA.TA,Ampa Ltd,,3732899072.0,ILA,False,new_markets_top
+Israel,EQTL.TA,Equital Ltd.,,3692788992.0,ILA,False,new_markets_top
+Israel,UMH.TA,"UMH Properties, Inc.",,3673217792.0,ILA,False,new_markets_top
+Israel,AVSR.TA,Avisror and Sons Building and Development Works Ltd,,3567759872.0,ILA,False,new_markets_top
+Israel,AFHL.TA,Afcon Holdings Ltd,,3433106432.0,ILA,False,new_markets_top
+Israel,AMRM.TA,Amram Avraham Construction Company Ltd,,3146663424.0,ILA,False,new_markets_top
+Israel,AFRE.TA,Africa Israel Residences Ltd,,3116635648.0,ILA,False,new_markets_top
+Israel,VILR.TA,Villar International Ltd.,,3082279680.0,ILA,False,new_markets_top
+Israel,ELCO.TA,Elco Ltd.,,3081833984.0,ILA,False,new_markets_top
+Israel,ARGO.TA,ARGO Properties N.V.,,3038061824.0,ILA,False,new_markets_top
+Israel,MRIN.TA,Y.D. More Investments Ltd,,3026018048.0,ILA,True,new_markets_top
+Israel,RPOL.TA,RP Optical Lab Ltd,,2961840640.0,ILA,False,new_markets_top
+Israel,SMT.TA,Summit Real Estate Holdings Ltd,,2948793344.0,ILA,False,new_markets_top
+Israel,TLSY.TA,Telsys Ltd.,,2913758464.0,ILA,False,new_markets_top
+Israel,PRTC.TA,Priortech Ltd,,2899247872.0,ILA,False,new_markets_top
+Israel,DANH.TA,Dan Hotels Ltd,,2889977600.0,ILA,False,new_markets_top
+Israel,DRAL.TA,Dor Alon Energy In Israel (1988) Ltd,,2858296320.0,ILA,False,new_markets_top
+Israel,DLTI.TA,Delta Israel Brands Ltd,,2778103552.0,ILA,False,new_markets_top
+Israel,RLRE.TA,Rami Levy Hashikma Real Estate Ltd,,2739360512.0,ILA,False,new_markets_top
+Israel,ISHI.TA,Israel Shipyards Industries Ltd,,2724999936.0,ILA,False,new_markets_top
+Poland,PKN.WA,Orlen S.A.,,177020436480.0,PLN,False,new_markets_top
+Poland,PKO.WA,Powszechna Kasa Oszczednosci Bank Polski Spólka Akcyjna,,140500008960.0,PLN,True,new_markets_top
+Poland,EBP.WA,Erste Bank Polska S.A.,,77418618880.0,PLN,True,new_markets_top
+Poland,PEO.WA,Bank Polska Kasa Opieki S.A.,,67297312768.0,PLN,True,new_markets_top
+Poland,PZU.WA,Powszechny Zaklad Ubezpieczen SA,,62795395072.0,PLN,True,new_markets_top
+Poland,MBK.WA,mBank S.A.,,59928666112.0,PLN,True,new_markets_top
+Poland,KGH.WA,KGHM Polska Miedz S.A.,,59340001280.0,PLN,False,new_markets_top
+Poland,ALE.WA,Allegro.eu S.A.,,59021803520.0,PLN,False,new_markets_top
+Poland,ING.WA,ING Bank Slaski S.A.,,57634299904.0,PLN,True,new_markets_top
+Poland,LPP.WA,LPP SA,,50631204864.0,PLN,False,new_markets_top
+Poland,DNP.WA,Dino Polska S.A.,,38784626688.0,PLN,False,new_markets_top
+Poland,PGE.WA,PGE Polska Grupa Energetyczna S.A.,,37458788352.0,PLN,False,new_markets_top
+Poland,INPT.WA,InPost S.A.,,33694636032.0,PLN,False,new_markets_top
+Poland,ZAB.WA,Zabka Group S.A.,,31648073728.0,PLN,False,new_markets_top
+Poland,CDR.WA,CD Projekt Red S.A.,,26875928576.0,PLN,False,new_markets_top
+Poland,MIL.WA,Bank Millennium S.A.,,26665793536.0,PLN,True,new_markets_top
+Poland,BNP.WA,BNP Paribas Bank Polska S.A.,,24234094592.0,PLN,True,new_markets_top
+Poland,OPL.WA,Orange Polska S.A.,,21023967232.0,PLN,False,new_markets_top
+Poland,ACP.WA,Asseco Poland S.A.,,19805532160.0,PLN,False,new_markets_top
+Poland,BFT.WA,Benefit Systems S.A.,,19476148224.0,PLN,False,new_markets_top
+Poland,BDX.WA,Budimex SA,,17973188608.0,PLN,False,new_markets_top
+Poland,ALR.WA,Alior Bank S.A.,,17037295616.0,PLN,True,new_markets_top
+Poland,TPE.WA,TAURON Polska Energia S.A.,,16929627136.0,PLN,False,new_markets_top
+Poland,XTB.WA,XTB S.A.,,15895667712.0,PLN,True,new_markets_top
+Poland,BHW.WA,Bank Handlowy w Warszawie S.A.,,15516744704.0,PLN,True,new_markets_top
+Poland,CAR.WA,Inter Cars S.A.,,14326498304.0,PLN,False,new_markets_top
+Poland,KTY.WA,Grupa Kety S.A.,,12226662400.0,PLN,False,new_markets_top
+Poland,ENA.WA,ENEA S.A.,,11548137472.0,PLN,False,new_markets_top
+Poland,CPS.WA,Cyfrowy Polsat S.A.,,9590502400.0,PLN,False,new_markets_top
+Poland,MDV.WA,Modivo S.A.,,7363675648.0,PLN,False,new_markets_top
+Poland,KRU.WA,KRUK Spólka Akcyjna,,6922269184.0,PLN,True,new_markets_top
+Poland,DOM.WA,Dom Development S.A.,,6191621120.0,PLN,False,new_markets_top
+Poland,DIA.WA,Diagnostyka S.A.,,5323400192.0,PLN,False,new_markets_top
+Poland,GPW.WA,Gielda Papierów Wartosciowych w Warszawie S.A.,,4507792896.0,PLN,True,new_markets_top
+Poland,NWG.WA,Newag S.A.,,4320000000.0,PLN,False,new_markets_top
+Poland,PEP.WA,Polenergia S.A.,,4146655744.0,PLN,False,new_markets_top
+Poland,ASE.WA,Asseco South Eastern Europe S.A.,,4068509440.0,PLN,False,new_markets_top
+Poland,DVL.WA,Develia S.A.,,3892024320.0,PLN,False,new_markets_top
+Poland,GPP.WA,Grupa Pracuj S.A.,,3782510848.0,PLN,False,new_markets_top
+Poland,CBF.WA,cyber_Folks S.A.,,3605224960.0,PLN,False,new_markets_top
+Poland,APR.WA,Auto Partner SA,,3592049920.0,PLN,False,new_markets_top
+Poland,JSW.WA,Jastrzebska Spólka Weglowa S.A.,,3543482112.0,PLN,False,new_markets_top
+Poland,ROB.WA,Robyg S.A.,,3239484672.0,PLN,False,new_markets_top
+Poland,NEU.WA,NEUCA S.A.,,3188575488.0,PLN,False,new_markets_top
+Poland,CRI.WA,Creotech Instruments S.A.,,2908608000.0,PLN,False,new_markets_top
+Poland,ABS.WA,Asseco Business Solutions S.A.,,2881119488.0,PLN,False,new_markets_top
+Poland,SNT.WA,Synektik Spólka Akcyjna,,2865787392.0,PLN,False,new_markets_top
+Poland,ARH.WA,Archicom S.A.,,2837058048.0,PLN,False,new_markets_top
+Poland,VRC.WA,Vercom S.A.,,2730054912.0,PLN,False,new_markets_top
+Poland,1AT.WA,Atal S.A.,,2656197888.0,PLN,False,new_markets_top
+Poland,MLG.WA,MLP Group S.A.,,2639448064.0,PLN,False,new_markets_top
+Poland,GNS.WA,Niewiadów Polska Grupa Militarna S.A.,,2531045120.0,PLN,False,new_markets_top
+Poland,ABE.WA,AB S.A.,,2302205184.0,PLN,False,new_markets_top
+Poland,ECH.WA,Echo Investment S.A.,,2203767808.0,PLN,False,new_markets_top
+Poland,CMP.WA,Comp S.A.,,2074299136.0,PLN,False,new_markets_top
+Poland,PXM.WA,Polimex-Mostostal S.A.,,1993642112.0,PLN,False,new_markets_top
+Poland,MNC.WA,Mennica Polska S.A.,,1932840320.0,PLN,False,new_markets_top
+Poland,SGN.WA,Sygnity S.A.,,1922938112.0,PLN,False,new_markets_top
+Poland,ATT.WA,Grupa Azoty S.A.,,1787502720.0,PLN,False,new_markets_top
+Poland,RBW.WA,Rainbow Tours S.A.,,1775344000.0,PLN,False,new_markets_top
+Poland,WPL.WA,Wirtualna Polska Holding S.A.,,1712079488.0,PLN,False,new_markets_top
+Poland,VOX.WA,Voxel S.A.,,1648908160.0,PLN,False,new_markets_top
+Poland,PLW.WA,PlayWay S.A.,,1626503936.0,PLN,False,new_markets_top
+Poland,LBW.WA,Lubawa S.A.,,1535759488.0,PLN,False,new_markets_top
+Poland,TOR.WA,Torpol S.A.,,1534396032.0,PLN,False,new_markets_top
+Poland,TRK.WA,Trakcja S.A.,,1502023040.0,PLN,False,new_markets_top
+Poland,MBR.WA,Mo-BRUK S.A.,,1477168128.0,PLN,False,new_markets_top
+Poland,DIG.WA,Digital Network SA,,1456522368.0,PLN,False,new_markets_top
+Poland,MUR.WA,Murapol S.A.,,1446360064.0,PLN,False,new_markets_top
+Poland,MCI.WA,MCI Capital Alternatywna Spólka Inwestycyjna S.A.,,1432186112.0,PLN,True,new_markets_top
+Poland,TAR.WA,Tarczynski S.A.,,1327591552.0,PLN,False,new_markets_top
+Poland,UNT.WA,Unimot S.A.,,1310011392.0,PLN,False,new_markets_top
+Poland,PCR.WA,PCC Rokita SA,,1274257664.0,PLN,False,new_markets_top
+Poland,VRG.WA,VRG S.A.,,1266061568.0,PLN,False,new_markets_top
+Poland,MRB.WA,Mirbud S.A.,,1244050944.0,PLN,False,new_markets_top
+Poland,DBC.WA,Tire Company Debica S.A.,,1232585600.0,PLN,False,new_markets_top
+Poland,SEL.WA,Selena FM S.A.,,1207465600.0,PLN,False,new_markets_top
+Poland,KGN.WA,Zespól Elektrocieplowni Wroclawskich KOGENERACJA S.A.,,1190510080.0,PLN,False,new_markets_top
+Poland,STP.WA,Stalprodukt S.A.,,1180631808.0,PLN,False,new_markets_top
+Poland,OPN.WA,Oponeo.pl S.A.,,1167983616.0,PLN,False,new_markets_top
+Poland,COG.WA,Cognor Holding S.A.,,1167517184.0,PLN,False,new_markets_top
+Poland,REX.WA,Rex Concepts S.A.,,1142802688.0,PLN,False,new_markets_top
+Poland,DAD.WA,Dadelo S.A.,,1058788672.0,PLN,False,new_markets_top
+Poland,SKA.WA,Fabryka Farb i Lakierów Sniezka SA,,1052322688.0,PLN,False,new_markets_top
+Poland,CLN.WA,Celon Pharma S.A.,,1051274240.0,PLN,False,new_markets_top
+Poland,TXT.WA,Text S.A.,,1001675008.0,PLN,False,new_markets_top
+Poland,BOS.WA,Bank Ochrony Srodowiska S.A.,,969979264.0,PLN,True,new_markets_top
+Poland,ZEP.WA,ZE PAK SA,,968696768.0,PLN,False,new_markets_top
+Poland,CRQ.WA,Creotech Quantum S.A.,,949807616.0,PLN,False,new_markets_top
+Poland,DCR.WA,Decora S.A.,,915277248.0,PLN,False,new_markets_top
+Poland,BRS.WA,Boryszew S.A.,,915060032.0,PLN,False,new_markets_top
+Poland,WWL.WA,Wawel S.A.,,914626944.0,PLN,False,new_markets_top
+Poland,PCE.WA,Grupa Azoty Zaklady Chemiczne Police S.A.,,901516096.0,PLN,False,new_markets_top
+Poland,BST.WA,BEST S.A.,,885739968.0,PLN,True,new_markets_top
+Poland,ENT.WA,Enter Air S.A.,,866661248.0,PLN,False,new_markets_top
+Poland,LWB.WA,Lubelski Wegiel Bogdanka S.A.,,853741184.0,PLN,False,new_markets_top
+Poland,TOA.WA,TOYA S.A.,,848466880.0,PLN,False,new_markets_top
+Poland,ZAP.WA,Zaklady Azotowe Pulawy S.A.,,829591040.0,PLN,False,new_markets_top
+Poland,APT.WA,Apator S.A.,,755521472.0,PLN,False,new_markets_top
+Poland,DAT.WA,DataWalk S.A.,,734697792.0,PLN,False,new_markets_top
+Poland,EUR.WA,Eurocash S.A.,,720865792.0,PLN,False,new_markets_top
+Poland,OBL.WA,Orzel Bialy S.A.,,659365696.0,PLN,False,new_markets_top
+Poland,FRO.WA,FERRO S.A.,,613912768.0,PLN,False,new_markets_top
+Poland,QRS.WA,Quercus TFI S.A.,,611023360.0,PLN,True,new_markets_top
+Poland,ELT.WA,Elektrotim S.A.,,601975424.0,PLN,False,new_markets_top
+Poland,ACT.WA,Action S.A.,,600333440.0,PLN,False,new_markets_top
+Poland,TEN.WA,Ten Square Games S.A.,,587097408.0,PLN,False,new_markets_top
+Poland,SCW.WA,Scanway S.A.,,584810048.0,PLN,False,new_markets_top
+Poland,AGO.WA,Agora S.A.,,579931328.0,PLN,False,new_markets_top
+Poland,ENE.WA,Centrum Medyczne ENEL-MED S.A.,,571261696.0,PLN,False,new_markets_top
+Poland,VGO.WA,VIGO Photonics S.A.,,569406208.0,PLN,False,new_markets_top
+Poland,GOB.WA,Gobarto S.A.,,567124672.0,PLN,False,new_markets_top
+Poland,WAS.WA,Wasko S.A.,,561715008.0,PLN,False,new_markets_top
+Poland,ICE.WA,Medinice S.A.,,558117568.0,PLN,False,new_markets_top
+Poland,CLD.WA,Cloud Technologies S.A.,,538156928.0,PLN,False,new_markets_top
+Poland,MRC.WA,Mercator Medical S.A.,,536800544.0,PLN,False,new_markets_top
+Poland,CIG.WA,CI Games SE,,525179744.0,PLN,False,new_markets_top
+Poland,S2B.WA,Syn2bio S.A.,,519383168.0,PLN,False,new_markets_top
+Poland,ATR.WA,Atrem S.A.,,508577344.0,PLN,False,new_markets_top
+Poland,AMB.WA,Ambra S.A.,,506653568.0,PLN,False,new_markets_top
+Norway,DNB.OL,DNB Bank ASA,,445971038208.0,NOK,True,new_markets_top
+Norway,KOG.OL,Kongsberg Gruppen ASA,,265202171904.0,NOK,False,new_markets_top
+Norway,TEL.OL,Telenor ASA,,172731416576.0,NOK,False,new_markets_top
+Norway,NHY.OL,Norsk Hydro ASA,,141028376576.0,NOK,False,new_markets_top
+Norway,ORK.OL,Orkla ASA,,92763340800.0,NOK,False,new_markets_top
+Norway,AKER.OL,Aker ASA,,84930371584.0,NOK,False,new_markets_top
+Norway,SB1NO.OL,SpareBank 1 Sør-Norge ASA,,83089506304.0,NOK,True,new_markets_top
+Norway,STB.OL,Storebrand ASA,,78975688704.0,NOK,True,new_markets_top
+Norway,SALM.OL,SalMar ASA,,78341054464.0,NOK,False,new_markets_top
+Norway,VEND.OL,Vend Marketplaces ASA,,43846299648.0,NOK,False,new_markets_top
+Norway,PROT.OL,Protector Forsikring ASA,,36366688256.0,NOK,True,new_markets_top
+Norway,SBNOR.OL,Sparebanken Norge,,34346391552.0,NOK,True,new_markets_top
+Norway,MING.OL,SpareBank 1 SMN,,31027703808.0,NOK,True,new_markets_top
+Norway,VEI.OL,Veidekke ASA,,27901566976.0,NOK,False,new_markets_top
+Norway,SPOL.OL,SpareBank 1 Østlandet,,26837520384.0,NOK,True,new_markets_top
+Norway,LSG.OL,Lerøy Seafood Group ASA,,25950840832.0,NOK,False,new_markets_top
+Norway,AFG.OL,AF Gruppen ASA,,21379069952.0,NOK,False,new_markets_top
+Norway,ATEA.OL,Atea ASA,,18407399424.0,NOK,False,new_markets_top
+Norway,AKSO.OL,Aker Solutions ASA,,17824212992.0,NOK,False,new_markets_top
+Norway,NONG.OL,SpareBank 1 Nord-Norge,,17599772672.0,NOK,True,new_markets_top
+Norway,ENTRA.OL,Entra ASA,,16877531136.0,NOK,False,new_markets_top
+Norway,AUSS.OL,Austevoll Seafood ASA,,16690850816.0,NOK,False,new_markets_top
+Norway,BRG.OL,Borregaard ASA,,14129603584.0,NOK,False,new_markets_top
+Norway,EPR.OL,Europris ASA,,13763765248.0,NOK,False,new_markets_top
+Norway,SCATC.OL,Scatec ASA,,12282717184.0,NOK,False,new_markets_top
+Norway,NORCO.OL,Norconsult ASA,,11769049088.0,NOK,False,new_markets_top
+Norway,NAS.OL,Norwegian Air Shuttle ASA,,11589356544.0,NOK,False,new_markets_top
+Norway,ELK.OL,Elkem ASA,,11202720768.0,NOK,False,new_markets_top
+Norway,BONHR.OL,Bonheur ASA,,10505377792.0,NOK,False,new_markets_top
+Norway,NORBT.OL,Norbit ASA,,10102623232.0,NOK,False,new_markets_top
+Norway,AFK.OL,Arendals Fossekompani ASA,,10061791232.0,NOK,False,new_markets_top
+Norway,B2I.OL,B2 Impact ASA,,8418760704.0,NOK,True,new_markets_top
+Norway,SNTIA.OL,Sentia ASA,,8186681344.0,NOK,False,new_markets_top
+Norway,SATS.OL,Sats ASA,,7968715776.0,NOK,False,new_markets_top
+Norway,LINK.OL,LINK Mobility Group Holding ASA,,6831280640.0,NOK,False,new_markets_top
+Norway,RING.OL,SpareBank 1 Ringerike Hadeland,,6798483968.0,NOK,True,new_markets_top
+Norway,ENDUR.OL,Endúr ASA,,5997115904.0,NOK,False,new_markets_top
+Norway,AKVA.OL,AKVA group ASA,,5764174336.0,NOK,False,new_markets_top
+Norway,KID.OL,Kid ASA,,5560258048.0,NOK,False,new_markets_top
+Norway,CLOUD.OL,Cloudberry Clean Energy ASA,,5507137536.0,NOK,False,new_markets_top
+Norway,SOAG.OL,SpareBank 1 Østfold Akershus,,5390154240.0,NOK,True,new_markets_top
+Norway,MORG.OL,Sparebanken Møre,,5230627328.0,NOK,True,new_markets_top
+Norway,MEDI.OL,Medistim ASA,,5137480192.0,NOK,False,new_markets_top
+Norway,ELMRA.OL,Elmera Group ASA,,5111938048.0,NOK,False,new_markets_top
+Norway,ZAP.OL,Zaptec ASA,,5097164800.0,NOK,False,new_markets_top
+Norway,BOUV.OL,Bouvet ASA,,4954372096.0,NOK,False,new_markets_top
+Norway,MAS.OL,Måsøval AS,,4655321088.0,NOK,False,new_markets_top
+Norway,HELG.OL,SpareBank 1 Helgeland,,4651268096.0,NOK,True,new_markets_top
+Norway,OUTLT.OL,OUTLET GROUP HOLDING ASA,,4396244992.0,NOK,False,new_markets_top
+Norway,BOHUS.OL,Bohus ASA,,4083525632.0,NOK,False,new_markets_top
+Norway,MORLD.OL,Moreld ASA,,4013513472.0,NOK,False,new_markets_top
+Norway,GENO.OL,General Oceans ASA,,3916307712.0,NOK,False,new_markets_top
+Norway,PARB.OL,Pareto Bank ASA,,3823764736.0,NOK,True,new_markets_top
+Norway,MULTI.OL,Multiconsult ASA,,3726720768.0,NOK,False,new_markets_top
+Norway,ABG.OL,ABG Sundal Collier Holding ASA,,3722978816.0,NOK,True,new_markets_top
+Norway,NEL.OL,Nel ASA,,3642994944.0,NOK,False,new_markets_top
+Norway,CAMBI.OL,Cambi ASA,,3600578048.0,NOK,False,new_markets_top
+Norway,AKAST.OL,Akastor ASA,,3535624448.0,NOK,False,new_markets_top
+Norway,PLT.OL,poLight ASA,,3525156096.0,NOK,False,new_markets_top
+Norway,ROGS.OL,Rogaland Sparebank,,3407303936.0,NOK,True,new_markets_top
+Norway,ANDF.OL,Andfjord Salmon Group AS,,3284167424.0,NOK,False,new_markets_top
+Norway,NSKOG.OL,Norske Skog ASA,,3223852800.0,NOK,False,new_markets_top
+Norway,CRNA.OL,Circio Holding ASA,,3107607808.0,NOK,False,new_markets_top
+Norway,SBO.OL,Selvaag Bolig ASA,,2932627968.0,NOK,False,new_markets_top
+Norway,POL.OL,Polaris Media ASA,,2890519552.0,NOK,False,new_markets_top
+Norway,GSF.OL,Grieg Seafood ASA,,2563617280.0,NOK,False,new_markets_top
+Norway,OTL.OL,Odfjell Technology Ltd.,,2367832064.0,NOK,False,new_markets_top
+Norway,INSTA.OL,Instabank ASA,,2282264832.0,NOK,True,new_markets_top
+Norway,ZAL.OL,Zalaris ASA,,2226587904.0,NOK,False,new_markets_top
+Norway,BINT.OL,Bevest ASA,,2136448256.0,NOK,True,new_markets_top
+Norway,REACH.OL,Reach Subsea ASA,,2014067456.0,NOK,False,new_markets_top
+Norway,SKUE.OL,Skue Sparebank,,2005215488.0,NOK,True,new_markets_top
+Norway,TRMED.OL,Thor Medical ASA,,1816757888.0,NOK,False,new_markets_top
+Norway,SALME.OL,Salmon Evolution ASA,,1736800384.0,NOK,False,new_markets_top
+Norway,NRC.OL,NRC Group ASA,,1684549120.0,NOK,False,new_markets_top
+Norway,BMA.OL,Byggma ASA,,1675662848.0,NOK,False,new_markets_top
+Norway,SNOR.OL,SpareBank 1 Nordmøre,,1667373184.0,NOK,True,new_markets_top
+Norway,JAREN.OL,Jæren Sparebank,,1612449280.0,NOK,True,new_markets_top
+Norway,NKR.OL,Nekkar ASA,,1515706496.0,NOK,False,new_markets_top
+Norway,NOHAL.OL,Nordic Halibut AS,,1513428736.0,NOK,False,new_markets_top
+Norway,SPOG.OL,Sparebanken Øst,,1471914112.0,NOK,True,new_markets_top
+Norway,DFENS.OL,Fjord Defence Group ASA,,1418727040.0,NOK,False,new_markets_top
+Norway,MGN.OL,Magnora ASA,,1351818368.0,NOK,False,new_markets_top
+Norway,PHO.OL,Photocure ASA,,1326988800.0,NOK,False,new_markets_top
+Norway,NCOD.OL,Norcod AS,,1303250944.0,NOK,False,new_markets_top
+Norway,EIOF.OL,Eidesvik Offshore ASA,,1277208320.0,NOK,False,new_markets_top
+Norway,APR.OL,Appear ASA,,1250350464.0,NOK,False,new_markets_top
+Norway,MDATA.OL,Magnora Data Center ASA,,1226528768.0,NOK,False,new_markets_top
+Norway,ROMER.OL,Romerike Sparebank,,1213542784.0,NOK,True,new_markets_top
+Norway,AURG.OL,Aurskog Sparebank,,1211352576.0,NOK,True,new_markets_top
+Norway,GIGA.OL,Gigante Salmon AS,,1140952320.0,NOK,False,new_markets_top
+Norway,KOMPL.OL,Komplett ASA,,1077180416.0,NOK,False,new_markets_top
+Norway,XPLRA.OL,Xplora Technologies AS,,1038569088.0,NOK,False,new_markets_top
+Norway,AZT.OL,ArcticZymes Technologies ASA,,1013767168.0,NOK,False,new_markets_top
+Norway,SAGA.OL,Saga Pure ASA,,966861504.0,NOK,True,new_markets_top
+Norway,VVL.OL,Voss Veksel- og Landmandsbank ASA,,943190464.0,NOK,True,new_markets_top
+Norway,LUMI.OL,Lumi Education Group AS,,937022016.0,NOK,False,new_markets_top
+Norway,OMDA.OL,Omda AS,,933098688.0,NOK,False,new_markets_top
+Norway,VOW.OL,Vow ASA,,837839168.0,NOK,False,new_markets_top
+Norway,BIEN.OL,Bien Sparebank ASA,,823628736.0,NOK,True,new_markets_top
+Norway,DELIA.OL,Dellia Group ASA,,817984768.0,NOK,False,new_markets_top
+Norway,VISTN.OL,Vistin Pharma ASA,,802637120.0,NOK,False,new_markets_top
+Norway,HGSB.OL,Haugesund Sparebank,,801707904.0,NOK,True,new_markets_top
+Norway,HKY.OL,Havila Kystruten AS,,770387136.0,NOK,False,new_markets_top
+Norway,STECH.OL,Soiltech ASA,,743658496.0,NOK,False,new_markets_top
+Norway,HDLY.OL,Huddly AS,,743278784.0,NOK,False,new_markets_top
+Norway,OTOVO.OL,Otovo ASA,,719206912.0,NOK,False,new_markets_top
+Norway,HBC.OL,Hofseth BioCare ASA,,685942144.0,NOK,False,new_markets_top
+Norway,GRONG.OL,Grong Sparebank,,664197824.0,NOK,True,new_markets_top
+Norway,SCANA.OL,Scana ASA,,646641024.0,NOK,False,new_markets_top
+Norway,INIFY.OL,INIFY Laboratories AB,,628727872.0,NOK,False,new_markets_top
+Norway,SB68.OL,Sparebank 68° Nord,,625817856.0,NOK,True,new_markets_top
+Norway,GENT.OL,Gentian Diagnostics ASA,,612161472.0,NOK,False,new_markets_top
+Norway,LYTIX.OL,Lytix Biopharma ASA,,612124096.0,NOK,False,new_markets_top
+Norway,TINDE.OL,Tinde Sparebank,,602227328.0,NOK,True,new_markets_top
+Norway,BOR.OL,Borgestad ASA,,592995200.0,NOK,False,new_markets_top
+Norway,PLCAN.OL,Pelican Aqua Holding Plc,,589680000.0,NOK,False,new_markets_top
+Norway,STST.OL,Stainless Tankers ASA,,565650048.0,NOK,False,new_markets_top
+Norway,IDEX.OL,IDEX Biometrics ASA,,555078080.0,NOK,False,new_markets_top
+Norway,ZLNA.OL,Zelluna ASA,,546447360.0,NOK,False,new_markets_top
+Denmark,NOVO-B.CO,Novo Nordisk A/S,,1168370958336.0,DKK,False,new_markets_top
+Denmark,DSV.CO,DSV A/S,,330342334464.0,DKK,False,new_markets_top
+Denmark,DANSKE.CO,Danske Bank A/S,,275282526208.0,DKK,True,new_markets_top
+Denmark,ORSTED.CO,Ørsted A/S,,171539906560.0,DKK,False,new_markets_top
+Denmark,CARL-A.CO,Carlsberg A/S,,143406694400.0,DKK,False,new_markets_top
+Denmark,COLO-B.CO,Coloplast A/S,,107973877760.0,DKK,False,new_markets_top
+Denmark,TRYG.CO,Tryg A/S,,93372825600.0,DKK,True,new_markets_top
+Denmark,DEMANT.CO,Demant A/S,,74658103296.0,DKK,False,new_markets_top
+Denmark,PNDORA.CO,Pandora A/S,,61441241088.0,DKK,False,new_markets_top
+Denmark,ALSYDB.CO,AL Sydbank A/S,,58475323392.0,DKK,True,new_markets_top
+Denmark,JYSK.CO,Jyske Bank A/S,,58369425408.0,DKK,True,new_markets_top
+Denmark,ALK-B.CO,ALK-Abelló A/S,,53384110080.0,DKK,False,new_markets_top
+Denmark,HLUN-B.CO,H. Lundbeck A/S,,51095683072.0,DKK,False,new_markets_top
+Denmark,KBHL.CO,Københavns Lufthavne A/S,,45047922688.0,DKK,False,new_markets_top
+Denmark,ISS.CO,ISS A/S,,44827770880.0,DKK,False,new_markets_top
+Denmark,RILBA.CO,Ringkjøbing Landbobank A/S,,40256221184.0,DKK,True,new_markets_top
+Denmark,FLS.CO,FLSmidth & Co. A/S,,29484124160.0,DKK,False,new_markets_top
+Denmark,ALMB.CO,Alm. Brand A/S,,23675592704.0,DKK,True,new_markets_top
+Denmark,RBREW.CO,Royal Unibrew A/S,,20845492224.0,DKK,False,new_markets_top
+Denmark,AMBU-B.CO,Ambu A/S,,20747954176.0,DKK,False,new_markets_top
+Denmark,SCHO.CO,Aktieselskabet Schouw & Co.,,18747817984.0,DKK,False,new_markets_top
+Denmark,BAVA.CO,Bavarian Nordic A/S,,18387347456.0,DKK,False,new_markets_top
+Denmark,NETC.CO,Netcompany Group A/S,,17112739840.0,DKK,False,new_markets_top
+Denmark,GN.CO,GN Store Nord A/S,,15791679488.0,DKK,False,new_markets_top
+Denmark,ZEAL.CO,Zealand Pharma A/S,,15348915200.0,DKK,False,new_markets_top
+Denmark,BIOMAR.CO,BioMar Group A/S,,13050143744.0,DKK,False,new_markets_top
+Denmark,JDAN.CO,Jeudan A/S,,11022030848.0,DKK,False,new_markets_top
+Denmark,CHEMM.CO,ChemoMetec A/S,,10211703808.0,DKK,False,new_markets_top
+Denmark,DFDS.CO,DFDS A/S,,8372524032.0,DKK,False,new_markets_top
+Denmark,SJF.CO,SJF Bank A/S,,7465154560.0,DKK,True,new_markets_top
+Denmark,NTG.CO,NTG Nordic Transport Group A/S,,6940278272.0,DKK,False,new_markets_top
+Denmark,STG.CO,Scandinavian Tobacco Group A/S,,6119806976.0,DKK,False,new_markets_top
+Denmark,SPG.CO,SP Group A/S,,5324099072.0,DKK,False,new_markets_top
+Denmark,GUBRA.CO,Gubra A/S,,4843576832.0,DKK,False,new_markets_top
+Denmark,LASP.CO,Lån & Spar Bank A/S,,4701913088.0,DKK,True,new_markets_top
+Denmark,SKJE.CO,Skjern Bank A/S,,3667497472.0,DKK,True,new_markets_top
+Denmark,TIV.CO,Tivoli A/S,,3487162624.0,DKK,False,new_markets_top
+Denmark,MATAS.CO,Matas A/S,,3329294336.0,DKK,False,new_markets_top
+Denmark,DAB.CO,Danske Andelskassers Bank A/S,,3031159040.0,DKK,True,new_markets_top
+Denmark,DJUR.CO,Djurslands Bank A/S,,2828261632.0,DKK,True,new_markets_top
+Denmark,FOBANK.CO,Føroya Banki,,2618489088.0,DKK,True,new_markets_top
+Denmark,PARKEN.CO,PARKEN Sport & Entertainment A/S,,2411097088.0,DKK,False,new_markets_top
+Denmark,AOJ-B.CO,Brødrene A & O Johansen A/S,,2224027392.0,DKK,False,new_markets_top
+Denmark,GRLA.CO,GrønlandsBANKEN A/S,,2151000064.0,DKK,True,new_markets_top
+Denmark,MTHH.CO,MT Højgaard Holding A/S,,2081025280.0,DKK,False,new_markets_top
+Denmark,CBRAIN.CO,cBrain A/S,,1638886016.0,DKK,False,new_markets_top
+Denmark,KRE.CO,Kreditbanken A/S,,1623129984.0,DKK,True,new_markets_top
+Denmark,HH.CO,H+H International A/S,,1545047808.0,DKK,False,new_markets_top
+Denmark,SOLAR-B.CO,Solar A/S,,1526243840.0,DKK,False,new_markets_top
+Denmark,BO.CO,Bang & Olufsen A/S,,1501639552.0,DKK,False,new_markets_top
+Denmark,FYNBK.CO,Fynske Bank A/S,,1500894208.0,DKK,True,new_markets_top
+Denmark,COLUM.CO,Columbus A/S,,1154733568.0,DKK,False,new_markets_top
+Denmark,GYLD-A.CO,Gyldendal A/S,,1152049792.0,DKK,False,new_markets_top
+Denmark,NNIT.CO,NNIT A/S,,1133122048.0,DKK,False,new_markets_top
+Denmark,FLUG-B.CO,Flügger group A/S,,1109057024.0,DKK,False,new_markets_top
+Denmark,LOLB.CO,Lollands Bank A/S,,946080000.0,DKK,True,new_markets_top
+Denmark,NORTHM.CO,North Media A/S,,886825280.0,DKK,False,new_markets_top
+Denmark,PRIMOF.CO,Prime Office A/S,,868282432.0,DKK,False,new_markets_top
+Denmark,FFARMS.CO,FirstFarms A/S,,819520576.0,DKK,False,new_markets_top
+Denmark,RTX.CO,RTX A/S,,791788032.0,DKK,False,new_markets_top
+Denmark,MNBA.CO,Møns Bank A/S,,770000000.0,DKK,True,new_markets_top
+Denmark,TCM.CO,TCM Group A/S,,697964480.0,DKK,False,new_markets_top
+Denmark,PARKST-A.CO,Park Street A/S,,642042496.0,DKK,False,new_markets_top
+Denmark,LUXOR-B.CO,Investeringsselskabet Luxor A/S,,610501504.0,DKK,True,new_markets_top
+Denmark,FED.CO,Fast Ejendom Danmark A/S,,578122240.0,DKK,False,new_markets_top
+Denmark,HUSCO.CO,HusCompagniet A/S,,531484608.0,DKK,False,new_markets_top
+Denmark,BIOPOR.CO,BioPorto A/S,,512424224.0,DKK,False,new_markets_top
+Denmark,AGF-B.CO,AGF A/S,,508680000.0,DKK,False,new_markets_top
+Denmark,HARB-B.CO,Harboes Bryggeri A/S,,506718976.0,DKK,False,new_markets_top
+Denmark,GABR.CO,Gabriel Holding A/S,,423773760.0,DKK,False,new_markets_top
+Denmark,CPHCAP-ST.CO,Copenhagen Capital A/S,,387257312.0,DKK,False,new_markets_top
+Denmark,TGAMES.CO,TROPHY GAMES Development A/S,,372638080.0,DKK,False,new_markets_top
+Denmark,GREENM.CO,GreenMobility A/S,,371844384.0,DKK,False,new_markets_top
+Denmark,DONKEY.CO,DonkeyRepublic Holding A/S,,332117824.0,DKK,False,new_markets_top
+Denmark,EGNETY.CO,EgnsINVEST Ejendomme Tyskland A/S,,317574432.0,DKK,False,new_markets_top
+Denmark,BIF.CO,Brøndbyernes IF Fodbold A/S,,317104992.0,DKK,False,new_markets_top
+Denmark,HVID.CO,Hvidbjerg Bank A/S,,304947232.0,DKK,True,new_markets_top
+Denmark,PFINV.CO,Papirfabrikken Invest A/S,,300018400.0,DKK,False,new_markets_top
+Denmark,SWISS.CO,Swiss Properties Invest A/S,,248265280.0,DKK,False,new_markets_top
+Denmark,STRINV.CO,Strategic Investments A/S,,236834992.0,DKK,True,new_markets_top
+Denmark,CEMAT.CO,Cemat A/S,,215870672.0,DKK,False,new_markets_top
+Denmark,KLEE-B.CO,Brd. Klee A/S,,201192976.0,DKK,False,new_markets_top
+Denmark,IMPERO.CO,Impero A/S,,188717472.0,DKK,False,new_markets_top
+Denmark,HOVE.CO,Hove A/S,,171420992.0,DKK,False,new_markets_top
+Denmark,RBLN-B.CO,Roblon A/S,,166297952.0,DKK,False,new_markets_top
+Denmark,SIG.CO,Scandinavian Investment Group A/S,,161350144.0,DKK,False,new_markets_top
+Denmark,DATA.CO,Dataproces Group A/S,,154323760.0,DKK,False,new_markets_top
+Denmark,RIAS-B.CO,RIAS A/S,,147603200.0,DKK,False,new_markets_top
+Denmark,NEWCAP.CO,Newcap Holding A/S,,132494168.0,DKK,True,new_markets_top
+Denmark,AGAT.CO,Agat Ejendomme A/S,,108571224.0,DKK,False,new_markets_top
+Denmark,KONSOL.CO,Konsolidator A/S,,107261600.0,DKK,False,new_markets_top
+Denmark,WMA.CO,WindowMaster International A/S,,104994800.0,DKK,False,new_markets_top
+Denmark,PEG.CO,Pharma Equity Group A/S,,97221320.0,DKK,False,new_markets_top
+Denmark,DANT.CO,Dantax A/S,,96600000.0,DKK,False,new_markets_top
+Denmark,BACTIQ.CO,BactiQuant A/S,,90802896.0,DKK,False,new_markets_top
+Denmark,ERRIA.CO,Erria A/S,,85360080.0,DKK,False,new_markets_top
+Denmark,VIRO.CO,ViroGates A/S,,74255128.0,DKK,False,new_markets_top
+Denmark,SMSMED.CO,Scandinavian Medical Solutions A/S,,69515000.0,DKK,False,new_markets_top
+Denmark,AAB.CO,Aalborg Boldspilklub A/S,,68950328.0,DKK,False,new_markets_top
+Denmark,AGILC.CO,Agillic A/S,,66360644.0,DKK,False,new_markets_top
+Denmark,OKEAC.CO,Det Østasiatiske Kompagni A/S,,56308000.0,DKK,True,new_markets_top
+Denmark,QINTER.CO,Q-Interline A/S,,51223392.0,DKK,False,new_markets_top
+Denmark,ESG.CO,Ennogie Solar Group A/S,,50301524.0,DKK,False,new_markets_top
+Denmark,DADC.CO,Danish Aerospace and Defence Company A/S,,47761764.0,DKK,False,new_markets_top
+Denmark,FASTPC.CO,FastPassCorp A/S,,47550468.0,DKK,False,new_markets_top
+Denmark,NEXCOM.CO,Nexcom A/S,,45192672.0,DKK,False,new_markets_top
+Denmark,ROV.CO,Rovsing A/S,,39686748.0,DKK,False,new_markets_top
+Denmark,ALEFRM.CO,Alefarm Brewing A/S,,36766996.0,DKK,False,new_markets_top
+Denmark,STRAP.CO,Strategic Partners A/S,,34631680.0,DKK,False,new_markets_top
+Denmark,STENO.CO,Stenocare A/S,,28768520.0,DKK,False,new_markets_top
+Denmark,MOVINN.CO,Movinn A/S,,25438024.0,DKK,False,new_markets_top
+Denmark,FOM.CO,FOM Technologies A/S,,25307018.0,DKK,False,new_markets_top
+Denmark,MDUNDO.CO,Mdundo.com A/S,,25267630.0,DKK,False,new_markets_top
+Denmark,WIRTEK.CO,Wirtek A/S,,25033514.0,DKK,False,new_markets_top
+Denmark,ATLA-DKK.CO,P/F Atlantic Petroleum,,20708016.0,DKK,False,new_markets_top
+Denmark,MONSO.CO,Monsenso A/S,,20318048.0,DKK,False,new_markets_top
+Denmark,UNLGRP.CO,Unlimit Group A/S,,7471178.0,DKK,False,new_markets_top
+Finland,NDA-FI.HE,Nordea Bank Abp,,51839586304.0,EUR,True,new_markets_top
+Finland,NOKIA.HE,Nokia Oyj,,41609129984.0,EUR,False,new_markets_top
+Finland,KNEBV.HE,KONE Oyj,,29044615168.0,EUR,False,new_markets_top
+Finland,SAMPO.HE,Sampo Oyj,,24284651520.0,EUR,True,new_markets_top
+Finland,NESTE.HE,Neste Oyj,,23762982912.0,EUR,False,new_markets_top
+Finland,FORTUM.HE,Fortum Oyj,,20610164736.0,EUR,False,new_markets_top
+Finland,WRT1V.HE,Wärtsilä Oyj Abp,,16071030784.0,EUR,False,new_markets_top
+Finland,METSO.HE,Metso Oyj,,13307783168.0,EUR,False,new_markets_top
+Finland,ORNBV.HE,Orion Oyj,,12913682432.0,EUR,False,new_markets_top
+Finland,UPM.HE,UPM-Kymmene Oyj,,12866706432.0,EUR,False,new_markets_top
+Finland,KESKOB.HE,Kesko Oyj,,9998391296.0,EUR,False,new_markets_top
+Finland,STERV.HE,Stora Enso Oyj,,7605451264.0,EUR,False,new_markets_top
+Finland,KCR.HE,Konecranes Plc,,6810842624.0,EUR,False,new_markets_top
+Finland,ELISA.HE,Elisa Oyj,,5559088640.0,EUR,False,new_markets_top
+Finland,VALMT.HE,Valmet Oyj,,4919000064.0,EUR,False,new_markets_top
+Finland,HIAB.HE,Hiab Oyj,,3394058240.0,EUR,False,new_markets_top
+Finland,MANTA.HE,Mandatum Oyj,,2926176512.0,EUR,True,new_markets_top
+Finland,HUH1V.HE,Huhtamäki Oyj,,2838825984.0,EUR,False,new_markets_top
+Finland,VAIAS.HE,Vaisala Oyj,,2491613696.0,EUR,False,new_markets_top
+Finland,KEMIRA.HE,Kemira Oyj,,2345410304.0,EUR,False,new_markets_top
+Finland,KALMAR.HE,Kalmar Oyj,,2340984832.0,EUR,False,new_markets_top
+Finland,OUT1V.HE,Outokumpu Oyj,,2178707968.0,EUR,False,new_markets_top
+Finland,TIETO.HE,Tieto Oyj,,2123737984.0,EUR,False,new_markets_top
+Finland,LUMO.HE,Lumo Kodit Oyj,,1847057152.0,EUR,False,new_markets_top
+Finland,TYRES.HE,Nokian Renkaat Oyj,,1846855296.0,EUR,False,new_markets_top
+Finland,SANOMA.HE,Sanoma Oyj,,1722151680.0,EUR,False,new_markets_top
+Finland,SENSO.HE,Sensofusion Oyj,,1644067456.0,EUR,False,new_markets_top
+Finland,PUUILO.HE,Puuilo Oyj,,1567735936.0,EUR,False,new_markets_top
+Finland,IQMX.HE,IQM Quantum Computers Oyj,,1545341696.0,EUR,False,new_markets_top
+Finland,METSA.HE,Metsä Board Oyj,,1317613696.0,EUR,False,new_markets_top
+Finland,BITTI.HE,Bittium Oyj,,1226374656.0,EUR,False,new_markets_top
+Finland,FSKRS.HE,Fiskars Oyj Abp,,1146142848.0,EUR,False,new_markets_top
+Finland,ALMA.HE,Alma Media Oyj,,1118730624.0,EUR,False,new_markets_top
+Finland,GRK.HE,GRK Infra Oyj,,1073868544.0,EUR,False,new_markets_top
+Finland,YIT.HE,YIT Oyj,,977093120.0,EUR,False,new_markets_top
+Finland,AKTIA.HE,Aktia Pankki Oyj,,904950464.0,EUR,True,new_markets_top
+Finland,QTCOM.HE,Qt Group Oyj,,863301184.0,EUR,False,new_markets_top
+Finland,FIA1S.HE,Finnair Oyj,,845620608.0,EUR,False,new_markets_top
+Finland,SCANFL.HE,Scanfil Oyj,,844461184.0,EUR,False,new_markets_top
+Finland,HARVIA.HE,Harvia Oyj,,837314304.0,EUR,False,new_markets_top
+Finland,TTALO.HE,Terveystalo Oyj,,795095360.0,EUR,False,new_markets_top
+Finland,ALBBV.HE,Ålandsbanken Abp,,629627136.0,EUR,True,new_markets_top
+Finland,EVLI.HE,Evli Oyj,,625043648.0,EUR,True,new_markets_top
+Finland,OMASP.HE,Oma Säästöpankki Oyj,,573428800.0,EUR,True,new_markets_top
+Finland,PON1V.HE,Ponsse Oyj,,568291072.0,EUR,False,new_markets_top
+Finland,OLVAS.HE,Olvi Oyj,,567463680.0,EUR,False,new_markets_top
+Finland,CTY1S.HE,Citycon Oyj,,543364288.0,EUR,False,new_markets_top
+Finland,POSTI.HE,Posti Group Oyj,,521378464.0,EUR,False,new_markets_top
+Finland,FRAMERY.HE,Framery Group Oyj,,507277568.0,EUR,False,new_markets_top
+Finland,TALLINK.HE,AS Tallink Grupp,,486710464.0,EUR,False,new_markets_top
+Finland,MUSTI.HE,Musti Group Oyj,,482454976.0,EUR,False,new_markets_top
+Finland,KEMPOWR.HE,Kempower Oyj,,457147264.0,EUR,False,new_markets_top
+Finland,ATRAV.HE,Atria Oyj,,449946272.0,EUR,False,new_markets_top
+Finland,TOKMAN.HE,Tokmanni Group Oyj,,401644448.0,EUR,False,new_markets_top
+Finland,REG1V.HE,Revenio Group Oyj,,379455616.0,EUR,False,new_markets_top
+Finland,LINDEX.HE,Lindex Group Oyj,,370103392.0,EUR,False,new_markets_top
+Finland,MEKKO.HE,Marimekko Oyj,,366144256.0,EUR,False,new_markets_top
+Finland,ENENTO.HE,Enento Group Oyj,,361285728.0,EUR,False,new_markets_top
+Finland,RAIKV.HE,Raisio plc,,360710336.0,EUR,False,new_markets_top
+Finland,KREATE.HE,Kreate Group Oyj,,337111872.0,EUR,False,new_markets_top
+Finland,EQV1V.HE,eQ Oyj,,327945024.0,EUR,True,new_markets_top
+Finland,VIK1V.HE,Viking Line Abp,,317952000.0,EUR,False,new_markets_top
+Finland,PAMPALO.HE,Endomines Finland Oyj,,312203712.0,EUR,False,new_markets_top
+Finland,STEADY.HE,Steady Energy Oy,,309247200.0,EUR,False,new_markets_top
+Finland,CAPMAN.HE,CapMan Oyj,,303682784.0,EUR,True,new_markets_top
+Finland,ANORA.HE,Anora Group Oyj,,276632064.0,EUR,False,new_markets_top
+Finland,ICP1V.HE,Incap Oyj,,249672784.0,EUR,False,new_markets_top
+Finland,UNITED.HE,United Bankers Oyj,,241874864.0,EUR,True,new_markets_top
+Finland,FSECURE.HE,F-Secure Oyj,,240405456.0,EUR,False,new_markets_top
+Finland,RELAIS.HE,Relais Group Oyj,,238373648.0,EUR,False,new_markets_top
+Finland,REMEDY.HE,Remedy Entertainment Oyj,,232396720.0,EUR,False,new_markets_top
+Finland,LASTIK.HE,Lassila & Tikanoja Plc,,229682608.0,EUR,False,new_markets_top
+Finland,ASPO.HE,Aspo Oyj,,215610416.0,EUR,False,new_markets_top
+Finland,TAALA.HE,Taaleri Oyj,,205070304.0,EUR,True,new_markets_top
+Finland,GOFORE.HE,Gofore Oyj,,197117776.0,EUR,False,new_markets_top
+Finland,PIHLIS.HE,Pihlajalinna Oyj,,195655648.0,EUR,False,new_markets_top
+Finland,ETTE.HE,Etteplan Oyj,,191899024.0,EUR,False,new_markets_top
+Finland,KOSKI.HE,Koskisen Oyj,,180708352.0,EUR,False,new_markets_top
+Finland,REAKTOR.HE,Reaktor Group Plc,,174391904.0,EUR,False,new_markets_top
+Finland,CANATU.HE,Canatu Oyj,,174090704.0,EUR,False,new_markets_top
+Finland,VERK.HE,Verkkokauppa.com Oyj,,166047312.0,EUR,False,new_markets_top
+Finland,NOHO.HE,NoHo Partners Oyj,,156780800.0,EUR,False,new_markets_top
+Finland,HKFOODS.HE,HKFoods Oyj,,145114256.0,EUR,False,new_markets_top
+Finland,SRV1V.HE,SRV Yhtiöt Oyj,,144772400.0,EUR,False,new_markets_top
+Finland,TEM1V.HE,Tecnotree Oyj,,142471056.0,EUR,False,new_markets_top
+Finland,ADMCM.HE,Admicom Oyj,,142113584.0,EUR,False,new_markets_top
+Finland,SFOODS.HE,Solar Foods Oyj,,141820480.0,EUR,False,new_markets_top
+Finland,ORIOLA.HE,Oriola Oyj,,139105072.0,EUR,False,new_markets_top
+Finland,ALEX.HE,Alexandria Group Oyj,,134112944.0,EUR,True,new_markets_top
+Finland,DIGIA.HE,Digia Oyj,,130801192.0,EUR,False,new_markets_top
+Finland,EXEL.HE,Exel Composites Oyj,,112368624.0,EUR,False,new_markets_top
+Finland,CITYVA.HE,Cityvarasto Oyj,,109827256.0,EUR,False,new_markets_top
+Finland,SSH1V.HE,SSH Communications Security Oyj,,102231200.0,EUR,False,new_markets_top
+Finland,DETEC.HE,Detection Technology Oyj,,102003184.0,EUR,False,new_markets_top
+Finland,KSL.HE,Keskisuomalainen Oyj,,98620032.0,EUR,False,new_markets_top
+Finland,ILKKA.HE,Ilkka Oyj,,94449800.0,EUR,False,new_markets_top
+Finland,LOIHDE.HE,Loihde Oyj,,88083752.0,EUR,False,new_markets_top
+Finland,RAUTE.HE,Raute Oyj,,85709328.0,EUR,False,new_markets_top
+Finland,LEMON.HE,Lemonsoft Oyj,,85590912.0,EUR,False,new_markets_top
+Finland,CONSTI.HE,Consti Oyj,,84632112.0,EUR,False,new_markets_top
+Finland,ESENSE.HE,Enersense International Oyj,,83940936.0,EUR,False,new_markets_top
+Finland,KPYOSK.HE,KPY osk,,83108152.0,EUR,True,new_markets_top
+Finland,SITOWS.HE,Sitowise Group Oyj,,79935832.0,EUR,False,new_markets_top
+Finland,FARON.HE,Faron Pharmaceuticals Oy,,78819392.0,EUR,False,new_markets_top
+Finland,ORTHEX.HE,Orthex Oyj,,77428608.0,EUR,False,new_markets_top
+Finland,HEALTH.HE,Nightingale Health Oyj,,73942224.0,EUR,False,new_markets_top
+Finland,APETIT.HE,Apetit Oyj,,73418792.0,EUR,False,new_markets_top
+Finland,CTH1V.HE,Componenta Corporation,,71554440.0,EUR,False,new_markets_top
+Finland,ASUNTO.HE,Asuntosalkku Oyj,,70247784.0,EUR,False,new_markets_top
+Finland,VIAFIN.HE,Viafin Service Oyj,,69580880.0,EUR,False,new_markets_top
+Finland,SUY1V.HE,Suominen Oyj,,68995976.0,EUR,False,new_markets_top
+Finland,BOREO.HE,Boreo Oyj,,67475328.0,EUR,False,new_markets_top
+Finland,LUOTEA.HE,Luotea Oyj,,66755660.0,EUR,False,new_markets_top
+Finland,ARVOSK.HE,Pohjanmaan Arvo Sijoitusosuuskunta,,64506020.0,EUR,True,new_markets_top
+Belgium,UCB.BR,UCB SA,,49400676352.0,EUR,False,new_markets_top
+Belgium,ELI.BR,Elia Group SA/NV,,13653883904.0,EUR,False,new_markets_top
+Belgium,LOTB.BR,Lotus Bakeries NV,,10812221440.0,EUR,False,new_markets_top
+Belgium,TUB.BR,Financière de Tubize SA,,9312035840.0,EUR,False,new_markets_top
+Belgium,SOF.BR,Sofina Société Anonyme,,9263194112.0,EUR,True,new_markets_top
+Belgium,DIE.BR,D'Ieteren Group SA,,9213186048.0,EUR,False,new_markets_top
+Belgium,GBLB.BR,Groupe Bruxelles Lambert SA,,8836645888.0,EUR,True,new_markets_top
+Belgium,ACKB.BR,Ackermans & Van Haaren NV,,8309794816.0,EUR,False,new_markets_top
+Belgium,SYENS.BR,Syensqo SA/NV,,7866717696.0,EUR,False,new_markets_top
+Belgium,KBCA.BR,KBC Ancora SA,,6992675328.0,EUR,True,new_markets_top
+Belgium,AED.BR,Aedifica NV/SA,,5296151552.0,EUR,False,new_markets_top
+Belgium,WDP.BR,Warehouses De Pauw SA,,5088560640.0,EUR,False,new_markets_top
+Belgium,CENER.BR,Cenergy Holdings SA,,4599366656.0,EUR,False,new_markets_top
+Belgium,UMI.BR,Umicore SA,,4305539072.0,EUR,False,new_markets_top
+Belgium,COLR.BR,Colruyt Group N.V.,,4244738560.0,EUR,False,new_markets_top
+Belgium,DEME.BR,DEME Group NV,,4092152064.0,EUR,False,new_markets_top
+Belgium,VIO.BR,Viohalco S.A.,,3944868096.0,EUR,False,new_markets_top
+Belgium,TITC.BR,Titan S.A.,,3492989184.0,EUR,False,new_markets_top
+Belgium,AZE.BR,Azelis Group NV,,2949759488.0,EUR,False,new_markets_top
+Belgium,BREB.BR,Brederode SA,,2883669760.0,EUR,True,new_markets_top
+Belgium,SOLB.BR,Solvay SA,,2448963840.0,EUR,False,new_markets_top
+Belgium,SHUR.BR,Shurgard Self Storage Ltd,,2438481408.0,EUR,False,new_markets_top
+Belgium,MELE.BR,Melexis NV,,2224812288.0,EUR,False,new_markets_top
+Belgium,BEKB.BR,NV Bekaert SA,,1927235200.0,EUR,False,new_markets_top
+Belgium,VGP.BR,VGP NV,,1893686912.0,EUR,False,new_markets_top
+Belgium,SOLV.BR,Solvac S.A.,,1859627776.0,EUR,False,new_markets_top
+Belgium,PROX.BR,Proximus PLC,,1815639808.0,EUR,False,new_markets_top
+Belgium,GIMB.BR,Gimv NV,,1751882112.0,EUR,True,new_markets_top
+Belgium,FAGR.BR,Fagron NV,,1717341184.0,EUR,False,new_markets_top
+Belgium,FLUX.BR,Fluxys Belgium SA,,1496612608.0,EUR,False,new_markets_top
+Belgium,OBEL.BR,Orange Belgium S.A.,,1496551040.0,EUR,False,new_markets_top
+Belgium,MONT.BR,Montea Comm. VA,,1475030528.0,EUR,False,new_markets_top
+Belgium,SPA.BR,Spadel SA,,1469223936.0,EUR,False,new_markets_top
+Belgium,KIN.BR,Kinepolis Group NV,,1275908992.0,EUR,False,new_markets_top
+Belgium,XIOR.BR,Xior Student Housing NV,,1111343232.0,EUR,False,new_markets_top
+Belgium,ENRGY.BR,EnergyVision NV,,1049338496.0,EUR,False,new_markets_top
+Belgium,TESB.BR,Tessenderlo Group NV,,1020577856.0,EUR,False,new_markets_top
+Belgium,RET.BR,Retail Estates N.V.,,930132352.0,EUR,False,new_markets_top
+Belgium,JEN.BR,Jensen-Group NV,,681714048.0,EUR,False,new_markets_top
+Belgium,RECT.BR,Recticel SA/NV,,623614336.0,EUR,False,new_markets_top
+Belgium,WEHB.BR,Wereldhave Belgium,,573993728.0,EUR,False,new_markets_top
+Belgium,FLOB.BR,Floridienne S.A.,,562667392.0,EUR,False,new_markets_top
+Belgium,CPINV.BR,Care Property Invest NV,,515730016.0,EUR,False,new_markets_top
+Belgium,TINC.BR,TINC NV,,501333344.0,EUR,True,new_markets_top
+Belgium,NEXTA.BR,Nextensa NV/SA,,468217024.0,EUR,False,new_markets_top
+Belgium,VASTB.BR,Vastned,,461589216.0,EUR,False,new_markets_top
+Belgium,IBAB.BR,Ion Beam Applications SA,,459996960.0,EUR,False,new_markets_top
+Belgium,COMB.BR,Compagnie du Bois Sauvage S.A.,,424814080.0,EUR,False,new_markets_top
+Belgium,MTLS.BR,Materialise NV,,411638048.0,EUR,False,new_markets_top
+Belgium,ASCE.BR,Ascencio SA,,368843840.0,EUR,False,new_markets_top
+Belgium,VAN.BR,Van de Velde NV,,361104768.0,EUR,False,new_markets_top
+Belgium,HOMI.BR,Home Invest Belgium S.A.,,350449152.0,EUR,False,new_markets_top
+Belgium,DECB.BR,Deceuninck NV,,331042496.0,EUR,False,new_markets_top
+Belgium,CFEB.BR,Compagnie d'Entreprises CFE SA,,265379680.0,EUR,False,new_markets_top
+Belgium,MOUR.BR,Moury Construct SA,,264425552.0,EUR,False,new_markets_top
+Belgium,CAMB.BR,Campine NV,,258750000.0,EUR,False,new_markets_top
+Belgium,EVS.BR,EVS SA,,240885552.0,EUR,False,new_markets_top
+Belgium,ECONB.BR,Econocom Group SE,,222167264.0,EUR,False,new_markets_top
+Belgium,BPOST.BR,bpost NV/SA,,218801024.0,EUR,False,new_markets_top
+Belgium,IMMO.BR,Immobel SA,,187677456.0,EUR,False,new_markets_top
+Belgium,ROCK.BR,Whitestone Group SA,,185534464.0,EUR,False,new_markets_top
+Belgium,COBH.BR,Brouwerij Handelsmaatschappij NV,,168000000.0,EUR,False,new_markets_top
+Belgium,ONWD.BR,Onward Medical N.V.,,145315152.0,EUR,False,new_markets_top
+Belgium,ROU.BR,Roularta Media Group NV,,141254272.0,EUR,False,new_markets_top
+Belgium,ONTEX.BR,Ontex Group NV,,135675296.0,EUR,False,new_markets_top
+Belgium,QRF.BR,Qrf Comm. VA,,131281240.0,EUR,False,new_markets_top
+Belgium,TEXF.BR,Texaf S.A.,,131262736.0,EUR,False,new_markets_top
+Belgium,WEB.BR,Warehouses Estates Belgium S.C.A.,,128205512.0,EUR,False,new_markets_top
+Belgium,INCLU.BR,Inclusio SA,,121942904.0,EUR,False,new_markets_top
+Belgium,HYSG.BR,Hybrid Software Group PLC,,120816592.0,EUR,False,new_markets_top
+Belgium,HYL.BR,Hyloris Pharmaceuticals SA,,112001496.0,EUR,False,new_markets_top
+Belgium,MIKO.BR,Miko NV,,88182000.0,EUR,False,new_markets_top
+Belgium,BTLS.BR,Biotalys NV,,76074024.0,EUR,False,new_markets_top
+Belgium,NYXH.BR,Nyxoah SA,,74547040.0,EUR,False,new_markets_top
+Belgium,AGFB.BR,Agfa-Gevaert NV,,62857132.0,EUR,False,new_markets_top
+Belgium,ATEB.BR,Atenor SA,,60352056.0,EUR,False,new_markets_top
+Belgium,MONNI.BR,Monni NV,,58194104.0,EUR,False,new_markets_top
+Belgium,QFG.BR,Quest for Growth NV,,49081668.0,EUR,True,new_markets_top
+Belgium,FLSP.BR,Flowsparks NV,,46549144.0,EUR,False,new_markets_top
+Belgium,EKOP.BR,Ekopak NV,,43758036.0,EUR,False,new_markets_top
+Belgium,BANI.BR,Banimmo SA,,33299776.0,EUR,False,new_markets_top
+Belgium,BANQ.BR,Banqup Group SA,,32758942.0,EUR,False,new_markets_top
+Belgium,ACCB.BR,Accentis N.V.,,32202776.0,EUR,False,new_markets_top
+Belgium,ABO.BR,ABO-Group Environment NV,,29803832.0,EUR,False,new_markets_top
+Belgium,NEWT.BR,Newtree S.A.,,24997886.0,EUR,False,new_markets_top
+Belgium,MOP.BR,Palmboomen Cultuur Maatschappij Mopoli (Palmeraies De Mopoli) N.V.,,22730880.0,EUR,True,new_markets_top
+Belgium,CYAD.BR,Celyad Oncology SA,,15575699.0,EUR,False,new_markets_top
+Belgium,ALEMS.BR,European Medical Solutions,,15488531.0,EUR,False,new_markets_top
+Belgium,MCC.BR,Immo Mechelen City Center Naamloze vennootschap,,14535000.0,EUR,False,new_markets_top
+Belgium,ZEN.BR,Immo-Zenobe Gramme SA,,13634060.0,EUR,False,new_markets_top
+Belgium,IMMOU.BR,Immo Moury SCA,,13494021.0,EUR,False,new_markets_top
+Belgium,BELYS.BR,Belysse Group NV,,13263113.0,EUR,False,new_markets_top
+Belgium,REAL.BR,Realco SA,,10555269.0,EUR,False,new_markets_top
+Belgium,DIEG.BR,Immolease Trust NV,,9404400.0,EUR,False,new_markets_top
+Belgium,OPTI.BR,Option NV,,8972633.0,EUR,False,new_markets_top
+Belgium,FOU.BR,Fountain S.A.,,6575022.0,EUR,False,new_markets_top
+Belgium,SOFT.BR,Softimat S.A.,,2836021.0,EUR,False,new_markets_top
+Belgium,CAND.BR,Candela Invest SA,,2066616.0,EUR,True,new_markets_top
+Belgium,MLTV.BR,Choice NV,,325620.0,EUR,False,new_markets_top
+Belgium,DISL.BR,Immobiliere Distri-Land NV,,273854.0,EUR,False,new_markets_top
+Belgium,OXUR.BR,Oxurion NV,,185603.0,EUR,False,new_markets_top
+Portugal,EDP.LS,"EDP, S.A.",,19594786816.0,EUR,False,new_markets_top
+Portugal,GALP.LS,"Galp Energia, SGPS, S.A.",,16050584576.0,EUR,False,new_markets_top
+Portugal,BCP.LS,"Banco Comercial Português, S.A.",,15518119936.0,EUR,True,new_markets_top
+Portugal,EDPR.LS,"EDP Renewables, S.A.",,12568029184.0,EUR,False,new_markets_top
+Portugal,JMT.LS,"Jerónimo Martins, SGPS, S.A.",,11575758848.0,EUR,False,new_markets_top
+Portugal,MRL.LS,"MERLIN Properties SOCIMI, S.A.",,7027725312.0,EUR,False,new_markets_top
+Portugal,SON.LS,"Sonae, SGPS, S.A.",,4132653568.0,EUR,False,new_markets_top
+Portugal,NOS.LS,"NOS, S.G.P.S., S.A.",,2644703232.0,EUR,False,new_markets_top
+Portugal,RENE.LS,"REN - Redes Energéticas Nacionais, SGPS, S.A.",,2344800512.0,EUR,False,new_markets_top
+Portugal,NVG.LS,"The Navigator Company, S.A.",,2159151616.0,EUR,False,new_markets_top
+Portugal,SEM.LS,"Semapa - Sociedade de Investimento e Gestão, SGPS, S.A.",,1533492096.0,EUR,False,new_markets_top
+Portugal,COR.LS,"Corticeira Amorim, S.G.P.S., S.A.",,893991104.0,EUR,False,new_markets_top
+Portugal,SNC.LS,"Sonaecom, SGPS, S.A.",,880614848.0,EUR,False,new_markets_top
+Portugal,ALTR.LS,"Altri, SGPS, S.A.",,873860992.0,EUR,False,new_markets_top
+Portugal,CTT.LS,"CTT - Correios De Portugal, S.A.",,718135296.0,EUR,False,new_markets_top
+Portugal,IBS.LS,"Ibersol, S.G.P.S., S.A.",,401291552.0,EUR,False,new_markets_top
+Portugal,NBA.LS,"Novabase S.G.P.S., S.A.",,259953056.0,EUR,False,new_markets_top
+Portugal,SCT.LS,"Toyota Caetano Portugal, S.A.",,231000000.0,EUR,False,new_markets_top
+Portugal,SCP.LS,"Sporting Clube de Portugal - Futebol, SAD",,199970528.0,EUR,False,new_markets_top
+Portugal,TDSA.LS,"Teixeira Duarte, S.A.",,180180000.0,EUR,False,new_markets_top
+Portugal,RAM.LS,"Ramada Investimentos e Industria, S.A.",,165643840.0,EUR,False,new_markets_top
+Portugal,SLBEN.LS,"Sport Lisboa e Benfica - Futebol, SAD",,150880000.0,EUR,False,new_markets_top
+Portugal,GLINT.LS,"Glintt Global, S.A.",,105225072.0,EUR,False,new_markets_top
+Portugal,MLFMV.LS,"Farminveste, S.G.P.S., S.A.",,100959344.0,EUR,False,new_markets_top
+Portugal,PHR.LS,"Pharol, S.A.",,73553160.0,EUR,True,new_markets_top
+Portugal,FCP.LS,"Futebol Clube do Porto - Futebol, S.A.D.",,62549720.0,EUR,False,new_markets_top
+Portugal,IPR.LS,"Impresa - Sociedade Gestora de Participações Sociais, S.A.",,47194200.0,EUR,False,new_markets_top
+Portugal,ESON.LS,"Estoril Sol, SGPS, S.A.",,32214024.0,EUR,False,new_markets_top
+Portugal,MLRZE.LS,"Raize - Instituição de Pagamentos, S.A.",,7750000.0,EUR,True,new_markets_top
+Greece,EEE.AT,Coca-Cola HBC AG,,19899762688.0,EUR,False,new_markets_top
+Greece,EUROB.AT,Eurobank S.A.,,15500642304.0,EUR,True,new_markets_top
+Greece,ETE.AT,National Bank of Greece S.A.,,14257597440.0,EUR,True,new_markets_top
+Greece,PPC.AT,Public Power Corporation S.A.,,13215696896.0,EUR,False,new_markets_top
+Greece,TPEIR.AT,Piraeus Bank S.A.,,11827229696.0,EUR,True,new_markets_top
+Greece,ALPHA.AT,Alpha Bank S.A.,,9652208640.0,EUR,True,new_markets_top
+Greece,ALWN.AT,Allwyn AG,,9252550656.0,EUR,False,new_markets_top
+Greece,HTO.AT,Hellenic Telecommunications Organization S.A.,,7580315136.0,EUR,False,new_markets_top
+Greece,MOH.AT,Motor Oil (Hellas) Corinth Refineries S.A.,,7332064768.0,EUR,False,new_markets_top
+Greece,MTLN.AT,Metlen Energy & Metals PLC,,6896979968.0,EUR,False,new_markets_top
+Greece,ELPE.AT,HELLENiQ ENERGY Holdings S.A.,,5575420928.0,EUR,False,new_markets_top
+Greece,CENER.AT,Cenergy Holdings SA,,4658823168.0,EUR,False,new_markets_top
+Greece,BOCHGR.AT,Bank of Cyprus Holdings Public Limited Company,,4467158528.0,EUR,True,new_markets_top
+Greece,AIA.AT,Athens International Airport S.A.,,4080308224.0,EUR,False,new_markets_top
+Greece,VIO.AT,Viohalco S.A.,,3991522304.0,EUR,False,new_markets_top
+Greece,GEKTERNA.AT,Gek Terna S.A.,,3938418688.0,EUR,False,new_markets_top
+Greece,BELA.AT,Jumbo S.A.,,3668179968.0,EUR,False,new_markets_top
+Greece,TITC.AT,Titan S.A.,,3506423552.0,EUR,False,new_markets_top
+Greece,OPTIMA.AT,Optima bank S.A.,,2933910272.0,EUR,True,new_markets_top
+Greece,AKTR.AT,Aktor Societe Anonyme Holding Company Technical and Energy Projects,,2607032320.0,EUR,False,new_markets_top
+Greece,BYLOT.AT,Bally's Intralot S.A.,,2084997632.0,EUR,False,new_markets_top
+Greece,CREDIA.AT,CrediaBank S.A.,,1915807360.0,EUR,True,new_markets_top
+Greece,ADMIE.AT,Admie Holding S.A.,,1513143680.0,EUR,False,new_markets_top
+Greece,ELHA.AT,Elvalhalcor Hellenic Copper and Aluminium Industry S.A.,,1483980288.0,EUR,False,new_markets_top
+Greece,EYDAP.AT,Athens Water Supply and Sewerage Company S.A.,,1469699968.0,EUR,False,new_markets_top
+Greece,KARE.AT,Karelia Tobacco Company Inc.,,1153680000.0,EUR,False,new_markets_top
+Greece,KRI.AT,Kri-Kri Milk Industry S.A.,,1145207424.0,EUR,False,new_markets_top
+Greece,PPA.AT,Piraeus Port Authority S.A.,,1102499968.0,EUR,False,new_markets_top
+Greece,LAMPS.AT,Lampsa Hellenic Hotels S.A.,,1012653632.0,EUR,False,new_markets_top
+Greece,LAMDA.AT,LAMDA Development S.A.,,1011640192.0,EUR,False,new_markets_top
+Greece,AEGN.AT,Aegean Airlines S.A.,,977812928.0,EUR,False,new_markets_top
+Greece,PRODEA.AT,Prodea Real Estate Investment Company Société Anonyme,,801793472.0,EUR,False,new_markets_top
+Greece,QUEST.AT,Quest Holdings S.A.,,767912576.0,EUR,False,new_markets_top
+Greece,SAR.AT,Gr. Sarantis S.A.,,691781952.0,EUR,False,new_markets_top
+Greece,EXAE.AT,Euronext Athens Holding S.A.,,618995008.0,EUR,True,new_markets_top
+Greece,OTOEL.AT,Autohellas S.A.,,495369152.0,EUR,False,new_markets_top
+Greece,AVAX.AT,Avax S.A.,,486875488.0,EUR,False,new_markets_top
+Greece,ELLAKTOR.AT,Ellaktor S.A.,,421602112.0,EUR,False,new_markets_top
+Greece,QLCO.AT,Qualco Group S.A.,,420178848.0,EUR,False,new_markets_top
+Greece,PLAKR.AT,Plastika Kritis S.A.,,413425920.0,EUR,False,new_markets_top
+Greece,OLTH.AT,Thessaloniki Port Authority Societe Anonyme,,403200000.0,EUR,False,new_markets_top
+Greece,AEM.AT,Alter Ego Media S.A.,,381674176.0,EUR,False,new_markets_top
+Greece,TRASTOR.AT,Trastor Real Estate Investment Company SA,,364082336.0,EUR,False,new_markets_top
+Greece,ACAG.AT,Austriacard Holdings AG,,352228736.0,EUR,False,new_markets_top
+Greece,ATTICA.AT,Attica Holdings S.A.,,330703296.0,EUR,False,new_markets_top
+Greece,TELL.AT,Bank of Greece,,294000320.0,EUR,True,new_markets_top
+Greece,NOVAL.AT,Noval Property Real Estate Investment Company,,289873504.0,EUR,False,new_markets_top
+Greece,INTEK.AT,Ideal Holdings S.A.,,286074176.0,EUR,False,new_markets_top
+Greece,INTRK.AT,Intracom Holdings S.A.,,263883248.0,EUR,False,new_markets_top
+Greece,REALCONS.AT,Real Consulting S.A.,,262552112.0,EUR,False,new_markets_top
+Greece,DIMAND.AT,Dimand S.A.,,259444000.0,EUR,False,new_markets_top
+Greece,PROF.AT,Profile Systems & Software SA,,251618800.0,EUR,False,new_markets_top
+Greece,LAVI.AT,Lavipharm S.A.,,251044368.0,EUR,False,new_markets_top
+Greece,TRESTATES.AT,Trade Estates REIC,,234790032.0,EUR,False,new_markets_top
+Greece,FOYRK.AT,Fourlis Holdings S.A.,,207360896.0,EUR,False,new_markets_top
+Greece,EVR.AT,Evropi Holdings Societe Anonyme,,202553664.0,EUR,True,new_markets_top
+Greece,PLAT.AT,Thrace Plastics Holding Company S.A.,,202225440.0,EUR,False,new_markets_top
+Greece,BLEKEDROS.AT,Ble Kedros REIC,,188697136.0,EUR,False,new_markets_top
+Greece,ADPS.AT,Attica Department Stores S.A.,,170257328.0,EUR,False,new_markets_top
+Greece,ALMY.AT,Alumil Aluminium Industry S.A.,,169523552.0,EUR,False,new_markets_top
+Greece,PREMIA.AT,Premia Real Estate Investment Company Societe Anonyme,,160132864.0,EUR,False,new_markets_top
+Greece,EYAPS.AT,Thessaloniki Water Supply & Sewerage Co S.A.,,158994000.0,EUR,False,new_markets_top
+Greece,BRIQ.AT,BriQ Properties Real Estate Investment Company,,158839792.0,EUR,False,new_markets_top
+Greece,FAIS.AT,Fais Holding Societe Anonyme,,148563088.0,EUR,False,new_markets_top
+Greece,PERF.AT,Performance Technologies S.A.,,147708528.0,EUR,False,new_markets_top
+Greece,INLIF.AT,Interlife General Insurance Company S.A.,,147075072.0,EUR,True,new_markets_top
+Greece,MODA.AT,N. Varveris-Moda Bagno S.A.,,129789000.0,EUR,False,new_markets_top
+Greece,EKTER.AT,Ekter SA,,128383800.0,EUR,False,new_markets_top
+Greece,ORILINA.AT,Orilina Properties REIC S.A.,,128313904.0,EUR,False,new_markets_top
+Greece,IATR.AT,Athens Medical C.S.A.,,127501896.0,EUR,False,new_markets_top
+Greece,MERKO.AT,Mermeren Kombinat AD,,126545168.0,EUR,False,new_markets_top
+Greece,DAIOS.AT,Daios Plastics S.A.,,111000000.0,EUR,False,new_markets_top
+Greece,DOTSOFT.AT,DOTSOFT SA,,109200000.0,EUR,False,new_markets_top
+Greece,ONYX.AT,Onyx Touristiki Societe Anonyme,,107250104.0,EUR,False,new_markets_top
+Greece,ASTAK.AT,Alpha Real Estate Services S.A.,,98000000.0,EUR,False,new_markets_top
+Greece,MIG.AT,MIG Holdings S.A.,,92316000.0,EUR,False,new_markets_top
+Greece,CAIROMEZ.AT,Cairo Mezz Plc,,91647208.0,EUR,True,new_markets_top
+Greece,PAP.AT,Papoutsanis S.A.,,91051064.0,EUR,False,new_markets_top
+Greece,FLEXO.AT,Flexopack Société Anonyme Commercial and Industrial Plastics Company,,90664760.0,EUR,False,new_markets_top
+Greece,OLYMP.AT,Technical Olympic S.A.,,89302048.0,EUR,False,new_markets_top
+Greece,AVE.AT,AVE S.A.,,81596280.0,EUR,False,new_markets_top
+Greece,MOTO.AT,Emporiki Eisagogiki Aftokiniton Ditrohon kai Mihanon Thalassis Societe Anonyme,,68033584.0,EUR,False,new_markets_top
+Greece,PVMEZZ.AT,Phoenix Vega Mezz Plc,,62268288.0,EUR,True,new_markets_top
+Greece,ILYDA.AT,Ilyda SA,,59760924.0,EUR,False,new_markets_top
+Greece,MEVA.AT,Mevaco S.A.,,59640000.0,EUR,False,new_markets_top
+Greece,KYLO.AT,Loulis Food Ingredients S.A.,,56075700.0,EUR,False,new_markets_top
+Greece,ASCO.AT,AS Commercial Industrial Company of Computers and Toys S.A.,,56068632.0,EUR,False,new_markets_top
+Greece,SPACE.AT,Space Hellas S.A.,,51393980.0,EUR,False,new_markets_top
+Greece,YKNOT.AT,Y/Knot Invest S.A.,,51267332.0,EUR,False,new_markets_top
+Greece,EVROF.AT,Evrofarma SA,,50756308.0,EUR,False,new_markets_top
+Greece,GEBKA.AT,General Commercial & Industrial S.A.,,48841800.0,EUR,False,new_markets_top
+Greece,ELTON.AT,Elton International Trading Company S.A.,,46241508.0,EUR,False,new_markets_top
+Greece,PETRO.AT,Petros Petropoulos AEVE,,45278108.0,EUR,False,new_markets_top
+Greece,ELSTR.AT,Elastron S.A. - Steel Service Centers,,44820640.0,EUR,False,new_markets_top
+Greece,ELIN.AT,Elinoil Hellenic Petroleum Company S.A.,,44816708.0,EUR,False,new_markets_top
+Greece,QUAL.AT,Quality & Reliability A.B.E.E.,,42378040.0,EUR,False,new_markets_top
+Greece,FRIGO.AT,Frigoglass S.A.I.C.,,39622228.0,EUR,False,new_markets_top
+Greece,REVOIL.AT,Revoil S.A.,,38646280.0,EUR,False,new_markets_top
+Greece,DOMIK.AT,Domiki Kritis S.A.,,36521120.0,EUR,False,new_markets_top
+Greece,BIOSK.AT,Unibios Holdings S.A.,,36513128.0,EUR,False,new_markets_top
+Greece,BIOKA.AT,Biokarpet S.A.,,35356100.0,EUR,False,new_markets_top
+Greece,FOODL.AT,Foodlink A.E.,,34673680.0,EUR,False,new_markets_top
+Greece,SIDMA.AT,Sidma Steel S.A.,,31646580.0,EUR,False,new_markets_top
+Greece,KEKR.AT,Kekrops S.A.,,30795428.0,EUR,False,new_markets_top
+Greece,IKTIN.AT,Iktinos Hellas S.A. Greek Marble Industry Technical and Touristic Company,,30734230.0,EUR,False,new_markets_top
+Greece,TREK.AT,Trek Development of Infrastructures and Services S.A.,,29808350.0,EUR,False,new_markets_top
+Greece,ANDRO.AT,Alpha Trust Andromeda Investment Trust S.A.,,29044712.0,EUR,True,new_markets_top
+Greece,EIS.AT,European Innovation Solutions S.A.,,27488098.0,EUR,False,new_markets_top
+Greece,ELBE.AT,Elve S.A.,,25633124.0,EUR,False,new_markets_top
+Greece,CENTR.AT,Centric Holdings S.A.,,25219860.0,EUR,True,new_markets_top
+Greece,GCMEZZ.AT,Galaxy Cosmos Mezz Plc,,23908822.0,EUR,True,new_markets_top
+Greece,SUNMEZZ.AT,SunriseMezz PLC,,23667666.0,EUR,True,new_markets_top
+Greece,NAKAS.AT,Philippos Nakas S.A.,,21556000.0,EUR,False,new_markets_top
+Greece,MOYZK.AT,EL. D. Mouzakis S.A.,,20857598.0,EUR,False,new_markets_top
+Greece,SOFTWEB.AT,SOFTWeb Adaptive I.T. Solutions SA,,17440992.0,EUR,False,new_markets_top
+Greece,ATEK.AT,Attica Publications S.A.,,15759000.0,EUR,False,new_markets_top
+Greece,XYLEK.AT,Interwood-Xylemporia A.T.E.N.E.,,14597055.0,EUR,False,new_markets_top
+Greece,MEDIC.AT,Medicon Hellas S.A.,,13656613.0,EUR,False,new_markets_top
+Greece,LOGISMOS.AT,Logismos Information Systems S.A.,,12703200.0,EUR,False,new_markets_top
+Greece,NAYP.AT,Nafpaktos Textile Industry S.A.,,12315811.0,EUR,False,new_markets_top
+Chile,CHILE.SN,Banco de Chile,,19228602138624.0,CLP,True,new_markets_top
+Chile,FALABELLA.SN,Falabella S.A.,,16784170156032.0,CLP,False,new_markets_top
+Chile,BSANTANDER.SN,Banco Santander-Chile,,14924932710400.0,CLP,True,new_markets_top
+Chile,BCI.SN,Banco de Crédito e Inversiones,,13946951041024.0,CLP,True,new_markets_top
+Chile,MALLPLAZA.SN,Plaza S.A.,,7685805703168.0,CLP,False,new_markets_top
+Chile,QUINENCO.SN,Quiñenco SA,,7607124754432.0,CLP,False,new_markets_top
+Chile,SCOTIABKCL.SN,Scotiabank Chile S.A.,,5412239179776.0,CLP,True,new_markets_top
+Chile,CENCOSUD.SN,Cencosud S.A.,,5094642810880.0,CLP,False,new_markets_top
+Chile,ITAUCL.SN,Banco Itaú Chile,,4932569137152.0,CLP,True,new_markets_top
+Chile,ANDINA-B.SN,Embotelladora Andina S.A.,,4674355200000.0,CLP,False,new_markets_top
+Chile,BICE.SN,Bicecorp S.A.,,4322309177344.0,CLP,True,new_markets_top
+Chile,CENCOMALLS.SN,Cencosud Shopping S.A.,,3821061537792.0,CLP,False,new_markets_top
+Chile,PARAUCO.SN,Parque Arauco S.A.,,3608649662464.0,CLP,False,new_markets_top
+Chile,ILC.SN,Inversiones La Construcción S.A.,,2340509974528.0,CLP,True,new_markets_top
+Chile,AGUAS-A.SN,Aguas Andinas S.A.,,2043734392832.0,CLP,False,new_markets_top
+Chile,CCU.SN,Compañía Cervecerías Unidas S.A.,,1950199185408.0,CLP,False,new_markets_top
+Chile,PROVIDA.SN,Administradora de Fondos de Pensiones Provida S.A.,,1613836976128.0,CLP,True,new_markets_top
+Chile,NTGCLGAS.SN,Naturgy Chile Gas Natural S.A.,,1449037529088.0,CLP,False,new_markets_top
+Chile,HABITAT.SN,Administradora de Fondos de Pensiones Habitat S.A.,,1318000001024.0,CLP,True,new_markets_top
+Chile,ENTEL.SN,Empresa Nacional de Telecomunicaciones S.A.,,1313472512000.0,CLP,False,new_markets_top
+Chile,BANVIDA.SN,Banvida S.A.,,1252691410944.0,CLP,True,new_markets_top
+Chile,CUPRUM.SN,Administradora de Fondos de Pensiones Cuprum S.A.,,1200404299776.0,CLP,True,new_markets_top
+Chile,LIPIGAS.SN,Empresas Lipigas S.A.,,1149374038016.0,CLP,False,new_markets_top
+Chile,EMBONOR-B.SN,Coca-Cola Embonor S.A.,,916981547008.0,CLP,False,new_markets_top
+Chile,RIPLEY.SN,Ripley Corp S.A.,,886711975936.0,CLP,False,new_markets_top
+Chile,IAM.SN,Inversiones Aguas Metropolitanas S.A.,,884859994112.0,CLP,False,new_markets_top
+Chile,BESALCO.SN,Besalco S.A.,,774376062976.0,CLP,False,new_markets_top
+Chile,NUAM.SN,Nuam S.A.,,742605586432.0,CLP,True,new_markets_top
+Chile,SALFACORP.SN,SalfaCorp S.A.,,741266292736.0,CLP,False,new_markets_top
+Chile,CONCHATORO.SN,Viña Concha y Toro S.A.,,650794369024.0,CLP,False,new_markets_top
+Chile,SMU.SN,SMU S.A.,,641128660992.0,CLP,False,new_markets_top
+Chile,AAISA.SN,Administradora Americana de Inversiones S.A.,,616419950592.0,CLP,True,new_markets_top
+Chile,PLANVITAL.SN,Administradora de Fondos de Pensiones PlanVital S.A.,,550924779520.0,CLP,True,new_markets_top
+Chile,CTC.SN,Telefónica Chile S.A.,,509052911616.0,CLP,False,new_markets_top
+Chile,ALMENDRAL.SN,Almendral S.A.,,441430671360.0,CLP,False,new_markets_top
+Chile,FORUS.SN,Forus S.A.,,434718998528.0,CLP,False,new_markets_top
+Chile,CGE.SN,Compañía General de Electricidad S.A.,,418118631424.0,CLP,False,new_markets_top
+Chile,OXIQUIM.SN,Oxiquim S.A.,,403164594176.0,CLP,False,new_markets_top
+Chile,INDISA.SN,Instituto de Diagnóstico S.A.,,379227144192.0,CLP,False,new_markets_top
+Chile,CFIMRVCHA.SN,Moneda Renta Variable Chile Fondo de Inversion,,362515464192.0,CLP,True,new_markets_top
+Chile,EISA.SN,Echeverría Izquierdo S.A.,,319949144064.0,CLP,False,new_markets_top
+Chile,PAZ.SN,Paz Corp S.A.,,294703988736.0,CLP,False,new_markets_top
+Chile,LAS-CONDES.SN,Clínica Las Condes S.A.,,294050725888.0,CLP,False,new_markets_top
+Chile,TRICOT.SN,Empresas Tricot S.A.,,250795065344.0,CLP,False,new_markets_top
+Chile,SONDA.SN,Sonda S.A.,,239822159872.0,CLP,False,new_markets_top
+Chile,ESSBIO-C.SN,Essbio S.A.,,238012203008.0,CLP,False,new_markets_top
+Chile,INGEVEC.SN,Ingevec S.A.,,235040407552.0,CLP,False,new_markets_top
+Chile,GASCO.SN,Empresas Gasco S.A.,,229605588992.0,CLP,False,new_markets_top
+Chile,ZOFRI.SN,Zona Franca de Iquique S.A.,,219523743744.0,CLP,False,new_markets_top
+Chile,WATTS.SN,Watt's S.A.,,206827323392.0,CLP,False,new_markets_top
+Chile,SOCOVESA.SN,Socovesa S.A.,,189832445952.0,CLP,False,new_markets_top
+Chile,SIEMEL.SN,Inversiones Siemel S.A.,,139590926336.0,CLP,False,new_markets_top
+Chile,SCHWAGER.SN,Schwager S.A.,,125775814656.0,CLP,False,new_markets_top
+Chile,MOLLER.SN,Empresa Constructora Moller y Pérez Cotapos S.A.,,121795780608.0,CLP,False,new_markets_top
+Chile,EDELMAG.SN,Empresa Eléctrica de Magallanes S.A.,,99417759744.0,CLP,False,new_markets_top
+Chile,HITES.SN,Empresas Hites S.A.,,88359387136.0,CLP,False,new_markets_top
+Chile,ABC.SN,abc S.A.,,63790108672.0,CLP,False,new_markets_top
+Chile,MANQUEHUE.SN,Inmobiliaria Manquehue S.A.,,54050471936.0,CLP,False,new_markets_top
+Chile,TRICAHUE.SN,Inversiones Tricahue S.A.,,48452055040.0,CLP,False,new_markets_top
+Chile,POLO.SN,Club de Polo y Equitación San Cristóbal S.A.,,37499998208.0,CLP,False,new_markets_top
+Chile,GASCOINV.SN,Gasco Inversiones S.A.,,23520000000.0,CLP,True,new_markets_top
+Chile,QUILICURA.SN,Quilicura S.A.,,21600000000.0,CLP,False,new_markets_top
+Chile,CRUZADOS.SN,Cruzados SADP,,17725132800.0,CLP,False,new_markets_top
+Chile,MARBELLACC.SN,Marbella Country Club S.A.,,10599999488.0,CLP,False,new_markets_top
+Chile,ENJOY.SN,Enjoy S.A.,,4710497792.0,CLP,False,new_markets_top
+Chile,ECHCL.SN,"iShares, Inc. - iShares MSCI Chile ETF",,,CLP,False,new_markets_top
+Kuwait,KFH.KW,Kuwait Finance House K.S.C.P.,,13633799168.0,KWF,True,new_markets_top
+Kuwait,NBK.KW,National Bank of Kuwait S.A.K.P.,,7573420032.0,KWF,True,new_markets_top
+Kuwait,BOUBYAN.KW,Boubyan Bank K.S.C.P.,,3029504256.0,KWF,True,new_markets_top
+Kuwait,ZAIN.KW,Mobile Telecommunications Company K.S.C.P.,,2488058880.0,KWF,False,new_markets_top
+Kuwait,MABANEE.KW,Mabanee Company K.P.S.C.,,1468836352.0,KWF,False,new_markets_top
+Kuwait,GBK.KW,Gulf Bank K.S.C.P.,,1342476800.0,KWF,True,new_markets_top
+Kuwait,WARBABANK.KW,Warba Bank K.S.C.P.,,1176058624.0,KWF,True,new_markets_top
+Kuwait,CBK.KW,Commercial Bank of Kuwait K.P.S.C.,,1016235392.0,KWF,True,new_markets_top
+Kuwait,ABK.KW,Al Ahli Bank of Kuwait K.S.C.P.,,811071168.0,KWF,True,new_markets_top
+Kuwait,OOREDOO.KW,National Mobile Telecommunications Company K.S.C.P.,,793339520.0,KWF,False,new_markets_top
+Kuwait,BURG.KW,Burgan Bank K.P.S.C.,,728381056.0,KWF,True,new_markets_top
+Kuwait,STC.KW,Kuwait Telecommunications Company K.S.C.P.,,579224384.0,KWF,False,new_markets_top
+Kuwait,BOURSA.KW,Boursa Kuwait Securities Company K.P.S.C.,,542094528.0,KWF,True,new_markets_top
+Kuwait,NIND.KW,National Industries Group Holding - KPSC,,507882112.0,KWF,False,new_markets_top
+Kuwait,KRE.KW,Kuwait Real Estate Company K.P.S.C.,,446153248.0,KWF,False,new_markets_top
+Kuwait,KIB.KW,Kuwait International Bank K.S.C.P.,,406769824.0,KWF,True,new_markets_top
+Kuwait,GINS.KW,Gulf Insurance Group K.S.C.P.,,390433408.0,KWF,True,new_markets_top
+Kuwait,BPCC.KW,Boubyan Petrochemical Company K.S.C.P.,,369797856.0,KWF,False,new_markets_top
+Kuwait,MEZZAN.KW,Mezzan Holding Company K.S.C.P.,,342229856.0,KWF,False,new_markets_top
+Kuwait,MKHZN.KW,Makhazen,,340293088.0,KWF,False,new_markets_top
+Kuwait,ALG.KW,Ali Al-Ghanim Sons Automotive Company K.S.C.P.,,330378784.0,KWF,False,new_markets_top
+Kuwait,KPROJ.KW,Kuwait Projects Company Holding K.S.C.P.,,322426944.0,KWF,True,new_markets_top
+Kuwait,CABLE.KW,Gulf Cables and Electrical Industries Group Company - KPSC,,313981504.0,KWF,False,new_markets_top
+Kuwait,ALTIJARIA.KW,Commercial Real Estate Company K.P.S.C.,,310954784.0,KWF,False,new_markets_top
+Kuwait,URC.KW,United Real Estate Company K.S.C.P.,,309799296.0,KWF,False,new_markets_top
+Kuwait,JAZEERA.KW,Jazeera Airways K.S.C.P.,,304373280.0,KWF,False,new_markets_top
+Kuwait,HUMANSOFT.KW,Humansoft Holding Company K.S.C.P.,,299765632.0,KWF,False,new_markets_top
+Kuwait,ARZAN.KW,Arzan Financial Group for Financing and Investment - KPSC,,258580928.0,KWF,True,new_markets_top
+Kuwait,NRE.KW,National Real Estate Company - K.P.S.C.,,258170384.0,KWF,False,new_markets_top
+Kuwait,TAMINV.KW,Tamdeen Investment Company - KSCP,,239999872.0,KWF,True,new_markets_top
+Kuwait,IFA.KW,International Financial Advisors Holding - KPSC,,229091920.0,KWF,True,new_markets_top
+Kuwait,KCEM.KW,Kuwait Cement Company K.P.S.C.,,215318048.0,KWF,False,new_markets_top
+Kuwait,NOOR.KW,Noor Financial Investment Company - KPSC,,214495296.0,KWF,True,new_markets_top
+Kuwait,SRE.KW,Salhia Real Estate Company K.S.C.P.,,209079360.0,KWF,False,new_markets_top
+Kuwait,IFAHR.KW,IFA Hotels and Resorts - KPSC,,192078480.0,KWF,False,new_markets_top
+Kuwait,NINV.KW,National Investments Company K.S.C.P.,,187177856.0,KWF,True,new_markets_top
+Kuwait,AAYAN.KW,A'ayan Leasing and Investment Company K.S.C.P.,,180618528.0,KWF,False,new_markets_top
+Kuwait,AINS.KW,Al-Ahleia Insurance Company S.A.K.P.,,178127200.0,KWF,True,new_markets_top
+Kuwait,DIGITUS.KW,"Digitus Group for Digital Infrastructure, Data Centers & Communications. (K.S.C.P)",,169893232.0,KWF,False,new_markets_top
+Kuwait,MIDAN.KW,Al-Maidan Clinic for Oral Health Services Company K.S.C.P.,,167062496.0,KWF,False,new_markets_top
+Kuwait,TAM.KW,Tamdeen Real Estate Company - KPSC,,156182640.0,KWF,False,new_markets_top
+Kuwait,ACICO.KW,ACICO Industries Company - K.S.C. (Public),,155318416.0,KWF,False,new_markets_top
+Kuwait,AZNOULA.KW,Shamal Az-Zour Al-Oula Power and Water Company KSC (Public),,139700000.0,KWF,False,new_markets_top
+Kuwait,GIH.KW,Gulf Investment House - KPSC,,138337856.0,KWF,True,new_markets_top
+Kuwait,ALFTAQA.KW,Action Energy Company K.S.C (Public),,138225984.0,KWF,False,new_markets_top
+Kuwait,IPG.KW,Independent Petroleum Group K.S.C.P.,,137322512.0,KWF,False,new_markets_top
+Kuwait,NAPESCO.KW,National Petroleum Services Company K.S.C.P.,,135961824.0,KWF,False,new_markets_top
+Kuwait,OULAFUEL.KW,Oula Fuel Marketing Company - KSCP,,133062448.0,KWF,False,new_markets_top
+Kuwait,CGC.KW,Combined Group Contracting Company - K.S.C. (Public),,126090912.0,KWF,False,new_markets_top
+Kuwait,KCIN.KW,Kuwait National Cinema Company (K.P.S.C),,125661152.0,KWF,False,new_markets_top
+Kuwait,FACIL.KW,Commercial Facilities Company S.A.K.P.,,122566192.0,KWF,True,new_markets_top
+Kuwait,SOOR.KW,Al Soor Fuel Marketing Company K.S.C.P.,,117817144.0,KWF,False,new_markets_top
+Kuwait,KUWAITRE.KW,Kuwait Reinsurance Company K.S.C.P.,,115323856.0,KWF,True,new_markets_top
+Kuwait,SHIP.KW,Heavy Engineering Industries and Shipbuilding Company K.S.C.P.,,114992328.0,KWF,False,new_markets_top
+Kuwait,RASIYAT.KW,Rasiyat Holding Company K.P.S.C.,,102450000.0,KWF,True,new_markets_top
+Kuwait,KINS.KW,Kuwait Insurance Company S.A.K.P.,,97856872.0,KWF,True,new_markets_top
+Kuwait,ATC.KW,Advanced Technology Company K.S.C.P.,,96235896.0,KWF,False,new_markets_top
+Kuwait,INTEGRATED.KW,Integrated Holding Company K.S.C.P.,,92180496.0,KWF,False,new_markets_top
+Kuwait,UPAC.KW,United Projects Company For Aviation Services K.S.C.P.,,90264488.0,KWF,False,new_markets_top
+Kuwait,BEYOUT.KW,Beyout Holding Company K.S.C. (Public),,90000000.0,KWF,False,new_markets_top
+Kuwait,KINV.KW,Kuwait Investment Company K.S.C.P.,,89221504.0,KWF,True,new_markets_top
+Kuwait,NICBM.KW,National Industries Company - KPSC,,86085544.0,KWF,False,new_markets_top
+Kuwait,FTI.KW,First Takaful Insurance Company - KPSC,,83300000.0,KWF,True,new_markets_top
+Kuwait,ARKAN.KW,Arkan Al-Kuwait Real Estate Company K.S.C.P.,,80030024.0,KWF,False,new_markets_top
+Kuwait,ARABREC.KW,Al-Arabiya Real Estate Company K.S.C.P.,,79517800.0,KWF,False,new_markets_top
+Kuwait,MUNSHAAT.KW,Munshaat Real Estate Projects Company K.S.C.P.,,73738000.0,KWF,False,new_markets_top
+Kuwait,CLEANING.KW,National Cleaning Company K.P.S.C.,,71918112.0,KWF,False,new_markets_top
+Kuwait,JTC.KW,JTC Logistics Transportation & Stevedoring Co. K.S.C.P.,,70966504.0,KWF,False,new_markets_top
+Kuwait,ASC.KW,Automated Systems Company - KPSC,,70399872.0,KWF,False,new_markets_top
+Kuwait,SANAM.KW,SANAM Group Holding Company K.P.S.C,,69337112.0,KWF,True,new_markets_top
+Kuwait,AAYANRE.KW,A'ayan Real Estate Company K.S.C.P.,,67749696.0,KWF,False,new_markets_top
+Kuwait,PHC.KW,Privatization Holding Company - K.P.S.C.,,67702496.0,KWF,True,new_markets_top
+Kuwait,ALDEERA.KW,Al-Deera Holding Company K.P.S.C.,,67548528.0,KWF,True,new_markets_top
+Kuwait,ALKOUT.KW,Al Kout Industrial Projects Company K.S.C.P.,,65686420.0,KWF,False,new_markets_top
+Kuwait,BAITAKREIT.KW,KFH Capital REIT,,65574600.0,KWF,False,new_markets_top
+Kuwait,AREEC.KW,Ajial Real Estate Entertainment Company K.S.C.P.,,62756256.0,KWF,False,new_markets_top
+Kuwait,ALIMTIAZ.KW,Al Imtiaz Group Holding Co (K.S.C.P),,61275492.0,KWF,True,new_markets_top
+Kuwait,KAMCO.KW,KAMCO Investment Company K.S.C.P.,,59565880.0,KWF,True,new_markets_top
+Kuwait,MARKAZ.KW,Kuwait Financial Centre - KPSC,,57631216.0,KWF,True,new_markets_top
+Kuwait,PCEM.KW,Kuwait Portland Cement Co. K.P.S.C.,,54420160.0,KWF,False,new_markets_top
+Kuwait,UNICAP.KW,Unicap Investment and Finance Company K.S.C.P.,,53510836.0,KWF,True,new_markets_top
+Kuwait,SPEC.KW,Specialities Group Holding Company K.P.S.C.,,50402776.0,KWF,False,new_markets_top
+Kuwait,KFIC.KW,KFIC Invest Company K.S.C. (Public),,48423568.0,KWF,True,new_markets_top
+Kuwait,ABAR.KW,"Burgan Company for Well Drilling, Trading and Maintenance K.S.C. (Public)",,47951656.0,KWF,False,new_markets_top
+Kuwait,INJAZZAT.KW,Injazzat Real Estate Development Company K.P.S.C.,,46316836.0,KWF,False,new_markets_top
+Kuwait,ALSAFAT.KW,Al Safat Investment Company K.S.C.,,44161044.0,KWF,True,new_markets_top
+Kuwait,ALOLA.KW,First Investment Company K.S.C.P.,,43126144.0,KWF,True,new_markets_top
+Kuwait,KCPC.KW,The Kuwait Company for Process Plant Construction and Contracting K.S.C.P.,,41860448.0,KWF,False,new_markets_top
+Kuwait,WINSRE.KW,Warba Insurance and Reinsurance Company (K.S.C.P.),,39679048.0,KWF,True,new_markets_top
+Kuwait,KBT.KW,Kuwait Business Town Real Estate Company - KPSC,,37845348.0,KWF,False,new_markets_top
+Kuwait,SOKOUK.KW,Sokouk Holding Company K.S.C.P.,,37785756.0,KWF,False,new_markets_top
+Kuwait,TIJARA.KW,Tijara & Real Estate Investment Company K.S.C.P.,,36223000.0,KWF,False,new_markets_top
+Kuwait,MARAKEZ.KW,Marakez Real Estate Development Company (K.P.S.C),,36195000.0,KWF,False,new_markets_top
+Kuwait,MAZAYA.KW,Al-Mazaya Holding Company - K.S.C. (Public),,35363268.0,KWF,False,new_markets_top
+Kuwait,ALENMA.KW,Al-Enma'a Real Estate Company K.S.C.P.,,35333900.0,KWF,False,new_markets_top
+Kuwait,NIH.KW,National International Holding Company K.S.C.P.,,34982168.0,KWF,True,new_markets_top
+Kuwait,ARGAN.KW,Al Argan International Real Estate Company - K.S.C.P.,,33988900.0,KWF,False,new_markets_top
+Kuwait,COAST.KW,Coast Investment & Development Company K.S.C.P.,,31156804.0,KWF,True,new_markets_top
+Kuwait,ASIYA.KW,Asiya Capital Investments Company K.S.C.P.,,30383594.0,KWF,True,new_markets_top
+Kuwait,SECH.KW,The Securities House K.S.C.P.,,30367696.0,KWF,True,new_markets_top
+Kuwait,KMEFIC.KW,Kuwait and Middle East Financial Investment Company K.S.C.P.,,29920000.0,KWF,True,new_markets_top
+Kuwait,THURAYA.KW,Dar Al-Thuraya Real Estate Company K.S.C.P.,,29153500.0,KWF,False,new_markets_top
+Kuwait,CATTL.KW,Livestock Transport and Trading Company K.P.S.C.,,26988500.0,KWF,False,new_markets_top
+Kuwait,OSOUL.KW,Osoul Investment Company - K.S.C.P,,25411672.0,KWF,True,new_markets_top
+Kuwait,NCCI.KW,National Consumer Holding Company - K.S.C. (Public),,25140000.0,KWF,False,new_markets_top
+Kuwait,ALMANAR.KW,Al Manar Financing and Leasing Company K.S.C. (Public),,25128422.0,KWF,True,new_markets_top
+Kuwait,KFOUC.KW,Kuwait Foundry Company K.S.C.P.,,24375000.0,KWF,False,new_markets_top
+Kuwait,WARBACAP.KW,Warba Capital Holding Company K.S.C.P.,,22709956.0,KWF,True,new_markets_top
+Kuwait,MUNTAZAHAT.KW,Kuwait Resorts Company K.P.S.C.,,22656258.0,KWF,False,new_markets_top
+Kuwait,MENA.KW,MENA Real Estate Company - KSCP,,21786750.0,KWF,False,new_markets_top
+Kuwait,AQAR.KW,Aqar Real Estate Investments Company K.S.C. (Public),,21218804.0,KWF,False,new_markets_top
+Kuwait,MUBARRAD.KW,Mubarrad Holding Company K.S.C.P.,,21116366.0,KWF,False,new_markets_top
+Kuwait,EMIRATES.KW,Kuwait Emirates Holding Company K.S.C.P.,,20624396.0,KWF,False,new_markets_top
+Kuwait,MADAR.KW,Al Madar Kuwait Holding Company K.S.C.P.,,20534244.0,KWF,False,new_markets_top
+Kuwait,OSOS.KW,OSOS Holding Group Company K.P.S.C.,,20202000.0,KWF,True,new_markets_top
+Kuwait,MANAZEL.KW,Manazel Holding Company K.P.S.C.,,19584566.0,KWF,False,new_markets_top
+Kuwait,SHUAIBA.KW,Shuaiba Industrial Company K.P.S.C.,,19152890.0,KWF,False,new_markets_top
+Kuwait,SENERGY.KW,Senergy Holding Company K.S.C.P.,,18971550.0,KWF,False,new_markets_top
+Kuwait,TAHSSILAT.KW,Credit Rating and Collection Company K.S.C. (Public),,18645000.0,KWF,True,new_markets_top
+Kuwait,MASHAER.KW,Mashaer Holding Company K.S.C.P.,,18126056.0,KWF,False,new_markets_top
+Qatar,QNBK.QA,Qatar National Bank (Q.P.S.C.),,141051314176.0,QAR,True,new_markets_top
+Qatar,IQCD.QA,Industries Qatar Q.P.S.C.,,51122499584.0,QAR,False,new_markets_top
+Qatar,QIBK.QA,Qatar Islamic Bank (Q.P.S.C.),,43856015360.0,QAR,True,new_markets_top
+Qatar,ORDS.QA,Ooredoo Q.P.S.C.,,37125087232.0,QAR,False,new_markets_top
+Qatar,QGTS.QA,Qatar Gas Transport Company Limited (Nakilat) (QPSC),,20111157248.0,QAR,False,new_markets_top
+Qatar,ERES.QA,Ezdan Holding Group Q.P.S.C.,,18514427904.0,QAR,False,new_markets_top
+Qatar,IGRD.QA,Estithmar Holding Q.P.S.C.,,16225413120.0,QAR,False,new_markets_top
+Qatar,DUBK.QA,Dukhan Bank Q.P.S.C.,,15440595968.0,QAR,True,new_markets_top
+Qatar,MARK.QA,AlRayan Bank Q.P.S.C.,,15289199616.0,QAR,True,new_markets_top
+Qatar,CBQK.QA,The Commercial Bank (P.S.Q.C.),,14934366208.0,QAR,True,new_markets_top
+Qatar,QIIK.QA,Qatar International Islamic Bank (Q.P.S.C),,14681255936.0,QAR,True,new_markets_top
+Qatar,QEWS.QA,Nebras Energy Q.P.S.C.,,13562999808.0,QAR,False,new_markets_top
+Qatar,QFLS.QA,"Qatar Fuel Company Q.P.S.C. (""WOQOD"")",,11931068416.0,QAR,False,new_markets_top
+Qatar,MPHC.QA,Mesaieed Petrochemical Holding Company Q.P.S.C.,,10666135552.0,QAR,False,new_markets_top
+Qatar,QNNS.QA,Qatar Navigation Q.P.S.C.,,9941443584.0,QAR,False,new_markets_top
+Qatar,ABQK.QA,Ahli Bank Q.P.S.C.,,9918856192.0,QAR,True,new_markets_top
+Qatar,VFQS.QA,Vodafone Qatar P.Q.S.C.,,9806640128.0,QAR,False,new_markets_top
+Qatar,BRES.QA,Barwa Real Estate Company Q.P.S.C.,,7766927872.0,QAR,False,new_markets_top
+Qatar,DHBK.QA,Doha Bank Q.P.S.C.,,6920242688.0,QAR,True,new_markets_top
+Qatar,QATI.QA,Qatar Insurance Company Q.S.P.C.,,6365631488.0,QAR,True,new_markets_top
+Qatar,QAMC.QA,Qatar Aluminium Manufacturing Company Q.P.S.C.,,6238574592.0,QAR,False,new_markets_top
+Qatar,AHCS.QA,Aamal Company Q.P.S.C.,,4032000000.0,QAR,False,new_markets_top
+Qatar,QFBQ.QA,Lesha Bank LLC,,3122560000.0,QAR,True,new_markets_top
+Qatar,BLDN.QA,Baladna Q.P.S.C.,,3012298752.0,QAR,False,new_markets_top
+Qatar,ZHCD.QA,Zad Holding Company Q.P.S.C.,,2946038272.0,QAR,False,new_markets_top
+Qatar,GISS.QA,Gulf International Services Q.P.S.C.,,2614780928.0,QAR,False,new_markets_top
+Qatar,MERS.QA,Al Meera Consumer Goods Company Q.P.S.C.,,2523500032.0,QAR,False,new_markets_top
+Qatar,UDCD.QA,United Development Company Q.P.S.C.,,2432572416.0,QAR,False,new_markets_top
+Qatar,QIGD.QA,Qatari Investors Group Q.P.S.C.,,2205557248.0,QAR,False,new_markets_top
+Qatar,MCCS.QA,Mannai Corporation Q.P.S.C.,,2164631040.0,QAR,False,new_markets_top
+Qatar,QGRI.QA,Qatar General Insurance & Reinsurance Company Q.P.S.C.,,1917271808.0,QAR,True,new_markets_top
+Qatar,MEZA.QA,MEEZA QSTP-LLC (Public),,1868413312.0,QAR,False,new_markets_top
+Qatar,QNCD.QA,Qatar National Cement Company (Q.P.S.C.),,1556052480.0,QAR,False,new_markets_top
+Qatar,DOHI.QA,Doha Insurance Group Q.P.S.C.,,1362499968.0,QAR,True,new_markets_top
+Qatar,MCGS.QA,Medicare Group Q.P.S.C.,,1352605440.0,QAR,False,new_markets_top
+Qatar,GWCS.QA,Gulf Warehousing Company Q.P.S.C.,,1348458496.0,QAR,False,new_markets_top
+Qatar,QIMD.QA,Qatar Industrial Manufacturing Company Q.P.S.C.,,1045440000.0,QAR,False,new_markets_top
+Qatar,QISI.QA,Qatar Islamic Insurance Group Q.P.S.C.,,1020000000.0,QAR,True,new_markets_top
+Qatar,BEMA.QA,"Damaan Islamic Insurance Company ""Beema"" (Q.P.S.C.)",,880000000.0,QAR,True,new_markets_top
+Qatar,SIIS.QA,Salam International Investment Limited Q.P.S.C.,,767050880.0,QAR,False,new_markets_top
+Qatar,AKHI.QA,Al Khaleej Takaful Insurance Company Q.P.S.C.,,689253376.0,QAR,True,new_markets_top
+Qatar,QLMI.QA,QLM Life & Medical Insurance Company Q.P.S.C.,,612499968.0,QAR,True,new_markets_top
+Qatar,MFMS.QA,Mosanada Facility Management Services Q.P.S.C.,,520520000.0,QAR,False,new_markets_top
+Qatar,MRDS.QA,Mazaya Real Estate Development Q.P.S.C.,,503000032.0,QAR,False,new_markets_top
+Qatar,MHAR.QA,Al Mahhar Holding Company Q.P.S.C.,,457470016.0,QAR,False,new_markets_top
+Qatar,MKDM.QA,Mekdam Holding Group - Q.P.S.C.,,359804992.0,QAR,False,new_markets_top
+Qatar,DBIS.QA,Dlala Brokerage and Investment Holding Company Q.P.S.C.,,325181312.0,QAR,True,new_markets_top
+Qatar,NLCS.QA,Alijarah Holding (Q.P.S.C.),,288964352.0,QAR,False,new_markets_top
+Qatar,WDAM.QA,Widam Food Company Q.P.S.C.,,241200000.0,QAR,False,new_markets_top
+Qatar,TQES.QA,Qatar Electronic Systems Company (Techno Q) Q.P.S.C.,,173309504.0,QAR,False,new_markets_top
+Qatar,QGMD.QA,Qatari German Company for Medical Devices (Q.P.S.C.),,138368992.0,QAR,False,new_markets_top
+Qatar,QOIS.QA,Qatar Oman Investment Company Q.S.C.,,133920000.0,QAR,True,new_markets_top
+Qatar,IHGS.QA,INMA Holding Company Q.P.S.C.,,118935200.0,QAR,True,new_markets_top
+Qatar,FALH.QA,Al Faleh Educational Holding Company Q.P.S.C.,,118800000.0,QAR,False,new_markets_top
+Pakistan,ABOT.KA,Abbott,Pharmaceuticals,,,False,new_markets_top
+Pakistan,AICL.KA,Adamjee Insurance,Insurance,,,True,new_markets_top
+Pakistan,AGP.KA,AGP Limited,Pharmaceuticals,,,False,new_markets_top
+Pakistan,AIRLINK.KA,Air Link Communication,Technology & Communication,,,False,new_markets_top
+Pakistan,ABL.KA,Allied Bank,Commercial Banks,,,True,new_markets_top
+Pakistan,AHCL.KA,Arif Habib Corp,Investment Banks / Investment Companies / Securities Companies,,,True,new_markets_top
+Pakistan,AKBL.KA,Askari Bank,Commercial Banks,,,True,new_markets_top
+Pakistan,ATLH.KA,Atlas Honda,Automobile Assembler,,,False,new_markets_top
+Pakistan,APL.KA,Attock Petroleum,Oil & Gas Marketing Companies,,,False,new_markets_top
+Pakistan,ATRL.KA,Attock Refinery,Refinery,,,False,new_markets_top
+Pakistan,AVN.KA,Avanceon,Technology & Communication,,,False,new_markets_top
+Pakistan,BAHL.KA,Bank AL Habib,Commercial Banks,,,True,new_markets_top
+Pakistan,BAFL.KA,Bank Alfalah,Commercial Banks,,,True,new_markets_top
+Pakistan,BOP.KA,Bank of Punjab,Commercial Banks,,,True,new_markets_top
+Pakistan,BNWM.KA,Bannu Woollen Mills,Woollen,,,False,new_markets_top
+Pakistan,BWCL.KA,Bestway Cement,Cement,,,False,new_markets_top
+Pakistan,CHCC.KA,Cherat Cement,Cement,,,False,new_markets_top
+Pakistan,CPHL.KA,Citi Pharma,Pharmaceuticals,,,False,new_markets_top
+Pakistan,CNERGY.KA,Cnergyico,Refinery,,,False,new_markets_top
+Pakistan,COLG.KA,Colgate-Palmolive Pakistan,Food & Personal Care Products,,,False,new_markets_top
+Pakistan,DGKC.KA,DG Cement,Cement,,,False,new_markets_top
+Pakistan,DHPL.KA,DH,Investment Banks / Investment Companies / Securities Companies,,,True,new_markets_top
+Pakistan,DCR.KA,Dolmen City,Real Estate Investment Trust,,,True,new_markets_top
+Pakistan,ENGROH.KA,Engro Holdings,Investment Banks / Investment Companies / Securities Companies,,,True,new_markets_top
+Pakistan,EFERT.KA,Engro Fertilizers,Fertilizer,,,False,new_markets_top
+Pakistan,FATIMA.KA,Fatima Fertilizer Company,Fertilizer,,,False,new_markets_top
+Pakistan,FCCL.KA,Fauji Cement,Cement,,,False,new_markets_top
+Pakistan,FFC.KA,Fauji Fertilizer Company,Fertilizer,,,False,new_markets_top
+Pakistan,FFL.KA,Fauji Foods,Food & Personal Care Products,,,False,new_markets_top
+Pakistan,FABL.KA,Faysal Bank,Commercial Banks,,,True,new_markets_top
+Pakistan,HALEON.KA,Haleon Pakistan,Pharmaceuticals,,,False,new_markets_top
+Pakistan,FHAM.KA,First Habib Modarba,Modarabas,,,True,new_markets_top
+Pakistan,GADT.KA,Gadoon Textile Mills,Textile Spinning,,,False,new_markets_top
+Pakistan,GAL.KA,Ghandhara Automobiles,Automobile Assembler,,,False,new_markets_top
+Pakistan,GHNI.KA,Ghandhara Industries,Automobile Assembler,,,False,new_markets_top
+Pakistan,GHGL.KA,Ghani Glass,Glass & Ceramics,,,False,new_markets_top
+Pakistan,GLAXO.KA,GSK,Pharmaceuticals,,,False,new_markets_top
+Pakistan,HBL.KA,HBL,Commercial Banks,,,True,new_markets_top
+Pakistan,HMB.KA,HabibMetro,Commercial Banks,,,True,new_markets_top
+Pakistan,HGFA.KA,HBL Growth Fund,Close-End Mutual Funds,,,False,new_markets_top
+Pakistan,HINOON.KA,Highnoon,Pharmaceuticals,,,False,new_markets_top
+Pakistan,HCAR.KA,Honda Atlas,Automobile Assembler,,,False,new_markets_top
+Pakistan,HUBC.KA,Hubco,Power Generation & Distribution,,,False,new_markets_top
+Pakistan,HUMNL.KA,Hum Network,Technology & Communication,,,False,new_markets_top
+Pakistan,IBFL.KA,Ibrahim Fibre,Synthetic & Rayon,,,False,new_markets_top
+Pakistan,JDWS.KA,JDW Sugar Mills,Sugar & Allied Industries,,,False,new_markets_top
+Pakistan,INDU.KA,Indus Motor,Automobile Assembler,,,False,new_markets_top
+Pakistan,ILP.KA,Interloop Limited,Textile Composite,,,False,new_markets_top
+Pakistan,INIL.KA,International Industries Limited,Engineering,,,False,new_markets_top
+Pakistan,ISL.KA,International Steels Limited,Engineering,,,False,new_markets_top
+Pakistan,JVDC.KA,Javedan,Property,,,False,new_markets_top
+Pakistan,KEL.KA,K-Electric,Power Generation & Distribution,,,False,new_markets_top
+Pakistan,KOHC.KA,Kohat Cement,Cement,,,False,new_markets_top
+Pakistan,KTML.KA,Kohinoor Textile,Textile Composite,,,False,new_markets_top
+Pakistan,KAPCO.KA,Kot Addu Power,Power Generation & Distribution,,,False,new_markets_top
+Pakistan,LOTCHEM.KA,Lotte Chemical,Chemical,,,False,new_markets_top
+Pakistan,LUCK.KA,Lucky Cement,Cement,,,False,new_markets_top
+Pakistan,LCI.KA,Lucky Core Industries,Chemical,,,False,new_markets_top
+Pakistan,MLCF.KA,Maple Leaf Cement,Cement,,,False,new_markets_top
+Pakistan,MARI.KA,Mari Energies,Oil & Gas Exploration Companies,,,False,new_markets_top
+Pakistan,MCB.KA,MCB Bank,Commercial Banks,,,True,new_markets_top
+Pakistan,MEBL.KA,Meezan Bank,Commercial Banks,,,True,new_markets_top
+Pakistan,MEHT.KA,Mehmood Textile Mills,Textile Composite,,,False,new_markets_top
+Pakistan,MTL.KA,Millat Tractors,Automobile Assembler,,,False,new_markets_top
+Pakistan,MUREB.KA,Murree Brewery,Food & Personal Care Products,,,False,new_markets_top
+Pakistan,NBP.KA,National Bank,Commercial Banks,,,True,new_markets_top
+Pakistan,NATF.KA,National Foods,Food & Personal Care Products,,,False,new_markets_top
+Pakistan,NESTLE.KA,Nestlé Pakistan,Food & Personal Care Products,,,False,new_markets_top
+Pakistan,OGDC.KA,OGDC,Oil & Gas Exploration Companies,,,False,new_markets_top
+Pakistan,PKGS.KA,Packages Limited,"Paper, Board & Packaging",,,False,new_markets_top
+Pakistan,PAEL.KA,PEL,Cable & Electrical Goods,,,False,new_markets_top
+Pakistan,PGLC.KA,Pak-Gulf Leasing,Leasing Companies,,,True,new_markets_top
+Pakistan,PABC.KA,Pakistan Aluminium Beverage Cans,Miscellaneous,,,False,new_markets_top
+Pakistan,PIBTL.KA,PIBTL,Transport,,,False,new_markets_top
+Pakistan,POWER.KA,Power Cement,Cement,,,False,new_markets_top
+Pakistan,POL.KA,Pakistan Oilfields,Oil & Gas Exploration Companies,,,False,new_markets_top
+Pakistan,PPL.KA,Pakistan Petroleum,Oil & Gas Exploration Companies,,,False,new_markets_top
+Pakistan,PSEL.KA,Pakistan Services,Miscellaneous,,,False,new_markets_top
+Pakistan,PSO.KA,Pakistan State Oil,Oil & Gas Marketing Companies,,,False,new_markets_top
+Pakistan,PSX.KA,Pakistan Stock Exchange,Investment Banks / Investment Companies / Securities Companies,,,True,new_markets_top
+Pakistan,PTC.KA,PTCL,Technology & Communication,,,False,new_markets_top
+Pakistan,PAKT.KA,Pakistan Tobacco Company,Tobacco,,,False,new_markets_top
+Pakistan,PIOC.KA,Pioneer Cement,Cement,,,False,new_markets_top
+Pakistan,RMPL.KA,Rafhan Maize,Food & Personal Care Products,,,False,new_markets_top
+Pakistan,SAZEW.KA,Sazgar,Automobile Assembler,,,False,new_markets_top
+Pakistan,SEARL.KA,Searle,Pharmaceuticals,,,False,new_markets_top
+Pakistan,SRVI.KA,Servis,Leather & Tanneries,,,False,new_markets_top
+Pakistan,SHFA.KA,Shifa,Miscellaneous,,,False,new_markets_top
+Pakistan,WAFI.KA,Wafi,Oil & Gas Marketing Companies,,,False,new_markets_top
+Pakistan,SCBPL.KA,Standard Chartered,Commercial Banks,,,True,new_markets_top
+Pakistan,SNGP.KA,Sui Northern,Oil & Gas Marketing Companies,,,False,new_markets_top
+Pakistan,SSGC.KA,Sui Southern,Oil & Gas Marketing Companies,,,False,new_markets_top
+Pakistan,SYS.KA,Systems Limited,Technology & Communication,,,False,new_markets_top
+Pakistan,TGL.KA,Tariq Glass,Glass & Ceramics,,,False,new_markets_top
+Pakistan,THALL.KA,Thal Limited,Automobile Parts & Accessories,,,False,new_markets_top
+Pakistan,TRG.KA,TRG Pakistan,Technology & Communication,,,False,new_markets_top
+Pakistan,UPFL.KA,Unilever Foods,Food & Personal Care Products,,,False,new_markets_top
+Pakistan,UBL.KA,UBL,Commercial Banks,,,True,new_markets_top
+Pakistan,YOUW.KA,Yousuf Weaving Mills,Textile Weaving,,,False,new_markets_top
+Vietnam,ACB.VN,,,,,True,new_markets_top
+Vietnam,BID.VN,,,,,True,new_markets_top
+Vietnam,CTG.VN,,,,,True,new_markets_top
+Vietnam,HDB.VN,,,,,True,new_markets_top
+Vietnam,MBB.VN,,,,,True,new_markets_top
+Vietnam,SHB.VN,,,,,True,new_markets_top
+Vietnam,SSB.VN,,,,,True,new_markets_top
+Vietnam,STB.VN,,,,,True,new_markets_top
+Vietnam,TCB.VN,,,,,True,new_markets_top
+Vietnam,TPB.VN,,,,,True,new_markets_top
+Vietnam,VCB.VN,,,,,True,new_markets_top
+Vietnam,VIB.VN,,,,,True,new_markets_top
+Vietnam,VPB.VN,,,,,True,new_markets_top
+Vietnam,LPB.VN,,,,,True,new_markets_top
+Vietnam,EIB.VN,,,,,True,new_markets_top
+Vietnam,MSB.VN,,,,,True,new_markets_top
+Vietnam,OCB.VN,,,,,True,new_markets_top
+Vietnam,BVH.VN,,,,,True,new_markets_top
+Vietnam,SSI.VN,,,,,True,new_markets_top
+Vietnam,VCI.VN,,,,,True,new_markets_top
+Vietnam,HCM.VN,,,,,True,new_markets_top
+Vietnam,VND.VN,,,,,True,new_markets_top
+Vietnam,FTS.VN,,,,,True,new_markets_top
+Vietnam,BSI.VN,,,,,True,new_markets_top
+Vietnam,AGR.VN,,,,,True,new_markets_top
+Vietnam,CTS.VN,,,,,True,new_markets_top
+Vietnam,VIX.VN,,,,,True,new_markets_top
+Vietnam,ORS.VN,,,,,True,new_markets_top
+Vietnam,EVF.VN,,,,,True,new_markets_top
+Vietnam,BMI.VN,,,,,True,new_markets_top
+Vietnam,MIG.VN,,,,,True,new_markets_top
+Vietnam,PGI.VN,,,,,True,new_markets_top
+Vietnam,NAB.VN,,,,,True,new_markets_top
+Vietnam,BCM.VN,,,,,False,new_markets_top
+Vietnam,FPT.VN,,,,,False,new_markets_top
+Vietnam,GAS.VN,,,,,False,new_markets_top
+Vietnam,GVR.VN,,,,,False,new_markets_top
+Vietnam,HPG.VN,,,,,False,new_markets_top
+Vietnam,MSN.VN,,,,,False,new_markets_top
+Vietnam,MWG.VN,,,,,False,new_markets_top
+Vietnam,PLX.VN,,,,,False,new_markets_top
+Vietnam,POW.VN,,,,,False,new_markets_top
+Vietnam,SAB.VN,,,,,False,new_markets_top
+Vietnam,VHM.VN,,,,,False,new_markets_top
+Vietnam,VIC.VN,,,,,False,new_markets_top
+Vietnam,VJC.VN,,,,,False,new_markets_top
+Vietnam,VNM.VN,,,,,False,new_markets_top
+Vietnam,VRE.VN,,,,,False,new_markets_top
+Vietnam,DGC.VN,,,,,False,new_markets_top
+Vietnam,DIG.VN,,,,,False,new_markets_top
+Vietnam,DXG.VN,,,,,False,new_markets_top
+Vietnam,GMD.VN,,,,,False,new_markets_top
+Vietnam,KBC.VN,,,,,False,new_markets_top
+Vietnam,KDH.VN,,,,,False,new_markets_top
+Vietnam,NLG.VN,,,,,False,new_markets_top
+Vietnam,NVL.VN,,,,,False,new_markets_top
+Vietnam,PDR.VN,,,,,False,new_markets_top
+Vietnam,PNJ.VN,,,,,False,new_markets_top
+Vietnam,REE.VN,,,,,False,new_markets_top
+Vietnam,VHC.VN,,,,,False,new_markets_top
+Vietnam,DCM.VN,,,,,False,new_markets_top
+Vietnam,DPM.VN,,,,,False,new_markets_top
+Vietnam,FRT.VN,,,,,False,new_markets_top
+Vietnam,GEX.VN,,,,,False,new_markets_top
+Vietnam,HAG.VN,,,,,False,new_markets_top
+Vietnam,HSG.VN,,,,,False,new_markets_top
+Vietnam,KDC.VN,,,,,False,new_markets_top
+Vietnam,NKG.VN,,,,,False,new_markets_top
+Vietnam,PVD.VN,,,,,False,new_markets_top
+Vietnam,PVT.VN,,,,,False,new_markets_top
+Vietnam,SBT.VN,,,,,False,new_markets_top
+Vietnam,SZC.VN,,,,,False,new_markets_top
+Vietnam,VGC.VN,,,,,False,new_markets_top
+Vietnam,VCG.VN,,,,,False,new_markets_top
+Vietnam,CII.VN,,,,,False,new_markets_top
+Vietnam,CTD.VN,,,,,False,new_markets_top
+Vietnam,DGW.VN,,,,,False,new_markets_top
+Vietnam,HHV.VN,,,,,False,new_markets_top
+Vietnam,HDG.VN,,,,,False,new_markets_top
+Vietnam,IJC.VN,,,,,False,new_markets_top
+Vietnam,PC1.VN,,,,,False,new_markets_top
+Vietnam,VSH.VN,,,,,False,new_markets_top
+Vietnam,BMP.VN,,,,,False,new_markets_top
+Vietnam,DHG.VN,,,,,False,new_markets_top
+Vietnam,IMP.VN,,,,,False,new_markets_top
+Vietnam,TCH.VN,,,,,False,new_markets_top
+Vietnam,SCS.VN,,,,,False,new_markets_top
+Vietnam,NT2.VN,,,,,False,new_markets_top
+Vietnam,PHR.VN,,,,,False,new_markets_top
+Vietnam,DPR.VN,,,,,False,new_markets_top
+Vietnam,ASM.VN,,,,,False,new_markets_top
+Vietnam,BWE.VN,,,,,False,new_markets_top
+Vietnam,HT1.VN,,,,,False,new_markets_top
+Vietnam,KOS.VN,,,,,False,new_markets_top
+Vietnam,CMG.VN,,,,,False,new_markets_top
+Vietnam,CSV.VN,,,,,False,new_markets_top
+Vietnam,DBC.VN,,,,,False,new_markets_top
+Vietnam,ANV.VN,,,,,False,new_markets_top
+Vietnam,IDI.VN,,,,,False,new_markets_top
+Vietnam,HQC.VN,,,,,False,new_markets_top
+Vietnam,ITA.VN,,,,,False,new_markets_top
+Vietnam,DBD.VN,,,,,False,new_markets_top
+Vietnam,TLG.VN,,,,,False,new_markets_top
+Vietnam,SIP.VN,,,,,False,new_markets_top
+Vietnam,BAF.VN,,,,,False,new_markets_top
+Vietnam,LHG.VN,,,,,False,new_markets_top
+Vietnam,PAN.VN,,,,,False,new_markets_top
+Vietnam,TNH.VN,,,,,False,new_markets_top
+Vietnam,VPI.VN,,,,,False,new_markets_top
+Vietnam,CRE.VN,,,,,False,new_markets_top
+Vietnam,NTL.VN,,,,,False,new_markets_top
+Vietnam,HDC.VN,,,,,False,new_markets_top
+Vietnam,DXS.VN,,,,,False,new_markets_top
+Vietnam,SKG.VN,,,,,False,new_markets_top
+Austria,EBS.VI,,,,,True,new_markets_top
+Austria,BG.VI,,,,,True,new_markets_top
+Austria,RBI.VI,,,,,True,new_markets_top
+Austria,VIG.VI,,,,,True,new_markets_top
+Austria,UQA.VI,,,,,True,new_markets_top
+Austria,OBS.VI,,,,,True,new_markets_top
+Austria,VER.VI,,,,,False,new_markets_top
+Austria,OMV.VI,,,,,False,new_markets_top
+Austria,ANDR.VI,,,,,False,new_markets_top
+Austria,WIE.VI,,,,,False,new_markets_top
+Austria,EVN.VI,,,,,False,new_markets_top
+Austria,POST.VI,,,,,False,new_markets_top
+Austria,CAI.VI,,,,,False,new_markets_top
+Austria,VOE.VI,,,,,False,new_markets_top
+Austria,LNZ.VI,,,,,False,new_markets_top
+Austria,SBO.VI,,,,,False,new_markets_top
+Austria,MMK.VI,,,,,False,new_markets_top
+Austria,DOC.VI,,,,,False,new_markets_top
+Austria,ATS.VI,,,,,False,new_markets_top
+Austria,IIA.VI,,,,,False,new_markets_top
+Austria,TKA.VI,,,,,False,new_markets_top
+Austria,STR.VI,,,,,False,new_markets_top
+Austria,AGR.VI,,,,,False,new_markets_top
+Austria,FACC.VI,,,,,False,new_markets_top
+Austria,PAL.VI,,,,,False,new_markets_top
+Austria,SEM.VI,,,,,False,new_markets_top
+Austria,ZAG.VI,,,,,False,new_markets_top
+Austria,KTCG.VI,,,,,False,new_markets_top
+Austria,FLU.VI,,,,,False,new_markets_top
+Austria,PYT.VI,,,,,False,new_markets_top
+Austria,AMAG.VI,,,,,False,new_markets_top
+Austria,ROS.VI,,,,,False,new_markets_top
+Austria,WXF.VI,,,,,False,new_markets_top

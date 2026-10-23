@@ -1,0 +1,1342 @@
+market,ticker,name,industry,market_cap,currency,financial,universe
+Japan,8411.T,"Mizuho Financial Group, Inc.",Banks—Regional,17666748186624.0,JPY,True,asia_financials_all
+Japan,7182.T,"JAPAN POST BANK Co., Ltd.",Banks—Regional,10327977623552.0,JPY,True,asia_financials_all
+Japan,6178.T,"Japan Post Holdings Co., Ltd.",Banks—Regional,6336954761216.0,JPY,True,asia_financials_all
+Japan,8308.T,"Resona Holdings, Inc.",Banks—Regional,4632686886912.0,JPY,True,asia_financials_all
+Japan,8309.T,"Sumitomo Mitsui Trust Group, Inc.",Banks—Regional,4319556403200.0,JPY,True,asia_financials_all
+Japan,5838.T,"Rakuten Bank, Ltd.",Banks—Regional,2325377974272.0,JPY,True,asia_financials_all
+Japan,7186.T,"Yokohama Financial Group, Inc.",Banks—Regional,1747693207552.0,JPY,True,asia_financials_all
+Japan,8421.T,Shinkin Central Bank,Banks—Regional,1632791560192.0,JPY,True,asia_financials_all
+Japan,8331.T,"The Chiba Bank, Ltd.",Banks—Regional,1600360284160.0,JPY,True,asia_financials_all
+Japan,5831.T,"Shizuoka Financial Group,Inc.",Banks—Regional,1481704603648.0,JPY,True,asia_financials_all
+Japan,8303.T,"SBI Shinsei Bank, Limited",Banks—Regional,1325621444608.0,JPY,True,asia_financials_all
+Japan,7167.T,"Mebuki Financial Group,Inc.",Banks—Regional,1309749936128.0,JPY,True,asia_financials_all
+Japan,8354.T,"Fukuoka Financial Group, Inc.",Banks—Regional,1227243651072.0,JPY,True,asia_financials_all
+Japan,5844.T,"Kyoto Financial Group,Inc.",Banks—Regional,1096412954624.0,JPY,True,asia_financials_all
+Japan,8359.T,"Hachijuni Nagano Bank, Ltd.",Banks—Regional,1019976024064.0,JPY,True,asia_financials_all
+Japan,8334.T,"The Gunma Bank, Ltd.",Banks—Regional,911237906432.0,JPY,True,asia_financials_all
+Japan,5830.T,"Iyogin Holdings, Inc.",Banks—Regional,876887998464.0,JPY,True,asia_financials_all
+Japan,8377.T,"Hokuhoku Financial Group, Inc.",Banks—Regional,800737394688.0,JPY,True,asia_financials_all
+Japan,8341.T,"The 77 Bank, Ltd.",Banks—Regional,728415862784.0,JPY,True,asia_financials_all
+Japan,7337.T,"Hirogin Holdings, Inc.",Banks—Regional,605777559552.0,JPY,True,asia_financials_all
+Japan,7180.T,"Kyushu Financial Group, Inc.",Banks—Regional,597465694208.0,JPY,True,asia_financials_all
+Japan,8418.T,"Yamaguchi Financial Group, Inc.",Banks—Regional,588875628544.0,JPY,True,asia_financials_all
+Japan,7327.T,"Daishi Hokuetsu Financial Group, Inc.",Banks—Regional,573706469376.0,JPY,True,asia_financials_all
+Japan,7189.T,"Nishi-Nippon Financial Holdings, Inc.",Banks—Regional,567576035328.0,JPY,True,asia_financials_all
+Japan,5832.T,"Chugin Financial Group,Inc.",Banks—Regional,556408307712.0,JPY,True,asia_financials_all
+Japan,8366.T,"The Shiga Bank, Ltd.",Banks—Regional,553549561856.0,JPY,True,asia_financials_all
+Japan,8368.T,"The Hyakugo Bank, Ltd.",Banks—Regional,469502525440.0,JPY,True,asia_financials_all
+Japan,8358.T,Suruga Bank Ltd.,Banks—Regional,438810804224.0,JPY,True,asia_financials_all
+Japan,8304.T,"Aozora Bank, Ltd.",Banks—Regional,401660575744.0,JPY,True,asia_financials_all
+Japan,8524.T,"North Pacific Bank,Ltd.",Banks—Regional,397312360448.0,JPY,True,asia_financials_all
+Japan,7389.T,"Aichi Financial Group, Inc.",Banks—Regional,391191756800.0,JPY,True,asia_financials_all
+Japan,7380.T,"Juroku Financial Group,Inc.",Banks—Regional,388568678400.0,JPY,True,asia_financials_all
+Japan,7173.T,"Tokyo Kiraboshi Financial Group, Inc.",Banks—Regional,387589505024.0,JPY,True,asia_financials_all
+Japan,8410.T,"Seven Bank, Ltd.",Banks—Regional,383570477056.0,JPY,True,asia_financials_all
+Japan,8388.T,"The Awa Bank, Ltd.",Banks—Regional,346778533888.0,JPY,True,asia_financials_all
+Japan,8381.T,"The San-in Godo Bank,Ltd.",Banks—Regional,295731265536.0,JPY,True,asia_financials_all
+Japan,8361.T,"The Ogaki Kyoritsu Bank, Ltd.",Banks—Regional,293129355264.0,JPY,True,asia_financials_all
+Japan,8370.T,"The Kiyo Bank, Ltd.",Banks—Regional,286574641152.0,JPY,True,asia_financials_all
+Japan,8386.T,"The Hyakujushi Bank, Ltd.",Banks—Regional,284417818624.0,JPY,True,asia_financials_all
+Japan,8522.T,"The Bank of Nagoya, Ltd.",Banks—Regional,275502759936.0,JPY,True,asia_financials_all
+Japan,8544.T,"The Keiyo Bank, Ltd.",Banks—Regional,263450394624.0,JPY,True,asia_financials_all
+Japan,8367.T,"The Nanto Bank, Ltd.",Banks—Regional,261194448896.0,JPY,True,asia_financials_all
+Japan,8714.T,"Senshu Ikeda Holdings, Inc.",Banks—Regional,250600325120.0,JPY,True,asia_financials_all
+Japan,8336.T,"The Musashino Bank, Ltd.",Banks—Regional,232614281216.0,JPY,True,asia_financials_all
+Japan,7381.T,"CCI Group, Inc.",Banks—Regional,230642794496.0,JPY,True,asia_financials_all
+Japan,8346.T,"The Toho Bank, Ltd.",Banks—Regional,221899997184.0,JPY,True,asia_financials_all
+Japan,8392.T,"The Oita Bank, Ltd.",Banks—Regional,194667069440.0,JPY,True,asia_financials_all
+Japan,8600.T,"TOMONY Holdings, Inc.",Banks—Regional,189332897792.0,JPY,True,asia_financials_all
+Japan,8393.T,"The Miyazaki Bank, Ltd.",Banks—Regional,186708262912.0,JPY,True,asia_financials_all
+Japan,7184.T,"The First Bank Of Toyama, Ltd.",Banks—Regional,186202390528.0,JPY,True,asia_financials_all
+Japan,8360.T,"The Yamanashi Chuo Bank,Ltd.",Banks—Regional,178737512448.0,JPY,True,asia_financials_all
+Japan,7322.T,"San ju San Financial Group,Inc.",Banks—Regional,178049155072.0,JPY,True,asia_financials_all
+Japan,8362.T,"The Fukui Bank, Ltd.",Banks—Regional,148797063168.0,JPY,True,asia_financials_all
+Japan,8387.T,"The Shikoku Bank, Ltd.",Banks—Regional,143871426560.0,JPY,True,asia_financials_all
+Japan,7350.T,"Okinawa Financial Group, Inc.",Banks—Regional,140033966080.0,JPY,True,asia_financials_all
+Japan,8345.T,"The Bank of Iwate, Ltd.",Banks—Regional,134544457728.0,JPY,True,asia_financials_all
+Japan,8337.T,"The Chiba Kogyo Bank, Ltd.",Banks—Regional,132126564352.0,JPY,True,asia_financials_all
+Japan,8541.T,"The Ehime Bank, Ltd.",Banks—Regional,128364003328.0,JPY,True,asia_financials_all
+Japan,8344.T,"The Yamagata Bank, Ltd.",Banks—Regional,124407341056.0,JPY,True,asia_financials_all
+Japan,8343.T,"The Akita Bank, Ltd.",Banks—Regional,119423057920.0,JPY,True,asia_financials_all
+Japan,8399.T,"Bank of The Ryukyus, Limited",Banks—Regional,107805892608.0,JPY,True,asia_financials_all
+Japan,7384.T,"Procrea Holdings, Inc.",Banks—Regional,105332498432.0,JPY,True,asia_financials_all
+Japan,8395.T,The Bank of Saga Ltd.,Banks—Regional,96842514432.0,JPY,True,asia_financials_all
+Japan,8550.T,"The Tochigi Bank, Ltd.",Banks—Regional,91324268544.0,JPY,True,asia_financials_all
+Japan,8551.T,"The Kita-Nippon Bank, Ltd.",Banks—Regional,54707585024.0,JPY,True,asia_financials_all
+Japan,8338.T,"Tsukuba Bank, Ltd.",Banks—Regional,48786923520.0,JPY,True,asia_financials_all
+Japan,8558.T,"The Towa Bank, Ltd.",Banks—Regional,42134036480.0,JPY,True,asia_financials_all
+Japan,8713.T,FIDEA Holdings Co. Ltd.,Banks—Regional,41155014656.0,JPY,True,asia_financials_all
+Japan,8364.T,"The Shimizu Bank, Ltd.",Banks—Regional,28161060864.0,JPY,True,asia_financials_all
+Japan,8537.T,"The Taiko Bank, Ltd.",Banks—Regional,25578252288.0,JPY,True,asia_financials_all
+Japan,8301.T,Bank of Japan,Banks—Regional,,JPY,True,asia_financials_all
+Japan,8542.T,"Tomato Bank, Ltd.",Banks—Regional,19784151040.0,JPY,True,asia_financials_all
+Japan,8383.T,"The Tottori Bank, Ltd.",Banks—Regional,15704707072.0,JPY,True,asia_financials_all
+Japan,8563.T,"The Daito Bank, Ltd.",Banks—Regional,14194001920.0,JPY,True,asia_financials_all
+Japan,7161.T,"Jimoto Holdings, Inc.",Banks—Regional,14125932544.0,JPY,True,asia_financials_all
+Japan,8349.T,"The Tohoku Bank, Ltd.",Banks—Regional,13367350272.0,JPY,True,asia_financials_all
+Japan,8562.T,"The Fukushima Bank, Ltd.",Banks—Regional,11368276992.0,JPY,True,asia_financials_all
+Japan,8365.T,"The Bank of Toyama, Ltd.",Banks—Regional,10819544064.0,JPY,True,asia_financials_all
+Japan,8416.T,"The Bank Of Kochi, Ltd.",Banks—Regional,9865106432.0,JPY,True,asia_financials_all
+Japan,7150.T,"The Shimane Bank,Ltd.",Banks—Regional,3864095232.0,JPY,True,asia_financials_all
+Japan,8306.T,"Mitsubishi UFJ Financial Group, Inc.",Banks—Diversified,36401143873536.0,JPY,True,asia_financials_all
+Japan,8316.T,"Sumitomo Mitsui Financial Group, Inc.",Banks—Diversified,23001521192960.0,JPY,True,asia_financials_all
+Japan,8750.T,"Daiichi Life Group, Inc.",Insurance—Life,6536176861184.0,JPY,True,asia_financials_all
+Japan,8795.T,"T&D Holdings, Inc.",Insurance—Life,2261037613056.0,JPY,True,asia_financials_all
+Japan,7181.T,"Japan Post Insurance Co., Ltd.",Insurance—Life,1817319178240.0,JPY,True,asia_financials_all
+Japan,8729.T,Sony Financial Group Inc.,Insurance—Life,959978602496.0,JPY,True,asia_financials_all
+Japan,7157.T,Lifenet Insurance Company,Insurance—Life,107093647360.0,JPY,True,asia_financials_all
+Japan,7325.T,IRRC Corporation,Insurance—Life,6026694656.0,JPY,True,asia_financials_all
+Japan,8725.T,"MS&AD Insurance Group Holdings, Inc.",Insurance—Property & Casualty,7448331026432.0,JPY,True,asia_financials_all
+Japan,8630.T,"Sompo Holdings, Inc.",Insurance—Property & Casualty,6245933645824.0,JPY,True,asia_financials_all
+Japan,8766.T,"Tokio Marine Holdings, Inc.",Insurance—Property & Casualty,1094042648576.0,JPY,True,asia_financials_all
+Japan,8715.T,"Anicom Holdings, Inc.",Insurance—Property & Casualty,80030515200.0,JPY,True,asia_financials_all
+Japan,7326.T,"SBI Insurance Group Co., Ltd.",Insurance—Diversified,51254099968.0,JPY,True,asia_financials_all
+Japan,9679.T,"HORAI Co., Ltd.",Insurance—Diversified,8874777600.0,JPY,True,asia_financials_all
+Japan,7343.T,"Broad-minded Co.,Ltd.",Insurance—Diversified,7475520000.0,JPY,True,asia_financials_all
+Japan,5843.T,"Nippon Insure Co., Ltd.",Insurance—Diversified,6330551808.0,JPY,True,asia_financials_all
+Japan,8798.T,"Advance Create Co., Ltd.",Insurance—Diversified,2661791744.0,JPY,True,asia_financials_all
+Japan,7388.T,FP Partner Inc.,Insurance Brokers,54637232128.0,JPY,True,asia_financials_all
+Japan,8604.T,"Nomura Holdings, Inc.",Capital Markets,4097473511424.0,JPY,True,asia_financials_all
+Japan,8601.T,Daiwa Securities Group Inc.,Capital Markets,2357095301120.0,JPY,True,asia_financials_all
+Japan,8628.T,"Matsui Securities Co., Ltd.",Capital Markets,271504916480.0,JPY,True,asia_financials_all
+Japan,8609.T,Okasan Securities Group Inc.,Capital Markets,213246066688.0,JPY,True,asia_financials_all
+Japan,8616.T,"Tokai Tokyo Financial Holdings, Inc.",Capital Markets,207621980160.0,JPY,True,asia_financials_all
+Japan,2127.T,Nihon M&A Center Holdings Inc.,Capital Markets,197273059328.0,JPY,True,asia_financials_all
+Japan,8698.T,"Monex Group, Inc.",Capital Markets,160621395968.0,JPY,True,asia_financials_all
+Japan,6080.T,"M&A Capital Partners Co.,Ltd.",Capital Markets,132993359872.0,JPY,True,asia_financials_all
+Japan,7177.T,"GMO Financial Holdings, Inc.",Capital Markets,131794157568.0,JPY,True,asia_financials_all
+Japan,8707.T,"IwaiCosmo Holdings, Inc.",Capital Markets,92780462080.0,JPY,True,asia_financials_all
+Japan,6196.T,"Strike Group Co., Ltd.",Capital Markets,81746157568.0,JPY,True,asia_financials_all
+Japan,8613.T,"Marusan Securities Co., Ltd.",Capital Markets,76920201216.0,JPY,True,asia_financials_all
+Japan,9552.T,"Quants Research Institute Holdings, Inc.",Capital Markets,53889236992.0,JPY,True,asia_financials_all
+Japan,8706.T,"Kyokuto Securities Co., Ltd.",Capital Markets,48286916608.0,JPY,True,asia_financials_all
+Japan,8708.T,"Aizawa Securities Group Co., Ltd.",Capital Markets,46813073408.0,JPY,True,asia_financials_all
+Japan,8622.T,"Mito Securities Co., Ltd.",Capital Markets,44452835328.0,JPY,True,asia_financials_all
+Japan,8614.T,"Toyo Securities Co., Ltd.",Capital Markets,43398340608.0,JPY,True,asia_financials_all
+Japan,8704.T,"Traders Holdings Co.,Ltd.",Capital Markets,33054545920.0,JPY,True,asia_financials_all
+Japan,8699.T,"HS Holdings Co., Ltd.",Capital Markets,32202770432.0,JPY,True,asia_financials_all
+Japan,7185.T,Hirose Tusyo Inc.,Capital Markets,22336229376.0,JPY,True,asia_financials_all
+Japan,8747.T,"Yutaka Trusty Securities Co., Ltd.",Capital Markets,11484497920.0,JPY,True,asia_financials_all
+Japan,8705.T,"Nissan Securities Group Co., Ltd.",Capital Markets,10245307392.0,JPY,True,asia_financials_all
+Japan,7175.T,"The Imamura Securities Co., Ltd.",Capital Markets,8396445696.0,JPY,True,asia_financials_all
+Japan,8700.T,"Maruhachi Securities Co., Ltd.",Capital Markets,7520342528.0,JPY,True,asia_financials_all
+Japan,8742.T,"Kobayashi Yoko Co., Ltd.",Capital Markets,5609020928.0,JPY,True,asia_financials_all
+Japan,462A.T,"FUNDINNO,Inc.",Capital Markets,5468542976.0,JPY,True,asia_financials_all
+Japan,8617.T,"The Kosei Securities Co., Ltd.",Capital Markets,5270401536.0,JPY,True,asia_financials_all
+Japan,3747.T,"Intertrade Co.,Ltd.",Capital Markets,3240683008.0,JPY,True,asia_financials_all
+Japan,192A.T,Integroup Inc.,Capital Markets,2863486208.0,JPY,True,asia_financials_all
+Japan,7360.T,"ONDECK Co., Ltd.",Capital Markets,2741598208.0,JPY,True,asia_financials_all
+Japan,8746.T,"Unbanked,Inc.",Capital Markets,1763774336.0,JPY,True,asia_financials_all
+Japan,319A.T,Next Generation Technology Group Inc.,Asset Management,191956271104.0,JPY,True,asia_financials_all
+Japan,8595.T,"JAFCO Co., Ltd.",Asset Management,117799469056.0,JPY,True,asia_financials_all
+Japan,8739.T,"SPARX Group Co., Ltd.",Asset Management,95851880448.0,JPY,True,asia_financials_all
+Japan,5842.T,Integral Group Corporation,Asset Management,93480001536.0,JPY,True,asia_financials_all
+Japan,4765.T,"SBI Global Asset Management Co., Ltd.",Asset Management,82424864768.0,JPY,True,asia_financials_all
+Japan,8624.T,"Ichiyoshi Securities Co., Ltd.",Asset Management,47919042560.0,JPY,True,asia_financials_all
+Japan,6620.T,"Miyakoshi Holdings, Inc.",Asset Management,24728614912.0,JPY,True,asia_financials_all
+Japan,3454.T,"First Brothers Co.,Ltd.",Asset Management,17249875968.0,JPY,True,asia_financials_all
+Japan,8737.T,Akatsuki Corp.,Asset Management,16707829760.0,JPY,True,asia_financials_all
+Japan,7347.T,"Mercuria Holdings Co., Ltd.",Asset Management,15420454912.0,JPY,True,asia_financials_all
+Japan,2998.T,CREAL Inc.,Asset Management,15156375552.0,JPY,True,asia_financials_all
+Japan,4479.T,"Makuake, Inc.",Asset Management,11754092544.0,JPY,True,asia_financials_all
+Japan,254A.T,Ai Fusion Capital Group Corp.,Asset Management,9834022912.0,JPY,True,asia_financials_all
+Japan,2134.T,"Kitahama Capital Partners Co.,Ltd.",Asset Management,7937095680.0,JPY,True,asia_financials_all
+Japan,3121.T,"MBK Co.,Ltd.",Asset Management,7656218112.0,JPY,True,asia_financials_all
+Japan,3113.T,UNIVA Oak Holdings Limited,Asset Management,6992590336.0,JPY,True,asia_financials_all
+Japan,509A.T,Green Light Renewable Energy Infrastructure Fund,Asset Management,5135844352.0,JPY,True,asia_financials_all
+Japan,7162.T,"ASTMAX Co., Ltd.",Asset Management,3938404352.0,JPY,True,asia_financials_all
+Japan,8518.T,"Japan Asia Investment Co., Ltd.",Asset Management,3793121024.0,JPY,True,asia_financials_all
+Japan,7345.T,AI Partners Financial Inc.,Asset Management,3047684608.0,JPY,True,asia_financials_all
+Japan,3266.T,Fund Creation Group Company Limited,Asset Management,2860052736.0,JPY,True,asia_financials_all
+Japan,8783.T,"abc Co., Ltd.",Asset Management,1894832256.0,JPY,True,asia_financials_all
+Japan,8593.T,Mitsubishi HC Capital Inc.,Credit Services,1883295842304.0,JPY,True,asia_financials_all
+Japan,8572.T,"Acom Co., Ltd.",Credit Services,698866466816.0,JPY,True,asia_financials_all
+Japan,8253.T,"Credit Saison Co., Ltd.",Credit Services,591935504384.0,JPY,True,asia_financials_all
+Japan,8252.T,"Marui Group Co., Ltd.",Credit Services,489663561728.0,JPY,True,asia_financials_all
+Japan,7164.T,"ZENKOKU HOSHO Co.,Ltd.",Credit Services,416941244416.0,JPY,True,asia_financials_all
+Japan,8425.T,"Mizuho Leasing Company, Limited",Credit Services,354716516352.0,JPY,True,asia_financials_all
+Japan,8570.T,"AEON Financial Service Co., Ltd.",Credit Services,309369241600.0,JPY,True,asia_financials_all
+Japan,8566.T,"Ricoh Leasing Company, Ltd.",Credit Services,195118710784.0,JPY,True,asia_financials_all
+Japan,547A.T,Muninova Holdings Inc.,Credit Services,189203595264.0,JPY,True,asia_financials_all
+Japan,8511.T,"Japan Securities Finance Co., Ltd.",Credit Services,169548939264.0,JPY,True,asia_financials_all
+Japan,8584.T,"JACCS Co., Ltd.",Credit Services,152245420032.0,JPY,True,asia_financials_all
+Japan,8585.T,Orient Corporation,Credit Services,129587691520.0,JPY,True,asia_financials_all
+Japan,7199.T,"Premium Group Co., Ltd.",Credit Services,83826278400.0,JPY,True,asia_financials_all
+Japan,8771.T,"eGuarantee, Inc.",Credit Services,78922899456.0,JPY,True,asia_financials_all
+Japan,6993.T,"Daikokuya Holdings Co.,Ltd.",Credit Services,55645782016.0,JPY,True,asia_financials_all
+Japan,7383.T,"Net Protections Holdings, Inc.",Credit Services,35721576448.0,JPY,True,asia_financials_all
+Japan,7191.T,Entrust Inc.,Credit Services,24945922048.0,JPY,True,asia_financials_all
+Japan,8697.T,"Japan Exchange Group, Inc.",Financial Data & Stock Exchanges,2226805276672.0,JPY,True,asia_financials_all
+Japan,3807.T,Fisco Ltd.,Financial Data & Stock Exchanges,3665321472.0,JPY,True,asia_financials_all
+Japan,8591.T,ORIX Corporation,Financial Conglomerates,6102718087168.0,JPY,True,asia_financials_all
+Japan,8473.T,"SBI Holdings, Inc.",Financial Conglomerates,1880676630528.0,JPY,True,asia_financials_all
+Japan,8508.T,"J Trust Co., Ltd.",Financial Conglomerates,96812212224.0,JPY,True,asia_financials_all
+Japan,8789.T,FinTech Global Incorporated,Financial Conglomerates,28979992576.0,JPY,True,asia_financials_all
+Japan,7198.T,SBI ARUHI Corporation,Mortgage Finance,34539446272.0,JPY,True,asia_financials_all
+Japan,8772.T,"Asax Co., Ltd.",Mortgage Finance,28919951360.0,JPY,True,asia_financials_all
+Japan,7192.T,Mortgage Service Japan Limited,Mortgage Finance,9379860480.0,JPY,True,asia_financials_all
+Japan,7196.T,Casa Inc.,Mortgage Finance,6620886016.0,JPY,True,asia_financials_all
+Japan,196A.T,"MFS, Inc.",Mortgage Finance,3090266624.0,JPY,True,asia_financials_all
+Korea,105560.KS,KB Financial Group Inc.,Banks—Regional,53157463851008.0,KRW,True,asia_financials_all
+Korea,055550.KS,"Shinhan Financial Group Co., Ltd.",Banks—Regional,40918111485952.0,KRW,True,asia_financials_all
+Korea,086790.KS,Hana Financial Group Inc.,Banks—Regional,30423516184576.0,KRW,True,asia_financials_all
+Korea,316140.KS,Woori Financial Group Inc.,Banks—Regional,21731865526272.0,KRW,True,asia_financials_all
+Korea,024110.KS,Industrial Bank of Korea,Banks—Regional,15454113366016.0,KRW,True,asia_financials_all
+Korea,323410.KS,KakaoBank Corp.,Banks—Regional,9498400915456.0,KRW,True,asia_financials_all
+Korea,175330.KS,"JB Financial Group Co., Ltd.",Banks—Regional,4628297547776.0,KRW,True,asia_financials_all
+Korea,138930.KS,BNK Financial Group Inc.,Banks—Regional,4120857804800.0,KRW,True,asia_financials_all
+Korea,139130.KS,"iM Financial Group Co., Ltd.",Banks—Regional,2489472778240.0,KRW,True,asia_financials_all
+Korea,279570.KS,"K Bank Co.,Ltd.",Banks—Regional,2085272944640.0,KRW,True,asia_financials_all
+Korea,006220.KS,Jeju Bank,Banks—Regional,317129883648.0,KRW,True,asia_financials_all
+Korea,007330.KQ,Pureun Savings Bank,Banks—Regional,116595294208.0,KRW,True,asia_financials_all
+Korea,038540.KQ,"Sangsangin Co., Ltd.",Banks—Regional,96930545664.0,KRW,True,asia_financials_all
+Korea,032830.KS,"Samsung Life Insurance Co., Ltd.",Insurance—Life,43367312392192.0,KRW,True,asia_financials_all
+Korea,088350.KS,"Hanwha Life Insurance Co., Ltd.",Insurance—Life,3009317961728.0,KRW,True,asia_financials_all
+Korea,085620.KS,"MIRAE ASSET Life Insurance Co., Ltd.",Insurance—Life,2151662747648.0,KRW,True,asia_financials_all
+Korea,000810.KS,"Samsung Fire & Marine Insurance Co., Ltd.",Insurance—Property & Casualty,25590727966720.0,KRW,True,asia_financials_all
+Korea,005830.KS,"DB Insurance Co., Ltd.",Insurance—Property & Casualty,11103819005952.0,KRW,True,asia_financials_all
+Korea,001450.KS,"Hyundai Marine & Fire Insurance Co., Ltd.",Insurance—Property & Casualty,3323025948672.0,KRW,True,asia_financials_all
+Korea,000400.KS,"Lotte Non - Life Insurance Co., Ltd.",Insurance—Property & Casualty,774320619520.0,KRW,True,asia_financials_all
+Korea,000370.KS,"Hanwha General Insurance Co., Ltd.",Insurance—Property & Casualty,705284603904.0,KRW,True,asia_financials_all
+Korea,000545.KS,"Heungkuk Fire&Marine Insurance Co., Ltd.",Insurance—Property & Casualty,,KRW,True,asia_financials_all
+Korea,031210.KS,Seoul Guarantee Insurance Company,Insurance—Diversified,2953453764608.0,KRW,True,asia_financials_all
+Korea,244920.KS,Aplus Asset Advisor Co. Ltd,Insurance—Diversified,290056699904.0,KRW,True,asia_financials_all
+Korea,003690.KS,Korean Reinsurance Company,Insurance—Reinsurance,2491766538240.0,KRW,True,asia_financials_all
+Korea,138040.KS,Meritz Financial Group Inc.,Capital Markets,20610528837632.0,KRW,True,asia_financials_all
+Korea,006800.KS,"Mirae Asset Securities Co., Ltd.",Capital Markets,13977016860672.0,KRW,True,asia_financials_all
+Korea,005940.KS,"NH Investment & Securities Co., Ltd.",Capital Markets,8948787707904.0,KRW,True,asia_financials_all
+Korea,071050.KS,"Korea Investment Holdings Co., Ltd.",Capital Markets,8385775271936.0,KRW,True,asia_financials_all
+Korea,016360.KS,"Samsung Securities Co.,Ltd.",Capital Markets,6867169837056.0,KRW,True,asia_financials_all
+Korea,039490.KS,"Kiwoom Securities Co., Ltd.",Capital Markets,5573516984320.0,KRW,True,asia_financials_all
+Korea,003535.KS,"Hanwha Investment & Securities Co., Ltd.",Capital Markets,1762110078976.0,KRW,True,asia_financials_all
+Korea,003540.KS,"Daishin Securities Co.,Ltd",Capital Markets,1543624327168.0,KRW,True,asia_financials_all
+Korea,023590.KS,Daou Technology Inc.,Capital Markets,1393772331008.0,KRW,True,asia_financials_all
+Korea,001720.KS,"Shinyoung Securities Co., Ltd.",Capital Markets,957259186176.0,KRW,True,asia_financials_all
+Korea,030610.KS,"Kyobo Securities Co.,Ltd.",Capital Markets,915573243904.0,KRW,True,asia_financials_all
+Korea,003475.KS,"Yuanta Securities Korea Co., Ltd.",Capital Markets,787032309760.0,KRW,True,asia_financials_all
+Korea,034950.KQ,Korea Ratings Corporation,Capital Markets,450101870592.0,KRW,True,asia_financials_all
+Korea,001500.KS,"Hyundai Motor Securities Co.,Ltd.",Capital Markets,425411346432.0,KRW,True,asia_financials_all
+Korea,001510.KS,"SK Securities Co., Ltd.",Capital Markets,419482632192.0,KRW,True,asia_financials_all
+Korea,001270.KS,"BOOKOOK Securities Co., Ltd.",Capital Markets,383709904896.0,KRW,True,asia_financials_all
+Korea,016610.KS,"DB Securities Co., Ltd.",Capital Markets,379216723968.0,KRW,True,asia_financials_all
+Korea,001200.KS,"Eugene Investment & Securities Co.,Ltd.",Capital Markets,322814607360.0,KRW,True,asia_financials_all
+Korea,078020.KQ,"LS SECURITIES Co., Ltd.",Capital Markets,304954441728.0,KRW,True,asia_financials_all
+Korea,001750.KS,Hanyang Securities Co. Ltd.,Capital Markets,233059450880.0,KRW,True,asia_financials_all
+Korea,023410.KQ,Eugene Corporation,Capital Markets,211442253824.0,KRW,True,asia_financials_all
+Korea,030210.KS,"Daol Investment & Securities Co., Ltd.",Capital Markets,200237760512.0,KRW,True,asia_financials_all
+Korea,003460.KS,"Yuhwa Securities co.,ltd.",Capital Markets,171289853952.0,KRW,True,asia_financials_all
+Korea,293580.KQ,NAU IB Capital,Capital Markets,104422948864.0,KRW,True,asia_financials_all
+Korea,001290.KS,"Sangsangin Investment & Securities Co.,Ltd.",Capital Markets,81716895744.0,KRW,True,asia_financials_all
+Korea,049470.KQ,"BITPLANET Co.,Ltd.",Capital Markets,52918996992.0,KRW,True,asia_financials_all
+Korea,190650.KQ,"Korea Asset Investment Securities Co., Ltd.",Capital Markets,37944721408.0,KRW,True,asia_financials_all
+Korea,019570.KQ,"GMIVENTURE Co.,Ltd",Capital Markets,29273473024.0,KRW,True,asia_financials_all
+Korea,088980.KS,Macquarie Korea Infrastructure Fund,Asset Management,,KRW,True,asia_financials_all
+Korea,010060.KS,OCI Holdings Company Ltd.,Asset Management,1677780058112.0,KRW,True,asia_financials_all
+Korea,100790.KQ,"Mirae Asset Venture Investment Co., Ltd.",Asset Management,722439831552.0,KRW,True,asia_financials_all
+Korea,041190.KQ,"Woori Technology Investment Co., Ltd",Asset Management,362100850688.0,KRW,True,asia_financials_all
+Korea,027360.KQ,"AJU IB INVESTMENT Co., Ltd.",Asset Management,322246737920.0,KRW,True,asia_financials_all
+Korea,026890.KS,"STIC Investments, Inc.",Asset Management,264260288512.0,KRW,True,asia_financials_all
+Korea,241520.KQ,DSC Investment,Asset Management,163836149760.0,KRW,True,asia_financials_all
+Korea,289080.KQ,SV Investment Corporation,Asset Management,148842119168.0,KRW,True,asia_financials_all
+Korea,021080.KQ,"Atinum Investment Co., Ltd.",Asset Management,82330288128.0,KRW,True,asia_financials_all
+Korea,330730.KQ,Stonebridge Ventures Inc.,Asset Management,77744308224.0,KRW,True,asia_financials_all
+Korea,307930.KQ,Company K Partners Limited,Asset Management,76957302784.0,KRW,True,asia_financials_all
+Korea,019550.KQ,"SBI Investment Korea Co., Ltd.",Asset Management,59536039936.0,KRW,True,asia_financials_all
+Korea,440290.KQ,"HB Investment, Inc.",Asset Management,46045765632.0,KRW,True,asia_financials_all
+Korea,277070.KQ,Lindeman Asia Investment Corporation,Asset Management,41793257472.0,KRW,True,asia_financials_all
+Korea,246690.KQ,T.S. Investment Corporation,Asset Management,41554518016.0,KRW,True,asia_financials_all
+Korea,027830.KQ,"Daesung Private Equity, Inc.",Asset Management,37368000512.0,KRW,True,asia_financials_all
+Korea,452300.KQ,"Capstone Partners Co., Ltd.",Asset Management,33014945792.0,KRW,True,asia_financials_all
+Korea,016600.KQ,"Q Capital Partners Co., Ltd.",Asset Management,28963768320.0,KRW,True,asia_financials_all
+Korea,225590.KQ,"Fashion Platform Co.,Ltd.",Asset Management,15412767744.0,KRW,True,asia_financials_all
+Korea,415640.KS,KB Balhae Infrastructure Fund,Asset Management,,KRW,True,asia_financials_all
+Korea,029780.KS,"Samsung Card Co., Ltd.",Credit Services,4471178395648.0,KRW,True,asia_financials_all
+Korea,030190.KS,"NICE Information Service Co., Ltd.",Credit Services,974836006912.0,KRW,True,asia_financials_all
+Korea,023760.KQ,"Han Kook Capital.Co., Ltd",Credit Services,216520261632.0,KRW,True,asia_financials_all
+Korea,408470.KQ,"HANPASS Co., Ltd.",Credit Services,40385040384.0,KRW,True,asia_financials_all
+Korea,021880.KQ,Mason Capital Corporation,Credit Services,23234191360.0,KRW,True,asia_financials_all
+Korea,034310.KS,"NICE Holdings Co., Ltd.",Financial Data & Stock Exchanges,406542286848.0,KRW,True,asia_financials_all
+Korea,064850.KQ,FnGuide Inc.,Financial Data & Stock Exchanges,171839602688.0,KRW,True,asia_financials_all
+Korea,130580.KQ,"Nice D&B Co., Ltd.",Financial Data & Stock Exchanges,101177999360.0,KRW,True,asia_financials_all
+Korea,036120.KQ,Seoul Information Service Inc.,Financial Data & Stock Exchanges,46742953984.0,KRW,True,asia_financials_all
+Korea,383800.KS,LX Holdings Corp.,Financial Conglomerates,587008966656.0,KRW,True,asia_financials_all
+Korea,211050.KQ,"INCAR FINANCIAL SERVICE Co., Ltd.",Financial Conglomerates,479228395520.0,KRW,True,asia_financials_all
+Taiwan,2891.TW,"CTBC Financial Holding Co., Ltd.",Banks—Regional,1473727430656.0,TWD,True,asia_financials_all
+Taiwan,2887.TW,"TS Financial Holding Co., Ltd.",Banks—Regional,1057338884096.0,TWD,True,asia_financials_all
+Taiwan,2884.TW,"E.SUN Financial Holding Company, Ltd.",Banks—Regional,883162021888.0,TWD,True,asia_financials_all
+Taiwan,2886.TW,"Mega Financial Holding Co., Ltd.",Banks—Regional,818802524160.0,TWD,True,asia_financials_all
+Taiwan,2880.TW,"Hua Nan Financial Holdings Co., Ltd.",Banks—Regional,707023536128.0,TWD,True,asia_financials_all
+Taiwan,2890.TW,SinoPac Financial Holdings Company Limited,Banks—Regional,690367954944.0,TWD,True,asia_financials_all
+Taiwan,2892.TW,"First Financial Holding Co., Ltd.",Banks—Regional,608970407936.0,TWD,True,asia_financials_all
+Taiwan,5880.TW,"Taiwan Cooperative Financial Holding Co., Ltd.",Banks—Regional,453257461760.0,TWD,True,asia_financials_all
+Taiwan,2801.TW,"Chang Hwa Commercial Bank, Ltd.",Banks—Regional,360599912448.0,TWD,True,asia_financials_all
+Taiwan,5876.TW,"The Shanghai Commercial & Savings Bank, Ltd.",Banks—Regional,267477155840.0,TWD,True,asia_financials_all
+Taiwan,2834.TW,"Taiwan Business Bank, Ltd.",Banks—Regional,186130038784.0,TWD,True,asia_financials_all
+Taiwan,2812.TW,"Taichung Commercial Bank Co., Ltd.",Banks—Regional,119506395136.0,TWD,True,asia_financials_all
+Taiwan,2838.TW,Union Bank of Taiwan,Banks—Regional,94460493824.0,TWD,True,asia_financials_all
+Taiwan,2845.TW,Far Eastern International Bank Ltd.,Banks—Regional,65481555968.0,TWD,True,asia_financials_all
+Taiwan,2897.TW,"O-Bank Co., Ltd.",Banks—Regional,30328365056.0,TWD,True,asia_financials_all
+Taiwan,2849.TW,"EnTie Commercial Bank Co., Ltd.",Banks—Regional,30147182592.0,TWD,True,asia_financials_all
+Taiwan,2836.TW,"Bank of Kaohsiung Co., Ltd.",Banks—Regional,22300344320.0,TWD,True,asia_financials_all
+Taiwan,1718.TW,China Man-Made Fiber Corporation,Banks—Regional,14848631808.0,TWD,True,asia_financials_all
+Taiwan,5863.TWO,Taipei Star Bank,Banks—Regional,3608996864.0,TWD,True,asia_financials_all
+Taiwan,2881.TW,"Fubon Financial Holding Co., Ltd.",Insurance—Life,2166016966656.0,TWD,True,asia_financials_all
+Taiwan,2882.TW,"Cathay Financial Holding Co., Ltd.",Insurance—Life,1664955318272.0,TWD,True,asia_financials_all
+Taiwan,2883.TW,"KGI Financial Holding Co., Ltd.",Insurance—Life,640791609344.0,TWD,True,asia_financials_all
+Taiwan,5859.TWO,"Farglory Life Insurance Co., Ltd.",Insurance—Life,21029031936.0,TWD,True,asia_financials_all
+Taiwan,2905.TW,"Mercuries & Associates Holding, Ltd.",Insurance—Life,18906353664.0,TWD,True,asia_financials_all
+Taiwan,2850.TW,"Shinkong Insurance Co., Ltd.",Insurance—Property & Casualty,52133945344.0,TWD,True,asia_financials_all
+Taiwan,2832.TW,"Taiwan Fire & Marine Insurance Co., Ltd.",Insurance—Property & Casualty,14122193920.0,TWD,True,asia_financials_all
+Taiwan,2852.TW,"The First Insurance Co., Ltd.",Insurance—Property & Casualty,8387411968.0,TWD,True,asia_financials_all
+Taiwan,2816.TW,"Union Insurance Co., Ltd.",Insurance—Diversified,9425077248.0,TWD,True,asia_financials_all
+Taiwan,2851.TW,Central Reinsurance Corporation,Insurance—Reinsurance,40419631104.0,TWD,True,asia_financials_all
+Taiwan,6028.TWO,"Golden Insurance Brokers Co.,Ltd.",Insurance Brokers,2687500032.0,TWD,True,asia_financials_all
+Taiwan,5878.TWO,"Taiming Assurance Broker Co.,Ltd.",Insurance Brokers,907120000.0,TWD,True,asia_financials_all
+Taiwan,2855.TW,President Securities Corporation,Capital Markets,88077828096.0,TWD,True,asia_financials_all
+Taiwan,6005.TW,Capital Securities Corporation,Capital Markets,75132092416.0,TWD,True,asia_financials_all
+Taiwan,2889.TW,"IBF Financial Holdings Co., Ltd.",Capital Markets,62137044992.0,TWD,True,asia_financials_all
+Taiwan,6023.TWO,"Yuanta Futures Co., Ltd.",Capital Markets,36778561536.0,TWD,True,asia_financials_all
+Taiwan,2820.TW,China Bills Finance Corporation,Capital Markets,22293137408.0,TWD,True,asia_financials_all
+Taiwan,5864.TWO,"Concord International Securities Co., Ltd",Capital Markets,18313007104.0,TWD,True,asia_financials_all
+Taiwan,6016.TWO,"Concord Securities Co., Ltd.",Capital Markets,16993261568.0,TWD,True,asia_financials_all
+Taiwan,6021.TWO,"Good Finance Securities Co., Ltd.",Capital Markets,16470588416.0,TWD,True,asia_financials_all
+Taiwan,6024.TW,Capital Futures Corporation,Capital Markets,15334295552.0,TWD,True,asia_financials_all
+Taiwan,6015.TWO,"Horizon Securities Co., Ltd.",Capital Markets,6921981440.0,TWD,True,asia_financials_all
+Taiwan,6026.TWO,"Grand Fortune Securities Co.,Ltd",Capital Markets,6061276672.0,TWD,True,asia_financials_all
+Taiwan,6020.TWO,"Tachan Securities Co., Ltd.",Capital Markets,5198471680.0,TWD,True,asia_financials_all
+Taiwan,7738.TWO,Eastern Union Interactive Corp.,Capital Markets,3566451968.0,TWD,True,asia_financials_all
+Taiwan,3158.TWO,"SysJust Co., Ltd.",Capital Markets,2575046656.0,TWD,True,asia_financials_all
+Taiwan,6027.TWO,"Reliance Securities Co.,Ltd.",Capital Markets,2297261312.0,TWD,True,asia_financials_all
+Taiwan,6901.TW,Diamond Biofund Inc.,Asset Management,14293780480.0,TWD,True,asia_financials_all
+Taiwan,7777.TWO,ABICO Asia Capital Corporation,Asset Management,6848091136.0,TWD,True,asia_financials_all
+Taiwan,5871.TW,Chailease Holding Company Limited,Credit Services,185038848000.0,TWD,True,asia_financials_all
+Taiwan,9941.TW,Taiwan Acceptance Corporation,Credit Services,45562740736.0,TWD,True,asia_financials_all
+Taiwan,6592.TW,"Hotai Finance Co., Ltd.",Credit Services,36392611840.0,TWD,True,asia_financials_all
+Taiwan,6958.TW,"Infinite Finance Co., Ltd.",Credit Services,7059352576.0,TWD,True,asia_financials_all
+Taiwan,2885.TW,"Yuanta Financial Holding Co., Ltd.",Financial Conglomerates,1003782275072.0,TWD,True,asia_financials_all
+Hong Kong,3968.HK,"China Merchants Bank Co., Ltd.",Banks—Regional,1312693026816.0,HKD,True,asia_financials_all
+Hong Kong,1658.HK,"Postal Savings Bank of China Co., Ltd.",Banks—Regional,656919953408.0,HKD,True,asia_financials_all
+Hong Kong,2388.HK,BOC Hong Kong (Holdings) Limited,Banks—Regional,515528753152.0,HKD,True,asia_financials_all
+Hong Kong,0998.HK,China CITIC Bank Corporation Limited,Banks—Regional,452951638016.0,HKD,True,asia_financials_all
+Hong Kong,6818.HK,China Everbright Bank Company Limited,Banks—Regional,154804125696.0,HKD,True,asia_financials_all
+Hong Kong,1988.HK,"China Minsheng Banking Corp., Ltd.",Banks—Regional,135287668736.0,HKD,True,asia_financials_all
+Hong Kong,3618.HK,"Chongqing Rural Commercial Bank Co., Ltd.",Banks—Regional,72514445312.0,HKD,True,asia_financials_all
+Hong Kong,2016.HK,"China Zheshang Bank Co., Ltd",Banks—Regional,63992602624.0,HKD,True,asia_financials_all
+Hong Kong,3698.HK,Huishang Bank Corporation Limited,Banks—Regional,62017966080.0,HKD,True,asia_financials_all
+Hong Kong,0023.HK,"The Bank of East Asia, Limited",Banks—Regional,47297368064.0,HKD,True,asia_financials_all
+Hong Kong,1963.HK,"Bank of Chongqing Co., Ltd.",Banks—Regional,28244801536.0,HKD,True,asia_financials_all
+Hong Kong,3866.HK,"Bank of Qingdao Co., Ltd.",Banks—Regional,27763091456.0,HKD,True,asia_financials_all
+Hong Kong,9889.HK,"Dongguan Rural Commercial Bank Co., Ltd.",Banks—Regional,21767802880.0,HKD,True,asia_financials_all
+Hong Kong,1551.HK,"Guangzhou Rural Commercial Bank Co., Ltd.",Banks—Regional,21038292992.0,HKD,True,asia_financials_all
+Hong Kong,9677.HK,"Weihai Bank Co., Ltd.",Banks—Regional,21019717632.0,HKD,True,asia_financials_all
+Hong Kong,2356.HK,Dah Sing Banking Group Limited,Banks—Regional,17965512704.0,HKD,True,asia_financials_all
+Hong Kong,6199.HK,"Bank of Guizhou Co., Ltd.",Banks—Regional,13566882816.0,HKD,True,asia_financials_all
+Hong Kong,0440.HK,Dah Sing Financial Holdings Limited,Banks—Regional,13383596032.0,HKD,True,asia_financials_all
+Hong Kong,9668.HK,"China Bohai Bank Co., Ltd.",Banks—Regional,12788640768.0,HKD,True,asia_financials_all
+Hong Kong,1578.HK,"Bank of Tianjin Co., Ltd.",Banks—Regional,12110751744.0,HKD,True,asia_financials_all
+Hong Kong,2596.HK,"Yibin City Commercial Bank Co., Ltd",Banks—Regional,12090434560.0,HKD,True,asia_financials_all
+Hong Kong,1216.HK,"Zhongyuan Bank Co., Ltd.",Banks—Regional,10233951232.0,HKD,True,asia_financials_all
+Hong Kong,6190.HK,"Bank of Jiujiang Co., Ltd.",Banks—Regional,7944154112.0,HKD,True,asia_financials_all
+Hong Kong,6196.HK,"Bank of Zhengzhou Co., Ltd.",Banks—Regional,7500975104.0,HKD,True,asia_financials_all
+Hong Kong,2558.HK,"Jinshang Bank Co., Ltd.",Banks—Regional,6013809152.0,HKD,True,asia_financials_all
+Hong Kong,1983.HK,"Luzhou Bank Co., Ltd.",Banks—Regional,5843167232.0,HKD,True,asia_financials_all
+Hong Kong,2139.HK,"Bank of Gansu Co., Ltd.",Banks—Regional,3616749824.0,HKD,True,asia_financials_all
+Hong Kong,1916.HK,"Jiangxi Bank Co., Ltd.",Banks—Regional,3343473664.0,HKD,True,asia_financials_all
+Hong Kong,6138.HK,"Harbin Bank Co., Ltd.",Banks—Regional,3188723712.0,HKD,True,asia_financials_all
+Hong Kong,0626.HK,Public Financial Holdings Limited,Banks—Regional,2448356096.0,HKD,True,asia_financials_all
+Hong Kong,1398.HK,Industrial and Commercial Bank of China Limited,Banks—Diversified,2617804062720.0,HKD,True,asia_financials_all
+Hong Kong,0939.HK,China Construction Bank Corporation,Banks—Diversified,2578071683072.0,HKD,True,asia_financials_all
+Hong Kong,0005.HK,HSBC Holdings plc,Banks—Diversified,2447002042368.0,HKD,True,asia_financials_all
+Hong Kong,1288.HK,Agricultural Bank of China Limited,Banks—Diversified,2337886699520.0,HKD,True,asia_financials_all
+Hong Kong,3988.HK,Bank of China Limited,Banks—Diversified,1941329674240.0,HKD,True,asia_financials_all
+Hong Kong,3328.HK,"Bank of Communications Co., Ltd.",Banks—Diversified,721048502272.0,HKD,True,asia_financials_all
+Hong Kong,2888.HK,Standard Chartered PLC,Banks—Diversified,447554158592.0,HKD,True,asia_financials_all
+Hong Kong,2318.HK,"Ping An Insurance (Group) Company of China, Ltd.",Insurance—Life,889085165568.0,HKD,True,asia_financials_all
+Hong Kong,1299.HK,AIA Group Limited,Insurance—Life,734613929984.0,HKD,True,asia_financials_all
+Hong Kong,2628.HK,China Life Insurance Company Limited,Insurance—Life,654045216768.0,HKD,True,asia_financials_all
+Hong Kong,0945.HK,Manulife Financial Corporation,Insurance—Life,585290088448.0,HKD,True,asia_financials_all
+Hong Kong,2601.HK,"China Pacific Insurance (Group) Co., Ltd.",Insurance—Life,249936478208.0,HKD,True,asia_financials_all
+Hong Kong,2378.HK,Prudential plc,Insurance—Life,227235315712.0,HKD,True,asia_financials_all
+Hong Kong,1336.HK,New China Life Insurance Company Ltd.,Insurance—Life,119915364352.0,HKD,True,asia_financials_all
+Hong Kong,0966.HK,China Taiping Insurance Holdings Company Limited,Insurance—Life,60702969856.0,HKD,True,asia_financials_all
+Hong Kong,1828.HK,FWD Group Holdings Limited,Insurance—Life,40768540672.0,HKD,True,asia_financials_all
+Hong Kong,0376.HK,Yunfeng Financial Group Limited,Insurance—Life,7723791360.0,HKD,True,asia_financials_all
+Hong Kong,2328.HK,PICC Property and Casualty Company Limited,Insurance—Property & Casualty,342093725696.0,HKD,True,asia_financials_all
+Hong Kong,1339.HK,The People's Insurance Company (Group) of China Limited,Insurance—Property & Casualty,213822996480.0,HKD,True,asia_financials_all
+Hong Kong,6963.HK,Sunshine Insurance Group Company Limited,Insurance—Property & Casualty,38990163968.0,HKD,True,asia_financials_all
+Hong Kong,6060.HK,"ZhongAn Online P & C Insurance Co., Ltd.",Insurance—Property & Casualty,15247557632.0,HKD,True,asia_financials_all
+Hong Kong,0222.HK,Min Xin Holdings Limited,Insurance—Property & Casualty,1511060864.0,HKD,True,asia_financials_all
+Hong Kong,1508.HK,China Reinsurance (Group) Corporation,Insurance—Reinsurance,49913774080.0,HKD,True,asia_financials_all
+Hong Kong,2672.HK,"Baige Online Digital Technology Co., Ltd.",Insurance Brokers,22924376064.0,HKD,True,asia_financials_all
+Hong Kong,2621.HK,Shouhui Group Limited,Insurance Brokers,579740096.0,HKD,True,asia_financials_all
+Hong Kong,6030.HK,CITIC Securities Company Limited,Capital Markets,323734896640.0,HKD,True,asia_financials_all
+Hong Kong,2611.HK,"Guotai Haitong Securities Co., Ltd.",Capital Markets,231366721536.0,HKD,True,asia_financials_all
+Hong Kong,6886.HK,"Huatai Securities Co., Ltd.",Capital Markets,135132160000.0,HKD,True,asia_financials_all
+Hong Kong,1776.HK,"GF Securities Co., Ltd.",Capital Markets,123554308096.0,HKD,True,asia_financials_all
+Hong Kong,6099.HK,"China Merchants Securities Co., Ltd.",Capital Markets,110098030592.0,HKD,True,asia_financials_all
+Hong Kong,3908.HK,China International Capital Corporation Limited,Capital Markets,85683806208.0,HKD,True,asia_financials_all
+Hong Kong,6066.HK,"CSC Financial Co., Ltd.",Capital Markets,81833132032.0,HKD,True,asia_financials_all
+Hong Kong,6806.HK,"Shenwan Hongyuan Group Co., Ltd.",Capital Markets,55463473152.0,HKD,True,asia_financials_all
+Hong Kong,3958.HK,Orient Securities Company Limited,Capital Markets,45414567936.0,HKD,True,asia_financials_all
+Hong Kong,1456.HK,"Guolian Minsheng Securities Co., Ltd.",Capital Markets,34108420096.0,HKD,True,asia_financials_all
+Hong Kong,6178.HK,Everbright Securities Company Limited,Capital Markets,30362038272.0,HKD,True,asia_financials_all
+Hong Kong,1788.HK,Guotai Junan International Holdings Limited,Capital Markets,27207993344.0,HKD,True,asia_financials_all
+Hong Kong,0622.HK,Oshidori International Holdings Limited,Capital Markets,21871972352.0,HKD,True,asia_financials_all
+Hong Kong,1428.HK,Bright Smart Securities & Commodities Group Limited,Capital Markets,9784912896.0,HKD,True,asia_financials_all
+Hong Kong,0863.HK,OSL Group Limited,Capital Markets,9198063616.0,HKD,True,asia_financials_all
+Hong Kong,1375.HK,"Central China Securities Co., Ltd.",Capital Markets,6708968448.0,HKD,True,asia_financials_all
+Hong Kong,2691.HK,"Nanhua Futures Co., Ltd.",Capital Markets,5953758720.0,HKD,True,asia_financials_all
+Hong Kong,0613.HK,Planetree International Development Limited,Capital Markets,5863129088.0,HKD,True,asia_financials_all
+Hong Kong,1476.HK,"Financial Street Securities Co., Limited",Capital Markets,3125480960.0,HKD,True,asia_financials_all
+Hong Kong,1104.HK,APAC Resources Limited,Capital Markets,2445074176.0,HKD,True,asia_financials_all
+Hong Kong,0064.HK,Get Nice Holdings Limited,Capital Markets,2410969344.0,HKD,True,asia_financials_all
+Hong Kong,3678.HK,"Soho Holly Futures Co., Ltd.",Capital Markets,1914777728.0,HKD,True,asia_financials_all
+Hong Kong,0335.HK,Upbest Group Limited,Capital Markets,1770329216.0,HKD,True,asia_financials_all
+Hong Kong,1611.HK,Bitfire Group Holdings Limited,Capital Markets,1276127360.0,HKD,True,asia_financials_all
+Hong Kong,0218.HK,Shenwan Hongyuan (H.K.) Limited,Capital Markets,1264522368.0,HKD,True,asia_financials_all
+Hong Kong,3938.HK,LFG Investment Holdings Limited,Capital Markets,1152605440.0,HKD,True,asia_financials_all
+Hong Kong,0804.HK,Pinestone Capital Limited,Capital Markets,1078096256.0,HKD,True,asia_financials_all
+Hong Kong,8540.HK,Victory Securities (Holdings) Company Limited,Capital Markets,936025984.0,HKD,True,asia_financials_all
+Hong Kong,8098.HK,CL Group (Holdings) Limited,Capital Markets,869000000.0,HKD,True,asia_financials_all
+Hong Kong,1141.HK,CMBC Capital Holdings Limited,Capital Markets,700134208.0,HKD,True,asia_financials_all
+Hong Kong,1461.HK,Zhongtai Futures Company Limited,Capital Markets,561064000.0,HKD,True,asia_financials_all
+Hong Kong,0279.HK,Arta TechFin Corporation Limited,Capital Markets,496285664.0,HKD,True,asia_financials_all
+Hong Kong,0111.HK,Cinda International Holdings Limited,Capital Markets,410371584.0,HKD,True,asia_financials_all
+Hong Kong,8350.HK,Well Link Securities Holdings Limited,Capital Markets,342023040.0,HKD,True,asia_financials_all
+Hong Kong,1073.HK,Da Yu Financial Holdings Limited,Capital Markets,341799072.0,HKD,True,asia_financials_all
+Hong Kong,2680.HK,Austrax Holdings Limited,Capital Markets,312000000.0,HKD,True,asia_financials_all
+Hong Kong,2263.HK,Fu Shek Financial Holdings Limited,Capital Markets,300000000.0,HKD,True,asia_financials_all
+Hong Kong,0329.HK,OCI International Holdings Limited,Capital Markets,250458240.0,HKD,True,asia_financials_all
+Hong Kong,0227.HK,First Shanghai Investments Limited,Capital Markets,232212064.0,HKD,True,asia_financials_all
+Hong Kong,8439.HK,Somerley Capital Holdings Limited,Capital Markets,202999136.0,HKD,True,asia_financials_all
+Hong Kong,6877.HK,Top Eminent Healthcare Group Limited,Capital Markets,185029392.0,HKD,True,asia_financials_all
+Hong Kong,0211.HK,Styland Holdings Limited,Capital Markets,183261632.0,HKD,True,asia_financials_all
+Hong Kong,0510.HK,CASH Financial Services Group Limited,Capital Markets,181093408.0,HKD,True,asia_financials_all
+Hong Kong,0851.HK,Sheng Yuan Holdings Limited,Capital Markets,180803968.0,HKD,True,asia_financials_all
+Hong Kong,0188.HK,Sunwah Kingsway Capital Holdings Limited,Capital Markets,168973312.0,HKD,True,asia_financials_all
+Hong Kong,0821.HK,Value Convergence Holdings Limited,Capital Markets,148434096.0,HKD,True,asia_financials_all
+Hong Kong,8365.HK,Hatcher Group Limited,Capital Markets,143099600.0,HKD,True,asia_financials_all
+Hong Kong,8295.HK,Kingwisoft Technology Group Company Limited,Capital Markets,124176512.0,HKD,True,asia_financials_all
+Hong Kong,0139.HK,Smart Fish Wealthlink Holdings Limited,Capital Markets,116465104.0,HKD,True,asia_financials_all
+Hong Kong,2324.HK,Capital VC Limited,Capital Markets,90025656.0,HKD,True,asia_financials_all
+Hong Kong,8340.HK,Zijing International Financial Holdings Limited,Capital Markets,78390200.0,HKD,True,asia_financials_all
+Hong Kong,8221.HK,Gaoyu Finance Group Limited,Capital Markets,78302000.0,HKD,True,asia_financials_all
+Hong Kong,0356.HK,DT Capital Limited,Capital Markets,64447572.0,HKD,True,asia_financials_all
+Hong Kong,1225.HK,Lerado Financial Group Company Limited,Capital Markets,58732216.0,HKD,True,asia_financials_all
+Hong Kong,8333.HK,Astrum Financial Holdings Limited,Capital Markets,54720000.0,HKD,True,asia_financials_all
+Hong Kong,8210.HK,DLC Asia Limited,Capital Markets,43200000.0,HKD,True,asia_financials_all
+Hong Kong,8072.HK,Langu Company Limited,Capital Markets,41582236.0,HKD,True,asia_financials_all
+Hong Kong,8226.HK,KOALA Financial Group Limited,Capital Markets,39662880.0,HKD,True,asia_financials_all
+Hong Kong,0428.HK,Cocoon Holdings Limited,Capital Markets,26223902.0,HKD,True,asia_financials_all
+Hong Kong,8193.HK,Asia-Pac Financial Investment Company Limited,Capital Markets,25183112.0,HKD,True,asia_financials_all
+Hong Kong,2799.HK,"China CITIC Financial Asset Management Co., Ltd.",Asset Management,44938137600.0,HKD,True,asia_financials_all
+Hong Kong,1359.HK,"China Cinda Asset Management Co., Ltd.",Asset Management,32249032704.0,HKD,True,asia_financials_all
+Hong Kong,0165.HK,China Everbright Limited,Asset Management,8561089024.0,HKD,True,asia_financials_all
+Hong Kong,6686.HK,Noah Holdings Limited,Asset Management,4008912384.0,HKD,True,asia_financials_all
+Hong Kong,0806.HK,Value Partners Group Limited,Asset Management,3187608832.0,HKD,True,asia_financials_all
+Hong Kong,0133.HK,China Merchants China Direct Investments Limited,Asset Management,3183759872.0,HKD,True,asia_financials_all
+Hong Kong,0412.HK,Shandong Hi-Speed Holdings Group Limited,Asset Management,2496528384.0,HKD,True,asia_financials_all
+Hong Kong,1051.HK,G-Resources Group Limited,Asset Management,2357757696.0,HKD,True,asia_financials_all
+Hong Kong,1911.HK,China Renaissance Holdings Limited,Asset Management,1946515712.0,HKD,True,asia_financials_all
+Hong Kong,1973.HK,"Tian Tu Capital Co., Ltd.",Asset Management,1944405888.0,HKD,True,asia_financials_all
+Hong Kong,0245.HK,China Vered Financial Holding Corporation Limited,Asset Management,1710370176.0,HKD,True,asia_financials_all
+Hong Kong,1697.HK,"Shandong International Trust Co., Ltd.",Asset Management,1038923520.0,HKD,True,asia_financials_all
+Hong Kong,0212.HK,Nanyang Holdings Limited,Asset Management,972835968.0,HKD,True,asia_financials_all
+Hong Kong,1140.HK,HK.AI Capital Limited,Asset Management,944239744.0,HKD,True,asia_financials_all
+Hong Kong,0993.HK,XinKong International Capital Holdings Limited,Asset Management,792572288.0,HKD,True,asia_financials_all
+Hong Kong,0128.HK,ENM Holdings Limited,Asset Management,759303040.0,HKD,True,asia_financials_all
+Hong Kong,1328.HK,Goldstream Investment Limited,Asset Management,719119168.0,HKD,True,asia_financials_all
+Hong Kong,0080.HK,CAI Corp,Asset Management,584265536.0,HKD,True,asia_financials_all
+Hong Kong,8030.HK,Fengyinhe Holdings Limited,Asset Management,583409664.0,HKD,True,asia_financials_all
+Hong Kong,1835.HK,"Shanghai Realway Capital Assets Management Co., Ltd.",Asset Management,552024000.0,HKD,True,asia_financials_all
+Hong Kong,0339.HK,China Sci-Tech Industrial Investment Group Limited,Asset Management,291600000.0,HKD,True,asia_financials_all
+Hong Kong,1062.HK,China Development Bank International Investment Limited,Asset Management,275710464.0,HKD,True,asia_financials_all
+Hong Kong,0721.HK,China Financial International Investments Limited,Asset Management,241375952.0,HKD,True,asia_financials_all
+Hong Kong,0129.HK,Asia Standard International Group Limited,Asset Management,227301632.0,HKD,True,asia_financials_all
+Hong Kong,0905.HK,Walnut Capital Limited,Asset Management,183837648.0,HKD,True,asia_financials_all
+Hong Kong,0214.HK,Asia Orient Holdings Limited,Asset Management,169856544.0,HKD,True,asia_financials_all
+Hong Kong,2312.HK,Long Investment Corp,Asset Management,169045008.0,HKD,True,asia_financials_all
+Hong Kong,1217.HK,China Innovation Investment Limited,Asset Management,128015784.0,HKD,True,asia_financials_all
+Hong Kong,8657.HK,True Partner Capital Holding Limited,Asset Management,117460000.0,HKD,True,asia_financials_all
+Hong Kong,0310.HK,Prosperity Investment Holdings Limited,Asset Management,103729048.0,HKD,True,asia_financials_all
+Hong Kong,1160.HK,Goldstone Capital Group Limited,Asset Management,90163072.0,HKD,True,asia_financials_all
+Hong Kong,0810.HK,China Castson 81 Finance Company Limited,Asset Management,76264376.0,HKD,True,asia_financials_all
+Hong Kong,8313.HK,ZACD Group Ltd.,Asset Management,54000000.0,HKD,True,asia_financials_all
+Hong Kong,0913.HK,Harbour Digital Asset Capital Limited,Asset Management,50519100.0,HKD,True,asia_financials_all
+Hong Kong,0770.HK,Eminence Capital Group Limited,Asset Management,3878911.0,USD,True,asia_financials_all
+Hong Kong,3360.HK,Far East Horizon Limited,Credit Services,26851753984.0,HKD,True,asia_financials_all
+Hong Kong,2666.HK,Genertec Universal Medical Group Company Limited,Credit Services,9084064768.0,HKD,True,asia_financials_all
+Hong Kong,0086.HK,Sun Hung Kai & Co. Limited,Credit Services,7479268352.0,HKD,True,asia_financials_all
+Hong Kong,6069.HK,SY Holdings Group Limited,Credit Services,6933430784.0,HKD,True,asia_financials_all
+Hong Kong,0373.HK,Allied Group Limited,Credit Services,6254358528.0,HKD,True,asia_financials_all
+Hong Kong,6623.HK,Lufax Holding Ltd,Credit Services,5780814848.0,HKD,True,asia_financials_all
+Hong Kong,3660.HK,"Qfin Holdings, Inc.",Credit Services,5349644800.0,HKD,True,asia_financials_all
+Hong Kong,2858.HK,Yixin Group Limited,Credit Services,5230478336.0,HKD,True,asia_financials_all
+Hong Kong,0900.HK,AEON Credit Service (Asia) Company Limited,Credit Services,3620228864.0,HKD,True,asia_financials_all
+Hong Kong,8239.HK,Capital Finance Holdings Limited,Credit Services,2655405056.0,HKD,True,asia_financials_all
+Hong Kong,3848.HK,Haosen Fintech Group Limited,Credit Services,1650199296.0,HKD,True,asia_financials_all
+Hong Kong,0628.HK,Tong Tong AI Social Group Limited,Credit Services,1289878528.0,HKD,True,asia_financials_all
+Hong Kong,1601.HK,"Zhongguancun Science-Tech Leasing Co., Ltd.",Credit Services,1049816256.0,HKD,True,asia_financials_all
+Hong Kong,0093.HK,Zero Fintech Group Limited,Credit Services,987027904.0,HKD,True,asia_financials_all
+Hong Kong,2483.HK,K Cash Corporation Limited,Credit Services,920000000.0,HKD,True,asia_financials_all
+Hong Kong,1577.HK,"Quanzhou Huixin Micro-credit Co., Ltd.",Credit Services,839800000.0,HKD,True,asia_financials_all
+Hong Kong,0217.HK,China Chengtong Development Group Limited,Credit Services,613147200.0,HKD,True,asia_financials_all
+Hong Kong,1669.HK,Global International Credit Group Limited,Credit Services,566000000.0,HKD,True,asia_financials_all
+Hong Kong,2003.HK,VCREDIT Holdings Limited,Credit Services,562379328.0,HKD,True,asia_financials_all
+Hong Kong,2473.HK,XXF Group Holdings Limited,Credit Services,482624992.0,HKD,True,asia_financials_all
+Hong Kong,2051.HK,Vala Inc.,Credit Services,472695424.0,HKD,True,asia_financials_all
+Hong Kong,0730.HK,Capital Industrial Financial Services Group Limited,Credit Services,466564800.0,HKD,True,asia_financials_all
+Hong Kong,0717.HK,Emperor Capital Group Limited,Credit Services,384228192.0,HKD,True,asia_financials_all
+Hong Kong,0235.HK,CSC Holdings Limited,Credit Services,366934560.0,HKD,True,asia_financials_all
+Hong Kong,6866.HK,Zuoli Kechuang Company Limited,Credit Services,290280000.0,HKD,True,asia_financials_all
+Hong Kong,8087.HK,China 33 Group Limited,Credit Services,279936000.0,HKD,True,asia_financials_all
+Hong Kong,1543.HK,"Guangdong Join-Share Financing Guarantee Investment Co., Ltd.",Credit Services,273138720.0,HKD,True,asia_financials_all
+Hong Kong,0508.HK,Dingyi Group Investment Limited,Credit Services,228566704.0,HKD,True,asia_financials_all
+Hong Kong,0605.HK,China Financial Services Holdings Limited,Credit Services,149477936.0,HKD,True,asia_financials_all
+Hong Kong,1572.HK,China Art Financial Holdings Limited,Credit Services,121715992.0,HKD,True,asia_financials_all
+Hong Kong,8021.HK,WLS Holdings Limited,Credit Services,87639320.0,HKD,True,asia_financials_all
+Hong Kong,3963.HK,China Rongzhong Financial Holdings Company Limited,Credit Services,67355088.0,HKD,True,asia_financials_all
+Hong Kong,0736.HK,China Properties Investment Holdings Limited,Credit Services,54181336.0,HKD,True,asia_financials_all
+Hong Kong,8621.HK,Metropolis Capital Holdings Limited,Credit Services,38400000.0,HKD,True,asia_financials_all
+Hong Kong,8057.HK,Madison Holdings Group Limited,Credit Services,35829816.0,HKD,True,asia_financials_all
+Hong Kong,8019.HK,Hao Wen Holdings Limited,Credit Services,25993260.0,HKD,True,asia_financials_all
+Hong Kong,0388.HK,Hong Kong Exchanges and Clearing Limited,Financial Data & Stock Exchanges,465404329984.0,HKD,True,asia_financials_all
+Hong Kong,3887.HK,HashKey Holdings Limited,Financial Data & Stock Exchanges,5227062784.0,HKD,True,asia_financials_all
+Hong Kong,6881.HK,"China Galaxy Securities Co., Ltd.",Financial Conglomerates,74900652032.0,HKD,True,asia_financials_all
+Hong Kong,0290.HK,GoFintech Quantum Innovation Limited,Financial Conglomerates,14322355200.0,HKD,True,asia_financials_all
+Hong Kong,0585.HK,Imagi International Holdings Limited,Financial Conglomerates,3560363520.0,HKD,True,asia_financials_all
+Hong Kong,6058.HK,China Industrial Securities International Financial Group Limited,Financial Conglomerates,2020000000.0,HKD,True,asia_financials_all
+Hong Kong,1709.HK,DL Holdings Group Limited,Financial Conglomerates,1566163840.0,HKD,True,asia_financials_all
+Hong Kong,3329.HK,BOCOM International Holdings Company Limited,Financial Conglomerates,1298836224.0,HKD,True,asia_financials_all
+Hong Kong,1290.HK,China Huirong Financial Holdings Limited,Financial Conglomerates,654201024.0,HKD,True,asia_financials_all
+Hong Kong,1945.HK,Zero2IPO Holdings Inc.,Financial Conglomerates,385076608.0,HKD,True,asia_financials_all
+Hong Kong,3623.HK,China Success Finance Group Holdings Limited,Financial Conglomerates,340558240.0,HKD,True,asia_financials_all
+Hong Kong,8029.HK,China Investment Financial Technology Group Limited,Financial Conglomerates,148443264.0,HKD,True,asia_financials_all
+Hong Kong,0397.HK,Minerva Group Holding Limited,Financial Conglomerates,109530856.0,HKD,True,asia_financials_all
+Hong Kong,0888.HK,BlockFin Holdings Limited,Financial Conglomerates,49764340.0,HKD,True,asia_financials_all
+Hong Kong,8163.HK,NOIZ Group Limited,Financial Conglomerates,34858692.0,HKD,True,asia_financials_all
+Hong Kong,1319.HK,Oi Wah Pawnshop Credit Holdings Limited,Mortgage Finance,538806336.0,HKD,True,asia_financials_all
+Hong Kong,1273.HK,Hong Kong Finance Group Limited,Mortgage Finance,290500000.0,HKD,True,asia_financials_all
+Hong Kong,0234.HK,New Century Group Hong Kong Limited,Mortgage Finance,242775488.0,HKD,True,asia_financials_all
+China,600036.SS,"China Merchants Bank Co., Ltd.",Banks—Regional,1064025260032.0,CNY,True,asia_financials_all
+China,601658.SS,"Postal Savings Bank of China Co., Ltd.",Banks—Regional,664125702144.0,CNY,True,asia_financials_all
+China,601998.SS,China CITIC Bank Corporation Limited,Banks—Regional,496354852864.0,CNY,True,asia_financials_all
+China,601166.SS,"Industrial Bank Co., Ltd.",Banks—Regional,392782741504.0,CNY,True,asia_financials_all
+China,600000.SS,"Shanghai Pudong Development Bank Co., Ltd.",Banks—Regional,322733539328.0,CNY,True,asia_financials_all
+China,002142.SZ,"Bank of Ningbo Co., Ltd.",Banks—Regional,226833334272.0,CNY,True,asia_financials_all
+China,600919.SS,"Bank of Jiangsu Co., Ltd.",Banks—Regional,223519145984.0,CNY,True,asia_financials_all
+China,000001.SZ,"Ping An Bank Co., Ltd.",Banks—Regional,219674984448.0,CNY,True,asia_financials_all
+China,601818.SS,China Everbright Bank Company Limited,Banks—Regional,177847500800.0,CNY,True,asia_financials_all
+China,600016.SS,"China Minsheng Banking Corp., Ltd.",Banks—Regional,151487168512.0,CNY,True,asia_financials_all
+China,601009.SS,"Bank of Nanjing Co., Ltd.",Banks—Regional,143541010432.0,CNY,True,asia_financials_all
+China,601229.SS,"Bank of Shanghai Co., Ltd.",Banks—Regional,135010959360.0,CNY,True,asia_financials_all
+China,600926.SS,"Bank of Hangzhou Co., Ltd.",Banks—Regional,120550907904.0,CNY,True,asia_financials_all
+China,601169.SS,"Bank of Beijing Co., Ltd.",Banks—Regional,116074979328.0,CNY,True,asia_financials_all
+China,600015.SS,"Hua Xia Bank Co., Limited",Banks—Regional,98990850048.0,CNY,True,asia_financials_all
+China,601825.SS,"Shanghai Rural Commercial Bank Co., Ltd.",Banks—Regional,83810222080.0,CNY,True,asia_financials_all
+China,601077.SS,"Chongqing Rural Commercial Bank Co., Ltd.",Banks—Regional,82111111168.0,CNY,True,asia_financials_all
+China,601916.SS,"China Zheshang Bank Co., Ltd",Banks—Regional,80471384064.0,CNY,True,asia_financials_all
+China,601838.SS,"Bank of Chengdu Co., Ltd.",Banks—Regional,78707744768.0,CNY,True,asia_financials_all
+China,002966.SZ,"Bank of Suzhou Co., Ltd.",Banks—Regional,41264209920.0,CNY,True,asia_financials_all
+China,601665.SS,"Qilu Bank Co., Ltd.",Banks—Regional,40246132736.0,CNY,True,asia_financials_all
+China,601963.SS,"Bank of Chongqing Co., Ltd.",Banks—Regional,38578266112.0,CNY,True,asia_financials_all
+China,601577.SS,"Bank of Changsha Co., Ltd.",Banks—Regional,38003683328.0,CNY,True,asia_financials_all
+China,002948.SZ,"Bank of Qingdao Co., Ltd.",Banks—Regional,33408833536.0,CNY,True,asia_financials_all
+China,601128.SS,"Jiangsu Changshu Rural Commercial Bank Co., Ltd.",Banks—Regional,22253899776.0,CNY,True,asia_financials_all
+China,601997.SS,"Bank of Guiyang Co.,Ltd.",Banks—Regional,20109090816.0,CNY,True,asia_financials_all
+China,601187.SS,"Xiamen Bank Co., Ltd.",Banks—Regional,17497417728.0,CNY,True,asia_financials_all
+China,002958.SZ,"Qingdao Rural Commercial Bank Co., Ltd.",Banks—Regional,15667090432.0,CNY,True,asia_financials_all
+China,002936.SZ,"Bank of Zhengzhou Co., Ltd.",Banks—Regional,15456555008.0,CNY,True,asia_financials_all
+China,600928.SS,"Bank of Xi'an Co.,Ltd.",Banks—Regional,15111112704.0,CNY,True,asia_financials_all
+China,600908.SS,"Wuxi Rural Commercial Bank Co.,Ltd",Banks—Regional,12597472256.0,CNY,True,asia_financials_all
+China,001227.SZ,"Bank of Lanzhou Co., Ltd.",Banks—Regional,11733136384.0,CNY,True,asia_financials_all
+China,002807.SZ,"Jiangsu Jiangyin Rural Commercial Bank Co.,LTD.",Banks—Regional,10884278272.0,CNY,True,asia_financials_all
+China,002839.SZ,"Jiangsu Zhangjiagang Rural Commercial Bank Co., Ltd",Banks—Regional,10535127040.0,CNY,True,asia_financials_all
+China,601528.SS,"Zhejiang Shaoxing RuiFeng Rural Commercial Bank Co.,Ltd",Banks—Regional,9830428672.0,CNY,True,asia_financials_all
+China,603323.SS,"Jiangsu Suzhou Rural Commercial Bank Co., Ltd",Banks—Regional,9525496832.0,CNY,True,asia_financials_all
+China,601860.SS,"Jiangsu Zijin Rural Commercial Bank Co.,Ltd",Banks—Regional,9079538688.0,CNY,True,asia_financials_all
+China,601398.SS,Industrial and Commercial Bank of China Limited,Banks—Diversified,3065094078464.0,CNY,True,asia_financials_all
+China,601939.SS,China Construction Bank Corporation,Banks—Diversified,3026716196864.0,CNY,True,asia_financials_all
+China,601988.SS,Bank of China Limited,Banks—Diversified,2284485869568.0,CNY,True,asia_financials_all
+China,601328.SS,"Bank of Communications Co., Ltd.",Banks—Diversified,729001230336.0,CNY,True,asia_financials_all
+China,601288.SS,Agricultural Bank of China Limited,Banks—Diversified,,CNY,True,asia_financials_all
+China,601628.SS,China Life Insurance Company Limited,Insurance—Life,967218233344.0,CNY,True,asia_financials_all
+China,601601.SS,"China Pacific Insurance (Group) Co., Ltd.",Insurance—Life,277835448320.0,CNY,True,asia_financials_all
+China,601336.SS,New China Life Insurance Company Ltd.,Insurance—Life,157225156608.0,CNY,True,asia_financials_all
+China,002423.SZ,"COFCO Capital Holdings Co., Ltd.",Insurance—Life,20160923648.0,CNY,True,asia_financials_all
+China,601318.SS,"Ping An Insurance (Group) Company of China, Ltd.",Insurance—Life,,CNY,True,asia_financials_all
+China,601319.SS,The People's Insurance Company (Group) of China Limited,Insurance—Property & Casualty,321950679040.0,CNY,True,asia_financials_all
+China,600030.SS,CITIC Securities Company Limited,Capital Markets,393575432192.0,CNY,True,asia_financials_all
+China,300059.SZ,"East Money Information Co.,Ltd.",Capital Markets,286698274816.0,CNY,True,asia_financials_all
+China,601211.SS,"Guotai Haitong Securities Co., Ltd.",Capital Markets,282000195584.0,CNY,True,asia_financials_all
+China,601688.SS,"Huatai Securities Co., Ltd.",Capital Markets,153456689152.0,CNY,True,asia_financials_all
+China,601995.SS,China International Capital Corporation Limited,Capital Markets,151672406016.0,CNY,True,asia_financials_all
+China,601066.SS,"CSC Financial Co., Ltd.",Capital Markets,146607292416.0,CNY,True,asia_financials_all
+China,600999.SS,"China Merchants Securities Co., Ltd.",Capital Markets,138970497024.0,CNY,True,asia_financials_all
+China,000166.SZ,"Shenwan Hongyuan Group Co., Ltd.",Capital Markets,108673359872.0,CNY,True,asia_financials_all
+China,600958.SS,Orient Securities Company Limited,Capital Markets,70777053184.0,CNY,True,asia_financials_all
+China,601788.SS,Everbright Securities Company Limited,Capital Markets,61369589760.0,CNY,True,asia_financials_all
+China,601901.SS,"Founder Securities Co., Ltd.",Capital Markets,53097054208.0,CNY,True,asia_financials_all
+China,601377.SS,"Industrial Securities Co.,Ltd.",Capital Markets,47066128384.0,CNY,True,asia_financials_all
+China,601456.SS,"Guolian Minsheng Securities Co., Ltd.",Capital Markets,46316650496.0,CNY,True,asia_financials_all
+China,600918.SS,"Zhongtai Securities Co., Ltd.",Capital Markets,41888022528.0,CNY,True,asia_financials_all
+China,002945.SZ,"ChinaLin Securities Co., Ltd",Capital Markets,41472000000.0,CNY,True,asia_financials_all
+China,000783.SZ,Changjiang Securities Company Limited,Capital Markets,40977842176.0,CNY,True,asia_financials_all
+China,601878.SS,"Zheshang Securities Co., Ltd.",Capital Markets,39636029440.0,CNY,True,asia_financials_all
+China,600061.SS,"SDIC Capital Co.,Ltd",Capital Markets,38428528640.0,CNY,True,asia_financials_all
+China,601555.SS,"Soochow Securities Co., Ltd.",Capital Markets,38308700160.0,CNY,True,asia_financials_all
+China,601136.SS,Capital Securities Corporation Limited,Capital Markets,38102671360.0,CNY,True,asia_financials_all
+China,600909.SS,"Huaan Securities Co., Ltd.",Capital Markets,33863170048.0,CNY,True,asia_financials_all
+China,601162.SS,"Tianfeng Securities Co., Ltd.",Capital Markets,33445629952.0,CNY,True,asia_financials_all
+China,601236.SS,"Hongta Securities Co., Ltd.",Capital Markets,31913990144.0,CNY,True,asia_financials_all
+China,000728.SZ,Guoyuan Securities Company Limited,Capital Markets,30153705472.0,CNY,True,asia_financials_all
+China,601696.SS,"BOC International (China) Co., Ltd.",Capital Markets,29613477888.0,CNY,True,asia_financials_all
+China,002939.SZ,"China Great Wall Securities Co.,Ltd.",Capital Markets,29330282496.0,CNY,True,asia_financials_all
+China,002673.SZ,"Western Securities Co.,Ltd.",Capital Markets,28203061248.0,CNY,True,asia_financials_all
+China,601990.SS,"Nanjing Securities Co., Ltd.",Capital Markets,28157618176.0,CNY,True,asia_financials_all
+China,600369.SS,"Southwest Securities Co., Ltd.",Capital Markets,25052061696.0,CNY,True,asia_financials_all
+China,600095.SS,"Xiangcai Co.,Ltd",Capital Markets,22930685952.0,CNY,True,asia_financials_all
+China,000750.SZ,"Sealand Securities Co., Ltd.",Capital Markets,22160025600.0,CNY,True,asia_financials_all
+China,601099.SS,"The Pacific Securities Co., Ltd",Capital Markets,22084866048.0,CNY,True,asia_financials_all
+China,002926.SZ,"HUAXI Securities Co., Ltd.",Capital Markets,19950000128.0,CNY,True,asia_financials_all
+China,600906.SS,"Caida Securities Co., Ltd.",Capital Markets,19599800320.0,CNY,True,asia_financials_all
+China,002670.SZ,Guosheng Securities Inc,Capital Markets,19505653760.0,CNY,True,asia_financials_all
+China,002500.SZ,"Shanxi Securities Co., Ltd.",Capital Markets,17733472256.0,CNY,True,asia_financials_all
+China,601375.SS,"Central China Securities Co., Ltd.",Capital Markets,17364387840.0,CNY,True,asia_financials_all
+China,000686.SZ,"Northeast Securities Co., Ltd.",Capital Markets,16898069504.0,CNY,True,asia_financials_all
+China,600927.SS,"Yongan Futures Co.,Ltd.",Capital Markets,16636600320.0,CNY,True,asia_financials_all
+China,603093.SS,"Nanhua Futures Co., Ltd.",Capital Markets,12841847808.0,CNY,True,asia_financials_all
+China,600155.SS,"Huachuang Yunxin Digital Technology Co., Ltd.",Capital Markets,12138528768.0,CNY,True,asia_financials_all
+China,002961.SZ,"Ruida Futures Co.,Ltd.",Capital Markets,8696213504.0,CNY,True,asia_financials_all
+China,000712.SZ,Guangdong Golden Dragon Development Inc.,Capital Markets,7266559488.0,CNY,True,asia_financials_all
+China,001236.SZ,"Soho Holly Futures Co., Ltd.",Capital Markets,7155222016.0,CNY,True,asia_financials_all
+China,000776.SZ,"GF Securities Co., Ltd.",Capital Markets,,CNY,True,asia_financials_all
+China,601108.SS,"Caitong Securities Co.,Ltd.",Asset Management,35014025216.0,CNY,True,asia_financials_all
+China,600109.SS,"Sinolink Securities Co., Ltd.",Asset Management,28766283776.0,CNY,True,asia_financials_all
+China,600816.SS,"J-Yuan Trust Co., Ltd.",Asset Management,22543785984.0,CNY,True,asia_financials_all
+China,000563.SZ,"Shaanxi International Trust Co.,Ltd.",Asset Management,14063418368.0,CNY,True,asia_financials_all
+China,000567.SZ,"Hainan Haide Capital Management Co., Ltd.",Asset Management,10066149376.0,CNY,True,asia_financials_all
+China,600643.SS,"Shanghai Aj Group Co.,Ltd",Asset Management,5974390784.0,CNY,True,asia_financials_all
+China,000532.SZ,"Zhuhai Huajin Capital Co., Ltd.",Asset Management,3574625536.0,CNY,True,asia_financials_all
+China,600318.SS,"Anhui Xinli Finance Co., Ltd.",Asset Management,3173784064.0,CNY,True,asia_financials_all
+China,600053.SS,"Kunwu Jiuding Investment Holdings CO.,Ltd",Asset Management,2839692288.0,CNY,True,asia_financials_all
+China,600901.SS,"Jiangsu Financial Leasing Co., Ltd.",Credit Services,40716820480.0,CNY,True,asia_financials_all
+China,603123.SS,"Beijing Cuiwei Tower Co., Ltd.",Credit Services,6893097472.0,CNY,True,asia_financials_all
+China,300033.SZ,"Hithink RoyalFlush Information Network Co., Ltd.",Financial Data & Stock Exchanges,149647409152.0,CNY,True,asia_financials_all
+China,601519.SS,Shanghai DZH Limited,Financial Data & Stock Exchanges,17206233088.0,CNY,True,asia_financials_all
+China,601881.SS,"China Galaxy Securities Co., Ltd.",Financial Conglomerates,126182998016.0,CNY,True,asia_financials_all
+China,002736.SZ,"Guosen Securities Co., Ltd.",Financial Conglomerates,97603805184.0,CNY,True,asia_financials_all
+China,000617.SZ,CNPC Capital Company Limited,Financial Conglomerates,80024354816.0,CNY,True,asia_financials_all
+China,000987.SZ,"Guangzhou Yuexiu Capital Holdings Group Co., Ltd.",Financial Conglomerates,33865644032.0,CNY,True,asia_financials_all
+China,002797.SZ,"First Capital Securities Co., Ltd.",Financial Conglomerates,24752136192.0,CNY,True,asia_financials_all
+China,600390.SS,Minmetals Capital Company Limited,Financial Conglomerates,20601139200.0,CNY,True,asia_financials_all
+China,600621.SS,"Shanghai Chinafortune Co., Ltd.",Financial Conglomerates,15860444160.0,CNY,True,asia_financials_all
+China,002647.SZ,"Rendong Holdings Co., Ltd.",Financial Conglomerates,8077865984.0,CNY,True,asia_financials_all
+India,HDFCBANK.NS,HDFC Bank Limited,Banks—Regional,10710446768128.0,INR,True,asia_financials_all
+India,ICICIBANK.NS,ICICI Bank Limited,Banks—Regional,10042604519424.0,INR,True,asia_financials_all
+India,SBIN.NS,State Bank of India,Banks—Regional,8914152194048.0,INR,True,asia_financials_all
+India,KOTAKBANK.NS,Kotak Mahindra Bank Limited,Banks—Regional,4349711089664.0,INR,True,asia_financials_all
+India,AXISBANK.NS,Axis Bank Limited,Banks—Regional,3790197227520.0,INR,True,asia_financials_all
+India,PNB.NS,Punjab National Bank,Banks—Regional,1391795372032.0,INR,True,asia_financials_all
+India,UNIONBANK.NS,Union Bank of India,Banks—Regional,1388705480704.0,INR,True,asia_financials_all
+India,BANKBARODA.NS,Bank of Baroda Limited,Banks—Regional,1206427058176.0,INR,True,asia_financials_all
+India,INDIANB.NS,Indian Bank,Banks—Regional,1141551923200.0,INR,True,asia_financials_all
+India,CANBK.NS,Canara Bank,Banks—Regional,1083489255424.0,INR,True,asia_financials_all
+India,FEDERALBNK.NS,The Federal Bank Limited,Banks—Regional,854385229824.0,INR,True,asia_financials_all
+India,IDBI.NS,IDBI Bank Limited,Banks—Regional,845246365696.0,INR,True,asia_financials_all
+India,AUBANK.NS,AU Small Finance Bank Limited,Banks—Regional,704600801280.0,INR,True,asia_financials_all
+India,INDUSINDBK.NS,IndusInd Bank Limited,Banks—Regional,656390488064.0,INR,True,asia_financials_all
+India,IDFCFIRSTB.NS,IDFC First Bank Limited,Banks—Regional,637528571904.0,INR,True,asia_financials_all
+India,BANKINDIA.NS,Bank of India,Banks—Regional,608236404736.0,INR,True,asia_financials_all
+India,MAHABANK.NS,Bank of Maharashtra,Banks—Regional,587557896192.0,INR,True,asia_financials_all
+India,IOB.NS,Indian Overseas Bank,Banks—Regional,567106600960.0,INR,True,asia_financials_all
+India,RBLBANK.NS,RBL Bank Limited,Banks—Regional,549895733248.0,INR,True,asia_financials_all
+India,YESBANK.NS,Yes Bank Limited,Banks—Regional,504119590912.0,INR,True,asia_financials_all
+India,KARURVYSYA.NS,The Karur Vysya Bank Limited,Banks—Regional,335868559360.0,INR,True,asia_financials_all
+India,UCOBANK.NS,UCO Bank,Banks—Regional,278628990976.0,INR,True,asia_financials_all
+India,CENTRALBK.NS,Central Bank of India,Banks—Regional,267106844672.0,INR,True,asia_financials_all
+India,BANDHANBNK.NS,Bandhan Bank Limited,Banks—Regional,251339735040.0,INR,True,asia_financials_all
+India,CUB.NS,City Union Bank Limited,Banks—Regional,222174134272.0,INR,True,asia_financials_all
+India,SOUTHBANK.NS,The South Indian Bank Limited,Banks—Regional,142946304000.0,INR,True,asia_financials_all
+India,PSB.NS,Punjab & Sind Bank,Banks—Regional,141769785344.0,INR,True,asia_financials_all
+India,J&KBANK.NS,Jammu and Kashmir Bank Limited,Banks—Regional,136128176128.0,INR,True,asia_financials_all
+India,TMB.NS,Tamilnad Mercantile Bank Limited,Banks—Regional,128795156480.0,INR,True,asia_financials_all
+India,UJJIVANSFB.NS,Ujjivan Small Finance Bank Limited,Banks—Regional,117080244224.0,INR,True,asia_financials_all
+India,KTKBANK.NS,The Karnataka Bank Limited,Banks—Regional,116448600064.0,INR,True,asia_financials_all
+India,EQUITASBNK.NS,Equitas Small Finance Bank Limited,Banks—Regional,75375378432.0,INR,True,asia_financials_all
+India,DCBBANK.NS,DCB Bank Limited,Banks—Regional,65388339200.0,INR,True,asia_financials_all
+India,CSBBANK.NS,CSB Bank Limited,Banks—Regional,51323498496.0,INR,True,asia_financials_all
+India,JSFB.NS,Jana Small Finance Bank Limited,Banks—Regional,42085449728.0,INR,True,asia_financials_all
+India,UTKARSHBNK.NS,Utkarsh Small Finance Bank Limited,Banks—Regional,21336487936.0,INR,True,asia_financials_all
+India,ESAFSFB.NS,ESAF Small Finance Bank,Banks—Regional,20598360064.0,INR,True,asia_financials_all
+India,SURYODAY.NS,Suryoday Small Finance Bank Limited,Banks—Regional,14738029568.0,INR,True,asia_financials_all
+India,DHANBANK.NS,Dhanlaxmi Bank Limited,Banks—Regional,14284150784.0,INR,True,asia_financials_all
+India,CAPITALSFB.NS,Capital Small Finance Bank Limited,Banks—Regional,11848150016.0,INR,True,asia_financials_all
+India,FINOPB.NS,Fino Payments Bank Limited,Banks—Regional,10142658560.0,INR,True,asia_financials_all
+India,LICI.NS,Life Insurance Corporation of India,Insurance—Life,4893017899008.0,INR,True,asia_financials_all
+India,SBILIFE.NS,SBI Life Insurance Company Limited,Insurance—Life,1647397306368.0,INR,True,asia_financials_all
+India,HDFCLIFE.NS,HDFC Life Insurance Company Limited,Insurance—Life,1134135476224.0,INR,True,asia_financials_all
+India,ICICIPRULI.NS,ICICI Life Insurance Limited,Insurance—Life,625287102464.0,INR,True,asia_financials_all
+India,MFSL.NS,Max Financial Services Limited,Insurance—Life,421730254848.0,INR,True,asia_financials_all
+India,STARHEALTH.NS,Star Health and Allied Insurance Company Limited,Insurance—Life,316737617920.0,INR,True,asia_financials_all
+India,NIVABUPA.NS,Niva Bupa Health Insurance Company Limited,Insurance—Life,132342079488.0,INR,True,asia_financials_all
+India,CANHLIFE.NS,Canara HSBC Life Insurance Company Limited,Insurance—Life,117999796224.0,INR,True,asia_financials_all
+India,RELIGARE.NS,Religare Enterprises Limited,Insurance—Life,71192059904.0,INR,True,asia_financials_all
+India,GODIGIT.NS,Go Digit General Insurance Limited,Insurance—Property & Casualty,250400555008.0,INR,True,asia_financials_all
+India,ICICIGI.NS,ICICI Lombard General Insurance Company Limited,Insurance—Diversified,804831952896.0,INR,True,asia_financials_all
+India,NIACL.NS,The New India Assurance Company Limited,Insurance—Diversified,269612810240.0,INR,True,asia_financials_all
+India,GICRE.NS,General Insurance Corporation of India,Insurance—Reinsurance,558162378752.0,INR,True,asia_financials_all
+India,POLICYBZR.NS,PB Fintech Limited,Insurance Brokers,474761428992.0,INR,True,asia_financials_all
+India,IIRM.NS,IIRM Holdings India Limited,Insurance Brokers,,INR,True,asia_financials_all
+India,TURTLEMINT.NS,Turtlemint Fintech Solutions Limited,Insurance Brokers,,INR,True,asia_financials_all
+India,GROWW.NS,Billionbrains Garage Ventures Limited,Capital Markets,1148034220032.0,INR,True,asia_financials_all
+India,MOTILALOFS.NS,Motilal Oswal Financial Services Limited,Capital Markets,572074622976.0,INR,True,asia_financials_all
+India,AIIL.NS,Authum Investment & Infrastructure Limited,Capital Markets,425971515392.0,INR,True,asia_financials_all
+India,ANGELONE.NS,Angel One Limited,Capital Markets,263586217984.0,INR,True,asia_financials_all
+India,CDSL.NS,Central Depository Services (India) Limited,Capital Markets,252848209920.0,INR,True,asia_financials_all
+India,CHOICEIN.NS,Choice International Limited,Capital Markets,158059921408.0,INR,True,asia_financials_all
+India,IIFLCAPS.NS,IIFL Capital Services Limited,Capital Markets,107613872128.0,INR,True,asia_financials_all
+India,JMFINANCIL.NS,JM Financial Limited,Capital Markets,103911596032.0,INR,True,asia_financials_all
+India,IEX.NS,Indian Energy Exchange Limited,Capital Markets,90975420416.0,INR,True,asia_financials_all
+India,SGFIN.NS,SG Finserve Limited,Capital Markets,41579745280.0,INR,True,asia_financials_all
+India,SHAREINDIA.NS,Share India Securities Limited,Capital Markets,38331670528.0,INR,True,asia_financials_all
+India,MONARCH.NS,Monarch Networth Capital Limited,Capital Markets,25852665856.0,INR,True,asia_financials_all
+India,SMCGLOBAL.NS,SMC Global Securities Limited,Capital Markets,20833206272.0,INR,True,asia_financials_all
+India,ALGOQUANT.NS,Algoquant Fintech Limited,Capital Markets,20399138816.0,INR,True,asia_financials_all
+India,GEOJITFSL.NS,Geojit Financial Services Limited,Capital Markets,19870703616.0,INR,True,asia_financials_all
+India,GCSL.NS,Gretex Corporate Services Limited,Capital Markets,16997543936.0,INR,True,asia_financials_all
+India,5PAISA.NS,5paisa Capital Limited,Capital Markets,15552193536.0,INR,True,asia_financials_all
+India,SUMMITSEC.NS,Summit Securities Limited,Capital Markets,14329363456.0,INR,True,asia_financials_all
+India,PNBGILTS.NS,PNB Gilts Ltd.,Capital Markets,12825721856.0,INR,True,asia_financials_all
+India,AKCAPIT.NS,A. K. Capital Services Limited,Capital Markets,11418000384.0,INR,True,asia_financials_all
+India,SYSTMTXC.NS,Systematix Corporate Services Limited,Capital Markets,10789321728.0,INR,True,asia_financials_all
+India,AFSL.NS,Abans Financial Services Limited,Capital Markets,10342894592.0,INR,True,asia_financials_all
+India,DOLATALGO.NS,Dolat Algotech Limited,Capital Markets,9848960000.0,INR,True,asia_financials_all
+India,ARIHANTCAP.NS,Arihant Capital Markets Limited,Capital Markets,9825691648.0,INR,True,asia_financials_all
+India,DVL.NS,Dhunseri Ventures Limited,Capital Markets,9391887360.0,INR,True,asia_financials_all
+India,CONSOFINVT.NS,Consolidated Finvest & Holdings Limited,Capital Markets,9293830144.0,INR,True,asia_financials_all
+India,PRIMESECU.NS,Prime Securities Limited,Capital Markets,9245698048.0,INR,True,asia_financials_all
+India,DAMCAPITAL.NS,DAM Capital Advisors Limited,Capital Markets,9216747520.0,INR,True,asia_financials_all
+India,MASTERTR.NS,Master Trust Limited,Capital Markets,9210588160.0,INR,True,asia_financials_all
+India,WEALTH.NS,Wealth First Portfolio Managers Limited,Capital Markets,8857501696.0,INR,True,asia_financials_all
+India,ARYAMAN.NS,Aryaman Financial Services Limited,Capital Markets,7653150720.0,INR,True,asia_financials_all
+India,EMKAY.NS,Emkay Global Financial Services Limited,Capital Markets,7147552256.0,INR,True,asia_financials_all
+India,BIRLAMONEY.NS,Aditya Birla Money Limited,Capital Markets,6383279104.0,INR,True,asia_financials_all
+India,VLSFINANCE.NS,VLS Finance Limited,Capital Markets,6330958848.0,INR,True,asia_financials_all
+India,WELINV.NS,Welspun Investments and Commercials Limited,Capital Markets,6049787904.0,INR,True,asia_financials_all
+India,NBIFIN.NS,N.B.I. Industrial Finance Company Limited,Capital Markets,5244858880.0,INR,True,asia_financials_all
+India,DHUNINV.NS,Dhunseri Investments Limited,Capital Markets,5243573248.0,INR,True,asia_financials_all
+India,SHARDUL.NS,Shardul Securities Limited,Capital Markets,4650208768.0,INR,True,asia_financials_all
+India,THEINVEST.NS,The Investment Trust of India Limited,Capital Markets,4349164544.0,INR,True,asia_financials_all
+India,INDOTHAI.NS,Indo Thai Securities Limited,Capital Markets,4124625664.0,INR,True,asia_financials_all
+India,AVONMORE.NS,Avonmore Capital & Management Services Limited,Capital Markets,3778453760.0,INR,True,asia_financials_all
+India,NAHARCAP.NS,Nahar Capital and Financial Services Limited,Capital Markets,3627219968.0,INR,True,asia_financials_all
+India,ALMONDZ.NS,Almondz Global Securities Limited,Capital Markets,3361617408.0,INR,True,asia_financials_all
+India,SHAHINVEST.NS,Shah Investor's Home Limited,Capital Markets,2986408704.0,INR,True,asia_financials_all
+India,NDGL.NS,Naga Dhunseri Group Limited,Capital Markets,2284999936.0,INR,True,asia_financials_all
+India,AUSOMENT.NS,AuSom Enterprise Limited,Capital Markets,2200067584.0,INR,True,asia_financials_all
+India,ABANSENT.NS,ABans Enterprises Limited,Capital Markets,2064566912.0,INR,True,asia_financials_all
+India,ONELIFECAP.NS,Onelife Capital Advisors Limited,Capital Markets,1905360000.0,INR,True,asia_financials_all
+India,SPCENET.NS,Spacenet Enterprises India Limited,Capital Markets,1901915520.0,INR,True,asia_financials_all
+India,DELPHIFX.NS,Delphi World Money Limited,Capital Markets,1532923648.0,INR,True,asia_financials_all
+India,PML.NS,Paul Merchants Limited,Capital Markets,1378547968.0,INR,True,asia_financials_all
+India,ASSAMENT.NS,Assam Entrade Limited,Capital Markets,1218062336.0,INR,True,asia_financials_all
+India,KEYFINSERV.NS,Keynote Financial Services Limited,Capital Markets,1201558656.0,INR,True,asia_financials_all
+India,VGCL.NS,Vibrant Global Capital Limited,Capital Markets,1186602240.0,INR,True,asia_financials_all
+India,STEELCITY.NS,Steel City Securities Limited,Capital Markets,1166569856.0,INR,True,asia_financials_all
+India,LKPSEC.NS,LKP Securities Limited,Capital Markets,1150058624.0,INR,True,asia_financials_all
+India,DBSTOCKBRO.NS,DB (International) Stock Brokers Limited,Capital Markets,1098999936.0,INR,True,asia_financials_all
+India,INDBANK.NS,Indbank Merchant Banking Services Limited,Capital Markets,1073952512.0,INR,True,asia_financials_all
+India,BLBLIMITED.NS,BLB Limited,Capital Markets,819411456.0,INR,True,asia_financials_all
+India,INVENTURE.NS,Inventure Growth & Securities Limited,Capital Markets,819000000.0,INR,True,asia_financials_all
+India,MUKESHB.NS,Mukesh Babu Financial Services Limited,Capital Markets,802838016.0,INR,True,asia_financials_all
+India,TRANSCOR.NS,Transcorp International Limited,Capital Markets,796822080.0,INR,True,asia_financials_all
+India,HBPOR.NS,HB Portfolio Limited,Capital Markets,644669760.0,INR,True,asia_financials_all
+India,PIONRINV.NS,Pioneer Investcorp Limited,Capital Markets,603778176.0,INR,True,asia_financials_all
+India,APOORVA.NS,Apoorva Leasing Finance and Investment Company Limited,Capital Markets,599246976.0,INR,True,asia_financials_all
+India,ODYCORP.NS,Odyssey Corporation Limited,Capital Markets,565630464.0,INR,True,asia_financials_all
+India,21STCENMGM.NS,Twentyfirst Century Management Services Limited,Capital Markets,535500000.0,INR,True,asia_financials_all
+India,LADDERUP.NS,Ladderup Finance Limited,Capital Markets,488244064.0,INR,True,asia_financials_all
+India,HYBRIDFIN.NS,Hybrid Financial Services Limited,Capital Markets,470686048.0,INR,True,asia_financials_all
+India,MASKINVEST.NS,Mask Investments Limited,Capital Markets,415187072.0,INR,True,asia_financials_all
+India,SAICAPI.NS,Sai Capital Limited,Capital Markets,405981312.0,INR,True,asia_financials_all
+India,HBSL.NS,HB Stockholdings Limited,Capital Markets,385433920.0,INR,True,asia_financials_all
+India,SUMEDHA.NS,Sumedha Fiscal Services Limited,Capital Markets,335345792.0,INR,True,asia_financials_all
+India,PRISMX.NS,Prismx Global Ventures Limited,Capital Markets,298587584.0,INR,True,asia_financials_all
+India,KJMCFIN.NS,KJMC Financial Services Limited,Capital Markets,286952960.0,INR,True,asia_financials_all
+India,KHANDSE.NS,Khandwala Securities Limited,Capital Markets,238874576.0,INR,True,asia_financials_all
+India,BLUECHIP.NS,Blue Chip India Limited,Capital Markets,92911288.0,INR,True,asia_financials_all
+India,HAMPTON.NS,Hampton Sky Realty Limited,Capital Markets,,INR,True,asia_financials_all
+India,KIRANVYPAR.NS,Kiran Vyapar Limited,Capital Markets,,INR,True,asia_financials_all
+India,JIOFIN.NS,Jio Financial Services Limited,Asset Management,1384810807296.0,INR,True,asia_financials_all
+India,ICICIAMC.NS,ICICI Prudential Asset Management Company Limited,Asset Management,1326095663104.0,INR,True,asia_financials_all
+India,BAJAJHLDNG.NS,Bajaj Holdings & Investment Limited,Asset Management,1247822872576.0,INR,True,asia_financials_all
+India,HDFCAMC.NS,HDFC Asset Management Company Limited,Asset Management,969062285312.0,INR,True,asia_financials_all
+India,SBIFUNDS.NS,SBI Funds Management Limited,Asset Management,947124830208.0,INR,True,asia_financials_all
+India,NAM-INDIA.NS,Nippon Life India Asset Management Limited,Asset Management,583526252544.0,INR,True,asia_financials_all
+India,360ONE.NS,360 One Wam Limited,Asset Management,419825287168.0,INR,True,asia_financials_all
+India,ANANDRATHI.NS,Anand Rathi Wealth Limited,Asset Management,370554273792.0,INR,True,asia_financials_all
+India,NUVAMA.NS,Nuvama Wealth Management Limited,Asset Management,305281204224.0,INR,True,asia_financials_all
+India,TATAINVEST.NS,Tata Investment Corporation Limited,Asset Management,282144669696.0,INR,True,asia_financials_all
+India,ABSLAMC.NS,Aditya Birla Sun Life AMC Limited,Asset Management,254273929216.0,INR,True,asia_financials_all
+India,MAHSCOOTER.NS,Bajaj Nivesh Limited,Asset Management,137954246656.0,INR,True,asia_financials_all
+India,JSWHL.NS,JSW Holdings Limited,Asset Management,124010799104.0,INR,True,asia_financials_all
+India,PRUDENT.NS,Prudent Corporate Advisory Services Limited,Asset Management,117652938752.0,INR,True,asia_financials_all
+India,UTIAMC.NS,UTI Asset Management Company Limited,Asset Management,108230868992.0,INR,True,asia_financials_all
+India,TSFINV.NS,TSF Investments Limited,Asset Management,85341536256.0,INR,True,asia_financials_all
+India,PILANIINVS.NS,Pilani Investment and Industries Corporation Limited,Asset Management,42196344832.0,INR,True,asia_financials_all
+India,CRAMC.NS,Canara Robeco Asset Management Company Limited,Asset Management,41399058432.0,INR,True,asia_financials_all
+India,NSIL.NS,Nalwa Sons Investments Limited,Asset Management,25557547008.0,INR,True,asia_financials_all
+India,KICL.NS,Kalyani Investment Company Limited,Asset Management,19840315392.0,INR,True,asia_financials_all
+India,BFINVEST.NS,BF Investment Limited,Asset Management,14788311040.0,INR,True,asia_financials_all
+India,VHL.NS,Vardhman Holdings Limited,Asset Management,11521444864.0,INR,True,asia_financials_all
+India,JINDALPHOT.NS,Jindal Photo Limited,Asset Management,11224238080.0,INR,True,asia_financials_all
+India,ZSARACOM.NS,Saraswati Commercial (India) Limited,Asset Management,10329121792.0,INR,True,asia_financials_all
+India,INDPRUD.NS,Industrial And Prudential Investment Company Limited,Asset Management,10231003136.0,INR,True,asia_financials_all
+India,JPOLYINVST.NS,Jindal Poly Investment and Finance Company Limited,Asset Management,9250497536.0,INR,True,asia_financials_all
+India,STEL.NS,STEL Holdings Limited,Asset Management,9227702272.0,INR,True,asia_financials_all
+India,GFLLIMITED.NS,GFL Limited,Asset Management,5961041920.0,INR,True,asia_financials_all
+India,OSWALGREEN.NS,Oswal Greentech Limited,Asset Management,4717584384.0,INR,True,asia_financials_all
+India,SILINV.NS,SIL Investments Limited,Asset Management,4609199104.0,INR,True,asia_financials_all
+India,TEAMGTY.NS,Team India Guaranty Limited,Asset Management,2190641152.0,INR,True,asia_financials_all
+India,RSDFIN.NS,RSD Finance Limited,Asset Management,1114174080.0,INR,True,asia_financials_all
+India,THACKER.NS,Thacker and Company Limited,Asset Management,999613760.0,INR,True,asia_financials_all
+India,GATECH.NS,GACM Technologies Limited,Asset Management,965200448.0,INR,True,asia_financials_all
+India,LFIC.NS,Lakshmi Finance & Industrial Corporation Limited,Asset Management,359429984.0,INR,True,asia_financials_all
+India,NAGREEKCAP.NS,Nagreeka Capital & Infrastructure Ltd.,Asset Management,302893344.0,INR,True,asia_financials_all
+India,ARCIL.NS,ASSET RECONSTRUC CO (I) L,Asset Management,,INR,True,asia_financials_all
+India,GAJA.NS,GAJA ALT ASSET MGT LTD,Asset Management,,INR,True,asia_financials_all
+India,BAJFINANCE.NS,Bajaj Finance Limited,Credit Services,5826818867200.0,INR,True,asia_financials_all
+India,SHRIRAMFIN.NS,Shriram Finance Limited,Credit Services,2114366078976.0,INR,True,asia_financials_all
+India,TATACAP.NS,Tata Capital Limited,Credit Services,1306331316224.0,INR,True,asia_financials_all
+India,CHOLAFIN.NS,Cholamandalam Investment and Finance Company Limited,Credit Services,1267658260480.0,INR,True,asia_financials_all
+India,PFC.NS,Power Finance Corporation Limited,Credit Services,1051907391488.0,INR,True,asia_financials_all
+India,IRFC.NS,Indian Railway Finance Corporation Limited,Credit Services,986672201728.0,INR,True,asia_financials_all
+India,MUTHOOTFIN.NS,Muthoot Finance Limited,Credit Services,956177448960.0,INR,True,asia_financials_all
+India,LTF.NS,L&T Finance Limited,Credit Services,602538967040.0,INR,True,asia_financials_all
+India,SBICARD.NS,SBI Cards and Payment Services Limited,Credit Services,535442391040.0,INR,True,asia_financials_all
+India,PIRAMALFIN.NS,Piramal Finance Limited,Credit Services,461159038976.0,INR,True,asia_financials_all
+India,SUNDARMFIN.NS,Sundaram Finance Limited,Credit Services,446281973760.0,INR,True,asia_financials_all
+India,HDBFS.NS,HDB Financial Services Limited,Credit Services,416836911104.0,INR,True,asia_financials_all
+India,M&MFIN.NS,Mahindra & Mahindra Financial Services Limited,Credit Services,389233737728.0,INR,True,asia_financials_all
+India,POONAWALLA.NS,Poonawalla Fincorp Limited,Credit Services,376281071616.0,INR,True,asia_financials_all
+India,HUDCO.NS,Housing and Urban Development Corporation Limited,Credit Services,299243995136.0,INR,True,asia_financials_all
+India,IREDA.NS,Indian Renewable Energy Development Agency Limited,Credit Services,287356289024.0,INR,True,asia_financials_all
+India,MANAPPURAM.NS,Manappuram Finance Limited,Credit Services,275929989120.0,INR,True,asia_financials_all
+India,CHOLAHLDNG.NS,Cholamandalam Financial Holdings Limited,Credit Services,245612904448.0,INR,True,asia_financials_all
+India,IIFL.NS,IIFL Finance Limited,Credit Services,234127671296.0,INR,True,asia_financials_all
+India,CGCL.NS,Capri Global Capital Limited,Credit Services,226635366400.0,INR,True,asia_financials_all
+India,CREDITACC.NS,CreditAccess Grameen Limited,Credit Services,169895624704.0,INR,True,asia_financials_all
+India,IFCI.NS,IFCI Limited,Credit Services,162278539264.0,INR,True,asia_financials_all
+India,FIVESTAR.NS,Five-Star Business Finance Limited,Credit Services,137516892160.0,INR,True,asia_financials_all
+India,SBFC.NS,SBFC Finance Limited,Credit Services,88273936384.0,INR,True,asia_financials_all
+India,PAISALO.NS,Paisalo Digital Limited,Credit Services,72610357248.0,INR,True,asia_financials_all
+India,TFCILTD.NS,Tourism Finance Corporation of India Limited,Credit Services,70002155520.0,INR,True,asia_financials_all
+India,FEDFINA.NS,Fedbank Financial Services Limited,Credit Services,58030686208.0,INR,True,asia_financials_all
+India,KISSHT.NS,OnEMI Technology Solutions Limited,Credit Services,57103380480.0,INR,True,asia_financials_all
+India,MASFIN.NS,MAS Financial Services Limited,Credit Services,46170812416.0,INR,True,asia_financials_all
+India,NORTHARC.NS,Northern Arc Capital Limited,Credit Services,40805834752.0,INR,True,asia_financials_all
+India,AYE.NS,Aye Finance Limited,Credit Services,32155238400.0,INR,True,asia_financials_all
+India,ASHIKAG.NS,Ashika Global Securities Limited,Credit Services,28313493504.0,INR,True,asia_financials_all
+India,INDOSTAR.NS,IndoStar Capital Finance Limited,Credit Services,27611637760.0,INR,True,asia_financials_all
+India,MUFIN.NS,Mufin Green Finance Limited,Credit Services,26510137344.0,INR,True,asia_financials_all
+India,MUTHOOTMF.NS,Muthoot Microfin Limited,Credit Services,26366210048.0,INR,True,asia_financials_all
+India,SATIN.NS,Satin Creditcare Network Limited,Credit Services,24106074112.0,INR,True,asia_financials_all
+India,FUSION.NS,Fusion Finance Limited,Credit Services,21984387072.0,INR,True,asia_financials_all
+India,SPANDANA.NS,Spandana Sphoorty Financial Limited,Credit Services,16445287424.0,INR,True,asia_financials_all
+India,PFS.NS,PTC India Financial Services Limited,Credit Services,15825860608.0,INR,True,asia_financials_all
+India,ARMANFIN.NS,Arman Financial Services Limited,Credit Services,14958917632.0,INR,True,asia_financials_all
+India,UGROCAP.NS,UGRO Capital Limited,Credit Services,11591055360.0,INR,True,asia_financials_all
+India,FEDDERSHOL.NS,Fedders Holding Limited,Credit Services,11150388224.0,INR,True,asia_financials_all
+India,FINKURVE.NS,Finkurve Financial Services Limited,Credit Services,9007053824.0,INR,True,asia_financials_all
+India,HEXATRADEX.NS,Hexa Tradex Limited,Credit Services,8502159360.0,INR,True,asia_financials_all
+India,CIFL.NS,Capital India Finance Limited,Credit Services,7078118912.0,INR,True,asia_financials_all
+India,MANBA.NS,Manba Finance Limited,Credit Services,6973230080.0,INR,True,asia_financials_all
+India,LAXMIINDIA.NS,Laxmi India Finance Limited,Credit Services,5248214528.0,INR,True,asia_financials_all
+India,CSLFINANCE.NS,CSL Finance Limited,Credit Services,4722371584.0,INR,True,asia_financials_all
+India,UYFINCORP.NS,U. Y. Fincorp Limited,Credit Services,4596157952.0,INR,True,asia_financials_all
+India,MANCREDIT.NS,Mangal Credit and Fincorp Limited,Credit Services,4410500608.0,INR,True,asia_financials_all
+India,VIJIFIN.NS,Viji Finance Limited,Credit Services,3772229888.0,INR,True,asia_financials_all
+India,MONEYBOXX.NS,Moneyboxx Finance Limited,Credit Services,3496528128.0,INR,True,asia_financials_all
+India,MUTHOOTCAP.NS,Muthoot Capital Services Limited,Credit Services,3404639232.0,INR,True,asia_financials_all
+India,AFIL.NS,Akme Fintrade (India) Limited,Credit Services,3243299584.0,INR,True,asia_financials_all
+India,CPCAP.NS,CP Capital Limited,Credit Services,2575159296.0,INR,True,asia_financials_all
+India,STARTECK.NS,Starteck Finance Limited,Credit Services,2507313408.0,INR,True,asia_financials_all
+India,IITL.NS,Industrial Investment Trust Limited,Credit Services,2467653120.0,INR,True,asia_financials_all
+India,SAHLIBHFI.NS,Shalibhadra Finance Limited,Credit Services,2302421248.0,INR,True,asia_financials_all
+India,BAIDFIN.NS,Baid Finserv Limited,Credit Services,1596608256.0,INR,True,asia_financials_all
+India,MAHAPEXLTD.NS,Maha Rashtra Apex Corporation Limited,Credit Services,1380723968.0,INR,True,asia_financials_all
+India,SONAL.NS,Sonal Mercantile Limited,Credit Services,1267513088.0,INR,True,asia_financials_all
+India,CAPTRUST.NS,Capital Trust Limited,Credit Services,709013952.0,INR,True,asia_financials_all
+India,ADVIKCA.NS,Advik Capital Limited,Credit Services,559838848.0,INR,True,asia_financials_all
+India,TRU.NS,TruCap Finance Limited,Credit Services,493418912.0,INR,True,asia_financials_all
+India,WILLAMAGOR.NS,Williamson Magor & Co. Limited,Credit Services,242464240.0,INR,True,asia_financials_all
+India,TCIFINANCE.NS,TCI Finance Limited,Credit Services,190126720.0,INR,True,asia_financials_all
+India,DCMFINSERV.NS,DCM Financial Services Limited,Credit Services,108412768.0,INR,True,asia_financials_all
+India,RECLTD.NS,REC Limited,Credit Services,,INR,True,asia_financials_all
+India,BSE.NS,BSE Limited,Financial Data & Stock Exchanges,1324630671360.0,INR,True,asia_financials_all
+India,CRISIL.NS,CRISIL Limited,Financial Data & Stock Exchanges,343718395904.0,INR,True,asia_financials_all
+India,CARERATING.NS,CARE Ratings Limited,Financial Data & Stock Exchanges,47853600768.0,INR,True,asia_financials_all
+India,ICRA.NS,ICRA Limited,Financial Data & Stock Exchanges,42430267392.0,INR,True,asia_financials_all
+India,MCX.NS,Multi Commodity Exchange of India Limited,Financial Data & Stock Exchanges,,INR,True,asia_financials_all
+India,BAJAJFINSV.NS,Bajaj Finserv Ltd.,Financial Conglomerates,2678169534464.0,INR,True,asia_financials_all
+India,ABCAPITAL.NS,Aditya Birla Capital Limited,Financial Conglomerates,959655247872.0,INR,True,asia_financials_all
+India,EDELWEISS.NS,Edelweiss Financial Services Limited,Financial Conglomerates,110432952320.0,INR,True,asia_financials_all
+India,ARSSBL.NS,Anand Rathi Share and Stock Brokers Limited,Financial Conglomerates,28890718208.0,INR,True,asia_financials_all
+India,CREST.NS,Crest Ventures Limited,Financial Conglomerates,9923393536.0,INR,True,asia_financials_all
+India,CENTRUM.NS,Centrum Capital Limited,Financial Conglomerates,8977182720.0,INR,True,asia_financials_all
+India,DIGISPICE.NS,DiGiSPICE Technologies Limited,Financial Conglomerates,3520066560.0,INR,True,asia_financials_all
+India,IVC.NS,IL&FS Investment Managers Limited,Financial Conglomerates,2414911744.0,INR,True,asia_financials_all
+India,BAJAJHFL.NS,Bajaj Housing Finance Limited,Mortgage Finance,657741185024.0,INR,True,asia_financials_all
+India,PNBHOUSING.NS,PNB Housing Finance Limited,Mortgage Finance,290822455296.0,INR,True,asia_financials_all
+India,LICHSGFIN.NS,LIC Housing Finance Limited,Mortgage Finance,275416547328.0,INR,True,asia_financials_all
+India,AADHARHFC.NS,Aadhar Housing Finance Limited,Mortgage Finance,196991959040.0,INR,True,asia_financials_all
+India,SAMMAANCAP.NS,Sammaan Capital Limited,Mortgage Finance,135947083776.0,INR,True,asia_financials_all
+India,HOMEFIRST.NS,Home First Finance Company India Limited,Mortgage Finance,105138241536.0,INR,True,asia_financials_all
+India,APTUS.NS,Aptus Value Housing Finance India Limited,Mortgage Finance,100166049792.0,INR,True,asia_financials_all
+India,CANFINHOME.NS,Can Fin Homes Limited,Mortgage Finance,93820723200.0,INR,True,asia_financials_all
+India,AAVAS.NS,Aavas Financiers Limited,Mortgage Finance,89540886528.0,INR,True,asia_financials_all
+India,INDIASHLTR.NS,India Shelter Finance Corporation Limited,Mortgage Finance,65179672576.0,INR,True,asia_financials_all
+India,REPCOHOME.NS,Repco Home Finance Limited,Mortgage Finance,19322077184.0,INR,True,asia_financials_all
+India,GRANDOAK.NS,Grand Oak Canyons Distillery Limited,Mortgage Finance,17123156992.0,INR,True,asia_financials_all
+India,GICHSGFIN.NS,GIC Housing Finance Limited,Mortgage Finance,6807851520.0,INR,True,asia_financials_all
+India,SRGHFL.NS,SRG Housing Finance Limited,Mortgage Finance,1552695040.0,INR,True,asia_financials_all
+India,TFL.NS,Transwarranty Finance Limited,Mortgage Finance,650371072.0,INR,True,asia_financials_all
+India,RHFL.NS,Reliance Home Finance Limited,Mortgage Finance,624570944.0,INR,True,asia_financials_all
+Indonesia,BBCA.JK,PT Bank Central Asia Tbk,Banks—Regional,629563956658176.0,IDR,True,asia_financials_all
+Indonesia,BBRI.JK,PT Bank Rakyat Indonesia (Persero) Tbk,Banks—Regional,432463612477440.0,IDR,True,asia_financials_all
+Indonesia,BMRI.JK,PT Bank Mandiri (Persero) Tbk,Banks—Regional,355158127017984.0,IDR,True,asia_financials_all
+Indonesia,BBNI.JK,PT Bank Negara Indonesia (Persero) Tbk,Banks—Regional,125555408109568.0,IDR,True,asia_financials_all
+Indonesia,BNLI.JK,PT Bank Permata Tbk,Banks—Regional,62412761858048.0,IDR,True,asia_financials_all
+Indonesia,BDMN.JK,PT Bank Danamon Indonesia Tbk,Banks—Regional,48281350569984.0,IDR,True,asia_financials_all
+Indonesia,BRIS.JK,PT Bank Syariah Indonesia Tbk,Banks—Regional,47051844878336.0,IDR,True,asia_financials_all
+Indonesia,MEGA.JK,PT Bank Mega Tbk,Banks—Regional,45202551078912.0,IDR,True,asia_financials_all
+Indonesia,BNGA.JK,PT Bank CIMB Niaga Tbk,Banks—Regional,41735505838080.0,IDR,True,asia_financials_all
+Indonesia,BSWD.JK,PT Bank of India Indonesia Tbk,Banks—Regional,29787598880768.0,IDR,True,asia_financials_all
+Indonesia,NISP.JK,PT Bank OCBC NISP Tbk,Banks—Regional,27304902262784.0,IDR,True,asia_financials_all
+Indonesia,BTPN.JK,PT Bank SMBC Indonesia Tbk,Banks—Regional,24911512862720.0,IDR,True,asia_financials_all
+Indonesia,BINA.JK,PT Bank Ina Perdana Tbk,Banks—Regional,23741352378368.0,IDR,True,asia_financials_all
+Indonesia,PNBN.JK,PT Bank Pan Indonesia Tbk,Banks—Regional,18174263164928.0,IDR,True,asia_financials_all
+Indonesia,BSIM.JK,PT Bank Sinarmas Tbk,Banks—Regional,16660156121088.0,IDR,True,asia_financials_all
+Indonesia,BNII.JK,PT Bank Maybank Indonesia Tbk,Banks—Regional,13566305370112.0,IDR,True,asia_financials_all
+Indonesia,BBTN.JK,PT Bank Tabungan Negara (Persero) Tbk,Banks—Regional,13543238795264.0,IDR,True,asia_financials_all
+Indonesia,BBHI.JK,PT Allo Bank Indonesia Tbk,Banks—Regional,12641205485568.0,IDR,True,asia_financials_all
+Indonesia,BBSI.JK,PT Krom Bank Indonesia Tbk,Banks—Regional,12530806161408.0,IDR,True,asia_financials_all
+Indonesia,SUPA.JK,PT Super Bank Indonesia Tbk,Banks—Regional,11931750498304.0,IDR,True,asia_financials_all
+Indonesia,ARTO.JK,PT Bank Jago Tbk,Banks—Regional,8663331766272.0,IDR,True,asia_financials_all
+Indonesia,BBMD.JK,PT Bank Mestika Dharma Tbk,Banks—Regional,7977666871296.0,IDR,True,asia_financials_all
+Indonesia,BJBR.JK,PT Bank Pembangunan Daerah Jawa Barat dan Banten Tbk,Banks—Regional,7733261107200.0,IDR,True,asia_financials_all
+Indonesia,BTPS.JK,PT Bank BTPN Syariah Tbk,Banks—Regional,7626662871040.0,IDR,True,asia_financials_all
+Indonesia,BMAS.JK,PT Bank Kasikorn Indonesia Tbk,Banks—Regional,7530707681280.0,IDR,True,asia_financials_all
+Indonesia,BJTM.JK,PT Bank Pembangunan Daerah Jawa Timur Tbk,Banks—Regional,7582826102784.0,IDR,True,asia_financials_all
+Indonesia,BBKP.JK,PT Bank KB Indonesia Tbk,Banks—Regional,7139726196736.0,IDR,True,asia_financials_all
+Indonesia,PNLF.JK,PT Panin Financial Tbk,Banks—Regional,5379708157952.0,IDR,True,asia_financials_all
+Indonesia,MAYA.JK,PT Bank Mayapada Internasional Tbk,Banks—Regional,4474703708160.0,IDR,True,asia_financials_all
+Indonesia,MASB.JK,PT Bank Multiarta Sentosa Tbk,Banks—Regional,4206032322560.0,IDR,True,asia_financials_all
+Indonesia,AMAR.JK,PT Bank Amar Indonesia Tbk,Banks—Regional,3782871351296.0,IDR,True,asia_financials_all
+Indonesia,NOBU.JK,PT Bank Nationalnobu Tbk,Banks—Regional,3036248276992.0,IDR,True,asia_financials_all
+Indonesia,AGRS.JK,PT Bank IBK Indonesia Tbk,Banks—Regional,2728269971456.0,IDR,True,asia_financials_all
+Indonesia,BANK.JK,PT Bank Aladin Syariah Tbk,Banks—Regional,2691138584576.0,IDR,True,asia_financials_all
+Indonesia,INPC.JK,PT Bank Artha Graha Internasional Tbk,Banks—Regional,2608820125696.0,IDR,True,asia_financials_all
+Indonesia,SDRA.JK,PT Bank Woori Saudara Indonesia 1906 Tbk,Banks—Regional,2512364503040.0,IDR,True,asia_financials_all
+Indonesia,BNBA.JK,PT Bank Bumi Arta Tbk,Banks—Regional,2422420013056.0,IDR,True,asia_financials_all
+Indonesia,BBYB.JK,PT Bank Neo Commerce Tbk,Banks—Regional,2242880995328.0,IDR,True,asia_financials_all
+Indonesia,MCOR.JK,PT Bank China Construction Bank Indonesia Tbk,Banks—Regional,2237264297984.0,IDR,True,asia_financials_all
+Indonesia,BGTG.JK,PT Bank Ganesha Tbk,Banks—Regional,2157389676544.0,IDR,True,asia_financials_all
+Indonesia,BCIC.JK,PT Bank JTrust Indonesia Tbk,Banks—Regional,1973981413376.0,IDR,True,asia_financials_all
+Indonesia,BACA.JK,PT Bank Capital Indonesia Tbk,Banks—Regional,1875584352256.0,IDR,True,asia_financials_all
+Indonesia,DNAR.JK,PT Bank Oke Indonesia Tbk,Banks—Regional,1824378322944.0,IDR,True,asia_financials_all
+Indonesia,BKSW.JK,PT Bank QNB Indonesia Tbk,Banks—Regional,1687586340864.0,IDR,True,asia_financials_all
+Indonesia,PNBS.JK,PT Bank Panin Dubai Syariah Tbk,Banks—Regional,1552545742848.0,IDR,True,asia_financials_all
+Indonesia,BEKS.JK,"PT. Bank Pembangunan Daerah Banten, Tbk",Banks—Regional,1452372262912.0,IDR,True,asia_financials_all
+Indonesia,BVIC.JK,PT Bank Victoria International Tbk,Banks—Regional,1399875829760.0,IDR,True,asia_financials_all
+Indonesia,AGRO.JK,PT Bank Raya Indonesia Tbk,Banks—Regional,1289734062080.0,IDR,True,asia_financials_all
+Indonesia,BABP.JK,PT Bank MNC Internasional Tbk,Banks—Regional,1155933929472.0,IDR,True,asia_financials_all
+Indonesia,CASA.JK,PT Capital Financial Indonesia Tbk,Insurance—Life,98329669140480.0,IDR,True,asia_financials_all
+Indonesia,LIFE.JK,PT MSIG Life Insurance Indonesia Tbk,Insurance—Life,19057499701248.0,IDR,True,asia_financials_all
+Indonesia,APIC.JK,PT Pacific Strategic Financial Tbk,Insurance—Life,4753590845440.0,IDR,True,asia_financials_all
+Indonesia,PNIN.JK,PT Paninvest Tbk,Insurance—Life,2359627874304.0,IDR,True,asia_financials_all
+Indonesia,ABDA.JK,PT Asuransi Bina Dana Arta Tbk,Insurance—Property & Casualty,3166113890304.0,IDR,True,asia_financials_all
+Indonesia,AMAG.JK,PT Asuransi Multi Artha Guna Tbk,Insurance—Property & Casualty,1879383605248.0,IDR,True,asia_financials_all
+Indonesia,AHAP.JK,PT Asuransi Harta Aman Pratama Tbk,Insurance—Property & Casualty,334603255808.0,IDR,True,asia_financials_all
+Indonesia,ASRM.JK,PT Asuransi Ramayana Tbk,Insurance—Property & Casualty,316942024704.0,IDR,True,asia_financials_all
+Indonesia,ASMI.JK,PT Asuransi Maximus Graha Persada Tbk,Insurance—Property & Casualty,259793027072.0,IDR,True,asia_financials_all
+Indonesia,ASJT.JK,PT Asuransi Jasa Tania Tbk,Insurance—Property & Casualty,218399997952.0,IDR,True,asia_financials_all
+Indonesia,VINS.JK,PT Victoria Insurance Tbk,Insurance—Property & Casualty,181111128064.0,IDR,True,asia_financials_all
+Indonesia,SMMA.JK,PT Sinar Mas Multiartha Tbk,Insurance—Diversified,128149249589248.0,IDR,True,asia_financials_all
+Indonesia,TUGU.JK,PT Asuransi Tugu Pratama Indonesia Tbk,Insurance—Diversified,4942250115072.0,IDR,True,asia_financials_all
+Indonesia,LPGI.JK,PT Lippo General Insurance Tbk,Insurance—Diversified,1875000033280.0,IDR,True,asia_financials_all
+Indonesia,GSMF.JK,PT Equity Development Investment Tbk,Insurance—Diversified,1205631582208.0,IDR,True,asia_financials_all
+Indonesia,MTWI.JK,PT Malacca Trust Wuwungan Insurance Tbk,Insurance—Diversified,754517540864.0,IDR,True,asia_financials_all
+Indonesia,YOII.JK,PT Asuransi Digital Bersama TBK,Insurance—Diversified,278815801344.0,IDR,True,asia_financials_all
+Indonesia,ASDM.JK,PT Asuransi Dayin Mitra Tbk,Insurance—Diversified,188160000000.0,IDR,True,asia_financials_all
+Indonesia,ASBI.JK,PT Asuransi Bintang Tbk,Insurance—Diversified,125419126784.0,IDR,True,asia_financials_all
+Indonesia,YULE.JK,PT Yulie Sekuritas Indonesia Tbk,Capital Markets,5666613755904.0,IDR,True,asia_financials_all
+Indonesia,TRIM.JK,PT Trimegah Sekuritas Indonesia Tbk,Capital Markets,4905417310208.0,IDR,True,asia_financials_all
+Indonesia,PANS.JK,PT Panin Sekuritas Tbk,Capital Markets,1134728970240.0,IDR,True,asia_financials_all
+Indonesia,RELI.JK,PT Reliance Sekuritas Indonesia Tbk,Capital Markets,874800021504.0,IDR,True,asia_financials_all
+Indonesia,PADI.JK,PT Minna Padi Investama Sekuritas Tbk,Capital Markets,474904363008.0,IDR,True,asia_financials_all
+Indonesia,PEGE.JK,PT Panca Global Kapital Tbk,Capital Markets,430679392256.0,IDR,True,asia_financials_all
+Indonesia,LPPS.JK,PT Lenox Pasifik Investama Tbk,Capital Markets,147530252288.0,IDR,True,asia_financials_all
+Indonesia,SRTG.JK,PT Saratoga Investama Sedaya Tbk,Asset Management,22628221845504.0,IDR,True,asia_financials_all
+Indonesia,BPII.JK,PT Batavia Prosperindo Internasional Tbk,Asset Management,4032734429184.0,IDR,True,asia_financials_all
+Indonesia,PALM.JK,PT Provident Investasi Bersama Tbk,Asset Management,3775889932288.0,IDR,True,asia_financials_all
+Indonesia,SFAN.JK,PT Surya Fajar Capital Tbk,Asset Management,2672270508032.0,IDR,True,asia_financials_all
+Indonesia,VICO.JK,PT Victoria Investama Tbk,Asset Management,2267344273408.0,IDR,True,asia_financials_all
+Indonesia,STAR.JK,PT Calculus Global Ventures Tbk,Asset Management,1574400163840.0,IDR,True,asia_financials_all
+Indonesia,AMOR.JK,PT Ashmore Asset Management Indonesia Tbk,Asset Management,771333160960.0,IDR,True,asia_financials_all
+Indonesia,KREN.JK,PT Quantum Clovera Investama Tbk,Asset Management,273011212288.0,IDR,True,asia_financials_all
+Indonesia,BFIN.JK,PT BFI Finance Indonesia Tbk,Credit Services,11873253588992.0,IDR,True,asia_financials_all
+Indonesia,ADMF.JK,PT Adira Dinamika Multi Finance Tbk,Credit Services,9532048670720.0,IDR,True,asia_financials_all
+Indonesia,CFIN.JK,PT. Clipan Finance Indonesia Tbk,Credit Services,1386613178368.0,IDR,True,asia_financials_all
+Indonesia,TIFA.JK,PT KDB Tifa Finance Tbk,Credit Services,1150917017600.0,IDR,True,asia_financials_all
+Indonesia,BBLD.JK,PT Buana Finance Tbk,Credit Services,1086225448960.0,IDR,True,asia_financials_all
+Indonesia,WOMF.JK,PT Wahana Ottomitra Multiartha Tbk,Credit Services,919111139328.0,IDR,True,asia_financials_all
+Indonesia,BPFI.JK,PT Woori Finance Indonesia Tbk,Credit Services,657802854400.0,IDR,True,asia_financials_all
+Indonesia,HDFA.JK,PT Radana Bhaskara Finance Tbk,Credit Services,556107890688.0,IDR,True,asia_financials_all
+Indonesia,MGNA.JK,PT Magna Investama Mandiri Tbk,Credit Services,487798439936.0,IDR,True,asia_financials_all
+Indonesia,VRNA.JK,PT Mizuho Leasing Indonesia Tbk,Credit Services,403802128384.0,IDR,True,asia_financials_all
+Indonesia,TRUS.JK,PT Trust Finance Indonesia Tbk,Credit Services,350399987712.0,IDR,True,asia_financials_all
+Indonesia,POLA.JK,PT Pool Advista Finance Tbk,Credit Services,308298940416.0,IDR,True,asia_financials_all
+Indonesia,FUJI.JK,PT Fuji Finance Indonesia Tbk,Credit Services,309400010752.0,IDR,True,asia_financials_all
+Indonesia,DEFI.JK,PT Danasupra Erapacific Tbk,Credit Services,57459998720.0,IDR,True,asia_financials_all
+Indonesia,COIN.JK,PT Indokripto Koin Semesta Tbk,Financial Data & Stock Exchanges,5882353025024.0,IDR,True,asia_financials_all
+Indonesia,BCAP.JK,PT MNC Kapital Indonesia Tbk,Financial Conglomerates,937614704640.0,IDR,True,asia_financials_all
+Singapore,D05.SI,DBS Group Holdings Ltd,Banks—Regional,211081723904.0,SGD,True,asia_financials_all
+Singapore,O39.SI,Oversea-Chinese Banking Corporation Limited,Banks—Regional,130101518336.0,SGD,True,asia_financials_all
+Singapore,IBKD.SI,PT Bank Central Asia Tbk,Banks—Regional,91517108224.0,SGD,True,asia_financials_all
+Singapore,U11.SI,United Overseas Bank Limited,Banks—Regional,68843888640.0,SGD,True,asia_financials_all
+Singapore,TKKD.SI,Kasikornbank Public Company Limited,Banks—Regional,21679347712.0,SGD,True,asia_financials_all
+Singapore,S41.SI,Hong Leong Finance Limited,Banks—Regional,1075472128.0,SGD,True,asia_financials_all
+Singapore,HBND.SI,Bank of China Limited,Banks—Diversified,315768143872.0,SGD,True,asia_financials_all
+Singapore,HSHD.SI,HSBC Holdings plc,Banks—Diversified,79685738496.0,SGD,True,asia_financials_all
+Singapore,HPAD.SI,"Ping An Insurance (Group) Company of China, Ltd.",Insurance—Life,72430567424.0,SGD,True,asia_financials_all
+Singapore,K6S.SI,Prudential plc,Insurance—Life,33901053952.0,USD,True,asia_financials_all
+Singapore,G07.SI,Great Eastern Holdings Limited,Insurance—Life,18165987328.0,SGD,True,asia_financials_all
+Singapore,U13.SI,United Overseas Insurance Limited,Insurance—Property & Casualty,513701984.0,SGD,True,asia_financials_all
+Singapore,U10.SI,UOB-Kay Hian Holdings Limited,Capital Markets,2883671552.0,SGD,True,asia_financials_all
+Singapore,8YZ.SI,Yangzijiang Maritime Development Ltd.,Asset Management,2005405952.0,SGD,True,asia_financials_all
+Singapore,P15.SI,Pacific Century Regional Developments Limited,Asset Management,1230575232.0,SGD,True,asia_financials_all
+Singapore,YF8.SI,Yangzijiang Financial Holding Ltd.,Asset Management,677830080.0,SGD,True,asia_financials_all
+Singapore,B73.SI,Global Investments Limited,Asset Management,220190144.0,SGD,True,asia_financials_all
+Singapore,BLS.SI,Hotung Investment Holdings Limited,Asset Management,141471712.0,SGD,True,asia_financials_all
+Singapore,42T.SI,The Trendlines Group Ltd.,Asset Management,77023800.0,SGD,True,asia_financials_all
+Singapore,T55.SI,TIH Limited,Asset Management,45920268.0,SGD,True,asia_financials_all
+Singapore,S35.SI,Sing Investments & Finance Limited,Credit Services,347564800.0,SGD,True,asia_financials_all
+Singapore,S23.SI,Singapura Finance Ltd,Credit Services,122188128.0,SGD,True,asia_financials_all
+Singapore,I49.SI,IFS Capital Limited,Credit Services,63914844.0,SGD,True,asia_financials_all
+Singapore,5UA.SI,Luminor Financial Holdings Limited,Credit Services,9041618.0,SGD,True,asia_financials_all
+Singapore,S68.SI,Singapore Exchange Limited,Financial Data & Stock Exchanges,22209292288.0,SGD,True,asia_financials_all
+Singapore,TCU.SI,Credit Bureau Asia Limited,Financial Data & Stock Exchanges,229390000.0,SGD,True,asia_financials_all
+Malaysia,1155.KL,Malayan Banking Berhad,Banks—Regional,120471969792.0,MYR,True,asia_financials_all
+Malaysia,1295.KL,Public Bank Berhad,Banks—Regional,91424358400.0,MYR,True,asia_financials_all
+Malaysia,1023.KL,CIMB Group Holdings Berhad,Banks—Regional,76759523328.0,MYR,True,asia_financials_all
+Malaysia,5819.KL,Hong Leong Bank Berhad,Banks—Regional,43592441856.0,MYR,True,asia_financials_all
+Malaysia,1066.KL,RHB Bank Berhad,Banks—Regional,32081991680.0,MYR,True,asia_financials_all
+Malaysia,1015.KL,AMMB Holdings Berhad,Banks—Regional,20830908416.0,MYR,True,asia_financials_all
+Malaysia,1082.KL,Hong Leong Financial Group Berhad,Banks—Regional,19917572096.0,MYR,True,asia_financials_all
+Malaysia,2488.KL,Alliance Bank Malaysia Berhad,Banks—Regional,7872515072.0,MYR,True,asia_financials_all
+Malaysia,5185.KL,AFFIN Bank Berhad,Banks—Regional,5053834240.0,MYR,True,asia_financials_all
+Malaysia,5258.KL,Bank Islam Malaysia Berhad,Banks—Regional,4510281728.0,MYR,True,asia_financials_all
+Malaysia,1171.KL,MBSB Berhad,Banks—Regional,4193379328.0,MYR,True,asia_financials_all
+Malaysia,1058.KL,Manulife Holdings Berhad,Insurance—Life,564847744.0,MYR,True,asia_financials_all
+Malaysia,8621.KL,LPI Capital Bhd,Insurance—Property & Casualty,5258652160.0,MYR,True,asia_financials_all
+Malaysia,6009.KL,Pacific & Orient Berhad,Insurance—Property & Casualty,142356240.0,MYR,True,asia_financials_all
+Malaysia,1163.KL,Allianz Malaysia Berhad,Insurance—Diversified,3511986688.0,MYR,True,asia_financials_all
+Malaysia,5230.KL,Tune Protect Group Berhad,Insurance—Diversified,165801024.0,MYR,True,asia_financials_all
+Malaysia,1198.KL,MAA Group Berhad,Insurance—Diversified,29010548.0,MYR,True,asia_financials_all
+Malaysia,6459.KL,MNRB Holdings Berhad,Insurance—Reinsurance,2067348992.0,MYR,True,asia_financials_all
+Malaysia,6139.KL,Syarikat Takaful Malaysia Keluarga Berhad,Insurance—Specialty,,MYR,True,asia_financials_all
+Malaysia,5274.KL,Hong Leong Capital Berhad,Capital Markets,683778432.0,MYR,True,asia_financials_all
+Malaysia,3379.KL,Insas Berhad,Capital Markets,599867584.0,MYR,True,asia_financials_all
+Malaysia,6483.KL,Kenanga Investment Bank Berhad,Capital Markets,439420928.0,MYR,True,asia_financials_all
+Malaysia,7082.KL,M & A Equity Holdings Berhad,Capital Markets,289677280.0,MYR,True,asia_financials_all
+Malaysia,0285.KL,Mercury Securities Group Berhad,Capital Markets,241110016.0,MYR,True,asia_financials_all
+Malaysia,5088.KL,Apex Equity Holdings Berhad,Capital Markets,124453936.0,MYR,True,asia_financials_all
+Malaysia,5108.KL,iCapital.biz Berhad,Asset Management,345539072.0,MYR,True,asia_financials_all
+Malaysia,0058.KL,JcbNext Berhad,Asset Management,231369264.0,MYR,True,asia_financials_all
+Malaysia,0053.KL,OSK Ventures International Berhad,Asset Management,98222536.0,MYR,True,asia_financials_all
+Malaysia,0150.KL,Fintec Global Berhad,Asset Management,13337975.0,MYR,True,asia_financials_all
+Malaysia,5139.KL,AEON Credit Service (M) Berhad,Credit Services,2313087744.0,MYR,True,asia_financials_all
+Malaysia,9296.KL,RCE Capital Berhad,Credit Services,1350592384.0,MYR,True,asia_financials_all
+Malaysia,0242.KL,Pappajack Berhad,Credit Services,686421312.0,MYR,True,asia_financials_all
+Malaysia,5228.KL,ELK-Desa Resources Berhad,Credit Services,413878112.0,MYR,True,asia_financials_all
+Malaysia,0286.KL,Evergreen Max Cash Capital Berhad,Credit Services,377272928.0,MYR,True,asia_financials_all
+Malaysia,1818.KL,Bursa Malaysia Berhad,Financial Data & Stock Exchanges,6490579456.0,MYR,True,asia_financials_all
+Malaysia,5301.KL,CTOS Digital Berhad,Financial Data & Stock Exchanges,835534592.0,MYR,True,asia_financials_all
+Thailand,KTB-R.BK,Krung Thai Bank Public Company Limited,Banks—Regional,600970625024.0,THB,True,asia_financials_all
+Thailand,KBANK-R.BK,Kasikornbank Public Company Limited,Banks—Regional,573377282048.0,THB,True,asia_financials_all
+Thailand,SCB-R.BK,SCB X Public Company Limited,Banks—Regional,510116757504.0,THB,True,asia_financials_all
+Thailand,BBL-R.BK,Bangkok Bank Public Company Limited,Banks—Regional,350272684032.0,THB,True,asia_financials_all
+Thailand,BAY-R.BK,Bank of Ayudhya Public Company Limited,Banks—Regional,294230458368.0,THB,True,asia_financials_all
+Thailand,TTB-R.BK,TMBThanachart Bank Public Company Limited,Banks—Regional,238090682368.0,THB,True,asia_financials_all
+Thailand,KKP-R.BK,Kiatnakin Phatra Bank Public Company Limited,Banks—Regional,100681670656.0,THB,True,asia_financials_all
+Thailand,TISCO-R.BK,TISCO Financial Group Public Company Limited,Banks—Regional,100488265728.0,THB,True,asia_financials_all
+Thailand,CREDIT-R.BK,Thai Credit Bank Public Company Limited,Banks—Regional,28277817344.0,THB,True,asia_financials_all
+Thailand,LHFG-R.BK,LH Financial Group Public Company Limited,Banks—Regional,26267738112.0,THB,True,asia_financials_all
+Thailand,TLI.BK,Thai Life Insurance Public Company Limited,Insurance—Life,131675004928.0,THB,True,asia_financials_all
+Thailand,BLA-R.BK,Bangkok Life Assurance Public Company Limited,Insurance—Life,38420234240.0,THB,True,asia_financials_all
+Thailand,AYUD-R.BK,Allianz Ayudhya Capital Public Company Limited,Insurance—Property & Casualty,16349211648.0,THB,True,asia_financials_all
+Thailand,MTI-R.BK,Muang Thai Insurance Public Company Limited,Insurance—Property & Casualty,12272000000.0,THB,True,asia_financials_all
+Thailand,TVH-R.BK,Thaivivat Holdings Public Company Limited,Insurance—Property & Casualty,2937917952.0,THB,True,asia_financials_all
+Thailand,NKI-R.BK,The Navakij Insurance Public Company Limited,Insurance—Property & Casualty,814991936.0,THB,True,asia_financials_all
+Thailand,BUI-R.BK,Bangkok Union Insurance Public Company Limited,Insurance—Property & Casualty,680593600.0,THB,True,asia_financials_all
+Thailand,INSURE-R.BK,Indara Insurance Public Company Limited,Insurance—Property & Casualty,534000000.0,THB,True,asia_financials_all
+Thailand,CHARAN-R.BK,Charan Insurance Public Company Limited,Insurance—Property & Casualty,247200000.0,THB,True,asia_financials_all
+Thailand,TSI-R.BK,The Thai Setakij Insurance Public Company Limited,Insurance—Property & Casualty,76116552.0,THB,True,asia_financials_all
+Thailand,BKIH-R.BK,BKI Holdings Public Company Limited,Insurance—Diversified,40785313792.0,THB,True,asia_financials_all
+Thailand,TIPH-R.BK,Dhipaya Group Holdings Public Company Limited,Insurance—Diversified,14500732928.0,THB,True,asia_financials_all
+Thailand,TGH-R.BK,Thai Group Holdings Public Company Limited,Insurance—Diversified,7671395328.0,THB,True,asia_financials_all
+Thailand,THRE-R.BK,Thai Reinsurance Public Company Limited,Insurance—Reinsurance,2191796736.0,THB,True,asia_financials_all
+Thailand,TQR-R.BK,TQR Public Company Limited,Insurance—Reinsurance,1414499968.0,THB,True,asia_financials_all
+Thailand,THREL-R.BK,Thaire Life Assurance Public Company Limited,Insurance—Reinsurance,775000000.0,THB,True,asia_financials_all
+Thailand,TQM-R.BK,TQM Alpha Public Company Limited,Insurance Brokers,8311760384.0,THB,True,asia_financials_all
+Thailand,ASN-R.BK,ASN Broker Public Company Limited,Insurance Brokers,172223952.0,THB,True,asia_financials_all
+Thailand,E1VFVN3001.BK,DCVFMVN30 ETF,Capital Markets,47249608704.0,THB,True,asia_financials_all
+Thailand,FUEVFVND01.BK,VFMVN Diamond ETF,Capital Markets,45629620224.0,THB,True,asia_financials_all
+Thailand,KGI-R.BK,KGI Securities (Thailand) Public Company Limited,Capital Markets,9520627712.0,THB,True,asia_financials_all
+Thailand,AIRA-R.BK,AIRA Capital Public Company Limited,Capital Markets,6251729920.0,THB,True,asia_financials_all
+Thailand,ASTR-R.BK,Astra Enterprise Public Company Limited,Capital Markets,5806520832.0,THB,True,asia_financials_all
+Thailand,ASP-R.BK,Asia Plus Group Holdings Public Company Limited,Capital Markets,4754732032.0,THB,True,asia_financials_all
+Thailand,MST-R.BK,Maybank Securities (Thailand) Public Company Limited,Capital Markets,4338190336.0,THB,True,asia_financials_all
+Thailand,CGH-R.BK,Country Group Holdings Public Company Limited,Capital Markets,3072812544.0,THB,True,asia_financials_all
+Thailand,BYD-R.BK,BYDH SECURITIES Public Company Limited,Capital Markets,1823719936.0,THB,True,asia_financials_all
+Thailand,FSX-R.BK,Finansia X Public Company Limited,Capital Markets,1105078912.0,THB,True,asia_financials_all
+Thailand,GBX-R.BK,Globlex Holding Management Public Company Limited,Capital Markets,707899584.0,THB,True,asia_financials_all
+Thailand,TNITY-R.BK,Trinity Watthana Public Company Limited,Capital Markets,505995424.0,THB,True,asia_financials_all
+Thailand,BAM-R.BK,Bangkok Commercial Asset Management Public Company Limited,Asset Management,20361867264.0,THB,True,asia_financials_all
+Thailand,XPG-R.BK,XSpring Capital Public Company Limited,Asset Management,5350095360.0,THB,True,asia_financials_all
+Thailand,MFC-R.BK,MFC Asset Management Public Company Limited,Asset Management,3090146560.0,THB,True,asia_financials_all
+Thailand,KCC-R.BK,Knight Club Capital Holding Public Company Limited,Asset Management,1533469184.0,THB,True,asia_financials_all
+Thailand,TIF1.BK,Thai Industrial Fund 1,Asset Management,711000000.0,THB,True,asia_financials_all
+Thailand,FNS-R.BK,FNS Holdings Public Company Limited,Asset Management,270351584.0,THB,True,asia_financials_all
+Thailand,ASEMI23.BK,Mirae Asset Global Investments (HK) Ltd,Asset Management,,THB,True,asia_financials_all
+Thailand,CHNXT5023.BK,Invesco Great Wall Fund Management Co Ltd - Szse Chinext 50 Index ETF,Asset Management,,THB,True,asia_financials_all
+Thailand,GOLD19.BK,Yuanta Securities (Thailand) Company Limited,Asset Management,,THB,True,asia_financials_all
+Thailand,GSEMI24.BK,Global X Japan Co. Ltd.,Asset Management,,THB,True,asia_financials_all
+Thailand,HK01.BK,Tracker Fund Of Hong Kong,Asset Management,,THB,True,asia_financials_all
+Thailand,HKCE01.BK,Hang Seng China Enterprises Index ETF,Asset Management,,THB,True,asia_financials_all
+Thailand,INDIA01.BK,China Asset Management (HK) Limited,Asset Management,,THB,True,asia_financials_all
+Thailand,INDIAESG19.BK,BlackRock (Singapore) Ltd,Asset Management,,THB,True,asia_financials_all
+Thailand,JAPAN10001.BK,Hang Seng Investment Management - Japan Topix 100 IDX ETF,Asset Management,,THB,True,asia_financials_all
+Thailand,OIL24.BK,Global X ETF Series II - Global X S&P Crude Oil Futures Enhanced ER ETF,Asset Management,,THB,True,asia_financials_all
+Thailand,USTR24.BK,Global X Etf Series Global X Us Treasury 3-5 Year Etf,Asset Management,,THB,True,asia_financials_all
+Thailand,V3011.BK,Kim Vietnam Fund Management JSC,Asset Management,,THB,True,asia_financials_all
+Thailand,VDIAMOND11.BK,Kim Growth Vn Diamond ETF,Asset Management,,THB,True,asia_financials_all
+Thailand,KTC-R.BK,Krungthai Card Public Company Limited,Credit Services,89597108224.0,THB,True,asia_financials_all
+Thailand,TCAP-R.BK,Thanachart Capital Public Company Limited,Credit Services,83017433088.0,THB,True,asia_financials_all
+Thailand,MTC-R.BK,Muangthai Capital Public Company Limited,Credit Services,62540001280.0,THB,True,asia_financials_all
+Thailand,TIDLOR-R.BK,Tidlor Holdings Public Company Limited,Credit Services,47687643136.0,THB,True,asia_financials_all
+Thailand,SAWAD-R.BK,Srisawad Corporation Public Company Limited,Credit Services,37716209664.0,THB,True,asia_financials_all
+Thailand,AEONTS-R.BK,AEON Thana Sinsap (Thailand) Public Company Limited,Credit Services,21970620416.0,THB,True,asia_financials_all
+Thailand,JMT-R.BK,JMT Network Services Public Company Limited,Credit Services,15327264768.0,THB,True,asia_financials_all
+Thailand,THANI-R.BK,Ratchthani Leasing Public Company Limited,Credit Services,14452042752.0,THB,True,asia_financials_all
+Thailand,SGC.BK,SG Capital Public Company Limited,Credit Services,13478461440.0,THB,True,asia_financials_all
+Thailand,SCAP-R.BK,Srisawad Capital 1969 Public Company Limited,Credit Services,12116662272.0,THB,True,asia_financials_all
+Thailand,SINGER-R.BK,Singer Thailand Public Company Limited,Credit Services,11818982400.0,THB,True,asia_financials_all
+Thailand,ASK-R.BK,Asia Sermkij Leasing Public Company Limited,Credit Services,6756396544.0,THB,True,asia_financials_all
+Thailand,SAK-R.BK,Saksiam Leasing Public Company Limited,Credit Services,6581440000.0,THB,True,asia_financials_all
+Thailand,TNL-R.BK,Thanulux Public Company Limited,Credit Services,5787830272.0,THB,True,asia_financials_all
+Thailand,NCAP-R.BK,Next Capital Public Company Limited,Credit Services,4563000320.0,THB,True,asia_financials_all
+Thailand,HENG-R.BK,Heng Leasing and Capital Public Company Limited,Credit Services,3314700032.0,THB,True,asia_financials_all
+Thailand,S11-R.BK,S 11 Group Public Company Limited,Credit Services,2684940032.0,THB,True,asia_financials_all
+Thailand,TK-R.BK,Thitikorn Public Company Limited,Credit Services,2190000128.0,THB,True,asia_financials_all
+Thailand,CHAYO-R.BK,Chayo Group Public Company Limited,Credit Services,1526952704.0,THB,True,asia_financials_all
+Thailand,MICRO-R.BK,Micro Leasing Public Company Limited,Credit Services,1327699968.0,THB,True,asia_financials_all
+Thailand,ML-R.BK,Mida Leasing Public Company Limited,Credit Services,1323667712.0,THB,True,asia_financials_all
+Thailand,EAST-R.BK,Eastern Commercial Leasing Public Company Limited,Credit Services,1231700864.0,THB,True,asia_financials_all
+Thailand,MIDA-R.BK,Mida Assets Public Company Limited,Credit Services,1051721280.0,THB,True,asia_financials_all
+Thailand,STARM-R.BK,Star Money Public Company Limited,Credit Services,1045000000.0,THB,True,asia_financials_all
+Thailand,CHASE-R.BK,Chase Asia Public Company Limited,Credit Services,893827648.0,THB,True,asia_financials_all
+Thailand,IFS-R.BK,IFS Capital (Thailand) Public Company Limited,Credit Services,893234944.0,THB,True,asia_financials_all
+Thailand,AMANAH-R.BK,Amanah Leasing Public Company Limited,Credit Services,840726464.0,THB,True,asia_financials_all
+Thailand,AF-R.BK,AIRA Factoring Public Company Limited,Credit Services,720000000.0,THB,True,asia_financials_all
+Thailand,LIT-R.BK,Lease IT Public Company Limited,Credit Services,318910528.0,THB,True,asia_financials_all
+Thailand,SGF-R.BK,SGF Capital Public Company Limited,Credit Services,196500000.0,THB,True,asia_financials_all
+Thailand,GCAP-R.BK,G Capital Public Company Limited,Credit Services,140893312.0,THB,True,asia_financials_all
+Thailand,TURBO.BK,Ngernturbo Public Company Limited,Financial Conglomerates,4085100032.0,THB,True,asia_financials_all
+Thailand,BTC-R.BK,The Brooker Group Public Company Limited,Financial Conglomerates,3024229888.0,THB,True,asia_financials_all
+Thailand,TH-R.BK,Tong Hua Holding Public Company Limited,Financial Conglomerates,439272160.0,THB,True,asia_financials_all
+Australia,BEN.AX,Bendigo and Adelaide Bank Limited,Banks—Regional,6103356416.0,AUD,True,asia_financials_all
+Australia,BOQ.AX,Bank of Queensland Limited,Banks—Regional,4636627456.0,AUD,True,asia_financials_all
+Australia,JDO.AX,Judo Capital Holdings Limited,Banks—Regional,1023586560.0,AUD,True,asia_financials_all
+Australia,MYS.AX,MyState Limited,Banks—Regional,851944320.0,AUD,True,asia_financials_all
+Australia,BBC.AX,BNK Banking Corporation Limited,Banks—Regional,34446208.0,AUD,True,asia_financials_all
+Australia,AN3PK.AX,ANZ Group Holdings Limited,Banks—Regional,,AUD,True,asia_financials_all
+Australia,MBLPC.AX,Macquarie Bank Limited,Banks—Regional,,AUD,True,asia_financials_all
+Australia,AN3PL.AX,Australia and New Zealand Banking Group Ltd,Banks—Regional,,AUD,True,asia_financials_all
+Australia,CBA.AX,Commonwealth Bank of Australia,Banks—Diversified,270711177216.0,AUD,True,asia_financials_all
+Australia,WBC.AX,Westpac Banking Corporation,Banks—Diversified,124678266880.0,AUD,True,asia_financials_all
+Australia,NAB.AX,National Australia Bank Limited,Banks—Diversified,,AUD,True,asia_financials_all
+Australia,WBCPK.AX,Westpac Banking Corp,Banks—Diversified,,AUD,True,asia_financials_all
+Australia,CGF.AX,Challenger Limited,Insurance—Life,7955735552.0,AUD,True,asia_financials_all
+Australia,NOL.AX,NobleOak Life Limited,Insurance—Life,126736008.0,AUD,True,asia_financials_all
+Australia,SUN.AX,Suncorp Group Limited,Insurance—Property & Casualty,21688649728.0,AUD,True,asia_financials_all
+Australia,IAG.AX,Insurance Australia Group Limited,Insurance—Property & Casualty,20842354688.0,AUD,True,asia_financials_all
+Australia,SUNPJ.AX,Suncorp Group Ltd,Insurance—Property & Casualty,,AUD,True,asia_financials_all
+Australia,MPL.AX,Medibank Private Limited,Insurance—Specialty,13673626624.0,AUD,True,asia_financials_all
+Australia,NHF.AX,nib holdings limited,Insurance—Specialty,3287632128.0,AUD,True,asia_financials_all
+Australia,HLI.AX,Helia Group Limited,Insurance—Specialty,1469740288.0,AUD,True,asia_financials_all
+Australia,SDF.AX,Steadfast Group Limited,Insurance Brokers,6460671488.0,AUD,True,asia_financials_all
+Australia,AUB.AX,AUB Group Limited,Insurance Brokers,3861733632.0,AUD,True,asia_financials_all
+Australia,MQGPD.AX,Macquarie Group Limited,Capital Markets,,AUD,True,asia_financials_all
+Australia,SOL.AX,Washington H. Soul Pattinson and Company Limited,Capital Markets,17544691712.0,AUD,True,asia_financials_all
+Australia,HUB.AX,HUB24 Limited,Capital Markets,5446133248.0,AUD,True,asia_financials_all
+Australia,BFG.AX,Bell Financial Group Limited,Capital Markets,441022912.0,AUD,True,asia_financials_all
+Australia,COG.AX,COG Financial Services Limited,Capital Markets,374294112.0,AUD,True,asia_financials_all
+Australia,PPS.AX,Praemium Limited,Capital Markets,271522144.0,AUD,True,asia_financials_all
+Australia,OFX.AX,OFX Group Limited,Capital Markets,116376560.0,AUD,True,asia_financials_all
+Australia,AEG.AX,Aland Equity Group Limited,Capital Markets,44820856.0,AUD,True,asia_financials_all
+Australia,AFA.AX,ASF Group Limited,Capital Markets,33256968.0,AUD,True,asia_financials_all
+Australia,ABE.AX,Australian Bond Exchange Holdings Limited,Capital Markets,4710677.0,AUD,True,asia_financials_all
+Australia,MQGPG.AX,Macquarie Group Ltd,Capital Markets,,AUD,True,asia_financials_all
+Australia,AFI.AX,Australian Foundation Investment Company Limited,Asset Management,8217746944.0,AUD,True,asia_financials_all
+Australia,ARG.AX,Argo Investments Limited,Asset Management,6885204992.0,AUD,True,asia_financials_all
+Australia,L1G.AX,L1 Group Limited,Asset Management,5466811392.0,AUD,True,asia_financials_all
+Australia,PNI.AX,Pinnacle Investment Management Group Limited,Asset Management,3485289472.0,AUD,True,asia_financials_all
+Australia,MFF.AX,MFF Capital Investments Limited,Asset Management,3060837888.0,AUD,True,asia_financials_all
+Australia,LSF.AX,L1 Long Short Fund Limited,Asset Management,2764094464.0,AUD,True,asia_financials_all
+Australia,AUI.AX,Australian United Investment Company Limited,Asset Management,2576864512.0,AUD,True,asia_financials_all
+Australia,MFG.AX,Magellan Financial Group Limited,Asset Management,2147741952.0,AUD,True,asia_financials_all
+Australia,WLE.AX,WAM Leaders Limited,Asset Management,2054910336.0,AUD,True,asia_financials_all
+Australia,MXT.AX,Metrics Master Income Trust,Asset Management,1980816896.0,AUD,True,asia_financials_all
+Australia,PPT.AX,Perpetual Limited,Asset Management,1973245696.0,AUD,True,asia_financials_all
+Australia,PGF.AX,PM Capital Global Opportunities Fund Limited,Asset Management,1882273664.0,AUD,True,asia_financials_all
+Australia,BKI.AX,BKI Investment Company Limited,Asset Management,1418134784.0,AUD,True,asia_financials_all
+Australia,GCI.AX,Gryphon Capital Income Trust,Asset Management,1371732608.0,AUD,True,asia_financials_all
+Australia,RPL.AX,Regal Partners Limited,Asset Management,1298705920.0,AUD,True,asia_financials_all
+Australia,GDG.AX,Generation Development Group Limited,Asset Management,1234446976.0,AUD,True,asia_financials_all
+Australia,WAM.AX,WAM Capital Limited,Asset Management,1138200704.0,AUD,True,asia_financials_all
+Australia,GLS.AX,L1 Global Long Short Fund Limited,Asset Management,1029754688.0,AUD,True,asia_financials_all
+Australia,PL8.AX,Plato Income Maximiser Limited,Asset Management,1018145280.0,AUD,True,asia_financials_all
+Australia,MAF.AX,MA Financial Group Limited,Asset Management,896212160.0,AUD,True,asia_financials_all
+Australia,CIN.AX,Carlton Investments Ltd.,Asset Management,892986112.0,AUD,True,asia_financials_all
+Australia,DJW.AX,Djerriwarrh Investments Limited,Asset Management,779306432.0,AUD,True,asia_financials_all
+Australia,WGB.AX,WAM Global Limited,Asset Management,712006720.0,AUD,True,asia_financials_all
+Australia,QAL.AX,Qualitas Limited,Asset Management,681219392.0,AUD,True,asia_financials_all
+Australia,FGG.AX,Future Generation Global Limited,Asset Management,649416256.0,AUD,True,asia_financials_all
+Australia,HM1.AX,Hearts and Minds Investments Limited,Asset Management,634280576.0,AUD,True,asia_financials_all
+Australia,EQT.AX,EQT Holdings Limited,Asset Management,582288384.0,AUD,True,asia_financials_all
+Australia,RG1.AX,Regal Partners Global Investments Limited,Asset Management,566441472.0,AUD,True,asia_financials_all
+Australia,WHF.AX,Whitefield Industrials Limited,Asset Management,565802816.0,AUD,True,asia_financials_all
+Australia,FGX.AX,Future Generation Australia Limited,Asset Management,553961984.0,AUD,True,asia_financials_all
+Australia,WQG.AX,WCM Global Growth Limited,Asset Management,547159872.0,AUD,True,asia_financials_all
+Australia,MIR.AX,Mirrabooka Investments Limited,Asset Management,510347616.0,AUD,True,asia_financials_all
+Australia,MOT.AX,Metrics Income Opportunities Trust,Asset Management,485985440.0,AUD,True,asia_financials_all
+Australia,OPH.AX,Ophir Asset Management Pty Ltd - Ophir High Conviction Fund,Asset Management,482950880.0,AUD,True,asia_financials_all
+Australia,AEF.AX,Australian Ethical Investment Limited,Asset Management,481501248.0,AUD,True,asia_financials_all
+Australia,MA1.AX,Ma Credit Income Trust,Asset Management,478796352.0,AUD,True,asia_financials_all
+Australia,ALI.AX,Argo Global Listed Infrastructure Limited,Asset Management,470017696.0,AUD,True,asia_financials_all
+Australia,OBL.AX,Omni Bridgeway Limited,Asset Management,449524736.0,AUD,True,asia_financials_all
+Australia,PIC.AX,Perpetual Equity Investment Company Limited,Asset Management,426975872.0,AUD,True,asia_financials_all
+Australia,REV.AX,Revolution Private Credit Income Trust,Asset Management,423143520.0,AUD,True,asia_financials_all
+Australia,PE1.AX,Pengana Private Equity Trust,Asset Management,386771904.0,AUD,True,asia_financials_all
+Australia,WMI.AX,WAM Microcap Limited,Asset Management,331978048.0,AUD,True,asia_financials_all
+Australia,PAC.AX,Pacific Current Group Limited,Asset Management,291952864.0,AUD,True,asia_financials_all
+Australia,AMH.AX,AMCIL Limited,Asset Management,272354304.0,AUD,True,asia_financials_all
+Australia,FID.AX,Fiducian Group Ltd,Asset Management,262083712.0,AUD,True,asia_financials_all
+Australia,GVF.AX,Staude Capital Global Value Fund Limited,Asset Management,255822048.0,AUD,True,asia_financials_all
+Australia,CDM.AX,Cadence Capital Limited,Asset Management,219026784.0,AUD,True,asia_financials_all
+Australia,WHI.AX,Whitefield Income Limited,Asset Management,202283792.0,AUD,True,asia_financials_all
+Australia,EZL.AX,Euroz Hartleys Group Limited,Asset Management,199217424.0,AUD,True,asia_financials_all
+Australia,WAR.AX,WAM Strategic Value Limited,Asset Management,195436464.0,AUD,True,asia_financials_all
+Australia,SET.AX,Solaris Australian Equity Income Plus Ltd,Asset Management,190277184.0,AUD,True,asia_financials_all
+Australia,WMA.AX,Wam Alternative Assets Limited,Asset Management,189548928.0,AUD,True,asia_financials_all
+Australia,RYD.AX,Ryder Capital Limited,Asset Management,168349056.0,AUD,True,asia_financials_all
+Australia,WAX.AX,WAM Research Limited,Asset Management,165302640.0,AUD,True,asia_financials_all
+Australia,TGF.AX,Tribeca Global Natural Resources Limited,Asset Management,160652544.0,AUD,True,asia_financials_all
+Australia,SEC.AX,Spheria Emerging Companies Limited,Asset Management,137259216.0,AUD,True,asia_financials_all
+Australia,WAA.AX,WAM Active Limited,Asset Management,132254112.0,AUD,True,asia_financials_all
+Australia,BTI.AX,Bailador Technology Investments Limited,Asset Management,128794904.0,AUD,True,asia_financials_all
+Australia,PIA.AX,Pengana International Equities Limited,Asset Management,122935896.0,AUD,True,asia_financials_all
+Australia,SNC.AX,Sandon Capital Investments Limited,Asset Management,114185288.0,AUD,True,asia_financials_all
+Australia,GOW.AX,Gowing Bros. Limited,Asset Management,112107080.0,AUD,True,asia_financials_all
+Australia,REP.AX,RAM Essential Services Property Fund,Asset Management,107729016.0,AUD,True,asia_financials_all
+Australia,TOP.AX,Thorney Opportunities Ltd,Asset Management,89813224.0,AUD,True,asia_financials_all
+Australia,LRT.AX,Lowell Resources Fund,Asset Management,85864560.0,AUD,True,asia_financials_all
+Australia,CAM.AX,Clime Capital Limited,Asset Management,83105064.0,AUD,True,asia_financials_all
+Australia,PCG.AX,Pengana Capital Group Limited,Asset Management,82467688.0,AUD,True,asia_financials_all
+Australia,ARA.AX,Ariadne Australia Limited,Asset Management,82039952.0,AUD,True,asia_financials_all
+Australia,CAF.AX,Centrepoint Alliance Limited,Asset Management,79877288.0,AUD,True,asia_financials_all
+Australia,ACQ.AX,Acorn Capital Investment Fund Limited,Asset Management,73020800.0,AUD,True,asia_financials_all
+Australia,SBZ.AX,Schoolblazer Limited,Asset Management,60424676.0,AUD,True,asia_financials_all
+Australia,CD3.AX,CD Private Equity Fund III,Asset Management,57982876.0,AUD,True,asia_financials_all
+Australia,SB2.AX,Salter Brothers Emerging Companies Limited,Asset Management,50971708.0,AUD,True,asia_financials_all
+Australia,PFG.AX,Prime Financial Group Limited,Asset Management,50036496.0,AUD,True,asia_financials_all
+Australia,WTL.AX,WT Financial Group Limited,Asset Management,49616940.0,AUD,True,asia_financials_all
+Australia,AIQ.AX,Alternative Investment Trust,Asset Management,47437532.0,AUD,True,asia_financials_all
+Australia,WAG.AX,The Australian Wealth Advisors Group Limited,Asset Management,45382988.0,AUD,True,asia_financials_all
+Australia,IBC.AX,Ironbark Balanced Income Limited,Asset Management,43009804.0,AUD,True,asia_financials_all
+Australia,KAT.AX,Katana Capital Limited,Asset Management,42839064.0,AUD,True,asia_financials_all
+Australia,MAM.AX,Microequities Asset Management Group Limited,Asset Management,42662760.0,AUD,True,asia_financials_all
+Australia,FPC.AX,Fat Prophets Global Contrarian Fund Ltd,Asset Management,42316452.0,AUD,True,asia_financials_all
+Australia,TVL.AX,Touch Ventures Limited,Asset Management,41085908.0,AUD,True,asia_financials_all
+Australia,NGE.AX,NGE Capital Limited,Asset Management,39852984.0,AUD,True,asia_financials_all
+Australia,CDO.AX,Cadence Opportunities Fund Limited,Asset Management,39395980.0,AUD,True,asia_financials_all
+Australia,NSC.AX,NAOS Small Cap Opportunities Company Limited,Asset Management,38280376.0,AUD,True,asia_financials_all
+Australia,TIP.AX,Teaminvest Private Group Limited,Asset Management,36634128.0,AUD,True,asia_financials_all
+Australia,TEK.AX,Thorney Technologies Ltd,Asset Management,35241272.0,AUD,True,asia_financials_all
+Australia,MEC.AX,Morphic Ethical Equities Fund Limited,Asset Management,34877180.0,AUD,True,asia_financials_all
+Australia,NCC.AX,NAOS Emerging Opportunities Company Limited,Asset Management,31364830.0,AUD,True,asia_financials_all
+Australia,GFL.AX,Global Masters Fund Limited,Asset Management,31032232.0,AUD,True,asia_financials_all
+Australia,FSI.AX,Flagship Investments Limited,Asset Management,29735852.0,AUD,True,asia_financials_all
+Australia,LCE.AX,London City Equities Limited,Asset Management,28568086.0,AUD,True,asia_financials_all
+Australia,NAC.AX,NAOS Ex-50 Opportunities Company Limited,Asset Management,25645052.0,AUD,True,asia_financials_all
+Australia,PVL.AX,Powerhouse Ventures Limited,Asset Management,23498818.0,AUD,True,asia_financials_all
+Australia,SOR.AX,Strategic Elements Ltd,Asset Management,22384094.0,AUD,True,asia_financials_all
+Australia,CIW.AX,Clime Investment Management Limited,Asset Management,20956012.0,AUD,True,asia_financials_all
+Australia,GC1.AX,Glennon Small Companies Ltd,Asset Management,19616800.0,AUD,True,asia_financials_all
+Australia,BWF.AX,BlackWall Limited,Asset Management,16272594.0,AUD,True,asia_financials_all
+Australia,IAM.AX,Income Asset Management Group Limited,Asset Management,15824805.0,AUD,True,asia_financials_all
+Australia,CD2.AX,CD Private Equity Fund II,Asset Management,15218935.0,AUD,True,asia_financials_all
+Australia,KAM.AX,K2 Asset Management Holdings Ltd,Asset Management,12536431.0,AUD,True,asia_financials_all
+Australia,ECP.AX,ECP Emerging Growth Limited,Asset Management,11429539.0,AUD,True,asia_financials_all
+Australia,CD1.AX,CD Private Equity Fund I,Asset Management,10599842.0,AUD,True,asia_financials_all
+Australia,UWC.AX,Underwood Capital Limited,Asset Management,10127746.0,AUD,True,asia_financials_all
+Australia,BHD.AX,Benjamin Hornigold Limited,Asset Management,7125795.0,AUD,True,asia_financials_all
+Australia,ARC.AX,ARC Funds Limited,Asset Management,3870202.0,AUD,True,asia_financials_all
+Australia,OEQ.AX,Orion Equities Limited,Asset Management,2734455.0,AUD,True,asia_financials_all
+Australia,BPH.AX,BPH Energy Limited,Asset Management,2707698.0,AUD,True,asia_financials_all
+Australia,KYN.AX,Kyron Capital Group,Asset Management,2638429.0,AUD,True,asia_financials_all
+Australia,BEL.AX,Bentley Capital Limited,Asset Management,685151.0,AUD,True,asia_financials_all
+Australia,DN1.AX,Dominion Income Trust 1,Asset Management,,AUD,True,asia_financials_all
+Australia,KKC.AX,Kkr Credit Income Fund,Asset Management,,AUD,True,asia_financials_all
+Australia,RG8.AX,Regal Asian Investments Limited,Asset Management,,AUD,True,asia_financials_all
+Australia,WMX.AX,Wam Income Maximiser Limited,Asset Management,,AUD,True,asia_financials_all
+Australia,CAMG.AX,Clime Capital Ltd,Asset Management,,AUD,True,asia_financials_all
+Australia,GSBG27.AX,Commonwealth of Australia,Asset Management,,AUD,True,asia_financials_all
+Australia,GSBG29.AX,Australia 3.25% T-BILL SNR 21/04/2029 AUD1000,Asset Management,,AUD,True,asia_financials_all
+Australia,GSIQ30.AX,Australia 2.5% IDX/LKD SNR BDS 20/09/2030 AUD,Asset Management,,AUD,True,asia_financials_all
+Australia,NACGA.AX,NAOS Ex-50 Opportunities Company Ltd,Asset Management,,AUD,True,asia_financials_all
+Australia,NCCGA.AX,NAOS Emerging Opportunities Co Ltd,Asset Management,,AUD,True,asia_financials_all
+Australia,ZIP.AX,Zip Co Limited,Credit Services,1846456064.0,AUD,True,asia_financials_all
+Australia,CCP.AX,Credit Corp Group Limited,Credit Services,992416832.0,AUD,True,asia_financials_all
+Australia,LFG.AX,Liberty Financial Group Limited,Credit Services,962412032.0,AUD,True,asia_financials_all
+Australia,LFS.AX,Latitude Group Holdings Limited,Credit Services,816190400.0,AUD,True,asia_financials_all
+Australia,PPM.AX,Pepper Money Limited,Credit Services,750469632.0,AUD,True,asia_financials_all
+Australia,SVR.AX,Solvar Limited,Credit Services,261888976.0,AUD,True,asia_financials_all
+Australia,HUM.AX,Humm Group Limited,Credit Services,212361888.0,AUD,True,asia_financials_all
+Australia,FSA.AX,FSA Group Limited,Credit Services,148804256.0,AUD,True,asia_financials_all
+Australia,PLT.AX,Plenti Group Limited,Credit Services,134609952.0,AUD,True,asia_financials_all
+Australia,PNC.AX,Pioneer Credit Limited,Credit Services,115201800.0,AUD,True,asia_financials_all
+Australia,HMY.AX,Harmoney Corp Limited,Credit Services,70044160.0,AUD,True,asia_financials_all
+Australia,WZR.AX,Wisr Limited,Credit Services,61704388.0,AUD,True,asia_financials_all
+Australia,MME.AX,MoneyMe Limited,Credit Services,49963528.0,AUD,True,asia_financials_all
+Australia,EPY.AX,Earlypay Limited,Credit Services,33148852.0,AUD,True,asia_financials_all
+Australia,BTN.AX,Butn Limited,Credit Services,2672018.0,AUD,True,asia_financials_all
+Australia,ASX.AX,ASX Limited,Financial Data & Stock Exchanges,12983631872.0,AUD,True,asia_financials_all
+Australia,AMP.AX,AMP Limited,Financial Conglomerates,5837456896.0,AUD,True,asia_financials_all
+Australia,SEQ.AX,Sequoia Financial Group Limited,Financial Conglomerates,7477091.0,AUD,True,asia_financials_all
+Australia,AFG.AX,Australian Finance Group Limited,Mortgage Finance,761472000.0,AUD,True,asia_financials_all
+Australia,RMC.AX,Resimac Group Limited,Mortgage Finance,317214272.0,AUD,True,asia_financials_all
+Australia,N1H.AX,N1 Holdings Limited,Mortgage Finance,11447224.0,AUD,True,asia_financials_all
+New Zealand,HGH.NZ,Heartland Group Holdings Limited,Banks—Regional,1186234752.0,NZD,True,asia_financials_all
+New Zealand,TWR.NZ,Tower Limited,Insurance—Property & Casualty,717729728.0,NZD,True,asia_financials_all
+New Zealand,FSF.NZ,Fonterra Shareholders Fund,Asset Management,1016752320.0,NZD,True,asia_financials_all
+New Zealand,KFL.NZ,Kingfish Limited,Asset Management,391140192.0,NZD,True,asia_financials_all
+New Zealand,MLN.NZ,Marlin Global Limited,Asset Management,164668112.0,NZD,True,asia_financials_all
+New Zealand,BRM.NZ,Barramundi Limited,Asset Management,158187904.0,NZD,True,asia_financials_all
+New Zealand,PLP.NZ,Private Land And Property Fund,Asset Management,,NZD,True,asia_financials_all
+New Zealand,NZX.NZ,NZX Limited,Financial Data & Stock Exchanges,474107232.0,NZD,True,asia_financials_all
+New Zealand,GEN.NZ,General Capital Limited,Mortgage Finance,26684372.0,NZD,True,asia_financials_all
