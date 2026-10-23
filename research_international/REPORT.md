@@ -206,6 +206,12 @@ own financials.
 - "Big financials lead small ones": the pure lead signal has IC 0.004.
 - Sector timing from VIX, the term spread and local or US rate changes:
   out-of-sample correlation about 0.
+- Pairs trading inside market x industry groups, using the US pairs rule:
+  pre-registered, failed. Net 0.39 / -0.62 / -0.85, the same at the same
+  close.
+  - The US pairs sleeve itself survives next-open execution (0.63 / 0.78 /
+    0.72, vs 0.85 / 0.79 / 0.77 at the same close).
+  - So this is a real difference between markets.
 - A lottery filter on the long-only momentum book: pre-registered, failed.
   It hurts in both broad universes (1.30 → 0.23, 2.03 → 0.78).
 
@@ -288,6 +294,7 @@ What survivorship *does* distort, and is excluded here:
   - small-cap or illiquidity tilts;
   - reversal books;
   - sector timing;
+  - pairs inside Asian financials;
   - the six non-borrowable markets as long/short.
 - **Next data that would most change the conclusions:**
   - point-in-time constituents (a paid source: Refinitiv, Bloomberg or

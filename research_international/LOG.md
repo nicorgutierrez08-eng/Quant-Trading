@@ -540,3 +540,49 @@ survivorship channels, such as index additions or data vendors dropping
 dead tickers entirely. Together with the point-in-time rebuild (NIFTY,
 DAX: no systematic effect), survivorship is not the explanation for the
 momentum results.
+
+### Pre-registered: pairs trading inside Asia-Pacific financials (written before running)
+
+The rule is the US pairs sleeve's rule, unchanged:
+- Each year, take the 5 most correlated pairs (daily returns over the past
+  252 days, correlation > 0.6) inside each market x industry group (banks,
+  insurance, capital markets, credit).
+- Use only the liquid half of each market at the formation date.
+- Trade the log-price spread on a 60-day z-score: enter at |z| > 2, exit at
+  |z| < 0.5 or after 21 days.
+- Execute at the **next open**, net of local costs.
+- Weight pairs equally within each market, and markets equal-risk.
+
+Prediction: a positive net Sharpe in both 2015-20 and 2021-26. The
+same-close version (the US convention) is reported for comparison only.
+
+**Result: pairs in Asian financials fail.** Net, next-open execution,
+equal-risk across 11 markets: 0.39 / **-0.62 / -0.85**. The same-close
+version is no better (0.57 / -0.51 / -0.72), and doubling in stress does not
+help (-0.61 / -0.63). The bootstrap puts 2021-26 below zero with 98%
+probability. By market, 2015-26:
+- mildly positive: Japan 0.22, Australia 0.23, Indonesia 0.37;
+- clearly negative: Taiwan -1.11, Hong Kong -0.71, Korea -0.53, Thailand
+  -0.51.
+
+The relative-value edge between Asian financials has gone since 2015: the
+spreads keep diverging instead of reverting.
+
+### Check on the US book: does Arjun's pairs sleeve survive next-open execution?
+
+`strategies.pairs_strategy` trades at the same close that produced the
+z-score. `us_pairs_execution.py` reruns the identical rule (same clusters,
+formation and costs). The same-close rerun matches strategy_returns.csv
+with correlation 0.997.
+
+| US pairs | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| same close (original) | 0.85 | 0.79 | 0.77 | 0.77 |
+| next open | 0.63 | 0.78 | 0.72 | 0.74 |
+| one day late (close of i+1) | 0.42 | 0.66 | 0.53 | 0.60 |
+
+The US pairs edge is robust to execution, losing about a quarter of its
+Sharpe with a full day's delay. The conservative combined book is unchanged
+with next-open pairs: 1.75 / 1.78 / 1.48 (2015-26 1.64 vs 1.63). So US
+pairs work and Asian-financials pairs do not. That is a real difference
+between markets, not an execution artefact.
