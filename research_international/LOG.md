@@ -618,3 +618,45 @@ exchange for smaller losses. Its biggest years, 2008-09 and 2020, are crisis
 and rebound years, as in the US work, so a large share of the long-run
 return depends on such episodes recurring. 2016 is the international
 sleeve's worst year.
+
+### Pre-registered: broad Asia-Pacific universes (written before running)
+
+New data: the 400 largest domestic companies by market cap on each major
+Asia-Pacific exchange (Japan, Korea, Taiwan, Hong Kong, China, India,
+Australia; Singapore, Malaysia and Thailand up to what the screener has),
+from the Yahoo screener. The original Asia-Pacific universes were index
+large caps.
+
+The rule is unchanged (flat in stress).
+
+Prediction:
+- The equal-risk book over these broad universes has a positive Sharpe in
+  2015-20 and 2021-26.
+- Its 2015-26 Sharpe is at least the index version's (1.38 for the 12
+  Asia-Pacific index universes), because mid caps add momentum, as on the
+  new exchanges.
+
+**Result: passes, narrowly.** Flat in stress, equal-risk, on the 10
+Asia-Pacific markets that have both a broad and an index universe:
+
+| book | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| broad top 400: flat in stress | 2.14 | 1.53 | 1.34 | **1.42** |
+| index members, same 10 markets: flat | 1.76 | 1.32 | 1.19 | 1.24 |
+| broad, liquid half | 2.09 | 1.79 | 1.44 | 1.58 |
+| broad, liquid half, costs x2 | 1.78 | 1.42 | 1.15 | 1.26 |
+| index, liquid half, costs x2 | 0.86 | 0.62 | 0.95 | 0.79 |
+| broad: plain / flip | 1.50 / 1.59 | 0.87 / 1.12 | 1.21 / 0.75 | 1.05 / 0.94 |
+
+- Both test periods are positive, with bootstrap 5th percentiles of 0.60
+  and 0.63.
+- 2015-26 is 1.42, against 1.38 for the 12 index universes and 1.24 for the
+  same 10.
+- Breadth helps most in India (1.35 vs 0.57) and Malaysia (1.53 vs 0.70),
+  and in the liquid half at double costs (1.26 vs 0.79).
+- Japan's momentum is about zero in either version (0.12 / 0.13). That is
+  consistent with the long-standing finding that momentum does not pay in
+  Japan; a Japan sleeve adds nothing but costs.
+- Singapore's broad universe is mostly tiny names: the full universe gives
+  0.09, the liquid half 1.29.
+- Flat beats flip again (1.42 vs 0.94).

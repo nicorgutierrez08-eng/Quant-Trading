@@ -140,6 +140,31 @@ def new_markets() -> pd.DataFrame:
     return df
 
 
+BROAD_N = 400
+
+
+def asia_broad() -> pd.DataFrame:
+    """The 400 largest domestic companies (all sectors) on each Asia-Pacific exchange, with a financials flag."""
+    rows = []
+    for reg, (market, ccy, suf) in ASIA.items():
+        if reg in ("id", "nz"):
+            continue                                   # Indonesia is in the new-exchange set; New Zealand is the NZX 50
+        qs = [x for x in screen(Q("and", [Q("eq", ["region", reg]), Q("gt", ["intradaymarketcap", 0])]), total_cap=1500)
+              if keep(x, ccy, suf)]
+        qs = sorted(qs, key=lambda x: -(x.get("marketCap") or 0))[:BROAD_N]
+        fin = set()
+        for ind in FIN_INDUSTRIES:
+            fin |= {x["symbol"] for x in screen(Q("and", [Q("eq", ["region", reg]), Q("eq", ["industry", ind])]))}
+        for x in qs:
+            rows.append({"market": market, "ticker": x["symbol"], "name": x.get("longName") or x.get("shortName"),
+                         "industry": None, "market_cap": x.get("marketCap"), "currency": x.get("currency"),
+                         "financial": x["symbol"] in fin})
+        print(f"{market:12s} {len(qs)} names (broad)")
+    df = pd.DataFrame(rows)
+    df["universe"] = "asia_broad_top400"
+    return df
+
+
 def one_line_per_company(df: pd.DataFrame) -> pd.DataFrame:
     """Dual share classes (PETR3/PETR4, CARL-A/CARL-B, KESKOA/KESKOB) would be two near-identical bets; keep the
     first line (largest market cap) of each company within a market."""
@@ -161,9 +186,15 @@ def pakistan() -> pd.DataFrame:
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="data2")
+    ap.add_argument("--broad-only", action="store_true", help="only build the 400-largest Asia-Pacific universes")
     args = ap.parse_args(argv)
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
+    if args.broad_only:
+        c = one_line_per_company(asia_broad())
+        c.to_csv(out / "universe_asia_broad.csv", index=False)
+        print(c.groupby("market").agg(names=("ticker", "size"), financials=("financial", "sum")).to_string())
+        return
     a = one_line_per_company(asia_financials())
     a.to_csv(out / "universe_asia_financials.csv", index=False)
     b = one_line_per_company(new_markets())

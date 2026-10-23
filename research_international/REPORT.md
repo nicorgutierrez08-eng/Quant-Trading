@@ -133,6 +133,13 @@ Net Sharpe, equal-risk across markets (inverse trailing volatility):
 | new 14 borrowable: flat, costs x3 | 1.32 | 1.49 | 1.15 | 1.33 | -5% |
 | new 6 not borrowable: flat | 0.02 | 0.84 | 1.12 | 0.96 | -5% |
 | all 41: flat | 1.43 | 1.69 | 1.67 | 1.68 | -3% |
+| Asia-Pacific broad top 400 (10 markets): flat | 2.14 | 1.53 | 1.34 | 1.42 | -6% |
+| same, liquid half, costs x2 | 1.78 | 1.42 | 1.15 | 1.26 | -7% |
+| same 10 markets, index members: flat | 1.76 | 1.32 | 1.19 | 1.24 | -6% |
+
+The broad Asia-Pacific test was pre-registered and passed narrowly. Breadth
+helps most in India and Malaysia. Momentum is about zero in Japan in every
+version, so leave Japan out.
 
 Each market's book runs at about 2-3% volatility at unit gross and makes
 about 3% a year. The aggregate Sharpe is high because the markets barely
@@ -283,6 +290,7 @@ What survivorship *does* distort, and is excluded here:
 - **Trade:** flat-in-stress momentum, monthly, staggered, in the 35
   borrowable markets (the original 21 plus the 14 new ones).
   - Start with the liquid half of each market.
+  - In Asia, use the broad (top 400) universes, and leave Japan out.
   - Run it as separate sleeves next to the US book.
 - **Size:** for planning, about half the backtested Sharpe. Keep gross
   within capacity (Nordics, Poland, Greece and Chile at a few million
