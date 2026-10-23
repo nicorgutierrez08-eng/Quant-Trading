@@ -83,6 +83,7 @@ Same discipline as the US work:
 | index members (first pass) | 1,760 (308 financials) | 21: 12 Asia-Pacific, 8 Europe, Canada | Wikipedia constituent lists (Japanese and Chinese Wikipedia for Nikkei 225 and Taiwan 50) |
 | new exchanges | 1,976 | 20: Indonesia, Vietnam, Pakistan, Brazil, Mexico, Chile, South Africa, Turkey, Saudi Arabia, Kuwait, Qatar, Poland, Greece, Israel, Norway, Denmark, Finland, Belgium, Austria, Portugal | Yahoo equity screener, 120 largest domestic companies; Wikipedia KSE-100; hand lists for Vietnam and Austria |
 | Asia-Pacific financials | 1,341, by industry | 12 | Yahoo screener by region and industry |
+| Asia-Pacific broad | 3,759 | 10: Japan, Korea, Taiwan, Hong Kong, China, India, Australia, Singapore, Malaysia, Thailand | Yahoo screener, 400 largest domestic companies |
 | rates, FX | 87 series | 30 countries | FRED (OECD 10y and 3m, monthly, used from the 15th of the next month; US 10y/2y daily), Yahoo FX |
 | prices | daily OHLCV 2000-2026 | | Yahoo, adjusted for dividends and splits |
 
