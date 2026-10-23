@@ -50,7 +50,7 @@ def data_quality(prices: Path) -> pd.DataFrame:
         rows.append({"market": d.name, "stocks": adj.shape[1], "stocks_with_10y": int((adj.notna().sum() > 2520).sum()),
                      "days_abs_ret_gt_40pct": int((r.abs() > 0.4).sum().sum()),
                      "share_zero_return_days": float((r.abs() < 1e-12).sum().sum() / r.notna().sum().sum()),
-                     "median_names_2006": int(adj["2006"].notna().any().sum()) if len(adj["2006"]) else 0})
+                     "names_with_data_2006": int(adj.loc["2006"].notna().any().sum()) if (adj.index.year == 2006).any() else 0})
     return pd.DataFrame(rows)
 
 
