@@ -188,3 +188,68 @@ part of the book survivorship flatters most. A point-in-time test follows.
 
 The international sleeve correlates 0.28 with the US flip (same VIX trigger)
 and ~0 with the ETF book and pairs.
+
+### Point-in-time membership test (NIFTY 50, DAX)
+
+Membership was rebuilt on every date from the Wikipedia change tables, with
+names resolved to Yahoo tickers. Resolved: 73/95 NIFTY names and 29/48 DAX
+names. Former members with no price history stay unresolved and are counted
+as missing:
+- NIFTY: 2-6 of 50 missing per year in 2006-14, 0-4 after 2015.
+- DAX: 4-8 of ~38 missing in 2000-07, 0-1 after 2012.
+
+Net Sharpe, today's members vs point-in-time members:
+
+| book | survivors 2006-14 | PIT 2006-14 | survivors 2015-26 | PIT 2015-26 |
+|---|---|---|---|---|
+| NIFTY plain | -0.05 | 0.19 | 0.19 | 0.01 |
+| NIFTY flip VIX>20 | 0.16 | 0.26 | 0.72 | 0.78 |
+| NIFTY flat in stress | 0.12 | 0.39 | 0.57 | 0.47 |
+| DAX plain | -0.15 | -0.10 | 0.10 | 0.26 |
+| DAX flip VIX>20 | 0.37 | 0.23 | -0.06 | 0.06 |
+| DAX flat in stress | 0.25 | 0.12 | 0.06 | 0.26 |
+
+Survivorship does not systematically inflate the momentum books. The
+changes go both ways and are about the size of the noise in a ~40-name
+single-market book. The regime rules (flip, flat) keep their ranking against
+plain under point-in-time membership in both markets out of sample.
+
+Caveats:
+- Only two indices were tested.
+- The names still missing are exactly the delisted and acquired companies,
+  whose effect cannot be measured with free data.
+- The stronger survivorship result is the earlier one: the 11%/yr
+  equal-weight-vs-index premium. That bias lives in the hedge, not in the
+  momentum ranking.
+
+### Asian financials, pooled and country-neutral (first full pass)
+
+Universe: 211 index-member financials across 11 Asia-Pacific markets
+(median 186 tradable since 2015). Signals are z-scored within each market's
+financials, and returns are measured relative to that market's financials
+average.
+
+Stock selection, ICs:
+- Short-term reversal has by far the strongest IC: rev_5d at 5 days 0.044
+  (t 11.6). But it decays in every period (0.065, 0.047, 0.038, 0.016), and
+  the rev_5d and rev_21d books lose money after costs and next-open
+  execution: -1.04 and -0.80 Sharpe in 2015-26.
+- Residual momentum has a positive IC in all four IC periods (21-day 0.015 /
+  0.003 / 0.047 / 0.023). The momentum books still fail the 2006-14
+  selection test: plain -0.60, flat -0.25, flip 0.13. Out of sample: plain
+  0.44, flat 0.64, flip 0.41.
+- Size (small minus big, by ADV) and Amihud illiquidity are positive in all
+  three periods: size 0.21 / 0.95 / 0.38, Amihud 0.36 / 1.14 / 0.38. But they
+  earn only 2-3%/yr. They are also the signals survivorship flatters most:
+  the small, illiquid financials that are still in an index today are the
+  ones that did not fail. I would not trade these without point-in-time data.
+
+Sector timing (financials minus their market over the next 21 days; linear
+model on VIX, VIX change, term spread and the sector's own trend; fit on
+2004-14):
+- Out-of-sample correlation 0.076, hit rate 53.7%.
+- Timing book: 0.26 / 0.62 / -0.01.
+- Not usable. The sign of the sector's relative return is rate-driven:
+  financials badly lag 2015-20 (-1.74 Sharpe when held against the market)
+  and lead 2021-26 (+0.76). The model had no real rate series, because the
+  cached macro file lacks a 10-year yield. That is the next thing to fix.

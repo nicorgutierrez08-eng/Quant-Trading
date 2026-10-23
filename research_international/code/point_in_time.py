@@ -111,6 +111,7 @@ def run(name: str, market_dir: str, suffix: str, exchange: str, changes: pd.Data
             for k, v in f.items():
                 if k in ("Open", "High", "Low"):
                     v = v * fac.reindex_like(v)
+                v = v[[c for c in v.columns if c not in base[names_map[k]].columns]]   # some former members are already in the folder
                 base[names_map[k]] = base[names_map[k]].join(v, how="outer")
     pit_dir.mkdir(parents=True, exist_ok=True)
     for k, v in base.items():
