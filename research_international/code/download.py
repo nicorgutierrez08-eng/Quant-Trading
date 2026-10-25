@@ -43,8 +43,8 @@ COUNTRY_ETFS = {
     "Netherlands": "EWN", "Spain": "EWP", "Italy": "EWI", "Sweden": "EWD", "Canada": "EWC", "Brazil": "EWZ",
     "Mexico": "EWW", "South Africa": "EZA", "Turkey": "TUR", "Israel": "EIS", "Poland": "EPOL", "Norway": "NORW",
     "Denmark": "EDEN", "Finland": "EFNL", "Belgium": "EWK", "Austria": "EWO", "Portugal": "PGAL", "Greece": "GREK",
-    "Chile": "ECH",
-    "Argentina": "ARGT", "Colombia": "GXG", "Peru": "EPU", "Latin America": "ILF", "Saudi Arabia": "KSA", "Qatar": "QAT", "Kuwait": "KWT", "Vietnam": "VNM", "US": "SPY", "Asia ex-Japan": "AAXJ", "Emerging": "EEM", "EAFE": "EFA",
+    "Chile": "ECH", "Argentina": "ARGT", "Colombia": "GXG", "Peru": "EPU", "Latin America": "ILF", "Saudi Arabia": "KSA",
+    "Qatar": "QAT", "Kuwait": "KWT", "Vietnam": "VNM", "US": "SPY", "Asia ex-Japan": "AAXJ", "Emerging": "EEM", "EAFE": "EFA",
 }
 FIELDS = ("Open", "High", "Low", "Close", "Adj Close", "Volume")
 
