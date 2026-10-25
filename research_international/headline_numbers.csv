@@ -14,3 +14,8 @@ US + original 21 + 14 borrowable new (costs x2),1.87,1.80,1.42,1.62,the number t
 Asia-Pacific financials liquid half: momentum flat in stress,0.22,0.90,0.95,0.92,1341-name listing
 Asia-Pacific financials liquid half: low vol,0.80,0.19,0.98,0.51,
 lottery filter on long-only book (original 21),0.69,0.14,0.33,0.23,pre-registered; failed (unfiltered 1.30)
+South America 5 markets: flat in stress (pre-registered),1.09,0.75,1.43,1.11,Brazil broad + Chile + Argentina + Colombia + Peru
+South America 5 markets: flat costs x3,0.77,0.03,0.83,0.46,
+Argentina + Colombia + Peru: flat in stress,0.50,0.70,0.35,0.50,not borrowable; -0.02 at costs x3
+Brazil 120 largest: flat in stress,0.84,0.26,0.36,0.30,the broad Brazil result comes from small names
+South American NY ADRs country-neutral: flat in stress,0.31,0.28,0.88,0.57,tradable; lowers the combined book (1.62 -> 1.56)

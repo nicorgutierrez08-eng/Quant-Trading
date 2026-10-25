@@ -1,6 +1,6 @@
-# International extension: 41 exchanges and every listed Asia-Pacific financial
+# International extension: 44 exchanges, every listed Asia-Pacific financial, and South America
 
-*Written 23-24 October 2026. This is a separate model from Arjun's US work
+*Written 23-25 October 2026 (South America added on the 25th). This is a separate model from Arjun's US work
 and from `research_night/`, and it changes none of their code. The running
 log with every intermediate number, including the dead ends, is `LOG.md`.
 The code is in `code/` and the result tables are in `reports/`.*
@@ -75,6 +75,19 @@ Same discipline as the US work:
    - the small-cap and illiquidity premia in financials, which reverse sign
      once the full listing is used.
    Details below.
+8. **South America passes too, but it is the weakest region, and adds
+   nothing to the combined book.** Brazil, Chile, Argentina, Colombia and
+   Peru were tested against four predictions written in advance, and all
+   four held.
+   - The 5-market flat book scores 1.09 / 0.75 / 1.43.
+   - Brazil's edge sits in its small, illiquid names, where the cost model
+     is weakest (its 120 largest: 0.30).
+   - Argentina, Colombia and Peru can't be shorted and lose the edge at
+     triple costs.
+   - The tradable route, the 58 South American stocks listed in New York,
+     earns only 0.4-0.6. Adding it lowers the combined book's Sharpe.
+   - Commodity moves don't lead South American stocks.
+   See section 6b.
 
 ## 1. Data
 
@@ -244,6 +257,59 @@ the full listing both signs reverse in every period. The first result was
 survivor selection: the small financials still in an index today are the
 ones that grew into it.
 
+## 6b. South America
+
+Universes (`south_america_universe.py`):
+- Brazil: the 296 largest domestic companies, with BDRs and real-estate
+  funds removed.
+- Chile (62) and Argentina (62): every domestic listing.
+- Colombia: COLCAP, 19 companies with prices.
+- Peru: S&P/BVL Peru General, 24 companies with prices, from 2008.
+- 58 South American companies listed in New York.
+- 51 financials with prices (Brazil 26, Chile 15, Argentina 10; Colombia and
+  Peru have too few for a book).
+- Venezuela isn't covered. Brazil and Chile were already among the 20 new
+  exchanges, so they were not fresh tests.
+
+Pre-registered predictions, all of which held:
+
+| prediction | outcome |
+|---|---|
+| momentum weaker in stress in all 5 | 5 / 5 |
+| 5-market flat book positive in 2015-20 and 2021-26 | 0.75, 1.43 |
+| flat beats plain over 2015-26 | 1.11 vs 0.98 |
+| New York ADR flat book positive over 2015-26 | 0.41 (country-neutral 0.57) |
+
+| book (net Sharpe) | 2006-14 | 2015-20 | 2021-26 | 2015-26 |
+|---|---|---|---|---|
+| 5 markets: flat in stress | 1.09 | 0.75 | 1.43 | 1.11 |
+| 5 markets: flat, costs x3 | 0.77 | 0.03 | 0.83 | 0.46 |
+| Brazil broad (296): flat | 1.00 | 0.28 | 1.73 | 0.97 |
+| Brazil, 120 largest only: flat | 0.84 | 0.26 | 0.36 | 0.30 |
+| Argentina + Colombia + Peru: flat | 0.50 | 0.70 | 0.35 | 0.50 |
+| same, costs x3 | 0.21 | 0.09 | -0.12 | -0.02 |
+| NY ADRs, country-neutral: flat | 0.31 | 0.28 | 0.88 | 0.57 |
+| NY ADRs, country-neutral: flat, costs x3 | 0.16 | 0.14 | 0.74 | 0.43 |
+
+- **Brazil.** The broad book's edge is in small names: 27% of
+  stock-days have zero volume, and the tiered cost estimate is least
+  reliable there. Treat most of it as unproven.
+- **Argentina, Colombia and Peru.** Local shorting is impractical, the
+  books hold only 17-54 names, Peru's prices are stale a third of the
+  time, and the edge vanishes at triple costs.
+- **The New York ADRs** are the honest way to trade the region: USD,
+  borrowable, still 0.43 at triple costs. But the book runs at about 7%
+  volatility for about 0.5 Sharpe. Added to the conservative combined
+  book, it lowers the Sharpe (1.62 → 1.56 over 2015-26) and deepens the
+  worst month (-4.1% → -5.6%).
+- **South American financials** look like Asia's: momentum, low vol and
+  MAX ICs point the same way. But 34 names make weak books (flat 0.51 /
+  0.14 / 0.59). No special edge.
+- **Commodity lead-lag is absent.** A stock's commodity-implied move
+  (trailing betas to copper, oil, gold, silver, soybeans, coffee and sugar)
+  has an IC of about zero. The only signal there is the stock's own
+  short-term reversal.
+
 ## 6. Survivorship, measured
 
 Every universe is "listed today", and three checks bear on it:
@@ -304,7 +370,10 @@ What survivorship *does* distort, and is excluded here:
   - reversal books;
   - sector timing;
   - pairs inside Asian financials;
-  - the six non-borrowable markets as long/short.
+  - the six non-borrowable markets as long/short;
+  - Argentina, Colombia and Peru locally, or the South American ADR book as
+    an extra sleeve;
+  - Brazilian small caps, until real spreads are known.
 - **Next data that would most change the conclusions:**
   - point-in-time constituents (a paid source: Refinitiv, Bloomberg or
     Compustat Global);
@@ -340,6 +409,15 @@ python research_international/code/lottery_filter.py --old-prices data/prices --
     --new-universe data2/universe_new_markets.csv --fin-prices data2/prices_fin --fin-universe data2/universe_asia_financials.csv --out reports/lottery
 python research_international/code/conservative_combo.py --old-prices data/prices --old-universe data/universe.csv --new-prices data2/prices_new \
     --new-universe data2/universe_new_markets.csv --out reports/conservative --us-flip ... --us-etf ... --us-strategies ...
+python research_international/code/south_america_universe.py --out data_sa
+python research_international/code/download.py --universe data_sa/universe_south_america.csv --out data_sa/prices
+python research_international/code/download.py --universe data_sa/universe_sa_financials.csv --out data_sa/prices_fin
+python research_international/code/download.py --universe data_sa/universe_sa_adrs.csv --out data_sa/prices_adr
+python research_international/code/south_america_universe.py --out data_sa --pick-classes data_sa/prices --fin-prices data_sa/prices_fin
+python research_international/code/south_america.py --prices data_sa/prices --universe data_sa/universe_south_america.csv \
+    --adr-prices data_sa/prices_adr --adr-universe data_sa/universe_sa_adrs.csv --fin-prices data_sa/prices_fin \
+    --fin-universe data_sa/universe_sa_financials.csv --brazil120-prices data2/prices_new --macro data2/macro.parquet \
+    --intl-sleeves reports/conservative/sleeves_daily.csv --us-flip ... --us-etf ... --us-strategies ... --out reports/south_america
 python research_international/code/survivorship_sim.py --vix-from data2/prices_new/_series/adj_close.parquet --sims 8 --seed-start 0 --out reports/survivorship_sim
 ```
 

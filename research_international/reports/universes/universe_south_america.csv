@@ -1,0 +1,464 @@
+market,ticker,name,industry,market_cap,financial
+Brazil,PETR3.SA,Petróleo Brasileiro S.A. - Petrobras,,840860893184.0,False
+Brazil,ITUB3.SA,Itaú Unibanco Holding S.A.,Banks—Regional,585930899456.0,True
+Brazil,BPAC3.SA,Banco BTG Pactual S.A.,Capital Markets,341024669696.0,True
+Brazil,VALE3.SA,Vale S.A.,,263431716864.0,False
+Brazil,ABEV3.SA,Ambev S.A.,,257147011072.0,False
+Brazil,BBDC4.SA,Banco Bradesco S.A.,Banks—Regional,227646259200.0,True
+Brazil,WEGE3.SA,WEG S.A.,,179287801856.0,False
+Brazil,ITSA3.SA,Itaúsa S.A.,,179270156288.0,False
+Brazil,SANB11.SA,Banco Santander (Brasil) S.A.,Banks—Regional,147931906048.0,True
+Brazil,BBAS3.SA,Banco do Brasil S.A.,Banks—Regional,141124567040.0,True
+Brazil,AXIA3.SA,AXIA Energia SA,,134987620352.0,False
+Brazil,KLBN11.SA,Klabin S.A.,,129472430080.0,False
+Brazil,B3SA3.SA,"B3 S.A. - Brasil, Bolsa, Balcão",Financial Data & Stock Exchanges,117685436416.0,True
+Brazil,SBSP3.SA,Companhia de Saneamento Básico do Estado de São Paulo - SABESP,,112460644352.0,False
+Brazil,VIVT3.SA,Telefônica Brasil S.A.,,103633510400.0,False
+Brazil,RDOR3.SA,Rede D'Or São Luiz S.A.,,95009054720.0,False
+Brazil,BBSE3.SA,BB Seguridade Participações S.A.,Insurance—Diversified,84793737216.0,True
+Brazil,CXSE3.SA,Caixa Seguridade Participações S.A.,Insurance—Diversified,64229998592.0,True
+Brazil,EMBJ3.SA,Embraer S.A.,,62890459136.0,False
+Brazil,EQTL3.SA,Equatorial S.A.,,61407883264.0,False
+Brazil,ENEV3.SA,Eneva S.A.,,60453146624.0,False
+Brazil,PRIO3.SA,Prio S.A.,,58450784256.0,False
+Brazil,RENT3.SA,Localiza Rent a Car S.A.,,57914023936.0,False
+Brazil,CPFE3.SA,CPFL Energia S.A.,,57370750976.0,False
+Brazil,SUZB3.SA,Suzano S.A.,,53031006208.0,False
+Brazil,CPLE3.SA,Companhia Paranaense de Energia - COPEL,,51493048320.0,False
+Brazil,CMIG3.SA,Companhia Energética de Minas Gerais - CEMIG,,50834321408.0,False
+Brazil,GGBR4.SA,Gerdau S.A.,,49475022848.0,False
+Brazil,SAUD3.SA,Bradsaúde S.A.,,48383385600.0,False
+Brazil,TAEE11.SA,Transmissora Aliança de Energia Elétrica S.A.,,46249127936.0,False
+Brazil,TIMS3.SA,TIM S.A.,,45372649472.0,False
+Brazil,EGIE3.SA,Engie Brasil Energia S.A.,,43610390528.0,False
+Brazil,VBBR3.SA,Vibra Energia S.A.,,42848350208.0,False
+Brazil,UGPA3.SA,Ultrapar Participações S.A.,,41079652352.0,False
+Brazil,MOTV3.SA,Motiva Infraestrutura de Mobilidade S.A.,,40600776704.0,False
+Brazil,RADL3.SA,Raia Drogasil S.A.,,35460317184.0,False
+Brazil,ENGI3.SA,Energisa S.A.,,34736726016.0,False
+Brazil,RAIL3.SA,Rumo S.A.,,34570534912.0,False
+Brazil,PSSA3.SA,Porto Seguro S.A.,Insurance—Diversified,33031946240.0,True
+Brazil,CMIN3.SA,CSN Mineração S.A.,,26783965184.0,False
+Brazil,MBRF3.SA,MBRF Global Foods Company S.A.,,25855778816.0,False
+Brazil,TOTS3.SA,TOTVS S.A.,,24962566144.0,False
+Brazil,ISAE3.SA,ISA Energía Brasil S.A.,,24581810176.0,False
+Brazil,CSMG3.SA,Companhia de Saneamento de Minas Gerais,,24487538688.0,False
+Brazil,CSAN3.SA,Cosan S.A.,,20513286144.0,False
+Brazil,HYPE3.SA,Hypera S.A.,,19183890432.0,False
+Brazil,PASS3.SA,Compass Gas e Energia S.A.,,18554140672.0,False
+Brazil,ALUP11.SA,Alupar Investimento S.A.,,18398373888.0,False
+Brazil,ASAI3.SA,Sendas Distribuidora S.A.,,18381441024.0,False
+Brazil,EQPA7.SA,Equatorial Pará Distribuidora de Energia S.A.,,17694683136.0,False
+Brazil,ALOS3.SA,Allos S.A.,,17574897664.0,False
+Brazil,IGTI4.SA,Iguatemi S.A.,,16846221312.0,False
+Brazil,CGAS5.SA,Companhia de Gás de São Paulo - COMGÁS,,16497486848.0,False
+Brazil,AURE3.SA,Auren Energia S.A.,,15920238592.0,False
+Brazil,SMFT3.SA,Smartfit Escola de Ginástica e Dança S.A.,,15253006336.0,False
+Brazil,FLRY3.SA,Fleury S.A.,,15150863360.0,False
+Brazil,GOAU4.SA,Metalurgica Gerdau S.A.,,15078415360.0,False
+Brazil,SAPR3.SA,Companhia de Saneamento do Paraná - SANEPAR,,14356452352.0,False
+Brazil,CEGR3.SA,Companhia Distribuidora de Gás do Rio de Janeiro - CEG,,14103608320.0,False
+Brazil,REDE3.SA,Rede Energia Participações S.A.,,13893985280.0,False
+Brazil,LREN3.SA,Lojas Renner S.A.,,13779350528.0,False
+Brazil,MRSA3B.SA,MRS Logística S.A.,,13650891776.0,False
+Brazil,CYRE3.SA,Cyrela Brazil Realty S.A. Empreendimentos e Participações,,12836246528.0,False
+Brazil,GGPS3.SA,GPS Participações e Empreendimentos S.A.,,12421306368.0,False
+Brazil,GMAT3.SA,Grupo Mateus S.A.,,12191258624.0,False
+Brazil,CEEB3.SA,Companhia de Eletricidade do Estado da Bahia - COELBA,,11925371904.0,False
+Brazil,ALPA4.SA,Alpargatas S.A.,,11507875840.0,False
+Brazil,ORVR3.SA,Orizon Valorização de Resíduos S.A.,,11447336960.0,False
+Brazil,NATU3.SA,Natura Cosméticos S.A.,,10849329152.0,False
+Brazil,BRAV3.SA,Brava Energia S.A.,,10075939840.0,False
+Brazil,CURY3.SA,Cury Construtora e Incorporadora S.A.,,10011546624.0,False
+Brazil,EKTR3.SA,Elektro Redes S.A.,,9982477312.0,False
+Brazil,BMEB4.SA,Banco Mercantil do Brasil S.A.,Banks—Regional,9866708992.0,True
+Brazil,MGLU3.SA,Magazine Luiza S.A.,,9843467264.0,False
+Brazil,SIMH3.SA,SIMPAR S.A.,,9719591936.0,False
+Brazil,ECOR3.SA,EcoRodovias Infraestrutura e Logística S.A.,,9147419648.0,False
+Brazil,JHSF3.SA,JHSF Participações S.A.,,9133791232.0,False
+Brazil,BRSR3.SA,Banco do Estado do Rio Grande do Sul S.A.,Banks—Regional,8923823104.0,True
+Brazil,SLCE3.SA,SLC Agrícola S.A.,,8675166208.0,False
+Brazil,ENMT3.SA,Energisa Mato Grosso - Distribuidora de Energia S/A,,8273816064.0,False
+Brazil,FRAS3.SA,Frasle Mobility S.A.,,8175838720.0,False
+Brazil,USIM5.SA,Usinas Siderúrgicas de Minas Gerais S.A.,,8161150464.0,False
+Brazil,CSNA3.SA,Companhia Siderúrgica Nacional,,8049390592.0,False
+Brazil,MOVI3.SA,Movida Participações S.A.,,7915438592.0,False
+Brazil,VAMO3.SA,"Vamos Locação de Caminhões, Máquinas e Equipamentos S.A.",,7831356928.0,False
+Brazil,ABCB4.SA,Banco ABC Brasil S.A.,Banks—Regional,7616867328.0,True
+Brazil,BRAP4.SA,Bradespar S.A.,Asset Management,7472766464.0,True
+Brazil,DXCO3.SA,Dexco S.A.,,7417303552.0,False
+Brazil,CBAV3.SA,Companhia Brasileira de Alumínio,,7318056960.0,False
+Brazil,CLSC4.SA,Centrais Elétricas de Santa Catarina S.A.,,7308931072.0,False
+Brazil,TTEN3.SA,Três Tentos Agroindustrial S/A,,7069864960.0,False
+Brazil,DASA3.SA,Diagnósticos da América S.A.,,6886611456.0,False
+Brazil,SMTO3.SA,São Martinho S.A.,,6794377216.0,False
+Brazil,UNIP5.SA,Unipar Carbocloro S.A.,,6700773888.0,False
+Brazil,INTB3.SA,Intelbras S.A. - Indústria de Telecomunicação Eletrônica Brasileira,,6452602880.0,False
+Brazil,MDIA3.SA,M. Dias Branco S.A. Indústria e Comércio de Alimentos,,6413000704.0,False
+Brazil,VIVA3.SA,Vivara Participações S.A.,,6346240000.0,False
+Brazil,COGN3.SA,Cogna Educação S.A.,,6213902336.0,False
+Brazil,AZUL3.SA,Azul S.A.,,6036488704.0,False
+Brazil,DIRR3.SA,Direcional Engenharia S.A.,,5998469120.0,False
+Brazil,BRKM6.SA,Braskem S.A.,,5929444864.0,False
+Brazil,LIGT3.SA,Light S.A.,,5911205376.0,False
+Brazil,POMO4.SA,Marcopolo S.A.,,5905213952.0,False
+Brazil,RIAA3.SA,Guararapes Confecções S.A.,,5805121024.0,False
+Brazil,WHRL4.SA,Whirlpool S.A.,,5800754176.0,False
+Brazil,HBSA3.SA,Hidrovias do Brasil S.A.,,5618380288.0,False
+Brazil,EMAE3.SA,Empresa Metropolitana de Águas e Energia S.A.,,5542056960.0,False
+Brazil,IRBR3.SA,IRB-Brasil Resseguros S.A.,Insurance—Reinsurance,5492692480.0,True
+Brazil,EZTC3.SA,EZTEC Empreendimentos e Participações S.A.,,5394633728.0,False
+Brazil,EQMA3B.SA,Equatorial Maranhão Distribuidora de Energia S.A.,,5252242944.0,False
+Brazil,AZZA3.SA,Azzas 2154 S.A.,,5159555584.0,False
+Brazil,LEVE3.SA,MAHLE Metal Leve S.A.,,5115242496.0,False
+Brazil,VULC3.SA,Vulcabras S.A.,,5013242368.0,False
+Brazil,OPCT3.SA,OceanPact Serviços Marítimos S.A.,,4813002240.0,False
+Brazil,MRVE3.SA,MRV Engenharia e Participações S.A.,,4632126976.0,False
+Brazil,BMGB4.SA,Banco BMG S.A.,Banks—Regional,4632077824.0,True
+Brazil,AUAU3.SA,Uniao Pet Participacoes S.A.,,4544991232.0,False
+Brazil,RAIZ4.SA,Raízen S.A.,,4450119680.0,False
+Brazil,BAZA3.SA,Banco da Amazônia S.A.,Banks—Regional,4327702016.0,True
+Brazil,BEEF3.SA,Minerva S.A.,,4234632960.0,False
+Brazil,GRND3.SA,Grendene S.A.,,4213087232.0,False
+Brazil,HAPV3.SA,Hapvida Participações e Investimentos S.A.,Insurance—Life,4195026432.0,True
+Brazil,PINE4.SA,Banco Pine S.A.,Banks—Regional,4107716096.0,True
+Brazil,CEAB3.SA,C&A Modas S.A.,,4097513728.0,False
+Brazil,PGMN3.SA,Empreendimentos Pague Menos S.A.,,3893672704.0,False
+Brazil,RAPT3.SA,Randoncorp S.A.,,3757967104.0,False
+Brazil,RECV3.SA,Petroreconcavo S.A.,,3756571136.0,False
+Brazil,MILS3.SA,"Mills Locação, Serviços e Logística S.A.",,3704560384.0,False
+Brazil,CBEE3.SA,Ampla Energia e Serviços S.A.,,3689242880.0,False
+Brazil,FESA3.SA,Cia de Ferro Ligas da Bahia S.A. - FERBASA,,3646215168.0,False
+Brazil,GEPA4.SA,Rio Paranapanema Energia S.A.,,3588464640.0,False
+Brazil,BEES4.SA,Banestes S.A - Banco do Estado do Espírito Santo,Banks—Regional,3584200704.0,True
+Brazil,YDUQ3.SA,Yduqs Participações S.A.,,3572580864.0,False
+Brazil,JSLG3.SA,JSL S.A.,,3538561792.0,False
+Brazil,TEND3.SA,Construtora Tenda S.A.,,3476316416.0,False
+Brazil,TGMA3.SA,Tegma Gestão Logística S.A.,,3416236032.0,False
+Brazil,LOGN3.SA,Log-In Logística Intermodal S.A.,,3303571200.0,False
+Brazil,COCE5.SA,Companhia Energética do Ceará - COELCE,,3257901056.0,False
+Brazil,MDNE3.SA,Moura Dubeux Engenharia S.A.,,3122303744.0,False
+Brazil,VTRU3.SA,Vitru Educação S.A.,,3101157120.0,False
+Brazil,LWSA3.SA,Locaweb Serviços de Internet S.A.,,3011928320.0,False
+Brazil,TELB3.SA,Telecomunicações Brasileiras S.A. - Telebras,,2957512960.0,False
+Brazil,BLAU3.SA,Blau Farmacêutica S.A.,,2848044544.0,False
+Brazil,BMOB3.SA,Bemobi Mobile Tech S.A.,,2824026112.0,False
+Brazil,TUPY3.SA,Tupy S.A.,,2676957696.0,False
+Brazil,LOGG3.SA,LOG Commercial Properties e Participações S.A.,,2672410880.0,False
+Brazil,SBFG3.SA,Grupo SBF S.A.,,2620343040.0,False
+Brazil,EGGY3.SA,Granja Faria S.A.,,2540784384.0,False
+Brazil,EUCA3.SA,Eucatex S.A. Indústria e Comércio,,2483037696.0,False
+Brazil,CSED3.SA,Cruzeiro do Sul Educacional S.A.,,2457016832.0,False
+Brazil,FIQE3.SA,Unifique Telecomunicações S.A.,,2414550784.0,False
+Brazil,ARML3.SA,"Armac Locação, Logística e Serviços S.A.",,2388171264.0,False
+Brazil,SEER3.SA,Ser Educacional S.A.,,2338187264.0,False
+Brazil,PNVL3.SA,Dimed S.A. Distribuidora de Medicamentos,,2303614208.0,False
+Brazil,CAML3.SA,Camil Alimentos S.A.,,2268123648.0,False
+Brazil,DESK3.SA,Desktop S.A.,,2236940032.0,False
+Brazil,TFCO4.SA,Track & Field Co S.A.,,2223248128.0,False
+Brazil,MATD3.SA,Hospital Mater Dei S.A.,,2083030912.0,False
+Brazil,MLAS3.SA,Grupo Multilaser S.A.,,2057061888.0,False
+Brazil,CEBR6.SA,Companhia Energética de Brasília - CEB,,2004597888.0,False
+Brazil,AGRO3.SA,BrasilAgro - Companhia Brasileira de Propriedades Agrícolas,,1906639744.0,False
+Brazil,ANIM3.SA,Ânima Holding S.A.,,1904522752.0,False
+Brazil,RANI3.SA,Irani Papel e Embalagem S.A.,,1880384128.0,False
+Brazil,SHUL4.SA,Schulz S.A.,,1814860928.0,False
+Brazil,MYPK3.SA,Iochpe-Maxion S.A.,,1767283328.0,False
+Brazil,BPAR3.SA,Banco do Estado do Pará S.A,Banks—Regional,1713896832.0,True
+Brazil,OFSA3.SA,Ouro Fino Saúde Animal Participações S.A.,,1693142016.0,False
+Brazil,TRIS3.SA,Trisul S.A.,,1634618880.0,False
+Brazil,TASA3.SA,Taurus Armas S.A.,,1632406784.0,False
+Brazil,VLID3.SA,Valid Soluções S.A.,,1562661632.0,False
+Brazil,BRST3.SA,Brisanet Serviços de Telecomunicações S.A.,,1524266240.0,False
+Brazil,PCAR3.SA,Companhia Brasileira De Distribuicao,,1492417792.0,False
+Brazil,BHIA3.SA,Grupo Casas Bahia S.A.,,1459802880.0,False
+Brazil,CEED4.SA,Companhia Estadual de Distribuição de Energia Elétrica,,1365098496.0,False
+Brazil,KEPL3.SA,Kepler Weber S.A.,,1361805184.0,False
+Brazil,AZEV3.SA,Azevedo & Travassos S.A.,,1335814016.0,False
+Brazil,AMER3.SA,Americanas S.A.,,1327625856.0,False
+Brazil,FRIO3.SA,Metalfrio Solutions S.A.,,1308387328.0,False
+Brazil,ALPK3.SA,"Allpark Empreendimentos, Participações e Serviços S.A.",,1248770688.0,False
+Brazil,EVEN3.SA,Even Construtora e Incorporadora S.A.,,1210268160.0,False
+Brazil,BSLI3.SA,BRB - Banco de Brasília S.A.,Banks—Regional,1200867328.0,True
+Brazil,ONCO3.SA,Oncoclínicas do Brasil Serviços Médicos S.A.,,1193953024.0,False
+Brazil,PRNR3.SA,Priner Serviços Industriais S.A.,,1188734720.0,False
+Brazil,SOJA3.SA,Boa Safra Sementes S.A.,,1179277440.0,False
+Brazil,PFRM3.SA,Profarma Distribuidora de Produtos Farmacêuticos S.A.,,1175835392.0,False
+Brazil,OBTC3.SA,Oranjebtc S.A. - Educação e Investimento,,1131675776.0,False
+Brazil,WIZC3.SA,Wiz Co Participações e Corretagem de Seguros S.A.,Insurance Brokers,1130544512.0,True
+Brazil,LAND3.SA,Terra Santa Propriedades Agrícolas S.A.,,1019795008.0,False
+Brazil,DEXP4.SA,Dexxos Participações S.A.,,990104384.0,False
+Brazil,B1003.SA,B100 S.A.,Asset Management,972179456.0,True
+Brazil,JALL3.SA,Jalles Machado S/A,,913689344.0,False
+Brazil,BGIP4.SA,Banco do Estado de Sergipe S.A.,Banks—Regional,866488512.0,True
+Brazil,PATI4.SA,Panatlântica S.A.,,848402432.0,False
+Brazil,CVCB3.SA,CVC Brasil Operadora e Agência de Viagens S.A.,,817653824.0,False
+Brazil,BIOM3.SA,Biomm S.A.,,807429632.0,False
+Brazil,SCAR3.SA,São Carlos Empreendimentos e Participações S.A.,,773598848.0,False
+Brazil,CSUD3.SA,CSU Digital S.A.,,741061824.0,False
+Brazil,ROMI3.SA,Romi S.A.,,710892864.0,False
+Brazil,ALLD3.SA,Allied Tecnologia S.A.,,710115392.0,False
+Brazil,POSI3.SA,Positivo Tecnologia S.A.,,703431360.0,False
+Brazil,AMOB3.SA,Automob Participações S.A.,,663384832.0,False
+Brazil,CGRA3.SA,Grazziotin S.A.,,654066944.0,False
+Brazil,MTSA3.SA,METISA Metalúrgica Timboense S.A.,,651253888.0,False
+Brazil,RPAD6.SA,Alfa Holdings S.A.,,648662720.0,False
+Brazil,LJQQ3.SA,Lojas Quero-Quero S.A.,,631097664.0,False
+Brazil,QUAL3.SA,Qualicorp Consultoria e Corretora de Seguros S.A.,,630803392.0,False
+Brazil,WLMM4.SA,WLM Participações e Comércio de Máquinas e Veículos S.A.,,624875776.0,False
+Brazil,TECN3.SA,Technos S.A.,,600390272.0,False
+Brazil,SYNE3.SA,Syn Prop & Tech S.A.,,599892672.0,False
+Brazil,VITT3.SA,Vittia S.A.,,551655360.0,False
+Brazil,CASH3.SA,Méliuz S.A.,,523141152.0,False
+Brazil,TPIS3.SA,Triunfo Participações e Investimentos S.A.,,518784704.0,False
+Brazil,AHEB5.SA,São Paulo Turismo S.A.,,495481120.0,False
+Brazil,CRPG3.SA,Tronox Pigmentos do Brasil S.A.,,493318720.0,False
+Brazil,AFLT3.SA,Afluente Transmissão de Energia Elétrica S.A.,,491429824.0,False
+Brazil,DOHL3.SA,Döhler S.A.,,485056800.0,False
+Brazil,MTRE3.SA,Mitre Realty Empreendimentos e Participações S.A.,,442138720.0,False
+Brazil,VSTE3.SA,Veste S.A. Estilo,,439681952.0,False
+Brazil,AALR3.SA,Alliança Saúde e Participações S.A.,,420408352.0,False
+Brazil,PTBL3.SA,PBG S.A.,,414501440.0,False
+Brazil,BOBR4.SA,Bombril S.A.,,411605152.0,False
+Brazil,AMAR3.SA,Marisa Lojas S.A.,,410791008.0,False
+Brazil,SEQL3.SA,Sequoia Logística e Transportes S.A.,,382229312.0,False
+Brazil,RNEW3.SA,Renova Energia S.A.,,380577728.0,False
+Brazil,HBOR3.SA,Helbor Empreendimentos S.A.,,362253568.0,False
+Brazil,CAMB3.SA,Cambuci S.A.,,360161216.0,False
+Brazil,DMVF3.SA,d1000 Varejo Farma Participações S.A.,,352701792.0,False
+Brazil,RSUL4.SA,Metalúrgica Riosulense S.A.,,302331264.0,False
+Brazil,EALT3.SA,Electro Aço Altona S.A.,,292880352.0,False
+Brazil,VVEO3.SA,CM Hospitalar S/A,,281187840.0,False
+Brazil,ESPA3.SA,MPM Corpóreos S.A.,,277889664.0,False
+Brazil,MNPR3.SA,Minupar Participações S.A.,,276193888.0,False
+Brazil,MEAL3.SA,International Meal Company Alimentação S.A.,,266609184.0,False
+Brazil,AMBP3.SA,Ambipar Participações e Empreendimentos S.A.,,250393424.0,False
+Brazil,MSPA3.SA,Companhia Melhoramentos de São Paulo,,239320704.0,False
+Brazil,LPSB3.SA,LPS Brasil - Consultoria de Imóveis S.A.,,222406176.0,False
+Brazil,CALI3.SA,Construtora Adolpho Lindenberg S.A.,,220147200.0,False
+Brazil,CTKA4.SA,Karsten S.A.,,217250176.0,False
+Brazil,ETER3.SA,Eternit S.A.,,216177456.0,False
+Brazil,BALM3.SA,Baumer S.A.,,215259216.0,False
+Brazil,WDCN3.SA,Livetech da Bahia Indústria e Comércio S.A.,,195461312.0,False
+Brazil,JOPA4.SA,JOSAPAR Joaquim Oliveira S.A. Participações,,190482496.0,False
+Brazil,MNDL3.SA,Mundial S.A. - Produtos de Consumo,,183383376.0,False
+Brazil,ENJU3.SA,Enjoei S.A.,,180415840.0,False
+Brazil,BMKS3.SA,Bicicletas Monark S.A.,,177343408.0,False
+Brazil,DOTZ3.SA,Dotz S.A.,,172172720.0,False
+Brazil,HOOT4.SA,Hotéis Othon S.A.,,155798048.0,False
+Brazil,PDTC3.SA,Padtec Holding S.A.,,154171072.0,False
+Brazil,PMAM3.SA,Paranapanema S.A.,,152845328.0,False
+Brazil,FHER3.SA,Fertilizantes Heringer S.A.,,149723248.0,False
+Brazil,BIED3.SA,Bioma Educação S.A.,,146482576.0,False
+Brazil,LUXM4.SA,Trevisa Investimentos S.A.,,141331200.0,False
+Brazil,AERI3.SA,Aeris Indústria e Comércio de Equipamentos para Geração de Energia S.A.,,135217328.0,False
+Brazil,ARND3.SA,Arandu Investimentos S.A.,Asset Management,97152056.0,True
+Brazil,SOND3.SA,Sondotécnica Engenharia de Solos S.A.,,93990192.0,False
+Brazil,MMAQ3.SA,Minasmáquinas S/A,,93646568.0,False
+Brazil,SNSY6.SA,Sansuy S.A.,,88815768.0,False
+Brazil,RVEE3.SA,Revee S.A.,,82879352.0,False
+Brazil,UCAS3.SA,Unicasa Indústria de Móveis S.A.,,81947088.0,False
+Brazil,INEP3.SA,Inepar S.A. Indústria e Construções,,69021104.0,False
+Brazil,MWET4.SA,Wetzel S.A.,,63756932.0,False
+Brazil,TCSA3.SA,Tecnisa S.A.,,62576348.0,False
+Brazil,RCSL3.SA,Recrusul S/A,,62053476.0,False
+Brazil,GFSA3.SA,Gafisa S.A.,,61373256.0,False
+Brazil,PLAS3.SA,Plascar Participações Industriais S.A.,,58399464.0,False
+Brazil,ECOM3.SA,Economatica S.A.,,57234288.0,False
+Brazil,CEDO4.SA,Companhia de Fiação e Tecidos Cedro e Cachoeira S.A.,,55261640.0,False
+Brazil,WEST3.SA,Westwing Comércio Varejista S.A.,,49486184.0,False
+Brazil,AZTE3.SA,Azevedo & Travassos Energia S.A.,,48814044.0,False
+Brazil,NUTR3.SA,Nutriplant Indústria e Comércio S/A,,46846236.0,False
+Brazil,AVLL3.SA,Alphaville S.A.,,46673552.0,False
+Brazil,MGEL4.SA,Mangels Industrial S.A.,,45976536.0,False
+Brazil,IFCM3.SA,Infracommerce CXaaS S.A.,,39054628.0,False
+Brazil,JFEN3.SA,João Fortes Engenharia S.A.,,38408236.0,False
+Brazil,TXRX3.SA,Têxtil Renauxview S.A.,,38333520.0,False
+Brazil,RSID3.SA,Rossi Residencial S.A.,,32043398.0,False
+Brazil,HAGA3.SA,HAGA S/A Indústria e Comércio,,31773000.0,False
+Brazil,TOKY3.SA,Grupo Toky S.A.,,26068632.0,False
+Brazil,ESTR3.SA,Manufatura de Brinquedos Estrela S.A.,,25953424.0,False
+Brazil,LUPA3.SA,Lupatech S.A.,,23375142.0,False
+Brazil,ATED3.SA,Atom Educação E Editora S.A.,,22760396.0,False
+Brazil,DTCY3.SA,DTCOM - Direct to Company S.A.,,22262262.0,False
+Brazil,HETA3.SA,Hercules S.A - Fábrica de Talheres,,18051072.0,False
+Brazil,EPAR3.SA,Embpar Participacoes S.A.,,17238258.0,False
+Brazil,VIVR3.SA,Viver Incorporadora e Construtora S.A.,,15811330.0,False
+Brazil,FASA3.SA,Fasa S.A.,,14035905.0,False
+Brazil,CTSA3.SA,Companhia Tecidos Santanense Ltda.,,13912390.0,False
+Brazil,AGXY3.SA,AgroGalaxy Participações S.A.,,11058483.0,False
+Brazil,NORD3.SA,Nordon Indústrias Metalúrgicas S/A,,8276859.0,False
+Brazil,CTAX3.SA,Contax Participações S.A.,,8172585.0,False
+Brazil,BDLL3.SA,Bardella S.A. Indústrias Mecânicas,,8000000.0,False
+Brazil,GSHP3.SA,General Shopping e Outlets do Brasil S.A.,,7126284.0,False
+Brazil,OSXB3.SA,OSX Brasil S.A.,,7051605.0,False
+Brazil,NEXP3.SA,Nexpe Participações S.A.,,6931035.0,False
+Brazil,PDGR3.SA,PDG Realty S.A. Empreendimentos e Participações,,890648.0,False
+Brazil,CCTY3.SA,RDVC City S.A.,,721280.0,False
+Chile,CHILE.SN,Banco de Chile,Banks—Regional,19193246253056.0,True
+Chile,FALABELLA.SN,Falabella S.A.,,16495652372480.0,False
+Chile,BSANTANDER.SN,Banco Santander-Chile,Banks—Regional,14883476209664.0,True
+Chile,BCI.SN,Banco de Crédito e Inversiones,Banks—Regional,13839835856896.0,True
+Chile,MALLPLAZA.SN,Plaza S.A.,,7671132454912.0,False
+Chile,QUINENCO.SN,Quiñenco SA,,7499045404672.0,False
+Chile,SCOTIABKCL.SN,Scotiabank Chile S.A.,Banks—Diversified,5412239179776.0,True
+Chile,CENCOSUD.SN,Cencosud S.A.,,5100426231808.0,False
+Chile,ITAUCL.SN,Banco Itaú Chile,Banks—Regional,4867667001344.0,True
+Chile,ANDINA-B.SN,Embotelladora Andina S.A.,,4638196105216.0,False
+Chile,BICE.SN,Bicecorp S.A.,Financial Conglomerates,4335335374848.0,True
+Chile,CENCOMALLS.SN,Cencosud Shopping S.A.,,3804003303424.0,False
+Chile,PARAUCO.SN,Parque Arauco S.A.,,3573018787840.0,False
+Chile,ILC.SN,Inversiones La Construcción S.A.,Insurance—Life,2335603163136.0,True
+Chile,AGUAS-A.SN,Aguas Andinas S.A.,,2025377497088.0,False
+Chile,CCU.SN,Compañía Cervecerías Unidas S.A.,,1915872477184.0,False
+Chile,PROVIDA.SN,Administradora de Fondos de Pensiones Provida S.A.,Asset Management,1636798038016.0,True
+Chile,NTGCLGAS.SN,Naturgy Chile Gas Natural S.A.,,1449373597696.0,False
+Chile,HABITAT.SN,Administradora de Fondos de Pensiones Habitat S.A.,Asset Management,1315000025088.0,True
+Chile,ENTEL.SN,Empresa Nacional de Telecomunicaciones S.A.,,1280552599552.0,False
+Chile,BANVIDA.SN,Banvida S.A.,Insurance Brokers,1252691410944.0,True
+Chile,CUPRUM.SN,Administradora de Fondos de Pensiones Cuprum S.A.,Asset Management,1200404299776.0,True
+Chile,LIPIGAS.SN,Empresas Lipigas S.A.,,1135745171456.0,False
+Chile,EMBONOR-B.SN,Coca-Cola Embonor S.A.,,899101687808.0,False
+Chile,RIPLEY.SN,Ripley Corp S.A.,,878967783424.0,False
+Chile,IAM.SN,Inversiones Aguas Metropolitanas S.A.,,878849949696.0,False
+Chile,BESALCO.SN,Besalco S.A.,,769190526976.0,False
+Chile,NUAM.SN,Nuam S.A.,Asset Management,738195668992.0,True
+Chile,SALFACORP.SN,SalfaCorp S.A.,,714321166336.0,False
+Chile,ELECMETAL.SN,Compañía Electro Metalúrgica S.A.,,683279974400.0,False
+Chile,CONCHATORO.SN,Viña Concha y Toro S.A.,,642938699776.0,False
+Chile,SMU.SN,SMU S.A.,,632787369984.0,False
+Chile,AAISA.SN,Administradora Americana de Inversiones S.A.,Asset Management,618999971840.0,True
+Chile,PLANVITAL.SN,Administradora de Fondos de Pensiones PlanVital S.A.,Asset Management,533531426816.0,True
+Chile,CTC.SN,Telefónica Chile S.A.,,509052911616.0,False
+Chile,ALMENDRAL.SN,Almendral S.A.,,443232452608.0,False
+Chile,FORUS.SN,Forus S.A.,,434744852480.0,False
+Chile,CGE.SN,Compañía General de Electricidad S.A.,,407211212800.0,False
+Chile,OXIQUIM.SN,Oxiquim S.A.,,403164594176.0,False
+Chile,INDISA.SN,Instituto de Diagnóstico S.A.,,378324123648.0,False
+Chile,EISA.SN,Echeverría Izquierdo S.A.,,319949144064.0,False
+Chile,PAZ.SN,Paz Corp S.A.,,294703988736.0,False
+Chile,LAS-CONDES.SN,Clínica Las Condes S.A.,,292941103104.0,False
+Chile,TRICOT.SN,Empresas Tricot S.A.,,250795065344.0,False
+Chile,SONDA.SN,Sonda S.A.,,250504380416.0,False
+Chile,ESSBIO-C.SN,Essbio S.A.,,238012203008.0,False
+Chile,INGEVEC.SN,Ingevec S.A.,,235040407552.0,False
+Chile,ZOFRI.SN,Zona Franca de Iquique S.A.,,222774935552.0,False
+Chile,WATTS.SN,Watt's S.A.,,206827323392.0,False
+Chile,SOCOVESA.SN,Socovesa S.A.,,189832445952.0,False
+Chile,SIEMEL.SN,Inversiones Siemel S.A.,,145029529600.0,False
+Chile,SCHWAGER.SN,Schwager S.A.,,123127906304.0,False
+Chile,MOLLER.SN,Empresa Constructora Moller y Pérez Cotapos S.A.,,121795780608.0,False
+Chile,EDELMAG.SN,Empresa Eléctrica de Magallanes S.A.,,99417759744.0,False
+Chile,HITES.SN,Empresas Hites S.A.,,88359387136.0,False
+Chile,ABC.SN,abc S.A.,,62260592640.0,False
+Chile,MANQUEHUE.SN,Inmobiliaria Manquehue S.A.,,53334687744.0,False
+Chile,TRICAHUE.SN,Inversiones Tricahue S.A.,,48452055040.0,False
+Chile,GASCOINV.SN,Gasco Inversiones S.A.,Asset Management,23520000000.0,True
+Chile,QUILICURA.SN,Quilicura S.A.,,21600000000.0,False
+Chile,CRUZADOS.SN,Cruzados SADP,,17725132800.0,False
+Chile,ENJOY.SN,Enjoy S.A.,,4710497792.0,False
+Argentina,YPFD.BA,YPF Sociedad Anónima,,32738266578944.0,False
+Argentina,GGAL.BA,Grupo Financiero Galicia S.A.,Banks—Regional,10014991319040.0,True
+Argentina,TECO2.BA,Telecom Argentina S.A.,,9088563937280.0,False
+Argentina,BMA.BA,Banco Macro S.A.,Banks—Regional,6956566183936.0,True
+Argentina,TGSU2.BA,Transportadora de Gas del Sur S.A.,,6771086196736.0,False
+Argentina,BBAR.BA,Banco BBVA Argentina S.A.,Banks—Regional,4417639677952.0,True
+Argentina,TXAR.BA,Ternium Argentina S.A.,,3496230780928.0,False
+Argentina,CEPU.BA,Central Puerto S.A.,,2982626459648.0,False
+Argentina,ALUA.BA,Aluar Aluminio Argentino S.A.I.C.,,2480800006144.0,False
+Argentina,IRSA.BA,IRSA Inversiones y Representaciones Sociedad Anónima,,2047307939840.0,False
+Argentina,LOMA.BA,Loma Negra Compañía Industrial Argentina Sociedad Anónima,,1872980869120.0,False
+Argentina,BYMA.BA,Bolsas y Mercados Argentinos S.A.,Capital Markets,1860234379264.0,True
+Argentina,CELU.BA,Celulosa Argentina S.A.,,1857329037312.0,False
+Argentina,CVH.BA,Cablevisión Holding S.A.,,1676363169792.0,False
+Argentina,METR.BA,MetroGAS S.A.,,1380963057664.0,False
+Argentina,CRES.BA,"Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera y Agropecuaria",,1332684390400.0,False
+Argentina,TGNO4.BA,Transportadora de Gas del Norte S.A.,,1331303022592.0,False
+Argentina,BPAT.BA,Banco Patagonia S.A.,Banks—Regional,1294461435904.0,True
+Argentina,SUPV.BA,Grupo Supervielle S.A.,Banks—Regional,1114025885696.0,True
+Argentina,TRAN.BA,Compañía de Transporte de Energía Eléctrica en Alta Tensión Transener S.A.,,1102791049216.0,False
+Argentina,MOLA.BA,Molinos Agro S.A.,,1031949582336.0,False
+Argentina,SAMI.BA,S.A. San Miguel A.G.I.C.I. y F.,,767610781696.0,False
+Argentina,ECOG.BA,Ecogas Inversiones S.A.,,710281592832.0,False
+Argentina,CTIO.BA,Consultatio S.A.,,707089072128.0,False
+Argentina,RAGH.BA,RAGHSA Sociedad Anonima,,697902628864.0,False
+Argentina,A3.BA,A3 Mercados S.A.,Financial Data & Stock Exchanges,678251200512.0,True
+Argentina,VALO.BA,Banco de Valores S.A.,Banks—Diversified,598495920128.0,True
+Argentina,PATA.BA,Sociedad Anónima Importadora y Exportadora de la Patagonia,,580000022528.0,False
+Argentina,CAPX.BA,Capex S.A.,,573569302528.0,False
+Argentina,GBAN.BA,"Naturgy BAN, S.A.",,533885550592.0,False
+Argentina,CGPA2.BA,Camuzzi Gas Pampeana S.A.,,508253601792.0,False
+Argentina,HARG.BA,Holcim (Argentina) S.A.,,477630005248.0,False
+Argentina,MOLI.BA,Molinos Rio de la Plata S.A.,,446134484992.0,False
+Argentina,BHIP.BA,Banco Hipotecario S.A.,Banks—Regional,375750000640.0,True
+Argentina,CECO2.BA,Central Costanera S.A.,,328530558976.0,False
+Argentina,MIRG.BA,"Mirgor Sociedad Anónima, Comercial, Industrial, Financiera, Inmobiliaria y Agropecuaria",,308701921280.0,False
+Argentina,LEDE.BA,Ledesma Sociedad Anónima Agrícola Industrial,,282647265280.0,False
+Argentina,GCLA.BA,Grupo Clarín S.A.,,278151495680.0,False
+Argentina,DGCU2.BA,Distribuidora de Gas Cuyana S.A.,,268115460096.0,False
+Argentina,COME.BA,Sociedad Comercial del Plata S.A.,,254800003072.0,False
+Argentina,AUSO.BA,Autopistas Del Sol SA,,250126991360.0,False
+Argentina,HAVA.BA,Havanna Holding S.A.,,190723112960.0,False
+Argentina,BOLT.BA,Boldt S.A.,,165613273088.0,False
+Argentina,OEST.BA,Grupo Concesionario del Oeste S.A.,,126400004096.0,False
+Argentina,GAMI.BA,B-Gaming S.A.,,121549996032.0,False
+Argentina,RICH.BA,Laboratorios Richmond S.A.C.I.F.,,109014507520.0,False
+Argentina,GRIM.BA,Grimoldi S.A.,,100578050048.0,False
+Argentina,FERR.BA,Ferrum S.A. de Cerámica y Metalurgia,,75027030016.0,False
+Argentina,CADO.BA,Carlos Casado S.A.,,65295998976.0,False
+Argentina,RIGO.BA,Rigolleau S.A.,,62232592384.0,False
+Argentina,SEMI.BA,Molinos Juan Semino S.A.,,47879999488.0,False
+Argentina,MORI.BA,Morixe Hermanos S.A.C.I.,,47746641920.0,False
+Argentina,AGRO.BA,Agrometal S.A.I.,,37560000512.0,False
+Argentina,INTR.BA,Compañía Introductora de Buenos Aires S.A.,,35114885120.0,False
+Argentina,FIPL.BA,Fiplasto S.A.,,21745723392.0,False
+Argentina,CARC.BA,Carboclor S.A.,,20740861952.0,False
+Argentina,GARO.BA,Garovaglio y Zorraquín S.A.,,18480001024.0,False
+Argentina,GCDI.BA,GCDI S.A.,,10250671104.0,False
+Argentina,LONG.BA,Longvie S.A.,,8711474176.0,False
+Argentina,ROSE.BA,Instituto Rosenbusch S.A.,,6047704064.0,False
+Argentina,DOME.BA,DOMEC Compañía de Artefactos Domésticos S.A.I.C.y F.,,5800000000.0,False
+Argentina,POLL.BA,"Polledo Sociedad Anonima, Industrial, Constructora y Financiera",,1958220160.0,False
+Colombia,ECOPETROL.CL,Ecopetrol,Oil and Gas,,False
+Colombia,PFCIBEST.CL,Grupo Cibest,,,True
+Colombia,ISA.CL,Interconexión Eléctrica,Energy,,False
+Colombia,CEMARGOS.CL,Cementos Argos,Building Materials,,False
+Colombia,PFGRUPSURA.CL,Grupo Sura,Conglomerate,,True
+Colombia,GRUPOARGOS.CL,Grupo Argos,Conglomerate,,False
+Colombia,GEB.CL,Grupo Energía Bogotá,,,False
+Colombia,MINEROS.CL,Mineros,Mineral processing,,False
+Colombia,PFAVAL.CL,Grupo Aval,Bank Holding,,True
+Colombia,CELSIA.CL,Celsia,Energy,,False
+Colombia,CORFICOLCF.CL,Corficolombiana,Financial services,,True
+Colombia,PFDAVVNDA.CL,Davivienda,Banking,,True
+Colombia,BOGOTA.CL,Banco de Bogotá,Banking,,True
+Colombia,TERPEL.CL,Terpel,Gasoline pump,,False
+Colombia,PROMIGAS.CL,Promigas,Natural gas,,False
+Colombia,NUTRESA.CL,Grupo Nutresa,Food industry,,False
+Colombia,BVC.CL,Colombia Stock Exchange,Stock Exchanges,,True
+Colombia,ETB.CL,ETB,Telecommunications,,False
+Colombia,CNEC.CL,Canacol Energy,Oil and Gas,,False
+Peru,VOLCABC1.LM,VOLCABC1,,,False
+Peru,MINSURI1.LM,Minsur,Minería,,False
+Peru,FERREYC1.LM,FERREYC1,,,False
+Peru,BBVAC1.LM,BBVA (Perú),Banca,,True
+Peru,BAP.LM,Credicorp,Grupo de empresas,,True
+Peru,INRETC1.LM,InRetail,Retail,,False
+Peru,CPACASC1.LM,Cementos Pacasmayo,Cemento,,False
+Peru,ALICORC1.LM,Alicorp,Alimentación,,False
+Peru,CREDITC1.LM,CREDITC1,,,True
+Peru,NEXAPEC1.LM,Nexa Resources Atacocha,Minería,,False
+Peru,ENGIEC1.LM,Engie (Perú),Energía,,False
+Peru,UNACEMC1.LM,Unacem,Cemento,,False
+Peru,SCCO.LM,Southern Copper Corporation,Minería,,False
+Peru,CVERDEC1.LM,Sociedad Minera Cerro Verde,Minería,,False
+Peru,CORAREI1.LM,Aceros Arequipa,Siderúrgica,,False
+Peru,SIDERC1.LM,SIDERPERU,Siderúrgica,,False
+Peru,IFS.LM,Intercorp,Grupo de empresas,,True
+Peru,SNJUANI1.LM,Cervecería San Juan,Bebidas,,False
+Peru,RIMSEGC1.LM,Rimac Seguros,Aseguramiento,,True
+Peru,EXALMC1.LM,Pesquera Exalmar,pesquera,,False
+Peru,AUSTRAC1.LM,Grupo Austral S.A.,pesquera,,False
+Peru,AIHC1.LM,Andino Investment,Inversiones,,True
+Peru,INTERBC1.LM,INTERBC1,,,True
+Peru,SCOTIAC1.LM,SCOTIAC1,,,True

@@ -95,6 +95,11 @@ FRICTIONS = {
     "Norway": Frictions((4, 8, 15)),
     "Denmark": Frictions((4, 8, 15)),
     "Finland": Frictions((4, 8, 15)),
+    # South America (south_america_universe.py)
+    "Argentina": Frictions((10, 20, 40), (), "no practical short selling; capital controls 2011-15 and 2019-25"),
+    "Colombia": Frictions((10, 20, 40), (), "securities lending (TTV) thin"),
+    "Peru": Frictions((10, 20, 40), (), "no practical short selling"),
+    "South America ADRs": Frictions((4, 8, 15), (), "New York listings: borrowable, USD; ADR custody fees not modelled"),
 }
 SLIPPAGE_BP = 1.0
 

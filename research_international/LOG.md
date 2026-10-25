@@ -660,3 +660,128 @@ Asia-Pacific markets that have both a broad and an index universe:
 - Singapore's broad universe is mostly tiny names: the full universe gives
   0.09, the liquid half 1.29.
 - Flat beats flip again (1.42 vs 0.94).
+
+## Fourth layer: South America
+
+### Data
+
+`south_america_universe.py`:
+
+| universe | names | notes |
+|---|---|---|
+| Brazil | 296 | the 400 largest domestic listings, collapsed to one line per company; BDRs and real-estate/investment funds removed |
+| Chile | 62 | every domestic listing in the screener |
+| Argentina | 62 | every listing with peso accounts (CEDEARs drop out) |
+| Colombia | COLCAP, 20 companies | one share class each, the most traded |
+| Peru | S&P/BVL Peru General, ~36 companies | one share class each, the most traded |
+| South American financials | 74 | by industry |
+| South American companies listed in New York | 61 | hand list, 18 financials |
+
+- The screener has nothing for Colombia, Peru or Venezuela. Venezuela is
+  left out.
+- Brazil (as the top 120) and Chile were already among the 20 new
+  exchanges, so they are **not** fresh out-of-sample. Argentina, Colombia,
+  Peru, the broader Brazil and the New York ADR set are.
+- Colombia and Peru are tiny (20-36 names), so their single-market books
+  will be noisy.
+- Costs: the same tiered spreads (10/20/40 bp for Argentina, Colombia and
+  Peru; 4/8/15 for the ADRs). Within-market terciles probably understate
+  the cost of Brazil's smallest names, so the liquid half and multiplied
+  costs are reported.
+
+### Pre-registered predictions (written before any South American result was seen)
+
+The rule is unchanged: flat in stress (no position while the US VIX is
+above 20), monthly, staggered, next-open, local costs.
+
+1. Momentum's IC is lower in stress than in calm in all 5 local markets
+   (Brazil broad, Chile, Argentina, Colombia, Peru).
+2. The equal-risk flat-in-stress book over the 5 is positive in both
+   2015-20 and 2021-26.
+3. It beats plain momentum over 2015-26.
+4. The same rule on the New York ADR set (one cross-section, USD,
+   borrowable) has a positive 2015-26 Sharpe.
+
+Not predicted:
+- **South American financials:** no special edge expected (Asia found
+  none); descriptive only.
+- **Commodity lead-lag:** expected to show **no** tradable edge at 1-5 day
+  horizons, because US commodity futures settle before São Paulo, Santiago
+  and Lima close. An IC above 0.02 with t > 3 in both halves would surprise
+  me.
+
+### Results (`south_america.py`)
+
+**All four predictions pass, but this is the weakest region so far, and
+only part of it is tradable.**
+
+| prediction | outcome |
+|---|---|
+| momentum weaker in stress in all 5 | **5 / 5**; none turns negative in stress |
+| 5-market flat book positive in 2015-20 and 2021-26 | **0.75 and 1.43** (bootstrap: 8% chance 2015-20 is below 0) |
+| flat beats plain over 2015-26 | **1.11 vs 0.98**, narrowly |
+| ADR flat book positive over 2015-26 | **0.41** (country-neutral 0.57), but weak: the bootstrap gives a 26% / 12% chance that 2015-20 / 2021-26 is below 0 |
+
+Momentum IC calm / stress: Brazil 0.082 / 0.062, Chile 0.073 / 0.021,
+Argentina 0.037 / 0.021, Colombia 0.073 / 0.032, Peru 0.039 / 0.019, ADRs
+0.039 / 0.003.
+
+Books, net Sharpe:
+
+| book | 2006-14 | 2015-20 | 2021-26 | 2015-26 | maxDD 15-26 |
+|---|---|---|---|---|---|
+| 5 markets: plain | 1.14 | 0.33 | 1.60 | 0.98 | -18% |
+| 5 markets: flip | 0.79 | 0.77 | 0.63 | 0.70 | -13% |
+| **5 markets: flat in stress** | **1.09** | **0.75** | **1.43** | **1.11** | -10% |
+| 5 markets: flat, costs x2 / x3 | 0.93 / 0.77 | 0.39 / 0.03 | 1.13 / 0.83 | 0.78 / 0.46 | |
+| 5 markets: flat, liquid half | 0.88 | 1.10 | 0.88 | 0.99 | -9% |
+| 5 markets: flat, one day late | 1.08 | 0.80 | 1.44 | 1.14 | -10% |
+| 3 fresh (Argentina, Colombia, Peru): flat | 0.50 | 0.70 | 0.35 | 0.50 | -9% |
+| 3 fresh: flat, costs x2 / x3 | 0.35 / 0.21 | 0.40 / 0.09 | 0.11 / -0.12 | 0.24 / -0.02 | |
+| Brazil + Chile: flat | 1.17 | 0.31 | 1.97 | 1.13 | -17% |
+| ADRs (58 NY listings), pooled: flat | 0.65 | 0.30 | 0.55 | 0.41 | -25% |
+| ADRs, country-neutral: flat | 0.31 | 0.28 | 0.88 | 0.57 | -17% |
+| ADRs, country-neutral: flat, costs x3 | 0.16 | 0.14 | 0.74 | 0.43 | |
+
+What to make of it:
+- **Brazil's edge is in its small names.**
+  - Broad (296 names) flat in stress: 0.97 over 2015-26.
+  - Its 120 largest only: 0.30. The earlier top-120 universe: 0.18.
+  - Liquid half: 0.55.
+  - Small Brazilian stocks are exactly where the tiered cost model (5-20
+    bp) is least trustworthy (27% of stock-days have zero volume), so most
+    of the 0.97 should be treated as unproven. The 2015-20 weakness (0.28)
+    is Brazil's 2015-16 recession.
+- **Argentina, Colombia and Peru are not tradable as local long/short.**
+  - Shorting is impractical in all three.
+  - The books are small (median 54, 18 and 17 names).
+  - Peru's data is stale: 33% zero-return days.
+  - Their edge disappears at triple costs (-0.02).
+- **The ADR route works on paper but adds nothing.** The ADR book is
+  real-money tradable (USD, borrowable, costs x3 still 0.43
+  country-neutral), but at 7-11% volatility and ~0.4-0.6 Sharpe it is a
+  weak sleeve. Added to the conservative combined book at double costs, it
+  *lowers* the Sharpe (2015-26 1.62 → 1.56; worst month -4.1% → -5.6%),
+  because it correlates about 0.2 with the international sleeves and is
+  noisy. **Don't add it.**
+- Both legs earn; the short leg earns slightly more (5 markets: long 1.14,
+  short 1.39 against the equal-weighted market). Executing a day late
+  changes nothing.
+- Leave one out (2015-26): 0.76 (without Brazil) to 1.15 (without Peru).
+  Brazil carries the region.
+
+**South American financials** (Brazil 26, Chile 15, Argentina 10; Colombia
+and Peru have too few names): pooled momentum IC 0.06 (t 3.2), and
+low-vol / MAX ICs of about 0.045, all with the same signs as in Asia. But
+with a median of 34 names the books are weak (flat in stress 0.51 / 0.14 /
+0.59). There is no special edge, as expected.
+
+**Commodity lead-lag: no edge, as predicted.**
+- The commodity-implied move (trailing betas to copper, oil, gold, silver,
+  soybeans, coffee and sugar, times the commodities' returns) has an IC of
+  about 0 at 1 day and is slightly *negative* at 5 days (-0.010).
+- "Implied minus own 5-day return" scores 0.028 at 5 days. But the control,
+  the stock's own 5-day reversal alone, scores 0.032. The commodity part
+  adds nothing; it is short-term reversal.
+- As expected, South American prices already contain the day's commodity
+  move by their close.

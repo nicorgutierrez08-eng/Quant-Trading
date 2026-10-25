@@ -1,0 +1,67 @@
+market,ticker,name,industry,market_cap,financial
+Brazil,ITUB3.SA,Itaú Unibanco Holding S.A.,Banks—Regional,585930899456.0,True
+Brazil,BBDC4.SA,Banco Bradesco S.A.,Banks—Regional,227646259200.0,True
+Brazil,BBAS3.SA,Banco do Brasil S.A.,Banks—Regional,141124567040.0,True
+Brazil,SANB11.SA,Banco Santander (Brasil) S.A.,Banks—Regional,147931906048.0,True
+Brazil,BMEB4.SA,Banco Mercantil do Brasil S.A.,Banks—Regional,9866708992.0,True
+Brazil,BRSR3.SA,Banco do Estado do Rio Grande do Sul S.A.,Banks—Regional,8923823104.0,True
+Brazil,ABCB4.SA,Banco ABC Brasil S.A.,Banks—Regional,7616867328.0,True
+Brazil,BMGB4.SA,Banco BMG S.A.,Banks—Regional,4632077824.0,True
+Brazil,BAZA3.SA,Banco da Amazônia S.A.,Banks—Regional,4327702016.0,True
+Brazil,PINE4.SA,Banco Pine S.A.,Banks—Regional,4107716096.0,True
+Brazil,BEES4.SA,Banestes S.A - Banco do Estado do Espírito Santo,Banks—Regional,3584200704.0,True
+Brazil,BPAR3.SA,Banco do Estado do Pará S.A,Banks—Regional,1713896832.0,True
+Brazil,BSLI3.SA,BRB - Banco de Brasília S.A.,Banks—Regional,1200867328.0,True
+Brazil,BGIP4.SA,Banco do Estado de Sergipe S.A.,Banks—Regional,866488512.0,True
+Brazil,HAPV3.SA,Hapvida Participações e Investimentos S.A.,Insurance—Life,4195026432.0,True
+Brazil,BBSE3.SA,BB Seguridade Participações S.A.,Insurance—Diversified,84793737216.0,True
+Brazil,CXSE3.SA,Caixa Seguridade Participações S.A.,Insurance—Diversified,64229998592.0,True
+Brazil,PSSA3.SA,Porto Seguro S.A.,Insurance—Diversified,33031946240.0,True
+Brazil,IRBR3.SA,IRB-Brasil Resseguros S.A.,Insurance—Reinsurance,5492692480.0,True
+Brazil,WIZC3.SA,Wiz Co Participações e Corretagem de Seguros S.A.,Insurance Brokers,1130544512.0,True
+Brazil,BPAC3.SA,Banco BTG Pactual S.A.,Capital Markets,341024669696.0,True
+Brazil,BRBI11.SA,BRBI BR Partners S.A.,Capital Markets,,True
+Brazil,BRAP4.SA,Bradespar S.A.,Asset Management,7472766464.0,True
+Brazil,B1003.SA,B100 S.A.,Asset Management,972179456.0,True
+Brazil,ARND3.SA,Arandu Investimentos S.A.,Asset Management,97152056.0,True
+Brazil,B3SA3.SA,"B3 S.A. - Brasil, Bolsa, Balcão",Financial Data & Stock Exchanges,117685436416.0,True
+Chile,CHILE.SN,Banco de Chile,Banks—Regional,19193246253056.0,True
+Chile,BSANTANDER.SN,Banco Santander-Chile,Banks—Regional,14883476209664.0,True
+Chile,BCI.SN,Banco de Crédito e Inversiones,Banks—Regional,13839835856896.0,True
+Chile,ITAUCL.SN,Banco Itaú Chile,Banks—Regional,4867667001344.0,True
+Chile,SCOTIABKCL.SN,Scotiabank Chile S.A.,Banks—Diversified,5412239179776.0,True
+Chile,ILC.SN,Inversiones La Construcción S.A.,Insurance—Life,2335603163136.0,True
+Chile,BANVIDA.SN,Banvida S.A.,Insurance Brokers,1252691410944.0,True
+Chile,PROVIDA.SN,Administradora de Fondos de Pensiones Provida S.A.,Asset Management,1636798038016.0,True
+Chile,HABITAT.SN,Administradora de Fondos de Pensiones Habitat S.A.,Asset Management,1315000025088.0,True
+Chile,CUPRUM.SN,Administradora de Fondos de Pensiones Cuprum S.A.,Asset Management,1200404299776.0,True
+Chile,NUAM.SN,Nuam S.A.,Asset Management,738195668992.0,True
+Chile,AAISA.SN,Administradora Americana de Inversiones S.A.,Asset Management,618999971840.0,True
+Chile,PLANVITAL.SN,Administradora de Fondos de Pensiones PlanVital S.A.,Asset Management,533531426816.0,True
+Chile,GASCOINV.SN,Gasco Inversiones S.A.,Asset Management,23520000000.0,True
+Chile,BICE.SN,Bicecorp S.A.,Financial Conglomerates,4335335374848.0,True
+Argentina,GGAL.BA,Grupo Financiero Galicia S.A.,Banks—Regional,10014991319040.0,True
+Argentina,BMA.BA,Banco Macro S.A.,Banks—Regional,6956566183936.0,True
+Argentina,BBAR.BA,Banco BBVA Argentina S.A.,Banks—Regional,4417639677952.0,True
+Argentina,BPAT.BA,Banco Patagonia S.A.,Banks—Regional,1294461435904.0,True
+Argentina,SUPV.BA,Grupo Supervielle S.A.,Banks—Regional,1114025885696.0,True
+Argentina,BHIP.BA,Banco Hipotecario S.A.,Banks—Regional,375750000640.0,True
+Argentina,VALO.BA,Banco de Valores S.A.,Banks—Diversified,598495920128.0,True
+Argentina,BA-C.BA,Bank of America Corp,Banks—Diversified,,True
+Argentina,BYMA.BA,Bolsas y Mercados Argentinos S.A.,Capital Markets,1860234379264.0,True
+Argentina,A3.BA,A3 Mercados S.A.,Financial Data & Stock Exchanges,678251200512.0,True
+Colombia,BOGOTA.CL,Banco de Bogotá,Banking,,True
+Colombia,BVC.CL,Colombia Stock Exchange,Stock Exchanges,,True
+Colombia,CORFICOLCF.CL,Corficolombiana,Financial services,,True
+Colombia,PFDAVVNDA.CL,Davivienda,Banking,,True
+Colombia,PFAVAL.CL,Grupo Aval,Bank Holding,,True
+Colombia,PFGRUPSURA.CL,Grupo Sura,Conglomerate,,True
+Colombia,PFCIBEST.CL,Grupo Cibest,,,True
+Peru,BAP.LM,Credicorp,Grupo de empresas,,True
+Peru,IFS.LM,Intercorp,Grupo de empresas,,True
+Peru,BBVAC1.LM,BBVA (Perú),Banca,,True
+Peru,RIMSEGC1.LM,Rimac Seguros,Aseguramiento,,True
+Peru,AIHC1.LM,Andino Investment,Inversiones,,True
+Peru,CREDITC1.LM,CREDITC1,,,True
+Peru,SCOTIAC1.LM,SCOTIAC1,,,True
+Peru,INTERBC1.LM,INTERBC1,,,True

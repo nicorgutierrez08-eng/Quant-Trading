@@ -32,6 +32,7 @@ INDICES = {
     "Saudi Arabia": "^TASI.SR", "Israel": "^TA125.TA", "Poland": "WIG20.WA", "Norway": "OSEBX.OL", "Denmark": "^OMXC25",
     "Finland": "^OMXH25", "Belgium": "^BFX", "Austria": "^ATX", "Portugal": "PSI20.LS", "Greece": "GD.AT",
     "Chile": "^IPSA", "Vietnam": "^VNINDEX.VN", "Pakistan": "^KSE",
+    "Argentina": "^MERV", "Colombia": "^COLCAP", "Peru": "^SPBLPGPT",
 }
 VOL_INDICES = {"US": "^VIX", "India": "^INDIAVIX", "Japan": "^JNIV", "Europe": "^V2TX", "Hong Kong": "^VHSI",
                "Korea": "^VKOSPI", "Australia": "^AXVI"}
@@ -42,7 +43,8 @@ COUNTRY_ETFS = {
     "Netherlands": "EWN", "Spain": "EWP", "Italy": "EWI", "Sweden": "EWD", "Canada": "EWC", "Brazil": "EWZ",
     "Mexico": "EWW", "South Africa": "EZA", "Turkey": "TUR", "Israel": "EIS", "Poland": "EPOL", "Norway": "NORW",
     "Denmark": "EDEN", "Finland": "EFNL", "Belgium": "EWK", "Austria": "EWO", "Portugal": "PGAL", "Greece": "GREK",
-    "Chile": "ECH", "Saudi Arabia": "KSA", "Qatar": "QAT", "Kuwait": "KWT", "Vietnam": "VNM", "US": "SPY", "Asia ex-Japan": "AAXJ", "Emerging": "EEM", "EAFE": "EFA",
+    "Chile": "ECH",
+    "Argentina": "ARGT", "Colombia": "GXG", "Peru": "EPU", "Latin America": "ILF", "Saudi Arabia": "KSA", "Qatar": "QAT", "Kuwait": "KWT", "Vietnam": "VNM", "US": "SPY", "Asia ex-Japan": "AAXJ", "Emerging": "EEM", "EAFE": "EFA",
 }
 FIELDS = ("Open", "High", "Low", "Close", "Adj Close", "Volume")
 

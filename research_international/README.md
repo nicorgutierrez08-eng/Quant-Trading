@@ -2,9 +2,12 @@
 
 This is the international extension of the momentum-with-a-stress-switch
 work:
-- 41 exchanges (21 index universes plus 20 exchanges that were held out
-  and tested against pre-registered predictions);
-- every listed Asia-Pacific financial (1,341 names, by industry).
+- 44 exchanges: 21 index universes; 20 exchanges that were held out and
+  tested against pre-registered predictions; and Argentina, Colombia and
+  Peru, added with the South America pass, which also widened Brazil and
+  Chile and added the South American companies listed in New York;
+- every listed Asia-Pacific financial (1,341 names, by industry);
+- the 400 largest companies on 10 Asia-Pacific exchanges.
 
 It is a separate model. It does not change Arjun's code or `research_night/`.
 
