@@ -1,0 +1,82 @@
+name: publish-public-data
+
+# Publishes the datasets whose sources allow redistribution, UNENCRYPTED, to the
+# GitHub release "public-data", so anyone can download them:
+#   fundamentals   SEC EDGAR XBRL company facts (US government data, public domain)
+#   insider        SEC Forms 3/4/5 open-market purchases and sales (public domain)
+#   sp500_changes  S&P 500 additions and removals (Wikipedia, CC BY-SA 4.0)
+# Market data (prices, quotes, 5-minute bars), Benzinga news, FINRA short volume
+# and FRED series are NOT published here: their terms do not allow it.
+
+on:
+  workflow_dispatch:
+  push:                    # also when this file changes on a working branch (before it reaches main)
+    branches: ["claude/**"]
+    paths: [".github/workflows/publish-public-data.yml"]
+  schedule:
+    - cron: "0 14 3 * *"   # monthly, the day after fundamentals-data refreshes
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      DATA_KEY: ${{ secrets.DATA_KEY }}
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Collect the public datasets
+        run: |
+          source scripts/datastore.sh
+          fetch_dataset fundamentals fundamentals || echo "no fundamentals dataset"
+          python - <<'PY'
+          import warnings
+          from pathlib import Path
+          import pandas as pd
+          from qtrade.data.public import load_insider, load_sp500_changes
+          from qtrade.utils import LOG, setup_logging
+          warnings.filterwarnings("ignore")
+          setup_logging()
+          out = Path("public_out"); out.mkdir(exist_ok=True)
+          f = Path("data/fundamentals/fundamentals.parquet")
+          if f.exists():
+              df = pd.read_parquet(f)
+              df.to_parquet(out / "fundamentals.parquet")
+              LOG.info("fundamentals: %d rows, %d columns", len(df), df.shape[1])
+          for name, fn in (("sp500_changes", lambda: load_sp500_changes("data", refresh=True)),
+                           ("insider_transactions", lambda: load_insider("data", budget_min=150))):
+              try:
+                  df = fn()
+                  df.to_csv(out / f"{name}.csv.gz", index=False)
+                  LOG.info("%s: %d rows", name, len(df))
+              except Exception as exc:
+                  LOG.warning("%s failed: %s", name, exc)
+          PY
+          ls -lh public_out
+      - name: Upload to the public-data release
+        run: |
+          cat > notes.md <<'EOF'
+          Unencrypted datasets anyone may download, rebuilt monthly by the publish-public-data workflow.
+
+          | File | Source | Licence |
+          |---|---|---|
+          | `fundamentals.parquet` | SEC EDGAR XBRL company facts, ~40 items per filing, each with its filing date | US government work, public domain |
+          | `insider_transactions.csv.gz` | SEC Forms 3/4/5 data sets: open-market purchases (P) and sales (S) | public domain |
+          | `sp500_changes.csv.gz` | Wikipedia, "List of S&P 500 companies", change table | CC BY-SA 4.0 (credit Wikipedia contributors) |
+
+          Prices, quotes, 5-minute bars and news are licensed for personal use and are not included;
+          see research_data/README.md in the repository for how to obtain them.
+          EOF
+          gh release view public-data >/dev/null 2>&1 || gh release create public-data \
+            --title "Public research data" --latest=false --notes-file notes.md
+          gh release edit public-data --notes-file notes.md
+          gh release upload public-data public_out/* --clobber

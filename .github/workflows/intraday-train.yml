@@ -1,0 +1,80 @@
+name: intraday-train
+
+# Trains the intraday model zoo's winner (chosen on 2016-2020 gross Sharpe) on
+# the latest 12 months of 5-minute bars and publishes it as
+# intraday/zoo/model_zoo.joblib on the "results" branch, where intraday-trade
+# picks it up. Runs after each intraday-zoo run, monthly, or by hand.
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: [intraday-zoo]
+    types: [completed]
+  schedule:
+    - cron: "0 6 1 * *"     # monthly retrain on the newest data
+  push:
+    branches: ["claude/**"]
+    paths: ["qtrade/intraday/zoo_model.py", ".github/workflows/intraday-train.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: intraday-train
+  cancel-in-progress: false
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      DATA_KEY: ${{ secrets.DATA_KEY }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Free disk space
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true
+      - uses: actions/checkout@v4
+      - name: Zoo results available?
+        id: zoo
+        run: |
+          git fetch -q --depth 1 origin results
+          if git show origin/results:intraday/zoo/intraday_zoo.csv > intraday_zoo.csv 2>/dev/null; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"; head -3 intraday_zoo.csv
+          else
+            echo "No intraday zoo results yet - run intraday-zoo first. Nothing to train."; echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.zoo.outputs.ok == 'true'
+        with:
+          python-version: "3.11"
+          cache: pip
+      - if: steps.zoo.outputs.ok == 'true'
+        run: pip install -r requirements.txt
+      - name: Fetch 5-minute bars
+        if: steps.zoo.outputs.ok == 'true'
+        run: |
+          source scripts/datastore.sh
+          fetch_dataset intraday_5min intraday/5min || { echo "::error::No intraday_5min dataset"; exit 1; }
+      - name: Train the winner
+        if: steps.zoo.outputs.ok == 'true'
+        run: |
+          mkdir -p out
+          python -m qtrade.intraday.zoo_model --store data/intraday/5min --symbols 500 \
+            --zoo-table intraday_zoo.csv --out out/model_zoo.joblib
+          cat out/model_zoo.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Publish to the results branch
+        if: steps.zoo.outputs.ok == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          RES=$(mktemp -d)
+          for attempt in 1 2 3 4 5; do
+            rm -rf "$RES"; mkdir -p "$RES"; cd "$RES"; git init -q
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+            git fetch -q --depth 1 origin results && git checkout -q -B results FETCH_HEAD
+            mkdir -p intraday/zoo
+            cp "$GITHUB_WORKSPACE/out/model_zoo.joblib" "$GITHUB_WORKSPACE/out/model_zoo.json" intraday/zoo/
+            git add -A && git commit -q -m "Intraday zoo model (run ${{ github.run_id }})"
+            if git push -q origin results; then echo "published intraday/zoo/model_zoo.joblib"; break; fi
+            sleep $((attempt * 15))
+          done

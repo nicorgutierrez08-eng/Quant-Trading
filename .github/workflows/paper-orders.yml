@@ -1,0 +1,43 @@
+name: paper-orders
+
+# Diagnostic: today's Alpaca paper orders (status, time in force, timestamps - no prices) and the
+# open positions' sides and quantities. Read-only; runs on pushes that change this file.
+
+on:
+  push:
+    branches: ["claude/**"]
+    paths: [".github/workflows/paper-orders.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  orders:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+    steps:
+      - name: List today's orders
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, datetime
+          H = {"APCA-API-KEY-ID": os.environ["ALPACA_API_KEY"], "APCA-API-SECRET-KEY": os.environ["ALPACA_SECRET_KEY"]}
+          base = "https://paper-api.alpaca.markets/v2"
+          def get(path):
+              return json.load(urllib.request.urlopen(urllib.request.Request(base + path, headers=H)))
+          after = (datetime.datetime.utcnow() - datetime.timedelta(hours=20)).strftime("%Y-%m-%dT%H:%M:%SZ")
+          orders = get(f"/orders?status=all&after={after}&limit=500&direction=asc")
+          print(f"{len(orders)} orders since {after}")
+          keys = ["symbol", "side", "qty", "filled_qty", "time_in_force", "type", "status", "submitted_at", "filled_at",
+                  "canceled_at", "expired_at", "failed_at"]
+          for o in orders:
+              print(" | ".join(f"{k}={o.get(k)}" for k in keys))
+          from collections import Counter
+          print("by status:", Counter((o["time_in_force"], o["status"]) for o in orders))
+          pos = get("/positions")
+          print(f"{len(pos)} open positions:", ", ".join(f"{p['symbol']} {p['side']} {p['qty']}" for p in pos))
+          print("clock:", get("/clock"))
+          PY

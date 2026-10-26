@@ -1,0 +1,82 @@
+name: hft-shadow
+
+# Shadow high-frequency trader (qtrade/intraday/hft_shadow.py): simulated trades on
+# live IEX quotes for liquid stocks (orders arrive 5-10 ms after the decision, 0 bp fees),
+# every trade logged. It
+# never touches the paper account. The trade log is encrypted to
+# config/ledger_public_key.pem (quotes are market data) and kept on the results
+# branch under paper/hft/; the research session copies it into the Google Sheet.
+# Each run lasts ~1 hour (so the sheet fills during the day) and starts its successor while the market is open.
+
+on:
+  schedule:
+    - cron: "25 13 * * 1-5"       # 9:25 New York in summer (8:25 in winter: it waits for the open)
+    - cron: "52 13-20 * * 1-5"    # watchdog: GitHub sometimes skips the 9:25 start; an extra run only queues
+                                  # behind a running one (concurrency group) and exits after the close
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths: ["qtrade/intraday/hft_shadow.py", ".github/workflows/hft-shadow.yml"]
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: hft-shadow
+  cancel-in-progress: false
+
+jobs:
+  shadow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      GH_TOKEN: ${{ github.token }}
+      # optional: write trades straight into the Google Sheet every few seconds
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      HFT_SHEET_ID: ${{ secrets.HFT_SHEET_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Trade in the shadow
+        run: python -m qtrade.intraday.hft_shadow --minutes 55 --out logs/hft    # hourly runs: the sheet fills during the day
+      - name: Encrypt and store the trade log
+        if: always()
+        run: |
+          ls logs/hft/*.csv >/dev/null 2>&1 || { echo "no trades"; exit 0; }
+          python - <<'PY'
+          from pathlib import Path
+          from qtrade.live.ledger import encrypt
+          for p in Path("logs/hft").glob("*.csv"):
+              encrypt(p, "config/ledger_public_key.pem")
+          PY
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            RES=$(mktemp -d)
+            (
+              cd "$RES" && git init -q
+              git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+              git fetch -q --depth 1 origin results && git checkout -q -B results FETCH_HEAD
+              mkdir -p paper/hft
+              cp "$GITHUB_WORKSPACE"/logs/hft/*.enc paper/hft/
+              git add -A paper/hft
+              git commit -q -m "Shadow HFT trade log (run ${GITHUB_RUN_ID}, encrypted)" || exit 0
+              git push -q origin results
+            ) && break
+            sleep $((attempt * 5))
+          done
+      - name: Start the next run if the market is still open
+        if: always()
+        run: |
+          H=$(TZ=America/New_York date +%H%M); D=$(TZ=America/New_York date +%u)
+          if [ "$D" -le 5 ] && [ "$H" -ge 0925 ] && [ "$H" -lt 1550 ]; then
+            gh workflow run hft-shadow.yml -R "${{ github.repository }}" --ref "${{ github.ref_name }}"
+            echo "next shadow run started"
+          fi

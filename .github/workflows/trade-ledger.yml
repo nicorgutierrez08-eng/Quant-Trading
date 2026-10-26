@@ -1,0 +1,61 @@
+name: trade-ledger
+
+# Every fill on the Alpaca paper account and every round trip with its P&L
+# (qtrade/live/ledger.py). Fill prices are market data, so the files are
+# encrypted to config/ledger_public_key.pem before they leave the runner and
+# are stored on the "results" branch under paper/ledger/ (only the holder of
+# the private key can read them; the research session copies them into the
+# private Google Sheet). Runs after the close, on demand, and on pushes that
+# change the ledger code.
+
+on:
+  schedule:
+    - cron: "41 21 * * 1-5"       # after the close (and after paper-status)
+  workflow_dispatch:
+  push:
+    branches: ["claude/**"]
+    paths: ["qtrade/live/ledger.py", ".github/workflows/trade-ledger.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trade-ledger
+  cancel-in-progress: false
+
+jobs:
+  ledger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build the encrypted ledger
+        run: python -m qtrade.live.ledger --out ledger --public-key config/ledger_public_key.pem
+      - name: Store on the results branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            RES=$(mktemp -d)
+            (
+              cd "$RES" && git init -q
+              git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+              git fetch -q --depth 1 origin results && git checkout -q -B results FETCH_HEAD
+              mkdir -p paper/ledger && rm -f paper/ledger/*
+              cp "$GITHUB_WORKSPACE"/ledger/*.enc paper/ledger/
+              date -u +%FT%TZ > paper/ledger/updated.txt
+              git add -A paper/ledger
+              git commit -q -m "Trade ledger (run ${GITHUB_RUN_ID}, encrypted)" || exit 0
+              git push -q origin results
+            ) && break
+            sleep $((attempt * 5))
+          done

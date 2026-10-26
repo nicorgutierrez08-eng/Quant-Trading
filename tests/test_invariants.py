@@ -147,3 +147,29 @@ def test_price_cache_keeps_as_traded_panels(tmp_path, market):
     np.testing.assert_allclose(back.dollar_volume.to_numpy(), md.dollar_volume.to_numpy(), rtol=1e-6)
     save_market(market[0], tmp_path / "old")         # a cache written before raw panels existed
     assert not load_market(tmp_path / "old").has_raw
+
+
+def test_bad_prints_are_masked_but_real_jumps_kept(market):
+    md = market[0]
+    t, other = md.tickers[0], md.tickers[1]
+    panels = {f: getattr(md, f).copy() for f in FIELDS}
+    day, jump_day = md.dates[500], md.dates[600]
+    for f in ("open", "high", "low", "close"):
+        panels[f].loc[day, t] *= 30                 # a one-day 30x print
+        panels[f].loc[jump_day:, other] *= 1.8      # a genuine +80% gap that sticks
+    clean = MarketData(**panels)
+    assert np.isnan(clean.close.loc[day, t])
+    assert np.isfinite(clean.close.loc[jump_day, other])
+    assert FeatureContext(clean).ret[t].abs().max() < 0.5
+
+
+def test_dividend_factor_glitch_is_repaired():
+    from qtrade.data.loader import clean_dividend_factor
+
+    idx = pd.bdate_range("2020-01-01", periods=8)
+    true = np.array([0.95, 0.95, 0.96, 0.96, 0.98, 0.98, 1.0, 1.0])
+    seen = true.copy()
+    seen[2:4] /= 20                                 # Yahoo glitch: off by a split ratio for two days
+    out = clean_dividend_factor(pd.DataFrame({"X": seen}, idx))
+    # a dividend that falls on the glitch's edge is lost with it: a couple of percent at most
+    np.testing.assert_allclose(out["X"], true, rtol=0.03)

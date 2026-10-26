@@ -1,0 +1,79 @@
+name: media-collect
+
+# Collects news / media data for the news-correlation study (qtrade/data/media.py):
+# GDELT online news and TV mentions per company and per market theme, Hacker News,
+# SEC filings and 8-K phrases, Wikipedia. GDELT allows one request every 5 seconds,
+# so this takes many hours: each run spends ~5 hours, saves what it got in the
+# media_data cache (and as a downloadable artifact), and starts the next run until
+# everything is in. The first run and the last one also start the study
+# (research workflow, task "news").
+
+on:
+  workflow_dispatch:
+    inputs:
+      generation:
+        description: "run number in the chain (stops after 15)"
+        default: "1"
+      budget:
+        description: "minutes of collection per run"
+        default: "300"
+
+permissions:
+  contents: read
+  actions: write                  # starts the next run and the study
+
+concurrency:
+  group: media-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    env:
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Restore the price cache (universe, Wikipedia titles)
+        uses: actions/cache/restore@v4
+        with:
+          path: data
+          key: prices-1000-15-2000-01-01-none
+          restore-keys: prices-1000-15-2000-01-01-
+      - name: Media cache
+        uses: actions/cache@v4
+        with:
+          path: media_data
+          key: media-${{ github.run_id }}
+          restore-keys: media-
+      - name: Collect
+        run: |
+          [ -f data/universe.csv ] || python -m qtrade universe
+          python -m qtrade.data.media --budget "${{ inputs.budget || '300' }}" --status-file status.txt
+          echo "status: $(cat status.txt)"
+          du -sh media_data
+      - uses: actions/upload-artifact@v4
+        with:
+          name: media-data-${{ github.run_id }}
+          path: media_data
+          retention-days: 30
+      - name: Next run / the study
+        if: always()
+        run: |
+          GEN="${{ inputs.generation || '1' }}"
+          STATUS=$(cat status.txt 2>/dev/null || echo more)
+          if [ "$STATUS" = "more" ] && [ "$GEN" -lt 15 ]; then
+            gh workflow run media-collect.yml -R "${{ github.repository }}" --ref "${{ github.ref_name }}" \
+              -f generation=$((GEN + 1)) -f budget="${{ inputs.budget || '300' }}"
+            echo "started collection run $((GEN + 1))"
+          fi
+          if [ "$GEN" = "1" ] || [ "$STATUS" = "done" ] || [ "$GEN" -ge 15 ]; then
+            gh workflow run research.yml -R "${{ github.repository }}" --ref "${{ github.ref_name }}" -f tasks=news
+            echo "started the news study"
+          fi

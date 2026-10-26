@@ -1,0 +1,142 @@
+{
+ "imbalance_fade": {
+  "enabled": false,
+  "variant": "tgt1.0_to600_stopNone_ticks3",
+  "rules": {
+   "imb_threshold": 0.8,
+   "taker_max_spread_bp": 2.0,
+   "taker_target": 1.0,
+   "maker_target": 1.0,
+   "exit_timeout_s": 600.0,
+   "stop_bp": null,
+   "mm_every_s": 10.0,
+   "mm_wait_s": 10.0,
+   "mm_min_ticks": 3,
+   "vix_flip": 20.0,
+   "strategies": [
+    "imbalance_taker",
+    "imbalance_fade",
+    "imbalance_flip",
+    "market_maker",
+    "maker_with_signal"
+   ]
+  },
+  "train_pnl": -17.08,
+  "test_pnl": -8.01,
+  "test_trades": 1317,
+  "test_bp": -1.52,
+  "test_days_positive": "0/5"
+ },
+ "imbalance_flip": {
+  "enabled": false,
+  "variant": "tgt1.0_to600_stopNone_ticks1",
+  "rules": {
+   "imb_threshold": 0.8,
+   "taker_max_spread_bp": 2.0,
+   "taker_target": 1.0,
+   "maker_target": 1.0,
+   "exit_timeout_s": 600.0,
+   "stop_bp": null,
+   "mm_every_s": 10.0,
+   "mm_wait_s": 10.0,
+   "mm_min_ticks": 1,
+   "vix_flip": 20.0,
+   "strategies": [
+    "imbalance_taker",
+    "imbalance_fade",
+    "imbalance_flip",
+    "market_maker",
+    "maker_with_signal"
+   ]
+  },
+  "train_pnl": -11.44,
+  "test_pnl": -11.51,
+  "test_trades": 1416,
+  "test_bp": -2.032,
+  "test_days_positive": "0/5"
+ },
+ "imbalance_taker": {
+  "enabled": false,
+  "variant": "tgt1.0_to600_stopNone_ticks1",
+  "rules": {
+   "imb_threshold": 0.8,
+   "taker_max_spread_bp": 2.0,
+   "taker_target": 1.0,
+   "maker_target": 1.0,
+   "exit_timeout_s": 600.0,
+   "stop_bp": null,
+   "mm_every_s": 10.0,
+   "mm_wait_s": 10.0,
+   "mm_min_ticks": 1,
+   "vix_flip": 20.0,
+   "strategies": [
+    "imbalance_taker",
+    "imbalance_fade",
+    "imbalance_flip",
+    "market_maker",
+    "maker_with_signal"
+   ]
+  },
+  "train_pnl": -11.3,
+  "test_pnl": -11.64,
+  "test_trades": 1405,
+  "test_bp": -2.072,
+  "test_days_positive": "0/5"
+ },
+ "maker_with_signal": {
+  "enabled": false,
+  "variant": "tgt0.0_to600_stopNone_ticks3",
+  "rules": {
+   "imb_threshold": 0.8,
+   "taker_max_spread_bp": 2.0,
+   "taker_target": 0.0,
+   "maker_target": 1.0,
+   "exit_timeout_s": 600.0,
+   "stop_bp": null,
+   "mm_every_s": 10.0,
+   "mm_wait_s": 10.0,
+   "mm_min_ticks": 3,
+   "vix_flip": 20.0,
+   "strategies": [
+    "imbalance_taker",
+    "imbalance_fade",
+    "imbalance_flip",
+    "market_maker",
+    "maker_with_signal"
+   ]
+  },
+  "train_pnl": -102.83,
+  "test_pnl": -76.76,
+  "test_trades": 1479,
+  "test_bp": -12.982,
+  "test_days_positive": "0/5"
+ },
+ "market_maker": {
+  "enabled": false,
+  "variant": "tgt0.0_to600_stopNone_ticks3",
+  "rules": {
+   "imb_threshold": 0.8,
+   "taker_max_spread_bp": 2.0,
+   "taker_target": 0.0,
+   "maker_target": 1.0,
+   "exit_timeout_s": 600.0,
+   "stop_bp": null,
+   "mm_every_s": 10.0,
+   "mm_wait_s": 10.0,
+   "mm_min_ticks": 3,
+   "vix_flip": 20.0,
+   "strategies": [
+    "imbalance_taker",
+    "imbalance_fade",
+    "imbalance_flip",
+    "market_maker",
+    "maker_with_signal"
+   ]
+  },
+  "train_pnl": -474.71,
+  "test_pnl": -494.98,
+  "test_trades": 2797,
+  "test_bp": -44.464,
+  "test_days_positive": "0/5"
+ }
+}

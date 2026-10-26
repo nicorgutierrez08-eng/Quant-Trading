@@ -1,0 +1,7 @@
+{
+  "_comment": "The simulated $10,000 Google Sheet book, split between sleeves (dollars of capital). momentum_flip = Nico's momentum flip (qtrade/intraday/flip_sleeve.py); auction = the US auction strategies (qtrade/intraday/auction_sheet.py); foreign = overnight persistence on Asian exchanges (qtrade/intraday/foreign_sheet.py); hft = the shadow HFT (off). History: $5,000 HFT / $5,000 flip on 2026-10-22; the HFT lost $273.73 and was switched off; the remaining $9,726.27 split flip / auction on 2026-10-23, then three ways with the foreign sleeve.",
+  "hft": 0,
+  "momentum_flip": 3242.09,
+  "auction": 3242.09,
+  "foreign": 3242.09
+}

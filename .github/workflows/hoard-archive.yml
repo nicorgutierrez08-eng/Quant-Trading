@@ -1,0 +1,97 @@
+name: hoard-archive
+
+# Long-term storage for the data hoard: GitHub Releases, one per month ("data-hoard-YYYY-MM"),
+# each day one asset.
+#   eod      (weekdays after the close) - the session's consolidated 1-minute bars for the
+#            largest ~1,000 US stocks, encrypted to config/ledger_public_key.pem, uploaded as
+#            eod-1min-<day>.parquet.enc (+ .key.enc); plus the latest session's 1-minute bars of
+#            the foreign markets (Yahoo keeps them 7 days) as foreign-1min-<day>. Too big for git.
+#   archive  (every night) - each finished day on the "data-hoard" branch is packed into
+#            hoard-<day>.tar and uploaded; days older than 7 that are safely in a release are
+#            then dropped from the branch (a fresh one-commit branch), so the repository stays small.
+# Download later with:  gh release download data-hoard-2026-10 -R ASCoding11/Quant-Trading
+
+on:
+  schedule:
+    - cron: "31 21 * * 1-5"       # eod: 17:31 New York in summer, 16:31 in winter
+    - cron: "13 7 * * *"          # archive
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "eod, archive or both"
+        default: "both"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hoard-archive
+  cancel-in-progress: false
+
+jobs:
+  eod:
+    if: github.event.schedule == '31 21 * * 1-5' || (github.event_name == 'workflow_dispatch' && inputs.job != 'archive')
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Collect the day's 1-minute bars
+        run: python -m qtrade.data.hoard --eod --out eod --public-key config/ledger_public_key.pem
+      - name: Upload to the month's release
+        run: |
+          shopt -s nullglob
+          for f in eod/*/*_1min_bars.parquet*.enc; do
+            day=$(basename "$(dirname "$f")"); tag="data-hoard-${day:0:7}"
+            kind=$(basename "$f" | sed 's/_1min_bars.*//')               # eod (US) or foreign
+            gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" --title "Data hoard ${day:0:7}" \
+              --notes "Daily archives of the data hoard (see .github/workflows/hoard-archive.yml). Market data is encrypted to config/ledger_public_key.pem."
+            name="${kind}-1min-${day}.$(basename "$f" | sed 's/^[a-z]*_1min_bars\.//')"
+            cp "$f" "$name"; gh release upload "$tag" "$name" --clobber; echo "uploaded $name to $tag"
+          done
+
+  archive:
+    if: github.event.schedule == '13 7 * * *' || (github.event_name == 'workflow_dispatch' && inputs.job != 'eod')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Pack finished days into releases, keep a week on the branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir work && cd work && git init -q
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git fetch -q --depth 1 origin data-hoard || { echo "no data-hoard branch yet"; exit 0; }
+          HEAD_SHA=$(git rev-parse FETCH_HEAD)
+          git checkout -q FETCH_HEAD
+          TODAY=$(date -u +%F); KEEP_FROM=$(date -u -d "7 days ago" +%F)
+          DROP=()
+          for dir in hoard/*/; do
+            day=$(basename "$dir"); [ "$day" \< "$TODAY" ] || continue
+            tag="data-hoard-${day:0:7}"; asset="hoard-${day}.tar"
+            gh release view "$tag" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || gh release create "$tag" -R "$GITHUB_REPOSITORY" \
+              --title "Data hoard ${day:0:7}" \
+              --notes "Daily archives of the data hoard (see .github/workflows/hoard-archive.yml). Market data is encrypted to config/ledger_public_key.pem."
+            tar -cf "../$asset" -C hoard "$day"
+            gh release upload "$tag" "../$asset" -R "$GITHUB_REPOSITORY" --clobber
+            # only drop a day from the branch once its asset is confirmed in the release
+            if gh release view "$tag" -R "$GITHUB_REPOSITORY" --json assets -q '.assets[].name' | grep -qx "$asset" \
+               && [ "$day" \< "$KEEP_FROM" ]; then DROP+=("$day"); fi
+          done
+          echo "archived; dropping from the branch: ${DROP[*]:-nothing}"
+          [ ${#DROP[@]} -gt 0 ] || exit 0
+          for day in "${DROP[@]}"; do git rm -q -r --cached "hoard/$day"; done
+          TREE=$(git write-tree)
+          NEW=$(git commit-tree "$TREE" -m "Data hoard: the last 7 days (older days are in the data-hoard-YYYY-MM releases)")
+          git push -q --force-with-lease="data-hoard:$HEAD_SHA" origin "$NEW:refs/heads/data-hoard" \
+            || echo "the branch moved while archiving - it will be pruned tomorrow"

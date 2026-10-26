@@ -196,17 +196,39 @@ def run_paper(cfg: Config, dry_run: bool | None = None, out_dir: str | Path | No
     if cfg.live.max_capital:
         deploy = min(deploy, cfg.live.max_capital)
 
+    # ETF sleeves next to the stock book: each gets its share of the deployed capital
+    etf_w, etf_px = {}, {}
+    stock_deploy = deploy
+    if cfg.multi.enabled:
+        from ..portfolio.sleeves import etf_targets
+
+        etf_w, etf_px, etf_asof, sw = etf_targets(cfg, end=last_completed_session())
+        if etf_asof != asof:
+            LOG.warning("ETF data ends %s but stock data ends %s", etf_asof.date(), asof.date())
+        if tradable is not None:
+            etf_w = {k: v for k, v in etf_w.items() if k in tradable}
+        stock_deploy = deploy * (1 - cfg.multi.etf_fraction)
+        LOG.info("ETF sleeves (%.0f%% of capital): %s | sleeve weights %s", 100 * cfg.multi.etf_fraction,
+                 ", ".join(f"{k} {v:+.2f}" for k, v in sorted(etf_w.items(), key=lambda x: -abs(x[1]))),
+                 sw.iloc[-1].round(2).to_dict())
+
     cols = md.tickers
-    w_cur = np.array([pos_val.get(t, 0.0) / deploy for t in cols]) if deploy > 0 else np.zeros(len(cols))
+    w_cur = (np.array([pos_val.get(t, 0.0) / stock_deploy for t in cols]) if stock_deploy > 0
+             else np.zeros(len(cols)))
     allowed = None if tradable is None else np.array([t in tradable for t in cols])
     no_short = None if shortable is None else np.array([t not in shortable for t in cols])
     dd = equity / peak - 1 if peak > 0 else 0.0
     risk_scale = cfg.portfolio.drawdown_scale if dd < -cfg.portfolio.drawdown_limit else 1.0
     t = len(md.dates) - 1
-    d = dec.decide(t, w_cur, deploy, risk_scale, allowed=allowed, no_short=no_short)
+    d = dec.decide(t, w_cur, stock_deploy, risk_scale, allowed=allowed, no_short=no_short)
 
     prices = {tk: float(px) for tk, px in md.traded_close.iloc[-1].items() if np.isfinite(px)}
-    tw = {tk: float(w) for tk, w in zip(cols, d.weights) if abs(w) > 1e-6}
+    # weights below are fractions of the whole deployed capital
+    share = stock_deploy / deploy if deploy > 0 else 0.0
+    tw = {tk: float(w) * share for tk, w in zip(cols, d.weights) if abs(w) > 1e-6}
+    for tk, w in etf_w.items():
+        tw[tk] = tw.get(tk, 0.0) + w * cfg.multi.etf_fraction * risk_scale
+        prices.setdefault(tk, etf_px.get(tk, np.nan))
     orders, targets = plan_orders(tw, prices, deploy, pos_qty, shortable, cfg.live.min_order_value)
 
     stamp = pd.Timestamp.now(tz="America/New_York").strftime("%Y%m%d_%H%M")

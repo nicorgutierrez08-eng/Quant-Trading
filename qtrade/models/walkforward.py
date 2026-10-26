@@ -28,6 +28,7 @@ class WalkForwardResult:
     refit_dates: list[pd.Timestamp] = field(default_factory=list)
     final_models: dict[str, BaseModel] = field(default_factory=dict)
     fit_seconds: dict[str, float] = field(default_factory=dict)
+    selected: dict[pd.Timestamp, np.ndarray] = field(default_factory=dict)   # refit date -> kept signals
 
 
 def _rows(feats, target, lo, hi):
@@ -38,6 +39,28 @@ def _rows(feats, target, lo, hi):
         ok &= np.isfinite(target[lo : hi + 1])
     d, i = np.nonzero(ok)
     return d + lo, i, F[d, i]
+
+
+def stable_signals(X: np.ndarray, y: np.ndarray, day: np.ndarray, splits: int = 3,
+                   min_t: float = 2.0) -> np.ndarray:
+    """Signals whose daily IC kept the same sign in each of ``splits``
+    consecutive parts of the training window and has |t| >= ``min_t`` overall.
+
+    Features are cross-sectional z-scores and the target is rank-Gaussian, so a
+    day's IC is close to mean(x * y) over that day's stocks. Uses only the
+    training rows, so nothing after the refit date is involved.
+    """
+    order = np.argsort(day, kind="stable")
+    d, Xs, ys = day[order], X[order], y[order]
+    starts = np.r_[0, np.nonzero(np.diff(d))[0] + 1]
+    counts = np.diff(np.r_[starts, len(d)])
+    ic = np.add.reduceat(Xs * ys[:, None], starts, axis=0) / counts[:, None]    # days x features
+    n = len(ic)
+    t = ic.mean(axis=0) / (ic.std(axis=0) + 1e-12) * np.sqrt(n)
+    parts = np.array_split(np.arange(n), splits)
+    signs = np.array([np.sign(ic[p].mean(axis=0)) for p in parts])
+    same = (signs == signs[0]).all(axis=0) & (signs[0] != 0)
+    return same & (np.abs(t) >= min_t)
 
 
 def walk_forward(
@@ -73,6 +96,13 @@ def walk_forward(
         nxt = refits[j + 1] if j + 1 < len(refits) else T
         d_te, i_te, Xte = _rows(feats, None, r, nxt - 1)
         Rte = regimes[d_te]
+        if m.select_stable:
+            keep = stable_signals(X, y, d_tr, m.stable_splits, m.stable_min_t)
+            if keep.sum() >= 3:            # always leave the models something to work with
+                X = np.where(keep, X, 0.0).astype(X.dtype)
+                Xte = np.where(keep, Xte, 0.0).astype(Xte.dtype)
+            res.selected[dates[r]] = keep
+            LOG.info("  kept %d/%d stable signals", int(keep.sum()), len(keep))
         for n in names:
             t0 = time.time()
             model = build_model(n, cfg).fit(X, y, R, d_tr)

@@ -1,0 +1,17 @@
+{
+  "events": {
+    "news_event_types": 15
+  },
+  "survivorship": {
+    "stocks": 14736,
+    "delisted": 1954,
+    "bias": {
+      "a@md": 0.0389,
+      "l@od": -0.0411,
+      "m@ad": -0.0283,
+      "m@od": -0.0295,
+      "r@ed": 0.01,
+      "s@id": 0.0245
+    }
+  }
+}

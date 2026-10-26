@@ -1,0 +1,13 @@
+# The auction trader (python -m qtrade auction-paper): the whole paper account,
+# long/short top / bottom fifth of the 500 most liquid stocks at 2x gross,
+# market-on-close in, market-on-open out (as backtested by qtrade.intraday.slice_sim).
+live:
+  capital_fraction: 1.0
+  max_capital: null
+auction:
+  # 2026-10-23: the auction strategies moved into the $10,000 Google Sheet book (qtrade/intraday/auction_sheet.py);
+  # on Alpaca the keeper only closes what is still open, then stops
+  alpaca_flatten_only: true
+  gross: 2.0
+  frac: 0.2
+  min_order_value: 25

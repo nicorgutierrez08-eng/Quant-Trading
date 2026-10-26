@@ -56,3 +56,17 @@ def test_kernel_ridge_captures_nonlinearity():
     day = np.repeat(np.arange(n // 100), 100)
     m = KernelRidgeModel(n_features=256, seed=0).fit(X, y, R, day)
     assert np.corrcoef(m.predict(X, R), f)[0, 1] > 0.5
+
+
+def test_stable_signal_selection_keeps_consistent_signals():
+    from qtrade.models.walkforward import stable_signals
+
+    rng = np.random.default_rng(0)
+    days, n = 300, 200
+    day = np.repeat(np.arange(days), n)
+    y = rng.standard_normal(days * n)
+    steady = 0.1 * y + rng.standard_normal(days * n)                 # same sign throughout
+    flip = np.where(day < days // 2, 1, -1) * 0.1 * y + rng.standard_normal(days * n)  # flips half-way
+    noise = rng.standard_normal(days * n)
+    keep = stable_signals(np.column_stack([steady, flip, noise]), y, day, splits=3, min_t=2.0)
+    assert keep.tolist() == [True, False, False]

@@ -1,10 +1,9 @@
 name: intraday-trade
 
 # Intraday paper trading: rebalances every 5 minutes on Alpaca paper and goes
-# flat before the close. It owns the whole paper account, so it only runs on
-# schedule when the repository variable TRADING_MODE is "intraday" (and the
-# daily paper-trade workflow then stands aside). Settings -> Secrets and
-# variables -> Actions -> Variables -> TRADING_MODE = intraday.
+# flat before the close. It owns the whole paper account, so only one trader
+# runs on schedule, chosen by the repository variable TRADING_MODE: "auction"
+# (the default, auction-trade), "intraday" (this one) or "daily" (paper-trade).
 #
 # Uses the model.json published by the intraday-backtest workflow. A GitHub job
 # lasts at most 6 hours and the session is 6.5, so a run that reaches its time
@@ -34,7 +33,7 @@ concurrency:
 
 jobs:
   trade:
-    if: github.event_name != 'schedule' || vars.TRADING_MODE == 'intraday'
+    if: github.event_name != 'schedule' || (vars.TRADING_MODE || 'auction') == 'intraday'
     runs-on: ubuntu-latest
     timeout-minutes: 358
     env:
@@ -55,8 +54,16 @@ jobs:
         run: |
           git fetch -q --depth 1 origin results
           mkdir -p data
-          git show origin/results:intraday/latest/model.json > data/intraday_model.json \
-            || { echo "::error::No intraday model yet - run the intraday-backtest workflow first."; exit 1; }
+          # the intraday zoo's winner when it exists, otherwise the production ridge
+          if git show origin/results:intraday/zoo/model_zoo.joblib > data/intraday_model.joblib 2>/dev/null; then
+            echo "MODEL=data/intraday_model.joblib" >> "$GITHUB_ENV"
+            git show origin/results:intraday/zoo/model_zoo.json || true
+          else
+            rm -f data/intraday_model.joblib
+            git show origin/results:intraday/latest/model.json > data/intraday_model.json \
+              || { echo "::error::No intraday model yet - run the intraday-backtest workflow first."; exit 1; }
+            echo "MODEL=data/intraday_model.json" >> "$GITHUB_ENV"
+          fi
       - name: Wait for the open (winter schedule runs an hour early)
         if: github.event_name == 'schedule'
         run: |
@@ -74,7 +81,7 @@ jobs:
           SEND=""
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.send }}" = "true" ]; then SEND="--send"; fi
           LEFT=$(( (JOB_START + 345 * 60 - $(date +%s)) / 60 ))   # stop well inside the 6-hour limit
-          python -m qtrade ${QTRADE_CONFIG:+--config "$QTRADE_CONFIG"} intraday-paper --model data/intraday_model.json \
+          python -m qtrade ${QTRADE_CONFIG:+--config "$QTRADE_CONFIG"} intraday-paper --model "$MODEL" \
             $SEND --minutes "$LEFT" --status-file status.txt
       - name: Continue in a follow-up run
         if: always()

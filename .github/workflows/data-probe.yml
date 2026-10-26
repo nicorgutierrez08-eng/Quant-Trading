@@ -1,0 +1,45 @@
+name: data-probe
+
+# Checks which free news / media / calendar endpoints answer from a GitHub runner
+# (the development container can't reach them). Prints status and a sample of each.
+
+on:
+  push:
+    branches: ["claude/**"]
+    paths: [".github/workflows/data-probe.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Probe endpoints
+        run: |
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+          probe() {
+            echo "::group::$1"
+            code=$(curl -sS -m 40 -A "$UA" -H "Accept: application/json" -o /tmp/out -w "%{http_code}" "$2" || echo ERR)
+            echo "HTTP $code, $(wc -c < /tmp/out) bytes"
+            head -c 1200 /tmp/out; echo
+            echo "::endgroup::"
+            sleep 6
+          }
+          probe nasdaq_earnings "https://api.nasdaq.com/api/calendar/earnings?date=$(date -u +%F)"
+          probe gdelt_doc_vol_2017 "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Tesla%22&mode=timelinevolraw&startdatetime=20170101000000&enddatetime=20170401000000&format=json"
+          probe gdelt_doc_vol_full "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Tesla%22&mode=timelinevolraw&startdatetime=20170101000000&enddatetime=20261001000000&format=json"
+          probe gdelt_doc_tone "https://api.gdeltproject.org/api/v2/doc/doc?query=%22Tesla%22&mode=timelinetone&startdatetime=20200101000000&enddatetime=20200401000000&format=json"
+          probe gdelt_doc_theme "https://api.gdeltproject.org/api/v2/doc/doc?query=recession%20sourcecountry:US&mode=timelinevolraw&startdatetime=20170101000000&enddatetime=20261001000000&format=json"
+          probe gdelt_tv "https://api.gdeltproject.org/api/v2/tv/tv?query=%22Tesla%22%20market:%22National%22&mode=timelinevol&startdatetime=20170101000000&enddatetime=20171231000000&format=json"
+          probe hn_algolia "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1451606400,created_at_i%3C1452211200,points%3E50&hitsPerPage=1000"
+          probe guardian "https://content.guardianapis.com/search?q=Apple&section=business&from-date=2016-01-01&page-size=50&api-key=test"
+          probe reddit "https://www.reddit.com/r/wallstreetbets/top.json?t=all&limit=3"
+          probe stocktwits "https://api.stocktwits.com/api/2/streams/symbol/AAPL.json"
+          probe wiki_top "https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/2020/03/01"
+          probe wiki_search "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Costco%20Wholesale&format=json&srlimit=3"
+          probe gdelt_gkg_index "http://data.gdeltproject.org/gdeltv2/masterfilelist.txt"
+          probe sec_fulltext "https://efts.sec.gov/LATEST/search-index?q=%22going%20concern%22&dateRange=custom&startdt=2020-01-01&enddt=2020-01-31"
+          probe yahoo_calendar "https://query2.finance.yahoo.com/v1/finance/visualization?lang=en-US&region=US"
