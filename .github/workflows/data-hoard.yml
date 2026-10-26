@@ -1,0 +1,70 @@
+name: data-hoard
+
+# Every 30 minutes, snapshots of many free data sources (qtrade/data/hoard.py) are added to the
+# "data-hoard" branch, to analyse later. Open data is stored as gzipped JSON; market prices and
+# other licensed data go into one tar per run, encrypted to config/ledger_public_key.pem.
+# The once-a-day sources run in the first collection after 06:00 UTC each day.
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-hoard
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fetch the hoard branch (trees only)
+        run: |
+          mkdir -p "$RUNNER_TEMP/hoard" && cd "$RUNNER_TEMP/hoard" && git init -q
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          DAY=$(date -u +%F); DAILY=""
+          if git fetch -q --depth 1 --filter=blob:none origin data-hoard; then
+            git ls-tree -d FETCH_HEAD "hoard/$DAY/wiki_top" | grep -q . || DAILY="--daily"
+          else
+            DAILY="--daily"
+          fi
+          [ "$(date -u +%H)" -ge 6 ] || DAILY=""
+          echo "DAILY=$DAILY" >> "$GITHUB_ENV"
+      - name: Collect
+        run: python -m qtrade.data.hoard --out hoard_run $DAILY --public-key config/ledger_public_key.pem
+      - name: Store
+        run: |
+          find hoard_run -type f | head -50; du -sh hoard_run
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cd "$RUNNER_TEMP/hoard"
+          for attempt in 1 2 3 4 5; do
+            rm -f .git/index
+            if git fetch -q --depth 1 --filter=blob:none origin data-hoard; then
+              git read-tree FETCH_HEAD; PARENT="-p FETCH_HEAD"
+            else
+              PARENT=""
+            fi
+            mkdir -p hoard && cp -r "$GITHUB_WORKSPACE"/hoard_run/. hoard/
+            git add --ignore-removal hoard
+            TREE=$(git write-tree)
+            COMMIT=$(git commit-tree $TREE $PARENT -m "Data hoard $(date -u +'%F %H:%M') (run ${GITHUB_RUN_ID})")
+            git push -q origin "$COMMIT:refs/heads/data-hoard" && break
+            sleep $((attempt * 7))
+          done

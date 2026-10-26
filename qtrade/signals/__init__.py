@@ -12,6 +12,13 @@ from . import library  # noqa: F401  (registers every signal)
 from .registry import REGISTRY, SignalSpec, list_signals, signal
 
 
+def normalize_signal(raw: pd.DataFrame, mask: pd.DataFrame) -> pd.DataFrame:
+    """Mask to tradable names, winsorise and z-score per day; missing = 0 (no view)."""
+    raw = raw.reindex_like(mask).replace([np.inf, -np.inf], np.nan).where(mask)
+    z = cs_zscore(raw).clip(-4, 4)
+    return z.where(~mask, z.fillna(0.0)).where(mask).astype("float32")
+
+
 def compute_signals(ctx: FeatureContext, names: list[str] | None = None) -> dict[str, pd.DataFrame]:
     """Compute, mask to tradable names, winsorise and z-score each signal per day.
 
@@ -23,17 +30,15 @@ def compute_signals(ctx: FeatureContext, names: list[str] | None = None) -> dict
     out: dict[str, pd.DataFrame] = {}
     for name in names:
         t0 = time.time()
-        raw = REGISTRY[name].fn(ctx)
-        raw = raw.reindex_like(mask).replace([np.inf, -np.inf], np.nan).where(mask)
-        z = cs_zscore(raw).clip(-4, 4)
-        out[name] = z.where(~mask, z.fillna(0.0)).where(mask).astype("float32")
+        out[name] = normalize_signal(REGISTRY[name].fn(ctx), mask)
         LOG.debug("signal %-22s %.1fs", name, time.time() - t0)
     if len(names) > 1:
         LOG.info("computed %d signals", len(out))
     return out
 
 
-__all__ = ["REGISTRY", "SignalSpec", "compute_signals", "list_signals", "signal", "signal_array"]
+__all__ = ["REGISTRY", "SignalSpec", "compute_signals", "list_signals", "normalize_signal", "signal",
+           "signal_array"]
 
 
 def signal_array(ctx: FeatureContext, names: list[str] | None = None) -> tuple[np.ndarray, list[str]]:

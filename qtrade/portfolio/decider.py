@@ -68,6 +68,8 @@ class Decider:
         if len(pred) > self.h:
             self.persist[self.h:] = rank_ic(pred[self.h:], pred[: -self.h])
         self._load_cache: dict = {}
+        reg = getattr(ctx, "regimes", None)
+        self.regimes = reg.to_numpy() if reg is not None else None
 
     def _loadings(self, t: int, idx: np.ndarray):
         snap = self.fm.snapshot_at(self.dates[t])
@@ -88,8 +90,27 @@ class Decider:
         hist_end = t - self.h - 1          # last day whose label is complete at t
         if hist_end <= 0:
             return p.ic_prior
+        if p.regime_ic and self.regimes is not None:
+            return self._regime_ic(t, hist_end)
         return realized_ic(self.ic[max(0, hist_end - p.ic_lookback + 1) : hist_end + 1],
                            p.ic_prior, p.ic_prior_days)
+
+    def _regime_ic(self, t: int, hist_end: int) -> float:
+        """IC expected today = sum_k P(regime k today) x IC realised in regime k.
+
+        Each regime's IC is the probability-weighted average of past daily ICs
+        (all history up to the last complete label), shrunk toward the prior
+        with ``ic_prior_days`` pseudo-days, so a rarely visited regime is not
+        trusted on a handful of days."""
+        p = self.cfg.portfolio
+        ic = self.ic[: hist_end + 1]
+        P = self.regimes[: hist_end + 1]
+        ok = np.isfinite(ic) & np.isfinite(P).all(axis=1)
+        w = P[ok]
+        ic_k = (w * ic[ok, None]).sum(axis=0) + p.ic_prior * p.ic_prior_days
+        ic_k /= w.sum(axis=0) + p.ic_prior_days
+        now = self.regimes[t]
+        return float(max(np.nansum(now * ic_k) if np.isfinite(now).all() else p.ic_prior, 0.0))
 
     def holding_periods(self, t: int) -> float:
         win = self.persist[max(0, t - 62) : t + 1]
@@ -114,6 +135,10 @@ class Decider:
         N = len(z)
         ic_hat = self.ic_estimate(t)
         hold_L = self.holding_periods(t)
+        ref = self.cfg.portfolio.edge_scaling
+        if ref:
+            # bet more when the expected edge is bigger: exposure follows IC_hat
+            risk_scale = risk_scale * float(np.clip(ic_hat / ref, 0.0, 1.0))
         if len(idx) < 10:
             return Decision(np.zeros(N), SizingInfo(0.0, "no_edge", 0.0, 0.0, 0.0), ic_hat, hold_L, len(idx))
         zz = z[idx]

@@ -70,6 +70,11 @@ def run(md: MarketData, cfg: Config, out_dir: str | Path | None = None, syntheti
     path = write_report(main, summary, cmp_tbl, ic_table, imgs, cfg, out_dir, notes)
     write_markdown(summary, cmp_tbl, ic_table, imgs, out_dir, notes, cfg, diag)
 
+    if research.wf.selected:
+        sel = pd.DataFrame(research.wf.selected, index=research.signal_names).T.astype(int)
+        sel.to_csv(out_dir / "selected_signals.csv")
+        LOG.info("stable-signal selection: kept on average %.1f of %d signals; most often kept:\n%s",
+                 sel.sum(axis=1).mean(), sel.shape[1], sel.mean().sort_values(ascending=False).head(15).round(2))
     main.daily.to_csv(out_dir / "daily.csv")
     cmp_tbl.to_csv(out_dir / "model_comparison.csv")
     ic_table.to_csv(out_dir / "signal_ic.csv", index=False)
@@ -93,6 +98,10 @@ DIAGNOSTIC_VARIANTS = {
     "quoted_spread_costs": {"costs": {"spread_tiers": [[500e6, 1.5], [100e6, 3.0], [20e6, 6.0], [0.0, 12.0]]}},
     "rank_weights": {"portfolio": {"weighting": "rank"}},
     "dollar_neutral_only": {"portfolio": {"factor_neutral": False}},
+    "regime_ic": {"portfolio": {"regime_ic": True}},
+    # exposure follows the expected IC: full size at IC 0.015 (about twice the typical level)
+    "regime_ic + edge_scaling": {"portfolio": {"regime_ic": True, "edge_scaling": 0.015}},
+    "edge_scaling": {"portfolio": {"edge_scaling": 0.015}},
 }
 SWEEP_HALFLIFE = [0, 3, 7, 15, 30]
 SWEEP_COST_AVERSION = [0.0, 0.25, 0.5, 1.0]

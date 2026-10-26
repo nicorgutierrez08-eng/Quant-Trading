@@ -10,6 +10,22 @@ FIELDS = ("open", "high", "low", "close", "volume")
 RAW_FIELDS = ("raw_close", "raw_volume")
 
 
+def bad_prints(open_: pd.DataFrame, close: pd.DataFrame, jump: float = 0.4,
+               net: float = 0.1) -> pd.DataFrame:
+    """Bars that are almost certainly vendor errors: the price jumps by more than
+    ``jump`` (in log terms, ~50%) and comes straight back, so the net move is
+    under ``net``. Checked on consecutive closes and on open vs. surrounding
+    closes. A real 50% gap that sticks is kept; a one-day 30x spike is not."""
+    with np.errstate(divide="ignore", invalid="ignore"):
+        lc = np.log(close.where(close > 0))
+        lo = np.log(open_.where(open_ > 0))
+    r1, r2 = lc.diff(), lc.diff().shift(-1)
+    close_spike = (r1.abs() > jump) & (r2.abs() > jump) & (r1 * r2 < 0) & ((r1 + r2).abs() < net)
+    a, b = lo - lc.shift(1), lc - lo
+    open_spike = (a.abs() > jump) & (b.abs() > jump) & (a * b < 0) & ((a + b).abs() < net)
+    return (close_spike | open_spike).fillna(False)
+
+
 @dataclass
 class MarketData:
     """Split- and dividend-adjusted OHLCV, plus (optionally) the close and volume
@@ -41,8 +57,9 @@ class MarketData:
         for f in RAW_FIELDS:
             if getattr(self, f) is not None:
                 setattr(self, f, getattr(self, f).reindex(index=idx, columns=cols).astype("float64"))
-        # a bar is valid only when open and close both exist and are positive
-        bad = ~((self.close > 0) & (self.open > 0))
+        # a bar is valid only when open and close both exist and are positive,
+        # and is not an isolated bad print
+        bad = ~((self.close > 0) & (self.open > 0)) | bad_prints(self.open, self.close)
         for f in ("open", "high", "low", "close"):
             setattr(self, f, getattr(self, f).mask(bad))
         if self.raw_close is not None:

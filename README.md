@@ -252,6 +252,12 @@ repository variable `QTRADE_CONFIG` = `config/default.yaml`
 
 ## Research data
 
+**Results to share:** [`research_data/`](research_data/README.md) has every
+research output (signal and model correlations, strategy returns, backtests)
+as CSV and Markdown, refreshed with `bash scripts/export_research_data.sh`.
+SEC fundamentals, insider trades and S&P 500 changes are published
+unencrypted in the release **public-data**.
+
 Four datasets beyond daily prices are kept in the GitHub release **data**.
 Each is a tar archive split into 1.9 GB parts, because GitHub caps release
 files at 2 GB. A manifest of what each contains (symbols, row counts, date
@@ -327,10 +333,24 @@ idea (short-term reversal) at a much faster clock, on the 5-minute bars in the
 `python -m qtrade intraday-backtest --store data/intraday/5min`, or
 `--synthetic` for an offline check.
 
-**Paper trading:** Actions -> **intraday-trade** -> Run workflow (dry run by
-default). To run it every trading day, set a repository **variable**
-`TRADING_MODE` = `intraday`; the daily paper-trade workflow then stands aside,
-because both strategies would otherwise fight over the same account. It waits
+**Which trader runs.** Only one strategy may own the paper account, chosen by
+the repository **variable** `TRADING_MODE`:
+
+| `TRADING_MODE` | Workflow | What it does |
+|---|---|---|
+| `auction` (default) | **auction-trade** | market-on-close book at ~15:45 (fade the 15:15-15:45 move + past month's overnight returns), closed with market-on-open orders the next morning; logs every fill against the official open / close |
+| `intraday` | **intraday-trade** | rebalances every 5 minutes, flat by 15:45 |
+| `daily` | **paper-trade** | the daily stock book + ETF sleeves, market-on-open |
+
+The auction trader is the default because auction orders pay no spread: of
+everything tested, its two strategies are the only intraday-style trades whose
+edge survives costs (`research_data/ibkr/intraday_edge_ibkr_no_trades.xlsx`),
+and only if auction fills cost close to 0 bp, which its fill log measures.
+
+**Paper trading (intraday):** Actions -> **intraday-trade** -> Run workflow (dry run by
+default), or set `TRADING_MODE` = `intraday` to run it every day. It uses the intraday
+model zoo's winner (`intraday/zoo/model_zoo.joblib`, retrained monthly) when
+one exists, otherwise the production ridge. It waits
 for the open, rebalances a few seconds after every 5-minute bar using
 Alpaca's free real-time (IEX) feed, and closes everything at 15:45. A GitHub
 job can only run 6 hours, so it hands over to a follow-up run mid-afternoon.
@@ -352,6 +372,12 @@ job can only run 6 hours, so it hands over to a follow-up run mid-afternoon.
    and submits market-on-open orders. It is scheduled at about 6:47am New York
    time with a back-up at 8:17am, because GitHub's scheduler sometimes delays
    or drops runs. The back-up skips itself if orders were already sent that day.
+5. What it trades: by default `config/multi_small_account.yaml`, $10k split
+   half and half between the stock book and seven ETF sleeves
+   (`qtrade/portfolio/sleeves.py`: vol-managed SPY, 200-day average, 12-month
+   trend, turn of the month, cross-asset momentum, risk parity, multi-asset
+   trend). Set the repository variable `QTRADE_CONFIG` to
+   `config/small_account.yaml` to trade the stock book alone.
 
 **Tracking performance:** the **paper-status** workflow reads the account
 after each close and records the day's P&L (on the $10k traded and on the

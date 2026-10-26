@@ -20,6 +20,10 @@ on:
         description: "Send orders to the paper account (false = dry run)"
         type: boolean
         default: false
+      config:
+        description: "Config file for this run (empty = the QTRADE_CONFIG variable or the small account)"
+        type: string
+        default: ""
 
 concurrency:
   group: paper-trade
@@ -27,16 +31,17 @@ concurrency:
 
 jobs:
   trade:
-    # the intraday strategy owns the account when TRADING_MODE = intraday
-    if: github.event_name != 'schedule' || vars.TRADING_MODE != 'intraday'
+    # one trader owns the account: TRADING_MODE = daily runs this one (auction is the default)
+    if: github.event_name != 'schedule' || (vars.TRADING_MODE || 'auction') == 'daily'
     runs-on: ubuntu-latest
     timeout-minutes: 70
     env:
       ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
       ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
-      # $10k small-account settings by default; override with a repository
-      # variable QTRADE_CONFIG (e.g. config/default.yaml for the full 1000-name book)
-      QTRADE_CONFIG: ${{ vars.QTRADE_CONFIG || 'config/small_account.yaml' }}
+      # $10k multi-strategy book (stock book + ETF sleeves, half each) by default;
+      # override with a repository variable QTRADE_CONFIG (e.g. config/small_account.yaml
+      # for the stock book alone, config/default.yaml for the full 1000-name book)
+      QTRADE_CONFIG: ${{ inputs.config || vars.QTRADE_CONFIG || 'config/multi_small_account.yaml' }}
     steps:
       - name: Check for Alpaca keys
         id: keys

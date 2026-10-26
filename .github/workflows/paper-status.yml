@@ -27,7 +27,7 @@ jobs:
     env:
       ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
       ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
-      QTRADE_CONFIG: ${{ vars.QTRADE_CONFIG || 'config/small_account.yaml' }}
+      QTRADE_CONFIG: ${{ vars.QTRADE_CONFIG || 'config/multi_small_account.yaml' }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4

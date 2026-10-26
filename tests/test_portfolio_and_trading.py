@@ -187,3 +187,32 @@ def test_unshortable_names_never_get_short_weights(market, cfg):
     assert (w[no_short] >= -1e-9).all()        # never short the unborrowable names
     assert (w < 0).sum() > 3 and (w > 0).sum() > 3
     assert abs(w.sum()) < 0.05 * np.abs(w).sum()   # still roughly dollar-neutral
+
+
+def test_regime_ic_and_edge_scaling(market, cfg):
+    """Exposure follows the expected edge: a regime where the forecast has
+    worked gets a bigger book than one where it hasn't."""
+    import copy
+
+    import pandas as pd
+
+    from qtrade.portfolio.decider import Decider
+
+    md, _ = market
+    ctx = FeatureContext(md, cfg)
+    fwd = forward_returns(md, cfg.model.horizon).where(ctx.tradable).to_numpy()
+    T = len(md.dates)
+    reg = np.zeros((T, 2))
+    reg[: T // 2, 0], reg[T // 2:, 1] = 1, 1
+    ctx.regimes = pd.DataFrame(reg, index=md.dates)
+    rng = np.random.default_rng(0)
+    pred = np.where(np.isfinite(fwd), rng.standard_normal(fwd.shape), np.nan)
+    pred[T // 2:] = np.where(np.isfinite(fwd[T // 2:]), fwd[T // 2:], np.nan)   # skill only in regime 1
+    c = copy.deepcopy(cfg)
+    c.portfolio.regime_ic, c.portfolio.edge_scaling = True, 0.05
+    dec = Decider(ctx, pred, fwd, c)
+    t_noise, t_skill = T // 2 - 10, T - 20
+    assert dec.ic_estimate(t_skill) > 5 * dec.ic_estimate(t_noise)
+    w_noise = dec.decide(t_noise, np.zeros(len(md.tickers)), 1e7).weights
+    w_skill = dec.decide(t_skill, np.zeros(len(md.tickers)), 1e7).weights
+    assert np.abs(w_skill).sum() > 2 * np.abs(w_noise).sum()

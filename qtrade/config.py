@@ -45,6 +45,8 @@ class RegimeConfig:
     min_history: int = 756           # 3 years before the first fit
     n_init: int = 5                  # random restarts for EM
     max_iter: int = 200
+    temper: float = 1.0              # weight of each day's evidence (<1: less overconfident)
+    align: bool = False              # keep regime labels fixed across refits (else sort by volatility)
 
 
 @dataclass
@@ -64,6 +66,11 @@ class ModelConfig:
     rff_features: int = 256          # random Fourier features (kernel ridge)
     seed: int = 7
     signals: list[str] | None = None # None = every registered signal
+    # keep only signals whose IC had the same sign in every part of the training
+    # window (and a big enough t-stat); the rest are dropped at that refit
+    select_stable: bool = False
+    stable_splits: int = 3           # sub-periods of the training window that must agree
+    stable_min_t: float = 2.0        # minimum |t| of the signal's IC over the whole window
 
 
 @dataclass
@@ -84,6 +91,8 @@ class PortfolioConfig:
     cost_aversion: float = 1.0       # scales costs in the no-trade band (>1 trades less)
     trade_rate: float = 1.0          # extra partial adjustment toward target (1 = off)
     no_trade_band: float = 0.0002    # ignore trades smaller than 2 bp of equity
+    regime_ic: bool = False          # estimate the forecast's IC separately for each HMM regime
+    edge_scaling: float | None = None  # scale exposure by IC_hat / this (capped at 1); None = off
     drawdown_limit: float = 0.15     # cut risk after a 15% drawdown
     drawdown_scale: float = 0.5      # ...to half size until recovery
 
@@ -109,6 +118,43 @@ class LiveConfig:
     capital_fraction: float = 1.0    # fraction of paper equity to deploy
     max_capital: float | None = None # never deploy more than this many dollars
     log_dir: str = "logs"
+
+
+@dataclass
+class MultiConfig:
+    """ETF sleeves (``qtrade.portfolio.sleeves``) traded alongside the stock book."""
+    enabled: bool = False
+    etf_fraction: float = 0.5        # share of deployed capital for the ETF sleeves; the rest is the stock book
+    sleeves: list = field(default_factory=lambda: ["spy_vol_managed", "cross_asset_mom", "spy_ma200",
+                                                   "risk_parity", "spy_tsmom_12m", "broad_trend_12m",
+                                                   "spy_turn_of_month", "multi_asset_trend"])
+    target_vol: float = 0.10         # annualised volatility target for the ETF book
+    max_gross: float = 1.5           # ETF book gross exposure cap (multiple of its capital)
+    vol_window: int = 756            # days of sleeve returns behind the 1 / volatility weights
+    history_start: str = "2004-01-01"
+
+
+@dataclass
+class AuctionConfig:
+    """The auction trader (``qtrade.intraday.auction_live``): market-on-close in, market-on-open out."""
+    strategies: list = field(default_factory=lambda: ["last30_fade", "overnight_persistence", "last_reaction"])
+    gross: float = 2.0               # long + short as a multiple of capital
+    frac: float = 0.2                # long the top fifth, short the bottom fifth
+    capital: float | None = None     # dollars to trade (default: live.capital_fraction / live.max_capital)
+    min_order_value: float = 25.0
+    feed: str = "iex"                # today's 5-minute bars on the free plan
+    earnings_per_event: float = 0.02  # last_reaction: capital per company reporting tonight (long or short)
+    earnings_max_gross: float = 0.5   # ... capped in total on a busy night
+    # the ADR book (qtrade.intraday.adr_book): Asian ADRs vs their home markets, open to close
+    adr_enabled: bool = True          # research (2016-26 Alpaca bars): Sharpe 3.9 / 2.2 at 0 bp, 2.6 / 1.3 at 3 bp
+    adr_mode: str = "premarket"       # "premarket": market-on-open with the pre-market price; "after_open": 9:35
+    adr_gross: float = 0.5            # long + short as a multiple of capital (the overnight book is flat by then)
+    adr_sign: float = 1.0             # +1: follow the home move the ADR hasn't priced yet (research direction)
+    adr_min_residual: float = 0.0     # skip names whose residual is smaller than this (log return)
+    adr_markets: list = field(default_factory=lambda: ["China", "Japan", "Korea", "India"])
+    # true: the auction strategies are simulated in the Google Sheet (qtrade.intraday.auction_sheet); on Alpaca
+    # the keeper only closes what is left open and sends nothing new, then stops its chain once the account is flat
+    alpaca_flatten_only: bool = False
 
 
 @dataclass
@@ -151,6 +197,8 @@ class Config:
     costs: CostConfig = field(default_factory=CostConfig)
     live: LiveConfig = field(default_factory=LiveConfig)
     intraday: IntradayConfig = field(default_factory=IntradayConfig)
+    multi: MultiConfig = field(default_factory=MultiConfig)
+    auction: AuctionConfig = field(default_factory=AuctionConfig)
     report_dir: str = "reports"
     diagnostics: bool = True         # also backtest portfolio-construction variants
 

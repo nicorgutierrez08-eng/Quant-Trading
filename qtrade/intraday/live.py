@@ -4,15 +4,15 @@ Each cycle, a few seconds after a bar closes:
 
 1. fetch today's bars for the model's stocks (real-time IEX feed on the free
    plan) and recompute the same features the backtest uses;
-2. forecast with the coefficients from the latest intraday backtest
-   (``model.json``);
+2. forecast with the latest model: the production ridge (``model.json``) or
+   the intraday zoo's winner (``model_zoo.joblib``);
 3. read the account's positions, build target weights with the backtest's own
    ``target_weights`` and send whole-share market orders for the difference;
 4. from ``flat_bar`` on (15:45, or 15 minutes before an early close) close
    everything, so nothing is held overnight.
 
 This mode owns the whole paper account: don't run it alongside the daily
-strategy (the workflows switch between them with the TRADING_MODE variable).
+strategy (the TRADING_MODE variable picks one: auction (default), intraday or daily).
 A GitHub job can run for at most 6 hours, so the loop stops at ``deadline``
 and reports that a follow-up run is needed; positions live at Alpaca, so the
 next run carries on where this one stopped.
@@ -37,12 +37,21 @@ NY = "America/New_York"
 
 
 def load_model(path: str | Path) -> dict:
+    """model.json (production ridge, from intraday-backtest) or model_zoo.joblib (the
+    intraday zoo's best model, from intraday-train)."""
     path = Path(path)
     if not path.exists():
         raise SystemExit(f"No intraday model at {path}. Run the intraday-backtest workflow first.")
+    if path.suffix == ".joblib":
+        from .zoo_model import load
+
+        bundle = load(path)
+        bundle["kind"] = "zoo"
+        return bundle
     model = json.loads(path.read_text())
     if model.get("features") != FEATURES:
         raise SystemExit("model.json was trained on different features; re-run the intraday backtest.")
+    model["kind"] = "ridge"
     return model
 
 
@@ -77,7 +86,7 @@ class LiveState:
                  len(tickers), icfg.feed.upper(), len(dv))
 
 
-def decide(state: LiveState, today_frames: dict[str, pd.DataFrame], coef: np.ndarray, icfg,
+def decide(state: LiveState, today_frames: dict[str, pd.DataFrame], model: dict, icfg,
            today: pd.Timestamp):
     """Forecast for every completed bar of today: (B x N predictions, bars, sigma)."""
     frames = {}
@@ -92,9 +101,15 @@ def decide(state: LiveState, today_frames: dict[str, pd.DataFrame], coef: np.nda
     if d is None:
         return None, None, None
     hist = history(bars, icfg.vol_days)
-    X = day_features(bars.open[d], bars.close[d], bars.volume[d], bars.vwap[d], hist.prev_close[d],
-                     hist.sigma[d], hist.vol_base[d])
-    pred = np.einsum("bnf,f->bn", np.nan_to_num(X), coef)
+    if model["kind"] == "zoo":
+        from .zoo_model import day_signals, predict_day, tod_grid
+
+        X = day_signals(bars, hist, d)
+        pred = predict_day(model["model"], X, tod_grid(*X.shape[:2]))
+    else:
+        X = day_features(bars.open[d], bars.close[d], bars.volume[d], bars.vwap[d], hist.prev_close[d],
+                         hist.sigma[d], hist.vol_base[d])
+        pred = np.einsum("bnf,f->bn", np.nan_to_num(X), np.asarray(model["coef"]))
     pred[~np.isfinite(X[..., 0])] = np.nan
     return pred, bars.close[d], hist.sigma[d]
 
@@ -108,9 +123,15 @@ def run_intraday_paper(cfg, model_path: str | Path, dry_run: bool = True, minute
                        out_dir: str | Path = "logs") -> dict:
     icfg = cfg.intraday
     model = load_model(model_path)
-    coef = np.asarray(model["coef"])
     tickers = model["tickers"]
-    ic = max(0.5 * float(model.get("ic_in_sample", 0.02)), 0.005)
+    if model["kind"] == "zoo":
+        # sizing uses the zoo's out-of-sample IC; the no-trade band uses the model's horizon
+        ic = max(float(model.get("ic") or 0.02), 0.005)
+        icfg.horizon_bars = int(min(model["horizon"], 24))
+        LOG.info("intraday zoo model %s, horizon %d bars, trained through %s, IC %.4f",
+                 model["model_name"], model["horizon"], model["trained_through"], ic)
+    else:
+        ic = max(0.5 * float(model.get("ic_in_sample", 0.02)), 0.005)
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     t_end = time.time() + minutes * 60 if minutes else None
@@ -156,7 +177,7 @@ def run_intraday_paper(cfg, model_path: str | Path, dry_run: bool = True, minute
             continue
         done_bars.add(b)
         try:
-            row = _cycle(client, data, state, coef, icfg, today, b, flat_bar, ic, cfg, dry_run, live)
+            row = _cycle(client, data, state, model, icfg, today, b, flat_bar, ic, cfg, dry_run, live)
             log_rows.append(row)
             pd.DataFrame(log_rows).to_csv(out_dir / f"intraday_{today.date()}.csv", index=False)
         except Exception as exc:          # keep trading through one bad cycle
@@ -169,7 +190,7 @@ def run_intraday_paper(cfg, model_path: str | Path, dry_run: bool = True, minute
     return result
 
 
-def _cycle(client, data, state, coef, icfg, today, b, flat_bar, ic, cfg, dry_run, live) -> dict:
+def _cycle(client, data, state, model, icfg, today, b, flat_bar, ic, cfg, dry_run, live) -> dict:
     when = pd.Timestamp.now(tz=NY)
     if b + 1 > flat_bar:
         if live and not dry_run:
@@ -181,7 +202,7 @@ def _cycle(client, data, state, coef, icfg, today, b, flat_bar, ic, cfg, dry_run
     start = today.tz_localize(NY) + pd.Timedelta(hours=9, minutes=30)
     end = min(pd.Timestamp.now(tz=NY), start + pd.Timedelta(hours=6, minutes=30))
     today_frames = _fetch(data, state.tickers, f"{icfg.bar_minutes}Min", start, end, icfg.feed)
-    pred, close, sigma = decide(state, today_frames, coef, icfg, today)
+    pred, close, sigma = decide(state, today_frames, model, icfg, today)
     if pred is None:
         return {"time": str(when), "bar": b, "action": "no data"}
     if client is not None:

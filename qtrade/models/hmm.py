@@ -29,8 +29,12 @@ import numpy as np
 
 class GaussianHMM:
     def __init__(self, n_states: int = 3, n_init: int = 5, max_iter: int = 200,
-                 tol: float = 1e-4, reg: float = 1e-3, seed: int = 0):
+                 tol: float = 1e-4, reg: float = 1e-3, seed: int = 0, temper: float = 1.0):
         self.K = n_states
+        # weight of each day's evidence (1 = standard HMM). Below 1 when the
+        # observations overlap (rolling windows), so one piece of news isn't
+        # counted ten times and the regime probabilities aren't overconfident.
+        self.temper = temper
         self.n_init = n_init
         self.max_iter = max_iter
         self.tol = tol
@@ -114,7 +118,7 @@ class GaussianHMM:
         prev = -np.inf
         loglik = prev
         for _ in range(self.max_iter):
-            logB = self._log_emission(X)
+            logB = self._log_emission(X) * self.temper
             alpha, scale, B, loglik = self._forward(logB)
             beta = self._backward(B, scale)
             gamma = alpha * beta
@@ -167,12 +171,28 @@ class GaussianHMM:
     # ------------------------------------------------------------------
     def filter(self, X: np.ndarray) -> np.ndarray:
         """P(s_t | x_1..x_t): uses only the past - safe for trading."""
-        alpha, *_ = self._forward(self._log_emission(X))
+        alpha, *_ = self._forward(self._log_emission(X) * self.temper)
         return alpha
+
+    def predictive_logpdf(self, X: np.ndarray) -> np.ndarray:
+        """log p(x_t | x_1..x_{t-1}) for every t: how well yesterday's regime
+        beliefs, pushed one step through the chain, predicted today. The honest
+        out-of-sample score for comparing models (NaN for rows with gaps)."""
+        logB = self._log_emission(X)
+        alpha = self.filter(X)
+        prior = np.vstack([self.startprob_[None], alpha[:-1] @ self.transmat_])
+        m = logB.max(axis=1, keepdims=True)
+        out = np.log((prior * np.exp(logB - m)).sum(axis=1)) + m[:, 0]
+        out[~np.isfinite(X).all(axis=1)] = np.nan
+        return out
+
+    def predictive_states(self, X: np.ndarray) -> np.ndarray:
+        """P(s_{t+1} | x_1..x_t): tomorrow's regime as seen at today's close."""
+        return self.filter(X) @ self.transmat_
 
     def smooth(self, X: np.ndarray) -> np.ndarray:
         """P(s_t | x_1..x_T): uses the future - diagnostics only."""
-        alpha, scale, B, _ = self._forward(self._log_emission(X))
+        alpha, scale, B, _ = self._forward(self._log_emission(X) * self.temper)
         beta = self._backward(B, scale)
         g = alpha * beta
         return g / g.sum(axis=1, keepdims=True)

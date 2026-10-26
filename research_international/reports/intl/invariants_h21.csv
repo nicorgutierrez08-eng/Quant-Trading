@@ -1,0 +1,13 @@
+signal,markets_robust,of,robust_positive,robust_negative
+mom_12_1,15,21,15,0
+resid_mom,14,21,14,0
+size_proxy,8,21,8,0
+amihud,7,21,7,0
+high_52w,5,21,5,0
+rev_5d,5,21,5,0
+mom_6_1,4,21,4,0
+low_vol,3,21,3,0
+rev_1d,3,21,3,0
+max_effect,2,21,2,0
+rev_21d,2,21,2,0
+low_beta,0,21,0,0

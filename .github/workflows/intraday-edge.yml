@@ -1,0 +1,74 @@
+name: intraday-edge
+
+# The four intraday strategies with an edge before costs, traded through IBKR
+# Lite and IBKR Pro Tiered (qtrade/intraday/slice_sim.py). Needs DATA_KEY. The
+# workbook without fill prices goes to intraday/edge/ on the "results" branch;
+# the full one (with the trade ledger) is attached to the run encrypted with
+# DATA_KEY. To open it:
+#   openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass env:DATA_KEY -in intraday_edge_ibkr.xlsx.enc -out intraday_edge_ibkr.xlsx
+
+on:
+  workflow_dispatch:
+    inputs:
+      capital:
+        description: "Account size in dollars"
+        default: "100000"
+  push:
+    branches: ["claude/**"]
+    paths: ["qtrade/intraday/slice_sim.py", ".github/workflows/intraday-edge.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      DATA_KEY: ${{ secrets.DATA_KEY }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Free disk space (the dataset is several GB)
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fetch 5-minute bars
+        run: |
+          source scripts/datastore.sh
+          fetch_dataset intraday_5min intraday/5min || { echo "::error::No intraday_5min dataset"; exit 1; }
+      - name: Simulate
+        run: |
+          set -o pipefail
+          mkdir -p reports/edge
+          python -m qtrade.intraday.slice_sim --store data/intraday/5min --symbols 500 \
+            --capital "${{ inputs.capital || '100000' }}" --out reports/edge 2>&1 | tee reports/edge/run.log
+      - name: Encrypt the workbook with the trade ledger (its fill prices are licensed market data)
+        run: |
+          openssl enc -e -aes-256-cbc -pbkdf2 -iter 200000 -pass env:DATA_KEY \
+            -in reports/edge/intraday_edge_ibkr.xlsx -out reports/edge/intraday_edge_ibkr.xlsx.enc
+          rm reports/edge/intraday_edge_ibkr.xlsx
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: intraday-edge-workbook
+          path: reports/edge
+          retention-days: 14
+      - name: Publish to the results branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          RES=$(mktemp -d)
+          for attempt in 1 2 3 4 5; do
+            rm -rf "$RES"; mkdir -p "$RES"; cd "$RES"; git init -q
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+            git fetch -q --depth 1 origin results && git checkout -q -B results FETCH_HEAD
+            rm -rf intraday/edge && mkdir -p intraday/edge
+            cp "$GITHUB_WORKSPACE"/reports/edge/{intraday_edge_ibkr_no_trades.xlsx,summary.csv,signs.json} intraday/edge/
+            git add -A && git commit -q -m "Intraday edge strategies on IBKR (run ${{ github.run_id }})"
+            if git push -q origin results; then echo "published intraday/edge"; break; fi
+            sleep $((attempt * 15))
+          done

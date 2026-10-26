@@ -1,0 +1,65 @@
+name: hft-replay
+
+# Replays the shadow HFT on recorded IEX quotes and trades for a grid of rule variants
+# (qtrade/research/hft_replay.py): the first half of the days picks each strategy's rules,
+# the second half tests them. The report (aggregates only) goes to the results branch under
+# research/hft_replay/; hft_rules.json is the proposed config/hft_rules.json.
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "sessions to replay"
+        default: "10"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hft-replay
+  cancel-in-progress: false
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Tick cache
+        uses: actions/cache@v4
+        with:
+          path: data/hft_replay
+          key: hft-replay-${{ github.run_id }}
+          restore-keys: hft-replay-
+      - name: Replay
+        run: python -m qtrade.research.hft_replay --days "${{ inputs.days || '10' }}" --out reports/hft_replay
+      - name: Store the report
+        if: always()
+        run: |
+          ls reports/hft_replay/* >/dev/null 2>&1 || exit 0
+          cat reports/hft_replay/hft_replay.md >> "$GITHUB_STEP_SUMMARY"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            RES=$(mktemp -d)
+            (
+              cd "$RES" && git init -q
+              git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+              git fetch -q --depth 1 origin results && git checkout -q -B results FETCH_HEAD
+              mkdir -p research/hft_replay
+              cp "$GITHUB_WORKSPACE"/reports/hft_replay/* research/hft_replay/
+              git add -A research/hft_replay
+              git commit -q -m "HFT replay (run ${GITHUB_RUN_ID})" || exit 0
+              git push -q origin results
+            ) && break
+            sleep $((attempt * 5))
+          done

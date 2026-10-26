@@ -11,6 +11,7 @@
     python -m qtrade fundamentals        # download SEC fundamentals
     python -m qtrade intraday-backtest   # intraday reversal strategy on 5-minute bars
     python -m qtrade intraday-paper      # trade it on Alpaca paper every 5 minutes
+    python -m qtrade auction-paper --phase close|open   # auction trader (market-on-close / -open)
     python -m qtrade signals             # list every signal in the library
 """
 from __future__ import annotations
@@ -174,6 +175,31 @@ def cmd_intraday_backtest(args):
     print(f"\nReport: {args.out}/README.md")
 
 
+def cmd_auction_paper(args):
+    """The auction trader: market-on-close book in the evening, market-on-open exit in the morning."""
+    from .intraday import auction_live as A
+
+    cfg = _cfg(args)
+    dry = not args.send
+    if args.phase == "keeper":
+        tickers, signs = A.load_inputs(args.tickers, args.signs)
+        res = A.run_keeper(cfg, tickers, signs, hours=args.hours, dry_run=dry, out_dir=args.out)
+        print(f"auction keeper: {res['status']}, {len(res['actions'])} actions")
+        return
+    try:
+        A.fill_report(days=4, out_dir=args.out)
+    except Exception as exc:          # the report must never block trading
+        A.LOG.warning("fill report failed: %s", exc)
+    if args.phase == "close":
+        tickers, signs = A.load_inputs(args.tickers, args.signs)
+        res = A.run_close(cfg, tickers, signs, dry_run=dry, out_dir=args.out)
+    elif args.phase == "open":
+        res = A.run_open(cfg, dry_run=dry, out_dir=args.out)
+    else:
+        res = {"status": "report only"}
+    print(f"auction {args.phase}: {res}")
+
+
 def cmd_intraday_paper(args):
     """Trade the intraday strategy on Alpaca paper, every bar until the close."""
     from .intraday.live import run_intraday_paper
@@ -297,6 +323,16 @@ def main(argv=None):
     p.add_argument("--minutes", type=float, help="stop after this many minutes (GitHub's 6-hour job limit)")
     p.add_argument("--status-file", help="write done / continue / closed here")
     p.set_defaults(fn=cmd_intraday_paper)
+    p = sub.add_parser("auction-paper", help="trade the auction strategies on Alpaca paper")
+    p.add_argument("--phase", choices=["keeper", "close", "open", "report"], required=True,
+                   help="keeper: stay up and act at the right moments; close: market-on-close book (~15:45); "
+                        "open: market-on-open exit (before 9:28)")
+    p.add_argument("--hours", type=float, default=5.4, help="keeper: how long to stay up")
+    p.add_argument("--tickers", default="data/auction_tickers.json", help="JSON list (or {'tickers': [...]})")
+    p.add_argument("--signs", default="data/auction_signs.json", help="strategy directions from the backtest")
+    p.add_argument("--send", action="store_true", help="really submit orders (paper account)")
+    p.add_argument("--out", default="logs")
+    p.set_defaults(fn=cmd_auction_paper)
     p = sub.add_parser("news", help="download news headlines from Alpaca")
     p.add_argument("--symbols", type=int, default=1000, help="first N stocks of the universe")
     p.add_argument("--start", default="2015-01-01")

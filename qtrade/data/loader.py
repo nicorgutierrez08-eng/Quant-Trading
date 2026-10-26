@@ -10,6 +10,8 @@ re-downloading rather than appending.
 """
 from __future__ import annotations
 
+import re
+
 import time
 from pathlib import Path
 
@@ -22,9 +24,17 @@ from .market import FIELDS, RAW_FIELDS, MarketData
 _YF_FIELDS = {"open": "Open", "high": "High", "low": "Low", "close": "Close", "volume": "Volume"}
 
 
+# exchange suffixes Yahoo writes with a dot (Tokyo, Hong Kong, Korea, Taiwan, Sydney, India, China, Singapore)
+_EXCHANGE_SUFFIX = re.compile(r"^(.+)\.(T|HK|KS|KQ|TW|TWO|AX|NS|BO|SS|SZ|SI|L|DE|PA|AS|MI|SW|ST|CO|OL|HE|BR|LS|TO)$")
+
+
 def to_yahoo(ticker: str) -> str:
-    """Yahoo uses '-' for share classes: BRK.B -> BRK-B."""
-    return ticker.strip().upper().replace(".", "-").replace("/", "-")
+    """Yahoo uses '-' for share classes: BRK.B -> BRK-B (but keeps exchange suffixes: 7203.T, 0700.HK)."""
+    t = ticker.strip().upper()
+    m = _EXCHANGE_SUFFIX.match(t)
+    if m:
+        return m.group(1).replace("/", "-") + "." + m.group(2)
+    return t.replace(".", "-").replace("/", "-")
 
 
 def to_alpaca(ticker: str) -> str:
@@ -46,6 +56,34 @@ def _download_batch(tickers: list[str], start: str, end: str | None) -> dict[str
     return split_yahoo_frame(raw)
 
 
+def clean_dividend_factor(factor: pd.DataFrame, max_step: float = 0.25) -> pd.DataFrame:
+    """Repair Yahoo's dividend adjustment factor (Adj Close / Close).
+
+    The factor can only move on ex-dividend days, by about the dividend's share
+    of the price, so it is a slowly rising step function that ends at 1. Yahoo
+    occasionally serves a stretch where Adj Close and Close disagree by a split
+    ratio; the factor then jumps by 2x, 10x or more and back. Steps larger than
+    ``max_step`` are treated as such glitches and removed, and the factor is
+    rebuilt backwards from its (reliable) latest value.
+    """
+    lf = np.log(factor.ffill().bfill())
+    d = lf.diff().fillna(0.0)
+    big = d.abs() > np.log1p(max_step)
+    for col in d.columns[big.any()]:
+        x = d[col].to_numpy().copy()
+        pending = 0.0                  # glitch steps not yet undone
+        for i in np.nonzero(big[col].to_numpy())[0]:
+            pending += x[i]
+            x[i] = 0.0
+            if abs(pending) <= np.log1p(max_step):   # glitch closed: keep the real change inside it
+                x[i] = pending
+                pending = 0.0
+        d[col] = x
+    later = d.iloc[::-1].cumsum().iloc[::-1].shift(-1).fillna(0.0)   # sum of steps after each day
+    clean = np.exp(lf.iloc[-1] - later)
+    return clean.where(factor.notna())
+
+
 def split_yahoo_frame(raw: pd.DataFrame) -> dict[str, pd.DataFrame]:
     """Turn an unadjusted ``yf.download(..., actions=True)`` frame into adjusted
     OHLCV panels plus the as-traded close and volume.
@@ -62,14 +100,12 @@ def split_yahoo_frame(raw: pd.DataFrame) -> dict[str, pd.DataFrame]:
     if close is None:
         return out
     factor = (adj / close) if adj is not None else close * 0 + 1.0   # dividend adjustment
-    factor = factor.where(np.isfinite(factor) & (factor > 0))
+    factor = clean_dividend_factor(factor.where(np.isfinite(factor) & (factor > 0)))
     for f, yf_name in _YF_FIELDS.items():
         df = get(yf_name)
         if df is None:
             continue
-        if f == "close" and adj is not None:
-            df = adj
-        elif f != "volume":            # volume is already split-adjusted, and dividends don't touch it
+        if f != "volume":              # volume is already split-adjusted, and dividends don't touch it
             df = df * factor
         out[f] = df
     splits = get("Stock Splits")   # absent only when the batch had none
@@ -130,10 +166,14 @@ def cache_paths(cache_dir: str | Path) -> dict[str, Path]:
     return {f: cache_dir / "prices" / f for f in FIELDS + RAW_FIELDS}
 
 
+CACHE_VERSION = "3"   # bump when the download's processing changes, to force a fresh download
+
+
 def save_market(md: MarketData, cache_dir: str | Path) -> None:
     for f, p in cache_paths(cache_dir).items():
         if getattr(md, f) is not None:
             save_frame(getattr(md, f).astype("float32"), p)
+    (Path(cache_dir) / "prices" / "VERSION").write_text(CACHE_VERSION)
 
 
 def load_market(cache_dir: str | Path) -> MarketData | None:
@@ -173,8 +213,9 @@ def get_market_data(
         fresh = cached.dates[-1] >= target_end - pd.Timedelta(days=4)
         covered = len(want - have) <= max(5, 0.01 * len(want))
         starts_ok = cached.dates[0] <= pd.Timestamp(start) + pd.Timedelta(days=10)
-        if not cached.has_raw:
-            LOG.info("cached prices have no as-traded close/volume; downloading again")
+        vfile = Path(cache_dir) / "prices" / "VERSION"
+        if not cached.has_raw or not vfile.exists() or vfile.read_text().strip() != CACHE_VERSION:
+            LOG.info("cached prices come from an older version of the downloader; downloading again")
         elif fresh and covered and starts_ok:
             LOG.info("using cached prices (%d tickers, through %s)", len(have), cached.dates[-1].date())
             return cached.subset(tickers=[t for t in cached.tickers if t in want])

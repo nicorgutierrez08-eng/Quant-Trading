@@ -90,7 +90,7 @@ class AlpacaBars:
         out: dict[str, list[dict]] = {}
         params = {
             "symbols": ",".join(to_alpaca(s) for s in symbols), "timeframe": timeframe,
-            "start": start, "end": end, "limit": 10000, "adjustment": "all",
+            "start": start, "end": end, "limit": 10000, "adjustment": getattr(self, "adjustment", "all"),
             "feed": self.feed, "sort": "asc",
         }
         while True:

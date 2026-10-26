@@ -1,0 +1,122 @@
+name: research
+
+# Research studies on real data (qtrade/research): data quality, real bid-ask
+# spreads from Alpaca quotes, per-signal edge vs. cost, fundamental and news
+# signals, trading only when the edge is biggest, and HMM accuracy.
+# Runs on pushes to claude/* branches that change the studies, or by hand.
+# Results go to research/ on the "results" branch.
+
+on:
+  push:
+    branches: ["claude/**"]
+    paths: ["qtrade/research/**", ".github/workflows/research.yml"]
+  workflow_dispatch:
+    inputs:
+      tasks:
+        description: "Comma list: quality,spreads,edge,alt,poisson,conditional,combos,garch,glm,strategies,events,survivorship,hmm,consumer,news,asia,flip,multi (blank = all)"
+        default: ""
+
+permissions:
+  contents: write
+
+# each commit gets its own run, so a new push doesn't cancel a long run in progress
+concurrency:
+  group: research-${{ github.sha }}
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      GH_TOKEN: ${{ github.token }}
+      DATA_KEY: ${{ secrets.DATA_KEY }}
+      FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Restore price cache
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: prices-1000-15-2000-01-01-research-${{ github.run_id }}
+          restore-keys: prices-1000-15-2000-01-01-
+      - name: Restore news / media data (media-collect workflow)
+        uses: actions/cache/restore@v4
+        with:
+          path: media_data
+          key: media-none
+          restore-keys: media-
+      - name: Select universe
+        run: '[ -f data/universe.csv ] || python -m qtrade universe'
+      - name: Fetch fundamentals and news
+        run: |
+          source scripts/datastore.sh
+          fetch_dataset fundamentals fundamentals || echo "no fundamentals dataset"
+          fetch_dataset news news || echo "no news dataset"
+          # daily returns of the reversal book from the most recent clean backtest, for correlations
+          git fetch -q --depth 1 origin results || true
+          RUN=$(git ls-tree --name-only origin/results runs/ 2>/dev/null | grep clean-data | tail -1)
+          [ -n "$RUN" ] && git show "origin/results:$RUN/daily.csv" > data/reversal_daily.csv || true
+          # daily statistics from the 5-minute bars (built once, then kept in the data cache)
+          if [ ! -f data/public/intraday_stats.parquet ]; then
+            sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc || true
+            fetch_dataset intraday_5min intraday/5min && python -m qtrade.research.intraday_stats data/intraday/5min || echo "no intraday stats"
+            rm -rf data/intraday
+          fi
+      - name: Run studies
+        env:
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
+        run: |
+          set -o pipefail
+          mkdir -p reports/research
+          # a commit message containing "[research: garch,glm]" runs only those tasks
+          TASKS="${{ inputs.tasks }}"
+          if [ -z "$TASKS" ]; then
+            TASKS=$( (printf '%s' "$COMMIT_MSG" | grep -o '\[research: [a-z,]*\]' || true) | sed 's/\[research: //; s/\]//' | head -1)
+            # a push without a [research: ...] tag (e.g. zoo-only work) has nothing to run here
+            if [ -z "$TASKS" ] && [ "${{ github.event_name }}" = "push" ]; then echo "no research tag"; exit 0; fi
+          fi
+          TASKS=${TASKS:-quality,spreads,edge,alt,poisson,conditional,combos,garch,glm,strategies,events,survivorship,intraday,hmm}
+          echo "tasks: $TASKS"
+          # optional: Google search interest for the consumer study (unofficial client; skipped if it fails).
+          # Fetched slowly to stay under Google's throttle and kept in the data cache, so each run adds more.
+          case "$TASKS" in *consumer*) pip install -q pytrends || echo "pytrends unavailable"
+                                       export TRENDS_BUDGET_MIN=${TRENDS_BUDGET_MIN:-150};; esac
+          python -m qtrade.research --tasks "$TASKS" --out reports/research 2>&1 | tee reports/research/run.log
+      - name: Publish to the results branch
+        if: always() && hashFiles('reports/research/**') != ''
+        run: |
+          cat reports/research/README.md >> "$GITHUB_STEP_SUMMARY" || true
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          RUN_DIR="research/runs/$(date -u +%Y-%m-%d_%H%M)_${GITHUB_SHA::7}"
+          RES=$(mktemp -d)
+          for attempt in 1 2 3 4 5; do
+            rm -rf "$RES"; mkdir -p "$RES"; cd "$RES"; git init -q
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+            if git fetch -q --depth 1 origin results; then git checkout -q -B results FETCH_HEAD; else git checkout -q --orphan results; fi
+            mkdir -p "$RUN_DIR"
+            cp -r "$GITHUB_WORKSPACE/reports/research/." "$RUN_DIR/"
+            # a partial run (some tasks only) adds its files to latest instead of replacing it
+          mkdir -p research/latest && cp -r "$GITHUB_WORKSPACE/reports/research/." research/latest/
+          { echo "# Research results"; echo
+            for f in data_quality spreads edge alt poisson conditional combos garch glm strategies multi flip consumer events survivorship intraday hmm; do
+              [ -f "research/latest/$f.md" ] && { cat "research/latest/$f.md"; echo; }
+            done; } > research/latest/README.md
+            git add -A && git commit -q -m "Research run ${GITHUB_SHA::7} (run ${{ github.run_id }})"
+            if git push -q origin results; then echo "published $RUN_DIR"; break; fi
+            sleep $((attempt * 15))
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: research
+          path: reports/research

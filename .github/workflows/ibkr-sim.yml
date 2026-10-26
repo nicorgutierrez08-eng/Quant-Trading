@@ -1,0 +1,75 @@
+name: ibkr-sim
+
+# The intraday strategy as an Interactive Brokers (IBKR Pro Tiered) account
+# would have traded it: a workbook with every fill of the last months, the
+# account value each day since 2016, and fees broken down
+# (qtrade/intraday/ibkr_sim.py). Needs the DATA_KEY secret. The workbook without
+# the trade ledger goes to intraday/ibkr/ on the "results" branch; the full one
+# is attached to the run encrypted with DATA_KEY. To open it:
+#   openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -pass env:DATA_KEY -in ibkr_intraday.xlsx.enc -out ibkr_intraday.xlsx
+
+on:
+  workflow_dispatch:
+    inputs:
+      capital:
+        description: "Account size in dollars"
+        default: "100000"
+  push:
+    branches: ["claude/**"]
+    paths: ["qtrade/intraday/ibkr_sim.py", ".github/workflows/ibkr-sim.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      DATA_KEY: ${{ secrets.DATA_KEY }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Free disk space (the dataset is several GB)
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fetch 5-minute bars
+        run: |
+          source scripts/datastore.sh
+          fetch_dataset intraday_5min intraday/5min || { echo "::error::No intraday_5min dataset"; exit 1; }
+      - name: Simulate
+        run: |
+          set -o pipefail
+          mkdir -p reports/ibkr
+          python -m qtrade.intraday.ibkr_sim --store data/intraday/5min --symbols 500 \
+            --capital "${{ inputs.capital || '100000' }}" --out reports/ibkr 2>&1 | tee reports/ibkr/run.log
+      - name: Encrypt the workbook with the trade ledger (its fill prices are licensed market data)
+        run: |
+          openssl enc -e -aes-256-cbc -pbkdf2 -iter 200000 -pass env:DATA_KEY \
+            -in reports/ibkr/ibkr_intraday.xlsx -out reports/ibkr/ibkr_intraday.xlsx.enc
+          rm reports/ibkr/ibkr_intraday.xlsx
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ibkr-workbook
+          path: reports/ibkr
+          retention-days: 14
+      - name: Publish to the results branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          RES=$(mktemp -d)
+          for attempt in 1 2 3 4 5; do
+            rm -rf "$RES"; mkdir -p "$RES"; cd "$RES"; git init -q
+            git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+            git fetch -q --depth 1 origin results && git checkout -q -B results FETCH_HEAD
+            rm -rf intraday/ibkr && mkdir -p intraday/ibkr
+            cp "$GITHUB_WORKSPACE"/reports/ibkr/{ibkr_intraday_no_trades.xlsx,ibkr_daily.csv,summary.json} intraday/ibkr/
+            git add -A && git commit -q -m "IBKR intraday simulation (run ${{ github.run_id }})"
+            if git push -q origin results; then echo "published intraday/ibkr"; break; fi
+            sleep $((attempt * 15))
+          done

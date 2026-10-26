@@ -1,0 +1,5 @@
+# Half the walk-forward refits (every 126 days instead of 63) so a six-model
+# backtest including GBM fits in two hours on a 4-core box. Both arms of the
+# regime comparison use this file, so the comparison stays like-for-like.
+model:
+  retrain_every: 126

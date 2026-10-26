@@ -1,0 +1,53 @@
+name: auction-sheet
+
+# The auction strategies as a sleeve of the simulated $10,000 Google Sheet book
+# (qtrade/intraday/auction_sheet.py). Once a day after the close: last night's book is
+# closed at today's official open, today's ADR book is settled open -> close, and tonight's
+# book is opened at today's official close - all in the sheet's "Auction book" and
+# "Auction trades" tabs. Nothing is sent to Alpaca. The two crons cover ~16:25 New York in
+# summer and winter time; the script itself only runs between 16:20 and midnight New York, once a day.
+
+on:
+  schedule:
+    - cron: "26 20,21,22,23 * * 1-5"      # GitHub often fires late or skips: several chances a day
+    - cron: "26 0,1,2,3 * * 2-6"          # ... still the same New York evening
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "run now even outside 16:20-24:00 New York"
+        default: "false"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: auction-sheet
+  cancel-in-progress: false
+
+jobs:
+  sleeve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}            # market data only
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}            # last_reaction: earnings dates
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      HFT_SHEET_ID: ${{ secrets.HFT_SHEET_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Universe and strategy directions
+        run: |
+          git fetch -q --depth 1 origin results
+          mkdir -p data
+          git show origin/results:intraday/latest/model.json > data/auction_tickers.json
+          git show origin/results:intraday/edge/signs.json > data/auction_signs.json 2>/dev/null || rm -f data/auction_signs.json
+      - name: Settle and rebalance the sleeve
+        run: |
+          if [ "${{ inputs.force }}" = "true" ]; then F=--force; else F=; fi
+          python -m qtrade.intraday.auction_sheet $F

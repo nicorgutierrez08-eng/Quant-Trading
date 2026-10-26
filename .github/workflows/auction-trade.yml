@@ -1,0 +1,109 @@
+name: auction-trade
+
+# The auction trader on Alpaca paper (qtrade/intraday/auction_live.py):
+#   ~15:45 New York  market-on-close orders for the overnight book (plus the earnings
+#                    leg: names reporting tonight, by their last earnings reaction)
+#   9:00-9:27        market-on-open orders that close everything
+#                    (9:31-10:30: anything still open is closed with market orders)
+# Each action first reports the previous auction's fills against the official
+# open / close (the real cost; the backtest assumes 0 bp).
+#
+# GitHub starts scheduled runs hours late on busy days (on 2026-10-21 by 2.5-5
+# hours, which missed the first close), so nothing here depends on the
+# scheduler's timing. A "keeper" job stays up for ~5.4 hours polling the clock
+# and acts at the right minute; before it ends it starts the next keeper, so
+# one is always running. The hourly schedules are only a watchdog that starts a
+# keeper if the chain ever breaks. Every action is guarded against repeats, so
+# overlapping keepers can't double-trade.
+#
+# It owns the paper account overnight: it runs only while the repository
+# variable TRADING_MODE is "auction" or unset ("daily" -> paper-trade,
+# "intraday" -> intraday-trade). Changing the variable stops the chain.
+
+on:
+  schedule:
+    - cron: "17 * * * 1-5"        # watchdog only: start a keeper if none is running (it stops at once when flat)
+  workflow_dispatch:
+    inputs:
+      phase:
+        description: "keeper (stay up and trade at the right moments), close, open or report"
+        default: "keeper"
+      send:
+        description: "Send orders to the paper account (false = dry run)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: write                  # the keeper starts its successor
+
+concurrency:
+  group: paper-account
+  cancel-in-progress: false
+
+jobs:
+  trade:
+    if: (vars.TRADING_MODE || 'auction') == 'auction' || (github.event_name == 'workflow_dispatch' && inputs.phase != 'keeper')
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      QTRADE_CONFIG: ${{ vars.AUCTION_CONFIG || 'config/auction_paper.yaml' }}
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}      # last_reaction: previous earnings releases from SEC
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Which phase?
+        id: phase
+        run: |
+          PHASE="${{ inputs.phase || 'keeper' }}"
+          SEND="${{ inputs.send }}"
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            SEND=true
+            # watchdog: stand aside if a keeper is already running
+            RUNNING=$(gh run list -R "${{ github.repository }}" --workflow auction-trade.yml --status in_progress \
+                      --json databaseId -q "[.[] | select(.databaseId != ${{ github.run_id }})] | length")
+            if [ "${RUNNING:-0}" -gt 0 ]; then echo "a keeper is running - nothing to do"; PHASE=none; fi
+          fi
+          echo "phase=$PHASE" >> "$GITHUB_OUTPUT"
+          echo "send=$SEND" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        if: steps.phase.outputs.phase != 'none'
+      - uses: actions/setup-python@v5
+        if: steps.phase.outputs.phase != 'none'
+        with:
+          python-version: "3.11"
+          cache: pip
+      - if: steps.phase.outputs.phase != 'none'
+        run: pip install -r requirements.txt
+      - name: Universe and strategy directions
+        if: steps.phase.outputs.phase != 'none'
+        run: |
+          git fetch -q --depth 1 origin results
+          mkdir -p data
+          git show origin/results:intraday/latest/model.json > data/auction_tickers.json
+          git show origin/results:intraday/edge/signs.json > data/auction_signs.json 2>/dev/null \
+            || { echo "no signs.json yet - using the default directions"; rm -f data/auction_signs.json; }
+      - name: Trade
+        if: steps.phase.outputs.phase != 'none'
+        run: |
+          SEND=""; [ "${{ steps.phase.outputs.send }}" = "true" ] && SEND="--send"
+          python -m qtrade ${QTRADE_CONFIG:+--config "$QTRADE_CONFIG"} auction-paper \
+            --phase "${{ steps.phase.outputs.phase }}" --hours 5.4 $SEND --out logs
+      - name: Start the next keeper
+        # only real (sending) keepers continue the chain; a manual dry run ends after one window
+        if: always() && steps.phase.outputs.phase == 'keeper' && steps.phase.outputs.send == 'true' && (vars.TRADING_MODE || 'auction') == 'auction'
+        run: |
+          if [ "$(cat logs/keeper_state.txt 2>/dev/null)" = "stop" ]; then
+            echo "the account is flat and the auction book now lives in the sheet - chain stopped"; exit 0
+          fi
+          gh workflow run auction-trade.yml -R "${{ github.repository }}" --ref "${{ github.ref_name }}" \
+            -f phase=keeper -f send=${{ steps.phase.outputs.send }}
+          echo "next keeper started"
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.phase.outputs.phase != 'none'
+        with:
+          name: auction-${{ steps.phase.outputs.phase }}-${{ github.run_id }}
+          path: logs
+          retention-days: 30
+          if-no-files-found: ignore

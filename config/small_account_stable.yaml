@@ -1,0 +1,20 @@
+# The $10k account, trading only signals that have been consistent in their own training window.
+#     python -m qtrade --config config/small_account.yaml backtest
+#     python -m qtrade --config config/small_account.yaml paper
+portfolio:
+  max_names: 60            # 30 longs + 30 shorts (whole shares need ~$300+ per name)
+  n_neutral_factors: 3     # hedge market + 2 strongest PCA factors (15 is too many for 60 names)
+  whole_shares: true       # market-on-open orders cannot be fractional
+  max_gross: 2.0           # Reg T: $10k equity -> up to $20k of positions
+costs:
+  aum: 10000               # impact is computed for this account size
+  slippage_bps: 1.5        # auction price vs. fair value
+  spread_tiers:            # market-on-open orders trade at one auction price: no spread to cross
+  - [0.0, 0.0]
+live:
+  max_capital: 10000       # paper accounts start at $100k; trade only $10k of it
+  min_order_value: 25
+model:
+  select_stable: true      # at each refit keep only signals whose IC had the same sign in every third of the training window
+  stable_splits: 3
+  stable_min_t: 2.0

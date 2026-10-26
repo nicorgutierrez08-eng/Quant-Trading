@@ -1,0 +1,56 @@
+name: foreign-research
+
+# Foreign stock exchanges at the sheet's rules (qtrade/research/foreign.py): auction strategies in
+# Asian and European markets at 0 bp and after real costs, plus checks that the overnight edge is
+# not an artefact of stale Yahoo opening prices; and the minute-level version (foreign_hft.py:
+# cross-sectional reversal / momentum on 5-minute bars, after an estimated spread). The report goes to the results branch under
+# research/foreign/.
+
+on:
+  workflow_dispatch:
+    inputs:
+      study:
+        description: "daily (auction strategies), minute (foreign_hft) or both"
+        default: "both"
+
+permissions:
+  contents: write
+
+jobs:
+  study:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - if: inputs.study != 'minute'
+        run: python -m qtrade.research.foreign --out reports/foreign
+      - if: inputs.study != 'daily'
+        run: python -m qtrade.research.foreign_hft --out reports/foreign
+      - name: Store the report
+        if: always()
+        run: |
+          ls reports/foreign/* >/dev/null 2>&1 || exit 0
+          cat reports/foreign/*.md >> "$GITHUB_STEP_SUMMARY"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            RES=$(mktemp -d)
+            (
+              cd "$RES" && git init -q
+              git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+              git fetch -q --depth 1 origin results && git checkout -q -B results FETCH_HEAD
+              mkdir -p research/foreign
+              cp "$GITHUB_WORKSPACE"/reports/foreign/* research/foreign/
+              git add -A research/foreign
+              git commit -q -m "Foreign exchanges study (run ${GITHUB_RUN_ID})" || exit 0
+              git push -q origin results
+            ) && break
+            sleep $((attempt * 5))
+          done

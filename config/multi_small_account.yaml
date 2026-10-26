@@ -1,0 +1,27 @@
+# Multi-strategy $10,000 account: the stock book (as config/small_account.yaml)
+# plus ETF sleeves (qtrade/portfolio/sleeves.py), half the capital each.
+#     python -m qtrade --config config/multi_small_account.yaml paper          # dry run
+#     python -m qtrade --config config/multi_small_account.yaml paper --send   # paper orders
+# To make the scheduled paper trader use it, set the repository variable
+# QTRADE_CONFIG = config/multi_small_account.yaml.
+portfolio:
+  max_names: 60
+  n_neutral_factors: 3
+  whole_shares: true
+  max_gross: 2.0           # stock book gross, on its half of the capital
+costs:
+  aum: 5000                # the stock book trades $5k of the $10k
+  slippage_bps: 1.5
+  spread_tiers:
+  - [0.0, 0.0]
+live:
+  max_capital: 10000
+  min_order_value: 25
+multi:
+  enabled: true
+  etf_fraction: 0.5
+  # the 30-ETF trend sleeve needs more capital than $5k for whole shares
+  sleeves: [spy_vol_managed, cross_asset_mom, spy_ma200, risk_parity, spy_tsmom_12m, spy_turn_of_month,
+            multi_asset_trend]
+  target_vol: 0.10
+  max_gross: 1.5
